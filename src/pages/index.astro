@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import quotes from "../data/quotes.json";
+import { guides } from "../data/guides";
 
 const featured = quotes[0];
 const compactQuotes = quotes
@@ -85,11 +86,21 @@ const featuredThemes = [
     description: "Character perfected by habit toward the good.",
   },
 ];
+const featuredGuides = guides.filter((guide) =>
+  [
+    "what-is-philosophy",
+    "philosophy-of-ai",
+    "history-of-philosophy",
+    "philosophy-of-science",
+    "chinese-philosophy",
+    "philosophy-degree",
+  ].includes(guide.slug),
+);
 ---
 
 <BaseLayout
-  title="Philosophy Blind Box | Random Philosophy Quotes"
-  description="A curated archive of English philosophy quotations from East and West. Each visit presents one passage at random."
+  title="What Is Philosophy? Quotes, Thinkers & Guides | Philosophy Blind Box"
+  description="Explore what philosophy is through clear guides, verified English quotations, thinkers, and themes from traditions around the world."
   schema={schema}
 >
   <div class="page-shell">
@@ -198,6 +209,25 @@ const featuredThemes = [
           ))
         }
       </ol>
+    </section>
+
+    <section class="guides-section" aria-labelledby="guides-title">
+      <div class="section-intro">
+        <p class="section-label">Start with a question</p>
+        <h2 id="guides-title">Guides to philosophical inquiry</h2>
+      </div>
+      <div class="guide-card-grid">
+        {
+          featuredGuides.map((guide) => (
+            <a href={`/${guide.slug}`} class="guide-card">
+              <span>{guide.eyebrow}</span>
+              <h3>{guide.title}</h3>
+              <p>{guide.intro}</p>
+              <i>Read guide</i>
+            </a>
+          ))
+        }
+      </div>
     </section>
 
     <section class="closing-note" aria-label="Closing note">

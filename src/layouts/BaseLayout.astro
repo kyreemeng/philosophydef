@@ -25,6 +25,7 @@ const path = Astro.url.pathname.replace(/\.html$/, "").replace(/\/$/, "") || "/"
 const canonicalUrl = new URL(canonical, Astro.site);
 const imageUrl = new URL(image, Astro.site);
 const navItems = [
+  { href: "/what-is-philosophy", label: "Guides", match: "/what-is-philosophy" },
   { href: "/quotes", label: "Quotes", match: "/quotes" },
   { href: "/thinkers", label: "Thinkers", match: "/thinkers" },
   { href: "/themes", label: "Themes", match: "/themes" },
@@ -122,6 +123,7 @@ const defaultSchema = {
           <p>A curated archive of English philosophy quotations.</p>
         </div>
         <nav class="footer-links" aria-label="Footer navigation">
+          <a href="/what-is-philosophy">Philosophy guides</a>
           <a href="/quotes">Browse the archive</a>
           <a href="/about">About this archive</a>
           <a href="/sitemap-index.xml">Sitemap</a>

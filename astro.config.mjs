@@ -2,7 +2,7 @@ import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: "https://philosophy.page",
+  site: "https://philosophydef.com",
   output: "static",
   trailingSlash: "never",
   compressHTML: true,

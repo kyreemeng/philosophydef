@@ -1,0 +1,125 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import quotes from "../data/quotes.json";
+import { guides } from "../data/guides";
+
+export function getStaticPaths() {
+  return guides.map((guide) => ({
+    params: { slug: guide.slug },
+    props: { guide },
+  }));
+}
+
+const { guide } = Astro.props;
+const pageUrl = `/${guide.slug}`;
+const featuredQuotes = quotes
+  .filter((quote) => guide.thinkers.includes(quote.author))
+  .slice(0, 3);
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: guide.title,
+    description: guide.description,
+    mainEntityOfPage: new URL(pageUrl, Astro.site),
+    inLanguage: "en",
+    author: {
+      "@type": "Organization",
+      name: "Philosophy Blind Box",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Philosophy Blind Box",
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: new URL("/", Astro.site),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: guide.title,
+        item: new URL(pageUrl, Astro.site),
+      },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={`${guide.title} | Philosophy Blind Box`}
+  description={guide.description}
+  canonical={pageUrl}
+  type="article"
+  schema={schema}
+>
+  <article class="page-shell guide">
+    <header class="page-intro guide-intro">
+      <p class="eyebrow">{guide.eyebrow}</p>
+      <h1>{guide.title}</h1>
+      <p>{guide.intro}</p>
+    </header>
+
+    <div class="guide-layout">
+      <aside class="guide-aside" aria-label="On this page">
+        <p>On this page</p>
+        <ol>
+          {
+            guide.sections.map((section, index) => (
+              <li><a href={`#section-${index + 1}`}>{section.heading}</a></li>
+            ))
+          }
+        </ol>
+      </aside>
+
+      <div class="guide-content">
+        <section class="guide-answer" aria-label="Short answer">
+          <h2>Short answer</h2>
+          <p>{guide.answer}</p>
+        </section>
+
+        {
+          guide.sections.map((section, index) => (
+            <section id={`section-${index + 1}`}>
+              <h2>{section.heading}</h2>
+              {section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+            </section>
+          ))
+        }
+
+        {
+          featuredQuotes.length > 0 && (
+            <section class="guide-quotes" aria-labelledby="related-quotations">
+              <p class="eyebrow">From the archive</p>
+              <h2 id="related-quotations">Read alongside this guide</h2>
+              <div>
+                {featuredQuotes.map((quote) => (
+                  <blockquote>
+                    <p>“{quote.text}”</p>
+                    <footer>
+                      <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
+                    </footer>
+                  </blockquote>
+                ))}
+              </div>
+            </section>
+          )
+        }
+
+        <nav class="guide-related" aria-label="Related guides">
+          <p class="eyebrow">Continue exploring</p>
+          <ul>
+            {guide.related.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </article>
+</BaseLayout>

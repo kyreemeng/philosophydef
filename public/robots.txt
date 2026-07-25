@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://philosophy.page/sitemap-index.xml
+Sitemap: https://philosophydef.com/sitemap-index.xml
