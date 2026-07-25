@@ -12,7 +12,7 @@ export type SchoolPage = {
   overview: string;
   history: string;
   ideas: string[];
-  match: (school: string) => boolean;
+  match: (school: string, author: string) => boolean;
   faq: { question: string; answer: string }[];
 };
 
@@ -35,7 +35,7 @@ export const schools: SchoolPage[] = [
       "Live according to nature—human nature as rational and social.",
       "Practice: examine impressions before assenting to them.",
     ],
-    match: (school) => /stoic/i.test(school),
+    match: (schoolLabel) => /stoic/i.test(schoolLabel),
     faq: [
       {
         question: "What is Stoicism in simple terms?",
@@ -72,9 +72,14 @@ export const schools: SchoolPage[] = [
       "Meaning may be created, discovered, or confronted as absurd.",
       "Concrete situations matter more than empty abstractions.",
     ],
-    match: (school) =>
-      /existential|absurd|proto-existential/i.test(school) ||
-      /sartre|beauvoir|camus|kierkegaard/i.test(school),
+    match: (schoolLabel, author) =>
+      /existential|absurd|proto-existential/i.test(schoolLabel) ||
+      [
+        "Jean-Paul Sartre",
+        "Simone de Beauvoir",
+        "Albert Camus",
+        "Søren Kierkegaard",
+      ].includes(author),
     faq: [
       {
         question: "What is existentialism?",
@@ -111,7 +116,7 @@ export const schools: SchoolPage[] = [
       "Family and political roles are moral arenas.",
       "Debate continues on whether nature is good (Mencius) or needs shaping (Xunzi).",
     ],
-    match: (school) => /confucian|neo-confucian/i.test(school),
+    match: (schoolLabel) => /confucian|neo-confucian/i.test(schoolLabel),
     faq: [
       {
         question: "What is Confucianism?",
@@ -130,6 +135,162 @@ export const schools: SchoolPage[] = [
       },
     ],
   },
+  {
+    slug: "daoism",
+    name: "Daoism",
+    title: "Daoist Quotes & Daoism",
+    description:
+      "Daoism explained: the Dao, wuwei, and naturalness—with quotes from Laozi, Zhuangzi, and related Chinese thought.",
+    intro:
+      "Daoism (Taoism) names philosophical and religious currents oriented to the Dao—the Way—often emphasizing naturalness, transformation, and non-coercive action.",
+    overview:
+      "The Daodejing and Zhuangzi are foundational philosophical texts. Themes include wuwei (non-forcing action), critique of rigid naming, soft power, and perspectival freedom. Religious Daoism develops parallel practices; this page focuses on philosophical quotations in the archive.",
+    history:
+      "Classical Daoist texts take shape in the Warring States period; later commentary and religious movements expand the tradition across East Asia and into global translation.",
+    ideas: [
+      "Align with the Dao rather than forcing outcomes.",
+      "Softness and flexibility can overcome rigidity.",
+      "Fixed distinctions and names can distort living reality.",
+      "Skillful spontaneity emerges from practiced attunement.",
+    ],
+    match: (schoolLabel) => /daoism|taoism/i.test(schoolLabel),
+    faq: [
+      {
+        question: "What is Daoism?",
+        answer:
+          "It is a family of Chinese traditions centered on the Dao, naturalness, and often wuwei—acting without forcing.",
+      },
+      {
+        question: "Who are the main Daoist philosophers?",
+        answer:
+          "Laozi and Zhuangzi are the most-read philosophical figures in English, though the textual history is complex.",
+      },
+      {
+        question: "Where can I find Daoist quotes?",
+        answer:
+          "Browse the verified English passages below and the thinker pages for Laozi and Zhuangzi.",
+      },
+    ],
+  },
+  {
+    slug: "rationalism",
+    name: "Rationalism",
+    title: "Rationalism in Philosophy",
+    description:
+      "Rationalism explained: reason, innate ideas, and certainty—with quotes from Descartes, Spinoza, Leibniz, and related thinkers.",
+    intro:
+      "Rationalism holds that reason plays a primary role in knowledge—often defending a priori insight against pure empiricism.",
+    overview:
+      "Early modern rationalists such as Descartes, Spinoza, and Leibniz built metaphysical systems from clear and distinct ideas or necessary truths. The label is comparative: few thinkers deny experience entirely, but they deny that all knowledge reduces to sensory impressions.",
+    history:
+      "Seventeenth-century continental rationalism responds to skepticism and scientific change; later Idealism and analytic a priori debates continue related arguments.",
+    ideas: [
+      "Some truths are knowable by reason independent of particular sensory episodes.",
+      "Mathematics and logic model secure knowledge.",
+      "Metaphysics can be systematic and demonstrative.",
+      "Clear and distinct ideas (or sufficient reason) guide inquiry.",
+    ],
+    match: (schoolLabel, author) =>
+      /rationalism/i.test(schoolLabel) ||
+      ["René Descartes", "Baruch Spinoza", "Gottfried Wilhelm Leibniz"].includes(
+        author,
+      ),
+    faq: [
+      {
+        question: "What is rationalism in philosophy?",
+        answer:
+          "It is the view that reason is a primary source of knowledge, often including a priori truths.",
+      },
+      {
+        question: "Who are famous rationalists?",
+        answer:
+          "Descartes, Spinoza, and Leibniz are the classic early modern trio.",
+      },
+      {
+        question: "Where are rationalism quotes?",
+        answer:
+          "This page gathers related English passages from the archive’s rationalist labels.",
+      },
+    ],
+  },
+  {
+    slug: "empiricism",
+    name: "Empiricism",
+    title: "Empiricism in Philosophy",
+    description:
+      "Empiricism explained: experience, ideas, and evidence—with quotes from Locke, Berkeley, Hume, and related thinkers.",
+    intro:
+      "Empiricism treats experience as the primary source of ideas and the test of knowledge claims about the world.",
+    overview:
+      "British empiricists such as Locke, Berkeley, and Hume analyze how sensation and reflection generate ideas, and how far certainty extends. Empiricism shapes philosophy of science and everyday standards of evidence.",
+    history:
+      "Early modern empiricism debates innate ideas and causation; later logical empiricism and contemporary naturalistic epistemology continue the lineage in new forms.",
+    ideas: [
+      "Ideas derive from experience.",
+      "Claims about the world require empirical credentials.",
+      "Skepticism about metaphysics beyond experience is a standing option.",
+      "Science exemplifies disciplined experiential inquiry.",
+    ],
+    match: (schoolLabel, author) =>
+      /empiricism/i.test(schoolLabel) ||
+      ["John Locke", "George Berkeley", "David Hume"].includes(author),
+    faq: [
+      {
+        question: "What is empiricism?",
+        answer:
+          "It is the view that experience is the primary source of knowledge about the world.",
+      },
+      {
+        question: "Who are the main empiricists?",
+        answer:
+          "Locke, Berkeley, and Hume are the classic early modern figures.",
+      },
+      {
+        question: "Where can I read empiricism quotes?",
+        answer:
+          "Browse the verified English passages linked from this school page.",
+      },
+    ],
+  },
+  {
+    slug: "pragmatism",
+    name: "Pragmatism",
+    title: "Pragmatism Quotes & Philosophy",
+    description:
+      "Pragmatism explained: truth, inquiry, and practical consequences—with quotes from Peirce, James, Dewey, and related thinkers.",
+    intro:
+      "Pragmatism treats meaning and truth in relation to practical consequences and the self-correcting practice of inquiry.",
+    overview:
+      "Peirce, James, and Dewey developed overlapping but distinct pragmatisms: clarification of concepts by conceivable effects, truth as workable belief under inquiry, and democracy as experimental associated living.",
+    history:
+      "Classical American pragmatism emerges in the late nineteenth century and influences education, law, religion, and contemporary neo-pragmatism.",
+    ideas: [
+      "Clarify ideas by their practical bearings.",
+      "Inquiry aims at truth as the ideal end of investigation.",
+      "Experience is experimental and revisable.",
+      "Democracy and education are laboratories of growth.",
+    ],
+    match: (schoolLabel, author) =>
+      /pragmatism|semiotics/i.test(schoolLabel) ||
+      ["Charles Sanders Peirce", "William James", "John Dewey"].includes(author),
+    faq: [
+      {
+        question: "What is pragmatism in philosophy?",
+        answer:
+          "It is a family of views linking meaning, truth, and knowledge to practical consequences and inquiry.",
+      },
+      {
+        question: "Who founded pragmatism?",
+        answer:
+          "Charles Sanders Peirce coined key formulations; William James and John Dewey developed highly influential versions.",
+      },
+      {
+        question: "Where are pragmatism quotes?",
+        answer:
+          "See the English passages below and thinker pages for Peirce, James, and Dewey.",
+      },
+    ],
+  },
 ];
 
 export function getStaticPaths() {
@@ -141,7 +302,9 @@ export function getStaticPaths() {
 
 const { school } = Astro.props;
 const pageUrl = `/schools/${school.slug}`;
-const schoolQuotes = quotes.filter((quote) => school.match(quote.school));
+const schoolQuotes = quotes.filter((quote) =>
+  school.match(quote.school, quote.author),
+);
 const thinkers = [...new Set(schoolQuotes.map((quote) => quote.author))];
 
 const schema = [

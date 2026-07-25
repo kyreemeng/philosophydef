@@ -1,17 +1,64 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
+const schools = [
+  {
+    href: "/schools/stoicism",
+    name: "Stoicism",
+    blurb: "Virtue, nature, and the discipline of judgment.",
+    thinkers: "Seneca · Epictetus · Marcus",
+  },
+  {
+    href: "/schools/existentialism",
+    name: "Existentialism",
+    blurb: "Freedom, responsibility, absurdity, and authentic choice.",
+    thinkers: "Sartre · Beauvoir · Camus",
+  },
+  {
+    href: "/schools/confucianism",
+    name: "Confucianism",
+    blurb: "Humaneness, ritual, learning, and cultivated roles.",
+    thinkers: "Confucius · Mencius · Xunzi",
+  },
+  {
+    href: "/schools/daoism",
+    name: "Daoism",
+    blurb: "The Dao, wuwei, and naturalness without forced order.",
+    thinkers: "Laozi · Zhuangzi",
+  },
+  {
+    href: "/schools/rationalism",
+    name: "Rationalism",
+    blurb: "Reason, a priori insight, and systematic metaphysics.",
+    thinkers: "Descartes · Spinoza · Leibniz",
+  },
+  {
+    href: "/schools/empiricism",
+    name: "Empiricism",
+    blurb: "Experience as the primary source of ideas and evidence.",
+    thinkers: "Locke · Berkeley · Hume",
+  },
+  {
+    href: "/schools/pragmatism",
+    name: "Pragmatism",
+    blurb: "Meaning, truth, and inquiry tied to practical consequences.",
+    thinkers: "Peirce · James · Dewey",
+  },
+];
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "Philosophy Schools",
-  description: "Browse philosophy by school: Stoicism, Existentialism, Confucianism, and more.",
+  description:
+    "Browse philosophy by school: Stoicism, Existentialism, Confucianism, Daoism, Rationalism, Empiricism, and Pragmatism.",
+  numberOfItems: schools.length,
 };
 ---
 
 <BaseLayout
-  title="Philosophy Schools | Stoicism, Existentialism, Confucianism"
-  description="Explore philosophy schools with verified English quotes—Stoicism, Existentialism, Confucianism, and related traditions."
+  title="Philosophy Schools | Stoicism, Daoism, Pragmatism & More"
+  description="Explore philosophy schools with verified English quotes—Stoicism, Existentialism, Confucianism, Daoism, Rationalism, Empiricism, and Pragmatism."
   canonical="/schools"
   schema={schema}
 >
@@ -21,27 +68,19 @@ const schema = {
       <p>Enter through a tradition, then follow thinkers and themes.</p>
     </header>
     <div class="theme-directory">
-      <article class="directory-row">
-        <div>
-          <h2><a href="/schools/stoicism">Stoicism</a></h2>
-          <p>Virtue, nature, and the discipline of judgment.</p>
-        </div>
-        <p>Seneca · Epictetus · Marcus</p>
-      </article>
-      <article class="directory-row">
-        <div>
-          <h2><a href="/schools/existentialism">Existentialism</a></h2>
-          <p>Freedom, responsibility, absurdity, and authentic choice.</p>
-        </div>
-        <p>Sartre · Beauvoir · Camus</p>
-      </article>
-      <article class="directory-row">
-        <div>
-          <h2><a href="/schools/confucianism">Confucianism</a></h2>
-          <p>Humaneness, ritual, learning, and cultivated roles.</p>
-        </div>
-        <p>Confucius · Mencius · Xunzi</p>
-      </article>
+      {
+        schools.map((school) => (
+          <article class="directory-row">
+            <div>
+              <h2>
+                <a href={school.href}>{school.name}</a>
+              </h2>
+              <p>{school.blurb}</p>
+            </div>
+            <p>{school.thinkers}</p>
+          </article>
+        ))
+      }
     </div>
   </div>
 </BaseLayout>

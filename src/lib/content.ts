@@ -98,8 +98,15 @@ export function truncateWords(text: string, maxWords: number) {
 }
 
 export function quoteTitle(quote: Quote) {
-  const snippet = truncateWords(quote.text, 12);
-  return `“${snippet}” — ${quote.author} | Philosophy Blind Box`;
+  const snippet = truncateWords(quote.text, 15);
+  const sharesOpening = quotes.some(
+    (other) =>
+      other.id !== quote.id &&
+      other.author === quote.author &&
+      truncateWords(other.text, 15) === snippet,
+  );
+  const who = sharesOpening ? `${quote.author} (${quote.id})` : quote.author;
+  return `“${snippet}” — ${who} | Philosophy Blind Box`;
 }
 
 export function quoteDescription(quote: Quote) {

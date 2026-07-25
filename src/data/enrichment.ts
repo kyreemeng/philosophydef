@@ -273,6 +273,531 @@ export const themeGuides: Record<string, ThemeGuide> = {
       },
     ],
   },
+  Nature: {
+    intro:
+      "Philosophy quotes about nature ask what the cosmos is, how humans belong in it, and whether “natural” can guide ethics or politics.",
+    overview:
+      "Nature may mean physical cosmos, living world, human nature, or a normative standard of what ought to be. Presocratics, Daoists, Stoics, and modern environmental thinkers share the word while disagreeing about its force.",
+    history:
+      "From Greek physis and Chinese ziran to Rousseau’s state of nature and contemporary ecology, the theme links metaphysics, ethics, and politics.",
+    faq: [
+      {
+        question: "What do philosophers mean by nature?",
+        answer:
+          "They may mean the physical world, human dispositions, or a standard of right order—contexts decide which sense is in play.",
+      },
+      {
+        question: "Is living according to nature a Stoic idea?",
+        answer:
+          "Yes. Stoicism treats living in agreement with nature—as rational and social—as the ethical end, though “nature” is richly defined.",
+      },
+      {
+        question: "Where are philosophy quotes about nature?",
+        answer:
+          "This theme page gathers verified English passages on cosmos, life, and natural order.",
+      },
+    ],
+  },
+  Morality: {
+    intro:
+      "Morality in philosophy concerns right and wrong, obligation, and the standards by which we judge persons and acts.",
+    overview:
+      "Moral philosophy asks whether morality is objective, how reasons bind us, and how character, rules, and consequences relate. Traditions differ on whether duty, virtue, or outcomes come first.",
+    history:
+      "From Confucian and Greek virtue vocabularies to Kantian duty, utilitarianism, and critiques of moral ideology, the theme remains central to public life.",
+    faq: [
+      {
+        question: "What is morality in philosophy?",
+        answer:
+          "It is the domain of norms about right action, good character, and what we owe one another—studied systematically in ethics.",
+      },
+      {
+        question: "How is morality different from ethics?",
+        answer:
+          "In everyday speech they overlap; academically, ethics often names the philosophical study of moral practices and concepts.",
+      },
+      {
+        question: "Where can I find philosophy quotes about morality?",
+        answer:
+          "Browse the passages below, then related themes such as virtue, responsibility, and justice.",
+      },
+    ],
+  },
+  Practice: {
+    intro:
+      "Practice is where thought becomes habit: philosophy as a way of living, training, and repeated action.",
+    overview:
+      "Many traditions insist that understanding without practice is incomplete—Stoic exercises, Confucian self-cultivation, Buddhist path, and pragmatist inquiry all treat doing as epistemic.",
+    history:
+      "Hadot’s reading of ancient philosophy as spiritual exercise revived attention to practice; East Asian and pragmatist sources never separated it from theory as sharply as some modern academics did.",
+    faq: [
+      {
+        question: "What is philosophical practice?",
+        answer:
+          "It is the disciplined application of ideas in daily judgment, habit, and conduct—not only the writing of theory.",
+      },
+      {
+        question: "Which schools emphasize practice?",
+        answer:
+          "Stoicism, Confucianism, Buddhism, and pragmatism are especially explicit, though most ethics implies practice.",
+      },
+      {
+        question: "Where are quotes on practice?",
+        answer:
+          "This page collects English passages on habit, exercise, and the unity of knowing and doing.",
+      },
+    ],
+  },
+  Responsibility: {
+    intro:
+      "Responsibility asks what we answer for—our choices, omissions, institutions, and the futures we help create.",
+    overview:
+      "Philosophical debates cover free will, blame, collective responsibility, and duties to distant others. Technology and AI revive the question of who is accountable when systems act.",
+    history:
+      "From legal and theological notions of guilt to existential ownership of freedom and contemporary ethics of care, responsibility links agency to moral address.",
+    faq: [
+      {
+        question: "What is responsibility in philosophy?",
+        answer:
+          "It is the condition of being answerable for actions, attitudes, or outcomes under norms of praise, blame, or repair.",
+      },
+      {
+        question: "Can groups be responsible?",
+        answer:
+          "Many philosophers argue yes—corporations, states, and movements can bear duties beyond any single member.",
+      },
+      {
+        question: "Where are philosophy quotes about responsibility?",
+        answer:
+          "See the verified English passages on this theme page and related pages on freedom and action.",
+      },
+    ],
+  },
+  Time: {
+    intro:
+      "Philosophy of time asks what tense and duration are—and how memory, death, and history shape a human life.",
+    overview:
+      "Is time a river, a dimension, or a structure of consciousness? Augustine, Bergson, and modern metaphysics offer rival pictures while ethics asks how finite time should be spent.",
+    history:
+      "Ancient cosmologies, medieval theology, phenomenology of lived time, and physics-informed metaphysics keep the theme open.",
+    faq: [
+      {
+        question: "What do philosophers say about time?",
+        answer:
+          "They debate whether time is objective or mind-dependent, how past and future exist, and what temporal finitude means for value.",
+      },
+      {
+        question: "Who wrote famous lines about time?",
+        answer:
+          "Augustine, Marcus Aurelius, Bergson, and many poets-philosophers appear in this archive’s English renderings.",
+      },
+      {
+        question: "Where are philosophy quotes about time?",
+        answer:
+          "This theme gathers passages on duration, memory, and the present.",
+      },
+    ],
+  },
+  Happiness: {
+    intro:
+      "Happiness—or flourishing—is a central aim in ethics: what makes a life go well, and whether pleasure alone is enough.",
+    overview:
+      "Greek eudaimonia, Buddhist analyses of craving, utilitarian happiness, and modern well-being research all contest the meaning of a good life.",
+    history:
+      "Aristotle, Epicurus, the Stoics, and Confucian flourishing ideals remain primary references; later utilitarianism reframed happiness as aggregable preference or pleasure.",
+    faq: [
+      {
+        question: "What is happiness in philosophy?",
+        answer:
+          "It may mean pleasure, desire satisfaction, or eudaimonic flourishing through virtue and meaningful activity.",
+      },
+      {
+        question: "Is happiness the same as pleasure?",
+        answer:
+          "Not for most virtue ethicists; pleasure can be part of a good life without exhausting it.",
+      },
+      {
+        question: "Where are philosophy quotes about happiness?",
+        answer:
+          "Browse this theme, then related pages on life, virtue, and desire.",
+      },
+    ],
+  },
+  Truth: {
+    intro:
+      "Truth is among philosophy’s oldest problems: what it is for a claim to be true, and how truth relates to belief, language, and power.",
+    overview:
+      "Correspondence, coherence, pragmatist, and deflationary theories compete. Ethics and politics ask who gets to define truth in public life.",
+    history:
+      "From Plato and Aristotle through medieval adequation, modern epistemology, and Nietzschean suspicion, truth remains both ideal and contested.",
+    faq: [
+      {
+        question: "What is truth in philosophy?",
+        answer:
+          "A leading idea is that truth is what our statements must track about reality—though theories disagree on the details.",
+      },
+      {
+        question: "Is truth relative?",
+        answer:
+          "Some views relativize truth to frameworks or cultures; others defend objectivity while admitting fallibility.",
+      },
+      {
+        question: "Where are philosophy quotes about truth?",
+        answer:
+          "This page collects verified English passages on truth, appearance, and honesty in inquiry.",
+      },
+    ],
+  },
+  Justice: {
+    intro:
+      "Justice concerns fairness, rights, desert, and the arrangement of institutions that claim to treat people as equals.",
+    overview:
+      "Distributive, retributive, and restorative justice name different problems. Political philosophy asks what a just society owes its members and outsiders.",
+    history:
+      "Plato’s Republic, Confucian rightful rule, social-contract theories, and contemporary egalitarian debates structure the field.",
+    faq: [
+      {
+        question: "What is justice in philosophy?",
+        answer:
+          "It is the virtue and institutional standard of giving each their due—though “due” is endlessly debated.",
+      },
+      {
+        question: "What are the types of justice?",
+        answer:
+          "Common distinctions include distributive, procedural, retributive, and restorative justice.",
+      },
+      {
+        question: "Where are philosophy quotes about justice?",
+        answer:
+          "Browse this theme and related pages on politics, power, and morality.",
+      },
+    ],
+  },
+  Courage: {
+    intro:
+      "Courage is the virtue of facing fear without abandoning judgment—central to ethics from Aristotle to modern existential resolve.",
+    overview:
+      "Philosophers ask whether courage is fearlessness or right action amid fear, and how it relates to recklessness, endurance, and moral courage in public life.",
+    history:
+      "Greek andreia, Confucian and martial ethics, Stoic endurance, and civil-disobedience traditions all refine the concept.",
+    faq: [
+      {
+        question: "What is courage in philosophy?",
+        answer:
+          "Typically a mean between cowardice and rashness: persevering for worthy ends despite fear.",
+      },
+      {
+        question: "Is moral courage different from physical courage?",
+        answer:
+          "Many ethicists distinguish facing bodily danger from risking status, career, or approval for a principle.",
+      },
+      {
+        question: "Where are philosophy quotes about courage?",
+        answer:
+          "This theme gathers English passages on bravery, fear, and steadfastness.",
+      },
+    ],
+  },
+  Beauty: {
+    intro:
+      "Beauty raises questions about judgment, form, pleasure, and whether aesthetic value is subjective or shares standards.",
+    overview:
+      "Aesthetics asks what beauty is, how taste is educated, and how art discloses truth or shapes moral perception.",
+    history:
+      "Plato, Kant, Schiller, and Chinese aesthetic traditions offer distinct routes from beauty to ethics and metaphysics.",
+    faq: [
+      {
+        question: "What is beauty according to philosophy?",
+        answer:
+          "Answers range from harmony and form to disinterested pleasure or culturally trained perception.",
+      },
+      {
+        question: "Is beauty subjective?",
+        answer:
+          "Many theories allow both personal response and intersubjective standards of criticism.",
+      },
+      {
+        question: "Where are philosophy quotes about beauty?",
+        answer:
+          "See the passages below and related themes on art and experience.",
+      },
+    ],
+  },
+  Mind: {
+    intro:
+      "Philosophy of mind asks what consciousness, thought, and mental life are—and how they relate to body and world.",
+    overview:
+      "Dualism, materialism, functionalism, and phenomenological descriptions compete. AI renews old questions about understanding and experience.",
+    history:
+      "From Aristotle’s psyche and Buddhist analyses of mind to Descartes, Wittgenstein, and cognitive science, the theme spans metaphysics and epistemology.",
+    faq: [
+      {
+        question: "What is the mind in philosophy?",
+        answer:
+          "It names the locus of thought, feeling, and consciousness—whether as soul, brain process, or patterned activity.",
+      },
+      {
+        question: "Can machines have minds?",
+        answer:
+          "That depends on what mind requires: behavior, information processing, or subjective experience. The debate remains open.",
+      },
+      {
+        question: "Where are philosophy quotes about mind?",
+        answer:
+          "This theme collects English passages on thought, awareness, and inner life.",
+      },
+    ],
+  },
+  Learning: {
+    intro:
+      "Learning is philosophy’s practical twin: how judgment is formed through study, error, dialogue, and habit.",
+    overview:
+      "Education is not only information transfer; it is the shaping of attention and character. Confucian learning, Socratic midwifery, and Deweyan growth offer rival models.",
+    history:
+      "Academies, monasteries, universities, and modern schooling all encode philosophies of learning—often silently.",
+    faq: [
+      {
+        question: "What do philosophers say about learning?",
+        answer:
+          "They treat learning as cultivation of reason and character, not merely accumulation of facts.",
+      },
+      {
+        question: "Who emphasizes learning most?",
+        answer:
+          "Confucius, Plato, Dewey, and many Stoic teachers make education central to the good life.",
+      },
+      {
+        question: "Where are philosophy quotes about learning?",
+        answer:
+          "Browse this theme and the philosophy of education guide.",
+      },
+    ],
+  },
+  Desire: {
+    intro:
+      "Desire drives action and suffering alike; philosophy asks which desires to educate, restrain, or affirm.",
+    overview:
+      "Ethics and moral psychology analyze appetite, love, ambition, and addiction. Stoic, Buddhist, and psychoanalytic traditions treat desire as trainable rather than merely given.",
+    history:
+      "From Plato’s tripartite soul to Spinoza’s conatus and modern consumer critique, desire remains a hinge between metaphysics and ethics.",
+    faq: [
+      {
+        question: "What is desire in philosophy?",
+        answer:
+          "It is a directed wanting that can motivate action—evaluated as natural, distorted, or educable depending on the school.",
+      },
+      {
+        question: "Should we eliminate desire?",
+        answer:
+          "Some ascetic ideals aim at quieting craving; others seek ordered or enlightened desire rather than elimination.",
+      },
+      {
+        question: "Where are philosophy quotes about desire?",
+        answer:
+          "This page gathers English passages on appetite, longing, and self-mastery.",
+      },
+    ],
+  },
+  Power: {
+    intro:
+      "Power is the capacity to affect others and to shape what counts as possible—central to politics and ethics.",
+    overview:
+      "Philosophers analyze domination, authority, freedom, and the micro-politics of everyday life. Power can enable justice or crush it.",
+    history:
+      "From classical statecraft and Legalism to modern liberalism, Marxism, and Foucaultian analysis, the theme links institutions to the soul.",
+    faq: [
+      {
+        question: "What is power in philosophy?",
+        answer:
+          "It is the ability to produce effects—especially over people—through force, authority, ideology, or structure.",
+      },
+      {
+        question: "Is power always bad?",
+        answer:
+          "No. Many theories distinguish empowering capacity from domination, and ask how power can be accountable.",
+      },
+      {
+        question: "Where are philosophy quotes about power?",
+        answer:
+          "Browse this theme and related pages on politics, freedom, and responsibility.",
+      },
+    ],
+  },
+  Order: {
+    intro:
+      "Order names cosmos, ritual, law, and the patterned stability that makes shared life possible—or oppressive.",
+    overview:
+      "Philosophers ask whether order is discovered in nature, imposed by rulers, or cultivated through custom. Chaos and creativity stand as its counterparts.",
+    history:
+      "Cosmological order, Confucian ritual order, and modern bureaucratic order show how the same word travels across metaphysics and politics.",
+    faq: [
+      {
+        question: "What is order in philosophy?",
+        answer:
+          "It can mean natural regularity, social arrangement, or moral harmony—context decides which sense is meant.",
+      },
+      {
+        question: "Is order always desirable?",
+        answer:
+          "Not if it encodes injustice; critical philosophies ask whose order and at what cost.",
+      },
+      {
+        question: "Where are philosophy quotes about order?",
+        answer:
+          "This theme collects passages on harmony, law, measure, and structure.",
+      },
+    ],
+  },
+  Society: {
+    intro:
+      "Society is the web of institutions, customs, and mutual expectations in which individual freedom takes shape.",
+    overview:
+      "Social philosophy asks how individuals and collectives constitute each other, and what justice requires of shared life.",
+    history:
+      "From classical politics and Confucian relational ethics to contract theory, sociology, and critical theory, society is both fact and project.",
+    faq: [
+      {
+        question: "What is society in philosophy?",
+        answer:
+          "It is the organized coexistence of persons through norms, institutions, and shared meanings.",
+      },
+      {
+        question: "Do individuals exist before society?",
+        answer:
+          "Some theories start from individuals; others hold that persons are formed within social relations from the start.",
+      },
+      {
+        question: "Where are philosophy quotes about society?",
+        answer:
+          "Browse this theme alongside politics, justice, and power.",
+      },
+    ],
+  },
+  Experience: {
+    intro:
+      "Experience is the lived encounter with world and self—foundation or limit for knowledge, art, and ethics.",
+    overview:
+      "Empiricists treat experience as the source of ideas; phenomenologists describe its structure; pragmatists treat it as experimental and revisable.",
+    history:
+      "From Aristotelian aisthesis to Locke, Hume, Dewey, and phenomenology, experience is a battleground for epistemology and metaphysics.",
+    faq: [
+      {
+        question: "What is experience in philosophy?",
+        answer:
+          "It is the first-person undergoing of sensations, thoughts, and situations—interpreted differently across schools.",
+      },
+      {
+        question: "Is all knowledge from experience?",
+        answer:
+          "Empiricists lean yes; rationalists and others defend a priori elements or innate structures.",
+      },
+      {
+        question: "Where are philosophy quotes about experience?",
+        answer:
+          "This page gathers English passages on perception, habit, and lived life.",
+      },
+    ],
+  },
+  Humanity: {
+    intro:
+      "Humanity names both the species and the moral quality of being humane—bridging anthropology and ethics.",
+    overview:
+      "Philosophers ask what makes humans distinctive, what we owe one another as humans, and how “humanity” can include or exclude.",
+    history:
+      "Confucian ren, Renaissance humanism, Enlightenment rights, and critiques of humanism from various directions keep the theme contested.",
+    faq: [
+      {
+        question: "What is humanity in philosophy?",
+        answer:
+          "It can mean the human species, shared capacities, or the virtue of humane regard for others.",
+      },
+      {
+        question: "Is human nature fixed?",
+        answer:
+          "Debates range from fixed essences to historical and cultural formation of human possibilities.",
+      },
+      {
+        question: "Where are philosophy quotes about humanity?",
+        answer:
+          "Browse this theme and related pages on dignity, society, and ethics.",
+      },
+    ],
+  },
+  Choice: {
+    intro:
+      "Choice is the hinge of agency: selecting among options under reasons, constraints, and uncertainty.",
+    overview:
+      "Free will, decision theory, and existential choice all ask how choosing is possible and what makes a choice one’s own.",
+    history:
+      "Aristotelian prohairesis, Stoic assent, existential commitment, and modern behavioral science offer overlapping vocabularies.",
+    faq: [
+      {
+        question: "What is choice in philosophy?",
+        answer:
+          "It is the act of selecting among alternatives, often tied to responsibility and practical reason.",
+      },
+      {
+        question: "Are we free to choose?",
+        answer:
+          "Compatibilists, libertarians, and determinists disagree; many still affirm practical responsibility.",
+      },
+      {
+        question: "Where are philosophy quotes about choice?",
+        answer:
+          "See this theme alongside freedom, action, and responsibility.",
+      },
+    ],
+  },
+  Inquiry: {
+    intro:
+      "Inquiry is the disciplined pursuit of better questions and answers—philosophy as method rather than dogma.",
+    overview:
+      "Socratic elenchus, scientific method, and pragmatist experimentalism treat inquiry as self-correcting. The ethics of inquiry asks for intellectual honesty.",
+    history:
+      "Academies, laboratories, and public debate inherit ideals of inquiry that philosophy both practices and criticizes.",
+    faq: [
+      {
+        question: "What is inquiry in philosophy?",
+        answer:
+          "It is the process of investigating questions with reasons, evidence, and willingness to revise belief.",
+      },
+      {
+        question: "How does philosophical inquiry differ from science?",
+        answer:
+          "It often targets conceptual and normative questions science presupposes, while remaining continuous with scientific curiosity.",
+      },
+      {
+        question: "Where are philosophy quotes about inquiry?",
+        answer:
+          "This theme collects passages on questioning, wonder, and the examined life.",
+      },
+    ],
+  },
+  Dignity: {
+    intro:
+      "Dignity names the worth that persons claim simply as persons—and the respect that worth demands.",
+    overview:
+      "Kantian and rights-based ethics make dignity central; other traditions speak of face, honor, or Buddha-nature. Politics asks how institutions honor or violate dignity.",
+    history:
+      "From Stoic cosmopolitanism and Confucian respect to modern human rights, dignity bridges ethics and law.",
+    faq: [
+      {
+        question: "What is dignity in philosophy?",
+        answer:
+          "It is the intrinsic or status-based worth of persons that grounds respect and limits on treatment.",
+      },
+      {
+        question: "Is dignity the same as honor?",
+        answer:
+          "Honor is often social and hierarchical; dignity is frequently claimed as equal and inalienable—though histories intertwine.",
+      },
+      {
+        question: "Where are philosophy quotes about dignity?",
+        answer:
+          "Browse this theme and related pages on humanity, justice, and morality.",
+      },
+    ],
+  },
 };
 
 export const coreThinkerGuides: Record<string, ThinkerGuide> = {
@@ -603,6 +1128,23 @@ export function defaultThinkerGuide(name: string, school: string, themes: string
     works: ["Attributed sources listed on quotation pages"],
     legacy: `Readers use ${name} as an entry point into ${school} and into cross-cultural comparison within this archive.`,
   };
+}
+
+/** Classical texts / traditions listed as “authors” in the corpus. */
+export const TEXT_TRADITION_NAMES = new Set([
+  "Bhagavad Gita",
+  "Chandogya Upanisad",
+  "Dhammapada",
+  "Diamond Sutra",
+  "Guanzi",
+  "Talmudic tradition",
+  "The Book of Changes",
+  "The Doctrine of the Mean",
+  "The Great Learning",
+]);
+
+export function isTextTradition(name: string) {
+  return TEXT_TRADITION_NAMES.has(name);
 }
 
 export function defaultThemeGuide(name: string, count: number): ThemeGuide {

@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { thinkerGroups, canonicalizeTheme, themeSlug } from "../../lib/content";
-import { thinkerGuideFor, defaultThinkerGuide } from "../../data/enrichment";
+import { thinkerGuideFor, defaultThinkerGuide, isTextTradition } from "../../data/enrichment";
 
 export function getStaticPaths() {
   return thinkerGroups().map((thinker) => ({
@@ -28,27 +28,37 @@ const topThemes = [...themeCounts.entries()]
   .sort((a, b) => b[1] - a[1])
   .slice(0, 6);
 
-const personEntity = {
-  "@type": "Person",
-  name: thinker.name,
-  ...(guide?.jobTitle ? { jobTitle: guide.jobTitle } : {}),
-  ...(guide?.birthDate ? { birthDate: guide.birthDate } : {}),
-  ...(guide?.deathDate ? { deathDate: guide.deathDate } : {}),
-  ...(guide?.knowsAbout ? { knowsAbout: guide.knowsAbout } : {}),
-  ...(guide?.school ? { affiliation: guide.school } : {}),
-};
+const asText = isTextTradition(thinker.name);
+const mainEntity = asText
+  ? {
+      "@type": "CreativeWork",
+      name: thinker.name,
+      genre: guide.school,
+      about: guide.knowsAbout,
+      inLanguage: "en",
+      description: guide.overview,
+    }
+  : {
+      "@type": "Person",
+      name: thinker.name,
+      ...(guide.jobTitle ? { jobTitle: guide.jobTitle } : {}),
+      ...(guide.birthDate ? { birthDate: guide.birthDate } : {}),
+      ...(guide.deathDate ? { deathDate: guide.deathDate } : {}),
+      ...(guide.knowsAbout ? { knowsAbout: guide.knowsAbout } : {}),
+      ...(guide.school ? { affiliation: guide.school } : {}),
+    };
 
 const schema = [
   {
     "@context": "https://schema.org",
-    "@type": "ProfilePage",
+    "@type": asText ? "CollectionPage" : "ProfilePage",
     name: `${thinker.name} Philosophy Quotes`,
     url: new URL(pageUrl, Astro.site),
-    mainEntity: personEntity,
+    mainEntity,
   },
   {
     "@context": "https://schema.org",
-    ...personEntity,
+    ...mainEntity,
   },
   {
     "@context": "https://schema.org",

@@ -21,6 +21,12 @@ export default defineConfig({
       },
       changefreq: "weekly",
       priority: 0.7,
+      serialize(item) {
+        return {
+          ...item,
+          lastmod: new Date().toISOString(),
+        };
+      },
     }),
   ],
 });
