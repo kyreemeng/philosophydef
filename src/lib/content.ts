@@ -175,7 +175,7 @@ export function thinkerThemePairs(minQuotes = 2) {
 
 export function citationFormats(quote: Quote) {
   const year = "n.d.";
-  const url = `https://philosophydef.com/quotes/${quote.id.toLowerCase()}`;
+  const url = `https://www.philosophydef.com/quotes/${quote.id.toLowerCase()}`;
   return {
     apa: `${quote.author}. (${year}). ${quote.text} In Philosophy Blind Box. ${url}`,
     mla: `${quote.author}. “${truncateWords(quote.text, 8)}.” Philosophy Blind Box, ${url}.`,

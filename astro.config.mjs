@@ -5,7 +5,7 @@ import { themeRedirects } from "./src/lib/content.ts";
 const redirects = themeRedirects();
 
 export default defineConfig({
-  site: "https://philosophydef.com",
+  site: "https://www.philosophydef.com",
   output: "static",
   trailingSlash: "never",
   compressHTML: true,

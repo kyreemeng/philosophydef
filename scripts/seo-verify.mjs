@@ -8,7 +8,7 @@
  * Usage: node scripts/seo-verify.mjs [baseUrl]
  */
 
-const baseUrl = (process.argv[2] || "https://philosophydef.com").replace(/\/$/, "");
+const baseUrl = (process.argv[2] || "https://www.philosophydef.com").replace(/\/$/, "");
 
 const checks = [
   { path: "/", expectTypes: ["WebSite"] },
