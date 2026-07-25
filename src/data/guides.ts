@@ -607,8 +607,610 @@ export const guides: Guide[] = [
       { href: "/doctor-of-philosophy", label: "Doctor of Philosophy (PhD)" },
       { href: "/philosophy-of-education", label: "Philosophy of education" },
       { href: "/themes/learning", label: "Quotes on learning" },
+      { href: "/how-to-study-philosophy", label: "How to study philosophy" },
     ],
     thinkers: ["Socrates", "John Dewey", "Hannah Arendt"],
+  },
+  {
+    slug: "branches-of-philosophy",
+    title: "Branches of Philosophy",
+    description:
+      "The main branches of philosophy explained: metaphysics, epistemology, ethics, logic, and political philosophy—with related specializations.",
+    eyebrow: "Map of the field",
+    intro:
+      "Philosophy is often mapped into core branches—metaphysics, epistemology, ethics, and logic—plus political philosophy and many specialized fields.",
+    answer:
+      "A practical map: metaphysics asks what reality is like; epistemology asks what knowledge is; ethics asks how we ought to live; logic studies valid reasoning; political philosophy asks how power and institutions should be arranged.",
+    sections: [
+      {
+        heading: "The four classical cores",
+        paragraphs: [
+          "Metaphysics (including ontology) studies being, causation, time, mind, and what kinds of things exist. Epistemology studies knowledge, justification, perception, and testimony. Ethics studies value, right action, and the good life. Logic studies inference—what follows from what.",
+          "These cores overlap. Philosophy of science asks metaphysical and epistemic questions together; philosophy of mind joins metaphysics of consciousness to epistemology of self-knowledge.",
+        ],
+      },
+      {
+        heading: "Political and social philosophy",
+        paragraphs: [
+          "Political philosophy examines justice, rights, authority, freedom, and the legitimacy of states. It is sometimes listed beside the four cores because civic life continually forces philosophical choices about coercion and cooperation.",
+        ],
+      },
+      {
+        heading: "Specialized branches",
+        paragraphs: [
+          "Further fields include philosophy of language, mind, religion, art, law, education, history, technology, and artificial intelligence. Comparative philosophy studies these questions across traditions without assuming a single center.",
+        ],
+      },
+      {
+        heading: "How to use the map",
+        paragraphs: [
+          "Beginners can pick one live question—What is knowledge? What is justice?—and notice which branch it primarily belongs to, then follow quotations and guides in this archive as doorways into fuller texts.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What are the main branches of philosophy?",
+        answer:
+          "Commonly: metaphysics, epistemology, ethics, and logic, often with political philosophy and many specialized areas.",
+      },
+      {
+        question: "Is aesthetics a branch of philosophy?",
+        answer:
+          "Yes. Philosophy of art and beauty is a major specialization intersecting ethics and metaphysics of value.",
+      },
+      {
+        question: "Where should a beginner start?",
+        answer:
+          "Start with ethics or a concrete question you already care about, then widen into epistemology and metaphysics as needed.",
+      },
+    ],
+    related: [
+      { href: "/what-is-epistemology", label: "What is epistemology?" },
+      { href: "/what-is-metaphysics", label: "What is metaphysics?" },
+      { href: "/what-is-ethics", label: "What is ethics?" },
+      { href: "/what-is-logic", label: "What is logic?" },
+    ],
+    thinkers: ["Aristotle", "Immanuel Kant", "Confucius"],
+  },
+  {
+    slug: "what-is-epistemology",
+    title: "What Is Epistemology?",
+    description:
+      "Epistemology explained: the philosophy of knowledge, justification, belief, evidence, and skepticism.",
+    eyebrow: "Theory of knowledge",
+    intro:
+      "Epistemology is the branch of philosophy that studies knowledge—what it is, how we get it, and how belief can be justified.",
+    answer:
+      "From Plato to contemporary analytic philosophy, epistemology asks how knowledge differs from mere opinion, what role perception and reason play, and how far skepticism should go.",
+    sections: [
+      {
+        heading: "Knowledge and justification",
+        paragraphs: [
+          "A classic starting point treats knowledge as justified true belief, refined after Gettier-style counterexamples. Debates continue about reliability, evidence, understanding, and intellectual virtues.",
+          "Sources of justification include perception, memory, introspection, reason, and testimony—each with characteristic strengths and failure modes.",
+        ],
+      },
+      {
+        heading: "Skepticism and response",
+        paragraphs: [
+          "Skeptics ask whether we can know the external world, other minds, or the future. Responses range from foundationalism and coherentism to contextualism and pragmatist accounts of inquiry.",
+        ],
+      },
+      {
+        heading: "Why epistemology matters",
+        paragraphs: [
+          "Questions about expertise, misinformation, scientific evidence, and AI outputs are epistemological before they are merely technical. Clear standards of evidence improve public and personal judgment.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is epistemology in simple terms?",
+        answer: "It is the study of knowledge and justified belief—how we know what we know.",
+      },
+      {
+        question: "How is epistemology different from psychology?",
+        answer:
+          "Psychology describes how cognition works; epistemology evaluates norms of good believing and knowing.",
+      },
+      {
+        question: "What are examples of epistemological questions?",
+        answer:
+          "Can perception justify belief? What makes testimony trustworthy? Does science give knowledge or only models?",
+      },
+    ],
+    related: [
+      { href: "/themes/knowledge", label: "Quotes on knowledge" },
+      { href: "/philosophy-of-science", label: "Philosophy of science" },
+      { href: "/branches-of-philosophy", label: "Branches of philosophy" },
+    ],
+    thinkers: ["Plato", "René Descartes", "David Hume"],
+  },
+  {
+    slug: "what-is-metaphysics",
+    title: "What Is Metaphysics?",
+    description:
+      "Metaphysics explained: being, causation, time, mind, free will, and the fundamental structure of reality.",
+    eyebrow: "First philosophy",
+    intro:
+      "Metaphysics is the philosophical study of reality’s most general features—what exists, what things are, and how they relate.",
+    answer:
+      "It asks questions that ordinary sciences presuppose: What is a cause? What is a person? Is time fundamental? Are minds material? What does it mean for something to be possible?",
+    sections: [
+      {
+        heading: "Ontology and categories",
+        paragraphs: [
+          "Ontology inventories kinds of being—objects, properties, events, numbers, minds. Metaphysicians ask whether these categories are fundamental or useful fictions.",
+        ],
+      },
+      {
+        heading: "Mind, free will, and modality",
+        paragraphs: [
+          "Modern metaphysics includes philosophy of mind, debates on free will and determinism, and theories of possibility and necessity (modality). These topics migrated into metaphysics as natural philosophy specialized.",
+        ],
+      },
+      {
+        heading: "Metaphysics across traditions",
+        paragraphs: [
+          "Greek ousia, Indian debates on self and emptiness, Islamic falsafa, and Neo-Confucian li/qi cosmologies show that metaphysical questioning is not a European monopoly—even when vocabularies differ.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is metaphysics?",
+        answer:
+          "It is inquiry into the fundamental nature of reality: being, causation, time, mind, and related concepts.",
+      },
+      {
+        question: "Is metaphysics the same as physics?",
+        answer:
+          "No. Physics studies the natural world empirically; metaphysics asks more general questions about existence and categories, sometimes informed by science.",
+      },
+      {
+        question: "Why does metaphysics matter?",
+        answer:
+          "Assumptions about persons, causation, and possibility shape ethics, law, religion, and AI debates.",
+      },
+    ],
+    related: [
+      { href: "/themes/being", label: "Quotes on being" },
+      { href: "/branches-of-philosophy", label: "Branches of philosophy" },
+      { href: "/philosophy-of-ai", label: "Philosophy of AI" },
+    ],
+    thinkers: ["Aristotle", "Baruch Spinoza", "Laozi"],
+  },
+  {
+    slug: "what-is-ethics",
+    title: "What Is Ethics?",
+    description:
+      "Ethics explained: moral philosophy of right action, virtue, consequences, and the good life.",
+    eyebrow: "Moral philosophy",
+    intro:
+      "Ethics—or moral philosophy—studies how we ought to act, what makes a life good, and how to evaluate character and institutions.",
+    answer:
+      "Major approaches include virtue ethics (character), deontology (duty and rights), and consequentialism (outcomes), alongside care ethics and many tradition-specific moral vocabularies.",
+    sections: [
+      {
+        heading: "Three families of theory",
+        paragraphs: [
+          "Virtue ethics asks what kind of person to become. Deontology asks which rules or rights constrain action. Consequentialism asks which outcomes matter and how to weigh them. Real disputes often mix these lenses.",
+        ],
+      },
+      {
+        heading: "Applied ethics",
+        paragraphs: [
+          "Bioethics, AI ethics, environmental ethics, and business ethics apply tools of moral philosophy to concrete dilemmas. Clarity about concepts—harm, consent, fairness—prevents slogan wars.",
+        ],
+      },
+      {
+        heading: "Ethics beyond the West",
+        paragraphs: [
+          "Confucian ren, Buddhist compassion, Ubuntu, and Islamic ethics offer structured moral thought that should be read as philosophy, not as exotic decoration on a European map.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is ethics in philosophy?",
+        answer:
+          "It is the study of morality: right and wrong, virtue and vice, and the values that should guide life and policy.",
+      },
+      {
+        question: "What is the difference between ethics and morality?",
+        answer:
+          "In everyday use they overlap. Academically, ethics often names the philosophical study of moral practices and concepts.",
+      },
+      {
+        question: "Where can I find ethics quotes?",
+        answer:
+          "Browse themes such as virtue, morality, responsibility, and justice in this archive.",
+      },
+    ],
+    related: [
+      { href: "/themes/virtue", label: "Quotes on virtue" },
+      { href: "/themes/morality", label: "Quotes on morality" },
+      { href: "/schools/stoicism", label: "Stoicism" },
+    ],
+    thinkers: ["Aristotle", "Immanuel Kant", "Confucius"],
+  },
+  {
+    slug: "what-is-logic",
+    title: "What Is Logic?",
+    description:
+      "Logic explained: valid inference, argument form, formal and informal reasoning in philosophy.",
+    eyebrow: "Study of reasoning",
+    intro:
+      "Logic is the systematic study of valid inference—what follows from what, and why some arguments succeed while others only persuade.",
+    answer:
+      "It ranges from formal systems (propositional and predicate logic) to informal fallacies and the logic of scientific confirmation. Logic trains precision without replacing judgment about premises.",
+    sections: [
+      {
+        heading: "Validity and soundness",
+        paragraphs: [
+          "An argument is valid when the conclusion must be true if the premises are. It is sound when valid and its premises are true. Confusing rhetorical force with validity is a common error.",
+        ],
+      },
+      {
+        heading: "Formal and informal logic",
+        paragraphs: [
+          "Formal logic uses symbolic languages to track structure. Informal logic analyzes everyday arguments, definitions, and fallacies. Both serve philosophical writing and public debate.",
+        ],
+      },
+      {
+        heading: "Logic in the history of philosophy",
+        paragraphs: [
+          "Aristotle’s syllogistic, Stoic propositional insights, Indian and Chinese debates on language and standards, medieval scholastic logic, and modern mathematical logic all belong to this story.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is logic in philosophy?",
+        answer:
+          "It is the study of correct reasoning and the structure of arguments.",
+      },
+      {
+        question: "Do I need symbolic logic to study philosophy?",
+        answer:
+          "It helps for some fields, but clear informal reasoning is foundational everywhere.",
+      },
+      {
+        question: "How does logic relate to AI?",
+        answer:
+          "Classical AI used formal logic extensively; modern machine learning raises new questions about inference, explanation, and reliability.",
+      },
+    ],
+    related: [
+      { href: "/themes/reason", label: "Quotes on reason" },
+      { href: "/philosophy-of-language", label: "Philosophy of language" },
+      { href: "/branches-of-philosophy", label: "Branches of philosophy" },
+    ],
+    thinkers: ["Aristotle", "Bertrand Russell", "Ludwig Wittgenstein"],
+  },
+  {
+    slug: "how-to-study-philosophy",
+    title: "How to Study Philosophy",
+    description:
+      "How to study philosophy: reading methods, note-taking, argument reconstruction, and a practical beginner path.",
+    eyebrow: "Method",
+    intro:
+      "Studying philosophy means learning to reconstruct arguments, notice assumptions, and revise beliefs under pressure from reasons—not memorizing slogans.",
+    answer:
+      "Read slowly, write paraphrases, state conclusions and premises, seek objections, and compare traditions. Short primary passages plus reliable secondary guides beat rushing through summaries alone.",
+    sections: [
+      {
+        heading: "A weekly practice",
+        paragraphs: [
+          "Choose one short primary text. First read for orientation; second read to mark claims; third read to outline the argument. Write a half-page reconstruction in your own words, then one objection and a possible reply.",
+        ],
+      },
+      {
+        heading: "Tools that help",
+        paragraphs: [
+          "Concept lists, argument maps, and quotation cards (with sources) build memory without replacing understanding. Discussing with a patient interlocutor exposes hidden premises.",
+        ],
+      },
+      {
+        heading: "Avoiding common traps",
+        paragraphs: [
+          "Do not treat viral quotes as scholarship. Do not assume one tradition owns “philosophy.” Do not confuse biography with argument—though context helps interpretation.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How should a beginner study philosophy?",
+        answer:
+          "Start with short primary passages, reconstruct arguments in writing, and use reputable encyclopedias for orientation.",
+      },
+      {
+        question: "What should I read first?",
+        answer:
+          "A Socratic dialogue, a Stoic handbook chapter, or a Confucian analect—plus a modern ethics essay you care about.",
+      },
+      {
+        question: "Can I study philosophy without a degree?",
+        answer:
+          "Yes. Disciplined reading groups, open courses, and careful primary-text practice are enough to begin seriously.",
+      },
+    ],
+    related: [
+      { href: "/philosophy-for-beginners", label: "Philosophy for beginners" },
+      { href: "/philosophy-degree", label: "Philosophy degree" },
+      { href: "/quotes/short", label: "Short philosophy quotes" },
+    ],
+    thinkers: ["Socrates", "Epictetus", "John Dewey"],
+  },
+  {
+    slug: "philosophy-for-beginners",
+    title: "Philosophy for Beginners",
+    description:
+      "Philosophy for beginners: simple starting points, core questions, reading tips, and where to go next.",
+    eyebrow: "Start here",
+    intro:
+      "Philosophy for beginners begins with questions you already ask—about fairness, knowledge, death, love, and meaning—then learns the craft of answering with reasons.",
+    answer:
+      "You do not need jargon to start. You need curiosity, patience with difficulty, and willingness to change your mind when a better reason appears.",
+    sections: [
+      {
+        heading: "Five starter questions",
+        paragraphs: [
+          "What makes an action wrong? What can I know for sure? What is a self? What do I owe strangers? What makes a life meaningful? Pick one and keep a notebook of attempts.",
+        ],
+      },
+      {
+        heading: "A gentle path through this site",
+        paragraphs: [
+          "Read a random quotation, open its thinker page, then a theme page. Follow a guide such as What Is Philosophy?, then a school page such as Stoicism or Confucianism.",
+        ],
+      },
+      {
+        heading: "What progress looks like",
+        paragraphs: [
+          "Progress is clearer distinctions, fairer objections, and less fear of saying “I do not know yet.” It is not collecting impressive names.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is philosophy hard for beginners?",
+        answer:
+          "It can be difficult because it asks for precision. Short texts and good guides make a fair start possible for anyone willing to practice.",
+      },
+      {
+        question: "Do I need to know Greek or Chinese?",
+        answer:
+          "Not to begin. Reliable English translations and commentaries are enough for a first serious encounter.",
+      },
+      {
+        question: "How long until philosophy feels useful?",
+        answer:
+          "Many people notice clearer thinking within weeks of weekly practice; depth compounds over years.",
+      },
+    ],
+    related: [
+      { href: "/how-to-study-philosophy", label: "How to study philosophy" },
+      { href: "/what-is-philosophy", label: "What is philosophy?" },
+      { href: "/quotes/famous", label: "Famous philosophy quotes" },
+    ],
+    thinkers: ["Socrates", "Marcus Aurelius", "Confucius"],
+  },
+  {
+    slug: "plato-vs-aristotle",
+    title: "Plato vs Aristotle",
+    description:
+      "Plato vs Aristotle: forms vs substances, politics, ethics, and how their disagreement shaped Western philosophy.",
+    eyebrow: "Comparison",
+    intro:
+      "Plato and Aristotle share a teacher–student link and a vast influence, yet they diverge on metaphysics, ethics, and the best political order.",
+    answer:
+      "Broadly: Plato emphasizes transcendent forms and a philosopher-led city in the Republic; Aristotle emphasizes substances in nature, empirical study, and virtue as a mean toward flourishing in civic life.",
+    sections: [
+      {
+        heading: "Reality and knowledge",
+        paragraphs: [
+          "Plato’s dialogues explore forms as stable objects of understanding beyond shifting appearances. Aristotle’s metaphysics centers substances and causes within the natural world, with logic organizing scientific demonstration.",
+        ],
+      },
+      {
+        heading: "Ethics and politics",
+        paragraphs: [
+          "Both care about virtue and the good life. Aristotle’s Nicomachean Ethics makes habit and practical wisdom central; Plato’s Republic links justice in the soul to justice in the city. Their institutional ideals differ in structure and tone.",
+        ],
+      },
+      {
+        heading: "Why the contrast still matters",
+        paragraphs: [
+          "Later philosophy repeatedly returns to Platonic and Aristotelian options—about universals, science, education, and the relation of theory to practice. Reading them against each other trains comparative judgment.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the main difference between Plato and Aristotle?",
+        answer:
+          "A common contrast: Plato stresses transcendent forms; Aristotle stresses natural substances and empirical investigation—though both are more nuanced than the slogan.",
+      },
+      {
+        question: "Who was Aristotle’s teacher?",
+        answer: "Aristotle studied in Plato’s Academy before founding the Lyceum.",
+      },
+      {
+        question: "Should beginners read Plato or Aristotle first?",
+        answer:
+          "Many start with a short Platonic dialogue for drama and questions, then sample Aristotle’s ethics for systematic virtue theory.",
+      },
+    ],
+    related: [
+      { href: "/thinkers/plato", label: "Plato quotes" },
+      { href: "/thinkers/aristotle", label: "Aristotle quotes" },
+      { href: "/history-of-philosophy", label: "History of philosophy" },
+    ],
+    thinkers: ["Plato", "Aristotle", "Socrates"],
+  },
+  {
+    slug: "confucianism-vs-daoism",
+    title: "Confucianism vs Daoism",
+    description:
+      "Confucianism vs Daoism: ritual and cultivation versus naturalness and the Way—compared without caricature.",
+    eyebrow: "Comparison",
+    intro:
+      "Confucianism and Daoism are often contrasted as social cultivation versus spontaneous alignment with the Dao—but historically they also conversed, criticized, and borrowed.",
+    answer:
+      "Confucian teachings emphasize ren, ritual, learning, and responsible roles; Daoist texts associated with Laozi and Zhuangzi emphasize the Dao, wuwei, and critique of rigid naming and forced order.",
+    sections: [
+      {
+        heading: "Ethics and self-cultivation",
+        paragraphs: [
+          "Confucians train character through ritual and study within relationships. Daoist writings often warn that forced moralism can deform life, preferring responsiveness and unlearning of rigid distinctions.",
+        ],
+      },
+      {
+        heading: "Politics and language",
+        paragraphs: [
+          "Confucian political thought links exemplary virtue and ritual order to good government. Daoist counsel frequently praises restraint, softness, and ruling that does not over-manage. Both care about language’s power to clarify or distort.",
+        ],
+      },
+      {
+        heading: "Reading them together",
+        paragraphs: [
+          "Chinese intellectual history is not a simple binary. Many readers held Confucian public roles and Daoist or Buddhist private sensibilities. Comparison should preserve each tradition’s internal debates.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the difference between Confucianism and Daoism?",
+        answer:
+          "Confucianism stresses cultivated humaneness and ritual life; Daoism stresses alignment with the Dao and caution about coercive order—though both are diverse.",
+      },
+      {
+        question: "Can someone follow both?",
+        answer:
+          "Historically, many Chinese thinkers combined resources from both; modern readers can also learn from each without forced syncretism.",
+      },
+      {
+        question: "Where should I start reading?",
+        answer:
+          "Try Analects passages alongside a short Daodejing chapter or Zhuangzi story, using reliable translations.",
+      },
+    ],
+    related: [
+      { href: "/chinese-philosophy", label: "Chinese philosophy" },
+      { href: "/schools/confucianism", label: "Confucianism" },
+      { href: "/thinkers/laozi", label: "Laozi quotes" },
+    ],
+    thinkers: ["Confucius", "Laozi", "Zhuangzi", "Mencius"],
+  },
+  {
+    slug: "philosophy-vs-science",
+    title: "Philosophy vs Science",
+    description:
+      "Philosophy vs science: how they differ, how they cooperate, and why philosophical questions remain after scientific results.",
+    eyebrow: "Comparison",
+    intro:
+      "Science and philosophy are partners and neighbors: science excels at empirical modeling; philosophy clarifies concepts, methods, and values that science uses but does not always settle.",
+    answer:
+      "Philosophy is not failed science. It asks what evidence is, what explanation means, what consciousness is, and which ends knowledge should serve—questions that remain even when experiments succeed.",
+    sections: [
+      {
+        heading: "Division of labor",
+        paragraphs: [
+          "Empirical sciences test hypotheses about the natural and social world. Philosophy analyzes assumptions about causation, probability, confirmation, and the interpretation of theories.",
+        ],
+      },
+      {
+        heading: "Shared history",
+        paragraphs: [
+          "Natural philosophy once included what we now call physics. Specialization created disciplines; philosophy of science remains the reflective twin of scientific practice.",
+        ],
+      },
+      {
+        heading: "Why the contrast matters for AI and ethics",
+        paragraphs: [
+          "Technical capability does not answer responsibility, fairness, or meaning. Those remain philosophical—and public—questions informed by, but not replaced by, scientific results.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is philosophy obsolete because of science?",
+        answer:
+          "No. Science expands knowledge; philosophy continues to examine methods, meanings, and values—including those of science itself.",
+      },
+      {
+        question: "Can scientists ignore philosophy?",
+        answer:
+          "They can try, but they still rely on concepts of evidence, model, cause, and significance that repay philosophical scrutiny.",
+      },
+      {
+        question: "What is philosophy of science?",
+        answer:
+          "It is the philosophical study of scientific evidence, explanation, theories, and objectivity.",
+      },
+    ],
+    related: [
+      { href: "/philosophy-of-science", label: "Philosophy of science" },
+      { href: "/what-is-epistemology", label: "What is epistemology?" },
+      { href: "/philosophy-of-ai", label: "Philosophy of AI" },
+    ],
+    thinkers: ["Aristotle", "Karl Popper", "Bertrand Russell"],
+  },
+  {
+    slug: "why-philosophy-matters",
+    title: "Why Philosophy Matters",
+    description:
+      "Why philosophy matters: clarity, ethics, citizenship, technology, and the examined life in the twenty-first century.",
+    eyebrow: "Purpose",
+    intro:
+      "Philosophy matters because people must still decide what is true enough to trust, what is fair enough to enforce, and what kind of life is worth wanting.",
+    answer:
+      "Its value is intellectual responsibility under uncertainty: better questions, clearer concepts, fairer disagreements, and stronger resistance to manipulative rhetoric—including in technology and politics.",
+    sections: [
+      {
+        heading: "Personal life",
+        paragraphs: [
+          "Grief, ambition, friendship, and failure all contain philosophical stakes. Reflective habits reduce self-deception and widen sympathy without requiring a academic career.",
+        ],
+      },
+      {
+        heading: "Public life",
+        paragraphs: [
+          "Democracies depend on citizens who can evaluate arguments about rights, evidence, and authority. Philosophy supplies tools—not a single party line.",
+        ],
+      },
+      {
+        heading: "Technological life",
+        paragraphs: [
+          "AI, biotechnology, and climate policy continually reopen questions of agency, risk, and justice. Technical expertise without ethical and conceptual clarity is incomplete.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Why does philosophy still matter?",
+        answer:
+          "Because fundamental questions about knowledge, value, and meaning remain open—and practical decisions still depend on them.",
+      },
+      {
+        question: "Does philosophy pay?",
+        answer:
+          "Indirectly: it builds transferable skills in analysis and communication; its deeper payoff is better judgment.",
+      },
+      {
+        question: "How can I practice philosophy daily?",
+        answer:
+          "Read one short passage, write one reconstructed argument, and test one belief you hold against a serious objection.",
+      },
+    ],
+    related: [
+      { href: "/what-is-philosophy", label: "What is philosophy?" },
+      { href: "/philosophy-for-beginners", label: "Philosophy for beginners" },
+      { href: "/quotes", label: "Philosophy quotes archive" },
+    ],
+    thinkers: ["Socrates", "Hannah Arendt", "John Dewey"],
   },
 ];
 

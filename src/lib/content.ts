@@ -129,6 +129,43 @@ export function adjacentQuotes(quote: Quote) {
   return { prev, next };
 }
 
+export function thinkerThemePairs(minQuotes = 2) {
+  const map = new Map<
+    string,
+    {
+      author: string;
+      authorSlug: string;
+      theme: string;
+      themeSlug: string;
+      quotes: Quote[];
+    }
+  >();
+
+  for (const quote of quotes) {
+    const seen = new Set<string>();
+    for (const raw of quote.themes) {
+      const theme = canonicalizeTheme(raw);
+      if (theme === "Philosophy") continue;
+      const key = `${quote.author}:::${theme}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      const existing = map.get(key);
+      if (existing) existing.quotes.push(quote);
+      else {
+        map.set(key, {
+          author: quote.author,
+          authorSlug: slugify(quote.author),
+          theme,
+          themeSlug: themeSlug(theme),
+          quotes: [quote],
+        });
+      }
+    }
+  }
+
+  return [...map.values()].filter((pair) => pair.quotes.length >= minQuotes);
+}
+
 export function citationFormats(quote: Quote) {
   const year = "n.d.";
   const url = `https://philosophydef.com/quotes/${quote.id.toLowerCase()}`;

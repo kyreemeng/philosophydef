@@ -1,4 +1,5 @@
 import type { Quote } from "../lib/content";
+import { extraThinkerGuides } from "./thinkers-extra";
 
 export type ThemeGuide = {
   intro: string;
@@ -273,7 +274,7 @@ export const themeGuides: Record<string, ThemeGuide> = {
   },
 };
 
-export const thinkerGuides: Record<string, ThinkerGuide> = {
+export const coreThinkerGuides: Record<string, ThinkerGuide> = {
   Socrates: {
     lifespan: "c. 469–399 BCE",
     school: "Classical Greek philosophy",
@@ -564,12 +565,42 @@ export const thinkerGuides: Record<string, ThinkerGuide> = {
   },
 };
 
+export const thinkerGuides: Record<string, ThinkerGuide> = {
+  ...coreThinkerGuides,
+  ...extraThinkerGuides,
+};
+
 export function themeGuideFor(name: string): ThemeGuide | undefined {
   return themeGuides[name];
 }
 
-export function thinkerGuideFor(name: string): ThinkerGuide | undefined {
-  return thinkerGuides[name];
+export function thinkerGuideFor(name: string, fallbackSchool?: string): ThinkerGuide | undefined {
+  if (thinkerGuides[name]) return thinkerGuides[name];
+  if (!fallbackSchool) return undefined;
+  return {
+    lifespan: "See sources for dating",
+    school: fallbackSchool,
+    jobTitle: "Philosopher / tradition",
+    knowsAbout: [fallbackSchool.toLowerCase(), "ethics", "wisdom"],
+    overview: `${name} appears in this archive through verified English quotations associated with the ${fallbackSchool} tradition. Biographical certainty varies by figure and text; where the “author” is a scripture or school anthology, read the name as a traditional attribution rather than a modern individual biography.`,
+    ideas: `The passages gathered under ${name} emphasize themes typical of ${fallbackSchool}: practical judgment, the examined life, and concepts that repay slow reading. Use individual quotation pages for source notes, then compare related thinkers in the same school.`,
+    works: ["See source fields on individual quotations"],
+    legacy: `${name} remains part of the living conversation preserved in this archive’s English renderings.`,
+  };
+}
+
+export function defaultThinkerGuide(name: string, school: string, themes: string[]): ThinkerGuide {
+  const focus = themes.slice(0, 5);
+  return {
+    lifespan: "Dating varies by source tradition",
+    school,
+    jobTitle: "Philosopher / textual tradition",
+    knowsAbout: focus.map((t) => t.toLowerCase()),
+    overview: `${name} is represented in Philosophy Blind Box through curated English quotations. In some cases the name denotes a historical thinker; in others it denotes a scripture, school text, or traditional attribution. School label in this archive: ${school}.`,
+    ideas: `Recurring concerns in this selection include ${focus.join(", ") || "philosophical inquiry"}. Read each passage with its source note, then follow theme links to see how related thinkers frame the same questions.`,
+    works: ["Attributed sources listed on quotation pages"],
+    legacy: `Readers use ${name} as an entry point into ${school} and into cross-cultural comparison within this archive.`,
+  };
 }
 
 export function defaultThemeGuide(name: string, count: number): ThemeGuide {

@@ -1,0 +1,159 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import {
+  thinkerThemePairs,
+  themeGroups,
+} from "../../../lib/content";
+
+export function getStaticPaths() {
+  return thinkerThemePairs(2).map((pair) => ({
+    params: { thinker: pair.authorSlug, theme: pair.themeSlug },
+    props: { pair },
+  }));
+}
+
+const { pair } = Astro.props;
+const pageUrl = `/thinkers/${pair.authorSlug}/${pair.themeSlug}`;
+const relatedThemes = themeGroups()
+  .filter((theme) => theme.slug !== pair.themeSlug)
+  .slice(0, 6);
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${pair.author} Quotes on ${pair.theme}`,
+    description: `English philosophy quotations by ${pair.author} on ${pair.theme.toLowerCase()}.`,
+    url: new URL(pageUrl, Astro.site),
+    numberOfItems: pair.quotes.length,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Thinkers",
+        item: new URL("/thinkers", Astro.site),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: pair.author,
+        item: new URL(`/thinkers/${pair.authorSlug}`, Astro.site),
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: pair.theme,
+        item: new URL(pageUrl, Astro.site),
+      },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: `What did ${pair.author} say about ${pair.theme.toLowerCase()}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `This page gathers ${pair.quotes.length} verified English quotations by ${pair.author} that speak to ${pair.theme.toLowerCase()}. Each passage links to a full archive entry with source context.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `Where can I find ${pair.author.toLowerCase()} quotes on ${pair.theme.toLowerCase()}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `Philosophy Blind Box curates ${pair.author} quotations on ${pair.theme.toLowerCase()} at ${pageUrl}, with links to the full thinker page and theme index.`,
+        },
+      },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={`${pair.author} Quotes on ${pair.theme} | Philosophy Blind Box`}
+  description={`Read ${pair.quotes.length} English ${pair.author} quotes on ${pair.theme.toLowerCase()}. Verified renderings with source context and related themes.`}
+  canonical={pageUrl}
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Thinker × theme</p>
+      <h1>{pair.author} quotes on {pair.theme.toLowerCase()}</h1>
+      <p>
+        {pair.quotes.length} verified English passages where {pair.author}’
+        {pair.author.endsWith("s") ? "" : "s"} thought meets questions of{" "}
+        {pair.theme.toLowerCase()}.
+      </p>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/thinkers">Thinkers</a>
+        <span aria-hidden="true">/</span>
+        <a href={`/thinkers/${pair.authorSlug}`}>{pair.author}</a>
+        <span aria-hidden="true">/</span>
+        <span>{pair.theme}</span>
+      </nav>
+    </header>
+
+    <div class="prose-layout">
+      <aside class="prose-aside">
+        <p>
+          Long-tail reading path: one thinker, one theme, several angles—without
+          diluting either page into a slogan list.
+        </p>
+      </aside>
+      <article class="prose">
+        <h2>How to use this page</h2>
+        <p>
+          Start with the shortest passage, then compare tone across sources. Return to
+          the <a href={`/thinkers/${pair.authorSlug}`}>{pair.author} thinker page</a>{" "}
+          for biography and to the{" "}
+          <a href={`/themes/${pair.themeSlug}`}>{pair.theme.toLowerCase()} theme</a>{" "}
+          for other voices on the same question.
+        </p>
+        <h2>Frequently asked</h2>
+        <h3>What did {pair.author} say about {pair.theme.toLowerCase()}?</h3>
+        <p>
+          The quotations below are the archive’s curated answer: English renderings
+          selected for clarity and attribution, not a complete corpus.
+        </p>
+        <h3>
+          Where else should I read after {pair.author.toLowerCase()} on{" "}
+          {pair.theme.toLowerCase()}?
+        </h3>
+        <p>
+          Related themes:{" "}
+          {
+            relatedThemes.map((theme, index) => (
+              <>
+                {index > 0 && ", "}
+                <a href={`/themes/${theme.slug}`}>{theme.name}</a>
+              </>
+            ))
+          }
+          .
+        </p>
+      </article>
+    </div>
+
+    <ol class="quote-list">
+      {
+        pair.quotes.map((quote) => (
+          <li class="quote-list-item">
+            <blockquote>{quote.text}</blockquote>
+            <footer>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.id}</a>
+              <br />
+              {quote.source || quote.school}
+            </footer>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</BaseLayout>

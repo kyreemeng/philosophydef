@@ -1,0 +1,240 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import quotes from "../../data/quotes.json";
+import { slugify, canonicalizeTheme } from "../../lib/content";
+
+export type SchoolPage = {
+  slug: string;
+  name: string;
+  title: string;
+  description: string;
+  intro: string;
+  overview: string;
+  history: string;
+  ideas: string[];
+  match: (school: string) => boolean;
+  faq: { question: string; answer: string }[];
+};
+
+export const schools: SchoolPage[] = [
+  {
+    slug: "stoicism",
+    name: "Stoicism",
+    title: "Stoic Quotes & Stoicism",
+    description:
+      "Stoicism explained: virtue, nature, and judgment—with verified Stoic quotes from Seneca, Epictetus, and Marcus Aurelius.",
+    intro:
+      "Stoicism is a Hellenistic school teaching that living in agreement with nature and reason—through virtue—is the path to a flourishing life.",
+    overview:
+      "Founded by Zeno of Citium in Athens around 300 BCE, Stoicism divides philosophy into physics, logic, and ethics. Virtue is the only true good; externals such as wealth, health, and reputation are preferred or dispreferred indifferents. Passions are understood as mistaken judgments; the sage’s ideal is rational consistency, while progressors practice daily discipline.",
+    history:
+      "Early Stoics (Zeno, Cleanthes, Chrysippus) built a systematic school; Roman writers—Seneca, Epictetus, and Marcus Aurelius—preserve the most complete surviving ethical works. Modern readers often meet Stoicism as practical counsel, but classical Stoicism also included logic and a providential physics.",
+    ideas: [
+      "Virtue is necessary and sufficient for happiness.",
+      "Some things are up to us (judgment, impulse); others are not.",
+      "Live according to nature—human nature as rational and social.",
+      "Practice: examine impressions before assenting to them.",
+    ],
+    match: (school) => /stoic/i.test(school),
+    faq: [
+      {
+        question: "What is Stoicism in simple terms?",
+        answer:
+          "Stoicism teaches that a good life centers on virtue and wise judgment, not on controlling external events.",
+      },
+      {
+        question: "Who are the main Stoic philosophers?",
+        answer:
+          "Early founders include Zeno and Chrysippus; the most-read Roman Stoics are Seneca, Epictetus, and Marcus Aurelius.",
+      },
+      {
+        question: "Where can I find Stoic quotes?",
+        answer:
+          "This page gathers verified English Stoic quotations from the archive, with links to each thinker.",
+      },
+    ],
+  },
+  {
+    slug: "existentialism",
+    name: "Existentialism",
+    title: "Existentialism Quotes",
+    description:
+      "Existentialism explained: freedom, responsibility, and meaning—with quotes from Sartre, Beauvoir, Camus, and Kierkegaard.",
+    intro:
+      "Existentialism names a family of philosophies that treat human existence, freedom, and responsibility as primary—often before abstract systems.",
+    overview:
+      "Though diverse, existential writers share concerns with anxiety, authenticity, bad faith, absurdity, and the demand to choose under uncertainty. Kierkegaard and Nietzsche prepare the ground; Sartre, Beauvoir, and Camus make mid-century public debates about freedom and meaning.",
+    history:
+      "Nineteenth-century precursors meet twentieth-century phenomenology and postwar literature. Not all associated figures accepted the label—Camus resisted “existentialist”—yet the cluster remains useful for readers of freedom and meaning.",
+    ideas: [
+      "Existence precedes essence for human beings (Sartre’s slogan).",
+      "Freedom brings responsibility; evasion is bad faith.",
+      "Meaning may be created, discovered, or confronted as absurd.",
+      "Concrete situations matter more than empty abstractions.",
+    ],
+    match: (school) =>
+      /existential|absurd|proto-existential/i.test(school) ||
+      /sartre|beauvoir|camus|kierkegaard/i.test(school),
+    faq: [
+      {
+        question: "What is existentialism?",
+        answer:
+          "It is a philosophical approach emphasizing concrete human existence, freedom, choice, and responsibility.",
+      },
+      {
+        question: "Is Camus an existentialist?",
+        answer:
+          "Camus is often grouped with existential writers but preferred the language of the absurd and revolt; read him alongside, not simply under, Sartre.",
+      },
+      {
+        question: "Where are existentialism quotes?",
+        answer:
+          "Browse the verified English passages below, then follow thinker pages for Sartre, Beauvoir, Camus, and Kierkegaard.",
+      },
+    ],
+  },
+  {
+    slug: "confucianism",
+    name: "Confucianism",
+    title: "Confucian Quotes & Confucianism",
+    description:
+      "Confucianism explained: ren, ritual, and self-cultivation—with quotes from Confucius, Mencius, Xunzi, and Neo-Confucians.",
+    intro:
+      "Confucianism is a family of ethical and political teachings centered on humaneness, ritual propriety, learning, and the cultivation of character in relationships.",
+    overview:
+      "From Confucius and Mencius to Xunzi and later Neo-Confucians such as Zhu Xi and Wang Yangming, the tradition debates human nature, education, and rightful government while sharing a concern for moral formation through practice.",
+    history:
+      "Classical Confucianism emerges in the Spring and Autumn and Warring States periods; imperial China institutionalized Confucian learning; modern New Confucians reinterpret the tradition for contemporary societies.",
+    ideas: [
+      "Ren (humaneness) and li (ritual) shape ethical life.",
+      "Learning and self-cultivation are lifelong.",
+      "Family and political roles are moral arenas.",
+      "Debate continues on whether nature is good (Mencius) or needs shaping (Xunzi).",
+    ],
+    match: (school) => /confucian|neo-confucian/i.test(school),
+    faq: [
+      {
+        question: "What is Confucianism?",
+        answer:
+          "It is a tradition of ethical and political thought emphasizing humaneness, ritual, education, and cultivated character.",
+      },
+      {
+        question: "Who are key Confucian thinkers?",
+        answer:
+          "Confucius, Mencius, and Xunzi are classical pillars; Zhu Xi and Wang Yangming are major Neo-Confucians.",
+      },
+      {
+        question: "Where can I read Confucian quotes in English?",
+        answer:
+          "This archive page collects verified English quotations from Confucian thinkers with links to full entries.",
+      },
+    ],
+  },
+];
+
+export function getStaticPaths() {
+  return schools.map((school) => ({
+    params: { slug: school.slug },
+    props: { school },
+  }));
+}
+
+const { school } = Astro.props;
+const pageUrl = `/schools/${school.slug}`;
+const schoolQuotes = quotes.filter((quote) => school.match(quote.school));
+const thinkers = [...new Set(schoolQuotes.map((quote) => quote.author))];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: school.title,
+    description: school.description,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: school.faq.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: { "@type": "Answer", text: item.answer },
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${school.name} Quotes`,
+    numberOfItems: schoolQuotes.length,
+  },
+];
+---
+
+<BaseLayout
+  title={`${school.title} | Philosophy Blind Box`}
+  description={school.description}
+  canonical={pageUrl}
+  type="article"
+  schema={schema}
+>
+  <article class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">School</p>
+      <h1>{school.name}</h1>
+      <p>{school.intro}</p>
+    </header>
+
+    <div class="prose-layout">
+      <aside class="prose-aside">
+        <p>
+          {schoolQuotes.length} passages · {thinkers.length} voices in this archive
+          selection
+        </p>
+      </aside>
+      <div class="prose">
+        <h2>Overview</h2>
+        <p>{school.overview}</p>
+        <h2>Historical notes</h2>
+        <p>{school.history}</p>
+        <h2>Core ideas</h2>
+        <ul>
+          {school.ideas.map((idea) => <li>{idea}</li>)}
+        </ul>
+        <h2>Thinkers in this archive</h2>
+        <p>
+          {
+            thinkers.map((name, index) => (
+              <>
+                {index > 0 && ", "}
+                <a href={`/thinkers/${slugify(name)}`}>{name}</a>
+              </>
+            ))
+          }
+        </p>
+        <h2>FAQ</h2>
+        {
+          school.faq.map((item) => (
+            <>
+              <h3>{item.question}</h3>
+              <p>{item.answer}</p>
+            </>
+          ))
+        }
+      </div>
+    </div>
+
+    <ol class="quote-list">
+      {
+        schoolQuotes.slice(0, 40).map((quote) => (
+          <li class="quote-list-item">
+            <blockquote>{quote.text}</blockquote>
+            <footer>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
+              <br />
+              {canonicalizeTheme(quote.themes[0] ?? quote.school)}
+            </footer>
+          </li>
+        ))
+      }
+    </ol>
+  </article>
+</BaseLayout>

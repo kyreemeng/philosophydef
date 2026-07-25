@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Philosophy Schools",
+  description: "Browse philosophy by school: Stoicism, Existentialism, Confucianism, and more.",
+};
+---
+
+<BaseLayout
+  title="Philosophy Schools | Stoicism, Existentialism, Confucianism"
+  description="Explore philosophy schools with verified English quotes—Stoicism, Existentialism, Confucianism, and related traditions."
+  canonical="/schools"
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <h1>Philosophy schools</h1>
+      <p>Enter through a tradition, then follow thinkers and themes.</p>
+    </header>
+    <div class="theme-directory">
+      <article class="directory-row">
+        <div>
+          <h2><a href="/schools/stoicism">Stoicism</a></h2>
+          <p>Virtue, nature, and the discipline of judgment.</p>
+        </div>
+        <p>Seneca · Epictetus · Marcus</p>
+      </article>
+      <article class="directory-row">
+        <div>
+          <h2><a href="/schools/existentialism">Existentialism</a></h2>
+          <p>Freedom, responsibility, absurdity, and authentic choice.</p>
+        </div>
+        <p>Sartre · Beauvoir · Camus</p>
+      </article>
+      <article class="directory-row">
+        <div>
+          <h2><a href="/schools/confucianism">Confucianism</a></h2>
+          <p>Humaneness, ritual, learning, and cultivated roles.</p>
+        </div>
+        <p>Confucius · Mencius · Xunzi</p>
+      </article>
+    </div>
+  </div>
+</BaseLayout>
