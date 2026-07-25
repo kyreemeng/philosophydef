@@ -1,0 +1,54 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { publishableEmotionHubs } from "../../../data/emotions";
+
+const hubs = publishableEmotionHubs();
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Philosophy Quotes About Feeling",
+  description:
+    "Browse philosophy quotes about love, happiness, fear, hope, courage, grief, and other emotions—curated English passages with sources.",
+  url: new URL("/quotes/about", Astro.site),
+  numberOfItems: hubs.length,
+};
+---
+
+<BaseLayout
+  title="Philosophy Quotes About Feeling | Philosophy Blind Box"
+  description="Browse philosophy quotes about love, happiness, fear, hope, courage, grief, anger, peace, loneliness, and desire—verified English passages."
+  canonical="/quotes/about"
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Programmatic hubs</p>
+      <h1>Philosophy quotes about feeling</h1>
+      <p>
+        Long-tail collections for searches like “philosophy quotes about love”
+        or “philosophy quotes about fear.” Each hub gathers passages by theme
+        tags and wording, then links back to full archive entries.
+      </p>
+    </header>
+
+    <ul class="card-list">
+      {
+        hubs.map((hub) => (
+          <li>
+            <a href={hub.path}>
+              <strong>{hub.title}</strong>
+              <span>{hub.count} quotations</span>
+            </a>
+            <p>{hub.description}</p>
+          </li>
+        ))
+      }
+    </ul>
+
+    <p class="related-link">
+      Return to the <a href="/quotes">quotes archive</a>,
+      <a href="/quotes/famous">famous quotes</a>, or
+      <a href="/themes">themes</a>.
+    </p>
+  </div>
+</BaseLayout>

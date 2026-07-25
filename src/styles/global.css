@@ -1329,6 +1329,64 @@ main {
   border-top: 1px solid var(--line);
 }
 
+.link-list {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0 0 var(--space-6);
+  padding: 0;
+  list-style: none;
+}
+
+.link-list a {
+  color: var(--ink);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.link-list a:hover {
+  color: var(--accent);
+}
+
+.card-list {
+  display: grid;
+  gap: var(--space-5);
+  margin: 0 0 var(--space-8);
+  padding: 0;
+  list-style: none;
+}
+
+.card-list > li {
+  padding: var(--space-5) 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.card-list a {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: baseline;
+  justify-content: space-between;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.card-list a strong {
+  font-size: var(--text-lg);
+  letter-spacing: -0.02em;
+}
+
+.card-list a span {
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.card-list p {
+  margin: var(--space-3) 0 0;
+  color: var(--muted);
+  font-size: var(--text-sm);
+  max-width: 62ch;
+}
+
 .related-link {
   margin: 0 0 var(--space-8);
   color: var(--muted);

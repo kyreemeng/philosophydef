@@ -8,6 +8,7 @@
     "build:quotes": "node scripts/build-quotes.mjs",
     "build:og": "node scripts/build-og.mjs",
     "build:data": "node scripts/export-quote-data.mjs",
+    "seo:verify": "node scripts/seo-verify.mjs",
     "dev": "npm run build:data && astro dev",
     "build": "npm run build:quotes && npm run build:og && npm run build:data && astro build",
     "preview": "astro preview",

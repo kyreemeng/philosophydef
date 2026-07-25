@@ -1,0 +1,150 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import {
+  EMOTION_MIN_QUOTES,
+  emotionHubs,
+  matchesEmotion,
+  type EmotionHub,
+} from "../../../data/emotions";
+import quotes from "../../../data/quotes.json";
+import { canonicalizeTheme } from "../../../lib/content";
+
+export function getStaticPaths() {
+  return emotionHubs
+    .map((hub) => {
+      const selected = quotes.filter((quote) => matchesEmotion(hub, quote));
+      return { hub, selected };
+    })
+    .filter(({ selected }) => selected.length >= EMOTION_MIN_QUOTES)
+    .map(({ hub, selected }) => ({
+      params: { emotion: hub.slug },
+      props: { hub, selected },
+    }));
+}
+
+interface Props {
+  hub: EmotionHub;
+  selected: (typeof quotes)[number][];
+}
+
+const { hub, selected } = Astro.props as Props;
+const path = `/quotes/about/${hub.slug}`;
+const otherHubs = emotionHubs
+  .filter((item) => item.slug !== hub.slug)
+  .map((item) => ({
+    ...item,
+    count: quotes.filter((quote) => matchesEmotion(item, quote)).length,
+  }))
+  .filter((item) => item.count >= EMOTION_MIN_QUOTES);
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: hub.title,
+    description: hub.description,
+    url: new URL(path, Astro.site),
+    numberOfItems: selected.length,
+    about: hub.name,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Quotes",
+        item: new URL("/quotes", Astro.site),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: `About ${hub.name}`,
+        item: new URL(path, Astro.site),
+      },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: `What do philosophers say about ${hub.name.toLowerCase()}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: hub.intro,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `How many philosophy quotes about ${hub.name.toLowerCase()} are in this archive?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `This collection currently gathers ${selected.length} English passages tagged or phrased around ${hub.name.toLowerCase()}, each linking to a full archive entry with source context.`,
+        },
+      },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={`${hub.title} | Philosophy Blind Box`}
+  description={hub.description}
+  canonical={path}
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Quotes about feeling</p>
+      <h1>{hub.title}</h1>
+      <p>{hub.intro}</p>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/quotes">Quotes</a>
+        <span aria-hidden="true">/</span>
+        <a href="/quotes/about">About</a>
+        <span aria-hidden="true">/</span>
+        <span>{hub.name}</span>
+      </nav>
+    </header>
+
+    <p class="results-summary">
+      {selected.length} quotations on {hub.name.toLowerCase()}
+    </p>
+
+    <ol class="quote-list">
+      {
+        selected.map((quote) => (
+          <li class="quote-list-item">
+            <blockquote>{quote.text}</blockquote>
+            <footer>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
+              <br />
+              {canonicalizeTheme(quote.themes[0] ?? quote.school)}
+            </footer>
+          </li>
+        ))
+      }
+    </ol>
+
+    <section class="related-block" aria-labelledby="more-emotions">
+      <h2 id="more-emotions">More philosophy quotes about feeling</h2>
+      <ul class="link-list">
+        {
+          otherHubs.map((item) => (
+            <li>
+              <a href={`/quotes/about/${item.slug}`}>{item.title}</a>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="related-link">
+        Also see <a href="/quotes/famous">famous quotes</a>,
+        <a href="/themes">themes</a>, and the
+        <a href="/quotes">full archive</a>.
+      </p>
+    </section>
+  </div>
+</BaseLayout>
