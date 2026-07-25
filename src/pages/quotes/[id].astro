@@ -1,0 +1,97 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import quotes from "../../data/quotes.json";
+
+export function getStaticPaths() {
+  return quotes.map((quote) => ({
+    params: { id: quote.id.toLowerCase() },
+    props: { quote },
+  }));
+}
+
+const { quote } = Astro.props;
+const quoteUrl = `/quotes/${quote.id.toLowerCase()}`;
+const description = `${quote.author}: “${quote.text}”`.slice(0, 155);
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quotation",
+    text: quote.text,
+    inLanguage: "en",
+    creator: {
+      "@type": "Person",
+      name: quote.author,
+    },
+    url: new URL(quoteUrl, Astro.site),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Quotes",
+        item: new URL("/quotes", Astro.site),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: quote.id,
+        item: new URL(quoteUrl, Astro.site),
+      },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={`${quote.author} Quote | Philosophy Blind Box`}
+  description={description}
+  canonical={quoteUrl}
+  type="article"
+  schema={schema}
+>
+  <article class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">{quote.id}</p>
+      <h1>{quote.author}</h1>
+      <p>A verified English rendering from the curated archive.</p>
+    </header>
+
+    <section class="quote-stage" aria-labelledby="quotation">
+      <div class="quote-panel">
+        <p class="quote-index">English</p>
+        <div>
+          <blockquote class="quote-text" id="quotation">
+            {quote.text}
+          </blockquote>
+          <div class="quote-meta">
+            <div class="meta-item">
+              <span>Thinker</span>
+              <strong>{quote.author}</strong>
+            </div>
+            <div class="meta-item">
+              <span>School</span>
+              <strong>{quote.school}</strong>
+            </div>
+            <div class="meta-item">
+              <span>Source</span>
+              <strong>{quote.source || "Tradition"}</strong>
+            </div>
+            <div class="meta-item">
+              <span>Theme</span>
+              <strong>{quote.themes[0] ?? "Philosophy"}</strong>
+            </div>
+          </div>
+          <div class="quote-tools">
+            <a class="button" href="/#featured-quote">Another quotation</a>
+            <a class="button secondary" href={`/quotes?q=${encodeURIComponent(quote.author)}`}>
+              More from this thinker
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </article>
+</BaseLayout>

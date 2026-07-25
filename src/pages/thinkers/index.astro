@@ -1,0 +1,46 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { thinkerGroups } from "../../lib/content";
+
+const thinkers = thinkerGroups();
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Philosophers and Thinkers",
+  description:
+    "Explore curated English philosophy quotations grouped by thinker.",
+  numberOfItems: thinkers.length,
+};
+---
+
+<BaseLayout
+  title="Philosophers and Thinkers | Philosophy Blind Box"
+  description={`Explore English quotations from ${thinkers.length} philosophers, from Socrates to contemporary thought.`}
+  canonical="/thinkers"
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <h1>Voices across the centuries</h1>
+      <p>
+        Read across traditions and ages through the words of each thinker.
+      </p>
+    </header>
+
+    <ol class="directory" aria-label="Philosopher directory">
+      {
+        thinkers.map((thinker) => (
+          <li class="directory-row">
+            <h2>
+              <a href={`/thinkers/${thinker.slug}`}>{thinker.name}</a>
+            </h2>
+            <p>
+              {thinker.quotes.length}{" "}
+              {thinker.quotes.length === 1 ? "quote" : "quotes"}
+            </p>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</BaseLayout>

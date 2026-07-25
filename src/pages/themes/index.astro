@@ -1,0 +1,100 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { themeGroups } from "../../lib/content";
+
+const themes = themeGroups();
+const themeCopy: Record<string, string> = {
+  Knowledge: "What can we know, and where does certainty end?",
+  Truth: "How truth is claimed, contested, and lived.",
+  Freedom: "Choice, responsibility, and the limits of the will.",
+  Happiness: "Pleasure, virtue, flourishing, and the shape of a good life.",
+  Death: "Mortality, fear, and what remains of meaning.",
+  Power: "Authority, domination, and the politics of force.",
+  Ethics: "How should a life be lived?",
+  Justice: "Fairness, rights, and the good of the community.",
+  Being: "Existence, before explanation.",
+  God: "Faith, reason, and the question of the divine.",
+  Reason: "The promise, and the limits, of rational thought.",
+  Experience: "Sensation, habit, and the world as it is given.",
+  Language: "Meaning, silence, and the shape of speech.",
+  Politics: "Law, freedom, and life held in common.",
+  Beauty: "Form, judgment, and the experience of art.",
+  Time: "Duration, memory, and the weight of the present.",
+  Self: "Identity, introspection, and the examined life.",
+  Otherness: "Encounter, responsibility, and difference.",
+  Desire: "Drive, lack, and the will that moves us.",
+  Action: "Practice, agency, and doing in the world.",
+  Consciousness: "Awareness, appearance, and the felt life of mind.",
+  Nature: "Cosmos, matter, and the living world.",
+  Society: "Community, custom, and shared forms of life.",
+  Life: "Vitality, care, and the question of how to live.",
+  Wisdom: "Judgment, restraint, and practical insight.",
+  Humility: "The limits of knowing, and the ethics of not knowing.",
+  Good: "Value, excellence, and what is worth seeking.",
+  Goodness: "Value, excellence, and what is worth seeking.",
+  Soul: "Interior life, character, and the psyche.",
+  Education: "Formation, dialogue, and the making of judgment.",
+  Wealth: "Possession, need, and the measure of enough.",
+  Will: "Agency, resolve, and the force of intention.",
+  Memory: "Recollection, history, and what returns.",
+  Love: "Attachment, friendship, and care for another.",
+  Friendship: "Mutual regard and the ethics of companionship.",
+  Virtue: "Character perfected by habit toward the good.",
+  Conscience: "Inner judgment and the voice that restrains.",
+  Philosophy: "Inquiry itself as a way of living.",
+  Dialogue: "Question and answer as a path to clarity.",
+  Practice: "How thought becomes habit and habit becomes life.",
+  Responsibility: "What we owe, and what we answer for.",
+  Courage: "Facing fear without abandoning judgment.",
+  Morality: "Right action under the weight of consequence.",
+  Inquiry: "The discipline of asking better questions.",
+  Learning: "Formation through study, error, and return.",
+};
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Philosophy Themes",
+  description:
+    "Browse English philosophy quotations by enduring themes such as wisdom, freedom, virtue, and self.",
+  numberOfItems: themes.length,
+};
+---
+
+<BaseLayout
+  title="Philosophy Themes | Philosophy Blind Box"
+  description={`Explore ${themes.length} philosophy themes through curated English quotations across centuries of thought.`}
+  canonical="/themes"
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <h1>Questions that endure</h1>
+      <p>
+        Follow the questions that bind thinkers across schools and centuries.
+      </p>
+    </header>
+
+    <div class="theme-directory">
+      {
+        themes.map((theme) => (
+          <article class="directory-row">
+            <div>
+              <h2>
+                <a href={`/themes/${theme.slug}`}>{theme.name}</a>
+              </h2>
+              <p>
+                {themeCopy[theme.name] ??
+                  `English passages on ${theme.name.toLowerCase()}.`}
+              </p>
+            </div>
+            <p>
+              {theme.quotes.length}{" "}
+              {theme.quotes.length === 1 ? "quote" : "quotes"}
+            </p>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</BaseLayout>

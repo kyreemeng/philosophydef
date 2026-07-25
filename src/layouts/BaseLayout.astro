@@ -1,0 +1,141 @@
+---
+import "@fontsource-variable/dm-sans";
+import "@fontsource-variable/newsreader";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  image?: string;
+  type?: "website" | "article";
+  schema?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const {
+  title,
+  description,
+  canonical = Astro.url.pathname,
+  image = "/og-default.png",
+  type = "website",
+  schema,
+} = Astro.props;
+const siteName = "Philosophy Blind Box";
+const path = Astro.url.pathname.replace(/\.html$/, "").replace(/\/$/, "") || "/";
+const canonicalUrl = new URL(canonical, Astro.site);
+const imageUrl = new URL(image, Astro.site);
+const navItems = [
+  { href: "/quotes", label: "Quotes", match: "/quotes" },
+  { href: "/thinkers", label: "Thinkers", match: "/thinkers" },
+  { href: "/themes", label: "Themes", match: "/themes" },
+  { href: "/about", label: "About", match: "/about" },
+];
+const defaultSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: siteName,
+  url: Astro.site,
+  description:
+    "Curated English philosophy quotations from around the world, presented at random.",
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#f6f2e9" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1b1715" media="(prefers-color-scheme: dark)" />
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={imageUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={imageUrl} />
+    <script is:inline>document.documentElement.classList.add("js");</script>
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify(schema ?? defaultSchema)}
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="/" aria-label="Philosophy Blind Box, home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>
+            Philosophy Blind Box
+            <small>English philosophy quotations</small>
+          </span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          Menu
+        </button>
+        <ul class="nav-links" id="nav-links">
+          {
+            navItems.map((item) => (
+              <li>
+                <a
+                  href={item.href}
+                  aria-current={
+                    path === item.match || path.startsWith(`${item.match}/`)
+                      ? "page"
+                      : undefined
+                  }
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <a class="brand" href="/">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>Philosophy Blind Box</span>
+          </a>
+          <p>A curated archive of English philosophy quotations.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="/quotes">Browse the archive</a>
+          <a href="/about">About this archive</a>
+          <a href="/sitemap-index.xml">Sitemap</a>
+        </nav>
+      </div>
+    </footer>
+    <script>
+      const toggle = document.querySelector(".nav-toggle");
+      const links = document.querySelector("#nav-links");
+      toggle?.addEventListener("click", () => {
+        const open = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", String(!open));
+        links?.setAttribute("data-open", String(!open));
+      });
+    </script>
+  </body>
+</html>

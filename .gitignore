@@ -1,0 +1,18 @@
+# build
+dist/
+.astro/
+
+# deps
+node_modules/
+
+# env / OS
+.env
+.env.*
+.DS_Store
+
+# logs
+npm-debug.log*
+*.log
+
+# local quote expansion scratch files
+quote_candidates*.json

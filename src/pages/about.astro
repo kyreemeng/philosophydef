@@ -1,0 +1,80 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import quotes from "../data/quotes.json";
+
+const quoteCount = quotes.length.toLocaleString("en-US");
+const thinkerCount = new Set(quotes.map((quote) => quote.author)).size;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  name: "About Philosophy Blind Box",
+  description:
+    "Philosophy Blind Box is a curated archive of English philosophy quotations, presented at random.",
+};
+---
+
+<BaseLayout
+  title="About | Philosophy Blind Box"
+  description="Philosophy Blind Box is a curated archive of English philosophy quotations from East and West, presented at random."
+  canonical="/about"
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <h1>An archive of chance encounters</h1>
+      <p>
+        Philosophy Blind Box gathers verified English quotations and presents
+        one at random, so reading can begin before selection.
+      </p>
+    </header>
+
+    <div class="prose-layout">
+      <aside class="prose-aside">
+        <p>
+          {quoteCount} passages from {thinkerCount} thinkers across Greco-Roman,
+          European, American, Chinese, Indian, Buddhist, Jewish, Islamic, and
+          Japanese traditions.
+        </p>
+      </aside>
+      <article class="prose">
+        <h2>Why random?</h2>
+        <p>
+          Choosing a theme too quickly can narrow attention before the text is
+          heard. Chance reverses that order. A passage arrives first; judgment
+          and context follow.
+        </p>
+
+        <h2>English for every reader</h2>
+        <p>
+          This site is built for English readers. Each quotation appears in a
+          carefully checked English rendering—never in Greek, Latin, Sanskrit,
+          or other source languages as the primary text. Source notes remain for
+          context, but the encounter itself stays in English.
+        </p>
+
+        <h2>Editorial method</h2>
+        <p>
+          The corpus is a verified selection: attributions checked, wording
+          aligned with reliable sources, and passages chosen for clarity and
+          lasting insight. Political slogans, opaque jargon, and misattributed
+          sayings are excluded. Each entry records thinker, school, source, and
+          theme.
+        </p>
+
+        <h2>Browse beyond chance</h2>
+        <p>
+          After a random encounter, continue by thinker or theme. The random
+          view is an entrance, not a limit.
+        </p>
+
+        <h2>A closing note</h2>
+        <p>
+          Philosophy does not answer. It hands you a mirror. This site simply
+          keeps a place where that mirror may appear, one unexpected sentence at
+          a time.
+        </p>
+      </article>
+    </div>
+  </div>
+</BaseLayout>

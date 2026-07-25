@@ -1,0 +1,56 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { themeGroups } from "../../lib/content";
+
+export function getStaticPaths() {
+  return themeGroups().map((theme) => ({
+    params: { slug: theme.slug },
+    props: { theme },
+  }));
+}
+
+const { theme } = Astro.props;
+const pageUrl = `/themes/${theme.slug}`;
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: `${theme.name} Philosophy Quotes`,
+  description: `English philosophy quotations on ${theme.name.toLowerCase()}.`,
+  url: new URL(pageUrl, Astro.site),
+  numberOfItems: theme.quotes.length,
+};
+---
+
+<BaseLayout
+  title={`${theme.name} Philosophy Quotes | Philosophy Blind Box`}
+  description={`Read ${theme.quotes.length} English philosophy quotations on ${theme.name.toLowerCase()}.`}
+  canonical={pageUrl}
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Theme</p>
+      <h1>{theme.name}</h1>
+      <p>
+        {theme.quotes.length}{" "}
+        {theme.quotes.length === 1 ? "passage" : "passages"} gathered around one
+        enduring question.
+      </p>
+    </header>
+
+    <ol class="quote-list">
+      {
+        theme.quotes.map((quote) => (
+          <li class="quote-list-item">
+            <blockquote>{quote.text}</blockquote>
+            <footer>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
+              <br />
+              {quote.school}
+            </footer>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</BaseLayout>

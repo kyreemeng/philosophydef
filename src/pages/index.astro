@@ -1,0 +1,546 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import quotes from "../data/quotes.json";
+
+const featured = quotes[0];
+const compactQuotes = quotes
+  .filter((quote) => quote.text.length <= 220)
+  .map(({ id, author, school, source, text, themes }) => ({
+    id,
+    author,
+    school,
+    source,
+    text,
+    themes,
+  }));
+
+const dailyLines = [
+  "Philosophy does not answer. It hands you a mirror.",
+  "A passage chosen at random can still meet you precisely.",
+  "Some words arrive only on the day that needs them.",
+  "Read slowly. The archive rewards return.",
+  "The world is wide. Begin with one sentence.",
+  "You do not lack answers. You lack another angle.",
+  "One sentence, held carefully, can reopen a question.",
+];
+
+const guideLines = [
+  "Consider where this sentence places its emphasis.",
+  "Look once more at what is in front of you, from this angle.",
+  "Notice what remains unsaid beside what is claimed.",
+  "It resists easy agreement. That may be the point.",
+  "The philosopher left no answer. Only the question remains.",
+  "Slow down enough to think with the text.",
+  "You do not need to settle it. Carry the question further.",
+  "Change the angle, and the world changes with it.",
+  "A compact thought for reading between other obligations.",
+  "Return tomorrow. Another passage awaits.",
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Philosophy Blind Box",
+    url: Astro.site,
+    description:
+      "Curated English philosophy quotations from around the world, presented at random.",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${Astro.site}quotes?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Quotation",
+    text: featured.text,
+    inLanguage: "en",
+    creator: {
+      "@type": "Person",
+      name: featured.author,
+    },
+  },
+];
+
+const featuredThemes = [
+  {
+    name: "Wisdom",
+    slug: "wisdom",
+    description: "Judgment, restraint, and practical insight.",
+  },
+  {
+    name: "Freedom",
+    slug: "freedom",
+    description: "Choice, responsibility, and the limits of the will.",
+  },
+  {
+    name: "Self",
+    slug: "self",
+    description: "Identity, introspection, and the examined life.",
+  },
+  {
+    name: "Virtue",
+    slug: "virtue",
+    description: "Character perfected by habit toward the good.",
+  },
+];
+---
+
+<BaseLayout
+  title="Philosophy Blind Box | Random Philosophy Quotes"
+  description="A curated archive of English philosophy quotations from East and West. Each visit presents one passage at random."
+  schema={schema}
+>
+  <div class="page-shell">
+    <section class="featured-hero" id="featured-quote" aria-labelledby="hero-title">
+      <div class="featured-copy">
+        <p class="hero-kicker">Curated English archive</p>
+        <h1 id="hero-title">One quotation, at random</h1>
+        <p class="hero-value">
+          Each visit presents a carefully verified English philosophy quotation,
+          drawn by chance from five hundred passages across the world.
+        </p>
+        <div class="quote-action">
+          <button id="next-quote" type="button">Another quotation</button>
+          <span id="quote-status">Refresh for another passage.</span>
+        </div>
+      </div>
+
+      <div class="featured-stage is-opened" id="featured-stage">
+        <article class="quote-reveal" aria-live="polite">
+          <div class="quote-reveal-top">
+            <span>Selected passage</span>
+            <span id="quote-id">{featured.id}</span>
+          </div>
+
+          <div class="quote-body">
+            <blockquote id="quote-text">{featured.text}</blockquote>
+          </div>
+
+          <dl class="quote-reveal-meta">
+            <div>
+              <dt>Thinker</dt>
+              <dd id="quote-author">{featured.author}</dd>
+            </div>
+            <div>
+              <dt>School</dt>
+              <dd id="quote-school">{featured.school}</dd>
+            </div>
+            <div>
+              <dt>Source</dt>
+              <dd id="quote-source">{featured.source || "Tradition"}</dd>
+            </div>
+            <div>
+              <dt>Theme</dt>
+              <dd id="quote-theme">{featured.themes[0] ?? "Philosophy"}</dd>
+            </div>
+          </dl>
+
+          <div class="quote-actions">
+            <button class="secondary" id="share-quote" type="button">
+              Share quotation
+            </button>
+            <a
+              class="button text-button"
+              id="quote-link"
+              href={`/quotes/${featured.id.toLowerCase()}`}
+            >
+              View in archive
+            </a>
+          </div>
+          <p class="notice" id="quote-notice" role="status"></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="method-section" aria-labelledby="method-title">
+      <p class="section-label">How to read</p>
+      <div class="method-statement">
+        <h2 id="method-title">Chance first. Context second.</h2>
+        <p>
+          The homepage withholds selection. A passage appears before you choose
+          a theme or thinker, so the encounter can begin with the words
+          themselves.
+        </p>
+      </div>
+      <div class="method-steps" aria-label="How this archive presents quotations">
+        <div>
+          <span>Chance</span>
+          <p>Each refresh draws another passage from the corpus.</p>
+        </div>
+        <div>
+          <span>English</span>
+          <p>Every quotation is shown in a verified English rendering.</p>
+        </div>
+        <div>
+          <span>Context</span>
+          <p>Thinker, school, source, and theme follow after the text.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="themes-section" aria-labelledby="themes-title">
+      <div class="section-intro">
+        <p class="section-label">Continue in the archive</p>
+        <h2 id="themes-title">Four paths of inquiry</h2>
+      </div>
+      <ol class="theme-doors">
+        {
+          featuredThemes.map((theme) => (
+            <li>
+              <a href={`/themes/${theme.slug}`}>
+                <span>{theme.name}</span>
+                <p>{theme.description}</p>
+                <i>Browse</i>
+              </a>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+
+    <section class="closing-note" aria-label="Closing note">
+      <p id="closing-line">
+        Philosophy does not answer. It hands you a mirror.
+      </p>
+      <a href="/about">About this archive</a>
+    </section>
+  </div>
+
+  <dialog class="share-dialog" id="share-dialog" aria-labelledby="share-title">
+    <div class="share-dialog-bar">
+      <h2 id="share-title">Share this quotation</h2>
+      <button class="dialog-close" id="close-share" type="button" aria-label="Close">
+        Close
+      </button>
+    </div>
+
+    <article class="daily-card" id="daily-card">
+      <header>
+        <span>Philosophy Blind Box</span>
+        <span>From the archive</span>
+      </header>
+      <time id="card-date"></time>
+      <div class="quote-body">
+        <blockquote id="card-quote">{featured.text}</blockquote>
+      </div>
+      <p class="card-author" id="card-author">{featured.author}</p>
+      <p class="card-guide" id="card-guide">{guideLines[0]}</p>
+      <footer>
+        <span>English philosophy quotations. Selected at random.</span>
+        <span class="card-url">philosophydef.com</span>
+      </footer>
+    </article>
+    <p class="share-card-url">philosophydef.com</p>
+
+    <div class="share-dialog-actions">
+      <button id="copy-share" type="button">Copy image</button>
+      <button class="secondary" id="copy-text" type="button">Copy text</button>
+      <button class="secondary" id="native-share" type="button">Share</button>
+    </div>
+    <p class="notice" id="share-notice" role="status"></p>
+  </dialog>
+
+  <script
+    id="quote-data"
+    type="application/json"
+    set:html={JSON.stringify({ quotes: compactQuotes, dailyLines, guideLines })}
+  />
+  <script>
+    import { toBlob } from "html-to-image";
+
+    const SITE_ORIGIN = "https://philosophydef.com";
+    const payload = JSON.parse(
+      document.querySelector("#quote-data")?.textContent || "{}",
+    );
+    const data = payload.quotes || [];
+    const stage = document.querySelector("#featured-stage");
+    const trigger = document.querySelector("#next-quote");
+    const quoteStatus = document.querySelector("#quote-status");
+    const text = document.querySelector("#quote-text");
+    const id = document.querySelector("#quote-id");
+    const author = document.querySelector("#quote-author");
+    const school = document.querySelector("#quote-school");
+    const source = document.querySelector("#quote-source");
+    const theme = document.querySelector("#quote-theme");
+    const link = document.querySelector("#quote-link");
+    const notice = document.querySelector("#quote-notice");
+    const closingLine = document.querySelector("#closing-line");
+    const dialog = document.querySelector("#share-dialog");
+    const shareNotice = document.querySelector("#share-notice");
+    const dailyCard = document.querySelector("#daily-card");
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const previousQuoteId = sessionStorage.getItem("philosophy-blind-box:last-quote");
+    let current = data[0];
+    let copyingImage = false;
+
+    const dayIndex = new Date().getDay();
+    if (closingLine) {
+      closingLine.textContent =
+        payload.dailyLines[(dayIndex + 3) % payload.dailyLines.length];
+    }
+
+    function chooseQuote() {
+      if (data.length < 2) return current;
+      let next = current;
+      while (next.id === current.id || next.id === previousQuoteId) {
+        next = data[Math.floor(Math.random() * data.length)];
+      }
+      return next;
+    }
+
+    function lengthTier(value) {
+      const words = value.trim().split(/\s+/).filter(Boolean).length;
+      const longest = Math.max(
+        0,
+        ...value.split(/\s+/).map((part) => part.length),
+      );
+      if (value.length > 130 || words > 20 || longest > 28) return "xl";
+      if (value.length > 90 || words > 14 || longest > 22) return "long";
+      if (value.length > 50 || words > 8) return "medium";
+      return "short";
+    }
+
+    function fitQuote(el) {
+      if (!el) return;
+      const shell = el.closest(".quote-body");
+      if (!shell) return;
+
+      el.style.fontSize = "";
+      const maxSize = parseFloat(getComputedStyle(el).fontSize);
+      const minSize = 14;
+      const fits = () =>
+        el.scrollHeight <= shell.clientHeight + 1 &&
+        el.scrollWidth <= shell.clientWidth + 1;
+
+      el.style.fontSize = `${maxSize}px`;
+      if (fits() || shell.clientHeight < 40) return;
+
+      let low = minSize;
+      let high = maxSize;
+      while (high - low > 0.4) {
+        const mid = (low + high) / 2;
+        el.style.fontSize = `${mid}px`;
+        if (fits()) low = mid;
+        else high = mid;
+      }
+      el.style.fontSize = `${low}px`;
+    }
+
+    function scheduleFit() {
+      window.requestAnimationFrame(() => {
+        fitQuote(text);
+        fitQuote(document.querySelector("#card-quote"));
+      });
+    }
+
+    function renderQuote(quote) {
+      current = quote;
+      if (text) {
+        text.textContent = quote.text;
+        text.dataset.length = lengthTier(quote.text);
+      }
+      if (id) id.textContent = quote.id;
+      if (author) author.textContent = quote.author;
+      if (school) school.textContent = quote.school;
+      if (source) source.textContent = quote.source || "Tradition";
+      if (theme) theme.textContent = quote.themes[0] || "Philosophy";
+      if (link) link.setAttribute("href", `/quotes/${quote.id.toLowerCase()}`);
+      if (notice) notice.textContent = "";
+      sessionStorage.setItem("philosophy-blind-box:last-quote", quote.id);
+      scheduleFit();
+    }
+
+    function showAnother() {
+      stage?.classList.add("is-changing");
+      window.setTimeout(() => {
+        renderQuote(chooseQuote());
+        stage?.classList.remove("is-changing");
+        if (quoteStatus) {
+          quoteStatus.textContent = "Another passage, selected at random.";
+        }
+        scheduleFit();
+      }, reducedMotion.matches ? 0 : 220);
+    }
+
+    function formatDate(date) {
+      return new Intl.DateTimeFormat("en", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+        weekday: "long",
+      }).format(date);
+    }
+
+    function shareText() {
+      const url = new URL(`/quotes/${current.id.toLowerCase()}`, SITE_ORIGIN);
+      return {
+        title: `${current.author} | Philosophy Blind Box`,
+        text: `${current.text}\n\n— ${current.author}\n\nFrom Philosophy Blind Box\n${SITE_ORIGIN}`,
+        url: url.toString(),
+      };
+    }
+
+    async function waitForPaint() {
+      if (document.fonts?.ready) await document.fonts.ready;
+      await new Promise((resolve) =>
+        requestAnimationFrame(() => requestAnimationFrame(resolve)),
+      );
+    }
+
+    async function renderCardBlob() {
+      if (!(dailyCard instanceof HTMLElement)) {
+        throw new Error("Share card is unavailable.");
+      }
+      fitQuote(document.querySelector("#card-quote"));
+      await waitForPaint();
+      const blob = await toBlob(dailyCard, {
+        pixelRatio: 2,
+        cacheBust: true,
+        backgroundColor: "#f3e9db",
+        style: {
+          margin: "0",
+          maxHeight: "none",
+        },
+      });
+      if (!blob) throw new Error("Could not render the share card.");
+      return blob;
+    }
+
+    async function writeImageToClipboard(blob) {
+      if (!navigator.clipboard?.write || typeof ClipboardItem === "undefined") {
+        throw new Error("Image clipboard is not supported in this browser.");
+      }
+      try {
+        await navigator.clipboard.write([
+          new ClipboardItem({ "image/png": blob }),
+        ]);
+      } catch {
+        await navigator.clipboard.write([
+          new ClipboardItem({ "image/png": Promise.resolve(blob) }),
+        ]);
+      }
+    }
+
+    async function copyShareCardImage() {
+      if (copyingImage) return false;
+      copyingImage = true;
+      if (shareNotice) shareNotice.textContent = "Copying share card…";
+      try {
+        const blob = await renderCardBlob();
+        await writeImageToClipboard(blob);
+        if (shareNotice) {
+          shareNotice.textContent =
+            "Share card image copied. Paste it anywhere to share.";
+        }
+        return true;
+      } catch {
+        if (shareNotice) {
+          shareNotice.textContent =
+            "Could not copy the image. Try Copy image again, or use Copy text.";
+        }
+        return false;
+      } finally {
+        copyingImage = false;
+      }
+    }
+
+    async function prepareShareCard() {
+      const cardDate = document.querySelector("#card-date");
+      const cardQuote = document.querySelector("#card-quote");
+      const cardAuthor = document.querySelector("#card-author");
+      const cardGuide = document.querySelector("#card-guide");
+      if (cardDate) cardDate.textContent = formatDate(new Date());
+      if (cardQuote) {
+        cardQuote.textContent = current.text;
+        cardQuote.dataset.length = lengthTier(current.text);
+        cardQuote.style.fontSize = "";
+      }
+      if (cardAuthor) cardAuthor.textContent = current.author;
+      if (cardGuide) {
+        const index = Number(current.id.replace("Q", "")) % payload.guideLines.length;
+        cardGuide.textContent = payload.guideLines[index];
+      }
+      if (shareNotice) shareNotice.textContent = "";
+      dialog?.showModal();
+      scheduleFit();
+      await copyShareCardImage();
+    }
+
+    trigger?.addEventListener("click", showAnother);
+    document.querySelector("#share-quote")?.addEventListener("click", () => {
+      void prepareShareCard();
+    });
+    document.querySelector("#close-share")?.addEventListener("click", () => dialog?.close());
+    dialog?.addEventListener("click", (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+    document.querySelector("#copy-share")?.addEventListener("click", () => {
+      void copyShareCardImage();
+    });
+    document.querySelector("#copy-text")?.addEventListener("click", async () => {
+      const share = shareText();
+      try {
+        await navigator.clipboard.writeText(`${share.text}\n${share.url}`);
+        if (shareNotice) shareNotice.textContent = "Quote and link copied.";
+      } catch {
+        if (shareNotice) {
+          shareNotice.textContent =
+            "Your browser blocked copying. Select the card text manually.";
+        }
+      }
+    });
+    document.querySelector("#native-share")?.addEventListener("click", async () => {
+      const share = shareText();
+      try {
+        const blob = await renderCardBlob();
+        const file = new File([blob], "philosophy-blind-box.png", {
+          type: "image/png",
+        });
+        if (navigator.canShare?.({ files: [file] })) {
+          await navigator.share({
+            title: share.title,
+            text: share.text,
+            url: share.url,
+            files: [file],
+          });
+          return;
+        }
+        if (navigator.share) {
+          await navigator.share(share);
+          return;
+        }
+        await writeImageToClipboard(blob);
+        if (shareNotice) {
+          shareNotice.textContent =
+            "Share card image copied. Paste it anywhere to share.";
+        }
+      } catch (error) {
+        if (error instanceof DOMException && error.name === "AbortError") return;
+        try {
+          await navigator.clipboard.writeText(`${share.text}\n${share.url}`);
+          if (shareNotice) shareNotice.textContent = "Quote and link copied.";
+        } catch {
+          if (shareNotice) {
+            shareNotice.textContent =
+              "Sharing is unavailable. Try Copy image or Copy text.";
+          }
+        }
+      }
+    });
+
+    renderQuote(chooseQuote());
+    window.addEventListener("resize", scheduleFit);
+    if (stage && "ResizeObserver" in window) {
+      new ResizeObserver(scheduleFit).observe(stage);
+    }
+    const now = new Date();
+    const nextMidnight = new Date(
+      now.getFullYear(),
+      now.getMonth(),
+      now.getDate() + 1,
+    );
+    window.setTimeout(() => location.reload(), nextMidnight.getTime() - now.getTime());
+  </script>
+</BaseLayout>

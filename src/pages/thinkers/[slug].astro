@@ -1,0 +1,57 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { thinkerGroups } from "../../lib/content";
+
+export function getStaticPaths() {
+  return thinkerGroups().map((thinker) => ({
+    params: { slug: thinker.slug },
+    props: { thinker },
+  }));
+}
+
+const { thinker } = Astro.props;
+const pageUrl = `/thinkers/${thinker.slug}`;
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  name: `${thinker.name} Philosophy Quotes`,
+  url: new URL(pageUrl, Astro.site),
+  mainEntity: {
+    "@type": "Person",
+    name: thinker.name,
+  },
+};
+---
+
+<BaseLayout
+  title={`${thinker.name} Philosophy Quotes | Philosophy Blind Box`}
+  description={`Read ${thinker.quotes.length} English philosophy quotations by ${thinker.name}.`}
+  canonical={pageUrl}
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Thinker</p>
+      <h1>{thinker.name}</h1>
+      <p>
+        {thinker.quotes.length}{" "}
+        {thinker.quotes.length === 1 ? "passage" : "passages"} in English.
+      </p>
+    </header>
+
+    <ol class="quote-list">
+      {
+        thinker.quotes.map((quote) => (
+          <li class="quote-list-item">
+            <blockquote>{quote.text}</blockquote>
+            <footer>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.id}</a>
+              <br />
+              {quote.themes[0] ?? quote.school}
+            </footer>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</BaseLayout>
