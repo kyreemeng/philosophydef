@@ -4,16 +4,6 @@ import quotes from "../data/quotes.json";
 import { guides } from "../data/guides";
 
 const featured = quotes[0];
-const compactQuotes = quotes
-  .filter((quote) => quote.text.length <= 220)
-  .map(({ id, author, school, source, text, themes }) => ({
-    id,
-    author,
-    school,
-    source,
-    text,
-    themes,
-  }));
 
 const dailyLines = [
   "Philosophy does not answer. It hands you a mirror.",
@@ -273,18 +263,17 @@ const featuredGuides = guides.filter((guide) =>
   </dialog>
 
   <script
-    id="quote-data"
+    id="quote-meta"
     type="application/json"
-    set:html={JSON.stringify({ quotes: compactQuotes, dailyLines, guideLines })}
+    set:html={JSON.stringify({ dailyLines, guideLines })}
   />
   <script>
     import { toBlob } from "html-to-image";
 
     const SITE_ORIGIN = "https://philosophydef.com";
     const payload = JSON.parse(
-      document.querySelector("#quote-data")?.textContent || "{}",
+      document.querySelector("#quote-meta")?.textContent || "{}",
     );
-    const data = payload.quotes || [];
     const stage = document.querySelector("#featured-stage");
     const trigger = document.querySelector("#next-quote");
     const quoteStatus = document.querySelector("#quote-status");
@@ -302,7 +291,8 @@ const featuredGuides = guides.filter((guide) =>
     const dailyCard = document.querySelector("#daily-card");
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
     const previousQuoteId = sessionStorage.getItem("philosophy-blind-box:last-quote");
-    let current = data[0];
+    let data = [];
+    let current = null;
     let copyingImage = false;
 
     const dayIndex = new Date().getDay();
@@ -498,79 +488,98 @@ const featuredGuides = guides.filter((guide) =>
       await copyShareCardImage();
     }
 
-    trigger?.addEventListener("click", showAnother);
-    document.querySelector("#share-quote")?.addEventListener("click", () => {
-      void prepareShareCard();
-    });
-    document.querySelector("#close-share")?.addEventListener("click", () => dialog?.close());
-    dialog?.addEventListener("click", (event) => {
-      if (event.target === dialog) dialog.close();
-    });
-    document.querySelector("#copy-share")?.addEventListener("click", () => {
-      void copyShareCardImage();
-    });
-    document.querySelector("#copy-text")?.addEventListener("click", async () => {
-      const share = shareText();
+    async function boot() {
       try {
-        await navigator.clipboard.writeText(`${share.text}\n${share.url}`);
-        if (shareNotice) shareNotice.textContent = "Quote and link copied.";
+        const response = await fetch("/data/quotes-compact.json");
+        data = await response.json();
       } catch {
-        if (shareNotice) {
-          shareNotice.textContent =
-            "Your browser blocked copying. Select the card text manually.";
-        }
+        data = [];
       }
-    });
-    document.querySelector("#native-share")?.addEventListener("click", async () => {
-      const share = shareText();
-      try {
-        const blob = await renderCardBlob();
-        const file = new File([blob], "philosophy-blind-box.png", {
-          type: "image/png",
-        });
-        if (navigator.canShare?.({ files: [file] })) {
-          await navigator.share({
-            title: share.title,
-            text: share.text,
-            url: share.url,
-            files: [file],
-          });
-          return;
-        }
-        if (navigator.share) {
-          await navigator.share(share);
-          return;
-        }
-        await writeImageToClipboard(blob);
-        if (shareNotice) {
-          shareNotice.textContent =
-            "Share card image copied. Paste it anywhere to share.";
-        }
-      } catch (error) {
-        if (error instanceof DOMException && error.name === "AbortError") return;
+      current = data[0] || {
+        id: "Q0001",
+        author: "Philosophy Blind Box",
+        school: "Archive",
+        source: "Tradition",
+        text: "A passage will appear when the archive finishes loading.",
+        themes: ["Philosophy"],
+      };
+
+      trigger?.addEventListener("click", showAnother);
+      document.querySelector("#share-quote")?.addEventListener("click", () => {
+        void prepareShareCard();
+      });
+      document.querySelector("#close-share")?.addEventListener("click", () => dialog?.close());
+      dialog?.addEventListener("click", (event) => {
+        if (event.target === dialog) dialog.close();
+      });
+      document.querySelector("#copy-share")?.addEventListener("click", () => {
+        void copyShareCardImage();
+      });
+      document.querySelector("#copy-text")?.addEventListener("click", async () => {
+        const share = shareText();
         try {
           await navigator.clipboard.writeText(`${share.text}\n${share.url}`);
           if (shareNotice) shareNotice.textContent = "Quote and link copied.";
         } catch {
           if (shareNotice) {
             shareNotice.textContent =
-              "Sharing is unavailable. Try Copy image or Copy text.";
+              "Your browser blocked copying. Select the card text manually.";
           }
         }
-      }
-    });
+      });
+      document.querySelector("#native-share")?.addEventListener("click", async () => {
+        const share = shareText();
+        try {
+          const blob = await renderCardBlob();
+          const file = new File([blob], "philosophy-blind-box.png", {
+            type: "image/png",
+          });
+          if (navigator.canShare?.({ files: [file] })) {
+            await navigator.share({
+              title: share.title,
+              text: share.text,
+              url: share.url,
+              files: [file],
+            });
+            return;
+          }
+          if (navigator.share) {
+            await navigator.share(share);
+            return;
+          }
+          await writeImageToClipboard(blob);
+          if (shareNotice) {
+            shareNotice.textContent =
+              "Share card image copied. Paste it anywhere to share.";
+          }
+        } catch (error) {
+          if (error instanceof DOMException && error.name === "AbortError") return;
+          try {
+            await navigator.clipboard.writeText(`${share.text}\n${share.url}`);
+            if (shareNotice) shareNotice.textContent = "Quote and link copied.";
+          } catch {
+            if (shareNotice) {
+              shareNotice.textContent =
+                "Sharing is unavailable. Try Copy image or Copy text.";
+            }
+          }
+        }
+      });
 
-    renderQuote(chooseQuote());
-    window.addEventListener("resize", scheduleFit);
-    if (stage && "ResizeObserver" in window) {
-      new ResizeObserver(scheduleFit).observe(stage);
+      renderQuote(chooseQuote());
+      window.addEventListener("resize", scheduleFit);
+      if (stage && "ResizeObserver" in window) {
+        new ResizeObserver(scheduleFit).observe(stage);
+      }
+      const now = new Date();
+      const nextMidnight = new Date(
+        now.getFullYear(),
+        now.getMonth(),
+        now.getDate() + 1,
+      );
+      window.setTimeout(() => location.reload(), nextMidnight.getTime() - now.getTime());
     }
-    const now = new Date();
-    const nextMidnight = new Date(
-      now.getFullYear(),
-      now.getMonth(),
-      now.getDate() + 1,
-    );
-    window.setTimeout(() => location.reload(), nextMidnight.getTime() - now.getTime());
+
+    void boot();
   </script>
 </BaseLayout>

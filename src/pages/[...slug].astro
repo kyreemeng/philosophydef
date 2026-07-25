@@ -50,6 +50,22 @@ const schema = [
       },
     ],
   },
+  ...(guide.faq
+    ? [
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: guide.faq.map((item) => ({
+            "@type": "Question",
+            name: item.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.answer,
+            },
+          })),
+        },
+      ]
+    : []),
 ];
 ---
 
@@ -76,6 +92,7 @@ const schema = [
               <li><a href={`#section-${index + 1}`}>{section.heading}</a></li>
             ))
           }
+          {guide.faq && <li><a href="#faq">FAQ</a></li>}
         </ol>
       </aside>
 
@@ -92,6 +109,20 @@ const schema = [
               {section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
             </section>
           ))
+        }
+
+        {
+          guide.faq && (
+            <section id="faq" aria-labelledby="faq-title">
+              <h2 id="faq-title">Frequently asked questions</h2>
+              {guide.faq.map((item) => (
+                <>
+                  <h3>{item.question}</h3>
+                  <p>{item.answer}</p>
+                </>
+              ))}
+            </section>
+          )
         }
 
         {

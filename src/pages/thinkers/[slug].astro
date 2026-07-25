@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { thinkerGroups } from "../../lib/content";
+import { thinkerGroups, canonicalizeTheme, themeSlug } from "../../lib/content";
+import { thinkerGuideFor } from "../../data/enrichment";
 
 export function getStaticPaths() {
   return thinkerGroups().map((thinker) => ({
@@ -11,33 +12,133 @@ export function getStaticPaths() {
 
 const { thinker } = Astro.props;
 const pageUrl = `/thinkers/${thinker.slug}`;
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "ProfilePage",
-  name: `${thinker.name} Philosophy Quotes`,
-  url: new URL(pageUrl, Astro.site),
-  mainEntity: {
-    "@type": "Person",
-    name: thinker.name,
-  },
+const guide = thinkerGuideFor(thinker.name);
+const themeCounts = new Map<string, number>();
+for (const quote of thinker.quotes) {
+  const theme = canonicalizeTheme(quote.themes[0] ?? "Philosophy");
+  themeCounts.set(theme, (themeCounts.get(theme) ?? 0) + 1);
+}
+const topThemes = [...themeCounts.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 6);
+
+const personEntity = {
+  "@type": "Person",
+  name: thinker.name,
+  ...(guide?.jobTitle ? { jobTitle: guide.jobTitle } : {}),
+  ...(guide?.birthDate ? { birthDate: guide.birthDate } : {}),
+  ...(guide?.deathDate ? { deathDate: guide.deathDate } : {}),
+  ...(guide?.knowsAbout ? { knowsAbout: guide.knowsAbout } : {}),
+  ...(guide?.school ? { affiliation: guide.school } : {}),
 };
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    name: `${thinker.name} Philosophy Quotes`,
+    url: new URL(pageUrl, Astro.site),
+    mainEntity: personEntity,
+  },
+  {
+    "@context": "https://schema.org",
+    ...personEntity,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Thinkers",
+        item: new URL("/thinkers", Astro.site),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: thinker.name,
+        item: new URL(pageUrl, Astro.site),
+      },
+    ],
+  },
+];
 ---
 
 <BaseLayout
-  title={`${thinker.name} Philosophy Quotes | Philosophy Blind Box`}
-  description={`Read ${thinker.quotes.length} English philosophy quotations by ${thinker.name}.`}
+  title={`${thinker.name} Quotes | Philosophy Blind Box`}
+  description={`Read ${thinker.quotes.length} English philosophy quotations by ${thinker.name}${guide ? ` (${guide.lifespan})` : ""}.`}
   canonical={pageUrl}
   schema={schema}
 >
   <div class="page-shell">
     <header class="page-intro">
       <p class="eyebrow">Thinker</p>
-      <h1>{thinker.name}</h1>
+      <h1>{thinker.name} quotes</h1>
       <p>
         {thinker.quotes.length}{" "}
-        {thinker.quotes.length === 1 ? "passage" : "passages"} in English.
+        {thinker.quotes.length === 1 ? "passage" : "passages"} in English
+        {guide ? ` · ${guide.lifespan} · ${guide.school}` : ""}.
       </p>
     </header>
+
+    {
+      guide && (
+        <div class="prose-layout">
+          <aside class="prose-aside">
+            <p>{guide.lifespan}</p>
+            <p>{guide.school}</p>
+          </aside>
+          <article class="prose">
+            <h2>Overview</h2>
+            <p>{guide.overview}</p>
+            <h2>Main ideas</h2>
+            <p>{guide.ideas}</p>
+            <h2>Major works</h2>
+            <ul>
+              {guide.works.map((work) => (
+                <li>{work}</li>
+              ))}
+            </ul>
+            <h2>Legacy</h2>
+            <p>{guide.legacy}</p>
+            {
+              topThemes.length > 0 && (
+                <>
+                  <h2>Themes in this archive</h2>
+                  <p>
+                    {topThemes.map(([theme, count], index) => (
+                      <>
+                        {index > 0 && " · "}
+                        <a href={`/themes/${themeSlug(theme)}`}>
+                          {theme} ({count})
+                        </a>
+                      </>
+                    ))}
+                  </p>
+                </>
+              )
+            }
+          </article>
+        </div>
+      )
+    }
+
+    {
+      !guide && topThemes.length > 0 && (
+        <p class="related-link">
+          Themes:{" "}
+          {topThemes.map(([theme, count], index) => (
+            <>
+              {index > 0 && ", "}
+              <a href={`/themes/${themeSlug(theme)}`}>
+                {theme} ({count})
+              </a>
+            </>
+          ))}
+        </p>
+      )
+    }
 
     <ol class="quote-list">
       {
@@ -47,7 +148,7 @@ const schema = {
             <footer>
               <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.id}</a>
               <br />
-              {quote.themes[0] ?? quote.school}
+              {canonicalizeTheme(quote.themes[0] ?? quote.school)}
             </footer>
           </li>
         ))

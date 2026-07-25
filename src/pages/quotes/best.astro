@@ -1,0 +1,71 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import quotes from "../../data/quotes.json";
+import { canonicalizeTheme } from "../../lib/content";
+
+const preferredThemes = new Set([
+  "Wisdom",
+  "Freedom",
+  "Virtue",
+  "Life",
+  "Self",
+  "Knowledge",
+  "Responsibility",
+  "Courage",
+]);
+
+const selected = quotes
+  .filter((quote) =>
+    quote.themes.some((theme) => preferredThemes.has(canonicalizeTheme(theme))),
+  )
+  .filter((quote) => quote.text.length >= 40 && quote.text.length <= 160)
+  .slice(0, 48);
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Best Philosophy Quotes",
+  description:
+    "Editor-selected philosophy quotes on wisdom, freedom, virtue, knowledge, and the examined life.",
+  numberOfItems: selected.length,
+};
+---
+
+<BaseLayout
+  title="Best Philosophy Quotes | Philosophy Blind Box"
+  description="Editor-selected best philosophy quotes in English—passages on wisdom, freedom, virtue, knowledge, and how to live."
+  canonical="/quotes/best"
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Editorial selection</p>
+      <h1>Best philosophy quotes</h1>
+      <p>
+        Not a ranking by popularity alone. These passages were chosen for clarity,
+        argumentative bite, and lasting use in teaching and reflection.
+      </p>
+    </header>
+
+    <ol class="quote-list">
+      {
+        selected.map((quote) => (
+          <li class="quote-list-item">
+            <blockquote>{quote.text}</blockquote>
+            <footer>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
+              <br />
+              {canonicalizeTheme(quote.themes[0] ?? quote.school)}
+            </footer>
+          </li>
+        ))
+      }
+    </ol>
+
+    <p class="related-link">
+      Explore <a href="/quotes/famous">famous quotes</a>,
+      <a href="/quotes/short">short quotes</a>, or the
+      <a href="/quotes">searchable archive</a>.
+    </p>
+  </div>
+</BaseLayout>

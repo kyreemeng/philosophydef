@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { themeGroups } from "../../lib/content";
+import { themeGroups, slugify } from "../../lib/content";
+import { defaultThemeGuide, themeGuideFor } from "../../data/enrichment";
 
 export function getStaticPaths() {
   return themeGroups().map((theme) => ({
@@ -11,32 +12,105 @@ export function getStaticPaths() {
 
 const { theme } = Astro.props;
 const pageUrl = `/themes/${theme.slug}`;
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: `${theme.name} Philosophy Quotes`,
-  description: `English philosophy quotations on ${theme.name.toLowerCase()}.`,
-  url: new URL(pageUrl, Astro.site),
-  numberOfItems: theme.quotes.length,
-};
+const guide = themeGuideFor(theme.name) ?? defaultThemeGuide(theme.name, theme.quotes.length);
+const thinkers = [...new Set(theme.quotes.map((quote) => quote.author))].slice(0, 8);
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${theme.name} Philosophy Quotes`,
+    description: guide.intro,
+    url: new URL(pageUrl, Astro.site),
+    numberOfItems: theme.quotes.length,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `Philosophy Quotes about ${theme.name}`,
+    description: guide.intro,
+    author: { "@type": "Organization", name: "Philosophy Blind Box" },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: guide.faq.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Themes",
+        item: new URL("/themes", Astro.site),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: theme.name,
+        item: new URL(pageUrl, Astro.site),
+      },
+    ],
+  },
+];
 ---
 
 <BaseLayout
   title={`${theme.name} Philosophy Quotes | Philosophy Blind Box`}
-  description={`Read ${theme.quotes.length} English philosophy quotations on ${theme.name.toLowerCase()}.`}
+  description={`Read ${theme.quotes.length} English philosophy quotations on ${theme.name.toLowerCase()}. ${guide.intro.slice(0, 90)}`}
   canonical={pageUrl}
   schema={schema}
 >
   <div class="page-shell">
     <header class="page-intro">
       <p class="eyebrow">Theme</p>
-      <h1>{theme.name}</h1>
-      <p>
-        {theme.quotes.length}{" "}
-        {theme.quotes.length === 1 ? "passage" : "passages"} gathered around one
-        enduring question.
-      </p>
+      <h1>{theme.name} philosophy quotes</h1>
+      <p>{guide.intro}</p>
     </header>
+
+    <div class="prose-layout">
+      <aside class="prose-aside">
+        <p>
+          {theme.quotes.length}{" "}
+          {theme.quotes.length === 1 ? "passage" : "passages"} · {thinkers.length}+
+          thinkers in this selection
+        </p>
+      </aside>
+      <article class="prose">
+        <h2>Why this theme matters</h2>
+        <p>{guide.overview}</p>
+        <h2>In the history of philosophy</h2>
+        <p>{guide.history}</p>
+        <h2>Thinkers in this collection</h2>
+        <p>
+          {
+            thinkers.map((name, index) => (
+              <>
+                {index > 0 && ", "}
+                <a href={`/thinkers/${slugify(name)}`}>{name}</a>
+              </>
+            ))
+          }
+        </p>
+        <h2>Frequently asked questions</h2>
+        {
+          guide.faq.map((item) => (
+            <>
+              <h3>{item.question}</h3>
+              <p>{item.answer}</p>
+            </>
+          ))
+        }
+      </article>
+    </div>
 
     <ol class="quote-list">
       {

@@ -1,6 +1,18 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import quotes from "../../data/quotes.json";
+import {
+  adjacentQuotes,
+  canonicalizeTheme,
+  citationFormats,
+  quoteDescription,
+  quoteTitle,
+  relatedByAuthor,
+  relatedByTheme,
+  slugify,
+  themeSlug,
+} from "../../lib/content";
+import { guides } from "../../data/guides";
 
 export function getStaticPaths() {
   return quotes.map((quote) => ({
@@ -11,7 +23,29 @@ export function getStaticPaths() {
 
 const { quote } = Astro.props;
 const quoteUrl = `/quotes/${quote.id.toLowerCase()}`;
-const description = `${quote.author}: “${quote.text}”`.slice(0, 155);
+const description = quoteDescription(quote);
+const title = quoteTitle(quote);
+const primaryTheme = canonicalizeTheme(quote.themes[0] ?? "Philosophy");
+const sameAuthor = relatedByAuthor(quote, 5);
+const sameTheme = relatedByTheme(quote, 5);
+const { prev, next } = adjacentQuotes(quote);
+const citations = citationFormats(quote);
+const relatedGuides = guides
+  .filter(
+    (guide) =>
+      guide.thinkers.includes(quote.author) ||
+      guide.slug.includes(themeSlug(primaryTheme)) ||
+      guide.title.toLowerCase().includes(primaryTheme.toLowerCase()),
+  )
+  .slice(0, 3);
+
+const context =
+  quote.source && quote.source !== "Tradition"
+    ? `This English passage is associated with ${quote.source}, within the tradition of ${quote.school}. The wording below is a verified rendering prepared for careful reading rather than a claim of unique translation authority.`
+    : `This English passage belongs to the ${quote.school} tradition. Attribution and wording have been checked against reliable sources used by this archive; where a single definitive source text is contested, the entry records the most widely recognized attribution.`;
+
+const commentary = `Read in the register of ${primaryTheme.toLowerCase()}, the sentence asks the reader to test an assumption rather than to collect a slogan. In ${quote.author}'s wider work, similar claims are usually offered as prompts for judgment: what would have to be true for the sentence to hold, and what would follow if it did?`;
+
 const schema = [
   {
     "@context": "https://schema.org",
@@ -21,6 +55,12 @@ const schema = [
     creator: {
       "@type": "Person",
       name: quote.author,
+    },
+    about: primaryTheme,
+    isPartOf: {
+      "@type": "Collection",
+      name: "Philosophy Blind Box",
+      url: Astro.site,
     },
     url: new URL(quoteUrl, Astro.site),
   },
@@ -37,6 +77,12 @@ const schema = [
       {
         "@type": "ListItem",
         position: 2,
+        name: quote.author,
+        item: new URL(`/thinkers/${slugify(quote.author)}`, Astro.site),
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
         name: quote.id,
         item: new URL(quoteUrl, Astro.site),
       },
@@ -46,7 +92,7 @@ const schema = [
 ---
 
 <BaseLayout
-  title={`${quote.author} Quote | Philosophy Blind Box`}
+  title={title}
   description={description}
   canonical={quoteUrl}
   type="article"
@@ -57,6 +103,13 @@ const schema = [
       <p class="eyebrow">{quote.id}</p>
       <h1>{quote.author}</h1>
       <p>A verified English rendering from the curated archive.</p>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/quotes">Quotes</a>
+        <span aria-hidden="true">/</span>
+        <a href={`/thinkers/${slugify(quote.author)}`}>{quote.author}</a>
+        <span aria-hidden="true">/</span>
+        <span>{quote.id}</span>
+      </nav>
     </header>
 
     <section class="quote-stage" aria-labelledby="quotation">
@@ -69,7 +122,9 @@ const schema = [
           <div class="quote-meta">
             <div class="meta-item">
               <span>Thinker</span>
-              <strong>{quote.author}</strong>
+              <strong>
+                <a href={`/thinkers/${slugify(quote.author)}`}>{quote.author}</a>
+              </strong>
             </div>
             <div class="meta-item">
               <span>School</span>
@@ -81,7 +136,9 @@ const schema = [
             </div>
             <div class="meta-item">
               <span>Theme</span>
-              <strong>{quote.themes[0] ?? "Philosophy"}</strong>
+              <strong>
+                <a href={`/themes/${themeSlug(primaryTheme)}`}>{primaryTheme}</a>
+              </strong>
             </div>
           </div>
           <div class="quote-tools">
@@ -93,5 +150,100 @@ const schema = [
         </div>
       </div>
     </section>
+
+    <section class="quote-depth prose-layout">
+      <aside class="prose-aside">
+        <p>
+          Context and commentary are editorial aids for reading. They do not replace
+          the primary text or scholarly commentary.
+        </p>
+      </aside>
+      <div class="prose">
+        <h2>Source context</h2>
+        <p>{context}</p>
+        <h2>A short reading</h2>
+        <p>{commentary}</p>
+        <h2>How to cite this quotation</h2>
+        <p><strong>APA:</strong> {citations.apa}</p>
+        <p><strong>MLA:</strong> {citations.mla}</p>
+        <p><strong>Chicago:</strong> {citations.chicago}</p>
+      </div>
+    </section>
+
+    {
+      sameAuthor.length > 0 && (
+        <section class="related-block" aria-labelledby="same-author-title">
+          <div class="section-intro">
+            <p class="section-label">Same thinker</p>
+            <h2 id="same-author-title">More from {quote.author}</h2>
+          </div>
+          <ol class="quote-list compact-list">
+            {sameAuthor.map((item) => (
+              <li class="quote-list-item">
+                <blockquote>{item.text}</blockquote>
+                <footer>
+                  <a href={`/quotes/${item.id.toLowerCase()}`}>{item.id}</a>
+                  <br />
+                  {canonicalizeTheme(item.themes[0] ?? "Philosophy")}
+                </footer>
+              </li>
+            ))}
+          </ol>
+          <p class="related-link">
+            <a href={`/thinkers/${slugify(quote.author)}`}>
+              All quotations by {quote.author}
+            </a>
+          </p>
+        </section>
+      )
+    }
+
+    {
+      sameTheme.length > 0 && (
+        <section class="related-block" aria-labelledby="same-theme-title">
+          <div class="section-intro">
+            <p class="section-label">Same theme</p>
+            <h2 id="same-theme-title">More on {primaryTheme.toLowerCase()}</h2>
+          </div>
+          <ol class="quote-list compact-list">
+            {sameTheme.map((item) => (
+              <li class="quote-list-item">
+                <blockquote>{item.text}</blockquote>
+                <footer>
+                  <a href={`/quotes/${item.id.toLowerCase()}`}>{item.author}</a>
+                  <br />
+                  {item.school}
+                </footer>
+              </li>
+            ))}
+          </ol>
+          <p class="related-link">
+            <a href={`/themes/${themeSlug(primaryTheme)}`}>
+              Browse the {primaryTheme.toLowerCase()} theme
+            </a>
+          </p>
+        </section>
+      )
+    }
+
+    {
+      relatedGuides.length > 0 && (
+        <nav class="guide-related" aria-label="Related guides">
+          <p class="eyebrow">Related guides</p>
+          <ul>
+            {relatedGuides.map((guide) => (
+              <li>
+                <a href={`/${guide.slug}`}>{guide.title}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
+
+    <nav class="quote-pager" aria-label="Adjacent quotations">
+      <a href={`/quotes/${prev.id.toLowerCase()}`}>← Previous: {prev.author}</a>
+      <a href={`/quotes/${next.id.toLowerCase()}`}>Next: {next.author} →</a>
+    </nav>
   </article>
 </BaseLayout>

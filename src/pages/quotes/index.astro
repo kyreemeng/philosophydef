@@ -1,31 +1,38 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import quotes from "../../data/quotes.json";
+import { canonicalizeTheme } from "../../lib/content";
 
 const firstPage = quotes.slice(0, 24);
-const allThemes = [...new Set(quotes.flatMap((quote) => quote.themes))].sort();
+const allThemes = [
+  ...new Set(quotes.flatMap((quote) => quote.themes.map(canonicalizeTheme))),
+].sort();
 const schema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  name: "Philosophy Quote Archive",
+  name: "Philosophy Quotes Archive",
   description:
-    "Browse curated English philosophy quotations by thinker, theme, and source.",
+    "Browse curated English philosophy quotations by thinker, theme, and source. Famous, short, and searchable passages from global traditions.",
   url: new URL("/quotes", Astro.site),
   numberOfItems: quotes.length,
 };
 ---
 
 <BaseLayout
-  title="Philosophy Quote Archive | Philosophy Blind Box"
-  description={`Browse ${quotes.length.toLocaleString("en-US")} curated English philosophy quotations, organized by thinker and theme.`}
+  title="Philosophy Quotes Archive | Famous & Short Quotes"
+  description={`Browse ${quotes.length.toLocaleString("en-US")} curated English philosophy quotes by thinker and theme. Search famous, short, and classic passages.`}
   canonical="/quotes"
   schema={schema}
 >
   <div class="page-shell">
     <header class="page-intro">
-      <h1>The quotation archive</h1>
+      <h1>Philosophy quotes archive</h1>
       <p>
         Search by thinker, theme, source, or a word from the English passage.
+        Start with
+        <a href="/quotes/famous">famous philosophy quotes</a>,
+        <a href="/quotes/short">short philosophy quotes</a>, or
+        <a href="/quotes/best">best philosophy quotes</a>.
       </p>
     </header>
 
@@ -60,7 +67,7 @@ const schema = {
               <footer>
                 <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
                 <br />
-                {quote.themes[0] ?? quote.school}
+                {canonicalizeTheme(quote.themes[0] ?? quote.school)}
               </footer>
             </li>
           ))
@@ -70,18 +77,15 @@ const schema = {
     </section>
   </div>
 
-  <script id="archive-data" type="application/json" set:html={JSON.stringify(quotes)} />
   <script>
-    const archive = JSON.parse(
-      document.querySelector("#archive-data")?.textContent || "[]",
-    );
     const list = document.querySelector("#quote-list");
     const search = document.querySelector("#quote-search");
     const themeFilter = document.querySelector("#theme-filter");
     const summary = document.querySelector("#results-summary");
     const loadMore = document.querySelector("#load-more");
+    let archive = [];
     let limit = 24;
-    let filtered = archive;
+    let filtered = [];
 
     function quoteCard(quote) {
       const item = document.createElement("li");
@@ -97,7 +101,7 @@ const schema = {
       footer.append(
         link,
         document.createElement("br"),
-        quote.themes[0] ?? quote.school,
+        quote.themes?.[0] ?? quote.school,
       );
 
       item.append(blockquote, footer);
@@ -113,13 +117,16 @@ const schema = {
           quote.author,
           quote.school,
           quote.source,
-          ...quote.themes,
+          ...(quote.themes || []),
         ]
           .join(" ")
           .toLocaleLowerCase();
         return (
           (!term || searchable.includes(term)) &&
-          (!selectedTheme || quote.themes.includes(selectedTheme))
+          (!selectedTheme ||
+            (quote.themes || []).some(
+              (theme) => theme.toLocaleLowerCase() === selectedTheme.toLocaleLowerCase(),
+            ))
         );
       });
       limit = 24;
@@ -147,15 +154,27 @@ const schema = {
       }
     }
 
-    const params = new URLSearchParams(location.search);
-    if (search && params.get("q")) search.value = params.get("q");
-    if (themeFilter && params.get("theme")) themeFilter.value = params.get("theme");
-    search?.addEventListener("input", applyFilters);
-    themeFilter?.addEventListener("change", applyFilters);
-    loadMore?.addEventListener("click", () => {
-      limit += 24;
-      render();
-    });
-    applyFilters();
+    async function boot() {
+      try {
+        const response = await fetch("/data/quotes-archive.json");
+        archive = await response.json();
+      } catch {
+        archive = [];
+      }
+      const params = new URLSearchParams(location.search);
+      if (search && params.get("q")) search.value = params.get("q") || "";
+      if (themeFilter && params.get("theme")) {
+        themeFilter.value = params.get("theme") || "";
+      }
+      search?.addEventListener("input", applyFilters);
+      themeFilter?.addEventListener("change", applyFilters);
+      loadMore?.addEventListener("click", () => {
+        limit += 24;
+        render();
+      });
+      applyFilters();
+    }
+
+    void boot();
   </script>
 </BaseLayout>

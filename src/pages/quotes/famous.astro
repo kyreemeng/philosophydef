@@ -1,0 +1,72 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import quotes from "../../data/quotes.json";
+import { canonicalizeTheme } from "../../lib/content";
+
+const famousAuthors = new Set([
+  "Socrates",
+  "Plato",
+  "Aristotle",
+  "Confucius",
+  "Laozi",
+  "Marcus Aurelius",
+  "Seneca",
+  "Epictetus",
+  "Friedrich Nietzsche",
+  "Immanuel Kant",
+  "René Descartes",
+  "Bertrand Russell",
+]);
+
+const selected = quotes
+  .filter((quote) => famousAuthors.has(quote.author) && quote.text.length <= 180)
+  .slice(0, 48);
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Famous Philosophy Quotes",
+  description:
+    "Famous philosophy quotes in verified English renderings from Socrates, Plato, Aristotle, Confucius, the Stoics, Nietzsche, and more.",
+  numberOfItems: selected.length,
+};
+---
+
+<BaseLayout
+  title="Famous Philosophy Quotes | Philosophy Blind Box"
+  description="Read famous philosophy quotes in clear English—from Socrates, Plato, Aristotle, Confucius, Marcus Aurelius, Nietzsche, and other enduring thinkers."
+  canonical="/quotes/famous"
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Curated selection</p>
+      <h1>Famous philosophy quotes</h1>
+      <p>
+        A compact gallery of widely recognized passages. Each line links to a full
+        archive entry with source context and related reading.
+      </p>
+    </header>
+
+    <ol class="quote-list">
+      {
+        selected.map((quote) => (
+          <li class="quote-list-item">
+            <blockquote>{quote.text}</blockquote>
+            <footer>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
+              <br />
+              {canonicalizeTheme(quote.themes[0] ?? quote.school)}
+            </footer>
+          </li>
+        ))
+      }
+    </ol>
+
+    <p class="related-link">
+      Continue in the <a href="/quotes">full archive</a>,
+      <a href="/quotes/short">short quotes</a>, or
+      <a href="/quotes/best">best quotes</a>.
+    </p>
+  </div>
+</BaseLayout>

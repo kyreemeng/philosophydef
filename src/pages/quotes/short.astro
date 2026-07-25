@@ -1,0 +1,57 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import quotes from "../../data/quotes.json";
+import { canonicalizeTheme } from "../../lib/content";
+
+const selected = quotes
+  .filter((quote) => quote.text.length <= 90)
+  .sort((a, b) => a.text.length - b.text.length)
+  .slice(0, 60);
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Short Philosophy Quotes",
+  description:
+    "Short philosophy quotes in English—compact sentences for reflection, teaching, and sharing.",
+  numberOfItems: selected.length,
+};
+---
+
+<BaseLayout
+  title="Short Philosophy Quotes | Philosophy Blind Box"
+  description="Browse short philosophy quotes in verified English. Compact lines on wisdom, freedom, virtue, life, and the examined self."
+  canonical="/quotes/short"
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Compact passages</p>
+      <h1>Short philosophy quotes</h1>
+      <p>
+        Brief English renderings selected for clarity. Useful for teaching, journaling,
+        or a first encounter with a thinker.
+      </p>
+    </header>
+
+    <ol class="quote-list">
+      {
+        selected.map((quote) => (
+          <li class="quote-list-item">
+            <blockquote>{quote.text}</blockquote>
+            <footer>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
+              <br />
+              {canonicalizeTheme(quote.themes[0] ?? quote.school)}
+            </footer>
+          </li>
+        ))
+      }
+    </ol>
+
+    <p class="related-link">
+      See also <a href="/quotes/famous">famous quotes</a> and the
+      <a href="/quotes">full archive</a>.
+    </p>
+  </div>
+</BaseLayout>

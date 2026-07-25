@@ -1,0 +1,88 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Sourcing Method",
+  description:
+    "How Philosophy Blind Box sources, verifies, and documents English philosophy quotations.",
+};
+---
+
+<BaseLayout
+  title="Sourcing Method | Philosophy Blind Box"
+  description="How we source philosophy quotations: reference works, translation checks, attribution review, and documentation standards."
+  canonical="/sourcing-method"
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <h1>Sourcing method</h1>
+      <p>
+        Every quotation in the archive should be traceable to a thinker, a tradition,
+        and a documented English rendering.
+      </p>
+    </header>
+
+    <div class="prose-layout">
+      <aside class="prose-aside">
+        <p>
+          Method before virality. A memorable sentence without a responsible source does
+          not belong here.
+        </p>
+      </aside>
+      <article class="prose">
+        <h2>Reference hierarchy</h2>
+        <p>
+          We prefer critical editions and widely used translations, then standard
+          handbooks and encyclopedias such as the Stanford Encyclopedia of Philosophy
+          and the Internet Encyclopedia of Philosophy for biographical and contextual
+          checks, then reputable historical surveys. Social media and unsourced quote
+          aggregators are not accepted as primary evidence.
+        </p>
+
+        <h2>Verification steps</h2>
+        <p>
+          For each candidate passage we ask: Who is the attributed author? In which work
+          or tradition does the line appear? Is the English wording attested in a
+          reliable translation? Does the sentence distort the surrounding argument when
+          removed from context?
+        </p>
+        <p>
+          Passages that fail attribution or distort meaning are rejected. Passages that
+          survive are tagged with school, source, and theme labels for discovery.
+        </p>
+
+        <h2>Theme labels</h2>
+        <p>
+          Themes are editorial access points for readers, not claims that a historical
+          author used the modern English category. Thin or duplicate theme labels are
+          merged into stronger canonical themes so that theme pages remain useful rather
+          than sparse.
+        </p>
+
+        <h2>Biographical notes</h2>
+        <p>
+          Thinker pages that include dates, works, and overviews follow mainstream
+          scholarly consensus (for example, Confucius 551–479 BCE; Socrates c. 469–399
+          BCE). Where historicity is debated—as with Laozi—we state the uncertainty
+          plainly.
+        </p>
+
+        <h2>AI and editorial responsibility</h2>
+        <p>
+          Drafting tools may assist organization, but attributions, dates, and
+          philosophical claims are checked against human-curated sources before
+          publication. The archive’s credibility depends on that review.
+        </p>
+
+        <h2>Related</h2>
+        <p>
+          Read the <a href="/editorial-policy">editorial policy</a> and
+          <a href="/about">about this archive</a>.
+        </p>
+      </article>
+    </div>
+  </div>
+</BaseLayout>

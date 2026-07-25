@@ -6,6 +6,7 @@ export type Guide = {
   intro: string;
   answer: string;
   sections: { heading: string; paragraphs: string[] }[];
+  faq?: { question: string; answer: string }[];
   related: { href: string; label: string }[];
   thinkers: string[];
 };
@@ -15,7 +16,7 @@ export const guides: Guide[] = [
     slug: "what-is-philosophy",
     title: "What Is Philosophy?",
     description:
-      "What is philosophy? A clear introduction to philosophical questions, methods, major branches, and why philosophy still matters.",
+      "What is philosophy? A clear introduction to philosophical questions, methods, major branches, and why philosophy still matters in 2026.",
     eyebrow: "A first question",
     intro:
       "Philosophy is the disciplined practice of asking fundamental questions about reality, knowledge, value, reason, mind, and how to live.",
@@ -27,21 +28,54 @@ export const guides: Guide[] = [
         paragraphs: [
           "Philosophers make arguments. They state a claim, give reasons for it, consider objections, and revise the claim when the reasons do not hold. This is why philosophy is more than having an opinion: an opinion becomes philosophical when it can be explained and examined.",
           "The work can be abstract, but its questions are ordinary. A decision about responsibility, a disagreement about truth, or a fear about death often contains a philosophical problem before anyone gives it that name.",
+          "In academic settings, philosophy also means a set of specialties with journals, methods, and historical canons. In everyday life, the same habits of clarity and criticism help people revise beliefs without mistaking confidence for evidence.",
         ],
       },
       {
         heading: "The main branches of philosophy",
         paragraphs: [
           "Metaphysics asks what exists and what reality is like. Epistemology asks what knowledge is and how belief can be justified. Ethics asks how we ought to act and what makes a life good. Logic studies good reasoning. Political philosophy asks how power, rights, and institutions should be arranged.",
-          "Other branches focus on particular subjects, including language, science, education, history, art, religion, law, technology, and artificial intelligence.",
+          "Other branches focus on particular subjects, including language, science, education, history, art, religion, law, technology, and artificial intelligence. A useful map is not a prison: many problems cross branch boundaries.",
+          "Comparative philosophy studies these questions across Greek, Chinese, Indian, African, Islamic, and other traditions without treating one timeline as the only center.",
+        ],
+      },
+      {
+        heading: "How philosophy differs from science and opinion",
+        paragraphs: [
+          "Science often settles empirical questions with observation, experiment, and modeling. Philosophy asks what those methods presuppose: what counts as evidence, what explanation is, and which values should guide applications of knowledge.",
+          "Opinion expresses a stance. Philosophy asks for reasons that can be shared, challenged, and improved. The difference is not that philosophers lack commitments; it is that commitments are kept answerable to argument.",
         ],
       },
       {
         heading: "Why philosophy matters",
         paragraphs: [
-          "Philosophy does not replace science, history, or personal experience. It asks questions those fields may presuppose: what counts as evidence, what explanation means, and what values should guide an application of knowledge.",
-          "Its practical value is intellectual responsibility. It helps us distinguish a strong reason from a persuasive slogan, recognize uncertainty, and act with more deliberate judgment.",
+          "Philosophy does not replace science, history, or personal experience. Its practical value is intellectual responsibility: distinguishing a strong reason from a persuasive slogan, recognizing uncertainty, and acting with more deliberate judgment.",
+          "It also matters publicly. Debates about AI, education, medicine, speech, and justice continually reopen philosophical questions about agency, fairness, knowledge, and the good life—whether or not participants use the word philosophy.",
         ],
+      },
+      {
+        heading: "How to begin",
+        paragraphs: [
+          "Begin with a live question rather than a reading list alone. Ask what freedom, knowledge, or a good life would have to mean for your current disagreement to make sense. Then read a short primary passage slowly.",
+          "This archive is designed for that first encounter: a verified English quotation, followed by thinker and theme pages that widen the context without pretending to replace a full education.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is philosophy in simple terms?",
+        answer:
+          "Philosophy is careful thinking about fundamental questions—reality, knowledge, value, and how to live—using reasons that can be examined by others.",
+      },
+      {
+        question: "Is philosophy still useful?",
+        answer:
+          "Yes. Wherever people must choose under uncertainty, justify institutions, or interpret new technologies, philosophical clarity about concepts and values remains practical.",
+      },
+      {
+        question: "What are the main branches of philosophy?",
+        answer:
+          "Core branches include metaphysics, epistemology, ethics, logic, and political philosophy, with further specialties such as philosophy of mind, language, science, and AI.",
       },
     ],
     related: [
@@ -176,7 +210,7 @@ export const guides: Guide[] = [
     slug: "philosophy-of-ai",
     title: "Philosophy of AI",
     description:
-      "An introduction to the philosophy of AI: intelligence, consciousness, agency, bias, responsibility, and the ethics of artificial intelligence.",
+      "Philosophy of AI in 2026: intelligence vs consciousness, knowledge and explanation, ethics, responsibility, and whether AI systems could be welfare subjects.",
     eyebrow: "Technology and thought",
     intro:
       "The philosophy of AI examines what artificial intelligence is, what it can know or do, and how people should design, use, and govern it.",
@@ -187,6 +221,7 @@ export const guides: Guide[] = [
         heading: "Intelligence, understanding, and consciousness",
         paragraphs: [
           "A system can perform a task intelligently without settling whether it understands the task. Philosophers distinguish behavior, representation, reasoning, experience, and consciousness because success on one dimension does not automatically establish the others.",
+          "Recent work in AI & Society and related venues argues that generative models can be cognitively significant contributors to knowledge production without meeting conditions for full cognitive subjecthood—especially where robust intentionality, metacognitive self-representation, and consciousness-related indicators remain unestablished.",
           "The question matters for how we describe systems and what moral status, if any, they could have. It also clarifies the limits of comparisons between human and machine cognition.",
         ],
       },
@@ -194,21 +229,47 @@ export const guides: Guide[] = [
         heading: "Knowledge, evidence, and explanation",
         paragraphs: [
           "AI systems can produce predictions, classifications, and language, but users still need to ask what data supports an output, how reliable it is in a context, and when a human explanation is required.",
-          "A useful AI policy distinguishes assistance from authority. High-stakes decisions in areas such as health, employment, education, and law need clear accountability and opportunities to challenge an error.",
+          "Epistemic questions now include whether models “know,” whether they can explain, and how they change norms of inquiry. A useful AI policy distinguishes assistance from authority. High-stakes decisions in health, employment, education, and law need clear accountability and routes to challenge error.",
         ],
       },
       {
-        heading: "Ethics and governance",
+        heading: "Ethics, welfare, and governance",
         paragraphs: [
           "Ethical questions include fairness, privacy, manipulation, surveillance, labor, safety, and the distribution of benefits and risks. No single principle resolves all of them; trade-offs should be explicit and open to public scrutiny.",
-          "Responsible AI requires more than a statement of values. It requires evaluation, documentation, human oversight proportionate to risk, and routes for correction when harm occurs.",
+          "A newer debate asks whether advanced systems could become welfare subjects—entities whose interests matter morally—if they developed consciousness, affective valence, or related capacities. Most current scholarship does not treat today’s systems as conscious, but precautionary frameworks are being proposed for uncertainty rather than premature personhood claims.",
+          "Responsible AI requires evaluation, documentation, human oversight proportionate to risk, and correction when harm occurs. Values statements are not enough without institutional design.",
         ],
+      },
+      {
+        heading: "What to read next in this archive",
+        paragraphs: [
+          "Passages on mind, responsibility, language, and knowledge provide classical pressure tests for modern AI claims: What is understanding? Who is accountable? What counts as a reason?",
+          "Use the related themes and thinkers below as compact entry points, then return to primary philosophical texts and contemporary technical documentation for deeper study.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the philosophy of AI?",
+        answer:
+          "It is the philosophical study of artificial intelligence—covering mind, knowledge, ethics, politics, and the concepts we use to describe machine behavior.",
+      },
+      {
+        question: "Can AI be conscious?",
+        answer:
+          "That remains unsettled. Most researchers treat current systems as non-conscious while developing indicator frameworks and precautionary approaches for future uncertainty.",
+      },
+      {
+        question: "Who is responsible for AI decisions?",
+        answer:
+          "Responsibility typically remains with designers, deployers, and institutions that choose to automate. Philosophical analysis clarifies roles; law and policy assign duties.",
       },
     ],
     related: [
       { href: "/themes/mind", label: "Quotes on mind" },
       { href: "/themes/responsibility", label: "Quotes on responsibility" },
       { href: "/philosophy-of-science", label: "Philosophy of science" },
+      { href: "/philosophy-of-language", label: "Philosophy of language" },
     ],
     thinkers: ["Alan Turing", "Ludwig Wittgenstein", "Hannah Arendt"],
   },
@@ -441,8 +502,25 @@ export const guides: Guide[] = [
         heading: "Debate, diversity, and influence",
         paragraphs: [
           "Mohist thinkers argued for impartial concern and practical standards, while Legalist approaches emphasized institutions and state power. Buddhist philosophy, transmitted and transformed in China, contributed major reflections on mind, suffering, and emptiness.",
-          "Chinese philosophy continues to shape ethical, political, educational, and ecological conversations worldwide.",
+          "Chinese philosophy continues to shape ethical, political, educational, and ecological conversations worldwide. In this archive, Confucius (551–479 BCE), Mencius (c. 372–289 BCE), Laozi (traditional attribution; historicity debated), and Zhuangzi (late 4th century BCE) are entry points into living traditions rather than a closed museum.",
         ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is Chinese philosophy?",
+        answer:
+          "It is a family of traditions—including Confucian, Daoist, Mohist, Legalist, and Buddhist currents—that examine ethics, governance, nature, language, and cultivation.",
+      },
+      {
+        question: "Who are the main Chinese philosophers to start with?",
+        answer:
+          "Confucius and Mencius for Confucian ethics; Laozi and Zhuangzi for Daoist thought. Each is represented in this archive with verified English quotations.",
+      },
+      {
+        question: "Is Laozi a historical person?",
+        answer:
+          "Traditional accounts place Laozi in the sixth century BCE, but many modern scholars treat the figure as legendary and the Daodejing as a layered compilation.",
       },
     ],
     related: [
