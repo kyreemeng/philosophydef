@@ -1,10 +1,11 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
-import { resolve } from "node:path";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 
+const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const sourcePath =
-  process.argv[2] ??
-  "/Users/kyree/Desktop/obsidian/Philosophy/philosophy_quotes_curated.md";
-const outputPath = resolve("src/data/quotes.json");
+  process.argv[2] ?? resolve(root, "data/philosophy_quotes_curated.md");
+const outputPath = resolve(root, "src/data/quotes.json");
 const markdown = await readFile(sourcePath, "utf8");
 const lines = markdown.split(/\r?\n/);
 
@@ -160,7 +161,7 @@ if (missingThemes.length) {
   );
 }
 
-await mkdir(resolve("src/data"), { recursive: true });
+await mkdir(resolve(root, "src/data"), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(quotes, null, 2)}\n`, "utf8");
 
 const authorCount = new Set(quotes.map((quote) => quote.author)).size;

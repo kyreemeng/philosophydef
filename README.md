@@ -30,8 +30,12 @@ npm run preview
 Rebuild quotations from the curated Markdown source:
 
 ```bash
+npm run build:quotes
+# or with an alternate path:
 npm run build:quotes -- /path/to/philosophy_quotes_curated.md
 ```
+
+Default source: `data/philosophy_quotes_curated.md`
 
 ## Site map
 
