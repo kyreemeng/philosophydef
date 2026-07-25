@@ -1,5 +1,6 @@
 import type { Quote } from "../lib/content";
 import { extraThinkerGuides } from "./thinkers-extra";
+import { researchedThinkerGuides } from "./thinkers-researched";
 
 export type ThemeGuide = {
   intro: string;
@@ -568,6 +569,7 @@ export const coreThinkerGuides: Record<string, ThinkerGuide> = {
 export const thinkerGuides: Record<string, ThinkerGuide> = {
   ...coreThinkerGuides,
   ...extraThinkerGuides,
+  ...researchedThinkerGuides,
 };
 
 export function themeGuideFor(name: string): ThemeGuide | undefined {

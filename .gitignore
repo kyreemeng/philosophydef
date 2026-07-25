@@ -16,3 +16,6 @@ npm-debug.log*
 
 # local quote expansion scratch files
 quote_candidates*.json
+
+# research scratch
+tmp/
