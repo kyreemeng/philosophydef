@@ -1,8 +1,9 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { themeGroups } from "../../lib/content";
+import { shouldIndexTheme } from "../../lib/indexing";
 
-const themes = themeGroups();
+const themes = themeGroups().filter(shouldIndexTheme);
 const themeCopy: Record<string, string> = {
   Knowledge: "What can we know, and where does certainty end?",
   Truth: "How truth is claimed, contested, and lived.",

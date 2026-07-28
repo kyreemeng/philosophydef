@@ -5,12 +5,15 @@ import {
   themeGroups,
 } from "../../../lib/content";
 import { thinkerGuideFor, themeGuideFor, defaultThemeGuide } from "../../../data/enrichment";
+import { shouldIndexThinkerThemePair } from "../../../lib/indexing";
 
 export function getStaticPaths() {
-  return thinkerThemePairs(2).map((pair) => ({
+  return thinkerThemePairs(4)
+    .filter(shouldIndexThinkerThemePair)
+    .map((pair) => ({
     params: { thinker: pair.authorSlug, theme: pair.themeSlug },
     props: { pair },
-  }));
+    }));
 }
 
 const { pair } = Astro.props;
@@ -76,7 +79,7 @@ const schema = [
         name: `Where can I find ${pair.author.toLowerCase()} quotes on ${pair.theme.toLowerCase()}?`,
         acceptedAnswer: {
           "@type": "Answer",
-          text: `Philosophy Blind Box curates ${pair.author} quotations on ${pair.theme.toLowerCase()} at ${pageUrl}, with links to the full thinker page and theme index.`,
+          text: `Philosophy Blind Box curates ${pair.author} quotations on ${pair.theme.toLowerCase()} at ${new URL(pageUrl, Astro.site)}, with links to the full thinker page and theme index.`,
         },
       },
     ],

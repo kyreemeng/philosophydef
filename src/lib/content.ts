@@ -110,7 +110,12 @@ export function quoteTitle(quote: Quote) {
 }
 
 export function quoteDescription(quote: Quote) {
-  return `${quote.author}: “${quote.text}”`.slice(0, 155);
+  const theme = canonicalizeTheme(quote.themes[0] ?? "Philosophy").toLowerCase();
+  const source = quote.source ? ` from ${quote.source}` : "";
+  return `${quote.author} on ${theme}${source}: “${truncateWords(quote.text, 18)}”`.slice(
+    0,
+    155,
+  );
 }
 
 export function relatedByAuthor(quote: Quote, limit = 5) {

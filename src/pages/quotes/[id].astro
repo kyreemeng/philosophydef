@@ -11,8 +11,10 @@ import {
   relatedByTheme,
   slugify,
   themeSlug,
+  truncateWords,
 } from "../../lib/content";
 import { guides } from "../../data/guides";
+import { shouldIndexThinkerThemePair } from "../../lib/indexing";
 
 export function getStaticPaths() {
   return quotes.map((quote) => ({
@@ -38,11 +40,21 @@ const relatedGuides = guides
       guide.title.toLowerCase().includes(primaryTheme.toLowerCase()),
   )
   .slice(0, 3);
+const thinkerThemeQuotes = quotes.filter(
+  (item) =>
+    item.author === quote.author &&
+    item.themes.some((theme) => canonicalizeTheme(theme) === primaryTheme),
+);
+const hasIndexableThinkerThemePage = shouldIndexThinkerThemePair({
+  author: quote.author,
+  theme: primaryTheme,
+  quotes: thinkerThemeQuotes,
+});
 
 const context =
   quote.source && quote.source !== "Tradition"
-    ? `This English passage is associated with ${quote.source}, within the tradition of ${quote.school}. The wording below is a verified rendering prepared for careful reading rather than a claim of unique translation authority.`
-    : `This English passage belongs to the ${quote.school} tradition. Attribution and wording have been checked against reliable sources used by this archive; where a single definitive source text is contested, the entry records the most widely recognized attribution.`;
+    ? `Archive record: this English passage is associated with ${quote.source}, within the ${quote.school} tradition. Use the cited work or edition when a scholarly attribution is needed.`
+    : `Archive record: this English passage is filed under the ${quote.school} tradition. The page preserves the available attribution and identifies the tradition where a single work is not recorded.`;
 
 const commentary = `Read in the register of ${primaryTheme.toLowerCase()}, the sentence asks the reader to test an assumption rather than to collect a slogan. In ${quote.author}'s wider work, similar claims are usually offered as prompts for judgment: what would have to be true for the sentence to hold, and what would follow if it did?`;
 
@@ -102,8 +114,11 @@ const schema = [
   <article class="page-shell">
     <header class="page-intro">
       <p class="eyebrow">{quote.id}</p>
-      <h1>{quote.author}</h1>
-      <p>A verified English rendering from the curated archive.</p>
+      <h1>“{truncateWords(quote.text, 12)}” — {quote.author} ({quote.id})</h1>
+      <p>
+        An English quotation associated with {quote.source || quote.school},
+        organized here under {primaryTheme.toLowerCase()}.
+      </p>
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/quotes">Quotes</a>
         <span aria-hidden="true">/</span>
@@ -170,6 +185,16 @@ const schema = [
         <p><strong>Chicago:</strong> {citations.chicago}</p>
       </div>
     </section>
+
+    {
+      hasIndexableThinkerThemePage && (
+        <p class="related-link">
+          <a href={`/thinkers/${slugify(quote.author)}/${themeSlug(primaryTheme)}`}>
+            Explore {quote.author} on {primaryTheme.toLowerCase()}
+          </a>
+        </p>
+      )
+    }
 
     {
       sameAuthor.length > 0 && (

@@ -4,6 +4,8 @@ import quotes from "../../data/quotes.json";
 import { canonicalizeTheme } from "../../lib/content";
 
 const firstPage = quotes.slice(0, 24);
+const pageSize = 24;
+const totalPages = Math.ceil(quotes.length / pageSize);
 const allThemes = [
   ...new Set(quotes.flatMap((quote) => quote.themes.map(canonicalizeTheme))),
 ].sort();
@@ -76,6 +78,10 @@ const schema = {
         }
       </ol>
       <button class="load-more" id="load-more" type="button">Show more</button>
+      <nav class="quote-pager" aria-label="Quote archive pages">
+        <span>Page 1 of {totalPages}</span>
+        <a href="/quotes/page/2">Next page →</a>
+      </nav>
     </section>
   </div>
 

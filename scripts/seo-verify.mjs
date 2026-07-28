@@ -9,6 +9,7 @@
  */
 
 const baseUrl = (process.argv[2] || "https://www.philosophydef.com").replace(/\/$/, "");
+const canonicalBaseUrl = "https://www.philosophydef.com";
 
 const checks = [
   { path: "/", expectTypes: ["WebSite"] },
@@ -21,6 +22,7 @@ const checks = [
   { path: "/what-is-philosophy", expectTypes: ["Article"] },
   { path: "/editorial-policy", expectTypes: [] },
   { path: "/sitemap-index.xml", expectTypes: [], isXml: true },
+  { path: "/sitemap.xml", expectTypes: [], isXml: true },
 ];
 
 function extractTypes(html) {
@@ -95,6 +97,65 @@ async function checkOgAsset() {
   }
 }
 
+async function checkRedirect(url, expectedLocation) {
+  try {
+    const res = await fetch(url, { method: "HEAD", redirect: "manual" });
+    const location = res.headers.get("location");
+    return {
+      url,
+      status: res.status,
+      location,
+      ok: [301, 302, 307, 308].includes(res.status) && location === expectedLocation,
+    };
+  } catch (error) {
+    return { url, status: 0, ok: false, error: String(error.message || error) };
+  }
+}
+
+async function checkSitemap() {
+  try {
+    const [index, alias] = await Promise.all([
+      fetchText(`${baseUrl}/sitemap-index.xml`),
+      fetchText(`${baseUrl}/sitemap.xml`),
+    ]);
+    const locations = [...index.text.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+    const childSitemaps = await Promise.all(
+      locations.map((location) => fetchText(`${baseUrl}${new URL(location).pathname}`)),
+    );
+    const sitemapUrls = childSitemaps.flatMap((sitemap) =>
+      [...sitemap.text.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]),
+    );
+    const allCanonical = sitemapUrls.every((location) =>
+      location.startsWith(canonicalBaseUrl),
+    );
+    const aliasMatchesIndex = alias.text === index.text;
+    const forbiddenUrls = [
+      `${canonicalBaseUrl}/themes/philosophy`,
+      `${canonicalBaseUrl}/themes/conscience`,
+      `${canonicalBaseUrl}/thinkers/plutarch`,
+    ];
+    const containsForbiddenUrl = forbiddenUrls.some((url) =>
+      childSitemaps.some((sitemap) => sitemap.text.includes(`<loc>${url}</loc>`)),
+    );
+    return {
+      status: index.status,
+      sitemapCount: sitemapUrls.length,
+      allCanonical,
+      aliasMatchesIndex,
+      containsForbiddenUrl,
+      ok:
+        index.status === 200 &&
+        alias.status === 200 &&
+        sitemapUrls.length > 0 &&
+        allCanonical &&
+        aliasMatchesIndex &&
+        !containsForbiddenUrl,
+    };
+  } catch (error) {
+    return { status: 0, ok: false, error: String(error.message || error) };
+  }
+}
+
 async function pageSpeed(path) {
   const target = `${baseUrl}${path}`;
   const api = `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${encodeURIComponent(target)}&strategy=mobile&category=PERFORMANCE`;
@@ -139,6 +200,24 @@ for (const item of checks) {
 const og = await checkOgAsset();
 console.log(`[${og.ok ? "OK" : "FAIL"}] OG asset ${og.url} status=${og.status}`);
 
+const sitemap = await checkSitemap();
+console.log(
+  `[${sitemap.ok ? "OK" : "FAIL"}] Sitemap alias/index status=${sitemap.status}` +
+    ` children=${sitemap.sitemapCount || 0}` +
+    ` canonical=${sitemap.allCanonical ?? false}` +
+    ` alias=${sitemap.aliasMatchesIndex ?? false}` +
+    ` excludedThinUrls=${!sitemap.containsForbiddenUrl}`,
+);
+
+const redirect = await checkRedirect(
+  "https://philosophydef.com/",
+  "https://www.philosophydef.com/",
+);
+console.log(
+  `[${redirect.ok ? "OK" : "FAIL"}] Apex canonical redirect status=${redirect.status}` +
+    ` location=${redirect.location || "-"}`,
+);
+
 console.log("\nPageSpeed Insights (mobile)...");
 const psiPaths = ["/", "/quotes/q0001", "/quotes/about/love"];
 const psiResults = [];
@@ -162,5 +241,5 @@ for (const path of ["/quotes/q0001", "/themes/freedom", "/thinkers/socrates", "/
   );
 }
 
-const failed = [...pageResults, og].filter((r) => !r.ok);
+const failed = [...pageResults, og, sitemap, redirect].filter((r) => !r.ok);
 process.exit(failed.length ? 1 : 0);

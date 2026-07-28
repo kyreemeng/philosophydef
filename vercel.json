@@ -5,5 +5,2153 @@
   "outputDirectory": "dist",
   "installCommand": "",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "philosophydef.com"
+        }
+      ],
+      "destination": "https://www.philosophydef.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/themes/absolute",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/absurd",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/acceptance",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/accumulation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/activity",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/actuality",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/adaptation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/adversity",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/aesthetics",
+      "destination": "/themes/beauty",
+      "permanent": true
+    },
+    {
+      "source": "/themes/age",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/aim",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/anger",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/anxiety",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/art",
+      "destination": "/themes/beauty",
+      "permanent": true
+    },
+    {
+      "source": "/themes/artifice",
+      "destination": "/themes/beauty",
+      "permanent": true
+    },
+    {
+      "source": "/themes/aspiration",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/attachment",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/attitude",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/awareness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/awe",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/balance",
+      "destination": "/themes/order",
+      "permanent": true
+    },
+    {
+      "source": "/themes/barrier",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/becoming",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/beginning",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/beginnings",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/belief",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/bias",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/blessedness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/body",
+      "destination": "/themes/nature",
+      "permanent": true
+    },
+    {
+      "source": "/themes/buddha-nature",
+      "destination": "/themes/nature",
+      "permanent": true
+    },
+    {
+      "source": "/themes/calm",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/care",
+      "destination": "/themes/love",
+      "permanent": true
+    },
+    {
+      "source": "/themes/causality",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/caution",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/chaos",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/cheerfulness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/circumstance",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/civilization",
+      "destination": "/themes/society",
+      "permanent": true
+    },
+    {
+      "source": "/themes/clarity",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/coexistence",
+      "destination": "/themes/being",
+      "permanent": true
+    },
+    {
+      "source": "/themes/commitment",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/common-sense",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/comparison",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/compassion",
+      "destination": "/themes/love",
+      "permanent": true
+    },
+    {
+      "source": "/themes/compensation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/complete-life",
+      "destination": "/themes/life",
+      "permanent": true
+    },
+    {
+      "source": "/themes/completion",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/composure",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/concentration",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/concepts",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/concreteness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/conjecture",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/consciousness",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/contemplation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/contract",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/control",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/conversion",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/cooperation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/correction",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/corruption",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/cosmic-kinship",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/cosmos",
+      "destination": "/themes/nature",
+      "permanent": true
+    },
+    {
+      "source": "/themes/cost",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/creativity",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/criterion",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/criticism",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/cruelty",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/culture",
+      "destination": "/themes/society",
+      "permanent": true
+    },
+    {
+      "source": "/themes/custom",
+      "destination": "/themes/society",
+      "permanent": true
+    },
+    {
+      "source": "/themes/cut-off",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/danger",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/dark-times",
+      "destination": "/themes/time",
+      "permanent": true
+    },
+    {
+      "source": "/themes/debate",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/decision",
+      "destination": "/themes/choice",
+      "permanent": true
+    },
+    {
+      "source": "/themes/decrease",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/deliberation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/delight",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/delight-in-work",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/delusion-and-awakening",
+      "destination": "/themes/awakening",
+      "permanent": true
+    },
+    {
+      "source": "/themes/democracy",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/despair",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/destiny",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/detail",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/dialectic",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/difference",
+      "destination": "/themes/otherness",
+      "permanent": true
+    },
+    {
+      "source": "/themes/difficulty",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/discernment",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/distinction",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/distraction",
+      "destination": "/themes/action",
+      "permanent": true
+    },
+    {
+      "source": "/themes/doubt",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/dream",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/drive",
+      "destination": "/themes/desire",
+      "permanent": true
+    },
+    {
+      "source": "/themes/duration",
+      "destination": "/themes/time",
+      "permanent": true
+    },
+    {
+      "source": "/themes/duty",
+      "destination": "/themes/morality",
+      "permanent": true
+    },
+    {
+      "source": "/themes/dynamism",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/earning",
+      "destination": "/themes/learning",
+      "permanent": true
+    },
+    {
+      "source": "/themes/ease",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/effects",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/elucidation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/emancipation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/emotion",
+      "destination": "/themes/desire",
+      "permanent": true
+    },
+    {
+      "source": "/themes/emptiness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/encounter",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/envy",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/epistemology",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/equality-of-things",
+      "destination": "/themes/equality",
+      "permanent": true
+    },
+    {
+      "source": "/themes/error",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/eternal-recurrence",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/everyday",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/evidence",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/evil",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/evolution",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/examination",
+      "destination": "/themes/self-examination",
+      "permanent": true
+    },
+    {
+      "source": "/themes/example",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/excellence",
+      "destination": "/themes/virtue",
+      "permanent": true
+    },
+    {
+      "source": "/themes/expression",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/extending-knowledge",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/extension-of-care",
+      "destination": "/themes/love",
+      "permanent": true
+    },
+    {
+      "source": "/themes/facts",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/faith-and-reason",
+      "destination": "/themes/reason",
+      "permanent": true
+    },
+    {
+      "source": "/themes/falsification",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/fanaticism",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/feeling",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/finitude",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/flexibility",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/focus",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/foresight",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/forgetting-self",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/forgetting-the-means",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/forgiveness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/formation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/fortune",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/forward",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/foundation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/four-sprouts",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/gain-and-loss",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/generosity",
+      "destination": "/themes/love",
+      "permanent": true
+    },
+    {
+      "source": "/themes/goal",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/good-and-evil",
+      "destination": "/themes/morality",
+      "permanent": true
+    },
+    {
+      "source": "/themes/good-life",
+      "destination": "/themes/morality",
+      "permanent": true
+    },
+    {
+      "source": "/themes/good-will",
+      "destination": "/themes/freedom",
+      "permanent": true
+    },
+    {
+      "source": "/themes/goodness",
+      "destination": "/themes/morality",
+      "permanent": true
+    },
+    {
+      "source": "/themes/governance",
+      "destination": "/themes/power",
+      "permanent": true
+    },
+    {
+      "source": "/themes/grace",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/greatness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/hardness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/harm-principle",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/harmony",
+      "destination": "/themes/order",
+      "permanent": true
+    },
+    {
+      "source": "/themes/harmony-in-difference",
+      "destination": "/themes/order",
+      "permanent": true
+    },
+    {
+      "source": "/themes/hatred",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/heart",
+      "destination": "/themes/beauty",
+      "permanent": true
+    },
+    {
+      "source": "/themes/heaven",
+      "destination": "/themes/god",
+      "permanent": true
+    },
+    {
+      "source": "/themes/highest-good",
+      "destination": "/themes/morality",
+      "permanent": true
+    },
+    {
+      "source": "/themes/history",
+      "destination": "/themes/time",
+      "permanent": true
+    },
+    {
+      "source": "/themes/history-of-philosophy",
+      "destination": "/themes/time",
+      "permanent": true
+    },
+    {
+      "source": "/themes/honesty",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/horizon",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/human",
+      "destination": "/themes/humanity",
+      "permanent": true
+    },
+    {
+      "source": "/themes/human-life",
+      "destination": "/themes/life",
+      "permanent": true
+    },
+    {
+      "source": "/themes/ideal",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/ideas",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/identity",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/ignorance",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/illumination",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/imagination",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/immediacy",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/impartial-care",
+      "destination": "/themes/love",
+      "permanent": true
+    },
+    {
+      "source": "/themes/impermanence",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/inclusiveness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/independent-thought",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/individual",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/individuality",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/infinity",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/inheritance",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/innate-knowing",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/inner-conflict",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/inner-life",
+      "destination": "/themes/life",
+      "permanent": true
+    },
+    {
+      "source": "/themes/inner-strength",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/insight",
+      "destination": "/themes/wisdom",
+      "permanent": true
+    },
+    {
+      "source": "/themes/inspiration",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/integrity",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/integrity-of-mind",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/intellect",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/interest",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/interior",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/interiority",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/intrinsic-good",
+      "destination": "/themes/morality",
+      "permanent": true
+    },
+    {
+      "source": "/themes/introspection",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/intuition",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/investigation-of-things",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/joy",
+      "destination": "/themes/life",
+      "permanent": true
+    },
+    {
+      "source": "/themes/karma",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/kindness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/knowing",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/knowing-and-doing",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/knowing-others",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/knowledge-and-action",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/koan",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/ladder",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/law",
+      "destination": "/themes/power",
+      "permanent": true
+    },
+    {
+      "source": "/themes/leisure",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/light",
+      "destination": "/themes/enlightenment",
+      "permanent": true
+    },
+    {
+      "source": "/themes/limit",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/limitation",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/limits-of-knowledge",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/livelihood",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/looking",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/luminosity",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/making",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/mastery",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/maturity",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/mean",
+      "destination": "/themes/meaning",
+      "permanent": true
+    },
+    {
+      "source": "/themes/mean-and-harmony",
+      "destination": "/themes/order",
+      "permanent": true
+    },
+    {
+      "source": "/themes/measure",
+      "destination": "/themes/order",
+      "permanent": true
+    },
+    {
+      "source": "/themes/mindset",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/mission",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/misunderstanding",
+      "destination": "/themes/understanding",
+      "permanent": true
+    },
+    {
+      "source": "/themes/modeling",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/moral-sense",
+      "destination": "/themes/morality",
+      "permanent": true
+    },
+    {
+      "source": "/themes/motivation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/motive",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/movement",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/mutual-benefit",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/myriad-things",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/natality",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/nation",
+      "destination": "/themes/self-examination",
+      "permanent": true
+    },
+    {
+      "source": "/themes/natural-law",
+      "destination": "/themes/power",
+      "permanent": true
+    },
+    {
+      "source": "/themes/natural-rights",
+      "destination": "/themes/justice",
+      "permanent": true
+    },
+    {
+      "source": "/themes/non-abiding",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/non-action",
+      "destination": "/themes/action",
+      "permanent": true
+    },
+    {
+      "source": "/themes/non-attachment",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/non-blaming",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/non-contention",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/non-duality",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/non-hatred",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/non-self",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/nourishing-life",
+      "destination": "/themes/life",
+      "permanent": true
+    },
+    {
+      "source": "/themes/nurturing-life",
+      "destination": "/themes/life",
+      "permanent": true
+    },
+    {
+      "source": "/themes/obligation",
+      "destination": "/themes/responsibility",
+      "permanent": true
+    },
+    {
+      "source": "/themes/old-age",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/oneness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/open-society",
+      "destination": "/themes/society",
+      "permanent": true
+    },
+    {
+      "source": "/themes/openness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/opinion",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/opposition",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/optimism",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/ordinary",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/ordinary-mind",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/orientation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/original-mind",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/origins",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/other",
+      "destination": "/themes/otherness",
+      "permanent": true
+    },
+    {
+      "source": "/themes/others",
+      "destination": "/themes/otherness",
+      "permanent": true
+    },
+    {
+      "source": "/themes/overcoming",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/ownership",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/pain",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/parsimony",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/passage",
+      "destination": "/themes/wisdom",
+      "permanent": true
+    },
+    {
+      "source": "/themes/passion",
+      "destination": "/themes/desire",
+      "permanent": true
+    },
+    {
+      "source": "/themes/path",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/patience",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/peace",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/perception",
+      "destination": "/themes/experience",
+      "permanent": true
+    },
+    {
+      "source": "/themes/perfection",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/personality",
+      "destination": "/themes/humanity",
+      "permanent": true
+    },
+    {
+      "source": "/themes/personhood",
+      "destination": "/themes/humanity",
+      "permanent": true
+    },
+    {
+      "source": "/themes/perspective",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/petition",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/plato",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/play",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/pleasure",
+      "destination": "/themes/life",
+      "permanent": true
+    },
+    {
+      "source": "/themes/pleasure-and-pain",
+      "destination": "/themes/life",
+      "permanent": true
+    },
+    {
+      "source": "/themes/plurality",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/polarity",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/pragmatism",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/prayer",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/precept",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/preparation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/presence",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/present",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/prevention",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/principle",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/priority",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/problems",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/process",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/progress",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/property",
+      "destination": "/themes/wealth",
+      "permanent": true
+    },
+    {
+      "source": "/themes/propriety",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/prudence",
+      "destination": "/themes/wisdom",
+      "permanent": true
+    },
+    {
+      "source": "/themes/pure-experience",
+      "destination": "/themes/experience",
+      "permanent": true
+    },
+    {
+      "source": "/themes/purification",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/purity",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/purpose",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/quality",
+      "destination": "/themes/equality",
+      "permanent": true
+    },
+    {
+      "source": "/themes/quiet",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/rarity",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/reading",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/reality",
+      "destination": "/themes/being",
+      "permanent": true
+    },
+    {
+      "source": "/themes/realization",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/realm",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/realms",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/rebellion",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/reception",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/reciprocity",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/recognition",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/recollection",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/rectifying-mind",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/redemption",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/reflection",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/reform",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/refuge",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/regret",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/relativism",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/religion",
+      "destination": "/themes/god",
+      "permanent": true
+    },
+    {
+      "source": "/themes/renewal",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/resilience",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/resolve",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/resonance",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/respect",
+      "destination": "/themes/dignity",
+      "permanent": true
+    },
+    {
+      "source": "/themes/rest",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/restlessness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/restraint",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/revolt",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/rhythm",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/right-way",
+      "destination": "/themes/morality",
+      "permanent": true
+    },
+    {
+      "source": "/themes/rights",
+      "destination": "/themes/justice",
+      "permanent": true
+    },
+    {
+      "source": "/themes/ritual",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/role",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/root",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/root-and-branch",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/rule",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/sacred",
+      "destination": "/themes/god",
+      "permanent": true
+    },
+    {
+      "source": "/themes/scientific-spirit",
+      "destination": "/themes/god",
+      "permanent": true
+    },
+    {
+      "source": "/themes/seasons",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/security",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/seeking",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/selection",
+      "destination": "/themes/choice",
+      "permanent": true
+    },
+    {
+      "source": "/themes/self-acceptance",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/self-and-thing",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/self-control",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/self-cultivation",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/self-effort",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/self-help",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/self-knowledge",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/self-mastery",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/self-nature",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/self-reliance",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/self-restraint",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/self-strength",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/self-strengthening",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/senses",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/settled-principle",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/silence",
+      "destination": "/themes/language",
+      "permanent": true
+    },
+    {
+      "source": "/themes/situation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/skepticism",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/skill",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/softness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/solidarity",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/solitude",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/source",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/sovereignty",
+      "destination": "/themes/power",
+      "permanent": true
+    },
+    {
+      "source": "/themes/speech",
+      "destination": "/themes/language",
+      "permanent": true
+    },
+    {
+      "source": "/themes/state-of-nature",
+      "destination": "/themes/nature",
+      "permanent": true
+    },
+    {
+      "source": "/themes/statecraft",
+      "destination": "/themes/power",
+      "permanent": true
+    },
+    {
+      "source": "/themes/steadfastness",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/stream",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/strength",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/striving",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/stupidity",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/subject",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/sublime",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/sudden-awakening",
+      "destination": "/themes/awakening",
+      "permanent": true
+    },
+    {
+      "source": "/themes/suffering",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/sufficient-reason",
+      "destination": "/themes/reason",
+      "permanent": true
+    },
+    {
+      "source": "/themes/superstition",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/support",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/surpassing",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/sympathy",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/teaching",
+      "destination": "/themes/learning",
+      "permanent": true
+    },
+    {
+      "source": "/themes/tempering-in-affairs",
+      "destination": "/themes/justice",
+      "permanent": true
+    },
+    {
+      "source": "/themes/tension",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/the-way",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/theodicy",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/theory",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/thought",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/times",
+      "destination": "/themes/time",
+      "permanent": true
+    },
+    {
+      "source": "/themes/timing",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/tolerance",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/tool",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/tradition",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/tranquility",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/transcendence",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/transformation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/travel",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/trial",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/true-knowing",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/trust",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/turning-inward",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/turning-point",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/unburdened-mind",
+      "destination": "/themes/self",
+      "permanent": true
+    },
+    {
+      "source": "/themes/uncertainty",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/unity",
+      "destination": "/themes/community",
+      "permanent": true
+    },
+    {
+      "source": "/themes/unity-of-knowledge-and-action",
+      "destination": "/themes/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/themes/universal-love",
+      "destination": "/themes/love",
+      "permanent": true
+    },
+    {
+      "source": "/themes/universality",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/universe",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/uplift",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/urgency",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/use",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/utility",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/value",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/values",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/verification",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/vigilance",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/vigilance-in-solitude",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/vital-energy",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/vocation",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/war",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/warning",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/waste",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/water",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/way-and-thing",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/wonder",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/work",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/world",
+      "destination": "/themes/nature",
+      "permanent": true
+    },
+    {
+      "source": "/themes/writing",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/themes/youth",
+      "destination": "/themes/philosophy",
+      "permanent": true
+    }
+  ]
 }

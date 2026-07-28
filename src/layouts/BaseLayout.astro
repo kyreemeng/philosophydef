@@ -11,6 +11,7 @@ interface Props {
   image?: string;
   type?: "website" | "article";
   schema?: Record<string, unknown> | Record<string, unknown>[];
+  robots?: string;
 }
 
 const {
@@ -20,6 +21,7 @@ const {
   image = "/og-default.png",
   type = "website",
   schema,
+  robots = "index, follow, max-image-preview:large",
 } = Astro.props;
 const siteName = "Philosophy Blind Box";
 const path = Astro.url.pathname.replace(/\.html$/, "").replace(/\/$/, "") || "/";
@@ -50,7 +52,7 @@ const defaultSchema = {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="robots" content={robots} />
     <link rel="canonical" href={canonicalUrl} />
     <link rel="alternate" hreflang="en" href={canonicalUrl} />
     <link rel="alternate" hreflang="x-default" href={canonicalUrl} />

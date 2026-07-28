@@ -1,0 +1,68 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import quotes from "../../../data/quotes.json";
+import { canonicalizeTheme } from "../../../lib/content";
+
+const pageSize = 24;
+const totalPages = Math.ceil(quotes.length / pageSize);
+
+export function getStaticPaths() {
+  const pageCount = Math.ceil(quotes.length / 24);
+  return Array.from({ length: pageCount - 1 }, (_, index) => {
+    const page = index + 2;
+    return {
+      params: { page: String(page) },
+      props: { page },
+    };
+  });
+}
+
+const { page } = Astro.props;
+const start = (page - 1) * pageSize;
+const entries = quotes.slice(start, start + pageSize);
+const previousHref = page === 2 ? "/quotes" : `/quotes/page/${page - 1}`;
+const nextHref = page < totalPages ? `/quotes/page/${page + 1}` : undefined;
+---
+
+<BaseLayout
+  title={`Philosophy Quotes Archive — Page ${page} | Philosophy Blind Box`}
+  description={`Browse philosophy quotations ${start + 1}–${start + entries.length} of ${quotes.length}.`}
+  canonical={`/quotes/page/${page}`}
+  schema={{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `Philosophy Quotes Archive — Page ${page}`,
+    url: new URL(`/quotes/page/${page}`, Astro.site),
+    isPartOf: new URL("/quotes", Astro.site),
+    numberOfItems: entries.length,
+  }}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Quote archive</p>
+      <h1>Philosophy quotes — page {page}</h1>
+      <p>Quotations {start + 1}–{start + entries.length} of {quotes.length}.</p>
+    </header>
+
+    <ol class="quote-list">
+      {
+        entries.map((quote) => (
+          <li class="quote-list-item">
+            <blockquote>{quote.text}</blockquote>
+            <footer>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
+              <br />
+              {canonicalizeTheme(quote.themes[0] ?? quote.school)}
+            </footer>
+          </li>
+        ))
+      }
+    </ol>
+
+    <nav class="quote-pager" aria-label="Quote archive pages">
+      <a href={previousHref}>← Previous page</a>
+      <span>Page {page} of {totalPages}</span>
+      {nextHref && <a href={nextHref}>Next page →</a>}
+    </nav>
+  </div>
+</BaseLayout>

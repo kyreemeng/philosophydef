@@ -1,8 +1,9 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { thinkerGroups } from "../../lib/content";
+import { shouldIndexThinker } from "../../lib/indexing";
 
-const thinkers = thinkerGroups();
+const thinkers = thinkerGroups().filter(shouldIndexThinker);
 const schema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
