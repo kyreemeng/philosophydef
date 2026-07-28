@@ -1,9 +1,7 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
-import { themeRedirects, themeGroups, thinkerGroups } from "./src/lib/content.ts";
+import { themeGroups, thinkerGroups } from "./src/lib/content.ts";
 import { shouldIndexTheme, shouldIndexThinker } from "./src/lib/indexing.ts";
-
-const redirects = themeRedirects();
 const indexableThemePaths = new Set(
   themeGroups()
     .filter(shouldIndexTheme)
@@ -23,7 +21,6 @@ export default defineConfig({
   build: {
     format: "directory",
   },
-  redirects,
   integrations: [
     sitemap({
       filter: (page) => {
