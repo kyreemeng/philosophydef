@@ -1130,7 +1130,7 @@
   {
     "id": "Q0095",
     "author": "Hannah Arendt",
-    "school": "Political Liberalism",
+    "school": "Political Phenomenology",
     "source": "The Human Condition",
     "text": "Men, not Man, live on the earth and inhabit the world.",
     "themes": [
@@ -1142,7 +1142,7 @@
   {
     "id": "Q0096",
     "author": "Hannah Arendt",
-    "school": "Political Liberalism",
+    "school": "Political Phenomenology",
     "source": "The Life of the Mind (on thinking)",
     "text": "Thinking is the habit of examining whatever happens to come to pass or to attract attention.",
     "themes": [
@@ -1370,7 +1370,7 @@
   {
     "id": "Q0115",
     "author": "Auguste Comte",
-    "school": "Empiricism",
+    "school": "Positivism",
     "source": "Cours de philosophie positive (formula)",
     "text": "To know, in order to foresee, so as to be able to act.",
     "themes": [
@@ -2078,7 +2078,7 @@
   {
     "id": "Q0174",
     "author": "Wang Guowei",
-    "school": "Modern New Confucianism",
+    "school": "Modern Chinese Thought",
     "source": "Remarks on Lyrics in the Human World, §26",
     "text": "Those who in ancient or modern times achieved great enterprises and profound learning must pass through three realms: first, standing alone atop a high tower after the west wind withers the green trees, gazing to the end of the road at heaven's edge; second, the belt growing looser without regret, wasting away for the beloved; third, searching a thousand times in the crowd, then suddenly turning — and finding that person standing where the lanterns grow sparse.",
     "themes": [
@@ -2090,7 +2090,7 @@
   {
     "id": "Q0175",
     "author": "Liang Qichao",
-    "school": "Modern New Confucianism",
+    "school": "Modern Chinese Thought",
     "source": "Respect for Work and Delight in Work (1922)",
     "text": "The two sayings I have found most useful in life are these: responsibility, and delight.… What I speak of today as respect for one's work is responsibility; delight in one's work is interest. I deeply believe that a reasonable human life should be like this.",
     "themes": [
@@ -2102,7 +2102,7 @@
   {
     "id": "Q0176",
     "author": "Liang Qichao",
-    "school": "Modern New Confucianism",
+    "school": "Modern Chinese Thought",
     "source": "Respect for Work and Delight in Work",
     "text": "Every occupation has its interest — if only you keep at it, interest will naturally arise.",
     "themes": [
@@ -2294,7 +2294,7 @@
   {
     "id": "Q0192",
     "author": "Giambattista Vico",
-    "school": "Renaissance Humanism",
+    "school": "Philosophy of History",
     "source": "On the Most Ancient Wisdom of the Italians et al.",
     "text": "The true is precisely what is made.",
     "themes": [
@@ -2318,7 +2318,7 @@
   {
     "id": "Q0194",
     "author": "George Santayana",
-    "school": "Pragmatism",
+    "school": "Naturalism",
     "source": "The Life of Reason, Vol. 1, Ch. 12 (1905)",
     "text": "Those who cannot remember the past are condemned to repeat it.",
     "themes": [
@@ -2486,7 +2486,7 @@
   {
     "id": "Q0208",
     "author": "Diamond Sutra",
-    "school": "Early Buddhism",
+    "school": "Mahayana Buddhism",
     "source": "Vajracchedikā Prajñāpāramitā Sūtra",
     "text": "Give rise to a mind that abides nowhere.",
     "themes": [
@@ -2534,7 +2534,7 @@
   {
     "id": "Q0212",
     "author": "Qian Mu",
-    "school": "Modern New Confucianism",
+    "school": "Modern Chinese Thought",
     "source": "Outline of National History, Introduction",
     "text": "Toward the past history of one’s own country, one should hold a warmth of feeling and a sense of respect.",
     "themes": [
@@ -2630,7 +2630,7 @@
   {
     "id": "Q0220",
     "author": "Erich Fromm",
-    "school": "Existentialism",
+    "school": "Humanism",
     "source": "The Art of Loving (1956)",
     "text": "Love is the only sane and satisfactory answer to the problem of human existence.",
     "themes": [
@@ -2954,7 +2954,7 @@
   {
     "id": "Q0247",
     "author": "John Locke",
-    "school": "Empiricism",
+    "school": "British Empiricism",
     "source": "Second Treatise II.6",
     "text": "The state of nature has a law of nature to govern it…Reason…teaches all mankind…that being all equal and independent, no one ought to harm another in his life, health, liberty, or possessions.",
     "themes": [
@@ -2966,7 +2966,7 @@
   {
     "id": "Q0248",
     "author": "John Locke",
-    "school": "Empiricism",
+    "school": "British Empiricism",
     "source": "Essay II.27.9",
     "text": "As far as this consciousness can be extended backwards to any past action or thought, so far reaches the identity of that person.",
     "themes": [
@@ -3314,7 +3314,7 @@
   {
     "id": "Q0277",
     "author": "Hannah Arendt",
-    "school": "Political Liberalism",
+    "school": "Political Phenomenology",
     "source": "Men in Dark Times",
     "text": "Even in the darkest of times we have the right to expect some illumination.",
     "themes": [
@@ -3326,7 +3326,7 @@
   {
     "id": "Q0278",
     "author": "Hannah Arendt",
-    "school": "Political Liberalism",
+    "school": "Political Phenomenology",
     "source": "The Life of the Mind",
     "text": "The sad truth is that most evil is done by people who never make up their minds to be good or evil.",
     "themes": [
@@ -3614,7 +3614,7 @@
   {
     "id": "Q0302",
     "author": "Bhagavad Gita",
-    "school": "Vedanta",
+    "school": "Indian Classical Philosophy",
     "source": "Bhagavad Gita 2.14",
     "text": "Contacts with the senses give cold and heat, pleasure and pain; they come and go and are impermanent—endure them.",
     "themes": [
@@ -3626,7 +3626,7 @@
   {
     "id": "Q0303",
     "author": "Bhagavad Gita",
-    "school": "Vedanta",
+    "school": "Indian Classical Philosophy",
     "source": "Bhagavad Gita 6.5",
     "text": "One should lift oneself by the Self and not degrade oneself; for the Self alone is friend and enemy of the self.",
     "themes": [
@@ -3782,7 +3782,7 @@
   {
     "id": "Q0316",
     "author": "Arthur Schopenhauer",
-    "school": "Philosophy of Will",
+    "school": "Voluntarism",
     "source": "The World as Will and Representation IV",
     "text": "All life is suffering.",
     "themes": [
@@ -3998,7 +3998,7 @@
   {
     "id": "Q0334",
     "author": "John Locke",
-    "school": "Empiricism",
+    "school": "British Empiricism",
     "source": "Second Treatise VI.57",
     "text": "Where there is no law, there is no freedom.",
     "themes": [
@@ -4010,7 +4010,7 @@
   {
     "id": "Q0335",
     "author": "John Locke",
-    "school": "Empiricism",
+    "school": "British Empiricism",
     "source": "Essay Concerning Human Understanding II.1.2",
     "text": "Let us then suppose the mind to be, as we say, white paper, void of all characters.",
     "themes": [
@@ -4022,7 +4022,7 @@
   {
     "id": "Q0336",
     "author": "David Hume",
-    "school": "Empiricism",
+    "school": "Scottish Enlightenment",
     "source": "Treatise II.3.3",
     "text": "Reason is, and ought only to be the slave of the passions.",
     "themes": [
@@ -4034,7 +4034,7 @@
   {
     "id": "Q0337",
     "author": "David Hume",
-    "school": "Empiricism",
+    "school": "Scottish Enlightenment",
     "source": "Enquiry Concerning Human Understanding V.1",
     "text": "Custom, then, is the great guide of human life.",
     "themes": [
@@ -4226,7 +4226,7 @@
   {
     "id": "Q0353",
     "author": "Hannah Arendt",
-    "school": "Political Liberalism",
+    "school": "Political Phenomenology",
     "source": "The Human Condition",
     "text": "Forgiveness is the only reaction which does not merely re-act but acts anew and unexpectedly.",
     "themes": [
@@ -4238,7 +4238,7 @@
   {
     "id": "Q0354",
     "author": "Hannah Arendt",
-    "school": "Political Liberalism",
+    "school": "Political Phenomenology",
     "source": "Eichmann in Jerusalem",
     "text": "the banality of evil",
     "themes": [
@@ -4620,7 +4620,7 @@
   {
     "id": "Q0386",
     "author": "Horace",
-    "school": "Stoicism",
+    "school": "Roman Literary Thought",
     "source": "Odes I.11",
     "text": "Seize the day, trusting as little as possible in tomorrow.",
     "themes": [
@@ -4632,7 +4632,7 @@
   {
     "id": "Q0387",
     "author": "Horace",
-    "school": "Stoicism",
+    "school": "Roman Literary Thought",
     "source": "Epistles I.11.27",
     "text": "They change their sky, not their soul, who rush across the sea.",
     "themes": [
@@ -4644,7 +4644,7 @@
   {
     "id": "Q0388",
     "author": "Ovid",
-    "school": "Renaissance Humanism",
+    "school": "Roman Literary Thought",
     "source": "Remedia Amoris 94 (related proverbial form)",
     "text": "Resist the beginnings.",
     "themes": [
@@ -4776,7 +4776,7 @@
   {
     "id": "Q0399",
     "author": "Arthur Schopenhauer",
-    "school": "Philosophy of Will",
+    "school": "Voluntarism",
     "source": "Parerga and Paralipomena, Aphorisms on the Wisdom of Life",
     "text": "What a person is stands far more in his power than what he has.",
     "themes": [
@@ -4812,7 +4812,7 @@
   {
     "id": "Q0402",
     "author": "Hannah Arendt",
-    "school": "Political Liberalism",
+    "school": "Political Phenomenology",
     "source": "The Human Condition",
     "text": "What I propose… is nothing more than to think what we are doing.",
     "themes": [
@@ -4968,7 +4968,7 @@
   {
     "id": "Q0415",
     "author": "Liang Qichao",
-    "school": "Modern New Confucianism",
+    "school": "Modern Chinese Thought",
     "source": "On the Young China",
     "text": "If the youth are wise, the nation is wise; if the youth are prosperous, the nation is prosperous; if the youth are strong, the nation is strong.",
     "themes": [
@@ -5004,7 +5004,7 @@
   {
     "id": "Q0418",
     "author": "Qian Mu",
-    "school": "Modern New Confucianism",
+    "school": "Modern Chinese Thought",
     "source": "Ten Essays on Life et al.",
     "text": "Human life is but a yearning — to look toward the far and toward the high.",
     "themes": [
@@ -5364,7 +5364,7 @@
   {
     "id": "Q0448",
     "author": "Arthur Schopenhauer",
-    "school": "Philosophy of Will",
+    "school": "Voluntarism",
     "source": "Parerga and Paralipomena",
     "text": "Everyone takes the limits of his own field of vision for the limits of the world.",
     "themes": [
@@ -5724,7 +5724,7 @@
   {
     "id": "Q0478",
     "author": "Erich Fromm",
-    "school": "Existentialism",
+    "school": "Humanism",
     "source": "The Art of Loving",
     "text": "Love is an activity, not a passive affect; it is a standing in, not a falling for.",
     "themes": [
@@ -5736,7 +5736,7 @@
   {
     "id": "Q0479",
     "author": "Liang Qichao",
-    "school": "Modern New Confucianism",
+    "school": "Modern Chinese Thought",
     "source": "On Renewing the People",
     "text": "By “renewing the people” we do not mean abandoning all that is old to follow others. Renewal has two senses: to refine what we already have, and to supply what we lack.",
     "themes": [
@@ -5772,7 +5772,7 @@
   {
     "id": "Q0482",
     "author": "Wang Guowei",
-    "school": "Modern New Confucianism",
+    "school": "Modern Chinese Thought",
     "source": "Remarks on Lyrics in the Human World",
     "text": "In the realm with a self, one views things through the self, so things take on one’s coloring. In the realm without a self, one views things through things, and no longer knows which is self and which is thing.",
     "themes": [
@@ -5784,7 +5784,7 @@
   {
     "id": "Q0483",
     "author": "Horace",
-    "school": "Stoicism",
+    "school": "Roman Literary Thought",
     "source": "Ars Poetica",
     "text": "He who has begun has half done.",
     "themes": [
@@ -5832,7 +5832,7 @@
   {
     "id": "Q0487",
     "author": "George Santayana",
-    "school": "Pragmatism",
+    "school": "Naturalism",
     "source": "The Life of Reason",
     "text": "Fanaticism consists in redoubling your effort when you have forgotten your aim.",
     "themes": [

@@ -1174,7 +1174,7 @@
 #### Q0095
 
 - **作者 / Author**: 汉娜·阿伦特（1906–1975） / Hannah Arendt (1906–1975)
-- **学派 / School**: 政治自由主义 / Political Liberalism
+- **学派 / School**: 政治现象学 / Political Phenomenology
 - **出处 / Source**: 《人的条件》 / The Human Condition
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Men, not Man, live on the earth and inhabit the world.
@@ -1186,7 +1186,7 @@
 #### Q0096
 
 - **作者 / Author**: 汉娜·阿伦特 / Hannah Arendt (1906–1975)
-- **学派 / School**: 政治自由主义 / Political Liberalism
+- **学派 / School**: 政治现象学 / Political Phenomenology
 - **出处 / Source**: 《精神生活》等论思考 / The Life of the Mind (on thinking)
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Thinking…is the habit of examining whatever happens to come to pass or to attract attention.
@@ -1416,7 +1416,7 @@
 #### Q0115
 
 - **作者 / Author**: 奥古斯特·孔德（1798–1857） / Auguste Comte (1798–1857)
-- **学派 / School**: 经验主义 / Empiricism
+- **学派 / School**: 实证主义 / Positivism
 - **出处 / Source**: 《实证哲学教程》相关表述 / Cours de philosophie positive (formula)
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Savoir pour prévoir, afin de pouvoir.
@@ -2134,7 +2134,7 @@
 #### Q0174
 
 - **作者 / Author**: 王国维（1877–1927） / Wang Guowei (1877–1927)
-- **学派 / School**: 现代新儒家 / Modern New Confucianism
+- **学派 / School**: 中国近代思想 / Modern Chinese Thought
 - **出处 / Source**: 《人间词话》第二十六则 / Remarks on Lyrics in the Human World, §26
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 古今之成大事业、大学问者，必经过三种之境界：「昨夜西风凋碧树。独上高楼，望尽天涯路。」此第一境也。「衣带渐宽终不悔，为伊消得人憔悴。」此第二境也。「众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。」此第三境也。
@@ -2146,7 +2146,7 @@
 #### Q0175
 
 - **作者 / Author**: 梁启超（1873–1929） / Liang Qichao (1873–1929)
-- **学派 / School**: 现代新儒家 / Modern New Confucianism
+- **学派 / School**: 中国近代思想 / Modern Chinese Thought
 - **出处 / Source**: 《敬业与乐业》（1922） / Respect for Work and Delight in Work (1922)
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 我生平最受用的有两句话：一是「责任心」，二是「趣味」。……今天所讲，敬业即是责任心，乐业即是趣味。我深信人类合理的生活应该如此。
@@ -2158,7 +2158,7 @@
 #### Q0176
 
 - **作者 / Author**: 梁启超 / Liang Qichao (1873–1929)
-- **学派 / School**: 现代新儒家 / Modern New Confucianism
+- **学派 / School**: 中国近代思想 / Modern Chinese Thought
 - **出处 / Source**: 《敬业与乐业》 / Respect for Work and Delight in Work
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 凡职业都是有趣味的，只要你肯继续做下去，趣味自然会发生。
@@ -2362,7 +2362,7 @@
 #### Q0192
 
 - **作者 / Author**: 维柯（1668–1744） / Giambattista Vico (1668–1744)
-- **学派 / School**: 文艺复兴人文主义 / Renaissance Humanism
+- **学派 / School**: 历史哲学 / Philosophy of History
 - **出处 / Source**: 《论意大利人的古代智慧》等 / On the Most Ancient Wisdom of the Italians et al.
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Verum esse ipsum factum
@@ -2386,7 +2386,7 @@
 #### Q0194
 
 - **作者 / Author**: 乔治·桑塔亚那（1863–1952） / George Santayana (1863–1952)
-- **学派 / School**: 实用主义 / Pragmatism
+- **学派 / School**: 自然主义 / Naturalism
 - **出处 / Source**: 《理性生活》卷一第十二章 / The Life of Reason, Vol. 1, Ch. 12 (1905)
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Those who cannot remember the past are condemned to repeat it.
@@ -2557,7 +2557,7 @@
 #### Q0208
 
 - **作者 / Author**: 《金刚经》（慧能因之而悟）／Diamond Sutra (via Huineng’s awakening)
-- **学派 / School**: 早期佛教 / Early Buddhism
+- **学派 / School**: 大乘佛教 / Mahayana Buddhism
 - **出处 / Source**: 《金刚般若波罗蜜经》／Vajracchedikā Prajñāpāramitā Sūtra
 - **原文语言 / Language**: 汉译文言文 / Classical Chinese (Kumārajīva tr.)
 - **原文 / Original**: 应无所住而生其心
@@ -2605,7 +2605,7 @@
 #### Q0212
 
 - **作者 / Author**: 钱穆（1895–1990） / Qian Mu (1895–1990)
-- **学派 / School**: 现代新儒家 / Modern New Confucianism
+- **学派 / School**: 中国近代思想 / Modern Chinese Thought
 - **出处 / Source**: 《国史大纲》引论／Outline of National History, Introduction
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 对其本国已往历史有一种温情与敬意。
@@ -2705,7 +2705,7 @@
 #### Q0220
 
 - **作者 / Author**: 埃里希·弗洛姆（1900–1980） / Erich Fromm (1900–1980)
-- **学派 / School**: 存在主义 / Existentialism
+- **学派 / School**: 人本主义 / Humanism
 - **出处 / Source**: 《爱的艺术》／The Art of Loving (1956)
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Love is the only sane and satisfactory answer to the problem of human existence.
@@ -3038,7 +3038,7 @@
 #### Q0247
 
 - **作者 / Author**: 约翰·洛克 / John Locke
-- **学派 / School**: 经验主义 / Empiricism
+- **学派 / School**: 英国经验主义 / British Empiricism
 - **出处 / Source**: 《政府论》下篇 II.6 / Second Treatise II.6
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: The State of Nature has a Law of Nature to govern it, which obliges every one: And Reason, which is that Law, teaches all Mankind…that being all equal and independent, no one ought to harm another in his Life, Health, Liberty, or Possessions.
@@ -3050,7 +3050,7 @@
 #### Q0248
 
 - **作者 / Author**: 约翰·洛克 / John Locke
-- **学派 / School**: 经验主义 / Empiricism
+- **学派 / School**: 英国经验主义 / British Empiricism
 - **出处 / Source**: 《人类理解论》II.27.9 / Essay II.27.9
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: as far as this consciousness can be extended backwards to any past Action or Thought, so far reaches the Identity of that Person
@@ -3399,7 +3399,7 @@
 #### Q0277
 
 - **作者 / Author**: 汉娜·阿伦特 / Hannah Arendt
-- **学派 / School**: 政治自由主义 / Political Liberalism
+- **学派 / School**: 政治现象学 / Political Phenomenology
 - **出处 / Source**: 《黑暗时代的人们》 / Men in Dark Times
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Even in the darkest of times we have the right to expect some illumination.
@@ -3411,7 +3411,7 @@
 #### Q0278
 
 - **作者 / Author**: 汉娜·阿伦特 / Hannah Arendt
-- **学派 / School**: 政治自由主义 / Political Liberalism
+- **学派 / School**: 政治现象学 / Political Phenomenology
 - **出处 / Source**: 《精神生活》 / The Life of the Mind
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: The sad truth is that most evil is done by people who never make up their minds to be good or evil.
@@ -3700,7 +3700,7 @@
 #### Q0302
 
 - **作者 / Author**: 《薄伽梵歌》 / Bhagavad Gita
-- **学派 / School**: 吠檀多 / Vedanta
+- **学派 / School**: 印度古典哲学 / Indian Classical Philosophy
 - **出处 / Source**: 《薄伽梵歌》2.14 / Bhagavad Gita 2.14
 - **原文语言 / Language**: 梵语 / Sanskrit
 - **原文 / Original**: mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkha-dāḥ / āgamāpāyino 'nityās tāṃs titikṣasva bhārata
@@ -3712,7 +3712,7 @@
 #### Q0303
 
 - **作者 / Author**: 《薄伽梵歌》 / Bhagavad Gita
-- **学派 / School**: 吠檀多 / Vedanta
+- **学派 / School**: 印度古典哲学 / Indian Classical Philosophy
 - **出处 / Source**: 《薄伽梵歌》6.5 / Bhagavad Gita 6.5
 - **原文语言 / Language**: 梵语 / Sanskrit
 - **原文 / Original**: uddhared ātmanātmānaṃ nātmānam avasādayet / ātmaiva hy ātmano bandhur ātmaiva ripur ātmanaḥ
@@ -3871,7 +3871,7 @@
 #### Q0316
 
 - **作者 / Author**: 叔本华 / Arthur Schopenhauer
-- **学派 / School**: 意志哲学 / Philosophy of Will
+- **学派 / School**: 唯意志论 / Voluntarism
 - **出处 / Source**: 《作为意志和表象的世界》第四卷 / The World as Will and Representation IV
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Alles Leben ist Leiden.
@@ -4092,7 +4092,7 @@
 #### Q0334
 
 - **作者 / Author**: 约翰·洛克 / John Locke
-- **学派 / School**: 经验主义 / Empiricism
+- **学派 / School**: 英国经验主义 / British Empiricism
 - **出处 / Source**: 《政府论》下篇 VI.57 / Second Treatise VI.57
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Where there is no law, there is no freedom.
@@ -4104,7 +4104,7 @@
 #### Q0335
 
 - **作者 / Author**: 约翰·洛克 / John Locke
-- **学派 / School**: 经验主义 / Empiricism
+- **学派 / School**: 英国经验主义 / British Empiricism
 - **出处 / Source**: 《人类理解论》II.1.2 / Essay Concerning Human Understanding II.1.2
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Let us then suppose the mind to be, as we say, white paper, void of all characters.
@@ -4116,7 +4116,7 @@
 #### Q0336
 
 - **作者 / Author**: 大卫·休谟 / David Hume
-- **学派 / School**: 经验主义 / Empiricism
+- **学派 / School**: 苏格兰启蒙 / Scottish Enlightenment
 - **出处 / Source**: 《人性论》II.3.3 / Treatise II.3.3
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Reason is, and ought only to be the slave of the passions.
@@ -4128,7 +4128,7 @@
 #### Q0337
 
 - **作者 / Author**: 大卫·休谟 / David Hume
-- **学派 / School**: 经验主义 / Empiricism
+- **学派 / School**: 苏格兰启蒙 / Scottish Enlightenment
 - **出处 / Source**: 《人类理解研究》V.1 / Enquiry Concerning Human Understanding V.1
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Custom, then, is the great guide of human life.
@@ -4320,7 +4320,7 @@
 #### Q0353
 
 - **作者 / Author**: 汉娜·阿伦特 / Hannah Arendt
-- **学派 / School**: 政治自由主义 / Political Liberalism
+- **学派 / School**: 政治现象学 / Political Phenomenology
 - **出处 / Source**: 《人的条件》 / The Human Condition
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Forgiveness is the only reaction which does not merely re-act but acts anew and unexpectedly.
@@ -4332,7 +4332,7 @@
 #### Q0354
 
 - **作者 / Author**: 汉娜·阿伦特 / Hannah Arendt
-- **学派 / School**: 政治自由主义 / Political Liberalism
+- **学派 / School**: 政治现象学 / Political Phenomenology
 - **出处 / Source**: 《耶路撒冷的艾希曼》 / Eichmann in Jerusalem
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: the banality of evil
@@ -4723,7 +4723,7 @@
 #### Q0386
 
 - **作者 / Author**: 贺拉斯 / Horace
-- **学派 / School**: 斯多葛主义 / Stoicism
+- **学派 / School**: 罗马文学哲思 / Roman Literary Thought
 - **出处 / Source**: 《歌集》I.11 / Odes I.11
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: carpe diem, quam minimum credula postero
@@ -4735,7 +4735,7 @@
 #### Q0387
 
 - **作者 / Author**: 贺拉斯 / Horace
-- **学派 / School**: 斯多葛主义 / Stoicism
+- **学派 / School**: 罗马文学哲思 / Roman Literary Thought
 - **出处 / Source**: 《书信集》I.11.27 / Epistles I.11.27
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: caelum non animum mutant qui trans mare currunt
@@ -4747,7 +4747,7 @@
 #### Q0388
 
 - **作者 / Author**: 奥维德 / Ovid
-- **学派 / School**: 文艺复兴人文主义 / Renaissance Humanism
+- **学派 / School**: 罗马文学哲思 / Roman Literary Thought
 - **出处 / Source**: 《变形记》等；更准确《爱的医疗》 / Remedia Amoris 94 (related proverbial form)
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Principiis obsta
@@ -4881,7 +4881,7 @@
 #### Q0399
 
 - **作者 / Author**: 叔本华 / Arthur Schopenhauer
-- **学派 / School**: 意志哲学 / Philosophy of Will
+- **学派 / School**: 唯意志论 / Voluntarism
 - **出处 / Source**: 《附录与补遗》「论人生的智慧」 / Parerga and Paralipomena, Aphorisms on the Wisdom of Life
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Was einer ist, steht weit mehr in seiner Gewalt, als was einer hat.
@@ -4917,7 +4917,7 @@
 #### Q0402
 
 - **作者 / Author**: 汉娜·阿伦特 / Hannah Arendt
-- **学派 / School**: 政治自由主义 / Political Liberalism
+- **学派 / School**: 政治现象学 / Political Phenomenology
 - **出处 / Source**: 《人的条件》 / The Human Condition
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: What I propose, therefore, is very simple: it is nothing more than to think what we are doing.
@@ -5074,7 +5074,7 @@
 #### Q0415
 
 - **作者 / Author**: 梁启超 / Liang Qichao
-- **学派 / School**: 现代新儒家 / Modern New Confucianism
+- **学派 / School**: 中国近代思想 / Modern Chinese Thought
 - **出处 / Source**: 《少年中国说》 / On the Young China
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 少年智则国智，少年富则国富，少年强则国强。
@@ -5110,7 +5110,7 @@
 #### Q0418
 
 - **作者 / Author**: 钱穆 / Qian Mu
-- **学派 / School**: 现代新儒家 / Modern New Confucianism
+- **学派 / School**: 中国近代思想 / Modern Chinese Thought
 - **出处 / Source**: 《人生十论》等 / Ten Essays on Life et al.
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 人生只是一个向往，向远处看，向高处看。
@@ -5479,7 +5479,7 @@
 #### Q0448
 
 - **作者 / Author**: 叔本华 / Arthur Schopenhauer
-- **学派 / School**: 意志哲学 / Philosophy of Will
+- **学派 / School**: 唯意志论 / Voluntarism
 - **出处 / Source**: 《附录与补遗》 / Parerga and Paralipomena
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Jeder hält das Ende seiner Perspektive für das Ende der Welt.
@@ -5844,7 +5844,7 @@
 #### Q0478
 
 - **作者 / Author**: 埃里希·弗洛姆 / Erich Fromm
-- **学派 / School**: 存在主义 / Existentialism
+- **学派 / School**: 人本主义 / Humanism
 - **出处 / Source**: 《爱的艺术》 / The Art of Loving
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Love is an activity, not a passive affect; it is a “standing in,” not a “falling for.”
@@ -5856,7 +5856,7 @@
 #### Q0479
 
 - **作者 / Author**: 梁启超 / Liang Qichao
-- **学派 / School**: 现代新儒家 / Modern New Confucianism
+- **学派 / School**: 中国近代思想 / Modern Chinese Thought
 - **出处 / Source**: 《新民说》 / On Renewing the People
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 新民云者，非欲吾民尽弃其旧以从人也。新之义有二：一曰淬厉其所本有而新之；二曰采补其所本无而新之。
@@ -5892,7 +5892,7 @@
 #### Q0482
 
 - **作者 / Author**: 王国维 / Wang Guowei
-- **学派 / School**: 现代新儒家 / Modern New Confucianism
+- **学派 / School**: 中国近代思想 / Modern Chinese Thought
 - **出处 / Source**: 《人间词话》 / Remarks on Lyrics in the Human World
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 有我之境，以我观物，故物皆著我之色彩。无我之境，以物观物，故不知何者为我，何者为物。
@@ -5904,7 +5904,7 @@
 #### Q0483
 
 - **作者 / Author**: 贺拉斯 / Horace
-- **学派 / School**: 斯多葛主义 / Stoicism
+- **学派 / School**: 罗马文学哲思 / Roman Literary Thought
 - **出处 / Source**: 《诗艺》 / Ars Poetica
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Dimidium facti qui coepit habet
@@ -5952,7 +5952,7 @@
 #### Q0487
 
 - **作者 / Author**: 乔治·桑塔亚那 / George Santayana
-- **学派 / School**: 实用主义 / Pragmatism
+- **学派 / School**: 自然主义 / Naturalism
 - **出处 / Source**: 《理性生活》 / The Life of Reason
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Fanaticism consists in redoubling your effort when you have forgotten your aim.
