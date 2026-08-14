@@ -57,7 +57,7 @@
 - Create: `scripts/validate-corpus.mjs`
 - Modify: `package.json` (add `"validate:corpus": "node scripts/validate-corpus.mjs"`)
 
-- [ ] **Step 1: Write `data/school-shortlist.json`**
+- [x] **Step 1: Write `data/school-shortlist.json`**
 
 ```json
 {
@@ -178,7 +178,7 @@
 }
 ```
 
-- [ ] **Step 2: Write failing validator `scripts/validate-corpus.mjs`**
+- [x] **Step 2: Write failing validator `scripts/validate-corpus.mjs`**
 
 ```js
 import { readFile } from "node:fs/promises";
@@ -223,7 +223,7 @@ if (errors.length) {
 console.log(`validate-corpus OK: ${ids.length} entries, schools canonical, bios detemplated`);
 ```
 
-- [ ] **Step 3: Wire npm script and run validator (expect FAIL on count)**
+- [x] **Step 3: Wire npm script and run validator (expect FAIL on count)**
 
 ```bash
 # package.json scripts add:
@@ -234,7 +234,7 @@ npm run validate:corpus
 
 Expected: FAIL with `count 500 not in 650–700` (and likely non-canonical schools / templated bios).
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add data/school-shortlist.json scripts/validate-corpus.mjs package.json
@@ -253,7 +253,7 @@ EOF
 - Modify: `data/philosophy_quotes_curated.md`
 - Modify: `data/school-shortlist.json` (only if remap reveals missing canonical labels)
 
-- [ ] **Step 1: Apply remaps mechanically**
+- [x] **Step 1: Apply remaps mechanically**
 
 Run a one-off Node script (may live as `scripts/remap-schools.mjs` then delete, or run inline) that:
 
@@ -264,7 +264,7 @@ Run a one-off Node script (may live as `scripts/remap-schools.mjs` then delete, 
 
 Also normalize case/duplicates listed in `remap` (e.g. `Analytic philosophy` → `Analytic Philosophy`).
 
-- [ ] **Step 2: Manual pass for remaining non-canonical schools**
+- [x] **Step 2: Manual pass for remaining non-canonical schools**
 
 ```bash
 node -e "
@@ -280,7 +280,7 @@ console.log([...new Set(schools.filter(s=>!sl.canonical.includes(s)))].sort().jo
 
 Map every remaining label into `canonical` (either by editing quotes or by promoting a label into `canonical` when it is a real tradition worth keeping — prefer remapping into the short list unless the tradition is load-bearing, e.g. `Mohism`).
 
-- [ ] **Step 3: Rebuild quotes.json and spot-check**
+- [x] **Step 3: Rebuild quotes.json and spot-check**
 
 ```bash
 npm run build:quotes
@@ -289,7 +289,7 @@ node -e "import q from './src/data/quotes.json' with {type:'json'}; console.log(
 
 Expected: school set size roughly 40–70; no `Philosophy of Life`, bare `Enlightenment`, or bare `Political Philosophy`.
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add data/philosophy_quotes_curated.md data/school-shortlist.json src/data/quotes.json

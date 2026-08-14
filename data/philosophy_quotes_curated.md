@@ -668,7 +668,7 @@
 #### Q0053
 
 - **作者 / Author**: 普鲁塔克（约46–120） / Plutarch (c. 46–120 CE)
-- **学派 / School**: 中期柏拉图主义 / Middle Platonism
+- **学派 / School**: 柏拉图主义 / Platonism
 - **出处 / Source**: 《道德论丛·论如何听讲》 / Moralia, On Listening to Lectures
 - **原文语言 / Language**: 古希腊语 / Ancient Greek
 - **原文 / Original**: οὐ γὰρ ὡς ἀγγεῖον ὁ νοῦς ἀποπληρώσεως ἀλλ᾽ ὑπεκκαύματος μόνον ὥσπερ ὕλη δεῖται
@@ -681,7 +681,7 @@
 #### Q0054
 
 - **作者 / Author**: 笛卡尔（1596–1650） / René Descartes (1596–1650)
-- **学派 / School**: 近代唯理论 / Modern Rationalism
+- **学派 / School**: 理性主义 / Rationalism
 - **出处 / Source**: 《方法谈》第四部分（法语）／《哲学原理》（拉丁语） / Discourse on the Method IV (French) / Principles of Philosophy (Latin)
 - **原文语言 / Language**: 法语／拉丁语 / French / Latin
 - **原文 / Original**: Je pense, donc je suis. / Cogito, ergo sum.
@@ -693,7 +693,7 @@
 #### Q0055
 
 - **作者 / Author**: 笛卡尔 / René Descartes (1596–1650)
-- **学派 / School**: 近代唯理论 / Modern Rationalism
+- **学派 / School**: 理性主义 / Rationalism
 - **出处 / Source**: 《第一哲学沉思集》第一沉思 / Meditations on First Philosophy I
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: …semel in vita de omnibus…esse dubitandum
@@ -705,7 +705,7 @@
 #### Q0056
 
 - **作者 / Author**: 笛卡尔 / René Descartes (1596–1650)
-- **学派 / School**: 近代唯理论 / Modern Rationalism
+- **学派 / School**: 理性主义 / Rationalism
 - **出处 / Source**: 《方法谈》第四部分 / Discourse on the Method IV
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: les choses que nous concevons fort clairement et fort distinctement…sont toutes vraies
@@ -717,7 +717,7 @@
 #### Q0057
 
 - **作者 / Author**: 斯宾诺莎（1632–1677） / Baruch Spinoza (1632–1677)
-- **学派 / School**: 近代唯理论 / Modern Rationalism
+- **学派 / School**: 理性主义 / Rationalism
 - **出处 / Source**: 《伦理学》第四部分，命题67 / Ethics IV, Prop. 67
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Homo liber de nulla re minus quam de morte cogitat; et eius sapientia non mortis sed vitae meditatio est.
@@ -729,7 +729,7 @@
 #### Q0058
 
 - **作者 / Author**: 斯宾诺莎 / Baruch Spinoza (1632–1677)
-- **学派 / School**: 近代唯理论 / Modern Rationalism
+- **学派 / School**: 理性主义 / Rationalism
 - **出处 / Source**: 《伦理学》第一部分 / Ethics I
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Deus sive Natura
@@ -741,7 +741,7 @@
 #### Q0059
 
 - **作者 / Author**: 帕斯卡尔（1623–1662） / Blaise Pascal (1623–1662)
-- **学派 / School**: 近代思想 / Early Modern Thought
+- **学派 / School**: 基督教存在主义先声 / Christian Existential Precursor
 - **出处 / Source**: 《思想录》§200（Brunschvicg） / Pensées §200 (Brunschvicg)
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Le cœur a ses raisons, que la raison ne connaît point.
@@ -753,7 +753,7 @@
 #### Q0060
 
 - **作者 / Author**: 帕斯卡尔 / Blaise Pascal (1623–1662)
-- **学派 / School**: 近代思想 / Early Modern Thought
+- **学派 / School**: 基督教存在主义先声 / Christian Existential Precursor
 - **出处 / Source**: 《思想录》§347 / Pensées §347
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: L'homme n'est qu'un roseau, le plus faible de la nature; mais c'est un roseau pensant.
@@ -765,7 +765,7 @@
 #### Q0061
 
 - **作者 / Author**: 霍布斯（1588–1679） / Thomas Hobbes (1588–1679)
-- **学派 / School**: 近代政治哲学 / Modern Political Philosophy
+- **学派 / School**: 社会契约论 / Social Contract Theory
 - **出处 / Source**: 《利维坦》第十三章 / Leviathan, Ch. 13
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: solitary, poor, nasty, brutish, and short
@@ -777,7 +777,7 @@
 #### Q0062
 
 - **作者 / Author**: 卢梭（1712–1778） / Jean-Jacques Rousseau (1712–1778)
-- **学派 / School**: 启蒙思想 / Enlightenment
+- **学派 / School**: 社会契约论 / Social Contract Theory
 - **出处 / Source**: 《社会契约论》第一卷第一章 / The Social Contract, Book I, Ch. 1
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: L'homme est né libre, et partout il est dans les fers.
@@ -789,7 +789,7 @@
 #### Q0063
 
 - **作者 / Author**: 伏尔泰（1694–1778） / Voltaire (1694–1778)
-- **学派 / School**: 启蒙思想 / Enlightenment
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《老实人》第30章 / Candide, Ch. 30
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Il faut cultiver notre jardin.
@@ -873,7 +873,7 @@
 #### Q0070
 
 - **作者 / Author**: 尼采（1844–1900） / Friedrich Nietzsche (1844–1900)
-- **学派 / School**: 生命哲学 / Philosophy of Life
+- **学派 / School**: 意志哲学 / Philosophy of Will
 - **出处 / Source**: 《偶像的黄昏》「格言与箭」§8 / Twilight of the Idols, Maxims and Arrows §8
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Aus der Kriegsschule des Lebens. — Was mich nicht umbringt, macht mich stärker.
@@ -885,7 +885,7 @@
 #### Q0071
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche (1844–1900)
-- **学派 / School**: 生命哲学 / Philosophy of Life
+- **学派 / School**: 意志哲学 / Philosophy of Will
 - **出处 / Source**: 《快乐的科学》§276 等；《瞧这个人》 / The Gay Science §276; Ecce Homo
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Amor fati: das soll von nun an meine Liebe sein!
@@ -897,7 +897,7 @@
 #### Q0072
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche (1844–1900)
-- **学派 / School**: 生命哲学 / Philosophy of Life
+- **学派 / School**: 意志哲学 / Philosophy of Will
 - **出处 / Source**: 《瞧这个人》副题（取自品达） / Ecce Homo (subtitle; from Pindar)
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Wie man wird, was man ist.
@@ -909,7 +909,7 @@
 #### Q0073
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche (1844–1900)
-- **学派 / School**: 生命哲学 / Philosophy of Life
+- **学派 / School**: 意志哲学 / Philosophy of Will
 - **出处 / Source**: 《查拉图斯特拉如是说》序言 / Thus Spoke Zarathustra, Prologue
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Der Mensch ist etwas, das überwunden werden soll.
@@ -921,7 +921,7 @@
 #### Q0074
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche (1844–1900)
-- **学派 / School**: 生命哲学 / Philosophy of Life
+- **学派 / School**: 意志哲学 / Philosophy of Will
 - **出处 / Source**: 《快乐的科学》§341（永恒轮回思想实验） / The Gay Science §341
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Diese Leben, wie du es jetzt lebst und gelebt hast, wirst du noch einmal und noch unzählige Male leben müssen…
@@ -933,7 +933,7 @@
 #### Q0075
 
 - **作者 / Author**: 克尔凯郭尔（1813–1855） / Søren Kierkegaard (1813–1855)
-- **学派 / School**: 存在主义前驱 / Proto-Existentialism
+- **学派 / School**: 存在主义 / Existentialism
 - **出处 / Source**: 《致死的疾病》 / The Sickness unto Death
 - **原文语言 / Language**: 丹麦语 / Danish
 - **原文 / Original**: Fortvivlelse er Synden.
@@ -945,7 +945,7 @@
 #### Q0076
 
 - **作者 / Author**: 克尔凯郭尔 / Søren Kierkegaard (1813–1855)
-- **学派 / School**: 存在主义前驱 / Proto-Existentialism
+- **学派 / School**: 存在主义 / Existentialism
 - **出处 / Source**: 《恐惧的概念》 / The Concept of Anxiety
 - **原文语言 / Language**: 丹麦语 / Danish
 - **原文 / Original**: Angest er Frihedens Svimmelhed.
@@ -1137,7 +1137,7 @@
 #### Q0092
 
 - **作者 / Author**: 波伏瓦（1908–1986） / Simone de Beauvoir (1908–1986)
-- **学派 / School**: 存在主义／女性主义 / Existentialism / Feminism
+- **学派 / School**: 存在主义 / Existentialism
 - **出处 / Source**: 《第二性》 / The Second Sex
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: On ne naît pas femme : on le devient.
@@ -1149,7 +1149,7 @@
 #### Q0093
 
 - **作者 / Author**: 维克多·弗兰克尔（1905–1997） / Viktor Frankl (1905–1997)
-- **学派 / School**: 意义治疗／存在主义心理 / Logotherapy / Existential Psychology
+- **学派 / School**: 意义治疗 / Logotherapy
 - **出处 / Source**: 《活出生命的意义》 / Man's Search for Meaning
 - **原文语言 / Language**: 英语（德文原作） / English (orig. German)
 - **原文 / Original**: Everything can be taken from a man but one thing: the last of the human freedoms — to choose one's attitude in any given set of circumstances, to choose one's own way.
@@ -1161,7 +1161,7 @@
 #### Q0094
 
 - **作者 / Author**: 维克多·弗兰克尔 / Viktor Frankl (1905–1997)
-- **学派 / School**: 意义治疗／存在主义心理 / Logotherapy / Existential Psychology
+- **学派 / School**: 意义治疗 / Logotherapy
 - **出处 / Source**: 《活出生命的意义》 / Man's Search for Meaning
 - **原文语言 / Language**: 英语（德文原作） / English (orig. German)
 - **原文 / Original**: Those who have a 'why' to live, can bear with almost any 'how'.
@@ -1174,7 +1174,7 @@
 #### Q0095
 
 - **作者 / Author**: 汉娜·阿伦特（1906–1975） / Hannah Arendt (1906–1975)
-- **学派 / School**: 政治哲学 / Political Philosophy
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《人的条件》 / The Human Condition
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Men, not Man, live on the earth and inhabit the world.
@@ -1186,7 +1186,7 @@
 #### Q0096
 
 - **作者 / Author**: 汉娜·阿伦特 / Hannah Arendt (1906–1975)
-- **学派 / School**: 政治哲学 / Political Philosophy
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《精神生活》等论思考 / The Life of the Mind (on thinking)
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Thinking…is the habit of examining whatever happens to come to pass or to attract attention.
@@ -1234,7 +1234,7 @@
 #### Q0100
 
 - **作者 / Author**: 西塞罗（前106–前43） / Cicero (106–43 BCE)
-- **学派 / School**: 罗马哲学 / Roman Philosophy
+- **学派 / School**: 斯多葛主义 / Stoicism
 - **出处 / Source**: 《腓力辞》XII.5 / Philippics XII.5
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Cuiusvis hominis est errare; nullius nisi insipientis, in errore perseverare.
@@ -1380,7 +1380,7 @@
 #### Q0112
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche (1844–1900)
-- **学派 / School**: 生命哲学 / Philosophy of Life
+- **学派 / School**: 意志哲学 / Philosophy of Will
 - **出处 / Source**: 《查拉图斯特拉如是说》 / Thus Spoke Zarathustra
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Man muss noch Chaos in sich haben, um einen tanzenden Stern gebären zu können.
@@ -1416,7 +1416,7 @@
 #### Q0115
 
 - **作者 / Author**: 奥古斯特·孔德（1798–1857） / Auguste Comte (1798–1857)
-- **学派 / School**: 实证主义 / Positivism
+- **学派 / School**: 经验主义 / Empiricism
 - **出处 / Source**: 《实证哲学教程》相关表述 / Cours de philosophie positive (formula)
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Savoir pour prévoir, afin de pouvoir.
@@ -1452,7 +1452,7 @@
 #### Q0118
 
 - **作者 / Author**: 克尔凯郭尔 / Søren Kierkegaard (1813–1855)
-- **学派 / School**: 存在主义前驱 / Proto-Existentialism
+- **学派 / School**: 存在主义 / Existentialism
 - **出处 / Source**: 《非此即彼》 / Either/Or
 - **原文语言 / Language**: 丹麦语 / Danish
 - **原文 / Original**: Gift Dig, Du vil fortryde det; gift Dig ikke, Du vil også fortryde det…
@@ -1464,7 +1464,7 @@
 #### Q0119
 
 - **作者 / Author**: 克尔凯郭尔 / Søren Kierkegaard (1813–1855)
-- **学派 / School**: 存在主义前驱 / Proto-Existentialism
+- **学派 / School**: 存在主义 / Existentialism
 - **出处 / Source**: 《致死的疾病》 / The Sickness unto Death
 - **原文语言 / Language**: 丹麦语 / Danish
 - **原文 / Original**: Fortvivlelse er…ikke at ville være sig selv…[eller] at ville være sig selv.
@@ -1620,7 +1620,7 @@
 #### Q0132
 
 - **作者 / Author**: 波爱修斯（约480–524） / Boethius (c. 480–524)
-- **学派 / School**: 晚期古代哲学 / Late Antique Philosophy
+- **学派 / School**: 新柏拉图主义 / Neoplatonism
 - **出处 / Source**: 《哲学的慰藉》第二卷 / The Consolation of Philosophy, Book II
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Nam quibusdam nimium amaris fortunae casibus…amici…probantur.
@@ -1632,7 +1632,7 @@
 #### Q0133
 
 - **作者 / Author**: 波爱修斯 / Boethius (c. 480–524)
-- **学派 / School**: 晚期古代哲学 / Late Antique Philosophy
+- **学派 / School**: 新柏拉图主义 / Neoplatonism
 - **出处 / Source**: 《哲学的慰藉》第三卷 / The Consolation of Philosophy, Book III
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Opulentia…non aufert…indigentiam…sed…novas…incitat.
@@ -1916,7 +1916,7 @@
 #### Q0156
 
 - **作者 / Author**: 《周易》 / The Book of Changes (Yijing)
-- **学派 / School**: 先秦经典 / Pre-Qin Classics
+- **学派 / School**: 儒家 / Confucianism
 - **出处 / Source**: 《周易·乾卦·象传》 / Yijing, Qian, Commentary on the Images
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 天行健，君子以自强不息。
@@ -1928,7 +1928,7 @@
 #### Q0157
 
 - **作者 / Author**: 《周易》 / The Book of Changes (Yijing)
-- **学派 / School**: 先秦经典 / Pre-Qin Classics
+- **学派 / School**: 儒家 / Confucianism
 - **出处 / Source**: 《周易·坤卦·象传》 / Yijing, Kun, Commentary on the Images
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 地势坤，君子以厚德载物。
@@ -2060,7 +2060,7 @@
 #### Q0168
 
 - **作者 / Author**: 孙子（春秋） / Sunzi (Spring and Autumn period)
-- **学派 / School**: 兵家 / School of Military Strategy
+- **学派 / School**: 兵家 / Military Thought
 - **出处 / Source**: 《孙子兵法·谋攻》 / The Art of War, Planning Offensives
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 知彼知己，百战不殆；不知彼而知己，一胜一负；不知彼不知己，每战必殆。
@@ -2072,7 +2072,7 @@
 #### Q0169
 
 - **作者 / Author**: 张载（1020–1077） / Zhang Zai (1020–1077)
-- **学派 / School**: 宋明理学（关学） / Neo-Confucianism (Guan School)
+- **学派 / School**: 理学 / Neo-Confucianism
 - **出处 / Source**: 《横渠语录》（宋明本作「立道」「去圣」；通行润色本作「立命」「往圣」） / Hengqu Yulu (Song–Ming text: 立道/去圣; popular polished form: 立命/往圣)
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 为天地立心，为生民立命，为往圣继绝学，为万世开太平。
@@ -2085,7 +2085,7 @@
 #### Q0170
 
 - **作者 / Author**: 朱熹（1130–1200） / Zhu Xi (1130–1200)
-- **学派 / School**: 宋明理学（理学） / Neo-Confucianism (Cheng–Zhu)
+- **学派 / School**: 理学 / Neo-Confucianism
 - **出处 / Source**: 《观书有感》其一 / Reflections on Reading, no. 1
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 问渠那得清如许？为有源头活水来。
@@ -2097,7 +2097,7 @@
 #### Q0171
 
 - **作者 / Author**: 王阳明（王守仁，1472–1529） / Wang Yangming (1472–1529)
-- **学派 / School**: 宋明理学（心学） / Neo-Confucianism (School of Mind)
+- **学派 / School**: 理学 / Neo-Confucianism
 - **出处 / Source**: 《传习录》卷上 / Instructions for Practical Living, Juan Shang
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 知是行的主意，行是知的功夫；知是行之始，行是知之成。
@@ -2109,7 +2109,7 @@
 #### Q0172
 
 - **作者 / Author**: 王阳明 / Wang Yangming (1472–1529)
-- **学派 / School**: 宋明理学（心学） / Neo-Confucianism (School of Mind)
+- **学派 / School**: 理学 / Neo-Confucianism
 - **出处 / Source**: 《传习录》卷上 / Instructions for Practical Living, Juan Shang
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 未有知而不行者。知而不行，只是未知。
@@ -2121,7 +2121,7 @@
 #### Q0173
 
 - **作者 / Author**: 王阳明 / Wang Yangming (1472–1529)
-- **学派 / School**: 宋明理学（心学） / Neo-Confucianism (School of Mind)
+- **学派 / School**: 理学 / Neo-Confucianism
 - **出处 / Source**: 《传习录》等 / Instructions for Practical Living et al.
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 致良知。
@@ -2134,7 +2134,7 @@
 #### Q0174
 
 - **作者 / Author**: 王国维（1877–1927） / Wang Guowei (1877–1927)
-- **学派 / School**: 近代美学／学问论 / Modern Aesthetics / Learning
+- **学派 / School**: 现代新儒家 / Modern New Confucianism
 - **出处 / Source**: 《人间词话》第二十六则 / Remarks on Lyrics in the Human World, §26
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 古今之成大事业、大学问者，必经过三种之境界：「昨夜西风凋碧树。独上高楼，望尽天涯路。」此第一境也。「衣带渐宽终不悔，为伊消得人憔悴。」此第二境也。「众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。」此第三境也。
@@ -2146,7 +2146,7 @@
 #### Q0175
 
 - **作者 / Author**: 梁启超（1873–1929） / Liang Qichao (1873–1929)
-- **学派 / School**: 近代启蒙思想 / Modern Enlightenment Thought
+- **学派 / School**: 现代新儒家 / Modern New Confucianism
 - **出处 / Source**: 《敬业与乐业》（1922） / Respect for Work and Delight in Work (1922)
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 我生平最受用的有两句话：一是「责任心」，二是「趣味」。……今天所讲，敬业即是责任心，乐业即是趣味。我深信人类合理的生活应该如此。
@@ -2158,7 +2158,7 @@
 #### Q0176
 
 - **作者 / Author**: 梁启超 / Liang Qichao (1873–1929)
-- **学派 / School**: 近代启蒙思想 / Modern Enlightenment Thought
+- **学派 / School**: 现代新儒家 / Modern New Confucianism
 - **出处 / Source**: 《敬业与乐业》 / Respect for Work and Delight in Work
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 凡职业都是有趣味的，只要你肯继续做下去，趣味自然会发生。
@@ -2170,7 +2170,7 @@
 #### Q0177
 
 - **作者 / Author**: 胡适（1891–1962） / Hu Shi (1891–1962)
-- **学派 / School**: 实用主义／实验主义 / Pragmatism / Experimentalism
+- **学派 / School**: 实用主义 / Pragmatism
 - **出处 / Source**: 《清代学者的治学方法》及《治学方法》演讲等 / The Methods of Qing Scholars; lectures on method
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 大胆的假设，小心的求证。
@@ -2183,7 +2183,7 @@
 #### Q0178
 
 - **作者 / Author**: 胡适 / Hu Shi (1891–1962)
-- **学派 / School**: 实用主义／实验主义 / Pragmatism / Experimentalism
+- **学派 / School**: 实用主义 / Pragmatism
 - **出处 / Source**: 《新思潮的意义》等 / The Meaning of the New Thought et al.
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 研究问题，输入学理，整理国故，再造文明。
@@ -2195,7 +2195,7 @@
 #### Q0179
 
 - **作者 / Author**: 冯友兰（1895–1990） / Feng Youlan (1895–1990)
-- **学派 / School**: 新理学 / New Rational Philosophy
+- **学派 / School**: 现代新儒家 / Modern New Confucianism
 - **出处 / Source**: 《新原人》 / A New Treatise on the Nature of Man
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 人生是有觉解的生活，或有较高程度觉解的生活。这是人之所以异于禽兽，人生之所以异于别的动物的生活者。
@@ -2262,7 +2262,7 @@
 #### Q0184
 
 - **作者 / Author**: 弗朗西斯·培根（1561–1626） / Francis Bacon (1561–1626)
-- **学派 / School**: 经验主义／科学方法 / Empiricism / Scientific Method
+- **学派 / School**: 经验主义 / Empiricism
 - **出处 / Source**: 《圣思录》／Meditationes Sacrae（1597）
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: nam et ipsa scientia potestas est
@@ -2275,7 +2275,7 @@
 #### Q0185
 
 - **作者 / Author**: 弗朗西斯·培根 / Francis Bacon (1561–1626)
-- **学派 / School**: 经验主义／科学方法 / Empiricism / Scientific Method
+- **学派 / School**: 经验主义 / Empiricism
 - **出处 / Source**: 《论读书》／Of Studies
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Reading maketh a full man; conference a ready man; and writing an exact man.
@@ -2299,7 +2299,7 @@
 #### Q0187
 
 - **作者 / Author**: 乔治·贝克莱（1685–1753） / George Berkeley (1685–1753)
-- **学派 / School**: 主观唯心主义／经验主义 / Idealism / Empiricism
+- **学派 / School**: 英国经验主义 / British Empiricism
 - **出处 / Source**: 《人类知识原理》§3 / A Treatise Concerning the Principles of Human Knowledge, §3
 - **原文语言 / Language**: 拉丁语（概括）／英语语境 / Latin formula in English context
 - **原文 / Original**: Their esse is percipi
@@ -2312,7 +2312,7 @@
 #### Q0188
 
 - **作者 / Author**: 大卫·休谟（1711–1776） / David Hume (1711–1776)
-- **学派 / School**: 苏格兰启蒙／经验主义 / Scottish Enlightenment / Empiricism
+- **学派 / School**: 苏格兰启蒙 / Scottish Enlightenment
 - **出处 / Source**: 《人性论》II.3.3 / A Treatise of Human Nature, II.3.3
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Reason is, and ought only to be the slave of the passions, and can never pretend to any other office than to serve and obey them.
@@ -2324,7 +2324,7 @@
 #### Q0189
 
 - **作者 / Author**: 莱布尼茨（1646–1716） / Gottfried Wilhelm Leibniz (1646–1716)
-- **学派 / School**: 理性主义／单子论 / Rationalism / Monadology
+- **学派 / School**: 理性主义 / Rationalism
 - **出处 / Source**: 《神正论》／Essais de Théodicée（1710）
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: le meilleur des mondes possibles
@@ -2362,7 +2362,7 @@
 #### Q0192
 
 - **作者 / Author**: 维柯（1668–1744） / Giambattista Vico (1668–1744)
-- **学派 / School**: 历史哲学 / Philosophy of History
+- **学派 / School**: 文艺复兴人文主义 / Renaissance Humanism
 - **出处 / Source**: 《论意大利人的古代智慧》等 / On the Most Ancient Wisdom of the Italians et al.
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Verum esse ipsum factum
@@ -2374,7 +2374,7 @@
 #### Q0193
 
 - **作者 / Author**: 查尔斯·桑德斯·皮尔士（1839–1914） / Charles Sanders Peirce (1839–1914)
-- **学派 / School**: 实用主义／符号学 / Pragmatism / Semiotics
+- **学派 / School**: 实用主义 / Pragmatism
 - **出处 / Source**: 《逻辑第一规则》／F.R.L. (c. 1899); CP 1.135
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Do not block the way of inquiry.
@@ -2386,7 +2386,7 @@
 #### Q0194
 
 - **作者 / Author**: 乔治·桑塔亚那（1863–1952） / George Santayana (1863–1952)
-- **学派 / School**: 自然主义／美国哲学 / Naturalism / American Philosophy
+- **学派 / School**: 实用主义 / Pragmatism
 - **出处 / Source**: 《理性生活》卷一第十二章 / The Life of Reason, Vol. 1, Ch. 12 (1905)
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Those who cannot remember the past are condemned to repeat it.
@@ -2398,7 +2398,7 @@
 #### Q0195
 
 - **作者 / Author**: 亨利·柏格森（1859–1941） / Henri Bergson (1859–1941)
-- **学派 / School**: 生命哲学／直觉主义 / Philosophy of Life / Intuitionism
+- **学派 / School**: 过程哲学 / Process Philosophy
 - **出处 / Source**: 《创造进化论》第一章 / Creative Evolution, Ch. 1 (1907)
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Pour un être conscient, exister consiste à changer, changer à mûrir, mûrir à se créer indéfiniment soi-même.
@@ -2410,7 +2410,7 @@
 #### Q0196
 
 - **作者 / Author**: 马丁·布伯（1878–1965） / Martin Buber (1878–1965)
-- **学派 / School**: 对话哲学／存在主义 / Dialogical Philosophy / Existentialism
+- **学派 / School**: 对话哲学 / Dialogical Philosophy
 - **出处 / Source**: 《我与你》／Ich und Du (1923)
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Alles wirkliche Leben ist Begegnung.
@@ -2422,7 +2422,7 @@
 #### Q0197
 
 - **作者 / Author**: 西蒙娜·韦伊（1909–1943） / Simone Weil (1909–1943)
-- **学派 / School**: 宗教存在主义／道德哲学 / Religious Existentialism / Moral Philosophy
+- **学派 / School**: 宗教存在主义 / Religious Existentialism
 - **出处 / Source**: 致若埃·布斯凯信（1942年4月13日） / Letter to Joë Bousquet (13 Apr 1942)
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: L'attention est la forme la plus rare et la plus pure de la générosité.
@@ -2434,7 +2434,7 @@
 #### Q0198
 
 - **作者 / Author**: 奥尔特加·加塞特（1883–1955） / José Ortega y Gasset (1883–1955)
-- **学派 / School**: 生命理性／境遇主义 / Ratiovitalism / Perspectivism
+- **学派 / School**: 存在主义 / Existentialism
 - **出处 / Source**: 《堂吉诃德沉思》／Meditaciones del Quijote (1914)
 - **原文语言 / Language**: 西班牙语 / Spanish
 - **原文 / Original**: Yo soy yo y mi circunstancia, y si no la salvo a ella no me salvo yo.
@@ -2446,7 +2446,7 @@
 #### Q0199
 
 - **作者 / Author**: 玛丽·沃斯通克拉夫特（1759–1797） / Mary Wollstonecraft (1759–1797)
-- **学派 / School**: 启蒙／女权哲学 / Enlightenment / Feminist Philosophy
+- **学派 / School**: 女性主义哲学 / Feminist Philosophy
 - **出处 / Source**: 《为女权辩护》／A Vindication of the Rights of Woman (1792)
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: I do not wish them to have power over men; but over themselves.
@@ -2458,7 +2458,7 @@
 #### Q0200
 
 - **作者 / Author**: 艾丽丝·默多克（1919–1999） / Iris Murdoch (1919–1999)
-- **学派 / School**: 道德哲学／柏拉图主义复兴 / Moral Philosophy / Platonic Revival
+- **学派 / School**: 柏拉图式道德哲学 / Platonic Moral Philosophy
 - **出处 / Source**: 《崇高与善》／The Sublime and the Good (1959)
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Love is the extremely difficult realisation that something other than oneself is real.
@@ -2470,7 +2470,7 @@
 #### Q0201
 
 - **作者 / Author**: 卡尔·雅斯贝尔斯（1883–1969） / Karl Jaspers (1883–1969)
-- **学派 / School**: 存在主义／生存哲学 / Existentialism / Philosophy of Existence
+- **学派 / School**: 存在主义 / Existentialism
 - **出处 / Source**: 《哲学》等著作中的通行表述 / Philosophy et al. (standard formulation)
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Der Mensch ist immer mehr, als er von sich weiß.
@@ -2520,7 +2520,7 @@
 #### Q0205
 
 - **作者 / Author**: 《唱赞奥义书》／Chāndogya Upaniṣad
-- **学派 / School**: 吠檀多／奥义书哲学 / Vedānta / Upaniṣadic Philosophy
+- **学派 / School**: 吠檀多 / Vedanta
 - **出处 / Source**: 《唱赞奥义书》6.8.7 等／Chāndogya Upaniṣad 6.8.7 et al.
 - **原文语言 / Language**: 梵语 / Sanskrit
 - **原文 / Original**: तत् त्वम् असि
@@ -2532,7 +2532,7 @@
 #### Q0206
 
 - **作者 / Author**: 道元（1200–1253） / Dōgen (1200–1253)
-- **学派 / School**: 曹洞宗／日本禅 / Sōtō Zen
+- **学派 / School**: 禅宗 / Zen Buddhism
 - **出处 / Source**: 《正法眼藏·现成公案》／Shōbōgenzō, Genjōkōan
 - **原文语言 / Language**: 日文汉文混写／古典日语 / Classical Japanese (kanbun-style)
 - **原文 / Original**: 仏道をならふといふは、自己をならふなり。自己をならふといふは、自己をわするるなり。
@@ -2544,7 +2544,7 @@
 #### Q0207
 
 - **作者 / Author**: 慧能（638–713） / Huineng (638–713)
-- **学派 / School**: 禅宗／南宗 / Chan / Zen Buddhism
+- **学派 / School**: 禅宗 / Zen Buddhism
 - **出处 / Source**: 《六祖坛经》（通行宗宝本）／Platform Sutra (popular Zongbao text)
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 菩提本无树，明镜亦非台。本来无一物，何处惹尘埃。
@@ -2557,7 +2557,7 @@
 #### Q0208
 
 - **作者 / Author**: 《金刚经》（慧能因之而悟）／Diamond Sutra (via Huineng’s awakening)
-- **学派 / School**: 大乘佛教／般若 / Mahāyāna / Prajñā
+- **学派 / School**: 早期佛教 / Early Buddhism
 - **出处 / Source**: 《金刚般若波罗蜜经》／Vajracchedikā Prajñāpāramitā Sūtra
 - **原文语言 / Language**: 汉译文言文 / Classical Chinese (Kumārajīva tr.)
 - **原文 / Original**: 应无所住而生其心
@@ -2581,7 +2581,7 @@
 #### Q0210
 
 - **作者 / Author**: 《管子》／Guanzi
-- **学派 / School**: 黄老／法家相关 / Huang-Lao / Legalist-related
+- **学派 / School**: 法家 / Legalism
 - **出处 / Source**: 《管子·牧民》／Guanzi, On Shepherding the People
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 仓廪实则知礼节，衣食足则知荣辱。
@@ -2593,7 +2593,7 @@
 #### Q0211
 
 - **作者 / Author**: 王夫之（1619–1692） / Wang Fuzhi (1619–1692)
-- **学派 / School**: 明清实学／气学 / Ming–Qing Concrete Learning
+- **学派 / School**: 理学 / Neo-Confucianism
 - **出处 / Source**: 《周易外传》／Outer Commentary on the Book of Changes
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 天下惟器而已矣。道者器之道，器者不可谓之道之器也。
@@ -2605,7 +2605,7 @@
 #### Q0212
 
 - **作者 / Author**: 钱穆（1895–1990） / Qian Mu (1895–1990)
-- **学派 / School**: 现代史学／文化哲学 / Modern Historiography / Cultural Philosophy
+- **学派 / School**: 现代新儒家 / Modern New Confucianism
 - **出处 / Source**: 《国史大纲》引论／Outline of National History, Introduction
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 对其本国已往历史有一种温情与敬意。
@@ -2617,7 +2617,7 @@
 #### Q0213
 
 - **作者 / Author**: 泰戈尔（1861–1941） / Rabindranath Tagore (1861–1941)
-- **学派 / School**: 印度近代思想／人文主义 / Modern Indian Thought / Humanism
+- **学派 / School**: 印度古典哲学 / Indian Classical Philosophy
 - **出处 / Source**: 《萤火虫》第191则／Fireflies, no. 191 (1928)
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Faith is the bird that feels the light and sings when the dawn is still dark.
@@ -2629,7 +2629,7 @@
 #### Q0214
 
 - **作者 / Author**: 斯瓦米·维韦卡南达（1863–1902） / Swami Vivekananda (1863–1902)
-- **学派 / School**: 近代吠檀多／新印度教思想 / Neo-Vedānta
+- **学派 / School**: 吠檀多 / Vedanta
 - **出处 / Source**: 芝加哥世界宗教议会演讲及相关讲演／Chicago Parliament of Religions et al.
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Arise, awake, and stop not till the goal is reached.
@@ -2642,7 +2642,7 @@
 #### Q0215
 
 - **作者 / Author**: 阿尔·安萨里（1058–1111） / Al-Ghazālī (1058–1111)
-- **学派 / School**: 伊斯兰哲学／苏菲主义 / Islamic Philosophy / Sufism
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
 - **出处 / Source**: 《宗教学科的复兴》等／Iḥyāʾ ʿUlūm al-Dīn et al.
 - **原文语言 / Language**: 阿拉伯语（通行英译概括） / Arabic (standard English rendering)
 - **原文 / Original**: Knowledge without action is vanity, and action without knowledge is madness.
@@ -2667,7 +2667,7 @@
 #### Q0217
 
 - **作者 / Author**: 伊本·赫勒敦（1332–1406） / Ibn Khaldūn (1332–1406)
-- **学派 / School**: 历史哲学 / Philosophy of History
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
 - **出处 / Source**: 《历史绪论》／Muqaddimah
 - **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
 - **原文 / Original**: Man is a child of customs and not of his ancestors.
@@ -2680,7 +2680,7 @@
 #### Q0218
 
 - **作者 / Author**: 保罗·蒂利希（1886–1965） / Paul Tillich (1886–1965)
-- **学派 / School**: 存在主义神学／哲学神学 / Existential Theology
+- **学派 / School**: 宗教存在主义 / Religious Existentialism
 - **出处 / Source**: 《存在的勇气》／The Courage to Be (1952)
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: The courage to be is the courage to accept oneself as accepted in spite of being unacceptable.
@@ -2692,7 +2692,7 @@
 #### Q0219
 
 - **作者 / Author**: 加布里埃尔·马塞尔（1889–1973） / Gabriel Marcel (1889–1973)
-- **学派 / School**: 基督教存在主义 / Christian Existentialism
+- **学派 / School**: 宗教存在主义 / Religious Existentialism
 - **出处 / Source**: 《存在与拥有》等／Being and Having et al.
 - **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
 - **原文 / Original**: Hope consists in asserting that there is at the heart of being, beyond all data, beyond all inventories and all calculations, a mysterious principle which is in connivance with me.
@@ -2705,7 +2705,7 @@
 #### Q0220
 
 - **作者 / Author**: 埃里希·弗洛姆（1900–1980） / Erich Fromm (1900–1980)
-- **学派 / School**: 人本主义精神分析／社会哲学 / Humanistic Psychoanalysis
+- **学派 / School**: 存在主义 / Existentialism
 - **出处 / Source**: 《爱的艺术》／The Art of Loving (1956)
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Love is the only sane and satisfactory answer to the problem of human existence.
@@ -3002,7 +3002,7 @@
 #### Q0244
 
 - **作者 / Author**: 霍布斯 / Thomas Hobbes
-- **学派 / School**: 近代政治哲学 / Modern Political Philosophy
+- **学派 / School**: 社会契约论 / Social Contract Theory
 - **出处 / Source**: 《利维坦》XIII / Leviathan XIII
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: during the time men live without a common Power to keep them all in awe, they are in that condition which is called Warre
@@ -3014,7 +3014,7 @@
 #### Q0245
 
 - **作者 / Author**: 霍布斯 / Thomas Hobbes
-- **学派 / School**: 近代政治哲学 / Modern Political Philosophy
+- **学派 / School**: 社会契约论 / Social Contract Theory
 - **出处 / Source**: 《利维坦》VI / Leviathan VI
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Felicity is a continual progress of the desire, from one object to another
@@ -3026,7 +3026,7 @@
 #### Q0246
 
 - **作者 / Author**: 霍布斯 / Thomas Hobbes
-- **学派 / School**: 近代政治哲学 / Modern Political Philosophy
+- **学派 / School**: 社会契约论 / Social Contract Theory
 - **出处 / Source**: 《利维坦》XIII / Leviathan XIII
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: the life of man, solitary, poor, nasty, brutish, and short
@@ -3038,7 +3038,7 @@
 #### Q0247
 
 - **作者 / Author**: 约翰·洛克 / John Locke
-- **学派 / School**: 经验主义／政治哲学 / Empiricism / Political Philosophy
+- **学派 / School**: 经验主义 / Empiricism
 - **出处 / Source**: 《政府论》下篇 II.6 / Second Treatise II.6
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: The State of Nature has a Law of Nature to govern it, which obliges every one: And Reason, which is that Law, teaches all Mankind…that being all equal and independent, no one ought to harm another in his Life, Health, Liberty, or Possessions.
@@ -3062,7 +3062,7 @@
 #### Q0249
 
 - **作者 / Author**: 大卫·休谟 / David Hume
-- **学派 / School**: 经验主义／怀疑论 / Empiricism / Skepticism
+- **学派 / School**: 苏格兰启蒙 / Scottish Enlightenment
 - **出处 / Source**: 《人类理解研究》X / Enquiry Concerning Human Understanding X
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: A wise man…proportions his belief to the evidence.
@@ -3074,7 +3074,7 @@
 #### Q0250
 
 - **作者 / Author**: 大卫·休谟 / David Hume
-- **学派 / School**: 经验主义／怀疑论 / Empiricism / Skepticism
+- **学派 / School**: 苏格兰启蒙 / Scottish Enlightenment
 - **出处 / Source**: 《人性论》I.4.6 / Treatise I.4.6
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: for my part, when I enter most intimately into what I call myself, I always stumble on some particular perception or other
@@ -3086,7 +3086,7 @@
 #### Q0251
 
 - **作者 / Author**: 大卫·休谟 / David Hume
-- **学派 / School**: 经验主义／道德哲学 / Empiricism / Moral Philosophy
+- **学派 / School**: 苏格兰启蒙 / Scottish Enlightenment
 - **出处 / Source**: 《道德原理研究》附录一 / Enquiry Concerning the Principles of Morals, App. I
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Reason is wholly inactive, and can never be the source of so active a principle as conscience, or a sense of morals.
@@ -3098,7 +3098,7 @@
 #### Q0252
 
 - **作者 / Author**: 卢梭 / Jean-Jacques Rousseau
-- **学派 / School**: 启蒙思想 / Enlightenment
+- **学派 / School**: 社会契约论 / Social Contract Theory
 - **出处 / Source**: 《爱弥儿》I / Émile I
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Tout est bien sortant des mains de l'Auteur des choses, tout dégénère entre les mains de l'homme.
@@ -3110,7 +3110,7 @@
 #### Q0253
 
 - **作者 / Author**: 卢梭 / Jean-Jacques Rousseau
-- **学派 / School**: 启蒙思想／社会契约 / Enlightenment / Social Contract
+- **学派 / School**: 社会契约论 / Social Contract Theory
 - **出处 / Source**: 《社会契约论》I.6 / The Social Contract I.6
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Trouver une forme d'association…par laquelle chacun, s'unissant à tous, n'obéisse pourtant qu'à lui-même, et reste aussi libre qu'auparavant.
@@ -3122,7 +3122,7 @@
 #### Q0254
 
 - **作者 / Author**: 卢梭 / Jean-Jacques Rousseau
-- **学派 / School**: 启蒙思想 / Enlightenment
+- **学派 / School**: 社会契约论 / Social Contract Theory
 - **出处 / Source**: 《论人类不平等的起源》第二部分 / Discourse on Inequality, Part II
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Le premier qui, ayant enclos un terrain, s'avisa de dire: Ceci est à moi…fut le vrai fondateur de la société civile.
@@ -3279,7 +3279,7 @@
 #### Q0267
 
 - **作者 / Author**: 约翰·斯图亚特·密尔 / John Stuart Mill
-- **学派 / School**: 功利主义／自由主义 / Utilitarianism / Liberalism
+- **学派 / School**: 功利主义 / Utilitarianism
 - **出处 / Source**: 《论自由》I / On Liberty I
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: The only purpose for which power can be rightfully exercised over any member of a civilized community, against his will, is to prevent harm to others.
@@ -3291,7 +3291,7 @@
 #### Q0268
 
 - **作者 / Author**: 约翰·斯图亚特·密尔 / John Stuart Mill
-- **学派 / School**: 自由主义 / Liberalism
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《论自由》II / On Liberty II
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: He who knows only his own side of the case, knows little of that.
@@ -3303,7 +3303,7 @@
 #### Q0269
 
 - **作者 / Author**: 威廉·詹姆斯 / William James
-- **学派 / School**: 实用主义／心理学 / Pragmatism / Psychology
+- **学派 / School**: 实用主义 / Pragmatism
 - **出处 / Source**: 《心理学原理》IX / Principles of Psychology IX
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Consciousness…does not appear to itself chopped up in bits…It is nothing jointed; it flows.
@@ -3363,7 +3363,7 @@
 #### Q0274
 
 - **作者 / Author**: 怀特海 / Alfred North Whitehead
-- **学派 / School**: 过程哲学／教育 / Process Philosophy / Education
+- **学派 / School**: 过程哲学 / Process Philosophy
 - **出处 / Source**: 《教育的目的》 / The Aims of Education
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: In the Garden of Eden Adam saw the animals before he named them: in the traditional system, children named the animals before they saw them.
@@ -3399,7 +3399,7 @@
 #### Q0277
 
 - **作者 / Author**: 汉娜·阿伦特 / Hannah Arendt
-- **学派 / School**: 政治哲学 / Political Philosophy
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《黑暗时代的人们》 / Men in Dark Times
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Even in the darkest of times we have the right to expect some illumination.
@@ -3411,7 +3411,7 @@
 #### Q0278
 
 - **作者 / Author**: 汉娜·阿伦特 / Hannah Arendt
-- **学派 / School**: 政治哲学 / Political Philosophy
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《精神生活》 / The Life of the Mind
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: The sad truth is that most evil is done by people who never make up their minds to be good or evil.
@@ -3568,7 +3568,7 @@
 #### Q0291
 
 - **作者 / Author**: 《大学》 / The Great Learning
-- **学派 / School**: 儒家经典 / Confucian Classics
+- **学派 / School**: 儒家 / Confucianism
 - **出处 / Source**: 《大学》 / The Great Learning
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 物有本末，事有终始，知所先后，则近道矣。
@@ -3580,7 +3580,7 @@
 #### Q0292
 
 - **作者 / Author**: 《中庸》 / The Doctrine of the Mean
-- **学派 / School**: 儒家经典 / Confucian Classics
+- **学派 / School**: 儒家 / Confucianism
 - **出处 / Source**: 《中庸》 / The Doctrine of the Mean
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 喜怒哀乐之未发，谓之中；发而皆中节，谓之和。
@@ -3592,7 +3592,7 @@
 #### Q0293
 
 - **作者 / Author**: 《中庸》 / The Doctrine of the Mean
-- **学派 / School**: 儒家经典 / Confucian Classics
+- **学派 / School**: 儒家 / Confucianism
 - **出处 / Source**: 《中庸》 / The Doctrine of the Mean
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 君子戒慎乎其所不睹，恐惧乎其所不闻……故君子慎其独也。
@@ -3640,7 +3640,7 @@
 #### Q0297
 
 - **作者 / Author**: 王阳明 / Wang Yangming
-- **学派 / School**: 心学 / School of Mind
+- **学派 / School**: 理学 / Neo-Confucianism
 - **出处 / Source**: 《传习录》 / Instructions for Practical Living
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 心即理也。天下又有心外之事，心外之理乎？
@@ -3652,7 +3652,7 @@
 #### Q0298
 
 - **作者 / Author**: 王阳明 / Wang Yangming
-- **学派 / School**: 心学 / School of Mind
+- **学派 / School**: 理学 / Neo-Confucianism
 - **出处 / Source**: 《传习录》 / Instructions for Practical Living
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 尔那一点良知，是尔自家的准则。
@@ -3700,7 +3700,7 @@
 #### Q0302
 
 - **作者 / Author**: 《薄伽梵歌》 / Bhagavad Gita
-- **学派 / School**: 印度教哲学 / Hindu Philosophy
+- **学派 / School**: 吠檀多 / Vedanta
 - **出处 / Source**: 《薄伽梵歌》2.14 / Bhagavad Gita 2.14
 - **原文语言 / Language**: 梵语 / Sanskrit
 - **原文 / Original**: mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkha-dāḥ / āgamāpāyino 'nityās tāṃs titikṣasva bhārata
@@ -3712,7 +3712,7 @@
 #### Q0303
 
 - **作者 / Author**: 《薄伽梵歌》 / Bhagavad Gita
-- **学派 / School**: 印度教哲学 / Hindu Philosophy
+- **学派 / School**: 吠檀多 / Vedanta
 - **出处 / Source**: 《薄伽梵歌》6.5 / Bhagavad Gita 6.5
 - **原文语言 / Language**: 梵语 / Sanskrit
 - **原文 / Original**: uddhared ātmanātmānaṃ nātmānam avasādayet / ātmaiva hy ātmano bandhur ātmaiva ripur ātmanaḥ
@@ -3809,7 +3809,7 @@
 #### Q0311
 
 - **作者 / Author**: 《塔木德》传统 / Talmudic tradition
-- **学派 / School**: 犹太传统 / Jewish Tradition
+- **学派 / School**: 犹太拉比传统 / Rabbinic Judaism
 - **出处 / Source**: 《密西拿·先贤集》1:14（希勒尔） / Mishnah Avot 1:14 (Hillel)
 - **原文语言 / Language**: 希伯来语 / Hebrew
 - **原文 / Original**: אם אין אני לי, מי לי? וכשאני לעצמי, מה אני? ואם לא עכשיו, אימתי?
@@ -3821,7 +3821,7 @@
 #### Q0312
 
 - **作者 / Author**: 波爱修斯 / Boethius
-- **学派 / School**: 晚期古代哲学 / Late Antique Philosophy
+- **学派 / School**: 新柏拉图主义 / Neoplatonism
 - **出处 / Source**: 《哲学的慰藉》II / The Consolation of Philosophy II
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Nihil est…miserum nisi cum putes
@@ -3833,7 +3833,7 @@
 #### Q0313
 
 - **作者 / Author**: 西塞罗 / Cicero
-- **学派 / School**: 罗马哲学 / Roman Philosophy
+- **学派 / School**: 斯多葛主义 / Stoicism
 - **出处 / Source**: 《图斯库卢姆谈话录》 / Tusculan Disputations
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Cultura animi philosophia est.
@@ -3845,7 +3845,7 @@
 #### Q0314
 
 - **作者 / Author**: 伏尔泰 / Voltaire
-- **学派 / School**: 启蒙思想 / Enlightenment
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《哲学辞典》「迷信」等／书信通行句 / Philosophical Dictionary / correspondence (common form)
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Le doute n'est pas un état bien agréable, mais l'assurance est un état ridicule.
@@ -3858,7 +3858,7 @@
 #### Q0315
 
 - **作者 / Author**: 伏尔泰 / Voltaire
-- **学派 / School**: 启蒙思想 / Enlightenment
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《论宽容》 / Treatise on Tolerance
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Il faut…que les hommes…se tolèrent mutuellement.
@@ -3884,7 +3884,7 @@
 #### Q0317
 
 - **作者 / Author**: 王夫之 / Wang Fuzhi
-- **学派 / School**: 气学／明清实学 / Qi Philosophy / Practical Learning
+- **学派 / School**: 理学 / Neo-Confucianism
 - **出处 / Source**: 《读通鉴论》 / Du Tongjian Lun
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 习与性成而与之俱化。
@@ -3910,7 +3910,7 @@
 #### Q0319
 
 - **作者 / Author**: 阿尔·安萨里 / Al-Ghazali
-- **学派 / School**: 伊斯兰神学／苏菲 / Islamic Theology / Sufism
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
 - **出处 / Source**: 《哲学家的矛盾》／《拯救者》相关 / Deliverance from Error (related)
 - **原文语言 / Language**: 阿拉伯语 / Arabic
 - **原文 / Original**: اليقين لا يُنال بالتقليد بل بالذوق
@@ -3960,7 +3960,7 @@
 #### Q0323
 
 - **作者 / Author**: 亚里士多德 / Aristotle
-- **学派 / School**: 亚里士多德主义 / Aristotelianism
+- **学派 / School**: 逍遥学派 / Peripatetic School
 - **出处 / Source**: 《形而上学》I.1, 980a21 / Metaphysics I.1, 980a21
 - **原文语言 / Language**: 古希腊语 / Ancient Greek
 - **原文 / Original**: Πάντες ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει
@@ -3972,7 +3972,7 @@
 #### Q0324
 
 - **作者 / Author**: 亚里士多德 / Aristotle
-- **学派 / School**: 亚里士多德主义 / Aristotelianism
+- **学派 / School**: 逍遥学派 / Peripatetic School
 - **出处 / Source**: 《尼各马可伦理学》I.1 / Nicomachean Ethics I.1
 - **原文语言 / Language**: 古希腊语 / Ancient Greek
 - **原文 / Original**: Πᾶσα τέχνη καὶ πᾶσα μέθοδος, ὁμοίως δὲ πρᾶξίς τε καὶ προαίρεσις, ἀγαθοῦ τινὸς ἐφίεσθαι δοκεῖ
@@ -3984,7 +3984,7 @@
 #### Q0325
 
 - **作者 / Author**: 亚里士多德 / Aristotle
-- **学派 / School**: 亚里士多德主义 / Aristotelianism
+- **学派 / School**: 逍遥学派 / Peripatetic School
 - **出处 / Source**: 《尼各马可伦理学》VIII.1 / Nicomachean Ethics VIII.1
 - **原文语言 / Language**: 古希腊语 / Ancient Greek
 - **原文 / Original**: μετὰ δὲ ταῦτα περὶ φιλίας ἐπέλθοι ἄν· ἔστι γὰρ ἀρετή τις ἢ μετ' ἀρετῆς
@@ -4020,7 +4020,7 @@
 #### Q0328
 
 - **作者 / Author**: 蒙田 / Michel de Montaigne
-- **学派 / School**: 怀疑论／人文主义 / Skepticism / Humanism
+- **学派 / School**: 文艺复兴人文主义 / Renaissance Humanism
 - **出处 / Source**: 《随笔集》III.13 / Essays III.13
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Il n'est rien si beau et légitime que de faire bien l'homme et dûment.
@@ -4140,7 +4140,7 @@
 #### Q0338
 
 - **作者 / Author**: 卢梭 / Jean-Jacques Rousseau
-- **学派 / School**: 社会契约论 / Social contract theory
+- **学派 / School**: 社会契约论 / Social Contract Theory
 - **出处 / Source**: 《爱弥儿》IV / Émile IV
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Conscience! Conscience! instinct divin, immortelle et céleste voix.
@@ -4152,7 +4152,7 @@
 #### Q0339
 
 - **作者 / Author**: 伏尔泰 / Voltaire
-- **学派 / School**: 启蒙运动 / Enlightenment
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《致〈三个骗子〉作者》诗（1768） / Épître à l'auteur du livre des Trois Imposteurs (1768)
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Si Dieu n'existait pas, il faudrait l'inventer.
@@ -4164,7 +4164,7 @@
 #### Q0340
 
 - **作者 / Author**: 黑格尔 / G. W. F. Hegel
-- **学派 / School**: 德国观念论 / German idealism
+- **学派 / School**: 德国观念论 / German Idealism
 - **出处 / Source**: 《精神现象学》序言 / Phenomenology of Spirit, Preface
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Das Wahre ist so der bacchantische Taumel, an dem kein Glied nicht trunken ist.
@@ -4224,7 +4224,7 @@
 #### Q0345
 
 - **作者 / Author**: 约翰·斯图亚特·密尔 / John Stuart Mill
-- **学派 / School**: 自由主义 / Liberalism
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《论自由》I / On Liberty I
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Over himself, over his own body and mind, the individual is sovereign.
@@ -4260,7 +4260,7 @@
 #### Q0348
 
 - **作者 / Author**: 伯特兰·罗素 / Bertrand Russell
-- **学派 / School**: 分析哲学 / Analytic philosophy
+- **学派 / School**: 分析哲学 / Analytic Philosophy
 - **出处 / Source**: 《自传》序言 / Autobiography, Prologue
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Three passions, simple but overwhelmingly strong, have governed my life: the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.
@@ -4272,7 +4272,7 @@
 #### Q0349
 
 - **作者 / Author**: 伯特兰·罗素 / Bertrand Russell
-- **学派 / School**: 分析哲学 / Analytic philosophy
+- **学派 / School**: 分析哲学 / Analytic Philosophy
 - **出处 / Source**: 《我为什么不是基督徒》相关演讲传统引文 / What I Believe / related essays
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: The good life is one inspired by love and guided by knowledge.
@@ -4284,7 +4284,7 @@
 #### Q0350
 
 - **作者 / Author**: 怀特海 / Alfred North Whitehead
-- **学派 / School**: 过程哲学 / Process philosophy
+- **学派 / School**: 过程哲学 / Process Philosophy
 - **出处 / Source**: 《过程与实在》 / Process and Reality
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: The safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to Plato.
@@ -4296,7 +4296,7 @@
 #### Q0351
 
 - **作者 / Author**: 怀特海 / Alfred North Whitehead
-- **学派 / School**: 过程哲学 / Process philosophy
+- **学派 / School**: 过程哲学 / Process Philosophy
 - **出处 / Source**: 《观念的冒险》 / Adventures of Ideas
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Seek simplicity and distrust it.
@@ -4308,7 +4308,7 @@
 #### Q0352
 
 - **作者 / Author**: 加缪 / Albert Camus
-- **学派 / School**: 荒诞哲学 / Philosophy of the absurd
+- **学派 / School**: 荒诞哲学 / Philosophy of the Absurd
 - **出处 / Source**: 《重返蒂帕萨》 / Return to Tipasa
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Au milieu de l'hiver, j'ai découvert en moi un invincible été.
@@ -4320,7 +4320,7 @@
 #### Q0353
 
 - **作者 / Author**: 汉娜·阿伦特 / Hannah Arendt
-- **学派 / School**: 政治哲学 / Political philosophy
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《人的条件》 / The Human Condition
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Forgiveness is the only reaction which does not merely re-act but acts anew and unexpectedly.
@@ -4332,7 +4332,7 @@
 #### Q0354
 
 - **作者 / Author**: 汉娜·阿伦特 / Hannah Arendt
-- **学派 / School**: 政治哲学 / Political philosophy
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《耶路撒冷的艾希曼》 / Eichmann in Jerusalem
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: the banality of evil
@@ -4345,7 +4345,7 @@
 #### Q0355
 
 - **作者 / Author**: 卡尔·波普尔 / Karl Popper
-- **学派 / School**: 批判理性主义 / Critical rationalism
+- **学派 / School**: 批判理性主义 / Critical Rationalism
 - **出处 / Source**: 《开放社会及其敌人》 / The Open Society and Its Enemies
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: We must plan for freedom, and not only for security, if for no other reason than that only freedom can make security secure.
@@ -4357,7 +4357,7 @@
 #### Q0356
 
 - **作者 / Author**: 卡尔·波普尔 / Karl Popper
-- **学派 / School**: 批判理性主义 / Critical rationalism
+- **学派 / School**: 批判理性主义 / Critical Rationalism
 - **出处 / Source**: 《猜想与反驳》 / Conjectures and Refutations
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Science must begin with myths, and with the criticism of myths.
@@ -4369,7 +4369,7 @@
 #### Q0357
 
 - **作者 / Author**: 亨利·柏格森 / Henri Bergson
-- **学派 / School**: 生命哲学 / Philosophy of life
+- **学派 / School**: 过程哲学 / Process Philosophy
 - **出处 / Source**: 《思想与运动》 / The Creative Mind
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: L'intelligence est caractérisée par une incompréhension naturelle de la vie.
@@ -4381,7 +4381,7 @@
 #### Q0358
 
 - **作者 / Author**: 马丁·布伯 / Martin Buber
-- **学派 / School**: 对话哲学 / Dialogical philosophy
+- **学派 / School**: 对话哲学 / Dialogical Philosophy
 - **出处 / Source**: 《我与你》 / I and Thou
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Der Mensch wird am Du zum Ich.
@@ -4393,7 +4393,7 @@
 #### Q0359
 
 - **作者 / Author**: 西蒙娜·韦伊 / Simone Weil
-- **学派 / School**: 道德哲学／神秘主义 / Moral philosophy / Mysticism
+- **学派 / School**: 宗教存在主义 / Religious Existentialism
 - **出处 / Source**: 《重力与恩典》 / Gravity and Grace
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: L'attention absolue est prière.
@@ -4405,7 +4405,7 @@
 #### Q0360
 
 - **作者 / Author**: 歌德 / Johann Wolfgang von Goethe
-- **学派 / School**: 魏玛古典主义／哲思文学 / Weimar Classicism / Philosophical literature
+- **学派 / School**: 德国观念论 / German Idealism
 - **出处 / Source**: 《浮士德》第二部 / Faust II
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Wer immer strebend sich bemüht, Den können wir erlösen.
@@ -4417,7 +4417,7 @@
 #### Q0361
 
 - **作者 / Author**: 席勒 / Friedrich Schiller
-- **学派 / School**: 德国古典美学 / German classical aesthetics
+- **学派 / School**: 德国观念论 / German Idealism
 - **出处 / Source**: 《审美教育书简》 / Letters on the Aesthetic Education of Man
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Lebe mit deinem Jahrhundert, aber sei nicht sein Geschöpf.
@@ -4429,7 +4429,7 @@
 #### Q0362
 
 - **作者 / Author**: 席勒 / Friedrich Schiller
-- **学派 / School**: 德国古典美学 / German classical aesthetics
+- **学派 / School**: 德国观念论 / German Idealism
 - **出处 / Source**: 《童贞的奥尔良》 / The Maid of Orleans
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Mit der Dummheit kämpfen Götter selbst vergebens.
@@ -4513,7 +4513,7 @@
 #### Q0369
 
 - **作者 / Author**: 王阳明 / Wang Yangming
-- **学派 / School**: 心学 / School of Mind
+- **学派 / School**: 理学 / Neo-Confucianism
 - **出处 / Source**: 《传习录》 / Instructions for Practical Living
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 知是行之始，行是知之成。
@@ -4549,7 +4549,7 @@
 #### Q0372
 
 - **作者 / Author**: 薄伽梵歌 / Bhagavad Gita
-- **学派 / School**: 印度哲学 / Indian philosophy
+- **学派 / School**: 印度古典哲学 / Indian Classical Philosophy
 - **出处 / Source**: 《薄伽梵歌》2.38 / Bhagavad Gita 2.38
 - **原文语言 / Language**: 梵语 / Sanskrit
 - **原文 / Original**: sukha-duḥkhe same kṛtvā lābhālābhau jayājayau
@@ -4561,7 +4561,7 @@
 #### Q0373
 
 - **作者 / Author**: 无门慧开 / Wumen Huikai
-- **学派 / School**: 禅宗 / Zen / Chan
+- **学派 / School**: 禅宗 / Zen Buddhism
 - **出处 / Source**: 《无门关》 / The Gateless Gate
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 大道无门，千差有路；透得此关，乾坤独步。
@@ -4573,7 +4573,7 @@
 #### Q0374
 
 - **作者 / Author**: 百丈怀海 / Baizhang Huaihai
-- **学派 / School**: 禅宗 / Zen / Chan
+- **学派 / School**: 禅宗 / Zen Buddhism
 - **出处 / Source**: 禅门清规传统 / Chan monastic tradition
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 一日不作，一日不食。
@@ -4585,7 +4585,7 @@
 #### Q0375
 
 - **作者 / Author**: 王阳明 / Wang Yangming
-- **学派 / School**: 心学 / School of Mind
+- **学派 / School**: 理学 / Neo-Confucianism
 - **出处 / Source**: 临终语录传统 / Traditional last words
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 此心光明，亦复何言。
@@ -4598,7 +4598,7 @@
 #### Q0376
 
 - **作者 / Author**: 塔木德传统（拉比塔尔丰） / Talmudic tradition (Rabbi Tarfon)
-- **学派 / School**: 犹太智慧文学 / Jewish wisdom literature
+- **学派 / School**: 犹太拉比传统 / Rabbinic Judaism
 - **出处 / Source**: 《密西拿·先贤篇》2:16 / Mishnah Avot 2:16
 - **原文语言 / Language**: 希伯来语 / Hebrew
 - **原文 / Original**: לא עליך המלאכה לגמור, ולא אתה בן חורין לבטל ממנה.
@@ -4610,7 +4610,7 @@
 #### Q0377
 
 - **作者 / Author**: 伊本·鲁世德 / Averroes (Ibn Rushd)
-- **学派 / School**: 伊斯兰哲学 / Islamic philosophy
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
 - **出处 / Source**: 《关于哲学与宗教关系的决定性论说》 / The Decisive Treatise
 - **原文语言 / Language**: 阿拉伯语 / Arabic
 - **原文 / Original**: الحق لا يضاد الحق بل يوافقه ويشهد له
@@ -4673,7 +4673,7 @@
 #### Q0382
 
 - **作者 / Author**: 德谟克利特 / Democritus
-- **学派 / School**: 原子论 / Atomism
+- **学派 / School**: 前苏格拉底 / Pre-Socratic
 - **出处 / Source**: DK 68B191（及相关快乐论残篇） / DK 68B191 (and related)
 - **原文语言 / Language**: 古希腊语 / Ancient Greek
 - **原文 / Original**: ἄριστον ἀνθρώπῳ τὸν βίον διάγειν ὡς πλεῖστα εὐθυμήσαντι καὶ ὡς ἐλάχιστα ἀδημονήσαντι
@@ -4699,7 +4699,7 @@
 #### Q0384
 
 - **作者 / Author**: 西塞罗 / Cicero
-- **学派 / School**: 罗马哲学 / Roman Philosophy
+- **学派 / School**: 斯多葛主义 / Stoicism
 - **出处 / Source**: 《论义务》I.22 / De Officiis I.22
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: non nobis solum nati sumus
@@ -4711,7 +4711,7 @@
 #### Q0385
 
 - **作者 / Author**: 西塞罗 / Cicero
-- **学派 / School**: 罗马哲学 / Roman Philosophy
+- **学派 / School**: 斯多葛主义 / Stoicism
 - **出处 / Source**: 《图斯库卢姆论辩》II.4 等；更准确《论友谊》 / Laelius on Friendship (related)
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Amicitia nisi inter bonos esse non potest
@@ -4723,7 +4723,7 @@
 #### Q0386
 
 - **作者 / Author**: 贺拉斯 / Horace
-- **学派 / School**: 罗马文学哲思 / Roman Literary Thought
+- **学派 / School**: 斯多葛主义 / Stoicism
 - **出处 / Source**: 《歌集》I.11 / Odes I.11
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: carpe diem, quam minimum credula postero
@@ -4735,7 +4735,7 @@
 #### Q0387
 
 - **作者 / Author**: 贺拉斯 / Horace
-- **学派 / School**: 罗马文学哲思 / Roman Literary Thought
+- **学派 / School**: 斯多葛主义 / Stoicism
 - **出处 / Source**: 《书信集》I.11.27 / Epistles I.11.27
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: caelum non animum mutant qui trans mare currunt
@@ -4747,7 +4747,7 @@
 #### Q0388
 
 - **作者 / Author**: 奥维德 / Ovid
-- **学派 / School**: 罗马文学哲思 / Roman Literary Thought
+- **学派 / School**: 文艺复兴人文主义 / Renaissance Humanism
 - **出处 / Source**: 《变形记》等；更准确《爱的医疗》 / Remedia Amoris 94 (related proverbial form)
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Principiis obsta
@@ -4772,7 +4772,7 @@
 #### Q0390
 
 - **作者 / Author**: 但丁 / Dante Alighieri
-- **学派 / School**: 中世纪思想 / Medieval Thought
+- **学派 / School**: 经院哲学 / Scholasticism
 - **出处 / Source**: 《神曲·地狱》III.9 / Inferno III.9
 - **原文语言 / Language**: 意大利语 / Italian
 - **原文 / Original**: Lasciate ogne speranza, voi ch’intrate
@@ -4784,7 +4784,7 @@
 #### Q0391
 
 - **作者 / Author**: 但丁 / Dante Alighieri
-- **学派 / School**: 中世纪思想 / Medieval Thought
+- **学派 / School**: 经院哲学 / Scholasticism
 - **出处 / Source**: 《神曲·地狱》V.121–123 / Inferno V.121–123
 - **原文语言 / Language**: 意大利语 / Italian
 - **原文 / Original**: Nessun maggior dolore che ricordarsi del tempo felice ne la miseria
@@ -4796,7 +4796,7 @@
 #### Q0392
 
 - **作者 / Author**: 帕斯卡尔 / Blaise Pascal
-- **学派 / School**: 基督教存在主义先声 / Proto-Existential Christian Thought
+- **学派 / School**: 基督教存在主义先声 / Christian Existential Precursor
 - **出处 / Source**: 《思想录》§136（布伦士维格编号常见） / Pensées (common numbering)
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Tout le malheur des hommes vient d’une seule chose, qui est de ne savoir pas demeurer en repos dans une chambre.
@@ -4832,7 +4832,7 @@
 #### Q0395
 
 - **作者 / Author**: 伏尔泰 / Voltaire
-- **学派 / School**: 启蒙思想 / Enlightenment
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 书信／通行句（常与《论宽容》相关） / Correspondence / traditional attribution
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Je ne suis pas d’accord avec ce que vous dites, mais je me battrai jusqu’à la mort pour que vous ayez le droit de le dire.
@@ -4845,7 +4845,7 @@
 #### Q0396
 
 - **作者 / Author**: 歌德 / Johann Wolfgang von Goethe
-- **学派 / School**: 德国古典思想 / German Classical Thought
+- **学派 / School**: 德国观念论 / German Idealism
 - **出处 / Source**: 《浮士德》第一部「书斋」 / Faust I, Study
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Grau, teurer Freund, ist alle Theorie, und grün des Lebens goldner Baum.
@@ -4857,7 +4857,7 @@
 #### Q0397
 
 - **作者 / Author**: 歌德 / Johann Wolfgang von Goethe
-- **学派 / School**: 德国古典思想 / German Classical Thought
+- **学派 / School**: 德国观念论 / German Idealism
 - **出处 / Source**: 《浮士德》第一部 / Faust I
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Zwei Seelen wohnen, ach! in meiner Brust
@@ -4869,7 +4869,7 @@
 #### Q0398
 
 - **作者 / Author**: 席勒 / Friedrich Schiller
-- **学派 / School**: 德国古典美学 / German Classical Aesthetics
+- **学派 / School**: 德国观念论 / German Idealism
 - **出处 / Source**: 《审美教育书简》 / On the Aesthetic Education of Man
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Der Mensch ist nur da ganz Mensch, wo er spielt.
@@ -4917,7 +4917,7 @@
 #### Q0402
 
 - **作者 / Author**: 汉娜·阿伦特 / Hannah Arendt
-- **学派 / School**: 政治哲学 / Political Philosophy
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《人的条件》 / The Human Condition
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: What I propose, therefore, is very simple: it is nothing more than to think what we are doing.
@@ -5013,7 +5013,7 @@
 #### Q0410
 
 - **作者 / Author**: 王阳明 / Wang Yangming
-- **学派 / School**: 心学 / School of Mind
+- **学派 / School**: 理学 / Neo-Confucianism
 - **出处 / Source**: 《传习录》 / Instructions for Practical Living
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 人须在事上磨，方立得住；方能静亦定，动亦定。
@@ -5049,7 +5049,7 @@
 #### Q0413
 
 - **作者 / Author**: 赵州从谂 / Zhaozhou Congshen
-- **学派 / School**: 禅宗 / Chan / Zen
+- **学派 / School**: 禅宗 / Zen Buddhism
 - **出处 / Source**: 《赵州录》／公案「吃茶去」 / Record of Zhaozhou / “Go drink tea”
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 吃茶去。
@@ -5061,7 +5061,7 @@
 #### Q0414
 
 - **作者 / Author**: 无门慧开 / Wumen Huikai
-- **学派 / School**: 禅宗 / Chan / Zen
+- **学派 / School**: 禅宗 / Zen Buddhism
 - **出处 / Source**: 《无门关》第六则评唱相关；「春有百花」偈通行 / Gateless Gate (popular verse)
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 春有百花秋有月，夏有凉风冬有雪。若无闲事挂心头，便是人间好时节。
@@ -5074,7 +5074,7 @@
 #### Q0415
 
 - **作者 / Author**: 梁启超 / Liang Qichao
-- **学派 / School**: 近代启蒙思想 / Modern Chinese Enlightenment Thought
+- **学派 / School**: 现代新儒家 / Modern New Confucianism
 - **出处 / Source**: 《少年中国说》 / On the Young China
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 少年智则国智，少年富则国富，少年强则国强。
@@ -5098,7 +5098,7 @@
 #### Q0417
 
 - **作者 / Author**: 冯友兰 / Feng Youlan
-- **学派 / School**: 新理学 / New Rational Philosophy
+- **学派 / School**: 现代新儒家 / Modern New Confucianism
 - **出处 / Source**: 《中国哲学简史》 / A Short History of Chinese Philosophy
 - **原文语言 / Language**: 现代汉语／英语 / Modern Chinese / English
 - **原文 / Original**: 哲学的功能不是增加积极的知识，而是提高精神的境界。
@@ -5110,7 +5110,7 @@
 #### Q0418
 
 - **作者 / Author**: 钱穆 / Qian Mu
-- **学派 / School**: 现代史学／文化哲学 / Modern Historiography / Cultural Philosophy
+- **学派 / School**: 现代新儒家 / Modern New Confucianism
 - **出处 / Source**: 《人生十论》等 / Ten Essays on Life et al.
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 人生只是一个向往，向远处看，向高处看。
@@ -5123,7 +5123,7 @@
 #### Q0419
 
 - **作者 / Author**: 托克维尔 / Alexis de Tocqueville
-- **学派 / School**: 政治哲学／社会思想 / Political Philosophy / Social Thought
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《论美国的民主》 / Democracy in America
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Les sociétés démocratiques… ont un goût naturel pour la liberté.
@@ -5136,7 +5136,7 @@
 #### Q0420
 
 - **作者 / Author**: 亚当·斯密 / Adam Smith
-- **学派 / School**: 道德哲学／苏格兰启蒙 / Moral Philosophy / Scottish Enlightenment
+- **学派 / School**: 苏格兰启蒙 / Scottish Enlightenment
 - **出处 / Source**: 《道德情操论》 / The Theory of Moral Sentiments
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: How selfish soever man may be supposed, there are evidently some principles in his nature, which interest him in the fortune of others.
@@ -5160,7 +5160,7 @@
 #### Q0422
 
 - **作者 / Author**: 亨利·柏格森 / Henri Bergson
-- **学派 / School**: 生命哲学 / Philosophy of Life
+- **学派 / School**: 过程哲学 / Process Philosophy
 - **出处 / Source**: 《时间与自由意志》相关思想；《创造进化论》亦论绵延 / Time and Free Will / Creative Evolution (durée)
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Nous ne pensons pas le temps réel. Mais nous le vivons.
@@ -5197,7 +5197,7 @@
 #### Q0425
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche
-- **学派 / School**: 存在主义先声 / Proto-Existentialism
+- **学派 / School**: 意志哲学 / Philosophy of Will
 - **出处 / Source**: 《查拉图斯特拉如是说》「三种变形」 / Thus Spoke Zarathustra, On the Three Metamorphoses
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Drei Verwandlungen nenne ich euch des Geistes: wie der Geist zum Kamele wird, und zum Löwen das Kamel, und zum Kinde zuletzt der Löwe.
@@ -5209,7 +5209,7 @@
 #### Q0426
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche
-- **学派 / School**: 存在主义先声 / Proto-Existentialism
+- **学派 / School**: 意志哲学 / Philosophy of Will
 - **出处 / Source**: 《偶像的黄昏》「格言与箭」 / Twilight of the Idols, Maxims and Arrows
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Was mich nicht umbringt, macht mich stärker.
@@ -5270,7 +5270,7 @@
 #### Q0431
 
 - **作者 / Author**: 奥卡姆的威廉 / William of Ockham
-- **学派 / School**: 唯名论 / Nominalism
+- **学派 / School**: 经院哲学 / Scholasticism
 - **出处 / Source**: 后学概括「奥卡姆剃刀」 / Later summary of Ockham’s Razor
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Entia non sunt multiplicanda praeter necessitatem
@@ -5283,7 +5283,7 @@
 #### Q0432
 
 - **作者 / Author**: 弗朗西斯·培根 / Francis Bacon
-- **学派 / School**: 经验主义／科学方法 / Empiricism / Scientific Method
+- **学派 / School**: 经验主义 / Empiricism
 - **出处 / Source**: 《新工具》I, Aph. 3 / Novum Organum I, Aph. 3
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Scientia et potentia humana in idem coincidunt
@@ -5393,7 +5393,7 @@
 #### Q0441
 
 - **作者 / Author**: 西塞罗 / Cicero
-- **学派 / School**: 罗马哲学 / Roman Philosophy
+- **学派 / School**: 斯多葛主义 / Stoicism
 - **出处 / Source**: 《论老年》 / On Old Age
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Aptissima omnino sunt arma senectutis artes exercitationesque virtutum
@@ -5442,7 +5442,7 @@
 #### Q0445
 
 - **作者 / Author**: 帕斯卡尔 / Blaise Pascal
-- **学派 / School**: 基督教存在主义先声 / Proto-Existential Christian Thought
+- **学派 / School**: 基督教存在主义先声 / Christian Existential Precursor
 - **出处 / Source**: 《思想录》 / Pensées
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: L’homme est visiblement fait pour penser; c’est toute sa dignité et tout son mérite.
@@ -5504,7 +5504,7 @@
 #### Q0450
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche
-- **学派 / School**: 存在主义先声 / Proto-Existentialism
+- **学派 / School**: 意志哲学 / Philosophy of Will
 - **出处 / Source**: 《快乐的科学》§341 / The Gay Science §341
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Diese Lebensweisheit wolltest du? — gut! noch einmal!
@@ -5662,7 +5662,7 @@
 #### Q0463
 
 - **作者 / Author**: 王阳明 / Wang Yangming
-- **学派 / School**: 心学 / School of Mind
+- **学派 / School**: 理学 / Neo-Confucianism
 - **出处 / Source**: 《传习录》 / Instructions for Practical Living
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 你未看此花时，此花与汝心同归于寂；你来看此花时，则此花颜色一时明白起来。
@@ -5674,7 +5674,7 @@
 #### Q0464
 
 - **作者 / Author**: 王夫之 / Wang Fuzhi
-- **学派 / School**: 明清实学 / Ming–Qing Practical Learning
+- **学派 / School**: 理学 / Neo-Confucianism
 - **出处 / Source**: 《读通鉴论》 / Du Tongjian Lun
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 经世之大略，在审时度势。
@@ -5711,7 +5711,7 @@
 #### Q0467
 
 - **作者 / Author**: 道元 / Dōgen
-- **学派 / School**: 曹洞宗 / Sōtō Zen
+- **学派 / School**: 禅宗 / Zen Buddhism
 - **出处 / Source**: 《正法眼藏·现成公案》 / Shōbōgenzō, Genjōkōan
 - **原文语言 / Language**: 古典日语 / Classical Japanese
 - **原文 / Original**: 自己をはこびて万法を修証するを迷とす、万法すすみて自己を修証するはさとりなり。
@@ -5723,7 +5723,7 @@
 #### Q0468
 
 - **作者 / Author**: 慧能 / Huineng
-- **学派 / School**: 禅宗 / Chan / Zen
+- **学派 / School**: 禅宗 / Zen Buddhism
 - **出处 / Source**: 《六祖坛经》 / Platform Sutra
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 何期自性，本自清净；何期自性，本不生灭。
@@ -5747,7 +5747,7 @@
 #### Q0470
 
 - **作者 / Author**: 泰戈尔 / Rabindranath Tagore
-- **学派 / School**: 印度近代思想 / Modern Indian Thought
+- **学派 / School**: 印度古典哲学 / Indian Classical Philosophy
 - **出处 / Source**: 《吉檀迦利》 / Gitanjali
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: The world has kissed my soul with its pain, asking for its return in songs.
@@ -5759,7 +5759,7 @@
 #### Q0471
 
 - **作者 / Author**: 歌德 / Johann Wolfgang von Goethe
-- **学派 / School**: 德国古典思想 / German Classical Thought
+- **学派 / School**: 德国观念论 / German Idealism
 - **出处 / Source**: 《浮士德》／格言 / Faust / Maxims
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Was du ererbt von deinen Vätern hast, erwirb es, um es zu besitzen.
@@ -5771,7 +5771,7 @@
 #### Q0472
 
 - **作者 / Author**: 席勒 / Friedrich Schiller
-- **学派 / School**: 德国古典美学 / German Classical Aesthetics
+- **学派 / School**: 德国观念论 / German Idealism
 - **出处 / Source**: 《欢乐颂》相关哲思；更准确《审美教育书简》 / On the Aesthetic Education of Man
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Es ist der Schönheit Aufgabe, den sinnlichen Menschen zum Vernunftmenschen zu machen.
@@ -5783,7 +5783,7 @@
 #### Q0473
 
 - **作者 / Author**: 托克维尔 / Alexis de Tocqueville
-- **学派 / School**: 政治哲学 / Political Philosophy
+- **学派 / School**: 政治自由主义 / Political Liberalism
 - **出处 / Source**: 《论美国的民主》 / Democracy in America
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: On ne saurait trop le dire : il n’y a rien de plus fécond en merveilles que l’art d’être libre.
@@ -5795,7 +5795,7 @@
 #### Q0474
 
 - **作者 / Author**: 亚当·斯密 / Adam Smith
-- **学派 / School**: 道德哲学 / Moral Philosophy
+- **学派 / School**: 苏格兰启蒙 / Scottish Enlightenment
 - **出处 / Source**: 《道德情操论》 / The Theory of Moral Sentiments
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Man naturally desires, not only to be loved, but to be lovely.
@@ -5807,7 +5807,7 @@
 #### Q0475
 
 - **作者 / Author**: 亨利·柏格森 / Henri Bergson
-- **学派 / School**: 生命哲学 / Philosophy of Life
+- **学派 / School**: 过程哲学 / Process Philosophy
 - **出处 / Source**: 《道德与宗教的两个来源》 / The Two Sources of Morality and Religion
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: L’univers… est une machine à faire des dieux.
@@ -5820,7 +5820,7 @@
 #### Q0476
 
 - **作者 / Author**: 西蒙娜·韦伊 / Simone Weil
-- **学派 / School**: 道德哲学 / Moral Philosophy
+- **学派 / School**: 宗教存在主义 / Religious Existentialism
 - **出处 / Source**: 《等待上帝》 / Waiting for God
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: La prière est faite d’attention.
@@ -5832,7 +5832,7 @@
 #### Q0477
 
 - **作者 / Author**: 艾丽丝·默多克 / Iris Murdoch
-- **学派 / School**: 道德哲学 / Moral Philosophy
+- **学派 / School**: 柏拉图式道德哲学 / Platonic Moral Philosophy
 - **出处 / Source**: 《善的主权》 / The Sovereignty of Good
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: We need a moral philosophy in which the concept of love, so rarely mentioned now by philosophers, can once again be made central.
@@ -5844,7 +5844,7 @@
 #### Q0478
 
 - **作者 / Author**: 埃里希·弗洛姆 / Erich Fromm
-- **学派 / School**: 人本主义 / Humanism
+- **学派 / School**: 存在主义 / Existentialism
 - **出处 / Source**: 《爱的艺术》 / The Art of Loving
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Love is an activity, not a passive affect; it is a “standing in,” not a “falling for.”
@@ -5856,7 +5856,7 @@
 #### Q0479
 
 - **作者 / Author**: 梁启超 / Liang Qichao
-- **学派 / School**: 近代启蒙思想 / Modern Chinese Enlightenment Thought
+- **学派 / School**: 现代新儒家 / Modern New Confucianism
 - **出处 / Source**: 《新民说》 / On Renewing the People
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 新民云者，非欲吾民尽弃其旧以从人也。新之义有二：一曰淬厉其所本有而新之；二曰采补其所本无而新之。
@@ -5868,7 +5868,7 @@
 #### Q0480
 
 - **作者 / Author**: 胡适 / Hu Shi
-- **学派 / School**: 实验主义 / Experimentalism
+- **学派 / School**: 实用主义 / Pragmatism
 - **出处 / Source**: 《容忍与自由》 / Tolerance and Freedom
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 容忍是一切自由的根本；没有容忍，就没有自由。
@@ -5892,7 +5892,7 @@
 #### Q0482
 
 - **作者 / Author**: 王国维 / Wang Guowei
-- **学派 / School**: 美学／国学 / Aesthetics / National Learning
+- **学派 / School**: 现代新儒家 / Modern New Confucianism
 - **出处 / Source**: 《人间词话》 / Remarks on Lyrics in the Human World
 - **原文语言 / Language**: 现代汉语 / Modern Chinese
 - **原文 / Original**: 有我之境，以我观物，故物皆著我之色彩。无我之境，以物观物，故不知何者为我，何者为物。
@@ -5904,7 +5904,7 @@
 #### Q0483
 
 - **作者 / Author**: 贺拉斯 / Horace
-- **学派 / School**: 罗马文学哲思 / Roman Literary Thought
+- **学派 / School**: 斯多葛主义 / Stoicism
 - **出处 / Source**: 《诗艺》 / Ars Poetica
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Dimidium facti qui coepit habet
@@ -5928,7 +5928,7 @@
 #### Q0485
 
 - **作者 / Author**: 但丁 / Dante Alighieri
-- **学派 / School**: 中世纪思想 / Medieval Thought
+- **学派 / School**: 经院哲学 / Scholasticism
 - **出处 / Source**: 《神曲·天堂》XXXIII.145 / Paradiso XXXIII.145
 - **原文语言 / Language**: 意大利语 / Italian
 - **原文 / Original**: l’amor che move il sole e l’altre stelle
@@ -5952,7 +5952,7 @@
 #### Q0487
 
 - **作者 / Author**: 乔治·桑塔亚那 / George Santayana
-- **学派 / School**: 自然主义 / Naturalism
+- **学派 / School**: 实用主义 / Pragmatism
 - **出处 / Source**: 《理性生活》 / The Life of Reason
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Fanaticism consists in redoubling your effort when you have forgotten your aim.
@@ -5977,7 +5977,7 @@
 #### Q0489
 
 - **作者 / Author**: 保罗·蒂利希 / Paul Tillich
-- **学派 / School**: 存在主义神学 / Existential Theology
+- **学派 / School**: 宗教存在主义 / Religious Existentialism
 - **出处 / Source**: 《存在的勇气》 / The Courage to Be
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Courage is the self-affirmation of being in spite of the fact of nonbeing.
@@ -5989,7 +5989,7 @@
 #### Q0490
 
 - **作者 / Author**: 雅斯贝尔斯 / Karl Jaspers
-- **学派 / School**: 生存哲学 / Philosophy of Existence
+- **学派 / School**: 存在主义 / Existentialism
 - **出处 / Source**: 《哲学导论》 / Way to Wisdom / Introduction to Philosophy
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Philosophieren heißt auf dem Wege sein.
@@ -6001,7 +6001,7 @@
 #### Q0491
 
 - **作者 / Author**: 《周易》 / The Book of Changes
-- **学派 / School**: 经典 / Classic
+- **学派 / School**: 儒家 / Confucianism
 - **出处 / Source**: 《周易·系辞下》 / Yijing, Xici II
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 穷则变，变则通，通则久。
@@ -6050,7 +6050,7 @@
 #### Q0495
 
 - **作者 / Author**: 帕斯卡尔 / Blaise Pascal
-- **学派 / School**: 基督教存在主义先声 / Proto-Existential Thought
+- **学派 / School**: 基督教存在主义先声 / Christian Existential Precursor
 - **出处 / Source**: 《思想录》 / Pensées
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: La vraie éloquence se moque de l’éloquence.
@@ -6062,7 +6062,7 @@
 #### Q0496
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche
-- **学派 / School**: 存在主义先声 / Proto-Existentialism
+- **学派 / School**: 意志哲学 / Philosophy of Will
 - **出处 / Source**: 《查拉图斯特拉如是说》序言 / Zarathustra, Prologue
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Der Mensch ist ein Seil, geknüpft zwischen Tier und Übermensch — ein Seil über einem Abgrunde.

@@ -62,12 +62,18 @@
     "Philosophy of life": {
       "Henri Bergson": "Process Philosophy"
     },
+    "Philosophy of Life / Intuitionism": {
+      "Henri Bergson": "Process Philosophy"
+    },
     "Enlightenment": {
       "Voltaire": "Political Liberalism",
       "Jean-Jacques Rousseau": "Social Contract Theory"
     },
     "Enlightenment / Social Contract": {
       "*": "Social Contract Theory"
+    },
+    "Enlightenment / Feminist Philosophy": {
+      "Mary Wollstonecraft": "Feminist Philosophy"
     },
     "Political Philosophy": {
       "Hannah Arendt": "Political Liberalism",
@@ -77,8 +83,14 @@
     "Political philosophy": {
       "Hannah Arendt": "Political Liberalism"
     },
+    "Political Philosophy / Social Thought": {
+      "Alexis de Tocqueville": "Political Liberalism"
+    },
     "Modern Political Philosophy": {
       "Thomas Hobbes": "Social Contract Theory"
+    },
+    "Social contract theory": {
+      "*": "Social Contract Theory"
     },
     "Roman Philosophy": {
       "Cicero": "Stoicism"
@@ -93,11 +105,36 @@
       "Adam Smith": "Scottish Enlightenment",
       "Iris Murdoch": "Platonic Moral Philosophy"
     },
+    "Moral Philosophy / Platonic Revival": {
+      "Iris Murdoch": "Platonic Moral Philosophy"
+    },
+    "Moral Philosophy / Scottish Enlightenment": {
+      "Adam Smith": "Scottish Enlightenment"
+    },
+    "Moral philosophy / Mysticism": {
+      "Simone Weil": "Religious Existentialism"
+    },
+    "Religious Existentialism / Moral Philosophy": {
+      "Simone Weil": "Religious Existentialism"
+    },
     "Philosophy of Existence": {
+      "Karl Jaspers": "Existentialism"
+    },
+    "Existentialism / Philosophy of Existence": {
       "Karl Jaspers": "Existentialism"
     },
     "Early Modern Thought": {
       "Blaise Pascal": "Christian Existential Precursor"
+    },
+    "Proto-Existential Christian Thought": {
+      "Blaise Pascal": "Christian Existential Precursor"
+    },
+    "Proto-Existential Thought": {
+      "Blaise Pascal": "Christian Existential Precursor"
+    },
+    "Proto-Existentialism": {
+      "Søren Kierkegaard": "Existentialism",
+      "Friedrich Nietzsche": "Philosophy of Will"
     },
     "Medieval Thought": {
       "Dante Alighieri": "Scholasticism"
@@ -107,10 +144,147 @@
     "Islamic philosophy": { "*": "Islamic Philosophy" },
     "Critical rationalism": { "*": "Critical Rationalism" },
     "Process philosophy": { "*": "Process Philosophy" },
+    "Process Philosophy / Education": { "*": "Process Philosophy" },
     "Philosophy of the absurd": { "*": "Philosophy of the Absurd" },
     "Zen / Chan": { "*": "Zen Buddhism" },
     "Chan / Zen": { "*": "Zen Buddhism" },
     "Chan / Zen Buddhism": { "*": "Zen Buddhism" },
-    "Epicurean School": { "*": "Epicureanism" }
+    "Sōtō Zen": { "*": "Zen Buddhism" },
+    "Epicurean School": { "*": "Epicureanism" },
+    "Aristotelianism": { "*": "Peripatetic School" },
+    "Atomism": { "*": "Pre-Socratic" },
+    "Middle Platonism": { "*": "Platonism" },
+    "Late Antique Philosophy": { "*": "Neoplatonism" },
+    "Nominalism": { "*": "Scholasticism" },
+    "Christian Existentialism": { "*": "Religious Existentialism" },
+    "Existential Theology": { "*": "Religious Existentialism" },
+    "Existentialism / Feminism": { "*": "Existentialism" },
+    "Dialogical philosophy": { "*": "Dialogical Philosophy" },
+    "Dialogical Philosophy / Existentialism": { "*": "Dialogical Philosophy" },
+    "Logotherapy / Existential Psychology": { "*": "Logotherapy" },
+    "Empiricism / Moral Philosophy": {
+      "David Hume": "Scottish Enlightenment"
+    },
+    "Empiricism / Skepticism": {
+      "David Hume": "Scottish Enlightenment"
+    },
+    "Scottish Enlightenment / Empiricism": {
+      "David Hume": "Scottish Enlightenment"
+    },
+    "Empiricism / Political Philosophy": {
+      "John Locke": "Empiricism"
+    },
+    "Empiricism / Scientific Method": {
+      "Francis Bacon": "Empiricism"
+    },
+    "Idealism / Empiricism": {
+      "George Berkeley": "British Empiricism"
+    },
+    "Modern Rationalism": { "*": "Rationalism" },
+    "Rationalism / Monadology": {
+      "Gottfried Wilhelm Leibniz": "Rationalism"
+    },
+    "German Classical Aesthetics": { "*": "German Idealism" },
+    "German classical aesthetics": { "*": "German Idealism" },
+    "German Classical Thought": { "*": "German Idealism" },
+    "Weimar Classicism / Philosophical literature": {
+      "Johann Wolfgang von Goethe": "German Idealism"
+    },
+    "Liberalism": {
+      "John Stuart Mill": "Political Liberalism"
+    },
+    "Utilitarianism / Liberalism": {
+      "John Stuart Mill": "Utilitarianism"
+    },
+    "Pragmatism / Experimentalism": { "*": "Pragmatism" },
+    "Pragmatism / Psychology": { "*": "Pragmatism" },
+    "Pragmatism / Semiotics": { "*": "Pragmatism" },
+    "Experimentalism": {
+      "Hu Shi": "Pragmatism"
+    },
+    "Naturalism": {
+      "George Santayana": "Pragmatism"
+    },
+    "Naturalism / American Philosophy": {
+      "George Santayana": "Pragmatism"
+    },
+    "Positivism": {
+      "Auguste Comte": "Empiricism"
+    },
+    "Humanism": {
+      "Erich Fromm": "Existentialism"
+    },
+    "Humanistic Psychoanalysis": {
+      "Erich Fromm": "Existentialism"
+    },
+    "Ratiovitalism / Perspectivism": {
+      "José Ortega y Gasset": "Existentialism"
+    },
+    "Skepticism / Humanism": {
+      "Michel de Montaigne": "Renaissance Humanism"
+    },
+    "Philosophy of History": {
+      "Giambattista Vico": "Renaissance Humanism",
+      "Ibn Khaldūn": "Islamic Philosophy"
+    },
+    "Islamic Philosophy / Sufism": { "*": "Islamic Philosophy" },
+    "Islamic Theology / Sufism": { "*": "Islamic Philosophy" },
+    "Jewish Tradition": { "*": "Rabbinic Judaism" },
+    "Jewish wisdom literature": { "*": "Rabbinic Judaism" },
+    "Hindu Philosophy": { "*": "Vedanta" },
+    "Indian philosophy": { "*": "Indian Classical Philosophy" },
+    "Vedānta / Upaniṣadic Philosophy": { "*": "Vedanta" },
+    "Neo-Vedānta": { "*": "Vedanta" },
+    "Modern Indian Thought": {
+      "Rabindranath Tagore": "Indian Classical Philosophy"
+    },
+    "Modern Indian Thought / Humanism": {
+      "Rabindranath Tagore": "Indian Classical Philosophy"
+    },
+    "Mahāyāna / Prajñā": { "*": "Early Buddhism" },
+    "Classic": {
+      "The Book of Changes": "Confucianism"
+    },
+    "Pre-Qin Classics": {
+      "The Book of Changes": "Confucianism"
+    },
+    "Confucian Classics": { "*": "Confucianism" },
+    "Neo-Confucianism (Cheng–Zhu)": { "*": "Neo-Confucianism" },
+    "Neo-Confucianism (Guan School)": { "*": "Neo-Confucianism" },
+    "Neo-Confucianism (School of Mind)": { "*": "Neo-Confucianism" },
+    "School of Mind": { "*": "Neo-Confucianism" },
+    "Ming–Qing Concrete Learning": {
+      "Wang Fuzhi": "Neo-Confucianism"
+    },
+    "Ming–Qing Practical Learning": {
+      "Wang Fuzhi": "Neo-Confucianism"
+    },
+    "Qi Philosophy / Practical Learning": {
+      "Wang Fuzhi": "Neo-Confucianism"
+    },
+    "New Rational Philosophy": {
+      "Feng Youlan": "Modern New Confucianism"
+    },
+    "Modern Chinese Enlightenment Thought": {
+      "Liang Qichao": "Modern New Confucianism"
+    },
+    "Modern Enlightenment Thought": {
+      "Liang Qichao": "Modern New Confucianism"
+    },
+    "Modern Historiography / Cultural Philosophy": {
+      "Qian Mu": "Modern New Confucianism"
+    },
+    "Aesthetics / National Learning": {
+      "Wang Guowei": "Modern New Confucianism"
+    },
+    "Modern Aesthetics / Learning": {
+      "Wang Guowei": "Modern New Confucianism"
+    },
+    "Huang-Lao / Legalist-related": {
+      "Guanzi": "Legalism"
+    },
+    "School of Military Strategy": {
+      "Sunzi": "Military Thought"
+    }
   }
 }

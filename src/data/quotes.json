@@ -626,7 +626,7 @@
   {
     "id": "Q0053",
     "author": "Plutarch",
-    "school": "Middle Platonism",
+    "school": "Platonism",
     "source": "Moralia, On Listening to Lectures",
     "text": "The mind is not a vessel that needs filling, but wood that needs kindling.",
     "themes": [
@@ -638,7 +638,7 @@
   {
     "id": "Q0054",
     "author": "René Descartes",
-    "school": "Modern Rationalism",
+    "school": "Rationalism",
     "source": "Principles of Philosophy (Latin)",
     "text": "I think, therefore I am.",
     "themes": [
@@ -650,7 +650,7 @@
   {
     "id": "Q0055",
     "author": "René Descartes",
-    "school": "Modern Rationalism",
+    "school": "Rationalism",
     "source": "Meditations on First Philosophy I",
     "text": "Once in a lifetime, everything must be doubted.",
     "themes": [
@@ -662,7 +662,7 @@
   {
     "id": "Q0056",
     "author": "René Descartes",
-    "school": "Modern Rationalism",
+    "school": "Rationalism",
     "source": "Discourse on the Method IV",
     "text": "The things we conceive very clearly and very distinctly are all true.",
     "themes": [
@@ -674,7 +674,7 @@
   {
     "id": "Q0057",
     "author": "Baruch Spinoza",
-    "school": "Modern Rationalism",
+    "school": "Rationalism",
     "source": "Ethics IV, Prop. 67",
     "text": "A free man thinks of nothing less than of death; and his wisdom is a meditation not on death but on life.",
     "themes": [
@@ -686,7 +686,7 @@
   {
     "id": "Q0058",
     "author": "Baruch Spinoza",
-    "school": "Modern Rationalism",
+    "school": "Rationalism",
     "source": "Ethics I",
     "text": "God, or Nature.",
     "themes": [
@@ -698,7 +698,7 @@
   {
     "id": "Q0059",
     "author": "Blaise Pascal",
-    "school": "Early Modern Thought",
+    "school": "Christian Existential Precursor",
     "source": "Pensées §200 (Brunschvicg)",
     "text": "The heart has its reasons, which reason does not know.",
     "themes": [
@@ -710,7 +710,7 @@
   {
     "id": "Q0060",
     "author": "Blaise Pascal",
-    "school": "Early Modern Thought",
+    "school": "Christian Existential Precursor",
     "source": "Pensées §347",
     "text": "Man is only a reed, the weakest in nature; but he is a thinking reed.",
     "themes": [
@@ -722,7 +722,7 @@
   {
     "id": "Q0061",
     "author": "Thomas Hobbes",
-    "school": "Modern Political Philosophy",
+    "school": "Social Contract Theory",
     "source": "Leviathan, Ch. 13",
     "text": "[In the state of nature, the life of man is] solitary, poor, nasty, brutish, and short.",
     "themes": [
@@ -734,7 +734,7 @@
   {
     "id": "Q0062",
     "author": "Jean-Jacques Rousseau",
-    "school": "Enlightenment",
+    "school": "Social Contract Theory",
     "source": "The Social Contract, Book I, Ch. 1",
     "text": "Man is born free, and everywhere he is in chains.",
     "themes": [
@@ -746,7 +746,7 @@
   {
     "id": "Q0063",
     "author": "Voltaire",
-    "school": "Enlightenment",
+    "school": "Political Liberalism",
     "source": "Candide, Ch. 30",
     "text": "We must cultivate our garden.",
     "themes": [
@@ -830,7 +830,7 @@
   {
     "id": "Q0070",
     "author": "Friedrich Nietzsche",
-    "school": "Philosophy of Life",
+    "school": "Philosophy of Will",
     "source": "Twilight of the Idols, Maxims and Arrows §8",
     "text": "From the military school of life. — What does not kill me makes me stronger.",
     "themes": [
@@ -842,7 +842,7 @@
   {
     "id": "Q0071",
     "author": "Friedrich Nietzsche",
-    "school": "Philosophy of Life",
+    "school": "Philosophy of Will",
     "source": "The Gay Science §276; Ecce Homo",
     "text": "Amor fati: let that be my love from now on!",
     "themes": [
@@ -854,7 +854,7 @@
   {
     "id": "Q0072",
     "author": "Friedrich Nietzsche",
-    "school": "Philosophy of Life",
+    "school": "Philosophy of Will",
     "source": "Ecce Homo (subtitle; from Pindar)",
     "text": "How one becomes what one is.",
     "themes": [
@@ -866,7 +866,7 @@
   {
     "id": "Q0073",
     "author": "Friedrich Nietzsche",
-    "school": "Philosophy of Life",
+    "school": "Philosophy of Will",
     "source": "Thus Spoke Zarathustra, Prologue",
     "text": "Man is something that shall be overcome.",
     "themes": [
@@ -878,7 +878,7 @@
   {
     "id": "Q0074",
     "author": "Friedrich Nietzsche",
-    "school": "Philosophy of Life",
+    "school": "Philosophy of Will",
     "source": "The Gay Science §341",
     "text": "This life as you now live it and have lived it, you will have to live once more and innumerable times more…",
     "themes": [
@@ -890,7 +890,7 @@
   {
     "id": "Q0075",
     "author": "Søren Kierkegaard",
-    "school": "Proto-Existentialism",
+    "school": "Existentialism",
     "source": "The Sickness unto Death",
     "text": "Despair is the sickness unto death — the self's refusal to be itself.",
     "themes": [
@@ -902,7 +902,7 @@
   {
     "id": "Q0076",
     "author": "Søren Kierkegaard",
-    "school": "Proto-Existentialism",
+    "school": "Existentialism",
     "source": "The Concept of Anxiety",
     "text": "Anxiety is the dizziness of freedom.",
     "themes": [
@@ -1094,7 +1094,7 @@
   {
     "id": "Q0092",
     "author": "Simone de Beauvoir",
-    "school": "Feminism",
+    "school": "Existentialism",
     "source": "The Second Sex",
     "text": "One is not born, but rather becomes, a woman.",
     "themes": [
@@ -1106,7 +1106,7 @@
   {
     "id": "Q0093",
     "author": "Viktor Frankl",
-    "school": "Existential Psychology",
+    "school": "Logotherapy",
     "source": "Man's Search for Meaning",
     "text": "Everything can be taken from a man but one thing: the last of the human freedoms — to choose one's attitude in any given set of circumstances, to choose one's own way.",
     "themes": [
@@ -1118,7 +1118,7 @@
   {
     "id": "Q0094",
     "author": "Viktor Frankl",
-    "school": "Existential Psychology",
+    "school": "Logotherapy",
     "source": "Man's Search for Meaning",
     "text": "Those who have a 'why' to live can bear with almost any 'how'.",
     "themes": [
@@ -1130,7 +1130,7 @@
   {
     "id": "Q0095",
     "author": "Hannah Arendt",
-    "school": "Political Philosophy",
+    "school": "Political Liberalism",
     "source": "The Human Condition",
     "text": "Men, not Man, live on the earth and inhabit the world.",
     "themes": [
@@ -1142,7 +1142,7 @@
   {
     "id": "Q0096",
     "author": "Hannah Arendt",
-    "school": "Political Philosophy",
+    "school": "Political Liberalism",
     "source": "The Life of the Mind (on thinking)",
     "text": "Thinking is the habit of examining whatever happens to come to pass or to attract attention.",
     "themes": [
@@ -1190,7 +1190,7 @@
   {
     "id": "Q0100",
     "author": "Cicero",
-    "school": "Roman Philosophy",
+    "school": "Stoicism",
     "source": "Philippics XII.5",
     "text": "Any man can err; only a fool persists in error.",
     "themes": [
@@ -1334,7 +1334,7 @@
   {
     "id": "Q0112",
     "author": "Friedrich Nietzsche",
-    "school": "Philosophy of Life",
+    "school": "Philosophy of Will",
     "source": "Thus Spoke Zarathustra",
     "text": "One must still have chaos in oneself to be able to give birth to a dancing star.",
     "themes": [
@@ -1370,7 +1370,7 @@
   {
     "id": "Q0115",
     "author": "Auguste Comte",
-    "school": "Positivism",
+    "school": "Empiricism",
     "source": "Cours de philosophie positive (formula)",
     "text": "To know, in order to foresee, so as to be able to act.",
     "themes": [
@@ -1406,7 +1406,7 @@
   {
     "id": "Q0118",
     "author": "Søren Kierkegaard",
-    "school": "Proto-Existentialism",
+    "school": "Existentialism",
     "source": "Or",
     "text": "Marry, and you will regret it; do not marry, and you will also regret it.",
     "themes": [
@@ -1418,7 +1418,7 @@
   {
     "id": "Q0119",
     "author": "Søren Kierkegaard",
-    "school": "Proto-Existentialism",
+    "school": "Existentialism",
     "source": "The Sickness unto Death",
     "text": "Despair is not to will to be oneself — or else to will to be oneself.",
     "themes": [
@@ -1574,7 +1574,7 @@
   {
     "id": "Q0132",
     "author": "Boethius",
-    "school": "Late Antique Philosophy",
+    "school": "Neoplatonism",
     "source": "The Consolation of Philosophy, Book II",
     "text": "In the bitterest turns of fortune, true friends are proved.",
     "themes": [
@@ -1586,7 +1586,7 @@
   {
     "id": "Q0133",
     "author": "Boethius",
-    "school": "Late Antique Philosophy",
+    "school": "Neoplatonism",
     "source": "The Consolation of Philosophy, Book III",
     "text": "Wealth does not take away need — it kindles new wants.",
     "themes": [
@@ -1862,7 +1862,7 @@
   {
     "id": "Q0156",
     "author": "The Book of Changes",
-    "school": "Pre-Qin Classics",
+    "school": "Confucianism",
     "source": "Yijing, Qian, Commentary on the Images",
     "text": "Heaven moves with vigor; the gentleman accordingly strengthens himself without cease.",
     "themes": [
@@ -1874,7 +1874,7 @@
   {
     "id": "Q0157",
     "author": "The Book of Changes",
-    "school": "Pre-Qin Classics",
+    "school": "Confucianism",
     "source": "Yijing, Kun, Commentary on the Images",
     "text": "Earth's condition is receptive devotion; the gentleman accordingly thickens his virtue to bear things.",
     "themes": [
@@ -2006,7 +2006,7 @@
   {
     "id": "Q0168",
     "author": "Sunzi",
-    "school": "School of Military Strategy",
+    "school": "Military Thought",
     "source": "The Art of War, Planning Offensives",
     "text": "Know the other and know yourself, and in a hundred battles you will not be in peril. Know yourself but not the other, and you will win one and lose one. Know neither, and you will be in peril in every battle.",
     "themes": [
@@ -2018,7 +2018,7 @@
   {
     "id": "Q0169",
     "author": "Zhang Zai",
-    "school": "Neo-Confucianism (Guan School)",
+    "school": "Neo-Confucianism",
     "source": ")",
     "text": "To establish the mind for Heaven and Earth; to secure the destiny of the people; to continue the interrupted learning of the past sages; to open peace for all ages.",
     "themes": [
@@ -2030,7 +2030,7 @@
   {
     "id": "Q0170",
     "author": "Zhu Xi",
-    "school": "Neo-Confucianism (Cheng–Zhu)",
+    "school": "Neo-Confucianism",
     "source": "Reflections on Reading, no. 1",
     "text": "I ask the channel how it can be so clear — because fresh water keeps flowing from its source.",
     "themes": [
@@ -2042,7 +2042,7 @@
   {
     "id": "Q0171",
     "author": "Wang Yangming",
-    "school": "Neo-Confucianism (School of Mind)",
+    "school": "Neo-Confucianism",
     "source": "Instructions for Practical Living, Juan Shang",
     "text": "Knowledge is the directing idea of action; action is the effort of knowledge. Knowledge is the beginning of action; action is the completion of knowledge.",
     "themes": [
@@ -2054,7 +2054,7 @@
   {
     "id": "Q0172",
     "author": "Wang Yangming",
-    "school": "Neo-Confucianism (School of Mind)",
+    "school": "Neo-Confucianism",
     "source": "Instructions for Practical Living, Juan Shang",
     "text": "There has never been one who truly knows and yet does not act. If one knows but does not act, that is simply not yet knowing.",
     "themes": [
@@ -2066,7 +2066,7 @@
   {
     "id": "Q0173",
     "author": "Wang Yangming",
-    "school": "Neo-Confucianism (School of Mind)",
+    "school": "Neo-Confucianism",
     "source": "Instructions for Practical Living et al.",
     "text": "Extend the innate good knowing.",
     "themes": [
@@ -2078,7 +2078,7 @@
   {
     "id": "Q0174",
     "author": "Wang Guowei",
-    "school": "Learning",
+    "school": "Modern New Confucianism",
     "source": "Remarks on Lyrics in the Human World, §26",
     "text": "Those who in ancient or modern times achieved great enterprises and profound learning must pass through three realms: first, standing alone atop a high tower after the west wind withers the green trees, gazing to the end of the road at heaven's edge; second, the belt growing looser without regret, wasting away for the beloved; third, searching a thousand times in the crowd, then suddenly turning — and finding that person standing where the lanterns grow sparse.",
     "themes": [
@@ -2090,7 +2090,7 @@
   {
     "id": "Q0175",
     "author": "Liang Qichao",
-    "school": "Modern Enlightenment Thought",
+    "school": "Modern New Confucianism",
     "source": "Respect for Work and Delight in Work (1922)",
     "text": "The two sayings I have found most useful in life are these: responsibility, and delight.… What I speak of today as respect for one's work is responsibility; delight in one's work is interest. I deeply believe that a reasonable human life should be like this.",
     "themes": [
@@ -2102,7 +2102,7 @@
   {
     "id": "Q0176",
     "author": "Liang Qichao",
-    "school": "Modern Enlightenment Thought",
+    "school": "Modern New Confucianism",
     "source": "Respect for Work and Delight in Work",
     "text": "Every occupation has its interest — if only you keep at it, interest will naturally arise.",
     "themes": [
@@ -2114,7 +2114,7 @@
   {
     "id": "Q0177",
     "author": "Hu Shi",
-    "school": "Experimentalism",
+    "school": "Pragmatism",
     "source": "The Methods of Qing Scholars; lectures on method",
     "text": "Boldly hypothesize; carefully verify.",
     "themes": [
@@ -2126,7 +2126,7 @@
   {
     "id": "Q0178",
     "author": "Hu Shi",
-    "school": "Experimentalism",
+    "school": "Pragmatism",
     "source": "The Meaning of the New Thought et al.",
     "text": "Study problems, import theories, reorganize the national heritage, and recreate civilization.",
     "themes": [
@@ -2138,7 +2138,7 @@
   {
     "id": "Q0179",
     "author": "Feng Youlan",
-    "school": "New Rational Philosophy",
+    "school": "Modern New Confucianism",
     "source": "A New Treatise on the Nature of Man",
     "text": "Human life is life with awareness and understanding — or with a higher degree of such awareness. This is what distinguishes humans from beasts, and human life from the life of other animals.",
     "themes": [
@@ -2198,7 +2198,7 @@
   {
     "id": "Q0184",
     "author": "Francis Bacon",
-    "school": "Scientific Method",
+    "school": "Empiricism",
     "source": "Meditationes Sacrae（1597）",
     "text": "For knowledge itself is power.",
     "themes": [
@@ -2210,7 +2210,7 @@
   {
     "id": "Q0185",
     "author": "Francis Bacon",
-    "school": "Scientific Method",
+    "school": "Empiricism",
     "source": "Of Studies",
     "text": "Reading maketh a full man; conference a ready man; and writing an exact man.",
     "themes": [
@@ -2234,7 +2234,7 @@
   {
     "id": "Q0187",
     "author": "George Berkeley",
-    "school": "Empiricism",
+    "school": "British Empiricism",
     "source": "A Treatise Concerning the Principles of Human Knowledge, §3",
     "text": "Their being is to be perceived.",
     "themes": [
@@ -2246,7 +2246,7 @@
   {
     "id": "Q0188",
     "author": "David Hume",
-    "school": "Empiricism",
+    "school": "Scottish Enlightenment",
     "source": "A Treatise of Human Nature, II.3.3",
     "text": "Reason is, and ought only to be the slave of the passions, and can never pretend to any other office than to serve and obey them.",
     "themes": [
@@ -2258,7 +2258,7 @@
   {
     "id": "Q0189",
     "author": "Gottfried Wilhelm Leibniz",
-    "school": "Monadology",
+    "school": "Rationalism",
     "source": "Essais de Théodicée（1710）",
     "text": "the best of all possible worlds",
     "themes": [
@@ -2294,7 +2294,7 @@
   {
     "id": "Q0192",
     "author": "Giambattista Vico",
-    "school": "Philosophy of History",
+    "school": "Renaissance Humanism",
     "source": "On the Most Ancient Wisdom of the Italians et al.",
     "text": "The true is precisely what is made.",
     "themes": [
@@ -2306,7 +2306,7 @@
   {
     "id": "Q0193",
     "author": "Charles Sanders Peirce",
-    "school": "Semiotics",
+    "school": "Pragmatism",
     "source": "F.R.L. (c. 1899); CP 1.135",
     "text": "Do not block the way of inquiry.",
     "themes": [
@@ -2318,7 +2318,7 @@
   {
     "id": "Q0194",
     "author": "George Santayana",
-    "school": "American Philosophy",
+    "school": "Pragmatism",
     "source": "The Life of Reason, Vol. 1, Ch. 12 (1905)",
     "text": "Those who cannot remember the past are condemned to repeat it.",
     "themes": [
@@ -2330,7 +2330,7 @@
   {
     "id": "Q0195",
     "author": "Henri Bergson",
-    "school": "Intuitionism",
+    "school": "Process Philosophy",
     "source": "Creative Evolution, Ch. 1 (1907)",
     "text": "For a conscious being, to exist is to change, to change is to mature, to mature is to go on creating oneself endlessly.",
     "themes": [
@@ -2342,7 +2342,7 @@
   {
     "id": "Q0196",
     "author": "Martin Buber",
-    "school": "Existentialism",
+    "school": "Dialogical Philosophy",
     "source": "Ich und Du (1923)",
     "text": "All real living is meeting.",
     "themes": [
@@ -2354,7 +2354,7 @@
   {
     "id": "Q0197",
     "author": "Simone Weil",
-    "school": "Moral Philosophy",
+    "school": "Religious Existentialism",
     "source": "Letter to Joë Bousquet (13 Apr 1942)",
     "text": "Attention is the rarest and purest form of generosity.",
     "themes": [
@@ -2366,7 +2366,7 @@
   {
     "id": "Q0198",
     "author": "José Ortega y Gasset",
-    "school": "Perspectivism",
+    "school": "Existentialism",
     "source": "Meditaciones del Quijote (1914)",
     "text": "I am myself and my circumstance; and if I do not save it, I do not save myself.",
     "themes": [
@@ -2390,7 +2390,7 @@
   {
     "id": "Q0200",
     "author": "Iris Murdoch",
-    "school": "Platonic Revival",
+    "school": "Platonic Moral Philosophy",
     "source": "The Sublime and the Good (1959)",
     "text": "Love is the extremely difficult realisation that something other than oneself is real.",
     "themes": [
@@ -2402,7 +2402,7 @@
   {
     "id": "Q0201",
     "author": "Karl Jaspers",
-    "school": "Philosophy of Existence",
+    "school": "Existentialism",
     "source": "Philosophy et al. (standard formulation)",
     "text": "Man is always more than he knows of himself.",
     "themes": [
@@ -2450,7 +2450,7 @@
   {
     "id": "Q0205",
     "author": "Chandogya Upanisad",
-    "school": "Upaniṣadic Philosophy",
+    "school": "Vedanta",
     "source": "Chāndogya Upaniṣad 6.8.7 et al.",
     "text": "That thou art.",
     "themes": [
@@ -2462,7 +2462,7 @@
   {
     "id": "Q0206",
     "author": "Dōgen",
-    "school": "Sōtō Zen",
+    "school": "Zen Buddhism",
     "source": "Shōbōgenzō, Genjōkōan",
     "text": "To study the Buddha Way is to study the self. To study the self is to forget the self.",
     "themes": [
@@ -2486,7 +2486,7 @@
   {
     "id": "Q0208",
     "author": "Diamond Sutra",
-    "school": "Prajñā",
+    "school": "Early Buddhism",
     "source": "Vajracchedikā Prajñāpāramitā Sūtra",
     "text": "Give rise to a mind that abides nowhere.",
     "themes": [
@@ -2510,7 +2510,7 @@
   {
     "id": "Q0210",
     "author": "Guanzi",
-    "school": "Legalist-related",
+    "school": "Legalism",
     "source": "Guanzi, On Shepherding the People",
     "text": "When the granaries are full, people know ritual and restraint; when food and clothing are sufficient, they know honor and shame.",
     "themes": [
@@ -2522,7 +2522,7 @@
   {
     "id": "Q0211",
     "author": "Wang Fuzhi",
-    "school": "Ming–Qing Concrete Learning",
+    "school": "Neo-Confucianism",
     "source": "Outer Commentary on the Book of Changes",
     "text": "All under heaven is nothing but concrete things (qi). The Way is the Way of things; one cannot reverse this and call things merely vessels of an abstract Way.",
     "themes": [
@@ -2534,7 +2534,7 @@
   {
     "id": "Q0212",
     "author": "Qian Mu",
-    "school": "Cultural Philosophy",
+    "school": "Modern New Confucianism",
     "source": "Outline of National History, Introduction",
     "text": "Toward the past history of one’s own country, one should hold a warmth of feeling and a sense of respect.",
     "themes": [
@@ -2546,7 +2546,7 @@
   {
     "id": "Q0213",
     "author": "Rabindranath Tagore",
-    "school": "Humanism",
+    "school": "Indian Classical Philosophy",
     "source": "Fireflies, no. 191 (1928)",
     "text": "Faith is the bird that feels the light and sings when the dawn is still dark.",
     "themes": [
@@ -2558,7 +2558,7 @@
   {
     "id": "Q0214",
     "author": "Swami Vivekananda",
-    "school": "Neo-Vedānta",
+    "school": "Vedanta",
     "source": "Chicago Parliament of Religions et al.",
     "text": "Arise, awake, and stop not till the goal is reached.",
     "themes": [
@@ -2570,7 +2570,7 @@
   {
     "id": "Q0215",
     "author": "Al-Ghazali",
-    "school": "Sufism",
+    "school": "Islamic Philosophy",
     "source": "Iḥyāʾ ʿUlūm al-Dīn et al.",
     "text": "Knowledge without action is vanity, and action without knowledge is madness.",
     "themes": [
@@ -2594,7 +2594,7 @@
   {
     "id": "Q0217",
     "author": "Ibn Khaldun",
-    "school": "Philosophy of History",
+    "school": "Islamic Philosophy",
     "source": "Muqaddimah",
     "text": "Man is a child of customs, not of his ancestors.",
     "themes": [
@@ -2606,7 +2606,7 @@
   {
     "id": "Q0218",
     "author": "Paul Tillich",
-    "school": "Existential Theology",
+    "school": "Religious Existentialism",
     "source": "The Courage to Be (1952)",
     "text": "The courage to be is the courage to accept oneself as accepted in spite of being unacceptable.",
     "themes": [
@@ -2618,7 +2618,7 @@
   {
     "id": "Q0219",
     "author": "Gabriel Marcel",
-    "school": "Christian Existentialism",
+    "school": "Religious Existentialism",
     "source": "Being and Having et al.",
     "text": "Hope consists in asserting that there is at the heart of being… a mysterious principle which is in connivance with me.",
     "themes": [
@@ -2630,7 +2630,7 @@
   {
     "id": "Q0220",
     "author": "Erich Fromm",
-    "school": "Humanistic Psychoanalysis",
+    "school": "Existentialism",
     "source": "The Art of Loving (1956)",
     "text": "Love is the only sane and satisfactory answer to the problem of human existence.",
     "themes": [
@@ -2918,7 +2918,7 @@
   {
     "id": "Q0244",
     "author": "Thomas Hobbes",
-    "school": "Modern Political Philosophy",
+    "school": "Social Contract Theory",
     "source": "Leviathan XIII",
     "text": "During the time men live without a common Power to keep them all in awe, they are in that condition which is called War.",
     "themes": [
@@ -2930,7 +2930,7 @@
   {
     "id": "Q0245",
     "author": "Thomas Hobbes",
-    "school": "Modern Political Philosophy",
+    "school": "Social Contract Theory",
     "source": "Leviathan VI",
     "text": "Felicity is a continual progress of the desire, from one object to another.",
     "themes": [
@@ -2942,7 +2942,7 @@
   {
     "id": "Q0246",
     "author": "Thomas Hobbes",
-    "school": "Modern Political Philosophy",
+    "school": "Social Contract Theory",
     "source": "Leviathan XIII",
     "text": "the life of man, solitary, poor, nasty, brutish, and short",
     "themes": [
@@ -2954,7 +2954,7 @@
   {
     "id": "Q0247",
     "author": "John Locke",
-    "school": "Political Philosophy",
+    "school": "Empiricism",
     "source": "Second Treatise II.6",
     "text": "The state of nature has a law of nature to govern it…Reason…teaches all mankind…that being all equal and independent, no one ought to harm another in his life, health, liberty, or possessions.",
     "themes": [
@@ -2978,7 +2978,7 @@
   {
     "id": "Q0249",
     "author": "David Hume",
-    "school": "Skepticism",
+    "school": "Scottish Enlightenment",
     "source": "Enquiry Concerning Human Understanding X",
     "text": "A wise man proportions his belief to the evidence.",
     "themes": [
@@ -2990,7 +2990,7 @@
   {
     "id": "Q0250",
     "author": "David Hume",
-    "school": "Skepticism",
+    "school": "Scottish Enlightenment",
     "source": "Treatise I.4.6",
     "text": "For my part, when I enter most intimately into what I call myself, I always stumble on some particular perception or other.",
     "themes": [
@@ -3002,7 +3002,7 @@
   {
     "id": "Q0251",
     "author": "David Hume",
-    "school": "Moral Philosophy",
+    "school": "Scottish Enlightenment",
     "source": "Enquiry Concerning the Principles of Morals, App. I",
     "text": "Reason is wholly inactive, and can never be the source of so active a principle as conscience, or a sense of morals.",
     "themes": [
@@ -3014,7 +3014,7 @@
   {
     "id": "Q0252",
     "author": "Jean-Jacques Rousseau",
-    "school": "Enlightenment",
+    "school": "Social Contract Theory",
     "source": "Émile I",
     "text": "Everything is good as it leaves the hands of the Author of things; everything degenerates in the hands of man.",
     "themes": [
@@ -3026,7 +3026,7 @@
   {
     "id": "Q0253",
     "author": "Jean-Jacques Rousseau",
-    "school": "Social Contract",
+    "school": "Social Contract Theory",
     "source": "The Social Contract I.6",
     "text": "To find a form of association…by which each, uniting with all, nevertheless obeys only himself, and remains as free as before.",
     "themes": [
@@ -3038,7 +3038,7 @@
   {
     "id": "Q0254",
     "author": "Jean-Jacques Rousseau",
-    "school": "Enlightenment",
+    "school": "Social Contract Theory",
     "source": "Discourse on Inequality, Part II",
     "text": "The first man who, having enclosed a piece of ground, thought of saying 'This is mine'…was the true founder of civil society.",
     "themes": [
@@ -3194,7 +3194,7 @@
   {
     "id": "Q0267",
     "author": "John Stuart Mill",
-    "school": "Liberalism",
+    "school": "Utilitarianism",
     "source": "On Liberty I",
     "text": "The only purpose for which power can be rightfully exercised over any member of a civilized community, against his will, is to prevent harm to others.",
     "themes": [
@@ -3206,7 +3206,7 @@
   {
     "id": "Q0268",
     "author": "John Stuart Mill",
-    "school": "Liberalism",
+    "school": "Political Liberalism",
     "source": "On Liberty II",
     "text": "He who knows only his own side of the case, knows little of that.",
     "themes": [
@@ -3218,7 +3218,7 @@
   {
     "id": "Q0269",
     "author": "William James",
-    "school": "Psychology",
+    "school": "Pragmatism",
     "source": "Principles of Psychology IX",
     "text": "Consciousness…does not appear to itself chopped up in bits…It is nothing jointed; it flows.",
     "themes": [
@@ -3278,7 +3278,7 @@
   {
     "id": "Q0274",
     "author": "Alfred North Whitehead",
-    "school": "Education",
+    "school": "Process Philosophy",
     "source": "The Aims of Education",
     "text": "In the Garden of Eden Adam saw the animals before he named them: in the traditional system, children named the animals before they saw them.",
     "themes": [
@@ -3314,7 +3314,7 @@
   {
     "id": "Q0277",
     "author": "Hannah Arendt",
-    "school": "Political Philosophy",
+    "school": "Political Liberalism",
     "source": "Men in Dark Times",
     "text": "Even in the darkest of times we have the right to expect some illumination.",
     "themes": [
@@ -3326,7 +3326,7 @@
   {
     "id": "Q0278",
     "author": "Hannah Arendt",
-    "school": "Political Philosophy",
+    "school": "Political Liberalism",
     "source": "The Life of the Mind",
     "text": "The sad truth is that most evil is done by people who never make up their minds to be good or evil.",
     "themes": [
@@ -3482,7 +3482,7 @@
   {
     "id": "Q0291",
     "author": "The Great Learning",
-    "school": "Confucian Classics",
+    "school": "Confucianism",
     "source": "The Great Learning",
     "text": "Things have roots and branches; affairs have ends and beginnings. To know what comes first and what follows is to be near the Way.",
     "themes": [
@@ -3494,7 +3494,7 @@
   {
     "id": "Q0292",
     "author": "The Doctrine of the Mean",
-    "school": "Confucian Classics",
+    "school": "Confucianism",
     "source": "The Doctrine of the Mean",
     "text": "Before joy, anger, sorrow, and pleasure are issued, that is called the Mean; when issued and all hit due measure, that is called Harmony.",
     "themes": [
@@ -3506,7 +3506,7 @@
   {
     "id": "Q0293",
     "author": "The Doctrine of the Mean",
-    "school": "Confucian Classics",
+    "school": "Confucianism",
     "source": "The Doctrine of the Mean",
     "text": "The noble person is cautious about what is not seen, apprehensive about what is not heard…therefore watchful when alone.",
     "themes": [
@@ -3554,7 +3554,7 @@
   {
     "id": "Q0297",
     "author": "Wang Yangming",
-    "school": "School of Mind",
+    "school": "Neo-Confucianism",
     "source": "Instructions for Practical Living",
     "text": "Mind is principle. Are there affairs or principles outside the mind?",
     "themes": [
@@ -3566,7 +3566,7 @@
   {
     "id": "Q0298",
     "author": "Wang Yangming",
-    "school": "School of Mind",
+    "school": "Neo-Confucianism",
     "source": "Instructions for Practical Living",
     "text": "That little bit of innate knowing of yours is your own criterion.",
     "themes": [
@@ -3614,7 +3614,7 @@
   {
     "id": "Q0302",
     "author": "Bhagavad Gita",
-    "school": "Hindu Philosophy",
+    "school": "Vedanta",
     "source": "Bhagavad Gita 2.14",
     "text": "Contacts with the senses give cold and heat, pleasure and pain; they come and go and are impermanent—endure them.",
     "themes": [
@@ -3626,7 +3626,7 @@
   {
     "id": "Q0303",
     "author": "Bhagavad Gita",
-    "school": "Hindu Philosophy",
+    "school": "Vedanta",
     "source": "Bhagavad Gita 6.5",
     "text": "One should lift oneself by the Self and not degrade oneself; for the Self alone is friend and enemy of the self.",
     "themes": [
@@ -3722,7 +3722,7 @@
   {
     "id": "Q0311",
     "author": "Talmudic tradition",
-    "school": "Jewish Tradition",
+    "school": "Rabbinic Judaism",
     "source": "Mishnah Avot 1: 14 (Hillel)",
     "text": "If I am not for myself, who will be for me? If I am only for myself, what am I? And if not now, when?",
     "themes": [
@@ -3734,7 +3734,7 @@
   {
     "id": "Q0312",
     "author": "Boethius",
-    "school": "Late Antique Philosophy",
+    "school": "Neoplatonism",
     "source": "The Consolation of Philosophy II",
     "text": "Nothing is miserable unless you think it so.",
     "themes": [
@@ -3746,7 +3746,7 @@
   {
     "id": "Q0313",
     "author": "Cicero",
-    "school": "Roman Philosophy",
+    "school": "Stoicism",
     "source": "Tusculan Disputations",
     "text": "Philosophy is the cultivation of the soul.",
     "themes": [
@@ -3758,7 +3758,7 @@
   {
     "id": "Q0314",
     "author": "Voltaire",
-    "school": "Enlightenment",
+    "school": "Political Liberalism",
     "source": "correspondence (common form)",
     "text": "Doubt is not a pleasant condition, but certainty is an absurd one.",
     "themes": [
@@ -3770,7 +3770,7 @@
   {
     "id": "Q0315",
     "author": "Voltaire",
-    "school": "Enlightenment",
+    "school": "Political Liberalism",
     "source": "Treatise on Tolerance",
     "text": "Men must tolerate one another.",
     "themes": [
@@ -3794,7 +3794,7 @@
   {
     "id": "Q0317",
     "author": "Wang Fuzhi",
-    "school": "Practical Learning",
+    "school": "Neo-Confucianism",
     "source": "Du Tongjian Lun",
     "text": "Habit and nature come to completion together and transform with each other.",
     "themes": [
@@ -3818,7 +3818,7 @@
   {
     "id": "Q0319",
     "author": "Al-Ghazali",
-    "school": "Sufism",
+    "school": "Islamic Philosophy",
     "source": "Deliverance from Error (related)",
     "text": "Certainty is not attained by imitation, but by tasting (direct experience).",
     "themes": [
@@ -3866,7 +3866,7 @@
   {
     "id": "Q0323",
     "author": "Aristotle",
-    "school": "Aristotelianism",
+    "school": "Peripatetic School",
     "source": "Metaphysics I.1, 980a21",
     "text": "All human beings by nature desire to know.",
     "themes": [
@@ -3878,7 +3878,7 @@
   {
     "id": "Q0324",
     "author": "Aristotle",
-    "school": "Aristotelianism",
+    "school": "Peripatetic School",
     "source": "Nicomachean Ethics I.1",
     "text": "Every art and every inquiry, and similarly every action and choice, is thought to aim at some good.",
     "themes": [
@@ -3890,7 +3890,7 @@
   {
     "id": "Q0325",
     "author": "Aristotle",
-    "school": "Aristotelianism",
+    "school": "Peripatetic School",
     "source": "Nicomachean Ethics VIII.1",
     "text": "After this we should speak of friendship; for it is a kind of virtue, or involves virtue.",
     "themes": [
@@ -3926,7 +3926,7 @@
   {
     "id": "Q0328",
     "author": "Michel de Montaigne",
-    "school": "Humanism",
+    "school": "Renaissance Humanism",
     "source": "Essays III.13",
     "text": "There is nothing so beautiful and legitimate as to play the man well and properly.",
     "themes": [
@@ -4046,7 +4046,7 @@
   {
     "id": "Q0338",
     "author": "Jean-Jacques Rousseau",
-    "school": "Social contract theory",
+    "school": "Social Contract Theory",
     "source": "Émile IV",
     "text": "Conscience! Conscience! divine instinct, immortal and heavenly voice.",
     "themes": [
@@ -4058,7 +4058,7 @@
   {
     "id": "Q0339",
     "author": "Voltaire",
-    "school": "Enlightenment",
+    "school": "Political Liberalism",
     "source": "Épître à l'auteur du livre des Trois Imposteurs (1768)",
     "text": "If God did not exist, it would be necessary to invent him.",
     "themes": [
@@ -4070,7 +4070,7 @@
   {
     "id": "Q0340",
     "author": "G. W. F. Hegel",
-    "school": "German idealism",
+    "school": "German Idealism",
     "source": "Phenomenology of Spirit, Preface",
     "text": "The true is thus the Bacchanalian revel in which no member is not drunk.",
     "themes": [
@@ -4130,7 +4130,7 @@
   {
     "id": "Q0345",
     "author": "John Stuart Mill",
-    "school": "Liberalism",
+    "school": "Political Liberalism",
     "source": "On Liberty I",
     "text": "Over himself, over his own body and mind, the individual is sovereign.",
     "themes": [
@@ -4166,7 +4166,7 @@
   {
     "id": "Q0348",
     "author": "Bertrand Russell",
-    "school": "Analytic philosophy",
+    "school": "Analytic Philosophy",
     "source": "Autobiography, Prologue",
     "text": "Three passions, simple but overwhelmingly strong, have governed my life: the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.",
     "themes": [
@@ -4178,7 +4178,7 @@
   {
     "id": "Q0349",
     "author": "Bertrand Russell",
-    "school": "Analytic philosophy",
+    "school": "Analytic Philosophy",
     "source": "related essays",
     "text": "The good life is one inspired by love and guided by knowledge.",
     "themes": [
@@ -4190,7 +4190,7 @@
   {
     "id": "Q0350",
     "author": "Alfred North Whitehead",
-    "school": "Process philosophy",
+    "school": "Process Philosophy",
     "source": "Process and Reality",
     "text": "The safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to Plato.",
     "themes": [
@@ -4202,7 +4202,7 @@
   {
     "id": "Q0351",
     "author": "Alfred North Whitehead",
-    "school": "Process philosophy",
+    "school": "Process Philosophy",
     "source": "Adventures of Ideas",
     "text": "Seek simplicity and distrust it.",
     "themes": [
@@ -4214,7 +4214,7 @@
   {
     "id": "Q0352",
     "author": "Albert Camus",
-    "school": "Philosophy of the absurd",
+    "school": "Philosophy of the Absurd",
     "source": "Return to Tipasa",
     "text": "In the midst of winter, I found there was, within me, an invincible summer.",
     "themes": [
@@ -4226,7 +4226,7 @@
   {
     "id": "Q0353",
     "author": "Hannah Arendt",
-    "school": "Political philosophy",
+    "school": "Political Liberalism",
     "source": "The Human Condition",
     "text": "Forgiveness is the only reaction which does not merely re-act but acts anew and unexpectedly.",
     "themes": [
@@ -4238,7 +4238,7 @@
   {
     "id": "Q0354",
     "author": "Hannah Arendt",
-    "school": "Political philosophy",
+    "school": "Political Liberalism",
     "source": "Eichmann in Jerusalem",
     "text": "the banality of evil",
     "themes": [
@@ -4250,7 +4250,7 @@
   {
     "id": "Q0355",
     "author": "Karl Popper",
-    "school": "Critical rationalism",
+    "school": "Critical Rationalism",
     "source": "The Open Society and Its Enemies",
     "text": "We must plan for freedom, and not only for security, if for no other reason than that only freedom can make security secure.",
     "themes": [
@@ -4262,7 +4262,7 @@
   {
     "id": "Q0356",
     "author": "Karl Popper",
-    "school": "Critical rationalism",
+    "school": "Critical Rationalism",
     "source": "Conjectures and Refutations",
     "text": "Science must begin with myths, and with the criticism of myths.",
     "themes": [
@@ -4274,7 +4274,7 @@
   {
     "id": "Q0357",
     "author": "Henri Bergson",
-    "school": "Philosophy of life",
+    "school": "Process Philosophy",
     "source": "The Creative Mind",
     "text": "Intelligence is characterized by a natural incomprehension of life.",
     "themes": [
@@ -4286,7 +4286,7 @@
   {
     "id": "Q0358",
     "author": "Martin Buber",
-    "school": "Dialogical philosophy",
+    "school": "Dialogical Philosophy",
     "source": "I and Thou",
     "text": "Man becomes an I through a You.",
     "themes": [
@@ -4298,7 +4298,7 @@
   {
     "id": "Q0359",
     "author": "Simone Weil",
-    "school": "Mysticism",
+    "school": "Religious Existentialism",
     "source": "Gravity and Grace",
     "text": "Absolute attention is prayer.",
     "themes": [
@@ -4310,7 +4310,7 @@
   {
     "id": "Q0360",
     "author": "Johann Wolfgang von Goethe",
-    "school": "Philosophical literature",
+    "school": "German Idealism",
     "source": "Faust II",
     "text": "Whoever strives with all his might, him can we save.",
     "themes": [
@@ -4322,7 +4322,7 @@
   {
     "id": "Q0361",
     "author": "Friedrich Schiller",
-    "school": "German classical aesthetics",
+    "school": "German Idealism",
     "source": "Letters on the Aesthetic Education of Man",
     "text": "Live with your century, but do not be its creature.",
     "themes": [
@@ -4334,7 +4334,7 @@
   {
     "id": "Q0362",
     "author": "Friedrich Schiller",
-    "school": "German classical aesthetics",
+    "school": "German Idealism",
     "source": "The Maid of Orleans",
     "text": "Against stupidity the gods themselves contend in vain.",
     "themes": [
@@ -4418,7 +4418,7 @@
   {
     "id": "Q0369",
     "author": "Wang Yangming",
-    "school": "School of Mind",
+    "school": "Neo-Confucianism",
     "source": "Instructions for Practical Living",
     "text": "Knowing is the beginning of acting; acting is the completion of knowing.",
     "themes": [
@@ -4454,7 +4454,7 @@
   {
     "id": "Q0372",
     "author": "Bhagavad Gita",
-    "school": "Indian philosophy",
+    "school": "Indian Classical Philosophy",
     "source": "Bhagavad Gita 2.38",
     "text": "Treating pleasure and pain, gain and loss, victory and defeat as the same…",
     "themes": [
@@ -4466,7 +4466,7 @@
   {
     "id": "Q0373",
     "author": "Wumen Huikai",
-    "school": "Chan",
+    "school": "Zen Buddhism",
     "source": "The Gateless Gate",
     "text": "The Great Way has no gate; there are a thousand paths. Once you pass this checkpoint, you walk alone between heaven and earth.",
     "themes": [
@@ -4478,7 +4478,7 @@
   {
     "id": "Q0374",
     "author": "Baizhang Huaihai",
-    "school": "Chan",
+    "school": "Zen Buddhism",
     "source": "Chan monastic tradition",
     "text": "A day without work is a day without food.",
     "themes": [
@@ -4490,7 +4490,7 @@
   {
     "id": "Q0375",
     "author": "Wang Yangming",
-    "school": "School of Mind",
+    "school": "Neo-Confucianism",
     "source": "Traditional last words",
     "text": "This mind is luminous—what more is there to say?",
     "themes": [
@@ -4502,7 +4502,7 @@
   {
     "id": "Q0376",
     "author": "Talmudic tradition",
-    "school": "Jewish wisdom literature",
+    "school": "Rabbinic Judaism",
     "source": "Mishnah Avot 2: 16",
     "text": "It is not your duty to finish the work, but neither are you free to desist from it.",
     "themes": [
@@ -4514,7 +4514,7 @@
   {
     "id": "Q0377",
     "author": "Averroes",
-    "school": "Islamic philosophy",
+    "school": "Islamic Philosophy",
     "source": "The Decisive Treatise",
     "text": "Truth does not contradict truth; rather it agrees with it and bears witness to it.",
     "themes": [
@@ -4573,7 +4573,7 @@
   {
     "id": "Q0382",
     "author": "Democritus",
-    "school": "Atomism",
+    "school": "Pre-Socratic",
     "source": "DK 68B191 (and related)",
     "text": "Best for a human being is to live life with as much cheerfulness and as little distress as possible.",
     "themes": [
@@ -4597,7 +4597,7 @@
   {
     "id": "Q0384",
     "author": "Cicero",
-    "school": "Roman Philosophy",
+    "school": "Stoicism",
     "source": "De Officiis I.22",
     "text": "We are not born for ourselves alone.",
     "themes": [
@@ -4609,7 +4609,7 @@
   {
     "id": "Q0385",
     "author": "Cicero",
-    "school": "Roman Philosophy",
+    "school": "Stoicism",
     "source": "Laelius on Friendship (related)",
     "text": "Friendship cannot exist except among the good.",
     "themes": [
@@ -4620,7 +4620,7 @@
   {
     "id": "Q0386",
     "author": "Horace",
-    "school": "Roman Literary Thought",
+    "school": "Stoicism",
     "source": "Odes I.11",
     "text": "Seize the day, trusting as little as possible in tomorrow.",
     "themes": [
@@ -4632,7 +4632,7 @@
   {
     "id": "Q0387",
     "author": "Horace",
-    "school": "Roman Literary Thought",
+    "school": "Stoicism",
     "source": "Epistles I.11.27",
     "text": "They change their sky, not their soul, who rush across the sea.",
     "themes": [
@@ -4644,7 +4644,7 @@
   {
     "id": "Q0388",
     "author": "Ovid",
-    "school": "Roman Literary Thought",
+    "school": "Renaissance Humanism",
     "source": "Remedia Amoris 94 (related proverbial form)",
     "text": "Resist the beginnings.",
     "themes": [
@@ -4668,7 +4668,7 @@
   {
     "id": "Q0390",
     "author": "Dante Alighieri",
-    "school": "Medieval Thought",
+    "school": "Scholasticism",
     "source": "Inferno III.9",
     "text": "Abandon all hope, you who enter here.",
     "themes": [
@@ -4680,7 +4680,7 @@
   {
     "id": "Q0391",
     "author": "Dante Alighieri",
-    "school": "Medieval Thought",
+    "school": "Scholasticism",
     "source": "Inferno V.121–123",
     "text": "There is no greater pain than to recall happy times in misery.",
     "themes": [
@@ -4692,7 +4692,7 @@
   {
     "id": "Q0392",
     "author": "Blaise Pascal",
-    "school": "Proto-Existential Christian Thought",
+    "school": "Christian Existential Precursor",
     "source": "Pensées (common numbering)",
     "text": "All of humanity’s misfortune comes from one thing: not knowing how to remain quietly in a room.",
     "themes": [
@@ -4728,7 +4728,7 @@
   {
     "id": "Q0395",
     "author": "Voltaire",
-    "school": "Enlightenment",
+    "school": "Political Liberalism",
     "source": "traditional attribution",
     "text": "I disapprove of what you say, but I will defend to the death your right to say it.",
     "themes": [
@@ -4740,7 +4740,7 @@
   {
     "id": "Q0396",
     "author": "Johann Wolfgang von Goethe",
-    "school": "German Classical Thought",
+    "school": "German Idealism",
     "source": "Faust I, Study",
     "text": "All theory, dear friend, is gray, but the golden tree of life springs ever green.",
     "themes": [
@@ -4752,7 +4752,7 @@
   {
     "id": "Q0397",
     "author": "Johann Wolfgang von Goethe",
-    "school": "German Classical Thought",
+    "school": "German Idealism",
     "source": "Faust I",
     "text": "Two souls, alas, are dwelling in my breast.",
     "themes": [
@@ -4764,7 +4764,7 @@
   {
     "id": "Q0398",
     "author": "Friedrich Schiller",
-    "school": "German Classical Aesthetics",
+    "school": "German Idealism",
     "source": "On the Aesthetic Education of Man",
     "text": "Man is only fully human where he plays.",
     "themes": [
@@ -4812,7 +4812,7 @@
   {
     "id": "Q0402",
     "author": "Hannah Arendt",
-    "school": "Political Philosophy",
+    "school": "Political Liberalism",
     "source": "The Human Condition",
     "text": "What I propose… is nothing more than to think what we are doing.",
     "themes": [
@@ -4908,7 +4908,7 @@
   {
     "id": "Q0410",
     "author": "Wang Yangming",
-    "school": "School of Mind",
+    "school": "Neo-Confucianism",
     "source": "Instructions for Practical Living",
     "text": "One must temper oneself in the midst of affairs; only then can one stand firm — settled in stillness and settled in action alike.",
     "themes": [
@@ -4944,7 +4944,7 @@
   {
     "id": "Q0413",
     "author": "Zhaozhou Congshen",
-    "school": "Zen",
+    "school": "Zen Buddhism",
     "source": "“Go drink tea”",
     "text": "Go drink tea.",
     "themes": [
@@ -4956,7 +4956,7 @@
   {
     "id": "Q0414",
     "author": "Wumen Huikai",
-    "school": "Zen",
+    "school": "Zen Buddhism",
     "source": "Gateless Gate (popular verse)",
     "text": "Spring has a hundred flowers, autumn the moon; summer a cool breeze, winter the snow. If no idle affairs hang in the mind, every season is a fine season in the human world.",
     "themes": [
@@ -4968,7 +4968,7 @@
   {
     "id": "Q0415",
     "author": "Liang Qichao",
-    "school": "Modern Chinese Enlightenment Thought",
+    "school": "Modern New Confucianism",
     "source": "On the Young China",
     "text": "If the youth are wise, the nation is wise; if the youth are prosperous, the nation is prosperous; if the youth are strong, the nation is strong.",
     "themes": [
@@ -4992,7 +4992,7 @@
   {
     "id": "Q0417",
     "author": "Feng Youlan",
-    "school": "New Rational Philosophy",
+    "school": "Modern New Confucianism",
     "source": "A Short History of Chinese Philosophy",
     "text": "The function of philosophy is not to increase positive knowledge, but to raise the level of the spirit.",
     "themes": [
@@ -5004,7 +5004,7 @@
   {
     "id": "Q0418",
     "author": "Qian Mu",
-    "school": "Cultural Philosophy",
+    "school": "Modern New Confucianism",
     "source": "Ten Essays on Life et al.",
     "text": "Human life is but a yearning — to look toward the far and toward the high.",
     "themes": [
@@ -5016,7 +5016,7 @@
   {
     "id": "Q0419",
     "author": "Alexis de Tocqueville",
-    "school": "Social Thought",
+    "school": "Political Liberalism",
     "source": "Democracy in America",
     "text": "Democratic societies have a natural taste for liberty.",
     "themes": [
@@ -5052,7 +5052,7 @@
   {
     "id": "Q0422",
     "author": "Henri Bergson",
-    "school": "Philosophy of Life",
+    "school": "Process Philosophy",
     "source": "Creative Evolution (durée)",
     "text": "We do not think real time. But we live it.",
     "themes": [
@@ -5088,7 +5088,7 @@
   {
     "id": "Q0425",
     "author": "Friedrich Nietzsche",
-    "school": "Proto-Existentialism",
+    "school": "Philosophy of Will",
     "source": "Thus Spoke Zarathustra, On the Three Metamorphoses",
     "text": "Three metamorphoses of the spirit I name for you: how the spirit becomes a camel, and the camel a lion, and the lion at last a child.",
     "themes": [
@@ -5100,7 +5100,7 @@
   {
     "id": "Q0426",
     "author": "Friedrich Nietzsche",
-    "school": "Proto-Existentialism",
+    "school": "Philosophy of Will",
     "source": "Twilight of the Idols, Maxims and Arrows",
     "text": "What does not kill me makes me stronger.",
     "themes": [
@@ -5160,7 +5160,7 @@
   {
     "id": "Q0431",
     "author": "William of Ockham",
-    "school": "Nominalism",
+    "school": "Scholasticism",
     "source": "Later summary of Ockham’s Razor",
     "text": "Entities must not be multiplied beyond necessity.",
     "themes": [
@@ -5172,7 +5172,7 @@
   {
     "id": "Q0432",
     "author": "Francis Bacon",
-    "school": "Scientific Method",
+    "school": "Empiricism",
     "source": "Novum Organum I, Aph. 3",
     "text": "Human knowledge and human power meet in one.",
     "themes": [
@@ -5280,7 +5280,7 @@
   {
     "id": "Q0441",
     "author": "Cicero",
-    "school": "Roman Philosophy",
+    "school": "Stoicism",
     "source": "On Old Age",
     "text": "The best weapons of old age are the arts and practices of the virtues.",
     "themes": [
@@ -5328,7 +5328,7 @@
   {
     "id": "Q0445",
     "author": "Blaise Pascal",
-    "school": "Proto-Existential Christian Thought",
+    "school": "Christian Existential Precursor",
     "source": "Pensées",
     "text": "Man is visibly made to think; that is his whole dignity and his whole merit.",
     "themes": [
@@ -5388,7 +5388,7 @@
   {
     "id": "Q0450",
     "author": "Friedrich Nietzsche",
-    "school": "Proto-Existentialism",
+    "school": "Philosophy of Will",
     "source": "The Gay Science §341",
     "text": "Would you have this life again? — Well then! Once more!",
     "themes": [
@@ -5544,7 +5544,7 @@
   {
     "id": "Q0463",
     "author": "Wang Yangming",
-    "school": "School of Mind",
+    "school": "Neo-Confucianism",
     "source": "Instructions for Practical Living",
     "text": "Before you looked at this flower, it and your mind alike were still; when you come to look, its colors suddenly become clear.",
     "themes": [
@@ -5556,7 +5556,7 @@
   {
     "id": "Q0464",
     "author": "Wang Fuzhi",
-    "school": "Ming–Qing Practical Learning",
+    "school": "Neo-Confucianism",
     "source": "Du Tongjian Lun",
     "text": "The great method of ordering the world lies in discerning the times and gauging the situation.",
     "themes": [
@@ -5592,7 +5592,7 @@
   {
     "id": "Q0467",
     "author": "Dōgen",
-    "school": "Sōtō Zen",
+    "school": "Zen Buddhism",
     "source": "Shōbōgenzō, Genjōkōan",
     "text": "To carry the self forward and practice the myriad things is delusion; for the myriad things to come forth and practice the self is enlightenment.",
     "themes": [
@@ -5604,7 +5604,7 @@
   {
     "id": "Q0468",
     "author": "Huineng",
-    "school": "Zen",
+    "school": "Zen Buddhism",
     "source": "Platform Sutra",
     "text": "Who would have thought that self-nature is originally pure; who would have thought that self-nature is originally neither born nor destroyed.",
     "themes": [
@@ -5628,7 +5628,7 @@
   {
     "id": "Q0470",
     "author": "Rabindranath Tagore",
-    "school": "Modern Indian Thought",
+    "school": "Indian Classical Philosophy",
     "source": "Gitanjali",
     "text": "The world has kissed my soul with its pain, asking for its return in songs.",
     "themes": [
@@ -5640,7 +5640,7 @@
   {
     "id": "Q0471",
     "author": "Johann Wolfgang von Goethe",
-    "school": "German Classical Thought",
+    "school": "German Idealism",
     "source": "Maxims",
     "text": "What you have inherited from your fathers, earn it in order to possess it.",
     "themes": [
@@ -5652,7 +5652,7 @@
   {
     "id": "Q0472",
     "author": "Friedrich Schiller",
-    "school": "German Classical Aesthetics",
+    "school": "German Idealism",
     "source": "On the Aesthetic Education of Man",
     "text": "It is the task of beauty to lead the sensuous human being to the rational human being.",
     "themes": [
@@ -5664,7 +5664,7 @@
   {
     "id": "Q0473",
     "author": "Alexis de Tocqueville",
-    "school": "Political Philosophy",
+    "school": "Political Liberalism",
     "source": "Democracy in America",
     "text": "One cannot say it too often: nothing is more fruitful in wonders than the art of being free.",
     "themes": [
@@ -5676,7 +5676,7 @@
   {
     "id": "Q0474",
     "author": "Adam Smith",
-    "school": "Moral Philosophy",
+    "school": "Scottish Enlightenment",
     "source": "The Theory of Moral Sentiments",
     "text": "Man naturally desires, not only to be loved, but to be lovely.",
     "themes": [
@@ -5688,7 +5688,7 @@
   {
     "id": "Q0475",
     "author": "Henri Bergson",
-    "school": "Philosophy of Life",
+    "school": "Process Philosophy",
     "source": "The Two Sources of Morality and Religion",
     "text": "The universe… is a machine for the making of gods.",
     "themes": [
@@ -5700,7 +5700,7 @@
   {
     "id": "Q0476",
     "author": "Simone Weil",
-    "school": "Moral Philosophy",
+    "school": "Religious Existentialism",
     "source": "Waiting for God",
     "text": "Prayer consists of attention.",
     "themes": [
@@ -5712,7 +5712,7 @@
   {
     "id": "Q0477",
     "author": "Iris Murdoch",
-    "school": "Moral Philosophy",
+    "school": "Platonic Moral Philosophy",
     "source": "The Sovereignty of Good",
     "text": "We need a moral philosophy in which the concept of love… can once again be made central.",
     "themes": [
@@ -5724,7 +5724,7 @@
   {
     "id": "Q0478",
     "author": "Erich Fromm",
-    "school": "Humanism",
+    "school": "Existentialism",
     "source": "The Art of Loving",
     "text": "Love is an activity, not a passive affect; it is a standing in, not a falling for.",
     "themes": [
@@ -5736,7 +5736,7 @@
   {
     "id": "Q0479",
     "author": "Liang Qichao",
-    "school": "Modern Chinese Enlightenment Thought",
+    "school": "Modern New Confucianism",
     "source": "On Renewing the People",
     "text": "By “renewing the people” we do not mean abandoning all that is old to follow others. Renewal has two senses: to refine what we already have, and to supply what we lack.",
     "themes": [
@@ -5748,7 +5748,7 @@
   {
     "id": "Q0480",
     "author": "Hu Shi",
-    "school": "Experimentalism",
+    "school": "Pragmatism",
     "source": "Tolerance and Freedom",
     "text": "Tolerance is the foundation of all freedom; without tolerance, there is no freedom.",
     "themes": [
@@ -5772,7 +5772,7 @@
   {
     "id": "Q0482",
     "author": "Wang Guowei",
-    "school": "National Learning",
+    "school": "Modern New Confucianism",
     "source": "Remarks on Lyrics in the Human World",
     "text": "In the realm with a self, one views things through the self, so things take on one’s coloring. In the realm without a self, one views things through things, and no longer knows which is self and which is thing.",
     "themes": [
@@ -5784,7 +5784,7 @@
   {
     "id": "Q0483",
     "author": "Horace",
-    "school": "Roman Literary Thought",
+    "school": "Stoicism",
     "source": "Ars Poetica",
     "text": "He who has begun has half done.",
     "themes": [
@@ -5808,7 +5808,7 @@
   {
     "id": "Q0485",
     "author": "Dante Alighieri",
-    "school": "Medieval Thought",
+    "school": "Scholasticism",
     "source": "Paradiso XXXIII.145",
     "text": "the Love that moves the sun and the other stars",
     "themes": [
@@ -5832,7 +5832,7 @@
   {
     "id": "Q0487",
     "author": "George Santayana",
-    "school": "Naturalism",
+    "school": "Pragmatism",
     "source": "The Life of Reason",
     "text": "Fanaticism consists in redoubling your effort when you have forgotten your aim.",
     "themes": [
@@ -5856,7 +5856,7 @@
   {
     "id": "Q0489",
     "author": "Paul Tillich",
-    "school": "Existential Theology",
+    "school": "Religious Existentialism",
     "source": "The Courage to Be",
     "text": "Courage is the self-affirmation of being in spite of the fact of nonbeing.",
     "themes": [
@@ -5868,7 +5868,7 @@
   {
     "id": "Q0490",
     "author": "Karl Jaspers",
-    "school": "Philosophy of Existence",
+    "school": "Existentialism",
     "source": "Introduction to Philosophy",
     "text": "To philosophize is to be on the way.",
     "themes": [
@@ -5880,7 +5880,7 @@
   {
     "id": "Q0491",
     "author": "The Book of Changes",
-    "school": "Classic",
+    "school": "Confucianism",
     "source": "Yijing, Xici II",
     "text": "When exhausted, change; when changing, one gets through; when getting through, one endures.",
     "themes": [
@@ -5928,7 +5928,7 @@
   {
     "id": "Q0495",
     "author": "Blaise Pascal",
-    "school": "Proto-Existential Thought",
+    "school": "Christian Existential Precursor",
     "source": "Pensées",
     "text": "True eloquence mocks eloquence.",
     "themes": [
@@ -5940,7 +5940,7 @@
   {
     "id": "Q0496",
     "author": "Friedrich Nietzsche",
-    "school": "Proto-Existentialism",
+    "school": "Philosophy of Will",
     "source": "Zarathustra, Prologue",
     "text": "Man is a rope stretched between animal and overman — a rope over an abyss.",
     "themes": [
