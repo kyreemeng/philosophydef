@@ -1,6 +1,7 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { englishSide } from "./lib/english-side.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const sourcePath =
@@ -36,15 +37,16 @@ const authorAliases = new Map([
   ["the buddha", "The Buddha"],
   ["chāndogya upaniṣad", "Chandogya Upanisad"],
   ["chandogya upanisad", "Chandogya Upanisad"],
+  ["chandogya upanishad", "Chandogya Upanisad"],
+  ["dhammapada", "Dhammapada"],
+  ["bhagavad gita", "Bhagavad Gita"],
+  ["bhagavad gītā", "Bhagavad Gita"],
+  ["diamond sutra", "Diamond Sutra"],
+  ["guanzi", "Guanzi"],
+  ["the doctrine of the mean", "The Doctrine of the Mean"],
   ["laozi (spring and autumn period)", "Laozi"],
   ["sunzi (spring and autumn period)", "Sunzi"],
 ]);
-
-/** Take the English side of bilingual "中文 / English" field values. */
-function englishSide(value) {
-  const parts = value.split(/\s*[\/／]\s*/);
-  return (parts[parts.length - 1] || value).trim();
-}
 
 function stripParenthetical(value) {
   return value.replace(/\s*\([^)]*\)\s*/g, " ").replace(/\s+/g, " ").trim();

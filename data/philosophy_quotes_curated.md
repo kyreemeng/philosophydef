@@ -440,13 +440,14 @@
 
 - **作者 / Author**: 塞涅卡 / Seneca (c. 4 BCE – 65 CE)
 - **学派 / School**: 斯多葛学派 / Stoicism
-- **出处 / Source**: 《致卢齐利乌斯书简》82.3 / 传统习语（亦见《道德书简》相关论述） / Letters; traditional form of Seneca's theme on learning
+- **出处 / Source**: 《致卢齐利乌斯书简》82.3 / Letters to Lucilius, Ep. 82.3
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Otium sine litteris mors est et hominis vivi sepultura.
 - **英译 / English**: Leisure without study is death — a tomb for a living man.
 - **中译 / Chinese**: 无学之闲暇，犹如死亡——活人的坟墓。
 - **主题 / Themes**: 学习、闲暇、生命 / Learning, Leisure, Life
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 拉丁原文见 Ep. 82.3；英译为通行意译。 / Latin at Ep. 82.3; English is a standard rendering.
 
 #### Q0035
 
@@ -881,18 +882,20 @@
 - **中译 / Chinese**: 出自人生的战争学校。——凡杀不死我的，使我更强大。
 - **主题 / Themes**: 磨难、成长、力量 / Adversity, Growth, Strength
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 德文见《偶像的黄昏》「格言与箭」§8；英译依 Kaufmann 通行译法。 / German: Twilight of the Idols, Maxims and Arrows §8; English follows the usual Kaufmann rendering.
 
 #### Q0071
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche (1844–1900)
 - **学派 / School**: 意志哲学 / Philosophy of Will
-- **出处 / Source**: 《快乐的科学》§276 等；《瞧这个人》 / The Gay Science §276; Ecce Homo
+- **出处 / Source**: 《快乐的科学》§276 / The Gay Science §276
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Amor fati: das soll von nun an meine Liebe sein!
 - **英译 / English**: Amor fati: let that be my love from now on!
 - **中译 / Chinese**: 热爱命运：愿这从此成为我的爱！
 - **主题 / Themes**: 命运、肯定、生活 / Fate, Affirmation, Living
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 主出处为《快乐的科学》§276；《瞧这个人》亦重申 amor fati。英译依 Kaufmann 通行译法。 / Primary locus Gay Science §276; also restated in Ecce Homo. English follows Kaufmann-style rendering.
 
 #### Q0072
 
@@ -905,6 +908,7 @@
 - **中译 / Chinese**: 人如何成为他自己。
 - **主题 / Themes**: 自我、生成、真实 / Self, Becoming, Authenticity
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 《瞧这个人》副标题；尼采取自品达传统表述。 / Ecce Homo subtitle; Nietzsche’s use of a Pindaric formula.
 
 #### Q0073
 
@@ -917,6 +921,7 @@
 - **中译 / Chinese**: 人是应当被超越的某种东西。
 - **主题 / Themes**: 超越、自我、成长 / Overcoming, Self, Growth
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 《查拉图斯特拉如是说》序言；英译依 Kaufmann。 / Zarathustra Prologue; English follows Kaufmann.
 
 #### Q0074
 
@@ -928,7 +933,8 @@
 - **英译 / English**: This life as you now live it and have lived it, you will have to live once more and innumerable times more…
 - **中译 / Chinese**: 你现在所过、并已经过的这一种生活，你还将不得不再过一次，乃至无数次……
 - **主题 / Themes**: 永恒、选择、肯定 / Eternity, Choice, Affirmation
-- **置信度 / Confidence**: ★ (High)
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 《快乐的科学》§341 思想实验节选（省略号处原文更长）；英译依 Kaufmann。 / Excerpt from Gay Science §341 (fuller in the original); Kaufmann-style English.
 
 #### Q0075
 
@@ -1272,13 +1278,14 @@
 
 - **作者 / Author**: 塞涅卡 / Seneca (c. 4 BCE – 65 CE)
 - **学派 / School**: 斯多葛学派 / Stoicism
-- **出处 / Source**: 《致卢齐利乌斯书简》47 等论奴隶／人性 / Letters to Lucilius (on humanity)
+- **出处 / Source**: 《致卢齐利乌斯书简》95.33 / Letters to Lucilius, Ep. 95.33
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Homo, sacra res homini.
 - **英译 / English**: Man is a sacred thing to man.
 - **中译 / Chinese**: 人，对人而言是神圣之物。
 - **主题 / Themes**: 尊严、人性、尊重 / Dignity, Humanity, Respect
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 拉丁：Homo, sacra res homini（Ep. 95.33）。 / Latin: Homo, sacra res homini (Ep. 95.33).
 
 #### Q0104
 
@@ -1381,13 +1388,14 @@
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche (1844–1900)
 - **学派 / School**: 意志哲学 / Philosophy of Will
-- **出处 / Source**: 《查拉图斯特拉如是说》 / Thus Spoke Zarathustra
+- **出处 / Source**: 《查拉图斯特拉如是说》第一部「创造者之路」 / Thus Spoke Zarathustra, Part I, On the Way of the Creator
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Man muss noch Chaos in sich haben, um einen tanzenden Stern gebären zu können.
 - **英译 / English**: One must still have chaos in oneself to be able to give birth to a dancing star.
 - **中译 / Chinese**: 人必须心中仍有混沌，才能诞生一颗舞蹈的星。
 - **主题 / Themes**: 创造、混沌、生成 / Creation, Chaos, Becoming
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 英译依 Kaufmann 通行译法。 / English follows the usual Kaufmann rendering.
 
 #### Q0113
 
@@ -1653,7 +1661,7 @@
 
 - **作者 / Author**: 孔子（前551–前479） / Confucius (551–479 BCE)
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·学而》 / Analects, Xue Er
+- **出处 / Source**: 《论语·学而》1.1 / Analects 1.1
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？」
 - **英译 / English**: The Master said: Is it not a pleasure to learn and to practice what one has learned in due time? Is it not a joy to have friends come from afar? Is it not the mark of a gentleman to remain unresentful when others fail to appreciate one?
@@ -1665,7 +1673,7 @@
 
 - **作者 / Author**: 孔子 / Confucius (551–479 BCE)
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·卫灵公》 / Analects, Wei Ling Gong
+- **出处 / Source**: 《论语·卫灵公》15.24 / Analects 15.24
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「己所不欲，勿施于人。」
 - **英译 / English**: The Master said: What you do not want done to yourself, do not do to others.
@@ -1677,7 +1685,7 @@
 
 - **作者 / Author**: 孔子 / Confucius (551–479 BCE)
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·为政》 / Analects, Wei Zheng
+- **出处 / Source**: 《论语·为政》2.17 / Analects 2.17
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「由，诲女知之乎！知之为知之，不知为不知，是知也。」
 - **英译 / English**: The Master said: You, shall I teach you what knowing is? To know what you know, and to know what you do not know — that is true knowing.
@@ -1689,7 +1697,7 @@
 
 - **作者 / Author**: 孔子 / Confucius (551–479 BCE)
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·述而》 / Analects, Shu Er
+- **出处 / Source**: 《论语·述而》7.22 / Analects 7.22
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「三人行，必有我师焉。择其善者而从之，其不善者而改之。」
 - **英译 / English**: The Master said: When three people walk together, one of them is sure to be my teacher. I select what is good in them and follow it; what is not good, I correct in myself.
@@ -1713,7 +1721,7 @@
 
 - **作者 / Author**: 孔子 / Confucius (551–479 BCE)
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·里仁》 / Analects, Li Ren
+- **出处 / Source**: 《论语·里仁》4.17 / Analects 4.17
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「见贤思齐焉，见不贤而内自省也。」
 - **英译 / English**: The Master said: When you see the worthy, think of equaling them; when you see the unworthy, examine yourself within.
@@ -1725,7 +1733,7 @@
 
 - **作者 / Author**: 孔子 / Confucius (551–479 BCE)
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·里仁》 / Analects, Li Ren
+- **出处 / Source**: 《论语·里仁》4.8 / Analects 4.8
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「朝闻道，夕死可矣。」
 - **英译 / English**: The Master said: If one hears the Way in the morning, one may die content that evening.
@@ -1737,7 +1745,7 @@
 
 - **作者 / Author**: 孔子 / Confucius (551–479 BCE)
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·卫灵公》 / Analects, Wei Ling Gong
+- **出处 / Source**: 《论语·卫灵公》15.21 / Analects 15.21
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「君子求诸己，小人求诸人。」
 - **英译 / English**: The Master said: The gentleman seeks it in himself; the petty person seeks it in others.
@@ -1749,7 +1757,7 @@
 
 - **作者 / Author**: 孔子 / Confucius (551–479 BCE)
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·学而》 / Analects, Xue Er
+- **出处 / Source**: 《论语·学而》1.8 / Analects 1.8
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「过则勿惮改。」
 - **英译 / English**: The Master said: When you have faults, do not fear to correct them.
@@ -1761,7 +1769,7 @@
 
 - **作者 / Author**: 孔子 / Confucius (551–479 BCE)
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·子罕》 / Analects, Zi Han
+- **出处 / Source**: 《论语·子罕》9.28 / Analects 9.28
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「岁寒，然后知松柏之后凋也。」
 - **英译 / English**: The Master said: Only when the year turns cold do we know that the pine and cypress are the last to wither.
@@ -1773,7 +1781,7 @@
 
 - **作者 / Author**: 孔子 / Confucius (551–479 BCE)
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·雍也》 / Analects, Yong Ye
+- **出处 / Source**: 《论语·雍也》6.20 / Analects 6.20
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「知之者不如好之者，好之者不如乐之者。」
 - **英译 / English**: The Master said: Those who know it are not equal to those who love it; those who love it are not equal to those who delight in it.
@@ -1867,7 +1875,7 @@
 
 #### Q0152
 
-- **作者 / Author**: 《大学》（儒家经典） / The Great Learning (Confucian classic)
+- **作者 / Author**: 《大学》（儒家经典） / The Great Learning
 - **学派 / School**: 儒家 / Confucianism
 - **出处 / Source**: 《礼记·大学》 / Liji, The Great Learning
 - **原文语言 / Language**: 文言文 / Classical Chinese
@@ -1876,6 +1884,7 @@
 - **中译 / Chinese**: 大学的宗旨，在于彰显光明的德性，在于使人自新，在于达到并安止于至善。
 - **主题 / Themes**: 德性、自新、至善 / Virtue, Renewal, Highest Good
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0153
 
@@ -1888,6 +1897,7 @@
 - **中译 / Chinese**: 上自天子，下至平民，一律都以修养自身为根本。
 - **主题 / Themes**: 修身、根本、平等 / Self-cultivation, Root, Equality
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0154
 
@@ -1900,6 +1910,7 @@
 - **中译 / Chinese**: 广泛地学习，详细地询问，慎重地思考，清楚地辨别，切实地践行。
 - **主题 / Themes**: 学习、思辨、践行 / Learning, Inquiry, Practice
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0155
 
@@ -1912,10 +1923,11 @@
 - **中译 / Chinese**: 真诚是天的道理；努力做到真诚，是人的道理。
 - **主题 / Themes**: 诚、天道、人道 / Sincerity, Heaven, Humanity
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0156
 
-- **作者 / Author**: 《周易》 / The Book of Changes (Yijing)
+- **作者 / Author**: 《周易》 / The Book of Changes
 - **学派 / School**: 儒家 / Confucianism
 - **出处 / Source**: 《周易·乾卦·象传》 / Yijing, Qian, Commentary on the Images
 - **原文语言 / Language**: 文言文 / Classical Chinese
@@ -1924,10 +1936,11 @@
 - **中译 / Chinese**: 天道运行刚健不息，君子因此自我奋发、永不停息。
 - **主题 / Themes**: 自强、进取、君子 / Self-strengthening, Drive, Gentleman
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0157
 
-- **作者 / Author**: 《周易》 / The Book of Changes (Yijing)
+- **作者 / Author**: 《周易》 / The Book of Changes
 - **学派 / School**: 儒家 / Confucianism
 - **出处 / Source**: 《周易·坤卦·象传》 / Yijing, Kun, Commentary on the Images
 - **原文语言 / Language**: 文言文 / Classical Chinese
@@ -1936,6 +1949,7 @@
 - **中译 / Chinese**: 大地的气势厚实和顺，君子因此增厚德性、容载万物。
 - **主题 / Themes**: 厚德、包容、君子 / Virtue, Inclusiveness, Gentleman
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0158
 
@@ -2482,7 +2496,7 @@
 
 #### Q0202
 
-- **作者 / Author**: 《塔木德》／Talmudic tradition
+- **作者 / Author**: 《塔木德》 / Talmudic tradition
 - **学派 / School**: 犹太拉比传统 / Rabbinic Judaism
 - **出处 / Source**: 《巴比伦塔木德·祝福篇》4a / Babylonian Talmud, Berakhot 4a
 - **原文语言 / Language**: 希伯来／阿拉米语传统 / Hebrew–Aramaic tradition
@@ -2491,7 +2505,7 @@
 - **中译 / Chinese**: 要训练你的舌头说：「我不知道。」
 - **主题 / Themes**: 谦逊、诚实、求知 / Humility, Honesty, Inquiry
 - **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 常被误归迈蒙尼德；实出《塔木德·祝福篇》。迈蒙尼德亦倡导求真与知之为知之。
+- **备注 / Note**: 常被误归迈蒙尼德；实出《塔木德·祝福篇》。迈蒙尼德亦倡导求真与知之为知之。 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0203
 
@@ -2504,10 +2518,11 @@
 - **中译 / Chinese**: 诸法意先导，意主、意所造。
 - **主题 / Themes**: 心、业、因果 / Mind, Karma, Causality
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 传统归名于佛陀；《法句经》为早期佛教文本传统汇编。 / Traditional attribution to the Buddha; the Dhammapada is an Early Buddhist textual compilation.
 
 #### Q0204
 
-- **作者 / Author**: 《薄伽梵歌》／Bhagavad Gita
+- **作者 / Author**: 《薄伽梵歌》 / Bhagavad Gita
 - **学派 / School**: 印度古典哲学／吠檀多传统 / Indian Classical Philosophy
 - **出处 / Source**: 《薄伽梵歌》2.47／Bhagavad Gita 2.47
 - **原文语言 / Language**: 梵语 / Sanskrit
@@ -2516,18 +2531,20 @@
 - **中译 / Chinese**: 你唯有权于行动本身，永无权于行动的果报。
 - **主题 / Themes**: 行动、无执、责任 / Action, Non-attachment, Duty
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0205
 
-- **作者 / Author**: 《唱赞奥义书》／Chāndogya Upaniṣad
+- **作者 / Author**: 《唱赞奥义书》 / Chandogya Upanisad
 - **学派 / School**: 吠檀多 / Vedanta
-- **出处 / Source**: 《唱赞奥义书》6.8.7 等／Chāndogya Upaniṣad 6.8.7 et al.
+- **出处 / Source**: 《唱赞奥义书》6.8.7 等 / Chandogya Upanisad 6.8.7 et al.
 - **原文语言 / Language**: 梵语 / Sanskrit
 - **原文 / Original**: तत् त्वम् असि
 - **英译 / English**: That thou art.
 - **中译 / Chinese**: 彼即是汝。
 - **主题 / Themes**: 自我、同一、觉悟 / Self, Identity, Awakening
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography. 梵文「tat tvam asi」为大句（mahāvākya）传统核心表述。
 
 #### Q0206
 
@@ -2556,15 +2573,16 @@
 
 #### Q0208
 
-- **作者 / Author**: 《金刚经》（慧能因之而悟）／Diamond Sutra (via Huineng’s awakening)
+- **作者 / Author**: 《金刚经》 / Diamond Sutra
 - **学派 / School**: 大乘佛教 / Mahayana Buddhism
-- **出处 / Source**: 《金刚般若波罗蜜经》／Vajracchedikā Prajñāpāramitā Sūtra
+- **出处 / Source**: 《金刚般若波罗蜜经》（鸠摩罗什译） / Diamond Sutra (Kumārajīva Chinese)
 - **原文语言 / Language**: 汉译文言文 / Classical Chinese (Kumārajīva tr.)
 - **原文 / Original**: 应无所住而生其心
 - **英译 / English**: Give rise to a mind that abides nowhere.
 - **中译 / Chinese**: 应当无所执着，而生起清净心。
 - **主题 / Themes**: 无住、心、般若 / Non-abiding, Mind, Wisdom
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography. 此句亦为禅宗（慧能）悟入典故所本；汉译传统文本。
 
 #### Q0209
 
@@ -2580,7 +2598,7 @@
 
 #### Q0210
 
-- **作者 / Author**: 《管子》／Guanzi
+- **作者 / Author**: 《管子》 / Guanzi
 - **学派 / School**: 法家 / Legalism
 - **出处 / Source**: 《管子·牧民》／Guanzi, On Shepherding the People
 - **原文语言 / Language**: 文言文 / Classical Chinese
@@ -2589,6 +2607,7 @@
 - **中译 / Chinese**: 粮仓充实了，人们才会讲究礼节；衣食充足了，人们才会懂得荣辱。
 - **主题 / Themes**: 民生、礼义、社会 / Livelihood, Propriety, Society
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography. 托名管仲的战国–汉代汇编，非单一人传记。
 
 #### Q0211
 
@@ -3576,6 +3595,7 @@
 - **中译 / Chinese**: 物有本末，事有终始，知所先后，则近道矣。
 - **主题 / Themes**: 本末、次序、修道 / Root and branch, Order, The Way
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0292
 
@@ -3588,6 +3608,7 @@
 - **中译 / Chinese**: 喜怒哀乐之未发，谓之中；发而皆中节，谓之和。
 - **主题 / Themes**: 中和、情感、节度 / Mean and harmony, Emotion, Measure
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0293
 
@@ -3600,6 +3621,7 @@
 - **中译 / Chinese**: 君子戒慎乎其所不睹，恐惧乎其所不闻……故君子慎其独也。
 - **主题 / Themes**: 慎独、修养、诚 / Vigilance in solitude, Cultivation, Sincerity
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0294
 
@@ -3672,6 +3694,7 @@
 - **中译 / Chinese**: 世上从无以恨止恨；唯有以无恨止恨。此乃永恒之法。
 - **主题 / Themes**: 瞋恨、慈悲、法则 / Hatred, Non-hatred, Law
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0300
 
@@ -3684,6 +3707,7 @@
 - **中译 / Chinese**: 诸恶莫作，众善奉行，自净其意：是诸佛教。
 - **主题 / Themes**: 戒、善、净心 / Precept, Good, Purification
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0301
 
@@ -3696,6 +3720,7 @@
 - **中译 / Chinese**: 自己是自己的依怙；他人怎能成为依怙？
 - **主题 / Themes**: 自力、依怙、责任 / Self-reliance, Refuge, Responsibility
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0302
 
@@ -3708,6 +3733,7 @@
 - **中译 / Chinese**: 与感官的接触带来冷热苦乐；它们来去无常——你要安忍。
 - **主题 / Themes**: 无常、安忍、感官 / Impermanence, Endurance, Senses
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0303
 
@@ -3720,6 +3746,7 @@
 - **中译 / Chinese**: 当以自我提升自我，勿使自我堕落；自我是自我之友，亦是自我之敌。
 - **主题 / Themes**: 自我、提升、责任 / Self, Uplift, Responsibility
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0304
 
@@ -3817,6 +3844,7 @@
 - **中译 / Chinese**: 若我不为自己，谁会为我？若我只为自己，我又算什么？若非此刻，更待何时？
 - **主题 / Themes**: 责任、自我、时机 / Responsibility, Self, Timing
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography. 归名希勒尔；《密西拿·先贤集》拉比传统。
 
 #### Q0312
 
@@ -3898,14 +3926,14 @@
 
 - **作者 / Author**: 孔子 / Confucius
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·卫灵公》 / Analects, Wei Ling Gong
+- **出处 / Source**: 《论语·卫灵公》15.10 / Analects 15.10
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「工欲善其事，必先利其器。」
 - **英译 / English**: The Master said: The craftsman who wishes to do his work well must first sharpen his tools.
 - **中译 / Chinese**: 孔子说：工匠要把活儿做好，必须先磨利他的工具。
 - **主题 / Themes**: 准备、方法、精进 / Preparation, Method, Excellence
 - **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 原 Q0318 与 Q0216（迈蒙尼德「接纳真理」）语义重复，审查时替换为本条。
+- **备注 / Note**: 原 Q0318 与 Q0216（迈蒙尼德「接纳真理」）语义重复，审查时替换为本条。 章号按通行《论语》分章。 / Chapter numbers follow standard Analects numbering.
 
 #### Q0319
 
@@ -4476,7 +4504,7 @@
 
 #### Q0366
 
-- **作者 / Author**: 大学 / The Great Learning
+- **作者 / Author**: 《大学》 / The Great Learning
 - **学派 / School**: 儒家 / Confucianism
 - **出处 / Source**: 《大学》 / The Great Learning
 - **原文语言 / Language**: 文言文 / Classical Chinese
@@ -4485,10 +4513,11 @@
 - **中译 / Chinese**: 欲修其身者，先正其心；欲正其心者，先诚其意。
 - **主题 / Themes**: 修身、正心、诚意 / Self-cultivation, Rectifying mind, Sincerity
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0367
 
-- **作者 / Author**: 中庸 / The Doctrine of the Mean
+- **作者 / Author**: 《中庸》 / The Doctrine of the Mean
 - **学派 / School**: 儒家 / Confucianism
 - **出处 / Source**: 《中庸》 / The Doctrine of the Mean
 - **原文语言 / Language**: 文言文 / Classical Chinese
@@ -4497,6 +4526,7 @@
 - **中译 / Chinese**: 天命之谓性，率性之谓道，修道之谓教。
 - **主题 / Themes**: 天性、道、教化 / Nature, Way, Teaching
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0368
 
@@ -4524,7 +4554,7 @@
 
 #### Q0370
 
-- **作者 / Author**: 法句经 / Dhammapada
+- **作者 / Author**: 《法句经》 / Dhammapada
 - **学派 / School**: 早期佛教 / Early Buddhism
 - **出处 / Source**: 《法句经》50 / Dhammapada 50
 - **原文语言 / Language**: 巴利语 / Pali
@@ -4533,10 +4563,11 @@
 - **中译 / Chinese**: 勿观他人之过，勿观他人所作与未作；当观自己已作与未作。
 - **主题 / Themes**: 自省、不指责、修行 / Self-examination, Non-blaming, Practice
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0371
 
-- **作者 / Author**: 法句经 / Dhammapada
+- **作者 / Author**: 《法句经》 / Dhammapada
 - **学派 / School**: 早期佛教 / Early Buddhism
 - **出处 / Source**: 《法句经》276 / Dhammapada 276
 - **原文语言 / Language**: 巴利语 / Pali
@@ -4545,10 +4576,11 @@
 - **中译 / Chinese**: 你们当自己精勤；如来只是指出道路。
 - **主题 / Themes**: 自力、修行、道路 / Self-effort, Practice, Path
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0372
 
-- **作者 / Author**: 薄伽梵歌 / Bhagavad Gita
+- **作者 / Author**: 《薄伽梵歌》 / Bhagavad Gita
 - **学派 / School**: 印度古典哲学 / Indian Classical Philosophy
 - **出处 / Source**: 《薄伽梵歌》2.38 / Bhagavad Gita 2.38
 - **原文语言 / Language**: 梵语 / Sanskrit
@@ -4557,6 +4589,7 @@
 - **中译 / Chinese**: 视苦乐、得失、胜败为同等……
 - **主题 / Themes**: 平等心、行动、无执 / Equanimity, Action, Non-attachment
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0373
 
@@ -4597,7 +4630,7 @@
 
 #### Q0376
 
-- **作者 / Author**: 塔木德传统（拉比塔尔丰） / Talmudic tradition (Rabbi Tarfon)
+- **作者 / Author**: 《塔木德》传统 / Talmudic tradition
 - **学派 / School**: 犹太拉比传统 / Rabbinic Judaism
 - **出处 / Source**: 《密西拿·先贤篇》2:16 / Mishnah Avot 2:16
 - **原文语言 / Language**: 希伯来语 / Hebrew
@@ -4606,6 +4639,7 @@
 - **中译 / Chinese**: 完成这工作并非你的义务，但你也无权因此放弃它。
 - **主题 / Themes**: 责任、持之以恒、限度 / Responsibility, Perseverance, Limits
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography. 拉比塔尔丰之说，见《密西拿·先贤篇》。
 
 #### Q0377
 
@@ -4930,7 +4964,7 @@
 
 - **作者 / Author**: 孔子 / Confucius
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·卫灵公》 / Analects, Wei Ling Gong
+- **出处 / Source**: 《论语·卫灵公》15.9 / Analects 15.9
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「志士仁人，无求生以害仁，有杀身以成仁。」
 - **英译 / English**: The Master said: The resolute scholar and the man of ren will not seek life at the expense of ren; they may even sacrifice life to accomplish ren.
@@ -4942,7 +4976,7 @@
 
 - **作者 / Author**: 孔子 / Confucius
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·子罕》 / Analects, Zi Han
+- **出处 / Source**: 《论语·子罕》9.29 / Analects 9.29
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「知者不惑，仁者不忧，勇者不惧。」
 - **英译 / English**: The Master said: The wise are not perplexed; the humane are not anxious; the brave are not afraid.
@@ -4954,7 +4988,7 @@
 
 - **作者 / Author**: 孔子 / Confucius
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·宪问》 / Analects, Xian Wen
+- **出处 / Source**: 《论语·宪问》14.35 / Analects 14.35
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「不怨天，不尤人，下学而上达。」
 - **英译 / English**: The Master said: I do not resent Heaven, nor blame men; I learn from below and reach upward.
@@ -4978,7 +5012,7 @@
 
 - **作者 / Author**: 老子 / Laozi
 - **学派 / School**: 道家 / Daoism
-- **出处 / Source**: 《道德经》第四十八章 / Daodejing 48
+- **出处 / Source**: 《道德经》第四十八章 / Daodejing, Ch. 48
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 为学日益，为道日损。损之又损，以至于无为。
 - **英译 / English**: In pursuing learning, one increases day by day; in pursuing the Way, one decreases day by day. Decreasing and decreasing again, one arrives at non-action.
@@ -4990,7 +5024,7 @@
 
 - **作者 / Author**: 老子 / Laozi
 - **学派 / School**: 道家 / Daoism
-- **出处 / Source**: 《道德经》第七十六章 / Daodejing 76
+- **出处 / Source**: 《道德经》第七十六章 / Daodejing, Ch. 76
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 坚强者死之徒，柔弱者生之徒。
 - **英译 / English**: The stiff and unbending is the disciple of death; the soft and yielding is the disciple of life.
@@ -5032,7 +5066,8 @@
 - **英译 / English**: Hatreds never cease through hatred in this world.
 - **中译 / Chinese**: 在这个世界上，仇恨绝不能以仇恨止息。
 - **主题 / Themes**: 仇恨、慈悲、和平 / Hatred, Compassion, Peace
-- **置信度 / Confidence**: ★ (High)
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography. 与 Q0299 同为第5偈；此为通行短引压缩。
 
 #### Q0412
 
@@ -5044,7 +5079,8 @@
 - **英译 / English**: Contacts with the senses, O son of Kunti, give cold and heat, pleasure and pain; they come and go — endure them.
 - **中译 / Chinese**: 感官接触带来冷热苦乐；它们来去无常——应当忍耐。
 - **主题 / Themes**: 忍耐、无常、平等心 / Endurance, Impermanence, Equanimity
-- **置信度 / Confidence**: ★ (High)
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography. 与 Q0302 同为 2.14；此为另一通行英译压缩。
 
 #### Q0413
 
@@ -5205,18 +5241,20 @@
 - **中译 / Chinese**: 我告诉你们精神的三种变形：精神如何变成骆驼，骆驼如何变成狮子，狮子最后如何变成孩子。
 - **主题 / Themes**: 精神、创造、自由 / Spirit, Creation, Freedom
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 英译依 Kaufmann。 / English follows Kaufmann.
 
 #### Q0426
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche
 - **学派 / School**: 意志哲学 / Philosophy of Will
-- **出处 / Source**: 《偶像的黄昏》「格言与箭」 / Twilight of the Idols, Maxims and Arrows
+- **出处 / Source**: 《偶像的黄昏》「格言与箭」§8 / Twilight of the Idols, Maxims and Arrows §8
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Was mich nicht umbringt, macht mich stärker.
 - **英译 / English**: What does not kill me makes me stronger.
 - **中译 / Chinese**: 凡不能杀死我的，使我更强大。
 - **主题 / Themes**: 坚韧、力量、考验 / Resilience, Strength, Trial
-- **置信度 / Confidence**: ★ (High)
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 与 Q0070 同出 §8；此为流行短句（略去「出自人生的战争学校」）。勿当作另一出处。 / Same §8 as Q0070; popular short form omitting the “military school of life” frame.
 
 #### Q0427
 
@@ -5229,19 +5267,20 @@
 - **中译 / Chinese**: 不要为余生是长是短而烦恼，仿佛那很要紧似的。
 - **主题 / Themes**: 时间、平静、当下 / Time, Equanimity, Present
 - **置信度 / Confidence**: ☆ (Medium)
-- **备注 / Note**: 义确于《沉思录》时间观；具体节号因版本略异。
+- **备注 / Note**: 义确于《沉思录》时间观；具体节号因版本略异。 勿作口号化摘引脱离上下文。 / Keep with Meditations context; not a freestanding slogan.
 
 #### Q0428
 
 - **作者 / Author**: 塞涅卡 / Seneca
 - **学派 / School**: 斯多葛主义 / Stoicism
-- **出处 / Source**: 《论人生之短暂》 / On the Shortness of Life
+- **出处 / Source**: 《论人生之短暂》1.3 / On the Shortness of Life 1.3
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Non exiguum temporis habemus, sed multum perdimus.
 - **英译 / English**: It is not that we have a short time to live, but that we waste a great deal of it.
 - **中译 / Chinese**: 不是我们可活的时间短，而是我们浪费的太多。
 - **主题 / Themes**: 时间、浪费、人生 / Time, Waste, Life
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 拉丁通行句见 De Brevitate Vitae 1.3。 / Standard Latin locus De Brevitate Vitae 1.3.
 
 #### Q0429
 
@@ -5376,19 +5415,20 @@
 - **中译 / Chinese**: 人是为彼此协作而生的。
 - **主题 / Themes**: 协作、人性、社会 / Cooperation, Human Nature, Society
 - **置信度 / Confidence**: ☆ (Medium)
-- **备注 / Note**: 义确于协作论；通行英译常并入手足眼睑之喻。
+- **备注 / Note**: 义确于协作论；通行英译常并入手足眼睑之喻。 Loeb／标准英译常见手足眼睑之喻。 / Common Loeb-style cooperation simile.
 
 #### Q0440
 
 - **作者 / Author**: 塞涅卡 / Seneca
 - **学派 / School**: 斯多葛主义 / Stoicism
-- **出处 / Source**: 《道德书简》1 / Moral Letters 1
+- **出处 / Source**: 《致卢齐利乌斯书简》1.1 / Letters to Lucilius, Ep. 1.1
 - **原文语言 / Language**: 拉丁语 / Latin
 - **原文 / Original**: Omnia aliena sunt, tempus tantum nostrum est
 - **英译 / English**: All things are alien to us; time alone is ours.
 - **中译 / Chinese**: 一切都属于别人，唯有时间属于我们。
 - **主题 / Themes**: 时间、所有、珍惜 / Time, Ownership, Care
-- **置信度 / Confidence**: ★ (High)
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 与 Q0030 同出书简第1封论时间；此为另一通行英译。 / Same Ep. 1 time-theme as Q0030; alternate English rendering.
 
 #### Q0441
 
@@ -5507,12 +5547,12 @@
 - **学派 / School**: 意志哲学 / Philosophy of Will
 - **出处 / Source**: 《快乐的科学》§341 / The Gay Science §341
 - **原文语言 / Language**: 德语 / German
-- **原文 / Original**: Diese Lebensweisheit wolltest du? — gut! noch einmal!
+- **原文 / Original**: （通行浓缩，非 §341 逐字原文）
 - **英译 / English**: Would you have this life again? — Well then! Once more!
 - **中译 / Chinese**: 你可还愿再要这样的人生？——好！再来一次！
 - **主题 / Themes**: 永恒轮回、肯定、生命 / Eternal Recurrence, Affirmation, Life
 - **置信度 / Confidence**: ☆ (Medium)
-- **备注 / Note**: 永恒轮回思想实验的通行浓缩；完整段落更长。
+- **备注 / Note**: 永恒轮回思想实验的通行浓缩；德／英均非 §341 全文逐字。完整德语段落见 Q0074 所据出处。 / Popular compression of the eternal-recurrence thought experiment; neither German nor English here is verbatim §341.
 
 #### Q0451
 
@@ -5555,7 +5595,7 @@
 
 - **作者 / Author**: 孔子 / Confucius
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·泰伯》 / Analects, Tai Bo
+- **出处 / Source**: 《论语·泰伯》8.7 / Analects 8.7
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 曾子曰：「士不可以不弘毅，任重而道远。」
 - **英译 / English**: Zengzi said: A scholar-officer must be broad and resolute, for his burden is heavy and his Way is long.
@@ -5567,7 +5607,7 @@
 
 - **作者 / Author**: 孔子 / Confucius
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·颜渊》 / Analects, Yan Yuan
+- **出处 / Source**: 《论语·颜渊》12.1 / Analects 12.1
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「克己复礼为仁。一日克己复礼，天下归仁焉。」
 - **英译 / English**: The Master said: To restrain the self and return to ritual propriety is ren. One day of this, and all under Heaven will turn toward ren.
@@ -5591,7 +5631,7 @@
 
 - **作者 / Author**: 老子 / Laozi
 - **学派 / School**: 道家 / Daoism
-- **出处 / Source**: 《道德经》第七十八章 / Daodejing 78
+- **出处 / Source**: 《道德经》第七十八章 / Daodejing, Ch. 78
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 天下莫柔弱于水，而攻坚强者莫之能胜。
 - **英译 / English**: Nothing under Heaven is softer than water, yet nothing attacks the hard and strong more effectively.
@@ -5603,7 +5643,7 @@
 
 - **作者 / Author**: 老子 / Laozi
 - **学派 / School**: 道家 / Daoism
-- **出处 / Source**: 《道德经》第二十二章 / Daodejing 22
+- **出处 / Source**: 《道德经》第二十二章 / Daodejing, Ch. 22
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 曲则全，枉则直，洼则盈，敝则新。
 - **英译 / English**: Bent, then whole; crooked, then straight; hollow, then full; worn, then new.
@@ -5695,6 +5735,7 @@
 - **中译 / Chinese**: 以无嗔胜嗔恚，以善胜不善。
 - **主题 / Themes**: 嗔恚、善、转化 / Anger, Good, Transformation
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0466
 
@@ -5706,7 +5747,8 @@
 - **英译 / English**: One should lift oneself by oneself; one should not degrade oneself.
 - **中译 / Chinese**: 人应当以自我提升自我，而不应贬损自我。
 - **主题 / Themes**: 自助、自我、修行 / Self-help, Self, Practice
-- **置信度 / Confidence**: ★ (High)
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography. 与 Q0303 同为 6.5；此为通行短引。
 
 #### Q0467
 
@@ -5779,6 +5821,7 @@
 - **中译 / Chinese**: 美的任务，是把感性的人引向理性的人。
 - **主题 / Themes**: 美、教育、自由 / Beauty, Education, Freedom
 - **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 席勒审美教育论的通行浓缩；原文论述更长。 / Popular compression of Schiller’s aesthetic-education argument; fuller in the treatise.
 
 #### Q0473
 
@@ -5791,6 +5834,7 @@
 - **中译 / Chinese**: 怎么强调也不为过：没有什么比自由的技艺更能结出奇迹。
 - **主题 / Themes**: 自由、技艺、民主 / Freedom, Art, Democracy
 - **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 托克维尔论民主与自由的通行义；原文论述更长。 / Sense secure from Democracy in America; wording is a reliable compression.
 
 #### Q0474
 
@@ -6009,6 +6053,7 @@
 - **中译 / Chinese**: 走到穷尽就要变化，变化就能通达，通达就能长久。
 - **主题 / Themes**: 变通、通达、长久 / Change, Passage, Endurance
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 文本传统归名（经典／汇编），非现代个人传记作者。 / Textual-tradition attribution (classic or compilation), not a modern individual biography.
 
 #### Q0492
 
@@ -6063,19 +6108,20 @@
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche
 - **学派 / School**: 意志哲学 / Philosophy of Will
-- **出处 / Source**: 《查拉图斯特拉如是说》序言 / Zarathustra, Prologue
+- **出处 / Source**: 《查拉图斯特拉如是说》序言 / Thus Spoke Zarathustra, Prologue
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Der Mensch ist ein Seil, geknüpft zwischen Tier und Übermensch — ein Seil über einem Abgrunde.
 - **英译 / English**: Man is a rope stretched between animal and overman — a rope over an abyss.
 - **中译 / Chinese**: 人是系在动物与超人之间的一根绳索——悬在深渊之上的绳索。
 - **主题 / Themes**: 超越、人性、危险 / Transcendence, Humanity, Danger
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 英译依 Kaufmann 通行译法。 / English follows the usual Kaufmann rendering.
 
 #### Q0497
 
 - **作者 / Author**: 孔子 / Confucius
 - **学派 / School**: 儒家 / Confucianism
-- **出处 / Source**: 《论语·子路》 / Analects, Zi Lu
+- **出处 / Source**: 《论语·子路》13.23 / Analects 13.23
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 子曰：「君子和而不同，小人同而不和。」
 - **英译 / English**: The Master said: The gentleman seeks harmony but not sameness; the petty man seeks sameness but not harmony.
@@ -6087,7 +6133,7 @@
 
 - **作者 / Author**: 老子 / Laozi
 - **学派 / School**: 道家 / Daoism
-- **出处 / Source**: 《道德经》第七十章 / Daodejing 70
+- **出处 / Source**: 《道德经》第七十章 / Daodejing, Ch. 70
 - **原文语言 / Language**: 文言文 / Classical Chinese
 - **原文 / Original**: 知我者希，则我者贵。
 - **英译 / English**: Those who understand me are few; therefore I am valued.

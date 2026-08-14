@@ -159,7 +159,7 @@
     "id": "Q0014",
     "author": "Aristotle",
     "school": "Peripatetic School",
-    "source": "IX.9",
+    "source": "IX.9 / Nicomachean Ethics IX.4 / IX.9",
     "text": "A friend is another self.",
     "themes": [
       "Friendship",
@@ -171,7 +171,7 @@
     "id": "Q0015",
     "author": "Heraclitus",
     "school": "Pre-Socratic",
-    "source": "B12",
+    "source": "B12 / Fragment DK B91 / B12",
     "text": "Upon those who step into the same rivers, different and different waters flow.",
     "themes": [
       "Change",
@@ -399,7 +399,7 @@
     "id": "Q0034",
     "author": "Seneca",
     "school": "Stoicism",
-    "source": "Letters; traditional form of Seneca's theme on learning",
+    "source": "Letters to Lucilius, Ep. 82.3",
     "text": "Leisure without study is death — a tomb for a living man.",
     "themes": [
       "Learning",
@@ -555,7 +555,7 @@
     "id": "Q0047",
     "author": "Augustine of Hippo",
     "school": "Patristic Philosophy",
-    "source": "X.31",
+    "source": "X.31 / Confessions X.29 / X.31",
     "text": "Give what you command, and command what you will.",
     "themes": [
       "Will",
@@ -591,7 +591,7 @@
     "id": "Q0050",
     "author": "Michel de Montaigne",
     "school": "Renaissance Humanism",
-    "source": "II.12",
+    "source": "II.12 / Essays (motto) / II.12",
     "text": "What do I know?",
     "themes": [
       "Doubt",
@@ -639,7 +639,7 @@
     "id": "Q0054",
     "author": "René Descartes",
     "school": "Rationalism",
-    "source": "Principles of Philosophy (Latin)",
+    "source": "Discourse on the Method IV (French) / Principles of Philosophy (Latin)",
     "text": "I think, therefore I am.",
     "themes": [
       "Self",
@@ -843,7 +843,7 @@
     "id": "Q0071",
     "author": "Friedrich Nietzsche",
     "school": "Philosophy of Will",
-    "source": "The Gay Science §276; Ecce Homo",
+    "source": "The Gay Science §276",
     "text": "Amor fati: let that be my love from now on!",
     "themes": [
       "Fate",
@@ -1227,7 +1227,7 @@
     "id": "Q0103",
     "author": "Seneca",
     "school": "Stoicism",
-    "source": "Letters to Lucilius (on humanity)",
+    "source": "Letters to Lucilius, Ep. 95.33",
     "text": "Man is a sacred thing to man.",
     "themes": [
       "Dignity",
@@ -1335,7 +1335,7 @@
     "id": "Q0112",
     "author": "Friedrich Nietzsche",
     "school": "Philosophy of Will",
-    "source": "Thus Spoke Zarathustra",
+    "source": "Thus Spoke Zarathustra, Part I, On the Way of the Creator",
     "text": "One must still have chaos in oneself to be able to give birth to a dancing star.",
     "themes": [
       "Creation",
@@ -1407,7 +1407,7 @@
     "id": "Q0118",
     "author": "Søren Kierkegaard",
     "school": "Existentialism",
-    "source": "Or",
+    "source": "Either/Or",
     "text": "Marry, and you will regret it; do not marry, and you will also regret it.",
     "themes": [
       "Choice",
@@ -1599,7 +1599,7 @@
     "id": "Q0134",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Xue Er",
+    "source": "Analects 1.1",
     "text": "The Master said: Is it not a pleasure to learn and to practice what one has learned in due time? Is it not a joy to have friends come from afar? Is it not the mark of a gentleman to remain unresentful when others fail to appreciate one?",
     "themes": [
       "Learning",
@@ -1611,7 +1611,7 @@
     "id": "Q0135",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Wei Ling Gong",
+    "source": "Analects 15.24",
     "text": "The Master said: What you do not want done to yourself, do not do to others.",
     "themes": [
       "Benevolence",
@@ -1623,7 +1623,7 @@
     "id": "Q0136",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Wei Zheng",
+    "source": "Analects 2.17",
     "text": "The Master said: You, shall I teach you what knowing is? To know what you know, and to know what you do not know — that is true knowing.",
     "themes": [
       "Knowledge",
@@ -1635,7 +1635,7 @@
     "id": "Q0137",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Shu Er",
+    "source": "Analects 7.22",
     "text": "The Master said: When three people walk together, one of them is sure to be my teacher. I select what is good in them and follow it; what is not good, I correct in myself.",
     "themes": [
       "Learning",
@@ -1659,7 +1659,7 @@
     "id": "Q0139",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Li Ren",
+    "source": "Analects 4.17",
     "text": "The Master said: When you see the worthy, think of equaling them; when you see the unworthy, examine yourself within.",
     "themes": [
       "Self-examination",
@@ -1671,7 +1671,7 @@
     "id": "Q0140",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Li Ren",
+    "source": "Analects 4.8",
     "text": "The Master said: If one hears the Way in the morning, one may die content that evening.",
     "themes": [
       "Way",
@@ -1683,7 +1683,7 @@
     "id": "Q0141",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Wei Ling Gong",
+    "source": "Analects 15.21",
     "text": "The Master said: The gentleman seeks it in himself; the petty person seeks it in others.",
     "themes": [
       "Responsibility",
@@ -1695,7 +1695,7 @@
     "id": "Q0142",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Xue Er",
+    "source": "Analects 1.8",
     "text": "The Master said: When you have faults, do not fear to correct them.",
     "themes": [
       "Correction",
@@ -1707,7 +1707,7 @@
     "id": "Q0143",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Zi Han",
+    "source": "Analects 9.28",
     "text": "The Master said: Only when the year turns cold do we know that the pine and cypress are the last to wither.",
     "themes": [
       "Resilience",
@@ -1719,7 +1719,7 @@
     "id": "Q0144",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Yong Ye",
+    "source": "Analects 6.20",
     "text": "The Master said: Those who know it are not equal to those who love it; those who love it are not equal to those who delight in it.",
     "themes": [
       "Learning",
@@ -2019,7 +2019,7 @@
     "id": "Q0169",
     "author": "Zhang Zai",
     "school": "Neo-Confucianism",
-    "source": ")",
+    "source": "Hengqu Yulu (Song–Ming text: /; popular polished form: / )",
     "text": "To establish the mind for Heaven and Earth; to secure the destiny of the people; to continue the interrupted learning of the past sages; to open peace for all ages.",
     "themes": [
       "Mission",
@@ -2451,7 +2451,7 @@
     "id": "Q0205",
     "author": "Chandogya Upanisad",
     "school": "Vedanta",
-    "source": "Chāndogya Upaniṣad 6.8.7 et al.",
+    "source": "Chandogya Upanisad 6.8.7 et al.",
     "text": "That thou art.",
     "themes": [
       "Self",
@@ -2487,7 +2487,7 @@
     "id": "Q0208",
     "author": "Diamond Sutra",
     "school": "Mahayana Buddhism",
-    "source": "Vajracchedikā Prajñāpāramitā Sūtra",
+    "source": "Diamond Sutra (Kumārajīva Chinese)",
     "text": "Give rise to a mind that abides nowhere.",
     "themes": [
       "Non-abiding",
@@ -3519,7 +3519,7 @@
     "id": "Q0294",
     "author": "Zhang Zai",
     "school": "Neo-Confucianism",
-    "source": "Western Inscription",
+    "source": "Zhengmeng / Western Inscription",
     "text": "The people are my siblings; things are my companions.",
     "themes": [
       "Cosmic kinship",
@@ -3651,7 +3651,7 @@
     "id": "Q0305",
     "author": "Zhaozhou Congshen",
     "school": "Zen Buddhism",
-    "source": "Gateless Gate 1 (related)",
+    "source": "Record of Zhaozhou / Gateless Gate 1 (related)",
     "text": "Does a dog have Buddha-nature? … Wu (No).",
     "themes": [
       "Koan",
@@ -3675,7 +3675,7 @@
     "id": "Q0307",
     "author": "Mazu Daoyi",
     "school": "Zen Buddhism",
-    "source": "Record of Mazu",
+    "source": "Jingde Chuandenglu / Record of Mazu",
     "text": "Ordinary mind is the Way.",
     "themes": [
       "Ordinary mind",
@@ -3759,7 +3759,7 @@
     "id": "Q0314",
     "author": "Voltaire",
     "school": "Political Liberalism",
-    "source": "correspondence (common form)",
+    "source": "Philosophical Dictionary / correspondence (common form)",
     "text": "Doubt is not a pleasant condition, but certainty is an absurd one.",
     "themes": [
       "Doubt",
@@ -3807,7 +3807,7 @@
     "id": "Q0318",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Wei Ling Gong",
+    "source": "Analects 15.10",
     "text": "The Master said: The craftsman who wishes to do his work well must first sharpen his tools.",
     "themes": [
       "Preparation",
@@ -4179,7 +4179,7 @@
     "id": "Q0349",
     "author": "Bertrand Russell",
     "school": "Analytic Philosophy",
-    "source": "related essays",
+    "source": "What I Believe / related essays",
     "text": "The good life is one inspired by love and guided by knowledge.",
     "themes": [
       "Good life",
@@ -4657,7 +4657,7 @@
     "id": "Q0389",
     "author": "Augustine of Hippo",
     "school": "Patristic Philosophy",
-    "source": "Letters (traditional form)",
+    "source": "Sermons / Letters (traditional form)",
     "text": "Love, and do what you will.",
     "themes": [
       "Love",
@@ -4729,7 +4729,7 @@
     "id": "Q0395",
     "author": "Voltaire",
     "school": "Political Liberalism",
-    "source": "traditional attribution",
+    "source": "Correspondence / traditional attribution",
     "text": "I disapprove of what you say, but I will defend to the death your right to say it.",
     "themes": [
       "Tolerance",
@@ -4825,7 +4825,7 @@
     "id": "Q0403",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Wei Ling Gong",
+    "source": "Analects 15.9",
     "text": "The Master said: The resolute scholar and the man of ren will not seek life at the expense of ren; they may even sacrifice life to accomplish ren.",
     "themes": [
       "Benevolence",
@@ -4837,7 +4837,7 @@
     "id": "Q0404",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Zi Han",
+    "source": "Analects 9.29",
     "text": "The Master said: The wise are not perplexed; the humane are not anxious; the brave are not afraid.",
     "themes": [
       "Wisdom",
@@ -4849,7 +4849,7 @@
     "id": "Q0405",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Xian Wen",
+    "source": "Analects 14.35",
     "text": "The Master said: I do not resent Heaven, nor blame men; I learn from below and reach upward.",
     "themes": [
       "Self-strength",
@@ -4873,7 +4873,7 @@
     "id": "Q0407",
     "author": "Laozi",
     "school": "Daoism",
-    "source": "Daodejing 48",
+    "source": "Daodejing, Ch. 48",
     "text": "In pursuing learning, one increases day by day; in pursuing the Way, one decreases day by day. Decreasing and decreasing again, one arrives at non-action.",
     "themes": [
       "Way",
@@ -4885,7 +4885,7 @@
     "id": "Q0408",
     "author": "Laozi",
     "school": "Daoism",
-    "source": "Daodejing 76",
+    "source": "Daodejing, Ch. 76",
     "text": "The stiff and unbending is the disciple of death; the soft and yielding is the disciple of life.",
     "themes": [
       "Softness",
@@ -4945,7 +4945,7 @@
     "id": "Q0413",
     "author": "Zhaozhou Congshen",
     "school": "Zen Buddhism",
-    "source": "“Go drink tea”",
+    "source": "Record of Zhaozhou / “Go drink tea”",
     "text": "Go drink tea.",
     "themes": [
       "Ordinary",
@@ -5053,7 +5053,7 @@
     "id": "Q0422",
     "author": "Henri Bergson",
     "school": "Process Philosophy",
-    "source": "Creative Evolution (durée)",
+    "source": "Time and Free Will / Creative Evolution (durée)",
     "text": "We do not think real time. But we live it.",
     "themes": [
       "Time",
@@ -5101,7 +5101,7 @@
     "id": "Q0426",
     "author": "Friedrich Nietzsche",
     "school": "Philosophy of Will",
-    "source": "Twilight of the Idols, Maxims and Arrows",
+    "source": "Twilight of the Idols, Maxims and Arrows §8",
     "text": "What does not kill me makes me stronger.",
     "themes": [
       "Resilience",
@@ -5125,7 +5125,7 @@
     "id": "Q0428",
     "author": "Seneca",
     "school": "Stoicism",
-    "source": "On the Shortness of Life",
+    "source": "On the Shortness of Life 1.3",
     "text": "It is not that we have a short time to live, but that we waste a great deal of it.",
     "themes": [
       "Time",
@@ -5269,7 +5269,7 @@
     "id": "Q0440",
     "author": "Seneca",
     "school": "Stoicism",
-    "source": "Moral Letters 1",
+    "source": "Letters to Lucilius, Ep. 1.1",
     "text": "All things are alien to us; time alone is ours.",
     "themes": [
       "Time",
@@ -5377,7 +5377,7 @@
     "id": "Q0449",
     "author": "Søren Kierkegaard",
     "school": "Existentialism",
-    "source": "Or",
+    "source": "Either/Or",
     "text": "To dare is to lose one’s footing momentarily. Not to dare is to lose oneself.",
     "themes": [
       "Courage",
@@ -5437,7 +5437,7 @@
     "id": "Q0454",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Tai Bo",
+    "source": "Analects 8.7",
     "text": "Zengzi said: A scholar-officer must be broad and resolute, for his burden is heavy and his Way is long.",
     "themes": [
       "Responsibility",
@@ -5449,7 +5449,7 @@
     "id": "Q0455",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Yan Yuan",
+    "source": "Analects 12.1",
     "text": "The Master said: To restrain the self and return to ritual propriety is ren. One day of this, and all under Heaven will turn toward ren.",
     "themes": [
       "Benevolence",
@@ -5473,7 +5473,7 @@
     "id": "Q0457",
     "author": "Laozi",
     "school": "Daoism",
-    "source": "Daodejing 78",
+    "source": "Daodejing, Ch. 78",
     "text": "Nothing under Heaven is softer than water, yet nothing attacks the hard and strong more effectively.",
     "themes": [
       "Softness",
@@ -5485,7 +5485,7 @@
     "id": "Q0458",
     "author": "Laozi",
     "school": "Daoism",
-    "source": "Daodejing 22",
+    "source": "Daodejing, Ch. 22",
     "text": "Bent, then whole; crooked, then straight; hollow, then full; worn, then new.",
     "themes": [
       "Dialectic",
@@ -5641,7 +5641,7 @@
     "id": "Q0471",
     "author": "Johann Wolfgang von Goethe",
     "school": "German Idealism",
-    "source": "Maxims",
+    "source": "Faust / Maxims",
     "text": "What you have inherited from your fathers, earn it in order to possess it.",
     "themes": [
       "Inheritance",
@@ -5869,7 +5869,7 @@
     "id": "Q0490",
     "author": "Karl Jaspers",
     "school": "Existentialism",
-    "source": "Introduction to Philosophy",
+    "source": "Way to Wisdom / Introduction to Philosophy",
     "text": "To philosophize is to be on the way.",
     "themes": [
       "Philosophy",
@@ -5941,7 +5941,7 @@
     "id": "Q0496",
     "author": "Friedrich Nietzsche",
     "school": "Philosophy of Will",
-    "source": "Zarathustra, Prologue",
+    "source": "Thus Spoke Zarathustra, Prologue",
     "text": "Man is a rope stretched between animal and overman — a rope over an abyss.",
     "themes": [
       "Transcendence",
@@ -5953,7 +5953,7 @@
     "id": "Q0497",
     "author": "Confucius",
     "school": "Confucianism",
-    "source": "Analects, Zi Lu",
+    "source": "Analects 13.23",
     "text": "The Master said: The gentleman seeks harmony but not sameness; the petty man seeks sameness but not harmony.",
     "themes": [
       "Harmony in Difference",
@@ -5965,7 +5965,7 @@
     "id": "Q0498",
     "author": "Laozi",
     "school": "Daoism",
-    "source": "Daodejing 70",
+    "source": "Daodejing, Ch. 70",
     "text": "Those who understand me are few; therefore I am valued.",
     "themes": [
       "Understanding",
