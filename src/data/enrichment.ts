@@ -1151,7 +1151,7 @@ export function defaultThemeGuide(name: string, count: number): ThemeGuide {
   return {
     intro: `Philosophy quotations on ${name.toLowerCase()}, gathered from verified English renderings across traditions.`,
     overview: `This theme page collects ${count} English passages that touch ${name.toLowerCase()} as a philosophical concern—whether as a concept to define, a value to pursue, or a problem to examine.`,
-    history: `Related discussions appear across Greek, Chinese, Indian, Islamic, and modern European traditions. Use the quotations below as entry points, then follow thinker pages for fuller context.`,
+    history: `Related discussions appear across Greek, Chinese, Indian, Islamic, Jewish, Japanese, Africana, and modern European traditions. Use the quotations below as entry points, then follow thinker pages for fuller context.`,
     faq: [
       {
         question: `What did philosophers say about ${name.toLowerCase()}?`,
