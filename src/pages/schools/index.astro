@@ -44,6 +44,54 @@ const schools = [
     blurb: "Meaning, truth, and inquiry tied to practical consequences.",
     thinkers: "Peirce · James · Dewey",
   },
+  {
+    href: "/schools/africana-philosophy",
+    name: "Africana Philosophy",
+    blurb: "Critique, conceptual decolonization, and diaspora thought.",
+    thinkers: "Wiredu · Hountondji · Fanon · Appiah",
+  },
+  {
+    href: "/schools/islamic-philosophy",
+    name: "Islamic Philosophy",
+    blurb: "Falsafa: intellect, prophecy, and demonstrative science.",
+    thinkers: "Avicenna · Averroes · al-Farabi",
+  },
+  {
+    href: "/schools/analytic-philosophy",
+    name: "Analytic Philosophy",
+    blurb: "Clarity, logic, language, intention, and mind.",
+    thinkers: "Wittgenstein · Anscombe · Foot",
+  },
+  {
+    href: "/schools/neo-confucianism",
+    name: "Neo-Confucianism",
+    blurb: "Principle, heart-mind, and the unity of knowledge and action.",
+    thinkers: "Zhu Xi · Wang Yangming",
+  },
+  {
+    href: "/schools/platonism",
+    name: "Platonism",
+    blurb: "Forms, the Good, and dialectic as education of desire.",
+    thinkers: "Plato · later Platonic lineages",
+  },
+  {
+    href: "/schools/kyoto-school",
+    name: "Kyoto School",
+    blurb: "Absolute nothingness, experience, and religious worldview.",
+    thinkers: "Nishida · Nishitani",
+  },
+  {
+    href: "/schools/german-idealism",
+    name: "German Idealism",
+    blurb: "Freedom, spirit, and systematic post-Kantian reason.",
+    thinkers: "Hegel · related idealists",
+  },
+  {
+    href: "/schools/jewish-rationalism",
+    name: "Jewish Rationalism",
+    blurb: "Reason, revelation, law, and negative theology.",
+    thinkers: "Maimonides · Saadia Gaon",
+  },
 ];
 
 const schema = {
@@ -51,14 +99,14 @@ const schema = {
   "@type": "CollectionPage",
   name: "Philosophy Schools",
   description:
-    "Browse philosophy by school: Stoicism, Existentialism, Confucianism, Daoism, Rationalism, Empiricism, and Pragmatism.",
+    "Browse philosophy by school: Stoicism, Existentialism, Confucianism, Daoism, Africana, Islamic, Analytic, Kyoto School, and more.",
   numberOfItems: schools.length,
 };
 ---
 
 <BaseLayout
-  title="Philosophy Schools | Stoicism, Daoism, Pragmatism & More"
-  description="Explore philosophy schools with verified English quotes—Stoicism, Existentialism, Confucianism, Daoism, Rationalism, Empiricism, and Pragmatism."
+  title="Philosophy Schools | Stoicism, Africana, Islamic, Analytic & More"
+  description="Explore philosophy schools with verified English quotes—Stoicism, Existentialism, Confucianism, Daoism, Africana Philosophy, Islamic Philosophy, Analytic Philosophy, Kyoto School, and more."
   canonical="/schools"
   schema={schema}
 >

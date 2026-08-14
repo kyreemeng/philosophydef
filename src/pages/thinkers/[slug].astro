@@ -81,11 +81,16 @@ const schema = [
     ],
   },
 ];
+const topThemeNames = topThemes.map(([theme]) => theme).slice(0, 3);
+const themePhrase =
+  topThemeNames.length > 0
+    ? ` Themes include ${topThemeNames.map((t) => t.toLowerCase()).join(", ")}.`
+    : "";
 ---
 
 <BaseLayout
   title={`${thinker.name} Quotes | Philosophy Blind Box`}
-  description={`Read ${thinker.quotes.length} English philosophy quotations by ${thinker.name}${guide ? ` (${guide.lifespan})` : ""}.`}
+  description={`${thinker.name} quotes: read ${thinker.quotes.length} verified English philosophy quotations${guide ? ` (${guide.lifespan})` : ""}.${themePhrase}`}
   canonical={pageUrl}
   schema={schema}
   robots={indexable ? undefined : "noindex, follow, max-image-preview:large"}

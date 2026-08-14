@@ -677,12 +677,12 @@ export const guides: Guide[] = [
     slug: "what-is-epistemology",
     title: "What Is Epistemology?",
     description:
-      "Epistemology explained: the philosophy of knowledge, justification, belief, evidence, and skepticism.",
+      "What is epistemology? The philosophy of knowledge, justification, belief, evidence, and skepticism—clearly explained.",
     eyebrow: "Theory of knowledge",
     intro:
-      "Epistemology is the branch of philosophy that studies knowledge—what it is, how we get it, and how belief can be justified.",
+      "Epistemology is the philosophy of knowledge: what knowledge is, how belief is justified, and how far skepticism should go.",
     answer:
-      "From Plato to contemporary analytic philosophy, epistemology asks how knowledge differs from mere opinion, what role perception and reason play, and how far skepticism should go.",
+      "In short, epistemology studies knowledge and justified belief—how perception, reason, memory, and testimony support (or fail to support) what we claim to know.",
     sections: [
       {
         heading: "Knowledge and justification",
@@ -722,6 +722,7 @@ export const guides: Guide[] = [
     ],
     related: [
       { href: "/themes/knowledge", label: "Quotes on knowledge" },
+      { href: "/themes/method", label: "Quotes on method" },
       { href: "/philosophy-of-science", label: "Philosophy of science" },
       { href: "/branches-of-philosophy", label: "Branches of philosophy" },
     ],

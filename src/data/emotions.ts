@@ -16,9 +16,9 @@ export const emotionHubs: EmotionHub[] = [
   {
     slug: "love",
     name: "Love",
-    title: "Philosophy Quotes About Love",
+    title: "Philosophical Quotes About Love",
     description:
-      "Philosophy quotes about love—desire, friendship, care, and recognition—from Plato, Confucius, and modern thinkers, in clear English.",
+      "Philosophical quotes about love—desire, friendship, care, and recognition—from Plato, Confucius, and modern thinkers, in clear English.",
     intro:
       "Philosophers treat love as more than a private feeling: it can be desire, mutual goodwill, recognition, or a disciplined commitment to another’s good. These passages gather that vocabulary without reducing love to a greeting-card slogan.",
     themes: ["Love", "Friendship", "Desire"],

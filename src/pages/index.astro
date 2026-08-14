@@ -56,9 +56,14 @@ const schema = [
 
 const featuredThemes = [
   {
-    name: "Wisdom",
-    slug: "wisdom",
-    description: "Judgment, restraint, and practical insight.",
+    name: "Self",
+    slug: "self",
+    description: "Philosophy quotes about the self and the examined life.",
+  },
+  {
+    name: "Attention",
+    slug: "attention",
+    description: "Attention, care, and moral seeing.",
   },
   {
     name: "Freedom",
@@ -66,15 +71,19 @@ const featuredThemes = [
     description: "Choice, responsibility, and the limits of the will.",
   },
   {
-    name: "Self",
-    slug: "self",
-    description: "Identity, introspection, and the examined life.",
+    name: "Knowledge",
+    slug: "knowledge",
+    description: "What we can know—and where certainty ends.",
   },
-  {
-    name: "Virtue",
-    slug: "virtue",
-    description: "Character perfected by habit toward the good.",
-  },
+];
+
+const featuredSchools = [
+  { href: "/schools/stoicism", name: "Stoicism" },
+  { href: "/schools/africana-philosophy", name: "Africana" },
+  { href: "/schools/islamic-philosophy", name: "Islamic" },
+  { href: "/schools/analytic-philosophy", name: "Analytic" },
+  { href: "/schools/kyoto-school", name: "Kyoto School" },
+  { href: "/schools/confucianism", name: "Confucianism" },
 ];
 const featuredGuides = guides.filter((guide) =>
   [
@@ -201,6 +210,27 @@ const featuredGuides = guides.filter((guide) =>
           ))
         }
       </ol>
+    </section>
+
+    <section class="themes-section" aria-labelledby="schools-title">
+      <div class="section-intro">
+        <p class="section-label">Enter by tradition</p>
+        <h2 id="schools-title">Popular philosophy schools</h2>
+      </div>
+      <p class="hero-value" style="margin-top:0">
+        {
+          featuredSchools.map((school, index) => (
+            <>
+              {index > 0 && " · "}
+              <a href={school.href}>{school.name}</a>
+            </>
+          ))
+        }
+        {" · "}
+        <a href="/schools">All schools</a>
+        {" · "}
+        <a href="/themes">All themes</a>
+      </p>
     </section>
 
     <section class="guides-section" aria-labelledby="guides-title">

@@ -66,8 +66,8 @@ const schema = [
 ---
 
 <BaseLayout
-  title={`${theme.name} Philosophy Quotes | Philosophy Blind Box`}
-  description={`Read ${theme.quotes.length} English philosophy quotations on ${theme.name.toLowerCase()}. ${guide.intro.slice(0, 90)}`}
+  title={`Philosophy Quotes About ${theme.name} | Philosophy Blind Box`}
+  description={`Philosophy quotes about ${theme.name.toLowerCase()}: read ${theme.quotes.length} verified English passages. ${guide.intro.slice(0, 100)}`}
   canonical={pageUrl}
   schema={schema}
   robots={indexable ? undefined : "noindex, follow, max-image-preview:large"}
@@ -75,7 +75,7 @@ const schema = [
   <div class="page-shell">
     <header class="page-intro">
       <p class="eyebrow">Theme</p>
-      <h1>{theme.name} philosophy quotes</h1>
+      <h1>Philosophy quotes about {theme.name.toLowerCase()}</h1>
       <p>{guide.intro}</p>
     </header>
 
