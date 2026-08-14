@@ -9,26 +9,17 @@
 
 ---
 
-> **Curation / 精选说明（v4.0）**:
+> **Curation / 精选说明（v5.0）**:
 >
-> 本版在 v3.2（1045 条）基础上，经联网反复查证后**大幅精简并校正**。
+> 本版自 v4.3（500 条）扩至 **673** 条：纠错保留 + 女性／伊斯兰–犹太中世纪／非洲与离散／京都学派与拉美缓冲等。v4.0 曾在 v3.2（1045 条）上大幅精简并校正误属、占位「原文」与中英不对齐问题。
 >
-> **核验发现的主要问题**：
-> 1. 约 **76%**（794/1045）条目的「原文」仅为单个关键词占位，并非真实引文；
-> 2. 大量希腊文/拉丁文为拼凑残片，与所标出处不符；
-> 3. 英译常为三五词碎片，中译却为发挥意译，**中英不对齐**；
-> 4. 误属名言（如「心灵非容器而是火」误归蒙田，实为**普鲁塔克**；「人皆有错」误归塞涅卡等）；
-> 5. 掺杂政治口号、现象学/存在论技术术语、强语境依赖论述，对日常读者无直接启发。
->
-> **本版保留标准**（须同时满足）：
-> - 原文可考（或明确标注为后世可靠概括／通行可靠英译）
+> **保留标准**（须同时满足）：
+> - 出处可考（或明确标注为通行可靠英译／义确压缩）
 > - 中译与英译准确、互相对齐，符合原意
-> - 对普通读者有**本质启发**
-> - **排除**：政治色彩强、过学术、强语境依赖、歧义大、误属/伪造
+> - 对普通读者有实质启发，或具思想史代表性并附简短语境
+> - **排除**：伪造/误属、口号化政治宣传、无语境技术黑话
 >
-> **结果**：西方卷 **133**；中国卷 **47**；全球补充卷 **40**；扩充卷 **280**；合计 **500** 条。原 v3.2 备份见 `philosophy_quotes_curated_v3.2_backup.md`。
->
-> **置信度**：★ = 原文与出处经核验；☆ = 义确但措辞略有通行压缩/节选。
+> **置信度**：★ = 原文与出处经核验；☆ = 义确但措辞为通行压缩/节选／可靠概括。
 
 ---
 
@@ -8073,14 +8064,14 @@
 
 - **作者 / Author**: 西田几多郎（1870–1945） / Nishida Kitaro (1870–1945)
 - **学派 / School**: 京都学派 / Kyoto School
-- **出处 / Source**: 《场所的逻辑与宗教的世界观》／Last Writings (Dilworth; cf. Ontological Atlas summary of §III)
+- **出处 / Source**: 《场所的逻辑与宗教的世界观》／Last Writings (Dilworth, p. 107)
 - **原文语言 / Language**: 日语（通行英译） / Japanese (standard English rendering)
-- **原文 / Original**: The absolute is the absolutely contradictory self-identity of absolute being and absolute nothingness — and this is what religious experience discloses.
-- **英译 / English**: The absolute is the absolutely contradictory self-identity of absolute being and absolute nothingness — and this is what religious experience discloses.
-- **中译 / Chinese**: 绝对者是绝对存在与绝对无的绝对矛盾的自我同一——而这正是宗教经验所揭示的。
-- **主题 / Themes**: 绝对无、矛盾的自我同一、宗教经验 / Absolute Nothingness, Contradictory Self-Identity, Religious Experience
+- **原文 / Original**: Compassion always signifies that opposites are one in the dynamic reciprocity of their own contradictory identity. The religious will arise as the self-determination of this dimension of sympathetic coalescence.
+- **英译 / English**: Compassion always signifies that opposites are one in the dynamic reciprocity of their own contradictory identity. The religious will arise as the self-determination of this dimension of sympathetic coalescence.
+- **中译 / Chinese**: 慈悲始终意味着对立者在其自身矛盾同一性的动态互惠中合而为一。宗教意志作为这一「共感合一」维度的自我规定而兴起。
+- **主题 / Themes**: 慈悲、矛盾的自我同一、宗教意志 / Compassion, Contradictory Self-Identity, Religious Will
 - **置信度 / Confidence**: ☆ (Medium)
-- **备注 / Note**: 据 Dilworth 英译脉络的通行表述；措辞略经压缩，故☆。对应西田晚年「绝对矛盾的自我同一」。
+- **备注 / Note**: Dilworth 英译作原文栏，故☆；页码可核（Last Writings, 107）。西田晚年将慈悲与「绝对矛盾的自我同一」相连。
 
 #### Q0652
 
@@ -8132,7 +8123,7 @@
 - **中译 / Chinese**: 空（śūnyatā）意义上的无，并不与有相隔绝，而始终与有处在关系之中：有即无、无即有。
 - **主题 / Themes**: 空、虚无、存在 / Emptiness, Nihility, Being
 - **置信度 / Confidence**: ☆ (Medium)
-- **备注 / Note**: 据 Van Bragt 译本中西谷对「即」（sive）结构的通行英译概括，故☆；区分「虚无」(nihility) 与「空」。
+- **备注 / Note**: 非 Van Bragt 单页逐字；为西谷「即」（sive）结构的通行学术英译概括，故☆。区分「虚无」(nihility) 与「空」。
 
 #### Q0656
 
@@ -8171,7 +8162,7 @@
 - **中译 / Chinese**: 伦理学归根结底是关于「人间」（ningen）的研究——作为既是个人又是社会、作为「间」的人。
 - **主题 / Themes**: 人间、自我、社会 / Human Being, Self, Society
 - **置信度 / Confidence**: ☆ (Medium)
-- **备注 / Note**: 据 Yamamoto/Carter 与 SEP 对和辻「人间」词源分析的通行英译概括，故☆。
+- **备注 / Note**: 非单页逐字引文；Yamamoto/Carter／SEP 对「人间／间」义的通行概括，故☆。
 
 #### Q0659
 
@@ -8197,7 +8188,7 @@
 - **中译 / Chinese**: 我们在寒冷中发现自己——同时在自己之中发现寒冷——这发生在主客截然二分之前。
 - **主题 / Themes**: 身体、环境、意向性 / Body, Environment, Intentionality
 - **置信度 / Confidence**: ☆ (Medium)
-- **备注 / Note**: 据 Bownas／学术转述对「冷」之体验分析的压缩英译，故☆；对接西田「纯粹经验」脉络。
+- **备注 / Note**: 非 Bownas 单页逐字；对「冷」之体验分析的学术压缩英译，故☆。对接西田「纯粹经验」脉络。
 
 #### Q0661
 
@@ -8306,14 +8297,14 @@
 
 - **作者 / Author**: 莱奥波尔多·塞亚（1912–2004） / Leopoldo Zea (1912–2004)
 - **学派 / School**: 历史哲学 / Philosophy of History
-- **出处 / Source**: 论美洲哲学之普遍性（通行文化主义表述）／culturalist thesis summarized in SEP “Latin American Philosophy”
+- **出处 / Source**: 《美洲历史哲学》／Filosofía de la historia americana (FHA), p. 88 (Eng. rendering via Reichl 2025)
 - **原文语言 / Language**: 西班牙语（通行英译） / Spanish (standard English rendering)
-- **原文 / Original**: Philosophy is a historical enterprise: truth is perspectival, and Latin American philosophy exists wherever Latin Americans elaborate a general point of view from their own cultural perspective.
-- **英译 / English**: Philosophy is a historical enterprise: truth is perspectival, and Latin American philosophy exists wherever Latin Americans elaborate a general point of view from their own cultural perspective.
-- **中译 / Chinese**: 哲学是一项历史事业：真理具有视角性；只要拉丁美洲人从自身文化视角阐发一种总体观点，拉丁美洲哲学便存在。
-- **主题 / Themes**: 历史、视角、文化 / History, Perspective, Culture
+- **原文 / Original**: Because man had been slave he cannot enslave without negating himself.
+- **英译 / English**: Because man had been slave he cannot enslave without negating himself.
+- **中译 / Chinese**: 因为人曾经为奴，他若再奴役他人，便是否定自己。
+- **主题 / Themes**: 自由、承认、历史 / Freedom, Recognition, History
 - **置信度 / Confidence**: ☆ (Medium)
-- **备注 / Note**: 据 SEP 对塞亚文化主义立场的忠实压缩，非单页逐字引文，故☆。
+- **备注 / Note**: 西语原文未并录；英译据学术转引 FHA:88，故☆。塞亚以主奴辩证法解读殖民之后「不能再奴役而不自否」的历史意识。
 
 #### Q0670
 
