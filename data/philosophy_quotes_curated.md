@@ -6846,6 +6846,592 @@
 - **置信度 / Confidence**: ★ (High)
 
 
+#### Q0556
+
+- **作者 / Author**: 法拉比（约870–950） / Al-Farabi (c. 870–950)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《精选箴言》第1则 / Selected Aphorisms §1 (Butterworth)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: The soul has health and sickness just as the body has health and sickness.
+- **英译 / English**: The soul has health and sickness just as the body has health and sickness.
+- **中译 / Chinese**: 灵魂有健康与疾病，正如身体有健康与疾病。
+- **主题 / Themes**: 灵魂、德性、政治 / Soul, Virtue, Politics
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: Charles E. Butterworth 英译《Selected Aphorisms》开篇箴言；以身心类比引出城邦治理。
+
+#### Q0557
+
+- **作者 / Author**: 法拉比（约870–950） / Al-Farabi (c. 870–950)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《精选箴言》 / Selected Aphorisms (Butterworth)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: The health of the soul is for its traits to be traits by which it does good, fine, and noble actions.
+- **英译 / English**: The health of the soul is for its traits to be traits by which it does good, fine, and noble actions.
+- **中译 / Chinese**: 灵魂之健康，在于其性情能发出善、美与高贵的行动。
+- **主题 / Themes**: 德性、习惯、行动 / Virtue, Habit, Action
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 同书开篇对「灵魂健康」的界定；Butterworth 通行英译。
+
+#### Q0558
+
+- **作者 / Author**: 法拉比（约870–950） / Al-Farabi (c. 870–950)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《优越城邦居民意见原理》 / The Perfect State (al-Madīna al-fāḍila), Walzer
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: The excellent city is the one in which people cooperate toward the things by which true happiness is attained.
+- **英译 / English**: The excellent city is the one in which people cooperate toward the things by which true happiness is attained.
+- **中译 / Chinese**: 优越之城，是人们为达成真正幸福之事而彼此协作之城。
+- **主题 / Themes**: 幸福、城邦、协作 / Happiness, City, Cooperation
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Richard Walzer《On the Perfect State》义旨；措辞据通行英译略压缩。
+
+#### Q0559
+
+- **作者 / Author**: 法拉比（约870–950） / Al-Farabi (c. 870–950)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《获得幸福》 / The Attainment of Happiness
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: Happiness is the good desired for its own sake; it is never desired for the sake of something else.
+- **英译 / English**: Happiness is the good desired for its own sake; it is never desired for the sake of something else.
+- **中译 / Chinese**: 幸福是因其自身而被欲求的善；它从不因别的事物而被欲求。
+- **主题 / Themes**: 幸福、目的、善 / Happiness, Purpose, Good
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 法拉比幸福论之核心界定，据 Butterworth 等通行英译概括。
+
+#### Q0560
+
+- **作者 / Author**: 法拉比（约870–950） / Al-Farabi (c. 870–950)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《精选箴言》 / Selected Aphorisms (Butterworth)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: The statesman and the king are like the physician: they seek the health of the city as the physician seeks the health of the body.
+- **英译 / English**: The statesman and the king are like the physician: they seek the health of the city as the physician seeks the health of the body.
+- **中译 / Chinese**: 政治家与君王如同医生：他们求城邦之健康，正如医生求身体之健康。
+- **主题 / Themes**: 政治、治理、类比 / Politics, Governance, Analogy
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 《精选箴言》以医喻政的通行表述；Butterworth 传统英译义确。
+
+#### Q0561
+
+- **作者 / Author**: 法拉比（约870–950） / Al-Farabi (c. 870–950)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《科学列举》论政治学 / Enumeration of the Sciences, on political science
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: Political science inquires into the kinds of voluntary actions and ways of life, and into the happiness that is the end of the human being.
+- **英译 / English**: Political science inquires into the kinds of voluntary actions and ways of life, and into the happiness that is the end of the human being.
+- **中译 / Chinese**: 政治学探究自愿行动与生活方式的种类，以及作为人之目的的幸福。
+- **主题 / Themes**: 政治学、自愿、幸福 / Political Science, Will, Happiness
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 《科学列举》政治学定义之通行英译概括（Butterworth）。
+
+#### Q0562
+
+- **作者 / Author**: 阿维森纳（伊本·西那，980–1037） / Avicenna (Ibn Sina, 980–1037)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《治疗论·论灵魂》「悬浮人」 / The Healing, Psychology (“Floating Man”)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: Suppose a person were created at once, fully mature, but with sight veiled and limbs outstretched so that he touched nothing; he would affirm his own existence without affirming any body.
+- **英译 / English**: Suppose a person were created at once, fully mature, but with sight veiled and limbs outstretched so that he touched nothing; he would affirm his own existence without affirming any body.
+- **中译 / Chinese**: 设想一人被瞬间造成并已成熟，却遮住视觉、伸展四肢以致一无所触；他仍会肯定自身存在，却不必肯定任何身体。
+- **主题 / Themes**: 自我、灵魂、知识 / Self, Soul, Knowledge
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 著名「悬浮人」思想实验；据通行英译（Marmura 等）义确压缩，非逐字抄本对校。
+
+#### Q0563
+
+- **作者 / Author**: 阿维森纳（伊本·西那，980–1037） / Avicenna (Ibn Sina, 980–1037)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《治疗论·形而上学》 / The Healing, Metaphysics (Marmura)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: The Necessary Existent has no cause; rather, It is the cause of all that is possible.
+- **英译 / English**: The Necessary Existent has no cause; rather, It is the cause of all that is possible.
+- **中译 / Chinese**: 必然存在者没有原因；相反，它是一切可能者之原因。
+- **主题 / Themes**: 上帝、存在、因果 / God, Being, Causation
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: wājib al-wujūd（必然存在）学说之核心；Michael E. Marmura 英译传统义确。
+
+#### Q0564
+
+- **作者 / Author**: 阿维森纳（伊本·西那，980–1037） / Avicenna (Ibn Sina, 980–1037)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《治疗论·形而上学》卷一 / The Healing, Metaphysics I
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: The knowledge of anything that has causes is not complete unless it is known through its causes.
+- **英译 / English**: The knowledge of anything that has causes is not complete unless it is known through its causes.
+- **中译 / Chinese**: 凡有原因之物，若不通过其原因而被认识，则其知识便不完备。
+- **主题 / Themes**: 知识、因果、科学 / Knowledge, Causation, Science
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 形而上学开篇方法论；据 Marmura 等通行英译。
+
+#### Q0565
+
+- **作者 / Author**: 阿维森纳（伊本·西那，980–1037） / Avicenna (Ibn Sina, 980–1037)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《治疗论·论灵魂》 / The Healing, On the Soul
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: The soul is a substance; it is not a body, nor is it impressed in a body as a form in matter in the way of bodily forms.
+- **英译 / English**: The soul is a substance; it is not a body, nor is it impressed in a body as a form in matter in the way of bodily forms.
+- **中译 / Chinese**: 灵魂是实体；它不是身体，也不像身体形式那样作为形式印入质料之中。
+- **主题 / Themes**: 灵魂、实体、心身 / Soul, Substance, Mind-Body
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 阿维森纳灵魂实体论之通行英译概括。
+
+#### Q0566
+
+- **作者 / Author**: 阿维森纳（伊本·西那，980–1037） / Avicenna (Ibn Sina, 980–1037)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《指示与提醒》 / Pointers and Reminders (Ishārāt)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: The first of intelligibles is the grasp of existence; from it the mind proceeds to the necessary and the possible.
+- **英译 / English**: The first of intelligibles is the grasp of existence; from it the mind proceeds to the necessary and the possible.
+- **中译 / Chinese**: 最初的可理解者是对存在的把握；由此理智进至必然与可能。
+- **主题 / Themes**: 存在、理智、逻辑 / Being, Intellect, Logic
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 《指示与提醒》存在论起点之通行英译义确压缩。
+
+#### Q0567
+
+- **作者 / Author**: 阿维森纳（伊本·西那，980–1037） / Avicenna (Ibn Sina, 980–1037)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《治疗论》论预言 / The Healing, on prophecy
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: Prophecy is a perfection of the human intellect joined to a power of imagination that receives and expresses what the intellect knows.
+- **英译 / English**: Prophecy is a perfection of the human intellect joined to a power of imagination that receives and expresses what the intellect knows.
+- **中译 / Chinese**: 预言是人类理智的完满，并与一种能接受并表达理智所知的想象力相结合。
+- **主题 / Themes**: 预言、理智、想象 / Prophecy, Intellect, Imagination
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 阿维森纳自然化预言论之通行学术英译概括。
+
+#### Q0568
+
+- **作者 / Author**: 阿维森纳（伊本·西那，980–1037） / Avicenna (Ibn Sina, 980–1037)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《医典》开篇 / The Canon of Medicine, Opening
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: Medicine is the science by which we learn the various states of the human body in health and when not in health, and the means by which health is likely to be lost and restored.
+- **英译 / English**: Medicine is the science by which we learn the various states of the human body in health and when not in health, and the means by which health is likely to be lost and restored.
+- **中译 / Chinese**: 医学是一门科学，藉此我们认识人体在健康与非健康中的诸状态，以及健康可能丧失与恢复的途径。
+- **主题 / Themes**: 医学、科学、身体 / Medicine, Science, Body
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 《医典》定义医学的经典开篇；据通行英译。
+
+#### Q0569
+
+- **作者 / Author**: 阿威罗伊（伊本·鲁世德，1126–1198） / Averroes (Ibn Rushd, 1126–1198)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《决定性论说》 / The Decisive Treatise (Faṣl al-Maqāl), Butterworth
+- **原文语言 / Language**: 阿拉伯语 / Arabic
+- **原文 / Original**: الفلسفة هي صاحبة الشريعة والأخت الرضيعة
+- **英译 / English**: Philosophy is the companion of the Law and its milk-sister.
+- **中译 / Chinese**: 哲学是律法的伴侣，也是它的同乳姊妹。
+- **主题 / Themes**: 理性、信仰、和谐 / Reason, Faith, Harmony
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: Butterworth《Decisive Treatise》名句；与已有 Q0377「真理不与真理相悖」同书互补。
+
+#### Q0570
+
+- **作者 / Author**: 阿威罗伊（伊本·鲁世德，1126–1198） / Averroes (Ibn Rushd, 1126–1198)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《决定性论说》开篇 / The Decisive Treatise, opening (Butterworth)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: The Law has obliged us to reflect upon existing things by means of the intellect, and to seek knowledge of them from that perspective.
+- **英译 / English**: The Law has obliged us to reflect upon existing things by means of the intellect, and to seek knowledge of them from that perspective.
+- **中译 / Chinese**: 律法已责成我们凭借理智反思存在之物，并从这一角度寻求对它们的知识。
+- **主题 / Themes**: 理性、启示、义务 / Reason, Revelation, Duty
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 《决定性论说》论证哲学合法的开篇论题；Butterworth 英译。
+
+#### Q0571
+
+- **作者 / Author**: 阿威罗伊（伊本·鲁世德，1126–1198） / Averroes (Ibn Rushd, 1126–1198)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《决定性论说》 / The Decisive Treatise (Butterworth)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: If the apparent sense of a scriptural text conflicts with demonstration, that apparent sense admits of allegorical interpretation.
+- **英译 / English**: If the apparent sense of a scriptural text conflicts with demonstration, that apparent sense admits of allegorical interpretation.
+- **中译 / Chinese**: 若经文的字面义与证明相冲突，则该字面义允许作寓意解释。
+- **主题 / Themes**: 解释、证明、经文 / Interpretation, Demonstration, Scripture
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 阿威罗伊诠释学原则之通行英译概括（Butterworth）。
+
+#### Q0572
+
+- **作者 / Author**: 阿威罗伊（伊本·鲁世德，1126–1198） / Averroes (Ibn Rushd, 1126–1198)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《决定性论说》 / The Decisive Treatise (Butterworth)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: Demonstration does not differ from the Law; for truth does not oppose truth but agrees with it and bears witness to it.
+- **英译 / English**: Demonstration does not differ from the Law; for truth does not oppose truth but agrees with it and bears witness to it.
+- **中译 / Chinese**: 证明与律法并无分歧；因为真理不与真理对立，反而彼此契合并互为见证。
+- **主题 / Themes**: 证明、律法、真理 / Demonstration, Law, Truth
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 与 Q0377 同源论证链；此处保留「证明／律法」完整句式以深化阿威罗伊立场。
+
+#### Q0573
+
+- **作者 / Author**: 阿威罗伊（伊本·鲁世德，1126–1198） / Averroes (Ibn Rushd, 1126–1198)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《矛盾的矛盾》论因果 / The Incoherence of the Incoherence, on causation
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: To deny that things have natures and that from similar natures similar effects follow is to abolish reason and science together.
+- **英译 / English**: To deny that things have natures and that from similar natures similar effects follow is to abolish reason and science together.
+- **中译 / Chinese**: 否认事物有本性、并否认相似本性产生相似效应，便是一并废除理性与科学。
+- **主题 / Themes**: 因果、自然、科学 / Causation, Nature, Science
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 回应安萨里因果批判的义旨；据 van den Bergh 等通行英译概括。
+
+#### Q0574
+
+- **作者 / Author**: 阿威罗伊（伊本·鲁世德，1126–1198） / Averroes (Ibn Rushd, 1126–1198)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《决定性论说》 / The Decisive Treatise (Butterworth)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: Assent is of three kinds: rhetorical, dialectical, and demonstrative; people differ in nature as to which kind persuades them.
+- **英译 / English**: Assent is of three kinds: rhetorical, dialectical, and demonstrative; people differ in nature as to which kind persuades them.
+- **中译 / Chinese**: 认同有三种：修辞的、辩证的与证明的；人们天性不同，被说服的方式也不同。
+- **主题 / Themes**: 说服、方法、教育 / Persuasion, Method, Education
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 阿威罗伊三重话语／受众理论；Butterworth 传统英译义确。
+
+#### Q0575
+
+- **作者 / Author**: 阿尔·安萨里（1058–1111） / Al-Ghazali (1058–1111)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《哲学家的矛盾》论因果 / The Incoherence of the Philosophers, on causation
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: The connection between what is usually believed to be a cause and what is believed to be an effect is not necessary; each of the two has its own individuality.
+- **英译 / English**: The connection between what is usually believed to be a cause and what is believed to be an effect is not necessary; each of the two has its own individuality.
+- **中译 / Chinese**: 通常被认为是原因者与被认为是结果者之间的关联并非必然；二者各有其个体性。
+- **主题 / Themes**: 因果、必然、神学 / Causation, Necessity, Theology
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: Marmura 英译《Tahāfut》因果论核心句；著名「火与棉」例证的论题句。
+
+#### Q0576
+
+- **作者 / Author**: 阿尔·安萨里（1058–1111） / Al-Ghazali (1058–1111)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《迷途指津／从谬误中得救》 / Deliverance from Error (al-Munqidh)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: Sense-data are not a secure foundation; the eye sees the star as small, yet demonstration shows it larger than the earth.
+- **英译 / English**: Sense-data are not a secure foundation; the eye sees the star as small, yet demonstration shows it larger than the earth.
+- **中译 / Chinese**: 感觉材料并非稳固基础；眼睛见星细小，证明却显示其大于地球。
+- **主题 / Themes**: 怀疑、感觉、理性 / Skepticism, Sense, Reason
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 《从谬误中得救》认识论危机叙述；据 Watt 等通行英译概括，异于已有 Q0319。
+
+#### Q0577
+
+- **作者 / Author**: 阿尔·安萨里（1058–1111） / Al-Ghazali (1058–1111)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《从谬误中得救》 / Deliverance from Error (al-Munqidh)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: Beyond the intellect there is another stage in which another eye is opened, by which one sees the unseen and what will be in the future.
+- **英译 / English**: Beyond the intellect there is another stage in which another eye is opened, by which one sees the unseen and what will be in the future.
+- **中译 / Chinese**: 在理智之上还有另一阶段，彼处另眼开启，藉此得见未见者与将要发生者。
+- **主题 / Themes**: 理智、启示、苏菲 / Intellect, Revelation, Sufism
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 安萨里论预言／灵感之「另一只眼」；Watt 通行英译义确。
+
+#### Q0578
+
+- **作者 / Author**: 阿尔·安萨里（1058–1111） / Al-Ghazali (1058–1111)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《宗教学科的复兴》 / The Revival of the Religious Sciences (Iḥyāʾ)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: Knowledge is not perfected by learning alone; it is perfected when it becomes a state that moves the limbs to action.
+- **英译 / English**: Knowledge is not perfected by learning alone; it is perfected when it becomes a state that moves the limbs to action.
+- **中译 / Chinese**: 知识单靠学习并不完满；唯当它成为驱动四肢行动的状态时，方才完满。
+- **主题 / Themes**: 知行、修养、实践 / Knowledge and Action, Cultivation, Practice
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 深化已有 Q0215「知行」主题；据《复兴》通行英译义确，非重复同一英文句。
+
+#### Q0579
+
+- **作者 / Author**: 阿尔·安萨里（1058–1111） / Al-Ghazali (1058–1111)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《幸福化学》／《幸福炼金》 / The Alchemy of Happiness
+- **原文语言 / Language**: 波斯／阿拉伯传统（通行英译） / Persian–Arabic tradition (standard English)
+- **原文 / Original**: Know yourself, for the knowledge of the self is the key to the knowledge of God.
+- **英译 / English**: Know yourself, for the knowledge of the self is the key to the knowledge of God.
+- **中译 / Chinese**: 认识你自己，因为认识自我乃是认识上帝的钥匙。
+- **主题 / Themes**: 自我、上帝、知识 / Self, God, Knowledge
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 《幸福炼金》自知论题之通行英译；波斯语缩写本传统广为流传。
+
+#### Q0580
+
+- **作者 / Author**: 伊本·图费勒（约1105–1185） / Ibn Tufayl (c. 1105–1185)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《哈义·本·叶格赞》 / Ḥayy ibn Yaqẓān (Goodman)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: By unaided reason Hayy rose to knowledge of the Necessary Existent, before any human teacher reached him.
+- **英译 / English**: By unaided reason Hayy rose to knowledge of the Necessary Existent, before any human teacher reached him.
+- **中译 / Chinese**: 在任何人类教师到来之前，哈义单凭理性便升至对必然存在者的认识。
+- **主题 / Themes**: 理性、自然、上帝 / Reason, Nature, God
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Lenn E. Goodman 英译小说哲学义旨；叙述性概括，标 ☆。
+
+#### Q0581
+
+- **作者 / Author**: 伊本·图费勒（约1105–1185） / Ibn Tufayl (c. 1105–1185)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《哈义·本·叶格赞》 / Ḥayy ibn Yaqẓān (Goodman)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: What revelation teaches by symbols, the philosopher may reach by demonstration; the two agree in substance for those who understand.
+- **英译 / English**: What revelation teaches by symbols, the philosopher may reach by demonstration; the two agree in substance for those who understand.
+- **中译 / Chinese**: 启示以象征所教者，哲学家或以证明抵达；对理解者而言，二者在实质上一致。
+- **主题 / Themes**: 启示、象征、证明 / Revelation, Symbol, Demonstration
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 小说后半哈义与阿萨勒相遇的义旨；Goodman 传统解读之通行表述。
+
+#### Q0582
+
+- **作者 / Author**: 伊本·图费勒（约1105–1185） / Ibn Tufayl (c. 1105–1185)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《哈义·本·叶格赞》 / Ḥayy ibn Yaqẓān (Goodman)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: Most people cling to the outer forms of worship; to strip those forms away suddenly only harms them.
+- **英译 / English**: Most people cling to the outer forms of worship; to strip those forms away suddenly only harms them.
+- **中译 / Chinese**: 多数人执着于崇拜的外在形式；骤然剥去这些形式，只会伤害他们。
+- **主题 / Themes**: 教育、信仰、限度 / Education, Faith, Limits
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 哈义尝试改革岛民失败后的教训；Goodman 英译义确概括。
+
+#### Q0583
+
+- **作者 / Author**: 伊本·图费勒（约1105–1185） / Ibn Tufayl (c. 1105–1185)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《哈义·本·叶格赞》 / Ḥayy ibn Yaqẓān (Goodman)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: Solitude became for him a ladder: withdrawing from the senses, he turned inward toward the Truth.
+- **英译 / English**: Solitude became for him a ladder: withdrawing from the senses, he turned inward toward the Truth.
+- **中译 / Chinese**: 独处成为他的梯子：抽离感官，他向内转向真理。
+- **主题 / Themes**: 独处、沉思、真理 / Solitude, Contemplation, Truth
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 哈义隐修沉思段落之通行英译概括（Goodman）。
+
+#### Q0584
+
+- **作者 / Author**: 伊本·赫勒敦（1332–1406） / Ibn Khaldun (1332–1406)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《历史绪论》 / Muqaddimah (Rosenthal)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: Royal authority and large-scale dynastic power are attained only through group feeling (ʿaṣabiyya).
+- **英译 / English**: Royal authority and large-scale dynastic power are attained only through group feeling (ʿaṣabiyya).
+- **中译 / Chinese**: 王权与大规模王朝权力，唯有通过群体凝聚力（ʿaṣabiyya）才能获得。
+- **主题 / Themes**: 权力、团结、历史 / Power, Solidarity, History
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: Franz Rosenthal 英译《Muqaddimah》核心论题；深化已有 Q0217 习俗主题。
+
+#### Q0585
+
+- **作者 / Author**: 伊本·赫勒敦（1332–1406） / Ibn Khaldun (1332–1406)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《历史绪论》开篇 / Muqaddimah, Introduction (Rosenthal)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: History is a discipline that has a large number of approaches. Its useful aspects are very many. Its goal is distinguished.
+- **英译 / English**: History is a discipline that has a large number of approaches. Its useful aspects are very many. Its goal is distinguished.
+- **中译 / Chinese**: 历史是一门有众多进路的学科。其有用之处甚多。其目标卓然有别。
+- **主题 / Themes**: 历史、方法、知识 / History, Method, Knowledge
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: Rosenthal 英译绪论开篇；确立史学之为科学的纲领。
+
+#### Q0586
+
+- **作者 / Author**: 伊本·赫勒敦（1332–1406） / Ibn Khaldun (1332–1406)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《历史绪论》 / Muqaddimah (Rosenthal)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: The past resembles the future more than one drop of water another.
+- **英译 / English**: The past resembles the future more than one drop of water another.
+- **中译 / Chinese**: 过去与未来之相似，更胜过水滴与水滴。
+- **主题 / Themes**: 历史、规律、预测 / History, Pattern, Prediction
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: Rosenthal 通行英译名句；论历史规律之可推知性。
+
+#### Q0587
+
+- **作者 / Author**: 伊本·赫勒敦（1332–1406） / Ibn Khaldun (1332–1406)
+- **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
+- **出处 / Source**: 《历史绪论》论文明衰退 / Muqaddimah, on the decline of civilization (Rosenthal)
+- **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
+- **原文 / Original**: When luxury and sedentary culture take hold, group feeling weakens and the dynasty declines.
+- **英译 / English**: When luxury and sedentary culture take hold, group feeling weakens and the dynasty declines.
+- **中译 / Chinese**: 当奢华与定居文化盛行，群体凝聚力削弱，王朝便走向衰落。
+- **主题 / Themes**: 文明、奢华、衰落 / Civilization, Luxury, Decline
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 赫勒敦王朝循环论义旨；Rosenthal 传统英译概括。
+
+#### Q0588
+
+- **作者 / Author**: 迈蒙尼德（摩西·迈蒙，1138–1204） / Maimonides (1138–1204)
+- **学派 / School**: 犹太理性主义 / Jewish Rationalism
+- **出处 / Source**: 《迷途指津》I.59 / Guide of the Perplexed I.59 (Pines)
+- **原文语言 / Language**: 犹太—阿拉伯语（通行英译） / Judeo-Arabic (standard English rendering)
+- **原文 / Original**: Silence and limiting oneself to the apprehensions of the intellect are more appropriate with regard to God than speech.
+- **英译 / English**: Silence and limiting oneself to the apprehensions of the intellect are more appropriate with regard to God than speech.
+- **中译 / Chinese**: 关于上帝，沉默并限于理智之领悟，比言语更为相宜。
+- **主题 / Themes**: 否定神学、语言、上帝 / Negative Theology, Language, God
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Shlomo Pines 英译《Guide》否定神学名章义旨；与诗篇「静默即赞美」传统相连。
+
+#### Q0589
+
+- **作者 / Author**: 迈蒙尼德（摩西·迈蒙，1138–1204） / Maimonides (1138–1204)
+- **学派 / School**: 犹太理性主义 / Jewish Rationalism
+- **出处 / Source**: 《迷途指津》III.27 / Guide of the Perplexed III.27 (Pines)
+- **原文语言 / Language**: 犹太—阿拉伯语（通行英译） / Judeo-Arabic (standard English rendering)
+- **原文 / Original**: The Law as a whole aims at two things: the welfare of the soul and the welfare of the body.
+- **英译 / English**: The Law as a whole aims at two things: the welfare of the soul and the welfare of the body.
+- **中译 / Chinese**: 律法整体指向两事：灵魂的福祉与身体的福祉。
+- **主题 / Themes**: 律法、伦理、政治 / Law, Ethics, Politics
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: Pines 英译《Guide》III.27 经典论题。
+
+#### Q0590
+
+- **作者 / Author**: 迈蒙尼德（摩西·迈蒙，1138–1204） / Maimonides (1138–1204)
+- **学派 / School**: 犹太理性主义 / Jewish Rationalism
+- **出处 / Source**: 《迷途指津》III.51 / Guide of the Perplexed III.51 (Pines)
+- **原文语言 / Language**: 犹太—阿拉伯语（通行英译） / Judeo-Arabic (standard English rendering)
+- **原文 / Original**: The more the intellect is perfected, the more one draws near to God; proximity is measured by knowledge.
+- **英译 / English**: The more the intellect is perfected, the more one draws near to God; proximity is measured by knowledge.
+- **中译 / Chinese**: 理智越完满，人便越亲近上帝；亲近以知识衡量。
+- **主题 / Themes**: 理智、亲近、知识 / Intellect, Nearness, Knowledge
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 《Guide》宫殿寓言／理智崇拜章义旨；Pines 通行英译概括。
+
+#### Q0591
+
+- **作者 / Author**: 迈蒙尼德（摩西·迈蒙，1138–1204） / Maimonides (1138–1204)
+- **学派 / School**: 犹太理性主义 / Jewish Rationalism
+- **出处 / Source**: 《八章》第四章 / Eight Chapters (Shemonah Perakim) 4
+- **原文语言 / Language**: 犹太—阿拉伯语（通行英译） / Judeo-Arabic (standard English rendering)
+- **原文 / Original**: The virtues are means between two extremes; the good character is the mean disposition.
+- **英译 / English**: The virtues are means between two extremes; the good character is the mean disposition.
+- **中译 / Chinese**: 德性是两极端之间的中道；良善品格即中道性情。
+- **主题 / Themes**: 德性、中道、伦理 / Virtue, Mean, Ethics
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 亚里士多德中道说在犹太伦理中的改写；据 Gorfinkle 等通行英译。异于 Q0216。
+
+#### Q0592
+
+- **作者 / Author**: 迈蒙尼德（摩西·迈蒙，1138–1204） / Maimonides (1138–1204)
+- **学派 / School**: 犹太理性主义 / Jewish Rationalism
+- **出处 / Source**: 《复述律法》知识书 / Mishneh Torah, Book of Knowledge (Yesodei ha-Torah)
+- **原文语言 / Language**: 希伯来语（通行英译） / Hebrew (standard English rendering)
+- **原文 / Original**: The foundation of all foundations and the pillar of all sciences is to know that there is a First Being who brought every existing thing into being.
+- **英译 / English**: The foundation of all foundations and the pillar of all sciences is to know that there is a First Being who brought every existing thing into being.
+- **中译 / Chinese**: 一切根基之根基、一切科学之柱石，是知道有一首先存在者，使一切存在者存在。
+- **主题 / Themes**: 上帝、知识、律法 / God, Knowledge, Law
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: Mishneh Torah 开篇第一诫式表述；通行英译。
+
+#### Q0593
+
+- **作者 / Author**: 迈蒙尼德（摩西·迈蒙，1138–1204） / Maimonides (1138–1204)
+- **学派 / School**: 犹太理性主义 / Jewish Rationalism
+- **出处 / Source**: 《迷途指津》II.36 / Guide of the Perplexed II.36 (Pines)
+- **原文语言 / Language**: 犹太—阿拉伯语（通行英译） / Judeo-Arabic (standard English rendering)
+- **原文 / Original**: Prophecy is an overflow from God through the intermediation of the Active Intellect, first to the rational faculty and then to the imaginative faculty.
+- **英译 / English**: Prophecy is an overflow from God through the intermediation of the Active Intellect, first to the rational faculty and then to the imaginative faculty.
+- **中译 / Chinese**: 预言是经由主动理智中介、从上帝涌溢而出的流溢：先至理性能力，再到想象能力。
+- **主题 / Themes**: 预言、理智、启示 / Prophecy, Intellect, Revelation
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Pines《Guide》II.36 预言定义之通行英译。
+
+#### Q0594
+
+- **作者 / Author**: 萨阿迪亚·高恩（882–942） / Saadia Gaon (882–942)
+- **学派 / School**: 犹太理性主义 / Jewish Rationalism
+- **出处 / Source**: 《信仰与意见书》导言 / The Book of Beliefs and Opinions, Introduction (Rosenblatt)
+- **原文语言 / Language**: 犹太—阿拉伯语（通行英译） / Judeo-Arabic (standard English rendering)
+- **原文 / Original**: God has given us the Torah and also intellect, so that we may verify by reason what we have received by tradition.
+- **英译 / English**: God has given us the Torah and also intellect, so that we may verify by reason what we have received by tradition.
+- **中译 / Chinese**: 上帝既赐我们托拉，也赐我们理智，以便我们用理性核验由传统所受之物。
+- **主题 / Themes**: 理性、启示、传统 / Reason, Revelation, Tradition
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Samuel Rosenblatt 英译导言义旨；犹太卡拉姆理性辩护纲领。
+
+#### Q0595
+
+- **作者 / Author**: 萨阿迪亚·高恩（882–942） / Saadia Gaon (882–942)
+- **学派 / School**: 犹太理性主义 / Jewish Rationalism
+- **出处 / Source**: 《信仰与意见书》 / The Book of Beliefs and Opinions (Rosenblatt)
+- **原文语言 / Language**: 犹太—阿拉伯语（通行英译） / Judeo-Arabic (standard English rendering)
+- **原文 / Original**: Inquiry is not forbidden to us; on the contrary, we are commanded to know God by the path of demonstration as far as we can.
+- **英译 / English**: Inquiry is not forbidden to us; on the contrary, we are commanded to know God by the path of demonstration as far as we can.
+- **中译 / Chinese**: 探究并未被禁止；相反，我们被命令尽可能循证明之路认识上帝。
+- **主题 / Themes**: 探究、证明、信仰 / Inquiry, Demonstration, Faith
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 萨阿迪亚为理性探究辩护的通行英译概括（Rosenblatt）。
+
+#### Q0596
+
+- **作者 / Author**: 萨阿迪亚·高恩（882–942） / Saadia Gaon (882–942)
+- **学派 / School**: 犹太理性主义 / Jewish Rationalism
+- **出处 / Source**: 《信仰与意见书》论创造 / The Book of Beliefs and Opinions, on creation (Rosenblatt)
+- **原文语言 / Language**: 犹太—阿拉伯语（通行英译） / Judeo-Arabic (standard English rendering)
+- **原文 / Original**: The world was created ex nihilo; it did not eternally accompany the Creator.
+- **英译 / English**: The world was created ex nihilo; it did not eternally accompany the Creator.
+- **中译 / Chinese**: 世界由无中被创造；它并非永恒地与创造者并存。
+- **主题 / Themes**: 创造、时间、上帝 / Creation, Time, God
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 萨阿迪亚创世论核心立场；Rosenblatt 传统英译义确。
+
+#### Q0597
+
+- **作者 / Author**: 萨阿迪亚·高恩（882–942） / Saadia Gaon (882–942)
+- **学派 / School**: 犹太理性主义 / Jewish Rationalism
+- **出处 / Source**: 《信仰与意见书》论报应 / The Book of Beliefs and Opinions, on reward and punishment (Rosenblatt)
+- **原文语言 / Language**: 犹太—阿拉伯语（通行英译） / Judeo-Arabic (standard English rendering)
+- **原文 / Original**: Divine justice requires that obedience and disobedience not be equal in outcome; reward and punishment follow desert.
+- **英译 / English**: Divine justice requires that obedience and disobedience not be equal in outcome; reward and punishment follow desert.
+- **中译 / Chinese**: 神圣正义要求顺从与悖逆在结局上不得等同；赏罚随功过而来。
+- **主题 / Themes**: 正义、道德、上帝 / Justice, Morality, God
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 萨阿迪亚神义论／报应论义旨；Rosenblatt 通行英译概括。
+
+#### Q0598
+
+- **作者 / Author**: 犹大·哈列维（约1075–1141） / Judah Halevi (c. 1075–1141)
+- **学派 / School**: 犹太理性主义 / Jewish Rationalism
+- **出处 / Source**: 《库萨里》I / The Kuzari I (Hirschfeld / standard English)
+- **原文语言 / Language**: 犹太—阿拉伯语（通行英译） / Judeo-Arabic (standard English rendering)
+- **原文 / Original**: I believe in the God of Abraham, Isaac, and Jacob, who led the Israelites out of Egypt with signs and miracles—not in the God of Aristotle.
+- **英译 / English**: I believe in the God of Abraham, Isaac, and Jacob, who led the Israelites out of Egypt with signs and miracles—not in the God of Aristotle.
+- **中译 / Chinese**: 我信的是亚伯拉罕、以撒、雅各的上帝——以神迹奇事领以色列人出埃及者——而非亚里士多德的上帝。
+- **主题 / Themes**: 启示、历史、哲学 / Revelation, History, Philosophy
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 《库萨里》开篇拉比答可萨王的经典对立；据 Hirschfeld 等通行英译概括。
+
+#### Q0599
+
+- **作者 / Author**: 犹大·哈列维（约1075–1141） / Judah Halevi (c. 1075–1141)
+- **学派 / School**: 犹太理性主义 / Jewish Rationalism
+- **出处 / Source**: 《库萨里》 / The Kuzari (standard English)
+- **原文语言 / Language**: 犹太—阿拉伯语（通行英译） / Judeo-Arabic (standard English rendering)
+- **原文 / Original**: Speculative philosophy may lead to a First Cause, yet it cannot yield the living God who speaks in history and commandment.
+- **英译 / English**: Speculative philosophy may lead to a First Cause, yet it cannot yield the living God who speaks in history and commandment.
+- **中译 / Chinese**: 思辨哲学或可达致第一因，却不能给出在历史与诫命中言说的永生上帝。
+- **主题 / Themes**: 哲学、启示、上帝 / Philosophy, Revelation, God
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 哈列维对纯哲学神学限度的批判义旨；通行英译概括。
+
+#### Q0600
+
+- **作者 / Author**: 犹大·哈列维（约1075–1141） / Judah Halevi (c. 1075–1141)
+- **学派 / School**: 犹太理性主义 / Jewish Rationalism
+- **出处 / Source**: 《库萨里》II / The Kuzari II (standard English)
+- **原文语言 / Language**: 犹太—阿拉伯语（通行英译） / Judeo-Arabic (standard English rendering)
+- **原文 / Original**: Israel among the nations is like the heart among the organs: it is the most sensitive and the most receptive of the divine influence.
+- **英译 / English**: Israel among the nations is like the heart among the organs: it is the most sensitive and the most receptive of the divine influence.
+- **中译 / Chinese**: 以色列之于列国，犹如心脏之于肢体：它最敏锐，也最能接受神圣影响。
+- **主题 / Themes**: 选民、神圣、历史 / Election, Holiness, History
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 《库萨里》著名「心喻」；据通行英译。学派仍归 Jewish Rationalism（与卡拉姆／哲学对话传统），备注其批判纯哲学倾向。
+
+
 ---
 
 ## Appendix / 附录

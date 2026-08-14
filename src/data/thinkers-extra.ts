@@ -1398,4 +1398,93 @@ export const extraThinkerGuides: Record<string, ThinkerGuide> = {
     legacy:
       "Her essays remain touchstones in feminist ethics, critical theory, and debates about method, voice, and coalition across difference.",
   },
+  "Al-Farabi": {
+    lifespan: "c. 870–950",
+    school: "Islamic Philosophy",
+    birthDate: "0870",
+    deathDate: "0950",
+    jobTitle: "Philosopher",
+    knowsAbout: ["political philosophy", "happiness", "virtue", "Plato and Aristotle", "prophecy"],
+    overview:
+      "Abū Naṣr al-Fārābī (c. 870–950), later called the ‘Second Teacher’ after Aristotle, worked mainly in Baghdad and Syria. He wrote on logic, music, and especially the virtuous city, adapting Platonic and Aristotelian politics to a revelatory community. Selected Aphorisms, The Perfect State, and The Attainment of Happiness form a coherent program of soul-health and civic cooperation toward happiness.",
+    ideas:
+      "Soul and city share a medical analogy: virtue is psychic health, vice sickness. Happiness is the good sought for its own sake; the excellent city cooperates toward that end. Political science studies voluntary actions and ways of life ordered to human perfection. The first ruler combines philosophical insight with the capacity to legislate for different natures.",
+    works: [
+      "Selected Aphorisms",
+      "The Perfect State (al-Madīna al-fāḍila)",
+      "The Attainment of Happiness",
+      "Enumeration of the Sciences",
+    ],
+    legacy:
+      "Al-Fārābī shaped Avicenna, Maimonides, and Latin political philosophy. He remains the classic Islamic source for the philosopher–ruler and the ranking of sciences.",
+  },
+  Avicenna: {
+    lifespan: "980–1037",
+    school: "Islamic Philosophy",
+    birthDate: "0980",
+    deathDate: "1037",
+    jobTitle: "Philosopher and physician",
+    knowsAbout: ["metaphysics", "soul", "Necessary Existent", "prophecy", "medicine"],
+    overview:
+      "Ibn Sīnā (Avicenna, 980–1037) wrote The Healing and The Canon of Medicine, dominating Islamic and later Latin curricula. Born near Bukhara, he synthesized Aristotelian and Neoplatonic themes into a system centered on the Necessary Existent and an immortal rational soul. His ‘floating man’ thought experiment argues for self-awareness independent of bodily sensation.",
+    ideas:
+      "Being divides into necessary and possible; God is the uncaused Necessary Existent. Complete knowledge of caused things requires knowledge through causes. The soul is a substance, not a body. Prophecy perfects intellect joined to a powerful imagination. Medicine studies bodily states in health and disease and the means of loss and restoration.",
+    works: [
+      "The Healing (al-Shifāʾ)",
+      "Pointers and Reminders",
+      "The Canon of Medicine",
+      "The Salvation",
+    ],
+    legacy:
+      "Avicenna set the agenda for Islamic metaphysics and for scholastic psychology in Europe. Al-Ghazālī’s critique and Averroes’ reply both take his system as the philosophers’ paradigm.",
+  },
+  "Ibn Tufayl": {
+    lifespan: "c. 1105–1185",
+    school: "Islamic Philosophy",
+    birthDate: "1105",
+    deathDate: "1185",
+    jobTitle: "Philosopher and physician",
+    knowsAbout: ["natural theology", "reason and revelation", "education", "solitude"],
+    overview:
+      "Ibn Ṭufayl (c. 1105–1185) was an Andalusian physician and vizier best known for the philosophical romance Ḥayy ibn Yaqẓān. The orphan Hayy, raised by a gazelle on an island, climbs by observation and reason to knowledge of the Necessary Existent, then meets a religious islander and learns the limits of teaching the many.",
+    ideas:
+      "Unaided reason can reach metaphysical truth; revelation encodes the same substance in symbols for those who cannot demonstrate. Sudden stripping of outer forms harms most believers. Solitude and withdrawal from the senses serve contemplation, yet political pedagogy must respect human diversity of capacity.",
+    works: ["Ḥayy ibn Yaqẓān"],
+    legacy:
+      "Translated into Latin and early modern European languages, Hayy influenced debates on natural religion and education. Goodman’s English version remains a standard classroom text for Islamic philosophy.",
+  },
+  "Saadia Gaon": {
+    lifespan: "882–942",
+    school: "Jewish Rationalism",
+    birthDate: "0882",
+    deathDate: "0942",
+    jobTitle: "Gaon and philosopher",
+    knowsAbout: ["kalām", "creation", "reason and tradition", "divine justice"],
+    overview:
+      "Saadia ben Joseph (882–942), gaon of Sura, wrote The Book of Beliefs and Opinions, the first systematic Jewish philosophical theology in the Islamic world. He defended rabbinic Judaism against Karaites and used Arabic kalām methods to show that Torah and intellect agree when both are rightly understood.",
+    ideas:
+      "God gave both revelation and intellect so tradition can be verified by demonstration. Inquiry is commanded, not forbidden. The world is created ex nihilo rather than co-eternal with God. Divine justice requires that obedience and disobedience not share the same outcome.",
+    works: [
+      "The Book of Beliefs and Opinions",
+      "Commentary on Sefer Yetzirah",
+      "Biblical translations and commentaries",
+    ],
+    legacy:
+      "Saadia founded medieval Jewish rational theology and supplied vocabulary for later figures including Halevi and Maimonides, even where they revise his kalām.",
+  },
+  "Judah Halevi": {
+    lifespan: "c. 1075–1141",
+    school: "Jewish Rationalism",
+    birthDate: "1075",
+    deathDate: "1141",
+    jobTitle: "Poet and philosopher",
+    knowsAbout: ["revelation", "history", "critique of philosophy", "election"],
+    overview:
+      "Judah Halevi (c. 1075–1141) was a Hebrew poet and author of The Kuzari, a dialogue in which a rabbi persuades the Khazar king that historical revelation outweighs abstract First-Cause metaphysics. He contrasts the God of Abraham with the God of Aristotle while remaining inside the medieval Jewish philosophical conversation.",
+    ideas:
+      "Speculative philosophy may reach a First Cause yet misses the living God of commandment and miracle. Israel among the nations is like the heart among organs—most receptive to divine influence. Authentic religion is rooted in witnessed history, not only in demonstrative theology.",
+    works: ["The Kuzari", "Hebrew religious and secular poetry"],
+    legacy:
+      "Halevi’s critique of pure philosophy shaped later Jewish thought and Zionist cultural memory; philosophically he remains a foil and complement to Maimonidean rationalism.",
+  },
 };

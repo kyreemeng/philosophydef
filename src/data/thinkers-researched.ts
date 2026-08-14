@@ -813,20 +813,24 @@ export const researchedThinkerGuides: Record<string, ThinkerGuide> = {
   },
   "Al-Ghazali": {
     "lifespan": "1058–1111",
-    "school": "Islamic philosophy and theology",
-    "jobTitle": "theologian and jurist",
+    "school": "Islamic Philosophy",
+    "jobTitle": "theologian, jurist, and philosopher",
     "knowsAbout": [
+      "causation",
       "skepticism",
-      "theology",
-      "mysticism"
+      "sufism",
+      "kalām",
+      "knowledge and action"
     ],
-    "overview": "Al-Ghazali mastered philosophy, law, and theology before a spiritual crisis led him toward Sufism. Active within the tradition labeled Islamic philosophy and theology, Al-Ghazali worked as a theologian and jurist whose influence depends on both teaching and textual transmission. Handbook consensus places the life span at 1058–1111. Where day-level dates are known, they are recorded in the accompanying birth and death fields. Major points of entry include The Incoherence of the Philosophers, The Revival of the Religious Sciences. Interpreters still argue about emphasis, authenticity of particular passages, and how far later disciples reshaped the voice associated with Al-Ghazali. The summary follows mainstream reference works rather than sectarian hagiography or purely literary mythmaking. Philological and historical research continues to refine attribution, chronology, and emphasis.",
-    "ideas": "He criticized philosophers where they contradicted revelation while defending disciplined reasoning and experiential religious knowledge. Systematically, the teaching links skepticism, theology, mysticism into a practical and theoretical whole. Rather than offering isolated maxims, the arguments specify what counts as knowledge, virtue, or legitimate order and what failures of judgment produce social or spiritual harm. Method matters: dialectic, meditation, demonstration, genealogy, or historical analysis—each school privileges different tools for correcting opinion. Close attention to The Incoherence of the Philosophers shows how definitions, examples, and counterarguments carry the doctrine. Later schools often radicalized one strand while soft-pedaling another; reconstructing the original balance requires reading across genres and against later orthodoxy. The ideas remain philosophically live because they still organize disputes about freedom, authority, nature, and the good life.",
+    "overview": "Abū Ḥāmid al-Ghazālī (1058–1111) taught law and theology in Baghdad before a crisis of certainty drove him from public office into Sufi practice and writing. He mastered the falāsifa well enough to attack their metaphysics in The Incoherence of the Philosophers, then narrated his own epistemic itinerary in Deliverance from Error. The Revival of the Religious Sciences integrates Ashʿarite doctrine with ethical-spiritual discipline for a broad audience.",
+    "ideas": "Al-Ghazālī denies that observed regularities prove necessary causal links independent of God’s will, while still defending disciplined reasoning within theology. Sense and unaided intellect can fail; certainty may require an experiential ‘taste’ beyond imitation. Knowledge that does not move the limbs remains incomplete. Prophecy and inspiration open a stage beyond ordinary intellect without abolishing law or dialectic.",
     "works": [
       "The Incoherence of the Philosophers",
-      "The Revival of the Religious Sciences"
+      "Deliverance from Error",
+      "The Revival of the Religious Sciences",
+      "The Alchemy of Happiness"
     ],
-    "legacy": "He permanently shaped Sunni theology, Sufism, and debates over reason and revelation. Reception history carried Al-Ghazali into curricula, religious movements, and public rhetoric far from the original setting of Islamic philosophy and theology. Modern scholarship both demythologizes and renews interest, separating usable arguments from legend. For a quotes-oriented readership, the durable value lies in precise problems and formulations that resist reduction to motivational slogans.",
+    "legacy": "He reshaped Sunni theology, Sufism, and later debates on science, causation, and faith. Averroes answered him point by point; modern philosophy of religion still returns to his critique of necessary connection and his autobiography of doubt.",
     "birthDate": "1058",
     "deathDate": "1111"
   },
@@ -1077,38 +1081,45 @@ export const researchedThinkerGuides: Record<string, ThinkerGuide> = {
   },
   "Maimonides": {
     "lifespan": "1138–1204",
-    "school": "Jewish Aristotelianism",
+    "school": "Jewish Rationalism",
     "jobTitle": "rabbi, physician, and philosopher",
     "knowsAbout": [
+      "negative theology",
       "law",
-      "reason",
-      "negative theology"
+      "prophecy",
+      "Aristotle",
+      "ethics"
     ],
-    "overview": "Maimonides reconciled Jewish law with Aristotelian philosophy while serving as a communal leader and physician. Active within the tradition labeled Jewish Aristotelianism, Maimonides worked as a rabbi, physician, and philosopher whose influence depends on both teaching and textual transmission. Handbook consensus places the life span at 1138–1204. Where day-level dates are known, they are recorded in the accompanying birth and death fields. Major points of entry include Guide for the Perplexed, Mishneh Torah. Interpreters still argue about emphasis, authenticity of particular passages, and how far later disciples reshaped the voice associated with Maimonides. The summary follows mainstream reference works rather than sectarian hagiography or purely literary mythmaking. Philological and historical research continues to refine attribution, chronology, and emphasis. Comparative reading across languages further clarifies what is distinctive in the arguments.",
-    "ideas": "God exceeds positive description; religious language guides imperfect human understanding, and law cultivates ethical and intellectual life. Systematically, the teaching links law, reason, negative theology into a practical and theoretical whole. Rather than offering isolated maxims, the arguments specify what counts as knowledge, virtue, or legitimate order and what failures of judgment produce social or spiritual harm. Method matters: dialectic, meditation, demonstration, genealogy, or historical analysis—each school privileges different tools for correcting opinion. Close attention to Guide for the Perplexed shows how definitions, examples, and counterarguments carry the doctrine. Later schools often radicalized one strand while soft-pedaling another; reconstructing the original balance requires reading across genres and against later orthodoxy. The ideas remain philosophically live because they still organize disputes about freedom, authority, nature, and the good life.",
+    "overview": "Moses ben Maimon (1138–1204), known as Maimonides or Rambam, fled Almohad persecution from Córdoba to Fez and finally to Egypt, where he served as a communal leader and court physician. He codified Jewish law in the Mishneh Torah and wrote the Guide of the Perplexed for readers torn between Torah and Aristotelian science. His Eight Chapters adapt Greek virtue ethics to a Jewish frame.",
+    "ideas": "God is known chiefly by negation: affirmative attributes risk corporealizing the divine. The Law aims at the welfare of body and soul; intellectual perfection measures nearness to God. Prophecy is an overflow through the Active Intellect to reason and imagination. Moral virtue is a mean between extremes, cultivated by habit under divine commandment.",
     "works": [
-      "Guide for the Perplexed",
-      "Mishneh Torah"
+      "Guide of the Perplexed",
+      "Mishneh Torah",
+      "Eight Chapters",
+      "Commentary on the Mishnah"
     ],
-    "legacy": "He became the preeminent medieval Jewish philosopher and influenced scholastic thought. Reception history carried Maimonides into curricula, religious movements, and public rhetoric far from the original setting of Jewish Aristotelianism. Modern scholarship both demythologizes and renews interest, separating usable arguments from legend. For a quotes-oriented readership, the durable value lies in precise problems and formulations that resist reduction to motivational slogans.",
+    "legacy": "He became the central medieval Jewish philosopher and influenced Latin scholastics including Aquinas. Later Jewish thought continually renegotiates his balance of reason and revelation; popular misattributions (such as Talmudic sayings) must be separated from his own texts.",
     "birthDate": "1138",
     "deathDate": "1204"
   },
   "Ibn Khaldun": {
     "lifespan": "1332–1406",
-    "school": "Islamic historiography",
+    "school": "Islamic Philosophy",
     "jobTitle": "historian and statesman",
     "knowsAbout": [
-      "society",
-      "history",
-      "power"
+      "ʿaṣabiyya",
+      "civilization",
+      "dynastic cycles",
+      "historiography",
+      "political economy"
     ],
-    "overview": "Ibn Khaldun analyzed why dynasties rise and decline, drawing on political experience across North Africa. Active within the tradition labeled Islamic historiography, Ibn Khaldun worked as a historian and statesman whose influence depends on both teaching and textual transmission. Handbook consensus places the life span at 1332–1406. Where day-level dates are known, they are recorded in the accompanying birth and death fields. Major points of entry include Muqaddimah. Interpreters still argue about emphasis, authenticity of particular passages, and how far later disciples reshaped the voice associated with Ibn Khaldun. The summary follows mainstream reference works rather than sectarian hagiography or purely literary mythmaking. Philological and historical research continues to refine attribution, chronology, and emphasis. Comparative reading across languages further clarifies what is distinctive in the arguments.",
-    "ideas": "Group solidarity (asabiyyah) enables conquest but weakens with luxury and settled rule; history needs critical source evaluation. Systematically, the teaching links society, history, power into a practical and theoretical whole. Rather than offering isolated maxims, the arguments specify what counts as knowledge, virtue, or legitimate order and what failures of judgment produce social or spiritual harm. Method matters: dialectic, meditation, demonstration, genealogy, or historical analysis—each school privileges different tools for correcting opinion. Close attention to Muqaddimah shows how definitions, examples, and counterarguments carry the doctrine. Later schools often radicalized one strand while soft-pedaling another; reconstructing the original balance requires reading across genres and against later orthodoxy. The ideas remain philosophically live because they still organize disputes about freedom, authority, nature, and the good life.",
+    "overview": "Ibn Khaldūn (1332–1406) served courts across the Maghrib and Egypt before composing the Muqaddimah as a prolegomenon to his universal history. Drawing on political experience, he treated history as a science of social causes rather than a chronicle of wonders. Climate, economy, urban luxury, and group feeling structure his account of rise and decline.",
+    "ideas": "Royal authority rests on ʿaṣabiyya (group feeling); conquest succeeds when solidarity is strong, then softens under sedentary luxury. The past resembles the future enough for patterned explanation. Custom and environment shape character more than pedigree alone. Critical source criticism guards against superstition and court flattery.",
     "works": [
-      "Muqaddimah"
+      "Muqaddimah",
+      "Kitāb al-ʿIbar"
     ],
-    "legacy": "He is often regarded as a precursor of sociology, economics, and critical historiography. Reception history carried Ibn Khaldun into curricula, religious movements, and public rhetoric far from the original setting of Islamic historiography. Modern scholarship both demythologizes and renews interest, separating usable arguments from legend. For a quotes-oriented readership, the durable value lies in precise problems and formulations that resist reduction to motivational slogans.",
+    "legacy": "Often read as a forerunner of sociology and critical historiography, he remains central to Islamic and global philosophy of history. Modern social theory cites his cycle of solidarity and decadence without reducing him to a mere precursor slogan.",
     "birthDate": "1332",
     "deathDate": "1406"
   },
@@ -1133,20 +1144,23 @@ export const researchedThinkerGuides: Record<string, ThinkerGuide> = {
   },
   "Averroes": {
     "lifespan": "1126–1198",
-    "school": "Islamic Aristotelianism",
+    "school": "Islamic Philosophy",
     "jobTitle": "philosopher, jurist, and physician",
     "knowsAbout": [
       "Aristotle",
-      "reason",
-      "law"
+      "demonstration",
+      "law and philosophy",
+      "causation",
+      "allegory"
     ],
-    "overview": "Averroes wrote extensive commentaries on Aristotle while serving as a jurist and physician in al-Andalus. Active within the tradition labeled Islamic Aristotelianism, Averroes worked as a philosopher, jurist, and physician whose influence depends on both teaching and textual transmission. Handbook consensus places the life span at 1126–1198. Where day-level dates are known, they are recorded in the accompanying birth and death fields. Major points of entry include The Incoherence of the Incoherence, Decisive Treatise. Interpreters still argue about emphasis, authenticity of particular passages, and how far later disciples reshaped the voice associated with Averroes. The summary follows mainstream reference works rather than sectarian hagiography or purely literary mythmaking. Comparative reading across languages further clarifies what is distinctive in the arguments.",
-    "ideas": "He defended philosophical demonstration as compatible with revelation when texts are interpreted according to intellectual capacity. Systematically, the teaching links Aristotle, reason, law into a practical and theoretical whole. Rather than offering isolated maxims, the arguments specify what counts as knowledge, virtue, or legitimate order and what failures of judgment produce social or spiritual harm. Method matters: dialectic, meditation, demonstration, genealogy, or historical analysis—each school privileges different tools for correcting opinion. Close attention to The Incoherence of the Incoherence shows how definitions, examples, and counterarguments carry the doctrine. Later schools often radicalized one strand while soft-pedaling another; reconstructing the original balance requires reading across genres and against later orthodoxy. The ideas remain philosophically live because they still organize disputes about freedom, authority, nature, and the good life.",
+    "overview": "Ibn Rushd (Averroes, 1126–1198) served as qāḍī and physician in al-Andalus while producing the most influential Arabic commentaries on Aristotle. In the Decisive Treatise he argues that the Law itself obliges demonstrative reflection; in The Incoherence of the Incoherence he answers al-Ghazālī’s attack on the philosophers. Political misfortune late in life did not erase his Latin afterlife as ‘the Commentator.’",
+    "ideas": "Truth does not contradict truth: demonstration and revelation agree when scripture’s apparent sense is read allegorically for those capable of proof. Assent comes rhetorically, dialectically, or demonstratively according to hearers’ natures. Denying natures and regular effects abolishes science. Philosophy is the Law’s companion and milk-sister, not its rival.",
     "works": [
+      "The Decisive Treatise",
       "The Incoherence of the Incoherence",
-      "Decisive Treatise"
+      "Commentaries on Aristotle"
     ],
-    "legacy": "Latin Averroism made him a major conduit for Aristotle in medieval Europe. Reception history carried Averroes into curricula, religious movements, and public rhetoric far from the original setting of Islamic Aristotelianism. Modern scholarship both demythologizes and renews interest, separating usable arguments from legend. For a quotes-oriented readership, the durable value lies in precise problems and formulations that resist reduction to motivational slogans.",
+    "legacy": "Latin Averroism shaped medieval European debates on intellect and faith. He remains a symbol of rationalist Aristotelianism in Islamic philosophy and a touchstone for reason–revelation models.",
     "birthDate": "1126",
     "deathDate": "1198"
   },

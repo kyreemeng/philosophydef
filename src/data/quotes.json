@@ -6656,5 +6656,545 @@
       "Knowledge",
       "Freedom"
     ]
+  },
+  {
+    "id": "Q0556",
+    "author": "Al-Farabi",
+    "school": "Islamic Philosophy",
+    "source": "Selected Aphorisms §1 (Butterworth)",
+    "text": "The soul has health and sickness just as the body has health and sickness.",
+    "themes": [
+      "Soul",
+      "Virtue",
+      "Politics"
+    ]
+  },
+  {
+    "id": "Q0557",
+    "author": "Al-Farabi",
+    "school": "Islamic Philosophy",
+    "source": "Selected Aphorisms (Butterworth)",
+    "text": "The health of the soul is for its traits to be traits by which it does good, fine, and noble actions.",
+    "themes": [
+      "Virtue",
+      "Habit",
+      "Action"
+    ]
+  },
+  {
+    "id": "Q0558",
+    "author": "Al-Farabi",
+    "school": "Islamic Philosophy",
+    "source": "The Perfect State (al-Madīna al-fāḍila), Walzer",
+    "text": "The excellent city is the one in which people cooperate toward the things by which true happiness is attained.",
+    "themes": [
+      "Happiness",
+      "City",
+      "Cooperation"
+    ]
+  },
+  {
+    "id": "Q0559",
+    "author": "Al-Farabi",
+    "school": "Islamic Philosophy",
+    "source": "The Attainment of Happiness",
+    "text": "Happiness is the good desired for its own sake; it is never desired for the sake of something else.",
+    "themes": [
+      "Happiness",
+      "Purpose",
+      "Good"
+    ]
+  },
+  {
+    "id": "Q0560",
+    "author": "Al-Farabi",
+    "school": "Islamic Philosophy",
+    "source": "Selected Aphorisms (Butterworth)",
+    "text": "The statesman and the king are like the physician: they seek the health of the city as the physician seeks the health of the body.",
+    "themes": [
+      "Politics",
+      "Governance",
+      "Analogy"
+    ]
+  },
+  {
+    "id": "Q0561",
+    "author": "Al-Farabi",
+    "school": "Islamic Philosophy",
+    "source": "Enumeration of the Sciences, on political science",
+    "text": "Political science inquires into the kinds of voluntary actions and ways of life, and into the happiness that is the end of the human being.",
+    "themes": [
+      "Political Science",
+      "Will",
+      "Happiness"
+    ]
+  },
+  {
+    "id": "Q0562",
+    "author": "Avicenna",
+    "school": "Islamic Philosophy",
+    "source": "The Healing, Psychology (“Floating Man”)",
+    "text": "Suppose a person were created at once, fully mature, but with sight veiled and limbs outstretched so that he touched nothing; he would affirm his own existence without affirming any body.",
+    "themes": [
+      "Self",
+      "Soul",
+      "Knowledge"
+    ]
+  },
+  {
+    "id": "Q0563",
+    "author": "Avicenna",
+    "school": "Islamic Philosophy",
+    "source": "The Healing, Metaphysics (Marmura)",
+    "text": "The Necessary Existent has no cause; rather, It is the cause of all that is possible.",
+    "themes": [
+      "God",
+      "Being",
+      "Causation"
+    ]
+  },
+  {
+    "id": "Q0564",
+    "author": "Avicenna",
+    "school": "Islamic Philosophy",
+    "source": "The Healing, Metaphysics I",
+    "text": "The knowledge of anything that has causes is not complete unless it is known through its causes.",
+    "themes": [
+      "Knowledge",
+      "Causation",
+      "Science"
+    ]
+  },
+  {
+    "id": "Q0565",
+    "author": "Avicenna",
+    "school": "Islamic Philosophy",
+    "source": "The Healing, On the Soul",
+    "text": "The soul is a substance; it is not a body, nor is it impressed in a body as a form in matter in the way of bodily forms.",
+    "themes": [
+      "Soul",
+      "Substance",
+      "Mind-Body"
+    ]
+  },
+  {
+    "id": "Q0566",
+    "author": "Avicenna",
+    "school": "Islamic Philosophy",
+    "source": "Pointers and Reminders (Ishārāt)",
+    "text": "The first of intelligibles is the grasp of existence; from it the mind proceeds to the necessary and the possible.",
+    "themes": [
+      "Being",
+      "Intellect",
+      "Logic"
+    ]
+  },
+  {
+    "id": "Q0567",
+    "author": "Avicenna",
+    "school": "Islamic Philosophy",
+    "source": "The Healing, on prophecy",
+    "text": "Prophecy is a perfection of the human intellect joined to a power of imagination that receives and expresses what the intellect knows.",
+    "themes": [
+      "Prophecy",
+      "Intellect",
+      "Imagination"
+    ]
+  },
+  {
+    "id": "Q0568",
+    "author": "Avicenna",
+    "school": "Islamic Philosophy",
+    "source": "The Canon of Medicine, Opening",
+    "text": "Medicine is the science by which we learn the various states of the human body in health and when not in health, and the means by which health is likely to be lost and restored.",
+    "themes": [
+      "Medicine",
+      "Science",
+      "Body"
+    ]
+  },
+  {
+    "id": "Q0569",
+    "author": "Averroes",
+    "school": "Islamic Philosophy",
+    "source": "The Decisive Treatise (Faṣl al-Maqāl), Butterworth",
+    "text": "Philosophy is the companion of the Law and its milk-sister.",
+    "themes": [
+      "Reason",
+      "Faith",
+      "Harmony"
+    ]
+  },
+  {
+    "id": "Q0570",
+    "author": "Averroes",
+    "school": "Islamic Philosophy",
+    "source": "The Decisive Treatise, opening (Butterworth)",
+    "text": "The Law has obliged us to reflect upon existing things by means of the intellect, and to seek knowledge of them from that perspective.",
+    "themes": [
+      "Reason",
+      "Revelation",
+      "Duty"
+    ]
+  },
+  {
+    "id": "Q0571",
+    "author": "Averroes",
+    "school": "Islamic Philosophy",
+    "source": "The Decisive Treatise (Butterworth)",
+    "text": "If the apparent sense of a scriptural text conflicts with demonstration, that apparent sense admits of allegorical interpretation.",
+    "themes": [
+      "Interpretation",
+      "Demonstration",
+      "Scripture"
+    ]
+  },
+  {
+    "id": "Q0572",
+    "author": "Averroes",
+    "school": "Islamic Philosophy",
+    "source": "The Decisive Treatise (Butterworth)",
+    "text": "Demonstration does not differ from the Law; for truth does not oppose truth but agrees with it and bears witness to it.",
+    "themes": [
+      "Demonstration",
+      "Law",
+      "Truth"
+    ]
+  },
+  {
+    "id": "Q0573",
+    "author": "Averroes",
+    "school": "Islamic Philosophy",
+    "source": "The Incoherence of the Incoherence, on causation",
+    "text": "To deny that things have natures and that from similar natures similar effects follow is to abolish reason and science together.",
+    "themes": [
+      "Causation",
+      "Nature",
+      "Science"
+    ]
+  },
+  {
+    "id": "Q0574",
+    "author": "Averroes",
+    "school": "Islamic Philosophy",
+    "source": "The Decisive Treatise (Butterworth)",
+    "text": "Assent is of three kinds: rhetorical, dialectical, and demonstrative; people differ in nature as to which kind persuades them.",
+    "themes": [
+      "Persuasion",
+      "Method",
+      "Education"
+    ]
+  },
+  {
+    "id": "Q0575",
+    "author": "Al-Ghazali",
+    "school": "Islamic Philosophy",
+    "source": "The Incoherence of the Philosophers, on causation",
+    "text": "The connection between what is usually believed to be a cause and what is believed to be an effect is not necessary; each of the two has its own individuality.",
+    "themes": [
+      "Causation",
+      "Necessity",
+      "Theology"
+    ]
+  },
+  {
+    "id": "Q0576",
+    "author": "Al-Ghazali",
+    "school": "Islamic Philosophy",
+    "source": "Deliverance from Error (al-Munqidh)",
+    "text": "Sense-data are not a secure foundation; the eye sees the star as small, yet demonstration shows it larger than the earth.",
+    "themes": [
+      "Skepticism",
+      "Sense",
+      "Reason"
+    ]
+  },
+  {
+    "id": "Q0577",
+    "author": "Al-Ghazali",
+    "school": "Islamic Philosophy",
+    "source": "Deliverance from Error (al-Munqidh)",
+    "text": "Beyond the intellect there is another stage in which another eye is opened, by which one sees the unseen and what will be in the future.",
+    "themes": [
+      "Intellect",
+      "Revelation",
+      "Sufism"
+    ]
+  },
+  {
+    "id": "Q0578",
+    "author": "Al-Ghazali",
+    "school": "Islamic Philosophy",
+    "source": "The Revival of the Religious Sciences (Iḥyāʾ)",
+    "text": "Knowledge is not perfected by learning alone; it is perfected when it becomes a state that moves the limbs to action.",
+    "themes": [
+      "Knowledge and Action",
+      "Cultivation",
+      "Practice"
+    ]
+  },
+  {
+    "id": "Q0579",
+    "author": "Al-Ghazali",
+    "school": "Islamic Philosophy",
+    "source": "The Alchemy of Happiness",
+    "text": "Know yourself, for the knowledge of the self is the key to the knowledge of God.",
+    "themes": [
+      "Self",
+      "God",
+      "Knowledge"
+    ]
+  },
+  {
+    "id": "Q0580",
+    "author": "Ibn Tufayl",
+    "school": "Islamic Philosophy",
+    "source": "Ḥayy ibn Yaqẓān (Goodman)",
+    "text": "By unaided reason Hayy rose to knowledge of the Necessary Existent, before any human teacher reached him.",
+    "themes": [
+      "Reason",
+      "Nature",
+      "God"
+    ]
+  },
+  {
+    "id": "Q0581",
+    "author": "Ibn Tufayl",
+    "school": "Islamic Philosophy",
+    "source": "Ḥayy ibn Yaqẓān (Goodman)",
+    "text": "What revelation teaches by symbols, the philosopher may reach by demonstration; the two agree in substance for those who understand.",
+    "themes": [
+      "Revelation",
+      "Symbol",
+      "Demonstration"
+    ]
+  },
+  {
+    "id": "Q0582",
+    "author": "Ibn Tufayl",
+    "school": "Islamic Philosophy",
+    "source": "Ḥayy ibn Yaqẓān (Goodman)",
+    "text": "Most people cling to the outer forms of worship; to strip those forms away suddenly only harms them.",
+    "themes": [
+      "Education",
+      "Faith",
+      "Limits"
+    ]
+  },
+  {
+    "id": "Q0583",
+    "author": "Ibn Tufayl",
+    "school": "Islamic Philosophy",
+    "source": "Ḥayy ibn Yaqẓān (Goodman)",
+    "text": "Solitude became for him a ladder: withdrawing from the senses, he turned inward toward the Truth.",
+    "themes": [
+      "Solitude",
+      "Contemplation",
+      "Truth"
+    ]
+  },
+  {
+    "id": "Q0584",
+    "author": "Ibn Khaldun",
+    "school": "Islamic Philosophy",
+    "source": "Muqaddimah (Rosenthal)",
+    "text": "Royal authority and large-scale dynastic power are attained only through group feeling (ʿaṣabiyya).",
+    "themes": [
+      "Power",
+      "Solidarity",
+      "History"
+    ]
+  },
+  {
+    "id": "Q0585",
+    "author": "Ibn Khaldun",
+    "school": "Islamic Philosophy",
+    "source": "Muqaddimah, Introduction (Rosenthal)",
+    "text": "History is a discipline that has a large number of approaches. Its useful aspects are very many. Its goal is distinguished.",
+    "themes": [
+      "History",
+      "Method",
+      "Knowledge"
+    ]
+  },
+  {
+    "id": "Q0586",
+    "author": "Ibn Khaldun",
+    "school": "Islamic Philosophy",
+    "source": "Muqaddimah (Rosenthal)",
+    "text": "The past resembles the future more than one drop of water another.",
+    "themes": [
+      "History",
+      "Pattern",
+      "Prediction"
+    ]
+  },
+  {
+    "id": "Q0587",
+    "author": "Ibn Khaldun",
+    "school": "Islamic Philosophy",
+    "source": "Muqaddimah, on the decline of civilization (Rosenthal)",
+    "text": "When luxury and sedentary culture take hold, group feeling weakens and the dynasty declines.",
+    "themes": [
+      "Civilization",
+      "Luxury",
+      "Decline"
+    ]
+  },
+  {
+    "id": "Q0588",
+    "author": "Maimonides",
+    "school": "Jewish Rationalism",
+    "source": "Guide of the Perplexed I.59 (Pines)",
+    "text": "Silence and limiting oneself to the apprehensions of the intellect are more appropriate with regard to God than speech.",
+    "themes": [
+      "Negative Theology",
+      "Language",
+      "God"
+    ]
+  },
+  {
+    "id": "Q0589",
+    "author": "Maimonides",
+    "school": "Jewish Rationalism",
+    "source": "Guide of the Perplexed III.27 (Pines)",
+    "text": "The Law as a whole aims at two things: the welfare of the soul and the welfare of the body.",
+    "themes": [
+      "Law",
+      "Ethics",
+      "Politics"
+    ]
+  },
+  {
+    "id": "Q0590",
+    "author": "Maimonides",
+    "school": "Jewish Rationalism",
+    "source": "Guide of the Perplexed III.51 (Pines)",
+    "text": "The more the intellect is perfected, the more one draws near to God; proximity is measured by knowledge.",
+    "themes": [
+      "Intellect",
+      "Nearness",
+      "Knowledge"
+    ]
+  },
+  {
+    "id": "Q0591",
+    "author": "Maimonides",
+    "school": "Jewish Rationalism",
+    "source": "Eight Chapters (Shemonah Perakim) 4",
+    "text": "The virtues are means between two extremes; the good character is the mean disposition.",
+    "themes": [
+      "Virtue",
+      "Mean",
+      "Ethics"
+    ]
+  },
+  {
+    "id": "Q0592",
+    "author": "Maimonides",
+    "school": "Jewish Rationalism",
+    "source": "Mishneh Torah, Book of Knowledge (Yesodei ha-Torah)",
+    "text": "The foundation of all foundations and the pillar of all sciences is to know that there is a First Being who brought every existing thing into being.",
+    "themes": [
+      "God",
+      "Knowledge",
+      "Law"
+    ]
+  },
+  {
+    "id": "Q0593",
+    "author": "Maimonides",
+    "school": "Jewish Rationalism",
+    "source": "Guide of the Perplexed II.36 (Pines)",
+    "text": "Prophecy is an overflow from God through the intermediation of the Active Intellect, first to the rational faculty and then to the imaginative faculty.",
+    "themes": [
+      "Prophecy",
+      "Intellect",
+      "Revelation"
+    ]
+  },
+  {
+    "id": "Q0594",
+    "author": "Saadia Gaon",
+    "school": "Jewish Rationalism",
+    "source": "The Book of Beliefs and Opinions, Introduction (Rosenblatt)",
+    "text": "God has given us the Torah and also intellect, so that we may verify by reason what we have received by tradition.",
+    "themes": [
+      "Reason",
+      "Revelation",
+      "Tradition"
+    ]
+  },
+  {
+    "id": "Q0595",
+    "author": "Saadia Gaon",
+    "school": "Jewish Rationalism",
+    "source": "The Book of Beliefs and Opinions (Rosenblatt)",
+    "text": "Inquiry is not forbidden to us; on the contrary, we are commanded to know God by the path of demonstration as far as we can.",
+    "themes": [
+      "Inquiry",
+      "Demonstration",
+      "Faith"
+    ]
+  },
+  {
+    "id": "Q0596",
+    "author": "Saadia Gaon",
+    "school": "Jewish Rationalism",
+    "source": "The Book of Beliefs and Opinions, on creation (Rosenblatt)",
+    "text": "The world was created ex nihilo; it did not eternally accompany the Creator.",
+    "themes": [
+      "Creation",
+      "Time",
+      "God"
+    ]
+  },
+  {
+    "id": "Q0597",
+    "author": "Saadia Gaon",
+    "school": "Jewish Rationalism",
+    "source": "The Book of Beliefs and Opinions, on reward and punishment (Rosenblatt)",
+    "text": "Divine justice requires that obedience and disobedience not be equal in outcome; reward and punishment follow desert.",
+    "themes": [
+      "Justice",
+      "Morality",
+      "God"
+    ]
+  },
+  {
+    "id": "Q0598",
+    "author": "Judah Halevi",
+    "school": "Jewish Rationalism",
+    "source": "The Kuzari I (Hirschfeld / standard English)",
+    "text": "I believe in the God of Abraham, Isaac, and Jacob, who led the Israelites out of Egypt with signs and miracles—not in the God of Aristotle.",
+    "themes": [
+      "Revelation",
+      "History",
+      "Philosophy"
+    ]
+  },
+  {
+    "id": "Q0599",
+    "author": "Judah Halevi",
+    "school": "Jewish Rationalism",
+    "source": "The Kuzari (standard English)",
+    "text": "Speculative philosophy may lead to a First Cause, yet it cannot yield the living God who speaks in history and commandment.",
+    "themes": [
+      "Philosophy",
+      "Revelation",
+      "God"
+    ]
+  },
+  {
+    "id": "Q0600",
+    "author": "Judah Halevi",
+    "school": "Jewish Rationalism",
+    "source": "The Kuzari II (standard English)",
+    "text": "Israel among the nations is like the heart among the organs: it is the most sensitive and the most receptive of the divine influence.",
+    "themes": [
+      "Election",
+      "Holiness",
+      "History"
+    ]
   }
 ]
