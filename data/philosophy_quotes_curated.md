@@ -7531,7 +7531,8 @@
 - **英译 / English**: By 'African philosophy' I mean a set of texts, specifically, the set of texts written by Africans and described as philosophical by their authors themselves.
 - **中译 / Chinese**: 所谓「非洲哲学」，我指的是一套文本，具体而言，是非洲人写出、并被其作者本人称为哲学的那套文本。
 - **主题 / Themes**: 哲学、方法、定义 / Philosophy, Method, Critique
-- **置信度 / Confidence**: ★ (High)
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 通行英译作「原文」栏，故标 ☆；非法语逐字转录。 / Original field holds standard English rendering—☆, not a French transcription.
 
 #### Q0609
 
@@ -7543,7 +7544,8 @@
 - **英译 / English**: So for us African philosophy is a body of literature whose existence is undeniable, a bibliography which has grown constantly.
 - **中译 / Chinese**: 因此对我们而言，非洲哲学是一套存在无可否认的文献，一份不断增长的书目。
 - **主题 / Themes**: 哲学、书写、知识 / Philosophy, Language, Knowledge
-- **置信度 / Confidence**: ★ (High)
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 通行英译作「原文」栏，故标 ☆；非法语逐字转录。 / Original field holds standard English rendering—☆, not a French transcription.
 
 #### Q0610
 
@@ -7555,8 +7557,8 @@
 - **英译 / English**: In fact, it is an ethnological work with philosophical pretensions, or more simply, if I may coin the word, a work of 'ethnophilosophy'.
 - **中译 / Chinese**: 事实上，它是一部带有哲学自负的民族学著作；或者更简单地说——如果我可以造这个词——一部「民族哲学」著作。
 - **主题 / Themes**: 批判、方法、传统 / Critique, Method, Tradition
-- **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 「ethnophilosophy」一词由此进入非洲哲学论争。
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 英译作原文栏，故☆。 / English-as-original field—hence ☆. 「ethnophilosophy」一词由此进入非洲哲学论争。
 
 #### Q0611
 
@@ -7568,7 +7570,8 @@
 - **英译 / English**: I observe that it does exist, by the same right and in the same mode as all the philosophies of the world: in the form of a literature.
 - **中译 / Chinese**: 我观察到它确实存在，与世界一切哲学享有同等权利、采取同一方式：以文献的形式存在。
 - **主题 / Themes**: 哲学、存在、书写 / Philosophy, Being, Language
-- **置信度 / Confidence**: ★ (High)
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 通行英译作「原文」栏，故标 ☆；非法语逐字转录。 / Original field holds standard English rendering—☆, not a French transcription.
 
 #### Q0612
 
@@ -7580,7 +7583,8 @@
 - **英译 / English**: Contemporary African philosophy, inasmuch as it remains an ethnophilosophy, has been built up essentially for a European public. The African ethnophilosopher's discourse is not intended for Africans.
 - **中译 / Chinese**: 当代非洲哲学只要仍是民族哲学，本质上就是为欧洲公众建构的。非洲民族哲学家的话语并非面向非洲人。
 - **主题 / Themes**: 批判、他者、权力 / Critique, Otherness, Power
-- **置信度 / Confidence**: ★ (High)
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 通行英译作「原文」栏，故标 ☆；非法语逐字转录。 / Original field holds standard English rendering—☆, not a French transcription.
 
 #### Q0613
 
@@ -7592,8 +7596,8 @@
 - **英译 / English**: The thought of an African sage, even if he purports to be the spokesman for a group, is not necessarily that of all the individuals in that group, and still less that of all Africans in general.
 - **中译 / Chinese**: 一位非洲智者的思想，即便他自称某群体的代言人，也未必等于该群体所有个体的思想，更遑论全体非洲人的思想。
 - **主题 / Themes**: 个体、传统、真理 / Self, Tradition, Truth
-- **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 对「集体无异议世界观＝哲学」神话的直接否定。
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 英译作原文栏，故☆。 / English-as-original field—hence ☆. 对「集体无异议世界观＝哲学」神话的直接否定。
 
 #### Q0614
 
@@ -7667,8 +7671,8 @@
 - **英译 / English**: Each generation must, out of relative obscurity, discover its mission, fulfill it, or betray it.
 - **中译 / Chinese**: 每一代人都必须在相对的晦暗中发现自己的使命，完成它，或背叛它。
 - **主题 / Themes**: 责任、政治、自由 / Responsibility, Politics, Freedom
-- **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 去殖民世代论的经典表述；属政治哲学论域，附语境备注。
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 英译作原文栏，故☆。 / English-as-original field—hence ☆. 去殖民世代论的经典表述；属政治哲学论域，附语境备注。
 
 #### Q0620
 
@@ -7680,7 +7684,8 @@
 - **英译 / English**: National consciousness, which is not nationalism, is the only thing that will give us an international dimension.
 - **中译 / Chinese**: 民族意识——它不是民族主义——是唯一能赋予我们国际维度的东西。
 - **主题 / Themes**: 政治、共同体、他者 / Politics, Community, Otherness
-- **置信度 / Confidence**: ★ (High)
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 通行英译作「原文」栏，故标 ☆；非法语逐字转录。 / Original field holds standard English rendering—☆, not a French transcription.
 
 #### Q0621
 
@@ -7718,8 +7723,8 @@
 - **英译 / English**: The whole system is founded on the notion of vital force. Pre-existing, anterior to being, it constitutes being.
 - **中译 / Chinese**: 整个体系建立在生命力观念之上。它先于存在、构成存在。
 - **主题 / Themes**: 存在、精神、自然 / Being, Spirit, Nature
-- **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 据桑戈尔在洛瓦宁大学等场合论黑人性／生命力本体论的通行英译。
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 英译作原文栏，故☆。 / English-as-original field—hence ☆. 据桑戈尔在洛瓦宁大学等场合论黑人性／生命力本体论的通行英译。
 
 #### Q0624
 
@@ -7830,8 +7835,8 @@
 - **英译 / English**: A civilization that proves incapable of solving the problems it creates is a decadent civilization.
 - **中译 / Chinese**: 一个无法解决自身所制造问题的文明，是腐朽的文明。
 - **主题 / Themes**: 批判、社会、权力 / Critique, Society, Power
-- **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 政治哲学论域中的文明批判开篇；附语境备注。
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 英译作原文栏，故☆。 / English-as-original field—hence ☆. 政治哲学论域中的文明批判开篇；附语境备注。
 
 #### Q0633
 
@@ -7843,7 +7848,8 @@
 - **英译 / English**: A civilization that chooses to close its eyes to its most crucial problems is a stricken civilization. A civilization that uses its principles for trickery and deceit is a dying civilization.
 - **中译 / Chinese**: 一个选择对最关键切问题视而不见的文明，是病入的文明。一个把原则用于欺诈的文明，是垂死的文明。
 - **主题 / Themes**: 批判、道德、权力 / Critique, Morality, Power
-- **置信度 / Confidence**: ★ (High)
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 通行英译作「原文」栏，故标 ☆；非法语逐字转录。 / Original field holds standard English rendering—☆, not a French transcription.
 
 #### Q0634
 
@@ -7855,8 +7861,8 @@
 - **英译 / English**: My turn to state an equation: colonization = "thingification."
 - **中译 / Chinese**: 轮到我提出一个等式：殖民＝「物化」。
 - **主题 / Themes**: 权力、人性、批判 / Power, Humanity, Critique
-- **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: thingification／chosification：殖民把人降为生产工具的哲学诊断。
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 英译作原文栏，故☆。 / English-as-original field—hence ☆. thingification／chosification：殖民把人降为生产工具的哲学诊断。
 
 #### Q0635
 
@@ -7868,8 +7874,8 @@
 - **英译 / English**: Between colonizer and colonized there is room only for forced labor, intimidation, pressure, the police, taxation, theft, rape… No human contact, but relations of domination and submission.
 - **中译 / Chinese**: 殖民者与被殖民者之间，只有强迫劳动、恐吓、压力、警察、征税、盗窃、强奸……没有人的接触，只有统治与服从的关系。
 - **主题 / Themes**: 权力、他者、人性 / Power, Otherness, Humanity
-- **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 紧接「物化」等式前的关系诊断；略有删节。
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 英译作原文栏，故☆。 / English-as-original field—hence ☆. 紧接「物化」等式前的关系诊断；略有删节。
 
 #### Q0636
 
@@ -7982,7 +7988,8 @@
 - **英译 / English**: It is at the heart of national consciousness that international consciousness lives and grows.
 - **中译 / Chinese**: 正是在民族意识的核心，国际意识得以存活并生长。
 - **主题 / Themes**: 政治、共同体、他者 / Politics, Community, Otherness
-- **置信度 / Confidence**: ★ (High)
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 通行英译作「原文」栏，故标 ☆；非法语逐字转录。 / Original field holds standard English rendering—☆, not a French transcription.
 
 #### Q0645
 
@@ -8001,26 +8008,27 @@
 
 - **作者 / Author**: 夸梅·安东尼·阿皮亚（1954–） / Kwame Anthony Appiah (1954–)
 - **学派 / School**: 非洲哲学 / Africana Philosophy
-- **出处 / Source**: 《世界主义》／相关讲演 / Cosmopolitanism / related remarks on learning from strangers
+- **出处 / Source**: 《世界主义》／「污染的理由」／Cosmopolitanism: Ethics in a World of Strangers；cf. “The Case for Contamination,” NYT Magazine (1 Jan 2006)
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: They know they don't have all the answers. They're humble enough to think that they might learn from strangers; not too humble to think that strangers can't learn from them.
 - **英译 / English**: They know they don't have all the answers. They're humble enough to think that they might learn from strangers; not too humble to think that strangers can't learn from them.
 - **中译 / Chinese**: 他们知道自己并非无所不知。他们谦逊到认为可以向陌生人学习；又不至于谦逊到认为陌生人不能向他们学习。
 - **主题 / Themes**: 谦逊、对话、他者 / Humility, Dialogue, Otherness
 - **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 书与杂志改编稿共有的世界主义谦逊表述。 / Shared cosmopolitan-humility line in the book and its magazine adaptation.
 
 #### Q0647
 
 - **作者 / Author**: 艾梅·塞泽尔（1913–2008） / Aimé Césaire (1913–2008)
 - **学派 / School**: 非洲哲学 / Africana Philosophy
-- **出处 / Source**: 论黑人性的讲演／声明 / lecture on Négritude (1987 et al.)
+- **出处 / Source**: 《论黑人性》讲演（迈阿密，1987年2月）／Discours sur la Négritude (Miami, Feb 1987); Eng. in SEP “Négritude”
 - **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
 - **原文 / Original**: Négritude, in my eyes, is not a philosophy. Négritude is not a metaphysics. … It is a way of living history within history.
 - **英译 / English**: Négritude, in my eyes, is not a philosophy. Négritude is not a metaphysics. … It is a way of living history within history.
 - **中译 / Chinese**: 在我看来，黑人性不是一种哲学。黑人性不是一种形而上学。……它是一种在历史之中活出历史的方式。
 - **主题 / Themes**: 历史、自我、文化 / Time, Self, Society
-- **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 塞泽尔与桑戈尔的分歧点：拒绝把黑人性做成体系形而上学。
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 英译作原文栏，故☆；locus 据 SEP／通行英译。 / English-as-original field—hence ☆; locus via SEP/standard rendering. 塞泽尔与桑戈尔的分歧点：拒绝把黑人性做成体系形而上学。
 
 #### Q0648
 
