@@ -1487,4 +1487,145 @@ export const extraThinkerGuides: Record<string, ThinkerGuide> = {
     legacy:
       "Halevi’s critique of pure philosophy shaped later Jewish thought and Zionist cultural memory; philosophically he remains a foil and complement to Maimonidean rationalism.",
   },
+  "Kwasi Wiredu": {
+    lifespan: "1931–2022",
+    school: "Africana Philosophy",
+    birthDate: "1931-10-03",
+    deathDate: "2022-01-06",
+    jobTitle: "Philosopher",
+    knowsAbout: ["conceptual decolonization", "Akan philosophy", "consensus democracy", "truth"],
+    overview:
+      "Kwasi Wiredu (1931–2022) was a Ghanaian philosopher trained in Accra and at Oxford under P. F. Strawson. He taught for decades at the University of Ghana and later at the University of South Florida. Philosophy and an African Culture and Cultural Universals and Particulars made him a central figure in analytic African philosophy.",
+    ideas:
+      "Conceptual decolonization means shedding undue colonial categories while judiciously using indigenous schemes such as Akan. He distinguishes democracy by consensus from majoritarian consent without consensus, and argues that theories of truth must account for ‘being so’ rather than English lexical accidents.",
+    works: [
+      "Philosophy and an African Culture",
+      "Cultural Universals and Particulars",
+      "Conceptual Decolonization in African Philosophy",
+    ],
+    legacy:
+      "Wiredu set the vocabulary for postcolonial African philosophy’s linguistic turn and for debates on non-party consensual democracy.",
+  },
+  "Paulin Hountondji": {
+    lifespan: "1942–2024",
+    school: "Africana Philosophy",
+    birthDate: "1942-04-11",
+    deathDate: "2024-02-02",
+    jobTitle: "Philosopher",
+    knowsAbout: ["ethnophilosophy", "African philosophical literature", "critique", "science"],
+    overview:
+      "Paulin J. Hountondji (1942–2024) was a Beninese philosopher educated in Paris (including under Althusser) and long associated with the National University of Benin. African Philosophy: Myth and Reality (French 1976; English 1983) attacked the myth of a collective, unanimous African worldview presented as philosophy.",
+    ideas:
+      "African philosophy is a literature of texts by Africans who call their work philosophy—not ethnological reconstruction of a people’s silent Weltanschauung. He coined ‘ethnophilosophy’ for Tempels-style projects and insisted that sage thought is not automatically the thought of all Africans.",
+    works: [
+      "African Philosophy: Myth and Reality",
+      "The Struggle for Meaning",
+      "essays on Amo, Nkrumah, and scientific culture",
+    ],
+    legacy:
+      "Hountondji’s critique redirected Francophone and Anglophone African philosophy toward argumentative pluralism and away from exotic unanimism.",
+  },
+  "Frantz Fanon": {
+    lifespan: "1925–1961",
+    school: "Africana Philosophy",
+    birthDate: "1925-07-20",
+    deathDate: "1961-12-06",
+    jobTitle: "Psychiatrist and theorist",
+    knowsAbout: ["racism", "decolonization", "national culture", "recognition"],
+    overview:
+      "Frantz Fanon (1925–1961) was a Martinican psychiatrist and anti-colonial theorist who practiced in Algeria and joined the FLN. Black Skin, White Masks analyzes the psychic effects of antiblack racism; The Wretched of the Earth theorizes decolonization, violence, and national culture.",
+    ideas:
+      "He refuses imprisonment in racial history while diagnosing colonial alienation; the black and white man as fixed essences ‘are not.’ Each generation must discover its mission; national consciousness (not nationalism) opens an international dimension. His closing prayer asks the body to remain a questioning subject.",
+    works: ["Black Skin, White Masks", "The Wretched of the Earth", "A Dying Colonialism"],
+    legacy:
+      "Fanon remains a touchstone for Africana philosophy, postcolonial theory, and debates on recognition, violence, and political humanism.",
+  },
+  "Léopold Sédar Senghor": {
+    lifespan: "1906–2001",
+    school: "Africana Philosophy",
+    birthDate: "1906-10-09",
+    deathDate: "2001-12-20",
+    jobTitle: "Poet and philosopher-statesman",
+    knowsAbout: ["Négritude", "vital force", "civilization of the universal", "aesthetics"],
+    overview:
+      "Léopold Sédar Senghor (1906–2001) was a Senegalese poet, theorist of Négritude, and Senegal’s first president. With Césaire and Damas he forged a black cultural affirmation in French; his essays treat Négritude as an ontology and aesthetics of vital force as well as a politics of cultural rendezvous.",
+    ideas:
+      "He defined Négritude as the sum of the cultural values of the black world and controversially wrote that emotion is Negro as reason is Hellenic—meaning a participatory, rhythmic knowing rather than a denial of African reason. He sought a ‘civilization of the universal’ of mutual giving and receiving among cultures.",
+    works: ["Liberté (essays)", "Anthologie de la nouvelle poésie nègre et malgache", "poetry collections"],
+    legacy:
+      "Senghor made Négritude a philosophical keyword; later critics (including Hountondji) challenged its ethnophilosophical risks while retaining his humanism of cultural exchange.",
+  },
+  "Kwame Anthony Appiah": {
+    lifespan: "1954–",
+    school: "Africana Philosophy",
+    birthDate: "1954-05-08",
+    jobTitle: "Philosopher",
+    knowsAbout: ["cosmopolitanism", "identity", "race", "ethics"],
+    overview:
+      "Kwame Anthony Appiah (b. 1954) is a British-Ghanaian philosopher who has taught at Princeton, NYU, and elsewhere. In My Father’s House, The Ethics of Identity, and Cosmopolitanism connect African philosophy, race theory, and global ethics.",
+    ideas:
+      "Cosmopolitanism balances obligations to distant others with respect for particular lives and differences. Conversation across identities need not yield value-consensus; it can help people get used to one another. Values are social—like a fax machine useless if only one person has it—and fallibility motivates learning from strangers.",
+    works: [
+      "In My Father's House",
+      "The Ethics of Identity",
+      "Cosmopolitanism: Ethics in a World of Strangers",
+    ],
+    legacy:
+      "Appiah shaped contemporary debates on race as social construction, identity ethics, and a non-imperial cosmopolitanism open to African and diasporic experience.",
+  },
+  "Aimé Césaire": {
+    lifespan: "1913–2008",
+    school: "Africana Philosophy",
+    birthDate: "1913-06-26",
+    deathDate: "2008-04-17",
+    jobTitle: "Poet and theorist",
+    knowsAbout: ["Négritude", "colonialism", "thingification", "history"],
+    overview:
+      "Aimé Césaire (1913–2008) was a Martinican poet, dramatist, and politician who coined ‘Négritude’ in the 1930s. Notebook of a Return to the Native Land and Discourse on Colonialism couple poetic revolt with a philosophical indictment of European colonial civilization.",
+    ideas:
+      "A civilization unable to solve the problems it creates is decadent; colonization equals ‘thingification’—reducing humans to instruments under domination without human contact. Unlike Senghor, he insisted Négritude is not a metaphysics but a way of living history within history after deportation and cultural fracture.",
+    works: [
+      "Cahier d'un retour au pays natal",
+      "Discourse on Colonialism",
+      "Une Tempête",
+    ],
+    legacy:
+      "Césaire’s equation of colonization with thingification and his critique of colonial ‘civilizing’ hypocrisy feed postcolonial and Africana political philosophy.",
+  },
+  "Anton Wilhelm Amo": {
+    lifespan: "c. 1703–c. 1759",
+    school: "Africana Philosophy",
+    birthDate: "1703",
+    deathDate: "1759",
+    jobTitle: "Philosopher",
+    knowsAbout: ["mind-body dualism", "sensation", "impassivity of mind", "early modern rationalism"],
+    overview:
+      "Anton Wilhelm Amo (c. 1703–c. 1759), born in what is now Ghana and educated in Germany, became a university lecturer at Halle, Wittenberg, and Jena. His 1734 dissertation On the Impassivity of the Human Mind and related disputations place an African author inside early modern European metaphysics.",
+    ideas:
+      "The mind is a simple substance distinct from the body: it neither suffers from the body nor mixes with it, but understands and wills by its own operations. Sensation belongs to the living organic body, not to the impassive mind—a sharp dualism aimed at clarifying Cartesian and related debates.",
+    works: [
+      "De humanae mentis apatheia (1734)",
+      "Disputatio philosophica on mind and body (1734)",
+      "Tractatus de arte sobrie et accurate philosophandi (1738)",
+    ],
+    legacy:
+      "Amo is a canonical early figure for Africana philosophy’s historical depth; Hountondji and others recovered him against the myth of an Africa without written philosophy.",
+  },
+  "Mogobe B. Ramose": {
+    lifespan: "1947–",
+    school: "Africana Philosophy",
+    birthDate: "1947",
+    jobTitle: "Philosopher",
+    knowsAbout: ["ubuntu", "African ontology", "justice", "decolonization"],
+    overview:
+      "Mogobe B. Ramose (b. 1947) is a South African philosopher whose African Philosophy Through Ubuntu (1999) reconstructs ubuntu as a root of African ontology, epistemology, law, and ethics against lingering colonial epistemic frameworks.",
+    ideas:
+      "Ubuntu is the wellspring of African philosophy: human being is affirmed by recognizing others’ humanity and establishing humane relations (the philosophical gloss of umuntu ngumuntu ngabantu). Authentic liberation requires releasing colonized knowledge from European paradigms and addressing justice after conquest.",
+    works: [
+      "African Philosophy Through Ubuntu",
+      "essays on justice, race, and ubu-ntu",
+    ],
+    legacy:
+      "Ramose made ubuntu available as rigorous philosophy rather than slogan, influencing debates on African humanism, law, and post-apartheid ethics.",
+  },
 };

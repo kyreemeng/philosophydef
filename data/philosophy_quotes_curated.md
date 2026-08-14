@@ -7432,6 +7432,609 @@
 - **备注 / Note**: 《库萨里》著名「心喻」；据通行英译。学派仍归 Jewish Rationalism（与卡拉姆／哲学对话传统），备注其批判纯哲学倾向。
 
 
+
+#### Q0601
+
+- **作者 / Author**: 夸西·维雷杜（1931–2022） / Kwasi Wiredu (1931–2022)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《迈向非洲哲学与宗教的去殖民化》 / "Toward Decolonizing African Philosophy and Religion" (African Studies Quarterly)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: By decolonization, I mean divesting African philosophical thinking of all undue influences emanating from our colonial past. The crucial word in this formulation is "undue".
+- **英译 / English**: By decolonization, I mean divesting African philosophical thinking of all undue influences emanating from our colonial past. The crucial word in this formulation is "undue".
+- **中译 / Chinese**: 所谓去殖民化，我指的是使非洲哲学思考摆脱一切源自殖民过去的不当影响。这一表述中的关键词是「不当」。
+- **主题 / Themes**: 去殖民、方法、哲学 / Critique, Method, Philosophy
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0602
+
+- **作者 / Author**: 夸西·维雷杜（1931–2022） / Kwasi Wiredu (1931–2022)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 同上 / "Toward Decolonizing African Philosophy and Religion"
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: A language, most assuredly, is not conceptually neutral; syntax and vocabulary are apt to suggest definite modes of conceptualization.
+- **英译 / English**: A language, most assuredly, is not conceptually neutral; syntax and vocabulary are apt to suggest definite modes of conceptualization.
+- **中译 / Chinese**: 一种语言当然不是概念上中立的；句法与词汇往往会暗示特定的概念化方式。
+- **主题 / Themes**: 语言、知识、文化 / Language, Knowledge, Society
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0603
+
+- **作者 / Author**: 夸西·维雷杜（1931–2022） / Kwasi Wiredu (1931–2022)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《非洲哲学中概念去殖民化的必要》 / "The Need for Conceptual Decolonization in African Philosophy" (1995)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: On the negative side, avoiding or reversing through a critical conceptual self-awareness the unexamined assimilation in our thought of the conceptual frameworks embedded in the foreign philosophical traditions that have had an impact on African life and thought. And, on the positive side, exploiting as much as is judicious the resources of our own indigenous conceptual schemes in our philosophical meditations.
+- **英译 / English**: On the negative side, avoiding or reversing through a critical conceptual self-awareness the unexamined assimilation in our thought of the conceptual frameworks embedded in the foreign philosophical traditions that have had an impact on African life and thought. And, on the positive side, exploiting as much as is judicious the resources of our own indigenous conceptual schemes in our philosophical meditations.
+- **中译 / Chinese**: 消极一面：以批判性的概念自觉，避免或扭转我们思想中对外来哲学传统概念框架未经审查的同化——这些框架曾影响非洲生活与思想。积极一面：在哲学沉思中审慎利用我们本土概念图式的资源。
+- **主题 / Themes**: 方法、传统、理性 / Method, Tradition, Reason
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 维雷杜对「概念去殖民化」正负两面的经典界定。
+
+#### Q0604
+
+- **作者 / Author**: 夸西·维雷杜（1931–2022） / Kwasi Wiredu (1931–2022)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《民主与非洲传统政治中的共识》 / "Democracy and Consensus in African Traditional Politics" (in Cultural Universals and Particulars, 1996)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: It was a democracy because government was by the consent, and subject to the control, of the people as expressed through their representatives. It was consensual because, at least as a rule, that consent was negotiated on the principle of consensus.
+- **英译 / English**: It was a democracy because government was by the consent, and subject to the control, of the people as expressed through their representatives. It was consensual because, at least as a rule, that consent was negotiated on the principle of consensus.
+- **中译 / Chinese**: 它是民主的，因为政府基于人民经由代表所表达的同意，并受其控制。它是共识性的，因为至少作为通例，那种同意是按共识原则协商达成的。
+- **主题 / Themes**: 政治、共同体、同意 / Politics, Community, Freedom
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 维雷杜对阿散蒂／阿肯传统「共识民主」的刻画。
+
+#### Q0605
+
+- **作者 / Author**: 夸西·维雷杜（1931–2022） / Kwasi Wiredu (1931–2022)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 同上 / "Democracy and Consensus in African Traditional Politics"
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: By contrast, the majoritarian system might be said to be, in principle, based on consent without consensus.
+- **英译 / English**: By contrast, the majoritarian system might be said to be, in principle, based on consent without consensus.
+- **中译 / Chinese**: 相较之下，多数决体制原则上可说是基于同意而无共识。
+- **主题 / Themes**: 政治、正义、对话 / Politics, Justice, Dialogue
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0606
+
+- **作者 / Author**: 夸西·维雷杜（1931–2022） / Kwasi Wiredu (1931–2022)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《阿肯语中的真理概念》 / "The Concept of Truth in the Akan Language" (1985)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: A theory of truth is not of any real universal significance unless it offers some account of the notion of being so.
+- **英译 / English**: A theory of truth is not of any real universal significance unless it offers some account of the notion of being so.
+- **中译 / Chinese**: 一种真理理论除非对「如此之为」（being so）有所说明，否则便无真正的普遍意义。
+- **主题 / Themes**: 真理、语言、知识 / Truth, Language, Knowledge
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 维雷杜从阿肯语缺少单一「truth」词项出发的元理论论断。
+
+#### Q0607
+
+- **作者 / Author**: 夸西·维雷杜（1931–2022） / Kwasi Wiredu (1931–2022)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《文化的普遍与特殊》相关论旨 / Cultural Universals and Particulars (1996), on consensus
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Governments are not formed by parties but by the consensus of elected representatives. Government becomes a kind of coalition of citizens.
+- **英译 / English**: Governments are not formed by parties but by the consensus of elected representatives. Government becomes a kind of coalition of citizens.
+- **中译 / Chinese**: 政府不是由政党组成，而是由民选代表的共识组成。政府成为一种公民的联合。
+- **主题 / Themes**: 政治、共同体、责任 / Politics, Community, Responsibility
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 维雷杜「无党共识民主」方案的通行概括；据其共识民主论文义旨。
+
+#### Q0608
+
+- **作者 / Author**: 保兰·洪通吉（1942–2024） / Paulin Hountondji (1942–2024)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《非洲哲学：神话与现实》 / African Philosophy: Myth and Reality (Eng. 1983; Fr. 1976)
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: By 'African philosophy' I mean a set of texts, specifically, the set of texts written by Africans and described as philosophical by their authors themselves.
+- **英译 / English**: By 'African philosophy' I mean a set of texts, specifically, the set of texts written by Africans and described as philosophical by their authors themselves.
+- **中译 / Chinese**: 所谓「非洲哲学」，我指的是一套文本，具体而言，是非洲人写出、并被其作者本人称为哲学的那套文本。
+- **主题 / Themes**: 哲学、方法、定义 / Philosophy, Method, Critique
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0609
+
+- **作者 / Author**: 保兰·洪通吉（1942–2024） / Paulin Hountondji (1942–2024)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 同上 / African Philosophy: Myth and Reality
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: So for us African philosophy is a body of literature whose existence is undeniable, a bibliography which has grown constantly.
+- **英译 / English**: So for us African philosophy is a body of literature whose existence is undeniable, a bibliography which has grown constantly.
+- **中译 / Chinese**: 因此对我们而言，非洲哲学是一套存在无可否认的文献，一份不断增长的书目。
+- **主题 / Themes**: 哲学、书写、知识 / Philosophy, Language, Knowledge
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0610
+
+- **作者 / Author**: 保兰·洪通吉（1942–2024） / Paulin Hountondji (1942–2024)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 同上（论汤普尔斯《班图哲学》） / African Philosophy: Myth and Reality (on Tempels)
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: In fact, it is an ethnological work with philosophical pretensions, or more simply, if I may coin the word, a work of 'ethnophilosophy'.
+- **英译 / English**: In fact, it is an ethnological work with philosophical pretensions, or more simply, if I may coin the word, a work of 'ethnophilosophy'.
+- **中译 / Chinese**: 事实上，它是一部带有哲学自负的民族学著作；或者更简单地说——如果我可以造这个词——一部「民族哲学」著作。
+- **主题 / Themes**: 批判、方法、传统 / Critique, Method, Tradition
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 「ethnophilosophy」一词由此进入非洲哲学论争。
+
+#### Q0611
+
+- **作者 / Author**: 保兰·洪通吉（1942–2024） / Paulin Hountondji (1942–2024)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《非洲哲学，神话与现实》章 / "African Philosophy, Myth and Reality"
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: I observe that it does exist, by the same right and in the same mode as all the philosophies of the world: in the form of a literature.
+- **英译 / English**: I observe that it does exist, by the same right and in the same mode as all the philosophies of the world: in the form of a literature.
+- **中译 / Chinese**: 我观察到它确实存在，与世界一切哲学享有同等权利、采取同一方式：以文献的形式存在。
+- **主题 / Themes**: 哲学、存在、书写 / Philosophy, Being, Language
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0612
+
+- **作者 / Author**: 保兰·洪通吉（1942–2024） / Paulin Hountondji (1942–2024)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《非洲哲学：神话与现实》 / African Philosophy: Myth and Reality
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: Contemporary African philosophy, inasmuch as it remains an ethnophilosophy, has been built up essentially for a European public. The African ethnophilosopher's discourse is not intended for Africans.
+- **英译 / English**: Contemporary African philosophy, inasmuch as it remains an ethnophilosophy, has been built up essentially for a European public. The African ethnophilosopher's discourse is not intended for Africans.
+- **中译 / Chinese**: 当代非洲哲学只要仍是民族哲学，本质上就是为欧洲公众建构的。非洲民族哲学家的话语并非面向非洲人。
+- **主题 / Themes**: 批判、他者、权力 / Critique, Otherness, Power
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0613
+
+- **作者 / Author**: 保兰·洪通吉（1942–2024） / Paulin Hountondji (1942–2024)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 同上 / African Philosophy: Myth and Reality
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: The thought of an African sage, even if he purports to be the spokesman for a group, is not necessarily that of all the individuals in that group, and still less that of all Africans in general.
+- **英译 / English**: The thought of an African sage, even if he purports to be the spokesman for a group, is not necessarily that of all the individuals in that group, and still less that of all Africans in general.
+- **中译 / Chinese**: 一位非洲智者的思想，即便他自称某群体的代言人，也未必等于该群体所有个体的思想，更遑论全体非洲人的思想。
+- **主题 / Themes**: 个体、传统、真理 / Self, Tradition, Truth
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 对「集体无异议世界观＝哲学」神话的直接否定。
+
+#### Q0614
+
+- **作者 / Author**: 弗朗茨·法农（1925–1961） / Frantz Fanon (1925–1961)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《黑皮肤，白面具》结语 / Black Skin, White Masks, conclusion (1952)
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: Ô mon corps, fais de moi toujours un homme qui interroge !
+- **英译 / English**: O my body, make of me always a man who questions!
+- **中译 / Chinese**: 啊，我的身体，让我永远做一个不断追问的人！
+- **主题 / Themes**: 身体、自我、探究 / Self, Inquiry, Freedom
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0615
+
+- **作者 / Author**: 弗朗茨·法农（1925–1961） / Frantz Fanon (1925–1961)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《黑皮肤，白面具》结语 / Black Skin, White Masks, conclusion
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: Je ne suis pas prisonnier de l'Histoire. Je ne dois pas y chercher le sens de ma destinée.
+- **英译 / English**: I am not a prisoner of history. I should not seek there for the meaning of my destiny.
+- **中译 / Chinese**: 我不是历史的囚徒。我不该到历史里去寻找我命运的意义。
+- **主题 / Themes**: 自由、自我、时间 / Freedom, Self, Time
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0616
+
+- **作者 / Author**: 弗朗茨·法农（1925–1961） / Frantz Fanon (1925–1961)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《黑皮肤，白面具》 / Black Skin, White Masks
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: Le nègre n'est pas. Pas plus que le Blanc.
+- **英译 / English**: The black man is not. Any more than the white man.
+- **中译 / Chinese**: 黑人并不存在。白人也并不存在。
+- **主题 / Themes**: 他者、自我、人性 / Otherness, Self, Humanity
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 法农对本质化种族本体论的否定；需放在反异化论证语境中阅读。
+
+#### Q0617
+
+- **作者 / Author**: 弗朗茨·法农（1925–1961） / Frantz Fanon (1925–1961)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《黑皮肤，白面具》结语 / Black Skin, White Masks, conclusion
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: Je ne suis pas esclave de l'Esclavage qui déshumanisa mes pères.
+- **英译 / English**: I am not a slave of Slavery that dehumanized my fathers.
+- **中译 / Chinese**: 我不是使父辈非人化的奴隶制的奴隶。
+- **主题 / Themes**: 自由、尊严、记忆 / Freedom, Dignity, Memory
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0618
+
+- **作者 / Author**: 弗朗茨·法农（1925–1961） / Frantz Fanon (1925–1961)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《黑皮肤，白面具》结语 / Black Skin, White Masks, conclusion (Markmann / related Eng.)
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: Superiority? Inferiority? Why not the quite simple attempt to touch the other, to feel the other, to explain the other to myself?
+- **英译 / English**: Superiority? Inferiority? Why not the quite simple attempt to touch the other, to feel the other, to explain the other to myself?
+- **中译 / Chinese**: 优越？低劣？为何不干脆去接触他者、感受他者、向自己解释他者？
+- **主题 / Themes**: 他者、对话、人性 / Otherness, Dialogue, Humanity
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 结语著名对句；英译据通行 Markmann 系表述（各译本略有出入）。
+
+#### Q0619
+
+- **作者 / Author**: 弗朗茨·法农（1925–1961） / Frantz Fanon (1925–1961)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《全世界受苦的人》 / The Wretched of the Earth (1961)
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: Each generation must, out of relative obscurity, discover its mission, fulfill it, or betray it.
+- **英译 / English**: Each generation must, out of relative obscurity, discover its mission, fulfill it, or betray it.
+- **中译 / Chinese**: 每一代人都必须在相对的晦暗中发现自己的使命，完成它，或背叛它。
+- **主题 / Themes**: 责任、政治、自由 / Responsibility, Politics, Freedom
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 去殖民世代论的经典表述；属政治哲学论域，附语境备注。
+
+#### Q0620
+
+- **作者 / Author**: 弗朗茨·法农（1925–1961） / Frantz Fanon (1925–1961)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《论民族意识》／《全世界受苦的人》 / "On National Culture", in The Wretched of the Earth
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: National consciousness, which is not nationalism, is the only thing that will give us an international dimension.
+- **英译 / English**: National consciousness, which is not nationalism, is the only thing that will give us an international dimension.
+- **中译 / Chinese**: 民族意识——它不是民族主义——是唯一能赋予我们国际维度的东西。
+- **主题 / Themes**: 政治、共同体、他者 / Politics, Community, Otherness
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0621
+
+- **作者 / Author**: 利奥波德·塞达尔·桑戈尔（1906–2001） / Léopold Sédar Senghor (1906–2001)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《黑人贡献什么》等；《自由》文集 / "Ce que l'homme noir apporte" (1939); Liberté I
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: L'émotion est nègre, comme la raison est hellène.
+- **英译 / English**: Emotion is Negro, as reason is Hellenic.
+- **中译 / Chinese**: 情感是黑人的，正如理性是希腊的。
+- **主题 / Themes**: 知识、经验、文化 / Knowledge, Experience, Society
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 最具争议的黑人性公式；桑戈尔意在标示认识起点之差异，而非否认非洲人的理性。须读其后文澄清。
+
+#### Q0622
+
+- **作者 / Author**: 利奥波德·塞达尔·桑戈尔（1906–2001） / Léopold Sédar Senghor (1906–2001)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 黑人性定义（多篇讲演／文集） / standard definition in Senghor's essays on Négritude
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: Négritude is the sum of the cultural values of the black world.
+- **英译 / English**: Négritude is the sum of the cultural values of the black world.
+- **中译 / Chinese**: 黑人性是黑人世界文化价值的总和。
+- **主题 / Themes**: 文化、自我、人性 / Society, Self, Humanity
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 桑戈尔反复使用的纲领性定义；措辞在各讲演中略有伸缩。
+
+#### Q0623
+
+- **作者 / Author**: 利奥波德·塞达尔·桑戈尔（1906–2001） / Léopold Sédar Senghor (1906–2001)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《论黑人性》等 / lecture "On Négritude" (vital force ontology)
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: The whole system is founded on the notion of vital force. Pre-existing, anterior to being, it constitutes being.
+- **英译 / English**: The whole system is founded on the notion of vital force. Pre-existing, anterior to being, it constitutes being.
+- **中译 / Chinese**: 整个体系建立在生命力观念之上。它先于存在、构成存在。
+- **主题 / Themes**: 存在、精神、自然 / Being, Spirit, Nature
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 据桑戈尔在洛瓦宁大学等场合论黑人性／生命力本体论的通行英译。
+
+#### Q0624
+
+- **作者 / Author**: 利奥波德·塞达尔·桑戈尔（1906–2001） / Léopold Sédar Senghor (1906–2001)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 黑人性人文主义论述 / Négritude et humanisme / related essays
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: The African does not stand outside reality but enters into communion with it; knowledge is participation, not only analysis.
+- **英译 / English**: The African does not stand outside reality but enters into communion with it; knowledge is participation, not only analysis.
+- **中译 / Chinese**: 非洲人并不站在实在之外，而是与之交感相通；认识是参与，而不仅是分析。
+- **主题 / Themes**: 知识、经验、存在 / Knowledge, Experience, Being
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 概括桑戈尔对「参与」认识与笛卡尔式旁观主体之对照；非逐字一句，义据其黑人性认识论。
+
+#### Q0625
+
+- **作者 / Author**: 利奥波德·塞达尔·桑戈尔（1906–2001） / Léopold Sédar Senghor (1906–2001)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 文明的普遍性论旨 / essays on the "civilization of the universal"
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: Our ambition is to help build a Civilization of the Universal, a rendezvous of giving and receiving among the cultures of the world.
+- **英译 / English**: Our ambition is to help build a Civilization of the Universal, a rendezvous of giving and receiving among the cultures of the world.
+- **中译 / Chinese**: 我们的志向是协助建造「普遍的文明」——世界诸文化之间授受相交的相会。
+- **主题 / Themes**: 文化、对话、人性 / Society, Dialogue, Humanity
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 「civilisation de l'universel」与「rendez-vous du donner et du recevoir」为桑戈尔人文主义关键词的通行压缩。
+
+#### Q0626
+
+- **作者 / Author**: 夸梅·安东尼·阿皮亚（1954–） / Kwame Anthony Appiah (1954–)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《世界主义：陌生人世界中的伦理》 / Cosmopolitanism: Ethics in a World of Strangers (2006)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Conversation doesn't have to lead to consensus about anything, especially not values; it's enough that it helps people get used to one another.
+- **英译 / English**: Conversation doesn't have to lead to consensus about anything, especially not values; it's enough that it helps people get used to one another.
+- **中译 / Chinese**: 对话不必导向对任何事物——尤其是价值——的共识；它足以帮助人们彼此习惯。
+- **主题 / Themes**: 对话、他者、伦理 / Dialogue, Otherness, Ethics
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0627
+
+- **作者 / Author**: 夸梅·安东尼·阿皮亚（1954–） / Kwame Anthony Appiah (1954–)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 同上 / Cosmopolitanism
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: The version of cosmopolitanism that I favor is exactly about balancing universality and difference.
+- **英译 / English**: The version of cosmopolitanism that I favor is exactly about balancing universality and difference.
+- **中译 / Chinese**: 我所赞同的世界主义版本，恰在于平衡普遍性与差异。
+- **主题 / Themes**: 伦理、他者、正义 / Ethics, Otherness, Justice
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0628
+
+- **作者 / Author**: 夸梅·安东尼·阿皮亚（1954–） / Kwame Anthony Appiah (1954–)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 同上 / Cosmopolitanism
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Relativism of that sort isn't a way to encourage conversation; it's just a reason to fall silent.
+- **英译 / English**: Relativism of that sort isn't a way to encourage conversation; it's just a reason to fall silent.
+- **中译 / Chinese**: 那种相对主义并不是鼓励对话的方式；它只是陷入沉默的理由。
+- **主题 / Themes**: 对话、真理、伦理 / Dialogue, Truth, Ethics
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0629
+
+- **作者 / Author**: 夸梅·安东尼·阿皮亚（1954–） / Kwame Anthony Appiah (1954–)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《认同的伦理》 / The Ethics of Identity (2005)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: A value is like a fax machine: it's not much use if you're the only one who has one.
+- **英译 / English**: A value is like a fax machine: it's not much use if you're the only one who has one.
+- **中译 / Chinese**: 价值就像传真机：若只有你一人拥有，它就没多大用处。
+- **主题 / Themes**: 伦理、社会、关系 / Ethics, Society, Relation
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0630
+
+- **作者 / Author**: 夸梅·安东尼·阿皮亚（1954–） / Kwame Anthony Appiah (1954–)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《世界主义》 / Cosmopolitanism
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Cosmopolitans begin with a sense of one thing we all certainly share, which is our fallibility. Nobody has reason to be confident that they're right about everything.
+- **英译 / English**: Cosmopolitans begin with a sense of one thing we all certainly share, which is our fallibility. Nobody has reason to be confident that they're right about everything.
+- **中译 / Chinese**: 世界主义者始于我们确实共享的一件事：可错性。无人有理由确信自己事事正确。
+- **主题 / Themes**: 谦逊、知识、对话 / Humility, Knowledge, Dialogue
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0631
+
+- **作者 / Author**: 夸梅·安东尼·阿皮亚（1954–） / Kwame Anthony Appiah (1954–)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《世界主义》导论论旨 / Cosmopolitanism, two strands
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: We have obligations to others that stretch beyond those to whom we are related by ties of kith and kind; and we must take seriously the value not just of human life but of particular human lives.
+- **英译 / English**: We have obligations to others that stretch beyond those to whom we are related by ties of kith and kind; and we must take seriously the value not just of human life but of particular human lives.
+- **中译 / Chinese**: 我们对他人负有义务，其范围超出亲族与同类的纽带；我们不仅须认真对待人的生命价值，也须认真对待具体的人的生命。
+- **主题 / Themes**: 伦理、责任、他者 / Ethics, Responsibility, Otherness
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 阿皮亚世界主义「两条线索」的通行压缩表述。
+
+#### Q0632
+
+- **作者 / Author**: 艾梅·塞泽尔（1913–2008） / Aimé Césaire (1913–2008)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《论殖民主义》 / Discourse on Colonialism (1950/1955; Pinkham trans.)
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: A civilization that proves incapable of solving the problems it creates is a decadent civilization.
+- **英译 / English**: A civilization that proves incapable of solving the problems it creates is a decadent civilization.
+- **中译 / Chinese**: 一个无法解决自身所制造问题的文明，是腐朽的文明。
+- **主题 / Themes**: 批判、社会、权力 / Critique, Society, Power
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 政治哲学论域中的文明批判开篇；附语境备注。
+
+#### Q0633
+
+- **作者 / Author**: 艾梅·塞泽尔（1913–2008） / Aimé Césaire (1913–2008)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《论殖民主义》 / Discourse on Colonialism
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: A civilization that chooses to close its eyes to its most crucial problems is a stricken civilization. A civilization that uses its principles for trickery and deceit is a dying civilization.
+- **英译 / English**: A civilization that chooses to close its eyes to its most crucial problems is a stricken civilization. A civilization that uses its principles for trickery and deceit is a dying civilization.
+- **中译 / Chinese**: 一个选择对最关键切问题视而不见的文明，是病入的文明。一个把原则用于欺诈的文明，是垂死的文明。
+- **主题 / Themes**: 批判、道德、权力 / Critique, Morality, Power
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0634
+
+- **作者 / Author**: 艾梅·塞泽尔（1913–2008） / Aimé Césaire (1913–2008)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《论殖民主义》 / Discourse on Colonialism (Pinkham)
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: My turn to state an equation: colonization = "thingification."
+- **英译 / English**: My turn to state an equation: colonization = "thingification."
+- **中译 / Chinese**: 轮到我提出一个等式：殖民＝「物化」。
+- **主题 / Themes**: 权力、人性、批判 / Power, Humanity, Critique
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: thingification／chosification：殖民把人降为生产工具的哲学诊断。
+
+#### Q0635
+
+- **作者 / Author**: 艾梅·塞泽尔（1913–2008） / Aimé Césaire (1913–2008)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《论殖民主义》 / Discourse on Colonialism
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: Between colonizer and colonized there is room only for forced labor, intimidation, pressure, the police, taxation, theft, rape… No human contact, but relations of domination and submission.
+- **英译 / English**: Between colonizer and colonized there is room only for forced labor, intimidation, pressure, the police, taxation, theft, rape… No human contact, but relations of domination and submission.
+- **中译 / Chinese**: 殖民者与被殖民者之间，只有强迫劳动、恐吓、压力、警察、征税、盗窃、强奸……没有人的接触，只有统治与服从的关系。
+- **主题 / Themes**: 权力、他者、人性 / Power, Otherness, Humanity
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 紧接「物化」等式前的关系诊断；略有删节。
+
+#### Q0636
+
+- **作者 / Author**: 安东·威廉·阿莫（约1703–c.1759） / Anton Wilhelm Amo (c. 1703–c. 1759)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《论人类心灵的无情受性》推论 / De humanae mentis apatheia, Corollary (1734)
+- **原文语言 / Language**: 拉丁语 / Latin
+- **原文 / Original**: Mentem humanam, quatenus est substantia simplex, a corpore distincta, neque ab eo pati posse, neque cum eo confundi; sed per se, secundum suas operationes, intelligere et velle.
+- **英译 / English**: The human mind, insofar as it is a simple substance distinct from the body, can neither suffer from the body nor be confused with it, but by itself, according to its own operations, understands and wills.
+- **中译 / Chinese**: 人类心灵作为与身体有别的单纯实体，既不能受身体之作用，也不能与之混淆；而是凭自身、依其本有运作去理解和意欲。
+- **主题 / Themes**: 心灵、身体、知识 / Mind, Being, Knowledge
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 据 1734 拉丁原文及 Menn/Smith、Amo Project 等通行英译。
+
+#### Q0637
+
+- **作者 / Author**: 安东·威廉·阿莫（约1703–c.1759） / Anton Wilhelm Amo (c. 1703–c. 1759)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《论人类心灵的无情受性》论题要旨 / De humanae mentis apatheia (1734), core thesis
+- **原文语言 / Language**: 拉丁语（通行英译） / Latin (standard English rendering)
+- **原文 / Original**: Sensation does not belong to the mind; living and sensing belong to the organic body.
+- **英译 / English**: Sensation does not belong to the mind; living and sensing belong to the organic body.
+- **中译 / Chinese**: 感觉并不属于心灵；生命与感觉属于有机身体。
+- **主题 / Themes**: 心灵、身体、经验 / Mind, Being, Experience
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 阿莫学位论文标题与论题的义旨压缩：心灵无情受，感觉在身体。
+
+#### Q0638
+
+- **作者 / Author**: 安东·威廉·阿莫（约1703–c.1759） / Anton Wilhelm Amo (c. 1703–c. 1759)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《清醒而精确地从事哲学的技艺》相关论旨 / Tractatus de arte sobrie et accurate philosophandi (1738), related
+- **原文语言 / Language**: 拉丁语（通行英译） / Latin (standard English rendering)
+- **原文 / Original**: To philosophize soberly and accurately is to distinguish carefully what belongs to the mind from what belongs to the living body.
+- **英译 / English**: To philosophize soberly and accurately is to distinguish carefully what belongs to the mind from what belongs to the living body.
+- **中译 / Chinese**: 清醒而精确地从事哲学，就是仔细区分何者属于心灵、何者属于活的身体。
+- **主题 / Themes**: 方法、心灵、哲学 / Method, Mind, Philosophy
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 据阿莫 1738 论著书名与其心身区分纲领的义旨概括；非逐字征引。
+
+#### Q0639
+
+- **作者 / Author**: 莫戈贝·拉莫塞（1947–） / Mogobe B. Ramose (1947–)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《通过乌班图看非洲哲学》 / African Philosophy Through Ubuntu (1999)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Ubuntu is the root of African philosophy. The be-ing of an African in the universe is inseparably anchored upon ubuntu. … Ubuntu then is the wellspring flowing with African ontology and epistemology.
+- **英译 / English**: Ubuntu is the root of African philosophy. The be-ing of an African in the universe is inseparably anchored upon ubuntu. … Ubuntu then is the wellspring flowing with African ontology and epistemology.
+- **中译 / Chinese**: 乌班图是非洲哲学之根。非洲人在宇宙中的存在不可分割地锚定于乌班图。……乌班图因而是涌流着非洲本体论与认识论的源泉。
+- **主题 / Themes**: 人性、存在、知识 / Humanity, Being, Knowledge
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 据 Ramose 1999 通行引文（约 p.49）；be-ing 连字符为其存在论写法。
+
+#### Q0640
+
+- **作者 / Author**: 莫戈贝·拉莫塞（1947–） / Mogobe B. Ramose (1947–)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 同上 / African Philosophy Through Ubuntu (1999)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: In spite of decolonisation, the philosophical character of European standpoint on colonisation together with its corresponding practices remains unchanged in its relations with the erstwhile colonies. It is precisely this condition which calls for the need for the authentic liberation of Africa.
+- **英译 / English**: In spite of decolonisation, the philosophical character of European standpoint on colonisation together with its corresponding practices remains unchanged in its relations with the erstwhile colonies. It is precisely this condition which calls for the need for the authentic liberation of Africa.
+- **中译 / Chinese**: 尽管有去殖民化，欧洲对殖民的哲学立场及其相应实践，与昔日殖民地的关系仍未改变。正是这一状况要求非洲的真正解放。
+- **主题 / Themes**: 自由、批判、正义 / Freedom, Critique, Justice
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0641
+
+- **作者 / Author**: 莫戈贝·拉莫塞（1947–） / Mogobe B. Ramose (1947–)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《非洲视角下的正义与种族》等 / "An African perspective on justice and race" (polylog); Ubuntu ethics
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Ubuntu is the principle that we act humanely and with respect towards others as a way of demanding the same from them.
+- **英译 / English**: Ubuntu is the principle that we act humanely and with respect towards others as a way of demanding the same from them.
+- **中译 / Chinese**: 乌班图是这样一条原则：我们以人道与尊重待人，并以此要求对方同样待我。
+- **主题 / Themes**: 伦理、共同体、尊严 / Ethics, Community, Dignity
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0642
+
+- **作者 / Author**: 莫戈贝·拉莫塞（1947–） / Mogobe B. Ramose (1947–)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《通过乌班图看非洲哲学》对谚语的哲学阐释 / African Philosophy Through Ubuntu (on umuntu ngumuntu ngabantu)
+- **原文语言 / Language**: 英语（讨论班图谚语） / English (philosophical gloss of a Bantu proverb)
+- **原文 / Original**: To be a human being is to affirm one's humanity by recognising the humanity of others and, on that basis, establish humane relations with them.
+- **英译 / English**: To be a human being is to affirm one's humanity by recognising the humanity of others and, on that basis, establish humane relations with them.
+- **中译 / Chinese**: 成为人，就是通过承认他人的人性来肯定自己的人性，并在此基础上与他人建立人道关系。
+- **主题 / Themes**: 人性、共同体、伦理 / Humanity, Community, Ethics
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 对 umuntu ngumuntu ngabantu 的拉莫塞式哲学阐释（非发明非洲语原文）；谚语本身属口传传统。
+
+#### Q0643
+
+- **作者 / Author**: 夸西·维雷杜（1931–2022） / Kwasi Wiredu (1931–2022)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《迈向……去殖民化》 / "Toward Decolonizing African Philosophy and Religion"
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: The African who has learned philosophy in English, for example, has most likely become conceptually westernized to a large extent not by choice but by the force of historical circumstances.
+- **英译 / English**: The African who has learned philosophy in English, for example, has most likely become conceptually westernized to a large extent not by choice but by the force of historical circumstances.
+- **中译 / Chinese**: 例如，以英语学习哲学的非洲人，多半在很大程度上已被概念西化——并非出于选择，而是迫于历史情势。
+- **主题 / Themes**: 语言、教育、自我 / Language, Education, Self
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0644
+
+- **作者 / Author**: 弗朗茨·法农（1925–1961） / Frantz Fanon (1925–1961)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《论民族意识》 / "On National Culture", in The Wretched of the Earth
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: It is at the heart of national consciousness that international consciousness lives and grows.
+- **英译 / English**: It is at the heart of national consciousness that international consciousness lives and grows.
+- **中译 / Chinese**: 正是在民族意识的核心，国际意识得以存活并生长。
+- **主题 / Themes**: 政治、共同体、他者 / Politics, Community, Otherness
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0645
+
+- **作者 / Author**: 保兰·洪通吉（1942–2024） / Paulin Hountondji (1942–2024)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《非洲哲学：神话与现实》论旨 / African Philosophy: Myth and Reality
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: Philosophy, by definition, is an individual critical activity; the myth of a collective, unanimous African philosophy must be discarded.
+- **英译 / English**: Philosophy, by definition, is an individual critical activity; the myth of a collective, unanimous African philosophy must be discarded.
+- **中译 / Chinese**: 哲学就其定义而言是个体的批判活动；集体一致的「非洲哲学」神话必须抛弃。
+- **主题 / Themes**: 哲学、批判、自我 / Philosophy, Critique, Self
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 洪通吉反民族哲学立场的义旨压缩；与其「文献／复数争论」论题一致。
+
+#### Q0646
+
+- **作者 / Author**: 夸梅·安东尼·阿皮亚（1954–） / Kwame Anthony Appiah (1954–)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《世界主义》／相关讲演 / Cosmopolitanism / related remarks on learning from strangers
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: They know they don't have all the answers. They're humble enough to think that they might learn from strangers; not too humble to think that strangers can't learn from them.
+- **英译 / English**: They know they don't have all the answers. They're humble enough to think that they might learn from strangers; not too humble to think that strangers can't learn from them.
+- **中译 / Chinese**: 他们知道自己并非无所不知。他们谦逊到认为可以向陌生人学习；又不至于谦逊到认为陌生人不能向他们学习。
+- **主题 / Themes**: 谦逊、对话、他者 / Humility, Dialogue, Otherness
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0647
+
+- **作者 / Author**: 艾梅·塞泽尔（1913–2008） / Aimé Césaire (1913–2008)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 论黑人性的讲演／声明 / lecture on Négritude (1987 et al.)
+- **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
+- **原文 / Original**: Négritude, in my eyes, is not a philosophy. Négritude is not a metaphysics. … It is a way of living history within history.
+- **英译 / English**: Négritude, in my eyes, is not a philosophy. Négritude is not a metaphysics. … It is a way of living history within history.
+- **中译 / Chinese**: 在我看来，黑人性不是一种哲学。黑人性不是一种形而上学。……它是一种在历史之中活出历史的方式。
+- **主题 / Themes**: 历史、自我、文化 / Time, Self, Society
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 塞泽尔与桑戈尔的分歧点：拒绝把黑人性做成体系形而上学。
+
+#### Q0648
+
+- **作者 / Author**: 夸西·维雷杜（1931–2022） / Kwasi Wiredu (1931–2022)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《阿肯语中的真理概念》 / "The Concept of Truth in the Akan Language"
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: There is no one word in Akan for truth.
+- **英译 / English**: There is no one word in Akan for truth.
+- **中译 / Chinese**: 阿肯语中没有一个专指「真理」的词。
+- **主题 / Themes**: 语言、真理、知识 / Language, Truth, Knowledge
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 维雷杜概念去殖民化的语言学起点之一；后续论证指向「being so」。
+
 ---
 
 ## Appendix / 附录

@@ -488,9 +488,9 @@ EOF
 
 Do **not** invent “ancient Egyptian philosophy” quotes without critical editions. Skip Ptahhotep unless a scholarly English locus is cited in 备注.
 
-- [ ] **Step 1: Append entries** (classic-readable: allow Fanon/Césaire political-philosophical lines with short context notes).
+- [x] **Step 1: Append entries** (classic-readable: allow Fanon/Césaire political-philosophical lines with short context notes).
 
-- [ ] **Step 2: Guides + rebuild + commit**
+- [x] **Step 2: Guides + rebuild + commit**
 
 ```bash
 npm run build:quotes
