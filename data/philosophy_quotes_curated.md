@@ -929,7 +929,7 @@
 - **学派 / School**: 意志哲学 / Philosophy of Will
 - **出处 / Source**: 《快乐的科学》§341（永恒轮回思想实验） / The Gay Science §341
 - **原文语言 / Language**: 德语 / German
-- **原文 / Original**: Diese Leben, wie du es jetzt lebst und gelebt hast, wirst du noch einmal und noch unzählige Male leben müssen…
+- **原文 / Original**: Dieses Leben, wie du es jetzt lebst und gelebt hast, wirst du noch einmal und noch unzählige Male leben müssen…
 - **英译 / English**: This life as you now live it and have lived it, you will have to live once more and innumerable times more…
 - **中译 / Chinese**: 你现在所过、并已经过的这一种生活，你还将不得不再过一次，乃至无数次……
 - **主题 / Themes**: 永恒、选择、肯定 / Eternity, Choice, Affirmation
@@ -2509,7 +2509,7 @@
 
 #### Q0203
 
-- **作者 / Author**: 佛陀（传统归名）／The Buddha (traditional attribution)
+- **作者 / Author**: 《法句经》 / Dhammapada
 - **学派 / School**: 早期佛教 / Early Buddhism
 - **出处 / Source**: 《法句经》第1偈／Dhammapada 1
 - **原文语言 / Language**: 巴利语 / Pali
@@ -2518,7 +2518,7 @@
 - **中译 / Chinese**: 诸法意先导，意主、意所造。
 - **主题 / Themes**: 心、业、因果 / Mind, Karma, Causality
 - **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 传统归名于佛陀；《法句经》为早期佛教文本传统汇编。 / Traditional attribution to the Buddha; the Dhammapada is an Early Buddhist textual compilation.
+- **备注 / Note**: 文本传统归名（《法句经》汇编）；偈颂传统归佛陀，非现代个人传记作者。 / Textual-tradition attribution (Dhammapada compilation); verses traditionally ascribed to the Buddha, not a modern individual biography.
 
 #### Q0204
 
