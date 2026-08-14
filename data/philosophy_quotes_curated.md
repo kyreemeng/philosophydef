@@ -6869,8 +6869,8 @@
 - **英译 / English**: The health of the soul is for its traits to be traits by which it does good, fine, and noble actions.
 - **中译 / Chinese**: 灵魂之健康，在于其性情能发出善、美与高贵的行动。
 - **主题 / Themes**: 德性、习惯、行动 / Virtue, Habit, Action
-- **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 同书开篇对「灵魂健康」的界定；Butterworth 通行英译。
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 同书开篇对「灵魂健康」的界定；Butterworth 通行英译之略压缩，故标 ☆。 / Aphoristic opening on soul’s health; slightly compressed Butterworth English—hence ☆.
 
 #### Q0558
 
@@ -7021,12 +7021,12 @@
 - **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
 - **出处 / Source**: 《决定性论说》 / The Decisive Treatise (Faṣl al-Maqāl), Butterworth
 - **原文语言 / Language**: 阿拉伯语 / Arabic
-- **原文 / Original**: الفلسفة هي صاحبة الشريعة والأخت الرضيعة
-- **英译 / English**: Philosophy is the companion of the Law and its milk-sister.
-- **中译 / Chinese**: 哲学是律法的伴侣，也是它的同乳姊妹。
+- **原文 / Original**: الحكمة صاحبة الشريعة والأخت الرضيعة
+- **英译 / English**: Wisdom is the companion of the Law and its milk-sister.
+- **中译 / Chinese**: 智慧是律法的伴侣，也是它的同乳姊妹。
 - **主题 / Themes**: 理性、信仰、和谐 / Reason, Faith, Harmony
 - **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: Butterworth《Decisive Treatise》名句；与已有 Q0377「真理不与真理相悖」同书互补。
+- **备注 / Note**: 通行阿拉伯文作「الحكمة」（智慧），非「الفلسفة」；Butterworth《Decisive Treatise》译作 wisdom / Law。与 Q0377 同书互补。 / Standard Arabic uses al-ḥikma (wisdom), not al-falsafa; Butterworth: wisdom as companion of the Law. Complements Q0377.
 
 #### Q0570
 
@@ -7058,14 +7058,14 @@
 
 - **作者 / Author**: 阿威罗伊（伊本·鲁世德，1126–1198） / Averroes (Ibn Rushd, 1126–1198)
 - **学派 / School**: 伊斯兰哲学 / Islamic Philosophy
-- **出处 / Source**: 《决定性论说》 / The Decisive Treatise (Butterworth)
+- **出处 / Source**: 《决定性论说》开篇论反思义务 / The Decisive Treatise, on the Law’s call to reflection (Butterworth)
 - **原文语言 / Language**: 阿拉伯语（通行英译） / Arabic (standard English rendering)
-- **原文 / Original**: Demonstration does not differ from the Law; for truth does not oppose truth but agrees with it and bears witness to it.
-- **英译 / English**: Demonstration does not differ from the Law; for truth does not oppose truth but agrees with it and bears witness to it.
-- **中译 / Chinese**: 证明与律法并无分歧；因为真理不与真理对立，反而彼此契合并互为见证。
-- **主题 / Themes**: 证明、律法、真理 / Demonstration, Law, Truth
-- **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 与 Q0377 同源论证链；此处保留「证明／律法」完整句式以深化阿威罗伊立场。
+- **原文 / Original**: The Law has urged us to observe beings and directed us to seek knowledge of them by means of demonstration.
+- **英译 / English**: The Law has urged us to observe beings and directed us to seek knowledge of them by means of demonstration.
+- **中译 / Chinese**: 律法敦促我们观察存在者，并指引我们以证明的方式寻求对它们的知识。
+- **主题 / Themes**: 证明、律法、求知 / Demonstration, Law, Inquiry
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Butterworth 开篇论证链的通行压缩；刻意避开与 Q0377「真理不悖真理」近重复。 / Standard compression of Butterworth’s opening argument; avoids near-duplicating Q0377.
 
 #### Q0573
 
@@ -7220,8 +7220,8 @@
 - **英译 / English**: Royal authority and large-scale dynastic power are attained only through group feeling (ʿaṣabiyya).
 - **中译 / Chinese**: 王权与大规模王朝权力，唯有通过群体凝聚力（ʿaṣabiyya）才能获得。
 - **主题 / Themes**: 权力、团结、历史 / Power, Solidarity, History
-- **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: Franz Rosenthal 英译《Muqaddimah》核心论题；深化已有 Q0217 习俗主题。
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Rosenthal《Muqaddimah》ʿaṣabiyya 论题的通行概括，非定点页码逐字引文。 / Standard topical rendering of Rosenthal’s ʿaṣabiyya thesis, not a pinned verbatim locus.
 
 #### Q0585
 
