@@ -1,0 +1,116 @@
+{
+  "canonical": [
+    "Socratic School",
+    "Platonism",
+    "Peripatetic School",
+    "Stoicism",
+    "Epicureanism",
+    "Cynicism",
+    "Sophists",
+    "Pre-Socratic",
+    "Neoplatonism",
+    "Patristic Philosophy",
+    "Scholasticism",
+    "Islamic Philosophy",
+    "Jewish Rationalism",
+    "Rabbinic Judaism",
+    "Confucianism",
+    "Neo-Confucianism",
+    "Daoism",
+    "Legalism",
+    "Mohism",
+    "Early Buddhism",
+    "Zen Buddhism",
+    "Kyoto School",
+    "Indian Classical Philosophy",
+    "Vedanta",
+    "Rationalism",
+    "Empiricism",
+    "British Empiricism",
+    "Scottish Enlightenment",
+    "Critical Philosophy",
+    "German Idealism",
+    "Utilitarianism",
+    "Pragmatism",
+    "Existentialism",
+    "Phenomenology",
+    "Analytic Philosophy",
+    "Critical Rationalism",
+    "Transcendentalism",
+    "Process Philosophy",
+    "Feminist Philosophy",
+    "Africana Philosophy",
+    "Social Contract Theory",
+    "Political Liberalism",
+    "Philosophy of the Absurd",
+    "Dialogical Philosophy",
+    "Renaissance Humanism",
+    "Voluntarism",
+    "Philosophy of Will",
+    "Logotherapy",
+    "Modern New Confucianism",
+    "Military Thought",
+    "Religious Existentialism",
+    "Christian Existential Precursor",
+    "Platonic Moral Philosophy"
+  ],
+  "remap": {
+    "Philosophy of Life": {
+      "Friedrich Nietzsche": "Philosophy of Will",
+      "Henri Bergson": "Process Philosophy"
+    },
+    "Philosophy of life": {
+      "Henri Bergson": "Process Philosophy"
+    },
+    "Enlightenment": {
+      "Voltaire": "Political Liberalism",
+      "Jean-Jacques Rousseau": "Social Contract Theory"
+    },
+    "Enlightenment / Social Contract": {
+      "*": "Social Contract Theory"
+    },
+    "Political Philosophy": {
+      "Hannah Arendt": "Political Liberalism",
+      "John Locke": "Social Contract Theory",
+      "Alexis de Tocqueville": "Political Liberalism"
+    },
+    "Political philosophy": {
+      "Hannah Arendt": "Political Liberalism"
+    },
+    "Modern Political Philosophy": {
+      "Thomas Hobbes": "Social Contract Theory"
+    },
+    "Roman Philosophy": {
+      "Cicero": "Stoicism"
+    },
+    "Roman Literary Thought": {
+      "Horace": "Stoicism",
+      "Ovid": "Renaissance Humanism"
+    },
+    "Moral Philosophy": {
+      "Simone Weil": "Religious Existentialism",
+      "David Hume": "Scottish Enlightenment",
+      "Adam Smith": "Scottish Enlightenment",
+      "Iris Murdoch": "Platonic Moral Philosophy"
+    },
+    "Philosophy of Existence": {
+      "Karl Jaspers": "Existentialism"
+    },
+    "Early Modern Thought": {
+      "Blaise Pascal": "Christian Existential Precursor"
+    },
+    "Medieval Thought": {
+      "Dante Alighieri": "Scholasticism"
+    },
+    "Analytic philosophy": { "*": "Analytic Philosophy" },
+    "German idealism": { "*": "German Idealism" },
+    "Islamic philosophy": { "*": "Islamic Philosophy" },
+    "Critical rationalism": { "*": "Critical Rationalism" },
+    "Process philosophy": { "*": "Process Philosophy" },
+    "Philosophy of the absurd": { "*": "Philosophy of the Absurd" },
+    "Zen / Chan": { "*": "Zen Buddhism" },
+    "Chan / Zen": { "*": "Zen Buddhism" },
+    "Chan / Zen Buddhism": { "*": "Zen Buddhism" },
+    "Epicurean School": { "*": "Epicureanism" }
+  }
+}
