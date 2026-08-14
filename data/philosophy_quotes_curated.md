@@ -1,11 +1,11 @@
-# Daily Philosophy Quotes · Global (Curated Edition v4.3)
+# Daily Philosophy Quotes · Global (Curated Edition v5.0)
 
-# 每日哲学金句库 · 全球哲学家卷（精选版 v4.3）
+# 每日哲学金句库 · 全球哲学家卷（精选版 v5.0）
 
-> **Document Version / 文档版本**: v4.3 Verified / 核验精选版（全球扩充至 500 条）
-> **Generated / 生成日期**: 2026-07-25
-> **Total Entries / 条目总数**: 500
-> **Coverage / 覆盖范围**: Global East & West, ancient–modern; Greco-Roman, European, American, Chinese, Indian, Buddhist, Jewish, Islamic, Japanese / 全球古今：希腊罗马、欧陆英美、中国、印度、佛教、犹太、伊斯兰、日本
+> **Document Version / 文档版本**: v5.0 Verified / 核验精选版（全球扩充至约 670 条）
+> **Generated / 生成日期**: 2026-08-14
+> **Total Entries / 条目总数**: 673
+> **Coverage / 覆盖范围**: Global East & West, ancient–modern; Greco-Roman, European, American, Chinese, Indian, Buddhist, Jewish, Islamic, Japanese, Africana & African diaspora, expanded women philosophers, deepened Islamic–Jewish medieval, Kyoto School & Latin American buffer / 全球古今：希腊罗马、欧陆英美、中国、印度、佛教、犹太、伊斯兰、日本，并扩充非洲／非裔、女性哲学家、伊斯兰–犹太中世纪，以及京都学派与拉美缓冲
 
 ---
 
@@ -8043,6 +8043,331 @@
 - **置信度 / Confidence**: ★ (High)
 - **备注 / Note**: 维雷杜概念去殖民化的语言学起点之一；后续论证指向「being so」。
 
+#### Q0649
+
+- **作者 / Author**: 西田几多郎（1870–1945） / Nishida Kitaro (1870–1945)
+- **学派 / School**: 京都学派 / Kyoto School
+- **出处 / Source**: 《场所的逻辑与宗教的世界观》／"The Logic of the Place of Nothingness and the Religious Worldview," in Last Writings (Dilworth, p. 91)
+- **原文语言 / Language**: 日语（通行英译） / Japanese (standard English rendering)
+- **原文 / Original**: There must be an overturning, a radical conversion of mind, in any religion. Without it there is no religion.
+- **英译 / English**: There must be an overturning, a radical conversion of mind, in any religion. Without it there is no religion.
+- **中译 / Chinese**: 任何宗教都必须有一种翻转、一种心智的根本皈依。没有它，就没有宗教。
+- **主题 / Themes**: 宗教、皈依、绝对否定 / Religion, Conversion, Absolute Negation
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 日文原句未逐字录入；据 Dilworth 通行英译（Last Writings, 91），故☆。深化西田后期「绝对否定之绝对肯定」宗教逻辑，区别于《善的研究》纯粹经验诸条。
+
+#### Q0650
+
+- **作者 / Author**: 西田几多郎（1870–1945） / Nishida Kitaro (1870–1945)
+- **学派 / School**: 京都学派 / Kyoto School
+- **出处 / Source**: 《场所的逻辑与宗教的世界观》／Last Writings (Dilworth, p. 78)
+- **原文语言 / Language**: 日语（通行英译） / Japanese (standard English rendering)
+- **原文 / Original**: The religious consciousness does not arise out of our own selves; it is simultaneously the call of God or Buddha.
+- **英译 / English**: The religious consciousness does not arise out of our own selves; it is simultaneously the call of God or Buddha.
+- **中译 / Chinese**: 宗教意识并非单由我们自身生出；它同时也是神或佛的召唤。
+- **主题 / Themes**: 宗教意识、他力、自我否定 / Religious Consciousness, Other-Power, Self-Negation
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Dilworth 英译作原文栏，故☆。西田以此消解「自力／他力」的简单对立。
+
+#### Q0651
+
+- **作者 / Author**: 西田几多郎（1870–1945） / Nishida Kitaro (1870–1945)
+- **学派 / School**: 京都学派 / Kyoto School
+- **出处 / Source**: 《场所的逻辑与宗教的世界观》／Last Writings (Dilworth; cf. Ontological Atlas summary of §III)
+- **原文语言 / Language**: 日语（通行英译） / Japanese (standard English rendering)
+- **原文 / Original**: The absolute is the absolutely contradictory self-identity of absolute being and absolute nothingness — and this is what religious experience discloses.
+- **英译 / English**: The absolute is the absolutely contradictory self-identity of absolute being and absolute nothingness — and this is what religious experience discloses.
+- **中译 / Chinese**: 绝对者是绝对存在与绝对无的绝对矛盾的自我同一——而这正是宗教经验所揭示的。
+- **主题 / Themes**: 绝对无、矛盾的自我同一、宗教经验 / Absolute Nothingness, Contradictory Self-Identity, Religious Experience
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 据 Dilworth 英译脉络的通行表述；措辞略经压缩，故☆。对应西田晚年「绝对矛盾的自我同一」。
+
+#### Q0652
+
+- **作者 / Author**: 西谷启治（1900–1990） / Nishitani Keiji (1900–1990)
+- **学派 / School**: 京都学派 / Kyoto School
+- **出处 / Source**: 《宗教是什么》／Religion and Nothingness, trans. Jan Van Bragt, p. 3
+- **原文语言 / Language**: 日语（通行英译） / Japanese (standard English rendering)
+- **原文 / Original**: For what purpose do I exist?
+- **英译 / English**: For what purpose do I exist?
+- **中译 / Chinese**: 我为何而存在？
+- **主题 / Themes**: 存在、意义、宗教探求 / Existence, Meaning, Religious Quest
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Van Bragt 英译作原文栏，故☆。西谷以这一根本疑问开启宗教哲学。
+
+#### Q0653
+
+- **作者 / Author**: 西谷启治（1900–1990） / Nishitani Keiji (1900–1990)
+- **学派 / School**: 京都学派 / Kyoto School
+- **出处 / Source**: 《宗教是什么》／Religion and Nothingness (Van Bragt, p. 3)
+- **原文语言 / Language**: 日语（通行英译） / Japanese (standard English rendering)
+- **原文 / Original**: At the point of our deepest questioning of ourselves, the religious quest awakens in us.
+- **英译 / English**: At the point of our deepest questioning of ourselves, the religious quest awakens in us.
+- **中译 / Chinese**: 正是在我们最深地追问自身之处，宗教探求在我们之中觉醒。
+- **主题 / Themes**: 自我、怀疑、宗教 / Self, Doubt, Religion
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Van Bragt 通行英译，故☆。
+
+#### Q0654
+
+- **作者 / Author**: 西谷启治（1900–1990） / Nishitani Keiji (1900–1990)
+- **学派 / School**: 京都学派 / Kyoto School
+- **出处 / Source**: 《宗教是什么》／Religion and Nothingness (Van Bragt, p. 10)
+- **原文语言 / Language**: 日语（通行英译） / Japanese (standard English rendering)
+- **原文 / Original**: So long as the field of separation between within and without is not broken through, and so long as a conversion from that standpoint does not take place, the lack of unity and contradiction spoken of earlier cannot help but prevail among the things we take as real.
+- **英译 / English**: So long as the field of separation between within and without is not broken through, and so long as a conversion from that standpoint does not take place, the lack of unity and contradiction spoken of earlier cannot help but prevail among the things we take as real.
+- **中译 / Chinese**: 只要内外分离的场域未被突破，只要尚未从那一立场发生转向，先前所谓的不统一与矛盾，便不可避免地支配着我们认作实在的事物。
+- **主题 / Themes**: 主客分离、空、转向 / Subject-Object Split, Emptiness, Conversion
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Van Bragt 英译；略长但为经典可读代表句。
+
+#### Q0655
+
+- **作者 / Author**: 西谷启治（1900–1990） / Nishitani Keiji (1900–1990)
+- **学派 / School**: 京都学派 / Kyoto School
+- **出处 / Source**: 《宗教是什么》／Religion and Nothingness (Van Bragt; discussion of śūnyatā)
+- **原文语言 / Language**: 日语（通行英译） / Japanese (standard English rendering)
+- **原文 / Original**: Nothingness in the sense of emptiness (śūnyatā) is not separate from being, but always in a relationship with being: being-sive-nothingness, nothingness-sive-being.
+- **英译 / English**: Nothingness in the sense of emptiness (śūnyatā) is not separate from being, but always in a relationship with being: being-sive-nothingness, nothingness-sive-being.
+- **中译 / Chinese**: 空（śūnyatā）意义上的无，并不与有相隔绝，而始终与有处在关系之中：有即无、无即有。
+- **主题 / Themes**: 空、虚无、存在 / Emptiness, Nihility, Being
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 据 Van Bragt 译本中西谷对「即」（sive）结构的通行英译概括，故☆；区分「虚无」(nihility) 与「空」。
+
+#### Q0656
+
+- **作者 / Author**: 西谷启治（1900–1990） / Nishitani Keiji (1900–1990)
+- **学派 / School**: 京都学派 / Kyoto School
+- **出处 / Source**: 《宗教是什么》／Religion and Nothingness (Van Bragt, opening discussion of religion)
+- **原文语言 / Language**: 日语（通行英译） / Japanese (standard English rendering)
+- **原文 / Original**: Religion cannot be fully understood either within the parameters of utility or from a sociological viewpoint alone.
+- **英译 / English**: Religion cannot be fully understood either within the parameters of utility or from a sociological viewpoint alone.
+- **中译 / Chinese**: 宗教既不能单凭效用参数来充分理解，也不能仅从社会学观点来充分理解。
+- **主题 / Themes**: 宗教、理解、意义 / Religion, Understanding, Meaning
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 据 Van Bragt／学术转述的西谷开篇论点压缩，故☆。
+
+#### Q0657
+
+- **作者 / Author**: 和辻哲郎（1889–1960） / Watsuji Tetsuro (1889–1960)
+- **学派 / School**: 京都学派 / Kyoto School
+- **出处 / Source**: 《伦理学》／Rinrigaku: Ethics in Japan, trans. Yamamoto & Carter, p. 10
+- **原文语言 / Language**: 日语（通行英译） / Japanese (standard English rendering)
+- **原文 / Original**: The locus of ethical problems lies not in the consciousness of the isolated individual, but precisely in the in-betweenness of person and person.
+- **英译 / English**: The locus of ethical problems lies not in the consciousness of the isolated individual, but precisely in the in-betweenness of person and person.
+- **中译 / Chinese**: 伦理问题的所在，不在孤立个体的意识之中，而恰恰在人与人之间的「间柄」。
+- **主题 / Themes**: 伦理、间柄、人际关系 / Ethics, Betweenness, Interpersonal Relation
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Yamamoto/Carter 通行英译作原文栏，故☆。aidagara（间柄）是和辻伦理学关键词。
+
+#### Q0658
+
+- **作者 / Author**: 和辻哲郎（1889–1960） / Watsuji Tetsuro (1889–1960)
+- **学派 / School**: 京都学派 / Kyoto School
+- **出处 / Source**: 《伦理学》／Rinrigaku (Yamamoto & Carter; SEP “Watsuji Tetsurō”)
+- **原文语言 / Language**: 日语（通行英译） / Japanese (standard English rendering)
+- **原文 / Original**: Ethics is, in the final analysis, the study of ningen — the human person as both individual and social, as “betweenness.”
+- **英译 / English**: Ethics is, in the final analysis, the study of ningen — the human person as both individual and social, as “betweenness.”
+- **中译 / Chinese**: 伦理学归根结底是关于「人间」（ningen）的研究——作为既是个人又是社会、作为「间」的人。
+- **主题 / Themes**: 人间、自我、社会 / Human Being, Self, Society
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 据 Yamamoto/Carter 与 SEP 对和辻「人间」词源分析的通行英译概括，故☆。
+
+#### Q0659
+
+- **作者 / Author**: 和辻哲郎（1889–1960） / Watsuji Tetsuro (1889–1960)
+- **学派 / School**: 京都学派 / Kyoto School
+- **出处 / Source**: 《风土》／Climate and Culture (Fūdo), trans. Geoffrey Bownas, p. 1
+- **原文语言 / Language**: 日语（通行英译） / Japanese (standard English rendering)
+- **原文 / Original**: Fūdo means wind and earth — the natural environment of a given land.
+- **英译 / English**: Fūdo means wind and earth — the natural environment of a given land.
+- **中译 / Chinese**: 「风土」意指风与土——某一土地的自然环境。
+- **主题 / Themes**: 风土、环境、文化 / Climate, Environment, Culture
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Bownas 英译开篇定义；和辻随即强调风土亦塑造生活方式与文化，而非纯客观自然。
+
+#### Q0660
+
+- **作者 / Author**: 和辻哲郎（1889–1960） / Watsuji Tetsuro (1889–1960)
+- **学派 / School**: 京都学派 / Kyoto School
+- **出处 / Source**: 《风土》／Climate and Culture (Bownas; intentional experience of cold)
+- **原文语言 / Language**: 日语（通行英译） / Japanese (standard English rendering)
+- **原文 / Original**: We discover ourselves in the cold — and in the same moment we discover the cold in ourselves — before any sharp division of subject and object.
+- **英译 / English**: We discover ourselves in the cold — and in the same moment we discover the cold in ourselves — before any sharp division of subject and object.
+- **中译 / Chinese**: 我们在寒冷中发现自己——同时在自己之中发现寒冷——这发生在主客截然二分之前。
+- **主题 / Themes**: 身体、环境、意向性 / Body, Environment, Intentionality
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 据 Bownas／学术转述对「冷」之体验分析的压缩英译，故☆；对接西田「纯粹经验」脉络。
+
+#### Q0661
+
+- **作者 / Author**: 龙树（约150–250） / Nagarjuna (c. 150–250)
+- **学派 / School**: 大乘佛教 / Mahayana Buddhism
+- **出处 / Source**: 《中论》24.18／Mūlamadhyamakakārikā 24.18 (Garfield)
+- **原文语言 / Language**: 梵语 / Sanskrit
+- **原文 / Original**: yaḥ pratītyasamutpādaḥ śūnyatāṃ tāṃ pracakṣmahe | sā prajñaptir upādāya pratipat saiva madhyamā ||
+- **英译 / English**: Whatever is dependently co-arisen, that is explained to be emptiness. That, being a dependent designation, is itself the middle way.
+- **中译 / Chinese**: 众因缘生法，我说即是空；亦为是假名，亦是中道义。
+- **主题 / Themes**: 缘起、空、中道 / Dependent Origination, Emptiness, Middle Way
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 梵文据通行校勘；英译采 Garfield；中译采鸠摩罗什《中论》传统对应句。
+
+#### Q0662
+
+- **作者 / Author**: 龙树（约150–250） / Nagarjuna (c. 150–250)
+- **学派 / School**: 大乘佛教 / Mahayana Buddhism
+- **出处 / Source**: 《中论》1.1／Mūlamadhyamakakārikā 1.1 (Garfield)
+- **原文语言 / Language**: 梵语 / Sanskrit
+- **原文 / Original**: na svato nāpi parato na dvābhyāṃ nāpy ahetutaḥ | utpannā jātu vidyante bhāvāḥ kva cana ke cana ||
+- **英译 / English**: Neither from itself nor from another, nor from both, nor without a cause, does anything whatever, anywhere arise.
+- **中译 / Chinese**: 诸法不自生，亦不从他生，不共不无因，是故知无生。
+- **主题 / Themes**: 缘起、因果、空 / Causation, Emptiness, Non-arising
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 开篇「四句否定」；中译据罗什传统。
+
+#### Q0663
+
+- **作者 / Author**: 龙树（约150–250） / Nagarjuna (c. 150–250)
+- **学派 / School**: 大乘佛教 / Mahayana Buddhism
+- **出处 / Source**: 《中论》25.19／Mūlamadhyamakakārikā 25.19 (Garfield / Siderits–Katsura)
+- **原文语言 / Language**: 梵语 / Sanskrit
+- **原文 / Original**: na saṃsārasya nirvāṇāt kiṃcid asti viśeṣaṇam | na nirvāṇasya saṃsārāt kiṃcid asti viśeṣaṇam ||
+- **英译 / English**: There is not the slightest difference between cyclic existence and nirvana. There is not the slightest difference between nirvana and cyclic existence.
+- **中译 / Chinese**: 涅槃与世间，无有少分别；世间与涅槃，亦无少分别。
+- **主题 / Themes**: 涅槃、轮回、空 / Nirvana, Samsara, Emptiness
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0664
+
+- **作者 / Author**: 龙树（约150–250） / Nagarjuna (c. 150–250)
+- **学派 / School**: 大乘佛教 / Mahayana Buddhism
+- **出处 / Source**: 《中论》24.19／Mūlamadhyamakakārikā 24.19 (Garfield)
+- **原文语言 / Language**: 梵语 / Sanskrit
+- **原文 / Original**: apratītyasamutpanno dharmaḥ kaścin na vidyate | yasmāt tasmād aśūnyo hi dharmaḥ kaścin na vidyate ||
+- **英译 / English**: Something that is not dependently arisen — such a thing does not exist. Therefore a non-empty thing does not exist.
+- **中译 / Chinese**: 未曾有一法，不从因缘生，是故一切法，无不是空者。
+- **主题 / Themes**: 缘起、空、法 / Dependent Origination, Emptiness, Dharma
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 紧接 24.18；强化「无自性」推论。
+
+#### Q0665
+
+- **作者 / Author**: 陈那（约480–540） / Dignaga (c. 480–540)
+- **学派 / School**: 印度古典哲学 / Indian Classical Philosophy
+- **出处 / Source**: 《集量论》／Pramāṇasamuccaya I (perception definition)
+- **原文语言 / Language**: 梵语 / Sanskrit
+- **原文 / Original**: pratyakṣaṃ kalpanāpoḍham
+- **英译 / English**: Perception is free from conceptual construction.
+- **中译 / Chinese**: 现量离分别。
+- **主题 / Themes**: 知觉、知识、分别 / Perception, Knowledge, Conceptual Construction
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 陈那现量定义核心公式；后续「无分别」讨论见各注疏传统。
+
+#### Q0666
+
+- **作者 / Author**: 陈那（约480–540） / Dignaga (c. 480–540)
+- **学派 / School**: 印度古典哲学 / Indian Classical Philosophy
+- **出处 / Source**: 《集量论》／Pramāṇasamuccaya (two instruments of knowledge; standard summary)
+- **原文语言 / Language**: 梵语（通行英译） / Sanskrit (standard English rendering)
+- **原文 / Original**: There are only two instruments of knowledge: perception and inference.
+- **英译 / English**: There are only two instruments of knowledge: perception and inference.
+- **中译 / Chinese**: 量唯有二：现量与比量。
+- **主题 / Themes**: 知识、推理、认识论 / Knowledge, Inference, Epistemology
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 据 Pramāṇasamuccaya 开篇论旨的通行英译概括，故☆；梵文全句因校本异文未强录。
+
+#### Q0667
+
+- **作者 / Author**: 莱奥波尔多·塞亚（1912–2004） / Leopoldo Zea (1912–2004)
+- **学派 / School**: 历史哲学 / Philosophy of History
+- **出处 / Source**: 《美洲作为意识》相关论说（1948）／cited in SEP “Latin American Philosophy: Metaphilosophical Foundations” (Zea 1948, p. 226)
+- **原文语言 / Language**: 西班牙语（通行英译） / Spanish (standard English rendering)
+- **原文 / Original**: The abstract issues [of philosophy] will have to be seen from the Latin American man’s own circumstance. … When we [Latin Americans] address abstract issues, we shall formulate them as issues of our own.
+- **英译 / English**: The abstract issues [of philosophy] will have to be seen from the Latin American man’s own circumstance. … When we [Latin Americans] address abstract issues, we shall formulate them as issues of our own.
+- **中译 / Chinese**: 哲学的抽象问题必须从拉丁美洲人自身的境况来看。……当我们［拉丁美洲人］讨论抽象问题时，我们要把它们表述为我们自己的问题。
+- **主题 / Themes**: 境况、拉丁美洲、哲学 / Circumstance, Latin America, Philosophy
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 英译据 SEP 引 Zea 1948, p. 226；西班牙语原文未并录，故☆。塞亚「境况主义」经典表述。
+
+#### Q0668
+
+- **作者 / Author**: 莱奥波尔多·塞亚（1912–2004） / Leopoldo Zea (1912–2004)
+- **学派 / School**: 历史哲学 / Philosophy of History
+- **出处 / Source**: 《哲学作为承诺》（1952）／Philosophy as Commitment (1952 [2017: 137]); SEP “Mexican Existentialism”
+- **原文语言 / Language**: 西班牙语（通行英译） / Spanish (standard English rendering)
+- **原文 / Original**: If we are to be faithful to our calling, we have to affirm that our situation is not that of Jean-Paul Sartre. Our situation is not that of the European bourgeoisie.
+- **英译 / English**: If we are to be faithful to our calling, we have to affirm that our situation is not that of Jean-Paul Sartre. Our situation is not that of the European bourgeoisie.
+- **中译 / Chinese**: 若要忠于我们的使命，我们必须确认：我们的处境并非萨特的处境，也不是欧洲资产阶级的处境。
+- **主题 / Themes**: 处境、承诺、拉丁美洲 / Situation, Commitment, Latin America
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 据 SEP 引 1952／2017 英译，故☆。
+
+#### Q0669
+
+- **作者 / Author**: 莱奥波尔多·塞亚（1912–2004） / Leopoldo Zea (1912–2004)
+- **学派 / School**: 历史哲学 / Philosophy of History
+- **出处 / Source**: 论美洲哲学之普遍性（通行文化主义表述）／culturalist thesis summarized in SEP “Latin American Philosophy”
+- **原文语言 / Language**: 西班牙语（通行英译） / Spanish (standard English rendering)
+- **原文 / Original**: Philosophy is a historical enterprise: truth is perspectival, and Latin American philosophy exists wherever Latin Americans elaborate a general point of view from their own cultural perspective.
+- **英译 / English**: Philosophy is a historical enterprise: truth is perspectival, and Latin American philosophy exists wherever Latin Americans elaborate a general point of view from their own cultural perspective.
+- **中译 / Chinese**: 哲学是一项历史事业：真理具有视角性；只要拉丁美洲人从自身文化视角阐发一种总体观点，拉丁美洲哲学便存在。
+- **主题 / Themes**: 历史、视角、文化 / History, Perspective, Culture
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 据 SEP 对塞亚文化主义立场的忠实压缩，非单页逐字引文，故☆。
+
+#### Q0670
+
+- **作者 / Author**: 恩里克·杜塞尔（1934–2023） / Enrique Dussel (1934–2023)
+- **学派 / School**: 政治现象学 / Political Phenomenology
+- **出处 / Source**: 《解放哲学》1.1.2.2／Philosophy of Liberation §1.1.2.2 (Martínez)
+- **原文语言 / Language**: 西班牙语（通行英译） / Spanish (standard English rendering)
+- **原文 / Original**: Before the ego cogito there is an ego conquiro; “I conquer” is the practical foundation of “I think.”
+- **英译 / English**: Before the ego cogito there is an ego conquiro; “I conquer” is the practical foundation of “I think.”
+- **中译 / Chinese**: 在「我思」之前，已有「我征服」；「我征服」是「我思」的实践基础。
+- **主题 / Themes**: 现代性、殖民、主体 / Modernity, Colonialism, Subject
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Martínez 英译本通行句；西语原文未并录，故☆。
+
+#### Q0671
+
+- **作者 / Author**: 恩里克·杜塞尔（1934–2023） / Enrique Dussel (1934–2023)
+- **学派 / School**: 政治现象学 / Political Phenomenology
+- **出处 / Source**: 《解放哲学》1.1.7.2／Philosophy of Liberation §1.1.7.2 (Martínez)
+- **原文语言 / Language**: 西班牙语（通行英译） / Spanish (standard English rendering)
+- **原文 / Original**: From the “I conquer” applied to the Aztec and Inca world and all America, from the “I enslave” applied to Africans … from this “I” appears the Cartesian ego cogito.
+- **英译 / English**: From the “I conquer” applied to the Aztec and Inca world and all America, from the “I enslave” applied to Africans … from this “I” appears the Cartesian ego cogito.
+- **中译 / Chinese**: 从施加于阿兹特克与印加世界及整个美洲的「我征服」，从施加于非洲人的「我奴役」……从这个「我」中，出现了笛卡尔的「我思」。
+- **主题 / Themes**: 征服、奴役、笛卡尔 / Conquest, Slavery, Descartes
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Martínez 英译节选（省略号标省略），故☆。
+
+#### Q0672
+
+- **作者 / Author**: 恩里克·杜塞尔（1934–2023） / Enrique Dussel (1934–2023)
+- **学派 / School**: 政治现象学 / Political Phenomenology
+- **出处 / Source**: 《解放哲学》1.1.3.1／Philosophy of Liberation §1.1.3.1 (Martínez)
+- **原文语言 / Language**: 西班牙语（通行英译） / Spanish (standard English rendering)
+- **原文 / Original**: Philosophy, when it is really philosophy and not sophistry or ideology, does not ponder philosophy. … Philosophy ponders the nonphilosophical; the reality.
+- **英译 / English**: Philosophy, when it is really philosophy and not sophistry or ideology, does not ponder philosophy. … Philosophy ponders the nonphilosophical; the reality.
+- **中译 / Chinese**: 当哲学真正是哲学而非诡辩或意识形态时，它并不沉思哲学本身。……哲学沉思的是非哲学的东西：现实。
+- **主题 / Themes**: 哲学、现实、边缘 / Philosophy, Reality, Periphery
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Martínez 英译；杜塞尔边缘地缘哲学方法论要点。
+
+#### Q0673
+
+- **作者 / Author**: 恩里克·杜塞尔（1934–2023） / Enrique Dussel (1934–2023)
+- **学派 / School**: 政治现象学 / Political Phenomenology
+- **出处 / Source**: 《解放哲学》前言／Philosophy of Liberation, Preface (Martínez)
+- **原文语言 / Language**: 西班牙语（通行英译） / Spanish (standard English rendering)
+- **原文 / Original**: Written from the periphery, for persons and peoples of the periphery, this book nonetheless also addresses readers in the center of the present world system.
+- **英译 / English**: Written from the periphery, for persons and peoples of the periphery, this book nonetheless also addresses readers in the center of the present world system.
+- **中译 / Chinese**: 本书写自边缘、为边缘的人与民族而写，却也同时面向当今世界体系中心的读者。
+- **主题 / Themes**: 边缘、解放、世界体系 / Periphery, Liberation, World System
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: Martínez 英译前言；标明流亡墨西哥时的写作处境。
+
+
 ---
 
 ## Appendix / 附录
@@ -8085,9 +8410,9 @@
 
 ### Document Metadata / 文档元数据
 
-- Version: v4.3 Verified Curated (Global Expanded)
-- Entries: 500 (Western 133 + Chinese 47 + Global 40 + Expansion 280)
+- Version: v5.0 Verified Curated (Global Expanded)
+- Entries: 673 (base revised + women / Islamic–Jewish medieval / Africana pillars + Kyoto–Indian–Latin American buffer)
 - Backup: philosophy_quotes_curated_v3.2_backup.md
-- Expansion notes: candidates filtered against originals/EN/ZH fingerprints; known misattributions excluded or noted; final audit 2026-07-25.
+- Expansion notes: v5.0 buffer + pillar expansion audit 2026-08-14; candidates filtered against originals/EN/ZH fingerprints; known misattributions excluded or noted.
 
 ---

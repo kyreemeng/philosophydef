@@ -510,11 +510,11 @@ EOF
 - Modify: `data/philosophy_quotes_curated.md`
 - Header version block at top of the Markdown file → bump to **v5.0**
 
-- [ ] **Step 1: Add buffer entries** from: Kyoto School (Nishida deepen, Nishitani, Watsuji), Nāgārjuna or Dignāga (if quotable), selected Latin American (e.g. Zea, Dussel — only citable lines).
+- [x] **Step 1: Add buffer entries** from: Kyoto School (Nishida deepen, Nishitani, Watsuji), Nāgārjuna or Dignāga (if quotable), selected Latin American (e.g. Zea, Dussel — only citable lines).
 
-- [ ] **Step 2: Replace weakest existing entries** if total would exceed 700 — prefer dropping untraceable or purely literary lines (weak Ovid/Horace/Dante slots) over cutting new pillar entries.
+- [x] **Step 2: Replace weakest existing entries** if total would exceed 700 — prefer dropping untraceable or purely literary lines (weak Ovid/Horace/Dante slots) over cutting new pillar entries.
 
-- [ ] **Step 3: Ensure contiguous unique IDs `Q0001`…`Q0N` with no duplicates**
+- [x] **Step 3: Ensure contiguous unique IDs `Q0001`…`Q0N` with no duplicates**
 
 ```bash
 node -e "
@@ -527,9 +527,9 @@ console.log('count',ids.length,'dups',dup);
 
 Expected: `dups []`, count ∈ 650–700.
 
-- [ ] **Step 4: Update Markdown header** (totals, version v5.0, date, coverage sentence including Africana).
+- [x] **Step 4: Update Markdown header** (totals, version v5.0, date, coverage sentence including Africana).
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add data/philosophy_quotes_curated.md src/data/quotes.json

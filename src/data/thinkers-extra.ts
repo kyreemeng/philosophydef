@@ -674,14 +674,24 @@ export const extraThinkerGuides: Record<string, ThinkerGuide> = {
     birthDate: "1870-05-19",
     deathDate: "1945-06-07",
     jobTitle: "Philosopher",
-    knowsAbout: ["pure experience", "nothingness", "self", "logic of place", " Zen"],
+    knowsAbout: [
+      "pure experience",
+      "absolute nothingness",
+      "logic of place (basho)",
+      "contradictory self-identity",
+      "philosophy of religion",
+    ],
     overview:
-      "Nishida Kitarō (1870–1945) founded the Kyoto School, bringing Zen-influenced concepts into dialogue with Western philosophy.",
+      "Nishida Kitarō (1870–1945) founded the Kyoto School at Kyoto Imperial University, forging a modern Japanese philosophy in dialogue with James, Bergson, Neo-Kantianism, and Zen practice. An Inquiry into the Good (1911) made ‘pure experience’ his early keystone; later essays develop the logic of basho (place) and absolute nothingness. His final major essay, The Logic of the Place of Nothingness and the Religious Worldview (1945), ties religious conversion to absolutely contradictory self-identity.",
     ideas:
-      "Pure experience precedes subject–object split; later logic of basho (place) and absolute nothingness reframe self and world. Nishida seeks a philosophy adequate to both modern science and East Asian insight.",
-    works: ["An Inquiry into the Good", "Fundamental Problems of Philosophy"],
+      "Early Nishida treats pure experience as immediate knowing prior to subject–object split, and the good as realization of personality. Mature Nishida relocates reality in the self-determining place of absolute nothingness: individuals arise as determinations of that place. Religious consciousness is not mere self-power; it is simultaneously the call of God or Buddha, grasped by a logic of absolute affirmation through absolute negation.",
+    works: [
+      "An Inquiry into the Good",
+      "Fundamental Problems of Philosophy",
+      "Last Writings: Nothingness and the Religious Worldview",
+    ],
     legacy:
-      "Nishida remains central to modern Japanese philosophy and comparative metaphysics.",
+      "Nishida set the agenda for Kyoto School metaphysics and comparative philosophy of religion; Nishitani, Tanabe, and later comparative theologians continually return to basho and absolute nothingness.",
   },
   "Hu Shi": {
     lifespan: "1891–1962",
@@ -1627,5 +1637,115 @@ export const extraThinkerGuides: Record<string, ThinkerGuide> = {
     ],
     legacy:
       "Ramose made ubuntu available as rigorous philosophy rather than slogan, influencing debates on African humanism, law, and post-apartheid ethics.",
+  },
+  "Nishitani Keiji": {
+    lifespan: "1900–1990",
+    school: "Kyoto School",
+    birthDate: "1900-02-27",
+    deathDate: "1990-11-26",
+    jobTitle: "Philosopher of religion",
+    knowsAbout: ["emptiness (śūnyatā)", "nihility", "Zen", "nihilism", "self"],
+    overview:
+      "Nishitani Keiji (1900–1990) was Nishida’s student and a central second-generation Kyoto School figure. Educated in Japan and briefly in Germany under Heidegger’s orbit, he taught at Kyoto University and wrote Religion and Nothingness (Japanese Shūkyō to wa nanika), which confronts modern nihilism through Zen and Mahāyāna emptiness.",
+    ideas:
+      "Religion begins in the question of why I exist; at deepest self-doubt the religious quest awakens. Nishitani distinguishes relative nihility from absolute emptiness (śūnyatā): only by breaking the field of inner/outer separation can being-sive-nothingness be realized. Emptiness is not a thing beneath beings but the field where things are themselves in mutual non-obstruction.",
+    works: [
+      "Religion and Nothingness",
+      "The Self-Overcoming of Nihilism",
+      "essays on Zen and Western philosophy",
+    ],
+    legacy:
+      "Nishitani remains a primary bridge between Kyoto School metaphysics, existential nihilism, and contemporary philosophy of religion.",
+  },
+  "Watsuji Tetsuro": {
+    lifespan: "1889–1960",
+    school: "Kyoto School",
+    birthDate: "1889-03-01",
+    deathDate: "1960-12-26",
+    jobTitle: "Ethicist and cultural philosopher",
+    knowsAbout: ["betweenness (aidagara)", "ningen", "climate (fūdo)", "ethics", "space"],
+    overview:
+      "Watsuji Tetsurō (1889–1960) was a Japanese ethicist associated with Kyoto intellectual life who criticized Heidegger for privileging temporality and the isolated individual. Climate and Culture (Fūdo) and the multi-volume Rinrigaku relocate ethics in betweenness (aidagara) and in the spatial-climatic milieu that shapes persons.",
+    ideas:
+      "Ningen (human being) compounds person and between-space: ethics studies the in-betweenness of person and person, not solitary conscience. Fūdo (wind-and-earth) is lived climate-culture before subject–object split—cold is discovered with and in the self. Spatiality and sociality correct Western individualism without erasing individuality.",
+    works: [
+      "Climate and Culture (Fūdo)",
+      "Rinrigaku (Ethics)",
+      "studies in Japanese cultural history",
+    ],
+    legacy:
+      "Watsuji shaped modern Japanese ethics, environmental philosophy, and comparative critiques of Heideggerian ontology.",
+  },
+  "Nagarjuna": {
+    lifespan: "c. 150–250",
+    school: "Mahayana Buddhism",
+    birthDate: "0150",
+    deathDate: "0250",
+    jobTitle: "Philosopher-monk",
+    knowsAbout: ["emptiness", "dependent origination", "middle way", "Madhyamaka"],
+    overview:
+      "Nāgārjuna (traditionally c. 2nd–3rd century CE) is the foundational Madhyamaka philosopher of Mahāyāna Buddhism. The Mūlamadhyamakakārikā analyzes causation, motion, self, and nirvana to show that all dharmas lack svabhāva (intrinsic nature).",
+    ideas:
+      "Whatever is dependently co-arisen is emptiness; emptiness as dependent designation is itself the middle way. Nothing arises from self, other, both, or no cause. There is not the slightest difference between saṃsāra and nirvāṇa when both are empty of intrinsic nature—emptiness is not a nihilistic void but the condition of conventional arising.",
+    works: [
+      "Mūlamadhyamakakārikā",
+      "Vigrahavyāvartanī",
+      "attributed hymns and letters in the Madhyamaka corpus",
+    ],
+    legacy:
+      "Nāgārjuna’s dialectic remains central to Tibetan, East Asian, and contemporary analytic Buddhist philosophy.",
+  },
+  "Dignaga": {
+    lifespan: "c. 480–540",
+    school: "Indian Classical Philosophy",
+    birthDate: "0480",
+    deathDate: "0540",
+    jobTitle: "Buddhist epistemologist",
+    knowsAbout: ["perception", "inference", "pramāṇa", "conceptual construction"],
+    overview:
+      "Dignāga (c. 480–540) founded the Buddhist pramāṇa (instruments of knowledge) tradition that reshaped Indian epistemology. His Pramāṇasamuccaya systematizes perception and inference against Nyāya and other schools.",
+    ideas:
+      "Only two pramāṇas: perception (pratyakṣa) and inference (anumāna). Perception is free from conceptual construction (kalpanāpoḍha); concepts and language belong to inference’s domain. This sharp cut between non-conceptual awareness and constructed generality frames later debates from Dharmakīrti to Indo-Tibetan scholasticism.",
+    works: ["Pramāṇasamuccaya", "Ālambanaparīkṣā", "Hetucakra"],
+    legacy:
+      "Dignāga set the terms for Buddhist logic and epistemology across India and Tibet; modern philosophy of mind still engages his perception/inference split.",
+  },
+  "Leopoldo Zea": {
+    lifespan: "1912–2004",
+    school: "Philosophy of History",
+    birthDate: "1912-08-30",
+    deathDate: "2004-06-08",
+    jobTitle: "Philosopher of history",
+    knowsAbout: ["circumstance", "Latin American identity", "historicism", "authenticity"],
+    overview:
+      "Leopoldo Zea (1912–2004) was a Mexican philosopher who argued that Latin American thought becomes authentic when it reflects on its own historical circumstance rather than imitating European systems. Works such as The Latin-American Mind and Philosophy as Commitment made circumstantialism a lasting metaphilosophical option.",
+    ideas:
+      "Abstract problems of being or God must be posed from Latin America’s own circumstance; solutions remain humanly universal yet perspectivally situated. Philosophy is historical and cultural: Latin American philosophy exists wherever Latin Americans elaborate a general point of view from their situation—including refusal to treat Sartrean or bourgeois European situations as normative.",
+    works: [
+      "The Latin-American Mind",
+      "Philosophy as Commitment",
+      "essays on dependency and American consciousness",
+    ],
+    legacy:
+      "Zea prepared the ground for later philosophy of liberation and remains central to debates on authenticity in Latin American metaphilosophy.",
+  },
+  "Enrique Dussel": {
+    lifespan: "1934–2023",
+    school: "Political Phenomenology",
+    birthDate: "1934-12-24",
+    deathDate: "2023-11-05",
+    jobTitle: "Philosopher of liberation",
+    knowsAbout: ["philosophy of liberation", "periphery", "colonial modernity", "ethics of the Other"],
+    overview:
+      "Enrique Dussel (1934–2023) was an Argentine-Mexican philosopher of liberation who wrote from geopolitical periphery—famously in Mexican exile—toward a worldwide philosophy. Philosophy of Liberation (1977) and later ethics of liberation fuse Levinasian exteriority with a critique of Eurocentric modernity since 1492.",
+    ideas:
+      "Before the ego cogito stands the ego conquiro: conquest and enslavement practically found modern ‘I think.’ Genuine philosophy ponders reality, not only texts, and peripheral intelligence can be clearest because it need not hide domination. Liberation philosophy addresses the wretched of the earth without treating the center as the only site of Being.",
+    works: [
+      "Philosophy of Liberation",
+      "Ethics of Liberation",
+      "1492: The Concealment of the Other",
+    ],
+    legacy:
+      "Dussel became a global reference for decolonial ethics, political theology, and critiques of modernity’s colonial underside.",
   },
 };
