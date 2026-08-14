@@ -6505,8 +6505,8 @@
 - **英译 / English**: Intentional action is action with a certain description under which it is intentional.
 - **中译 / Chinese**: 意向行动，是在某一描述之下可称为有意向的行动。
 - **主题 / Themes**: 意向、行动、描述 / Intention, Action, Description
-- **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 行动哲学核心命题：同一身体动作可在不同描述下或有意向或无意向。
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 《意向》核心论旨的通行压缩，非 §47 逐字摘录；同批可核验原句见相邻条目。 / Doctrinal compression of Intention’s thesis, not a verbatim §47 sentence; see neighboring entries for checkable wording.
 
 #### Q0529
 
@@ -6633,29 +6633,29 @@
 
 #### Q0539
 
-- **作者 / Author**: 亚历山大的希帕提娅（约350–415） / Hypatia of Alexandria (c. 350–415)
+- **作者 / Author**: 达玛修斯（记希帕提娅） / Damascius (on Hypatia)
 - **学派 / School**: 新柏拉图主义 / Neoplatonism
-- **出处 / Source**: 达玛修斯《伊西多罗斯传》（经《苏达辞书》转述） / Damascius, Life of Isidore (via the Suda)
+- **出处 / Source**: 达玛修斯《伊西多罗斯传》（经《苏达辞书》转述） / Damascius, Life of Isidore (via the Suda), on Hypatia
 - **原文语言 / Language**: 古希腊语（佚失转述） / Ancient Greek (lost; reported)
-- **原文 / Original**: （亲笔原文未存；据达玛修斯转述其公开讲授）
+- **原文 / Original**: （希帕提娅亲笔未存；据达玛修斯转述其公开讲授）
 - **英译 / English**: She was devoted to philosophy and explained it publicly to anyone who wished to hear.
 - **中译 / Chinese**: 她献身哲学，并向任何愿意聆听的人公开讲授。
 - **主题 / Themes**: 哲学、教育、公共 / Philosophy, Education, Public Life
 - **置信度 / Confidence**: ☆ (Medium)
-- **备注 / Note**: 希帕提娅无可靠亲笔引文存世；本条为晚期新柏拉图派对其公开讲学的见证概括，非第一人称原文。
+- **备注 / Note**: 关于希帕提娅的晚期见证，非其第一人称原文；作者标为达玛修斯以免站点误属。 / Late testimonium about Hypatia, not her first-person prose; attributed to Damascius to avoid site misattribution.
 
 #### Q0540
 
-- **作者 / Author**: 亚历山大的希帕提娅（约350–415） / Hypatia of Alexandria (c. 350–415)
+- **作者 / Author**: 辛奈修斯（记希帕提娅） / Synesius of Cyrene (on Hypatia)
 - **学派 / School**: 新柏拉图主义 / Neoplatonism
-- **出处 / Source**: 辛奈修斯致友人书信中的见证 / Synesius of Cyrene, Letter to Herculianus (testimonium)
+- **出处 / Source**: 辛奈修斯致友人书信中的见证 / Synesius of Cyrene, Letter to Herculianus (testimonium on Hypatia)
 - **原文语言 / Language**: 古希腊语（他人记述） / Ancient Greek (testimonium)
 - **原文 / Original**: （希帕提娅亲笔未存；辛奈修斯称她主持哲学奥秘）
 - **英译 / English**: She honorably presides over the mysteries of philosophy.
 - **中译 / Chinese**: 她以尊荣主持着哲学的奥秘。
 - **主题 / Themes**: 哲学、权威、学统 / Philosophy, Authority, Tradition
 - **置信度 / Confidence**: ☆ (Medium)
-- **备注 / Note**: 出自弟子辛奈修斯对希帕提娅的称述，非其本人著作；收录以标明古代女性哲人可见的历史形象与史料限度。
+- **备注 / Note**: 弟子辛奈修斯对希帕提娅的称述；收录以标明古代女性哲人的可见形象与史料限度。 / Disciple’s praise of Hypatia; kept to mark the visible image and source limits of an ancient woman philosopher.
 
 #### Q0541
 
@@ -6667,8 +6667,8 @@
 - **英译 / English**: There is not the slightest doubt that women belong to the people of God and the human race as much as men.
 - **中译 / Chinese**: 毫无疑义：女人与男人同样属于上帝的子民与人类。
 - **主题 / Themes**: 平等、尊严、性别 / Equality, Dignity, Gender
-- **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 中古法语原文因版本异文未强录字母转写；英译据通行学术译本。
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 中古法语原文因版本异文未强录字母转写；英译据 Richards 通行学术译本，故标 ☆。 / Middle French not transcribed (variant witnesses); English follows Richards’s standard scholarly rendering—hence ☆.
 
 #### Q0542
 
@@ -6680,7 +6680,8 @@
 - **英译 / English**: Just as women's bodies are softer than men's, so their understanding is more sharp and clever.
 - **中译 / Chinese**: 正如女性身体较男性柔软，她们的理解力也更为敏锐机智。
 - **主题 / Themes**: 理性、教育、性别 / Reason, Education, Gender
-- **置信度 / Confidence**: ★ (High)
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 未录中古法语原文；英译据 Richards，标 ☆。 / Middle French omitted; English after Richards—☆.
 
 #### Q0543
 
@@ -6692,8 +6693,8 @@
 - **英译 / English**: Not all men (and especially the wisest) share the opinion that it is bad for women to be educated.
 - **中译 / Chinese**: 并非所有男人（尤其最有智慧者）都认为女人受教育是坏事。
 - **主题 / Themes**: 教育、智慧、平等 / Education, Wisdom, Equality
-- **置信度 / Confidence**: ★ (High)
-- **备注 / Note**: 中古法语原文因版本异文未强录；英译据 Richards 通行学术译本。
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 中古法语原文因版本异文未强录；英译据 Richards 通行学术译本，故标 ☆。 / Middle French not transcribed; English after Richards—hence ☆.
 
 #### Q0544
 
@@ -6799,7 +6800,7 @@
 
 - **作者 / Author**: 索菲·奥卢沃莱（1935–2018） / Sophie Oluwole (1935–2018)
 - **学派 / School**: 非洲哲学 / Africana Philosophy
-- **出处 / Source**: 访谈／非洲本质与口述遗产讨论（2017） / Interview on African essence and oral legacy (2017)
+- **出处 / Source**: 《Punch》杂志访谈特写（尼日利亚，2017） / Punch (Nigeria), interview feature on Sophie Oluwole (2017)
 - **原文语言 / Language**: 英语 / English
 - **原文 / Original**: Look at Christianity and Islam. They have the Bible and the Koran… Now, where is our own book on Orunmila? It is a question that should worry all rational Yoruba and African people.
 - **英译 / English**: Look at Christianity and Islam. They have the Bible and the Koran… Now, where is our own book on Orunmila? It is a question that should worry all rational Yoruba and African people.

@@ -1289,6 +1289,32 @@ export const extraThinkerGuides: Record<string, ThinkerGuide> = {
     legacy:
       "Hypatia became a lasting symbol of learning under political violence and of women’s presence in ancient philosophy, while scholarship insists on strict source criticism rather than invented sayings.",
   },
+  Damascius: {
+    lifespan: "c. 462–after 538",
+    school: "Neoplatonism",
+    jobTitle: "Neoplatonist scholarch",
+    knowsAbout: ["Neoplatonism", "Alexandrian schools", "biographical testimony"],
+    overview:
+      "Damascius was the last scholarch of the Athenian Neoplatonic school before Justinian’s closure of the Academy. His Life of Isidore survives mainly through the Suda and Photius; it preserves late antique portraits of teachers, including Hypatia of Alexandria.",
+    ideas:
+      "As a systematic Neoplatonist he developed an austere negative theology of the ineffable; the archive quotations under his name here are biographical testimonia about Hypatia rather than excerpts from his metaphysical treatises.",
+    works: ["Life of Isidore (fragmentary)", "Problems and Solutions Concerning First Principles"],
+    legacy:
+      "He is a primary late source for Alexandrian and Athenian school history, and for cautious reconstruction of Hypatia’s public teaching.",
+  },
+  "Synesius of Cyrene": {
+    lifespan: "c. 370–c. 413",
+    school: "Neoplatonism",
+    jobTitle: "Bishop and philosopher",
+    knowsAbout: ["Neoplatonism", "letters", "Hypatia"],
+    overview:
+      "Synesius of Cyrene studied in Alexandria under Hypatia before becoming bishop of Ptolemais. His letters are among the warmest contemporary witnesses to her teaching and character.",
+    ideas:
+      "He blends Neoplatonic cosmology, civic duty, and Christian office; quotations gathered here primarily document his praise of Hypatia as a philosophical authority.",
+    works: ["Letters", "On Kingship", "Dion"],
+    legacy:
+      "His correspondence remains essential for any historically responsible account of Hypatia.",
+  },
   "Christine de Pizan": {
     lifespan: "1364–c. 1430",
     school: "Renaissance Humanism",
