@@ -6165,6 +6165,686 @@
 - **主题 / Themes**: 逍遥、境界、志向 / Freedom, Realm, Aspiration
 - **置信度 / Confidence**: ★ (High)
 
+
+#### Q0501
+
+- **作者 / Author**: 玛丽·沃斯通克拉夫特（1759–1797） / Mary Wollstonecraft (1759–1797)
+- **学派 / School**: 女性主义哲学 / Feminist Philosophy
+- **出处 / Source**: 《女权辩护》 / A Vindication of the Rights of Woman (1792), Ch. 2
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: I wish to persuade women to endeavor to acquire strength, both of mind and body.
+- **英译 / English**: I wish to persuade women to endeavor to acquire strength, both of mind and body.
+- **中译 / Chinese**: 我希望说服女性努力获得心智与身体两方面的力量。
+- **主题 / Themes**: 教育、力量、自主 / Education, Strength, Autonomy
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0502
+
+- **作者 / Author**: 玛丽·沃斯通克拉夫特（1759–1797） / Mary Wollstonecraft (1759–1797)
+- **学派 / School**: 女性主义哲学 / Feminist Philosophy
+- **出处 / Source**: 《女权辩护》 / A Vindication of the Rights of Woman (1792), Ch. 3
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Strengthen the female mind by enlarging it, and there will be an end to blind obedience.
+- **英译 / English**: Strengthen the female mind by enlarging it, and there will be an end to blind obedience.
+- **中译 / Chinese**: 藉由拓展女性心智来强化它，盲目服从便会终结。
+- **主题 / Themes**: 理性、教育、服从 / Reason, Education, Obedience
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0503
+
+- **作者 / Author**: 玛丽·沃斯通克拉夫特（1759–1797） / Mary Wollstonecraft (1759–1797)
+- **学派 / School**: 女性主义哲学 / Feminist Philosophy
+- **出处 / Source**: 《女权辩护》 / A Vindication of the Rights of Woman (1792), Introduction
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: My own sex, I hope, will excuse me, if I treat them like rational creatures, instead of flattering their fascinating graces.
+- **英译 / English**: My own sex, I hope, will excuse me, if I treat them like rational creatures, instead of flattering their fascinating graces.
+- **中译 / Chinese**: 我希望本性别的人能原谅我：我把她们当作理性的存在，而不是一味恭维她们迷人的风姿。
+- **主题 / Themes**: 理性、尊严、平等 / Reason, Dignity, Equality
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0504
+
+- **作者 / Author**: 玛丽·沃斯通克拉夫特（1759–1797） / Mary Wollstonecraft (1759–1797)
+- **学派 / School**: 女性主义哲学 / Feminist Philosophy
+- **出处 / Source**: 《女权辩护》 / A Vindication of the Rights of Woman (1792), Ch. 3
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Taught from their infancy that beauty is woman's sceptre, the mind shapes itself to the body, and roaming round its gilt cage, only seeks to adorn its prison.
+- **英译 / English**: Taught from their infancy that beauty is woman's sceptre, the mind shapes itself to the body, and roaming round its gilt cage, only seeks to adorn its prison.
+- **中译 / Chinese**: 自幼被教导美貌是女人的权杖，心智便迁就身体，在镀金笼中徘徊，只求装饰自己的牢笼。
+- **主题 / Themes**: 教育、身体、自由 / Education, Body, Freedom
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0505
+
+- **作者 / Author**: 玛丽·沃斯通克拉夫特（1759–1797） / Mary Wollstonecraft (1759–1797)
+- **学派 / School**: 女性主义哲学 / Feminist Philosophy
+- **出处 / Source**: 《女权辩护》 / A Vindication of the Rights of Woman (1792), Ch. 9
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: It is time to effect a revolution in female manners—time to restore to them their lost dignity—and make them, as a part of the human species, labour by reforming themselves to reform the world.
+- **英译 / English**: It is time to effect a revolution in female manners—time to restore to them their lost dignity—and make them, as a part of the human species, labour by reforming themselves to reform the world.
+- **中译 / Chinese**: 是时候发起一场女性风习的革命——恢复她们失落的尊严——并使她们作为人类的一部分，藉由自我改造来改造世界。
+- **主题 / Themes**: 尊严、改革、平等 / Dignity, Reform, Equality
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0506
+
+- **作者 / Author**: 西蒙娜·德·波伏瓦（1908–1986） / Simone de Beauvoir (1908–1986)
+- **学派 / School**: 存在主义 / Existentialism
+- **出处 / Source**: 《第二性》 / The Second Sex (1949), Vol. I
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: Le corps n'est pas une chose, il est une situation.
+- **英译 / English**: The body is not a thing, it is a situation.
+- **中译 / Chinese**: 身体不是一个物，而是一种处境。
+- **主题 / Themes**: 身体、处境、自由 / Body, Situation, Freedom
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 波伏瓦以处境中的身体反对把女性还原为生物学事实。
+
+#### Q0507
+
+- **作者 / Author**: 西蒙娜·德·波伏瓦（1908–1986） / Simone de Beauvoir (1908–1986)
+- **学派 / School**: 存在主义 / Existentialism
+- **出处 / Source**: 《第二性》 / The Second Sex (1949), Introduction
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: La représentation du monde, comme le monde lui-même, est l'opération des hommes; ils le décrivent du point de vue qui est le leur et qu'ils confondent avec la vérité absolue.
+- **英译 / English**: Representation of the world, like the world itself, is the work of men; they describe it from their own point of view, which they confuse with the absolute truth.
+- **中译 / Chinese**: 对世界的再现，如同世界本身，是男人的作为；他们从自己的观点描述世界，并把它混同为绝对真理。
+- **主题 / Themes**: 他者、知识、权力 / Otherness, Knowledge, Power
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0508
+
+- **作者 / Author**: 西蒙娜·德·波伏瓦（1908–1986） / Simone de Beauvoir (1908–1986)
+- **学派 / School**: 存在主义 / Existentialism
+- **出处 / Source**: 《第二性》 / The Second Sex (1949), Vol. II
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: Toute oppression crée un état de guerre.
+- **英译 / English**: All oppression creates a state of war.
+- **中译 / Chinese**: 一切压迫都造成一种战争状态。
+- **主题 / Themes**: 压迫、冲突、自由 / Oppression, Conflict, Freedom
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0509
+
+- **作者 / Author**: 西蒙娜·德·波伏瓦（1908–1986） / Simone de Beauvoir (1908–1986)
+- **学派 / School**: 存在主义 / Existentialism
+- **出处 / Source**: 《模糊性的伦理学》 / The Ethics of Ambiguity (1947)
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: Il n'y a de justification à l'existence présente que son expansion vers un avenir indéfiniment ouvert.
+- **英译 / English**: There is no justification for present existence other than its expansion into an indefinitely open future.
+- **中译 / Chinese**: 当下的存在除了向无限开放的未来扩展之外，别无正当理由。
+- **主题 / Themes**: 自由、未来、责任 / Freedom, Future, Responsibility
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 经典可读的存在主义伦理句；“模糊性”指自由与处境的并存。
+
+#### Q0510
+
+- **作者 / Author**: 西蒙娜·德·波伏瓦（1908–1986） / Simone de Beauvoir (1908–1986)
+- **学派 / School**: 存在主义 / Existentialism
+- **出处 / Source**: 《第二性》 / The Second Sex (1949), Vol. II
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: La malédiction qui pèse sur le mariage, c'est que les individus y sont trop souvent unis dans leur faiblesse et non dans leur force.
+- **英译 / English**: The curse which lies upon marriage is that too often the individuals are joined in their weakness rather than in their strength.
+- **中译 / Chinese**: 婚姻所受的诅咒在于：个体往往在软弱中结合，而非在力量中结合。
+- **主题 / Themes**: 关系、自主、伦理 / Relationship, Autonomy, Ethics
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0511
+
+- **作者 / Author**: 西蒙娜·德·波伏瓦（1908–1986） / Simone de Beauvoir (1908–1986)
+- **学派 / School**: 存在主义 / Existentialism
+- **出处 / Source**: 《模糊性的伦理学》 / The Ethics of Ambiguity (1947)
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: Exister, c'est se faire manque d'être; c'est se jeter dans le monde.
+- **英译 / English**: To exist is to make oneself a lack of being; it is to cast oneself into the world.
+- **中译 / Chinese**: 存在就是使自己成为存在的欠缺；就是把自己投向世界。
+- **主题 / Themes**: 存在、自由、世界 / Existence, Freedom, World
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 技术性略强的存在主义表述；与萨特“自为”论题呼应，已附语境。
+
+#### Q0512
+
+- **作者 / Author**: 西蒙娜·韦伊（1909–1943） / Simone Weil (1909–1943)
+- **学派 / School**: 宗教存在主义 / Religious Existentialism
+- **出处 / Source**: 《重负与神恩》 / Gravity and Grace
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: Le mal imaginaire est romanesque, varié; le mal réel est morne, monotone, désert, ennuyeux.
+- **英译 / English**: Imaginary evil is romantic and varied; real evil is gloomy, monotonous, barren, boring.
+- **中译 / Chinese**: 想象中的恶浪漫而多变；真实的恶阴郁、单调、贫瘠而乏味。
+- **主题 / Themes**: 恶、真实、注意 / Evil, Reality, Attention
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0513
+
+- **作者 / Author**: 西蒙娜·韦伊（1909–1943） / Simone Weil (1909–1943)
+- **学派 / School**: 宗教存在主义 / Religious Existentialism
+- **出处 / Source**: 《重负与神恩》 / Gravity and Grace
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: Deux forces règnent sur l'univers: lumière et gravité.
+- **英译 / English**: Two forces rule the universe: light and gravity.
+- **中译 / Chinese**: 两种力量统治宇宙：光与重力。
+- **主题 / Themes**: 恩典、重力、精神 / Grace, Gravity, Spirit
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0514
+
+- **作者 / Author**: 西蒙娜·韦伊（1909–1943） / Simone Weil (1909–1943)
+- **学派 / School**: 宗教存在主义 / Religious Existentialism
+- **出处 / Source**: 《等待上帝》 / Waiting for God, "Reflections on the Right Use of School Studies"
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: L'amour du prochain dans toute sa plénitude consiste simplement à être capable de lui dire: "Quel est ton tourment?"
+- **英译 / English**: The love of our neighbor in all its fullness simply means being able to say to him: "What are you going through?"
+- **中译 / Chinese**: 对邻人的爱在其完满中，不过是能够对他说：“你正在经受什么？”
+- **主题 / Themes**: 爱、注意、邻人 / Love, Attention, Neighbor
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0515
+
+- **作者 / Author**: 西蒙娜·韦伊（1909–1943） / Simone Weil (1909–1943)
+- **学派 / School**: 宗教存在主义 / Religious Existentialism
+- **出处 / Source**: 《《伊利亚特》，或武力之诗》 / The Iliad, or the Poem of Force
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: La force, c'est ce qui fait de quiconque lui est soumis une chose.
+- **英译 / English**: Force is that x that turns anybody who is subjected to it into a thing.
+- **中译 / Chinese**: 武力，就是那个使任何受其支配者变成物的东西。
+- **主题 / Themes**: 武力、人性、暴力 / Force, Humanity, Violence
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0516
+
+- **作者 / Author**: 西蒙娜·韦伊（1909–1943） / Simone Weil (1909–1943)
+- **学派 / School**: 宗教存在主义 / Religious Existentialism
+- **出处 / Source**: 《重负与神恩》 / Gravity and Grace
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: Le mal que nous faisons est obscurci et embelli par l'imagination.
+- **英译 / English**: The evil we do is obscured and embellished by imagination.
+- **中译 / Chinese**: 我们所做的恶，被想象遮掩并美化。
+- **主题 / Themes**: 恶、想象、自欺 / Evil, Imagination, Self-deception
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0517
+
+- **作者 / Author**: 艾丽丝·默多克（1919–1999） / Iris Murdoch (1919–1999)
+- **学派 / School**: 柏拉图式道德哲学 / Platonic Moral Philosophy
+- **出处 / Source**: 《善的至上性》 / The Sovereignty of Good (1970)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: I can only choose within the world I can see, in the moral sense of "see" which implies that clear vision is a result of moral imagination and moral effort.
+- **英译 / English**: I can only choose within the world I can see, in the moral sense of "see" which implies that clear vision is a result of moral imagination and moral effort.
+- **中译 / Chinese**: 我只能在我所能“看见”的世界中选择——这里的“看见”是道德义，意味着清晰的视见来自道德想象与道德努力。
+- **主题 / Themes**: 注意、选择、道德 / Attention, Choice, Morality
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0518
+
+- **作者 / Author**: 艾丽丝·默多克（1919–1999） / Iris Murdoch (1919–1999)
+- **学派 / School**: 柏拉图式道德哲学 / Platonic Moral Philosophy
+- **出处 / Source**: 《善的至上性》 / The Sovereignty of Good (1970)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: The self, the place where we live, is a place of illusion. Goodness is connected with the attempt to see the unself.
+- **英译 / English**: The self, the place where we live, is a place of illusion. Goodness is connected with the attempt to see the unself.
+- **中译 / Chinese**: 自我——我们栖居之所——是幻象之地。善与试图看见“非我”相连。
+- **主题 / Themes**: 自我、善、注意 / Self, Good, Attention
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0519
+
+- **作者 / Author**: 艾丽丝·默多克（1919–1999） / Iris Murdoch (1919–1999)
+- **学派 / School**: 柏拉图式道德哲学 / Platonic Moral Philosophy
+- **出处 / Source**: 《作为道德指南的形而上学》 / Metaphysics as a Guide to Morals (1992)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Man is a creature who makes pictures of himself and then comes to resemble the picture.
+- **英译 / English**: Man is a creature who makes pictures of himself and then comes to resemble the picture.
+- **中译 / Chinese**: 人是这样一种存在：先为自己画像，然后逐渐变得像那幅画像。
+- **主题 / Themes**: 自我、形象、道德 / Self, Image, Morality
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0520
+
+- **作者 / Author**: 艾丽丝·默多克（1919–1999） / Iris Murdoch (1919–1999)
+- **学派 / School**: 柏拉图式道德哲学 / Platonic Moral Philosophy
+- **出处 / Source**: 《善的至上性》 / The Sovereignty of Good (1970)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Anything which alters consciousness in the direction of unselfishness, objectivity and realism is to be connected with virtue.
+- **英译 / English**: Anything which alters consciousness in the direction of unselfishness, objectivity and realism is to be connected with virtue.
+- **中译 / Chinese**: 凡是使意识朝向无私、客观与实在论方向改变的事物，都与德性相关。
+- **主题 / Themes**: 德性、意识、实在 / Virtue, Consciousness, Reality
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0521
+
+- **作者 / Author**: 艾丽丝·默多克（1919–1999） / Iris Murdoch (1919–1999)
+- **学派 / School**: 柏拉图式道德哲学 / Platonic Moral Philosophy
+- **出处 / Source**: 《善的至上性》 / The Sovereignty of Good (1970)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Moral change and moral achievement are slow; we are not loosely and lightly attached to the world.
+- **英译 / English**: Moral change and moral achievement are slow; we are not loosely and lightly attached to the world.
+- **中译 / Chinese**: 道德改变与道德成就来得缓慢；我们并非松散、轻飘地附着于世界。
+- **主题 / Themes**: 道德进步、注意、现实 / Moral Progress, Attention, Reality
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0522
+
+- **作者 / Author**: 汉娜·阿伦特（1906–1975） / Hannah Arendt (1906–1975)
+- **学派 / School**: 政治现象学 / Political Phenomenology
+- **出处 / Source**: 《论暴力》 / On Violence (1970)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Power corresponds to the human ability not just to act but to act in concert.
+- **英译 / English**: Power corresponds to the human ability not just to act but to act in concert.
+- **中译 / Chinese**: 权力对应于人的这样一种能力：不仅行动，而且协同行动。
+- **主题 / Themes**: 权力、行动、复数性 / Power, Action, Plurality
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0523
+
+- **作者 / Author**: 汉娜·阿伦特（1906–1975） / Hannah Arendt (1906–1975)
+- **学派 / School**: 政治现象学 / Political Phenomenology
+- **出处 / Source**: 《人的条件》 / The Human Condition (1958)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Promises are the uniquely human way of ordering the future, making it predictable and reliable to the extent that this is humanly possible.
+- **英译 / English**: Promises are the uniquely human way of ordering the future, making it predictable and reliable to the extent that this is humanly possible.
+- **中译 / Chinese**: 承诺是人类特有的整理未来的方式，使未来在人力所及范围内变得可预期、可依赖。
+- **主题 / Themes**: 承诺、行动、未来 / Promise, Action, Future
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0524
+
+- **作者 / Author**: 汉娜·阿伦特（1906–1975） / Hannah Arendt (1906–1975)
+- **学派 / School**: 政治现象学 / Political Phenomenology
+- **出处 / Source**: 《黑暗时代的人们》 / Men in Dark Times (1968)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Storytelling reveals meaning without committing the error of defining it.
+- **英译 / English**: Storytelling reveals meaning without committing the error of defining it.
+- **中译 / Chinese**: 讲故事揭示意义，却不犯下把它定义死的错误。
+- **主题 / Themes**: 叙事、意义、理解 / Narrative, Meaning, Understanding
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0525
+
+- **作者 / Author**: 伊丽莎白·安斯康姆（1919–2001） / Elizabeth Anscombe (1919–2001)
+- **学派 / School**: 分析哲学 / Analytic Philosophy
+- **出处 / Source**: 《现代道德哲学》 / Modern Moral Philosophy (1958)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: The concepts of obligation, and duty—moral obligation and moral duty, that is to say—and of what is morally right and wrong, and of the moral sense of "ought," ought to be jettisoned if this is psychologically possible.
+- **英译 / English**: The concepts of obligation, and duty—moral obligation and moral duty, that is to say—and of what is morally right and wrong, and of the moral sense of "ought," ought to be jettisoned if this is psychologically possible.
+- **中译 / Chinese**: 义务与职责——亦即道德义务与道德职责——以及道德上的对与错、道德义的“应当”这些概念，若在心理上可能，就应当被抛弃。
+- **主题 / Themes**: 道德、义务、德性 / Morality, Obligation, Virtue
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 安斯康姆主张在缺乏神圣立法者背景时，“道德应当”语汇已失根基，转而谈不义、欺骗等具体恶。
+
+#### Q0526
+
+- **作者 / Author**: 伊丽莎白·安斯康姆（1919–2001） / Elizabeth Anscombe (1919–2001)
+- **学派 / School**: 分析哲学 / Analytic Philosophy
+- **出处 / Source**: 《现代道德哲学》 / Modern Moral Philosophy (1958)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: It would be a great improvement if, instead of "morally wrong," one always named a genus such as "untruthful," "unchaste," "unjust."
+- **英译 / English**: It would be a great improvement if, instead of "morally wrong," one always named a genus such as "untruthful," "unchaste," "unjust."
+- **中译 / Chinese**: 若总以“不诚实”“不贞”“不义”这类属名，取代空泛的“道德上错误”，将是巨大进步。
+- **主题 / Themes**: 德性、语言、正义 / Virtue, Language, Justice
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0527
+
+- **作者 / Author**: 伊丽莎白·安斯康姆（1919–2001） / Elizabeth Anscombe (1919–2001)
+- **学派 / School**: 分析哲学 / Analytic Philosophy
+- **出处 / Source**: 《意向》 / Intention (1957), §4
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: What distinguishes actions which are intentional from those which are not? The answer that I shall suggest is that they are the actions to which a certain sense of the question "Why?" is given application.
+- **英译 / English**: What distinguishes actions which are intentional from those which are not? The answer that I shall suggest is that they are the actions to which a certain sense of the question "Why?" is given application.
+- **中译 / Chinese**: 有意向的行动与无意向的行动如何区分？我将提出的答案是：它们是“为什么？”这一特定意义之问可以适用的行动。
+- **主题 / Themes**: 意向、行动、理由 / Intention, Action, Reasons
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 《意向》开篇纲领句；略偏技术，但对理解行动哲学极具代表性。
+
+#### Q0528
+
+- **作者 / Author**: 伊丽莎白·安斯康姆（1919–2001） / Elizabeth Anscombe (1919–2001)
+- **学派 / School**: 分析哲学 / Analytic Philosophy
+- **出处 / Source**: 《意向》 / Intention (1957), §47
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Intentional action is action with a certain description under which it is intentional.
+- **英译 / English**: Intentional action is action with a certain description under which it is intentional.
+- **中译 / Chinese**: 意向行动，是在某一描述之下可称为有意向的行动。
+- **主题 / Themes**: 意向、行动、描述 / Intention, Action, Description
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 行动哲学核心命题：同一身体动作可在不同描述下或有意向或无意向。
+
+#### Q0529
+
+- **作者 / Author**: 伊丽莎白·安斯康姆（1919–2001） / Elizabeth Anscombe (1919–2001)
+- **学派 / School**: 分析哲学 / Analytic Philosophy
+- **出处 / Source**: 《现代道德哲学》 / Modern Moral Philosophy (1958)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: The greater part of modern moral philosophy derives from Sidgwick and is utilitarian or consequentialist.
+- **英译 / English**: The greater part of modern moral philosophy derives from Sidgwick and is utilitarian or consequentialist.
+- **中译 / Chinese**: 现代道德哲学的大部分源自西季威克，并且是功利主义或后果主义的。
+- **主题 / Themes**: 后果主义、伦理史、批判 / Consequentialism, Ethics, Critique
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 文中论旨之通行压缩表述；原文批评英国道德哲学继承边沁—密尔—西季威克一脉。
+
+#### Q0530
+
+- **作者 / Author**: 菲利帕·福特（1920–2010） / Philippa Foot (1920–2010)
+- **学派 / School**: 分析哲学 / Analytic Philosophy
+- **出处 / Source**: 《自然的善》 / Natural Goodness (2001), Ch. 2
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Moral evil is a kind of natural defect.
+- **英译 / English**: Moral evil is a kind of natural defect.
+- **中译 / Chinese**: 道德之恶是一种自然缺陷。
+- **主题 / Themes**: 德性、自然、善 / Virtue, Nature, Good
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 福特把道德评价接回生物与生命形式的评价语言，而非纯主观偏好。
+
+#### Q0531
+
+- **作者 / Author**: 菲利帕·福特（1920–2010） / Philippa Foot (1920–2010)
+- **学派 / School**: 分析哲学 / Analytic Philosophy
+- **出处 / Source**: 《德性与恶》 / Virtues and Vices (1978)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Virtues are in general beneficial characteristics, and indeed ones that a human being needs to have, for his own sake and that of his fellows.
+- **英译 / English**: Virtues are in general beneficial characteristics, and indeed ones that a human being needs to have, for his own sake and that of his fellows.
+- **中译 / Chinese**: 德性一般是有益的品质，并且是人为自身与同伴着想所需要具备的品质。
+- **主题 / Themes**: 德性、需要、共同体 / Virtue, Need, Community
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0532
+
+- **作者 / Author**: 菲利帕·福特（1920–2010） / Philippa Foot (1920–2010)
+- **学派 / School**: 分析哲学 / Analytic Philosophy
+- **出处 / Source**: 《道德信念》 / Moral Beliefs (1958), in Virtues and Vices
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: We are not free to say that just anything is the subject of a moral belief.
+- **英译 / English**: We are not free to say that just anything is the subject of a moral belief.
+- **中译 / Chinese**: 我们并不能随意宣称：随便什么东西都可以成为道德信念的对象。
+- **主题 / Themes**: 道德、客观性、信念 / Morality, Objectivity, Belief
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0533
+
+- **作者 / Author**: 菲利帕·福特（1920–2010） / Philippa Foot (1920–2010)
+- **学派 / School**: 分析哲学 / Analytic Philosophy
+- **出处 / Source**: 《自然的善》 / Natural Goodness (2001), Ch. 1
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: There is no criterion for determining what is good for a human being that is independent of the nature of the human being.
+- **英译 / English**: There is no criterion for determining what is good for a human being that is independent of the nature of the human being.
+- **中译 / Chinese**: 不存在独立于人的本性之外、却能判定对人何以为善的标准。
+- **主题 / Themes**: 人性、善、自然主义 / Human Nature, Good, Naturalism
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0534
+
+- **作者 / Author**: 菲利帕·福特（1920–2010） / Philippa Foot (1920–2010)
+- **学派 / School**: 分析哲学 / Analytic Philosophy
+- **出处 / Source**: 《堕胎问题与双重效果原则》 / The Problem of Abortion and the Doctrine of the Double Effect (1967)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: We are most of us inclined to think that a great deal of damage, and even lives lost, is better than doing murder.
+- **英译 / English**: We are most of us inclined to think that a great deal of damage, and even lives lost, is better than doing murder.
+- **中译 / Chinese**: 我们大多数人都倾向于认为：大量损害乃至生命丧失，仍好过亲手谋杀。
+- **主题 / Themes**: 双重效果、杀害、道德直觉 / Double Effect, Killing, Moral Intuition
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 电车难题相关讨论的经典表述；福特借此区分“做”与“允许发生”。
+
+#### Q0535
+
+- **作者 / Author**: 玛莎·努斯鲍姆（1947–） / Martha Nussbaum (1947–)
+- **学派 / School**: 政治自由主义 / Political Liberalism
+- **出处 / Source**: 《善的脆弱性》 / The Fragility of Goodness (1986)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Luck can intervene between a person and the living of the good human life.
+- **英译 / English**: Luck can intervene between a person and the living of the good human life.
+- **中译 / Chinese**: 运气可以插入人与美好人类生活的实现之间。
+- **主题 / Themes**: 运气、德性、幸福 / Luck, Virtue, Flourishing
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0536
+
+- **作者 / Author**: 玛莎·努斯鲍姆（1947–） / Martha Nussbaum (1947–)
+- **学派 / School**: 政治自由主义 / Political Liberalism
+- **出处 / Source**: 《创造能力》 / Creating Capabilities (2011), Ch. 2
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: The capabilities approach asks not only about people's total or average well-being but about what each person is able to do and to be.
+- **英译 / English**: The capabilities approach asks not only about people's total or average well-being but about what each person is able to do and to be.
+- **中译 / Chinese**: 能力进路追问的不只是人们总体或平均的福祉，而是每个人能够做什么、成为什么。
+- **主题 / Themes**: 能力、正义、福祉 / Capabilities, Justice, Well-being
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0537
+
+- **作者 / Author**: 玛莎·努斯鲍姆（1947–） / Martha Nussbaum (1947–)
+- **学派 / School**: 政治自由主义 / Political Liberalism
+- **出处 / Source**: 《思想的动荡》 / Upheavals of Thought (2001)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Emotions are not just the fuel that powers the psychological mechanism of a reasoning creature; they are parts, highly complex and messy parts, of this creature's reasoning itself.
+- **英译 / English**: Emotions are not just the fuel that powers the psychological mechanism of a reasoning creature; they are parts, highly complex and messy parts, of this creature's reasoning itself.
+- **中译 / Chinese**: 情感不只是驱动理性造物心理机制的燃料；它们本身就是这造物理性中高度复杂且紊乱的组成部分。
+- **主题 / Themes**: 情感、理性、判断 / Emotion, Reason, Judgment
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0538
+
+- **作者 / Author**: 玛莎·努斯鲍姆（1947–） / Martha Nussbaum (1947–)
+- **学派 / School**: 政治自由主义 / Political Liberalism
+- **出处 / Source**: 《诗性正义》 / Poetic Justice (1995)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Narrative imagination is an essential preparation for moral interaction.
+- **英译 / English**: Narrative imagination is an essential preparation for moral interaction.
+- **中译 / Chinese**: 叙事想象是道德交往的必要预备。
+- **主题 / Themes**: 想象、文学、道德 / Imagination, Literature, Morality
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0539
+
+- **作者 / Author**: 亚历山大的希帕提娅（约350–415） / Hypatia of Alexandria (c. 350–415)
+- **学派 / School**: 新柏拉图主义 / Neoplatonism
+- **出处 / Source**: 达玛修斯《伊西多罗斯传》（经《苏达辞书》转述） / Damascius, Life of Isidore (via the Suda)
+- **原文语言 / Language**: 古希腊语（佚失转述） / Ancient Greek (lost; reported)
+- **原文 / Original**: （亲笔原文未存；据达玛修斯转述其公开讲授）
+- **英译 / English**: She was devoted to philosophy and explained it publicly to anyone who wished to hear.
+- **中译 / Chinese**: 她献身哲学，并向任何愿意聆听的人公开讲授。
+- **主题 / Themes**: 哲学、教育、公共 / Philosophy, Education, Public Life
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 希帕提娅无可靠亲笔引文存世；本条为晚期新柏拉图派对其公开讲学的见证概括，非第一人称原文。
+
+#### Q0540
+
+- **作者 / Author**: 亚历山大的希帕提娅（约350–415） / Hypatia of Alexandria (c. 350–415)
+- **学派 / School**: 新柏拉图主义 / Neoplatonism
+- **出处 / Source**: 辛奈修斯致友人书信中的见证 / Synesius of Cyrene, Letter to Herculianus (testimonium)
+- **原文语言 / Language**: 古希腊语（他人记述） / Ancient Greek (testimonium)
+- **原文 / Original**: （希帕提娅亲笔未存；辛奈修斯称她主持哲学奥秘）
+- **英译 / English**: She honorably presides over the mysteries of philosophy.
+- **中译 / Chinese**: 她以尊荣主持着哲学的奥秘。
+- **主题 / Themes**: 哲学、权威、学统 / Philosophy, Authority, Tradition
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 出自弟子辛奈修斯对希帕提娅的称述，非其本人著作；收录以标明古代女性哲人可见的历史形象与史料限度。
+
+#### Q0541
+
+- **作者 / Author**: 克里斯蒂娜·德·皮桑（1364–c.1430） / Christine de Pizan (1364–c.1430)
+- **学派 / School**: 文艺复兴人文主义 / Renaissance Humanism
+- **出处 / Source**: 《女性之城》 / The Book of the City of Ladies (1405), I.1
+- **原文语言 / Language**: 中古法语 / Middle French
+- **原文 / Original**: （通行英译据 Earl Jeffrey Richards 等）
+- **英译 / English**: There is not the slightest doubt that women belong to the people of God and the human race as much as men.
+- **中译 / Chinese**: 毫无疑义：女人与男人同样属于上帝的子民与人类。
+- **主题 / Themes**: 平等、尊严、性别 / Equality, Dignity, Gender
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 中古法语原文因版本异文未强录字母转写；英译据通行学术译本。
+
+#### Q0542
+
+- **作者 / Author**: 克里斯蒂娜·德·皮桑（1364–c.1430） / Christine de Pizan (1364–c.1430)
+- **学派 / School**: 文艺复兴人文主义 / Renaissance Humanism
+- **出处 / Source**: 《女性之城》 / The Book of the City of Ladies (1405)
+- **原文语言 / Language**: 中古法语 / Middle French
+- **原文 / Original**: （通行英译据 Richards）
+- **英译 / English**: Just as women's bodies are softer than men's, so their understanding is more sharp and clever.
+- **中译 / Chinese**: 正如女性身体较男性柔软，她们的理解力也更为敏锐机智。
+- **主题 / Themes**: 理性、教育、性别 / Reason, Education, Gender
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0543
+
+- **作者 / Author**: 克里斯蒂娜·德·皮桑（1364–c.1430） / Christine de Pizan (1364–c.1430)
+- **学派 / School**: 文艺复兴人文主义 / Renaissance Humanism
+- **出处 / Source**: 《女性之城》 / The Book of the City of Ladies (1405), I.27
+- **原文语言 / Language**: 中古法语 / Middle French
+- **原文 / Original**: （通行英译据 Earl Jeffrey Richards）
+- **英译 / English**: Not all men (and especially the wisest) share the opinion that it is bad for women to be educated.
+- **中译 / Chinese**: 并非所有男人（尤其最有智慧者）都认为女人受教育是坏事。
+- **主题 / Themes**: 教育、智慧、平等 / Education, Wisdom, Equality
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 中古法语原文因版本异文未强录；英译据 Richards 通行学术译本。
+
+#### Q0544
+
+- **作者 / Author**: 艾迪特·施泰因（1891–1942） / Edith Stein (1891–1942)
+- **学派 / School**: 现象学 / Phenomenology
+- **出处 / Source**: 《论移情问题》 / On the Problem of Empathy (1917)
+- **原文语言 / Language**: 德语 / German
+- **原文 / Original**: Die Einfühlung… ist eine Art erfahrender Akte sui generis.
+- **英译 / English**: Empathy is a kind of experiential act sui generis.
+- **中译 / Chinese**: 移情是一种自成一类的经验行为。
+- **主题 / Themes**: 移情、他者、意识 / Empathy, Other, Consciousness
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 施泰因博士论文核心界定；德文略有通行压缩以利经典可读。
+
+#### Q0545
+
+- **作者 / Author**: 艾迪特·施泰因（1891–1942） / Edith Stein (1891–1942)
+- **学派 / School**: 现象学 / Phenomenology
+- **出处 / Source**: 《论移情问题》 / On the Problem of Empathy (1917)
+- **原文语言 / Language**: 德语 / German
+- **原文 / Original**: （德语原文见学位论文；此据标准英译 Waltraut Stein）
+- **英译 / English**: The individual is only able to find another individual as a living body and as a sensing, feeling, and willing I.
+- **中译 / Chinese**: 个体唯有把另一个体当作活生生的身体，并当作能感知、感受与意愿的“我”，才能发现对方。
+- **主题 / Themes**: 他者、身体、主体 / Other, Body, Subject
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 英译据 Waltraut Stein 英译本论旨；未强录可能不精确的德文拼写。
+
+#### Q0546
+
+- **作者 / Author**: 艾迪特·施泰因（1891–1942） / Edith Stein (1891–1942)
+- **学派 / School**: 现象学 / Phenomenology
+- **出处 / Source**: 《有限与永恒的存在》 / Finite and Eternal Being (written 1930s; pub. 1950)
+- **原文语言 / Language**: 德语 / German
+- **原文 / Original**: （德语全文论证；此据标准英译论旨）
+- **英译 / English**: Finite being is separated from eternal being, yet every finite being points beyond itself.
+- **中译 / Chinese**: 有限存在与永恒存在相分隔，然而每一有限存在都指向自身之外。
+- **主题 / Themes**: 有限、永恒、存在 / Finitude, Eternity, Being
+- **置信度 / Confidence**: ☆ (Medium)
+- **备注 / Note**: 晚期著作核心论题之可靠英译概括，非逐字校勘句；完整论证见全书。
+
+#### Q0547
+
+- **作者 / Author**: 格洛丽亚·安扎尔杜瓦（1942–2004） / Gloria Anzaldúa (1942–2004)
+- **学派 / School**: 女性主义哲学 / Feminist Philosophy
+- **出处 / Source**: 《边地／边界》 / Borderlands/La Frontera (1987)
+- **原文语言 / Language**: 英语／西班牙语 / English / Spanish
+- **原文 / Original**: The U.S.-Mexican border es una herida abierta where the Third World grates against the first and bleeds.
+- **英译 / English**: The U.S.-Mexican border es una herida abierta where the Third World grates against the first and bleeds.
+- **中译 / Chinese**: 美墨边界是一道敞开的伤口（una herida abierta），第三世界在此与第一世界摩擦并流血。
+- **主题 / Themes**: 边界、身份、权力 / Border, Identity, Power
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0548
+
+- **作者 / Author**: 格洛丽亚·安扎尔杜瓦（1942–2004） / Gloria Anzaldúa (1942–2004)
+- **学派 / School**: 女性主义哲学 / Feminist Philosophy
+- **出处 / Source**: 《边地／边界》 / Borderlands/La Frontera (1987)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: A borderland is a vague and undetermined place created by the emotional residue of an unnatural boundary.
+- **英译 / English**: A borderland is a vague and undetermined place created by the emotional residue of an unnatural boundary.
+- **中译 / Chinese**: 边地是一个模糊不定的所在，由非自然边界的情感残渣所造就。
+- **主题 / Themes**: 边界、自我、混杂 / Border, Self, Hybridity
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0549
+
+- **作者 / Author**: 索菲·奥卢沃莱（1935–2018） / Sophie Oluwole (1935–2018)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《苏格拉底与奥伦米拉》 / Socrates and Ọ̀rúnmìlà: Two Patron Saints of Classical Philosophy (2014)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: What needs to be characterized and critically examined are African ideas and beliefs… philosophy is about what people say rather than what they do.
+- **英译 / English**: What needs to be characterized and critically examined are African ideas and beliefs… philosophy is about what people say rather than what they do.
+- **中译 / Chinese**: 需要被刻画并批判审视的，是非洲的观念与信念……哲学关乎人们所说，而非他们所做。
+- **主题 / Themes**: 非洲哲学、口述、理性 / African Philosophy, Orality, Reason
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0550
+
+- **作者 / Author**: 索菲·奥卢沃莱（1935–2018） / Sophie Oluwole (1935–2018)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《苏格拉底与奥伦米拉》 / Socrates and Ọ̀rúnmìlà (2014/2015)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: There is nothing that is absolutely material. There is nothing that is absolutely non-material. And in all phenomenons in the world, the two are there together.
+- **英译 / English**: There is nothing that is absolutely material. There is nothing that is absolutely non-material. And in all phenomenons in the world, the two are there together.
+- **中译 / Chinese**: 没有任何东西是绝对物质的，也没有任何东西是绝对非物质的；世界一切现象中，二者并存。
+- **主题 / Themes**: 形而上学、互补、实在 / Metaphysics, Complementarity, Reality
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 奥卢沃莱用以对照西方二元对立的约鲁巴“二元互补”论题。
+
+#### Q0551
+
+- **作者 / Author**: 索菲·奥卢沃莱（1935–2018） / Sophie Oluwole (1935–2018)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 《苏格拉底与奥伦米拉》 / Socrates and Ọ̀rúnmìlà (2014)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: It would be ridiculous to raise the question as to whether or not Ọ̀rúnmìlà was religious. He was the leader of a religious cult which established a school structured like Plato's Academy.
+- **英译 / English**: It would be ridiculous to raise the question as to whether or not Ọ̀rúnmìlà was religious. He was the leader of a religious cult which established a school structured like Plato's Academy.
+- **中译 / Chinese**: 追问奥伦米拉是否宗教性，简直荒谬。他是一个宗教教团的领袖，并建立了结构类似柏拉图学园的学校。
+- **主题 / Themes**: 比较哲学、传统、教育 / Comparative Philosophy, Tradition, Education
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0552
+
+- **作者 / Author**: 索菲·奥卢沃莱（1935–2018） / Sophie Oluwole (1935–2018)
+- **学派 / School**: 非洲哲学 / Africana Philosophy
+- **出处 / Source**: 访谈／非洲本质与口述遗产讨论（2017） / Interview on African essence and oral legacy (2017)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Look at Christianity and Islam. They have the Bible and the Koran… Now, where is our own book on Orunmila? It is a question that should worry all rational Yoruba and African people.
+- **英译 / English**: Look at Christianity and Islam. They have the Bible and the Koran… Now, where is our own book on Orunmila? It is a question that should worry all rational Yoruba and African people.
+- **中译 / Chinese**: 看看基督教与伊斯兰教：它们有圣经与古兰经……那么，我们关于奥伦米拉的书在哪里？这是一切理性的约鲁巴人与非洲人都应忧虑的问题。
+- **主题 / Themes**: 口述传统、记忆、文化 / Oral Tradition, Memory, Culture
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0553
+
+- **作者 / Author**: 奥德丽·洛德（1934–1992） / Audre Lorde (1934–1992)
+- **学派 / School**: 女性主义哲学 / Feminist Philosophy
+- **出处 / Source**: 《局外人姐妹》／"The Master's Tools Will Never Dismantle the Master's House" (1979), in Sister Outsider
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: The master's tools will never dismantle the master's house.
+- **英译 / English**: The master's tools will never dismantle the master's house.
+- **中译 / Chinese**: 主人的工具永远拆不掉主人的房子。
+- **主题 / Themes**: 权力、解放、差异 / Power, Liberation, Difference
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 女性主义与批判理论中被广泛引用的方法论警句；收录因其对压迫结构与方法的哲学问题化。
+
+#### Q0554
+
+- **作者 / Author**: 奥德丽·洛德（1934–1992） / Audre Lorde (1934–1992)
+- **学派 / School**: 女性主义哲学 / Feminist Philosophy
+- **出处 / Source**: 《转变沉默为语言与行动》 / "The Transformation of Silence into Language and Action" (1977), in Sister Outsider
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Your silence will not protect you.
+- **英译 / English**: Your silence will not protect you.
+- **中译 / Chinese**: 你的沉默不会保护你。
+- **主题 / Themes**: 言语、勇气、压迫 / Speech, Courage, Oppression
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0555
+
+- **作者 / Author**: 奥德丽·洛德（1934–1992） / Audre Lorde (1934–1992)
+- **学派 / School**: 女性主义哲学 / Feminist Philosophy
+- **出处 / Source**: 《诗歌不是奢侈》 / "Poetry Is Not a Luxury" (1977), in Sister Outsider
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Poetry is not a luxury. It is a vital necessity of our existence.
+- **英译 / English**: Poetry is not a luxury. It is a vital necessity of our existence.
+- **中译 / Chinese**: 诗歌不是奢侈品。它是我们存在的生死必需。
+- **主题 / Themes**: 语言、认识、自由 / Language, Knowledge, Freedom
+- **置信度 / Confidence**: ★ (High)
+
+
 ---
 
 ## Appendix / 附录

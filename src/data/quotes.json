@@ -5996,5 +5996,665 @@
       "Realm",
       "Aspiration"
     ]
+  },
+  {
+    "id": "Q0501",
+    "author": "Mary Wollstonecraft",
+    "school": "Feminist Philosophy",
+    "source": "A Vindication of the Rights of Woman (1792), Ch. 2",
+    "text": "I wish to persuade women to endeavor to acquire strength, both of mind and body.",
+    "themes": [
+      "Education",
+      "Strength",
+      "Autonomy"
+    ]
+  },
+  {
+    "id": "Q0502",
+    "author": "Mary Wollstonecraft",
+    "school": "Feminist Philosophy",
+    "source": "A Vindication of the Rights of Woman (1792), Ch. 3",
+    "text": "Strengthen the female mind by enlarging it, and there will be an end to blind obedience.",
+    "themes": [
+      "Reason",
+      "Education",
+      "Obedience"
+    ]
+  },
+  {
+    "id": "Q0503",
+    "author": "Mary Wollstonecraft",
+    "school": "Feminist Philosophy",
+    "source": "A Vindication of the Rights of Woman (1792), Introduction",
+    "text": "My own sex, I hope, will excuse me, if I treat them like rational creatures, instead of flattering their fascinating graces.",
+    "themes": [
+      "Reason",
+      "Dignity",
+      "Equality"
+    ]
+  },
+  {
+    "id": "Q0504",
+    "author": "Mary Wollstonecraft",
+    "school": "Feminist Philosophy",
+    "source": "A Vindication of the Rights of Woman (1792), Ch. 3",
+    "text": "Taught from their infancy that beauty is woman's sceptre, the mind shapes itself to the body, and roaming round its gilt cage, only seeks to adorn its prison.",
+    "themes": [
+      "Education",
+      "Body",
+      "Freedom"
+    ]
+  },
+  {
+    "id": "Q0505",
+    "author": "Mary Wollstonecraft",
+    "school": "Feminist Philosophy",
+    "source": "A Vindication of the Rights of Woman (1792), Ch. 9",
+    "text": "It is time to effect a revolution in female manners—time to restore to them their lost dignity—and make them, as a part of the human species, labour by reforming themselves to reform the world.",
+    "themes": [
+      "Dignity",
+      "Reform",
+      "Equality"
+    ]
+  },
+  {
+    "id": "Q0506",
+    "author": "Simone de Beauvoir",
+    "school": "Existentialism",
+    "source": "The Second Sex (1949), Vol. I",
+    "text": "The body is not a thing, it is a situation.",
+    "themes": [
+      "Body",
+      "Situation",
+      "Freedom"
+    ]
+  },
+  {
+    "id": "Q0507",
+    "author": "Simone de Beauvoir",
+    "school": "Existentialism",
+    "source": "The Second Sex (1949), Introduction",
+    "text": "Representation of the world, like the world itself, is the work of men; they describe it from their own point of view, which they confuse with the absolute truth.",
+    "themes": [
+      "Otherness",
+      "Knowledge",
+      "Power"
+    ]
+  },
+  {
+    "id": "Q0508",
+    "author": "Simone de Beauvoir",
+    "school": "Existentialism",
+    "source": "The Second Sex (1949), Vol. II",
+    "text": "All oppression creates a state of war.",
+    "themes": [
+      "Oppression",
+      "Conflict",
+      "Freedom"
+    ]
+  },
+  {
+    "id": "Q0509",
+    "author": "Simone de Beauvoir",
+    "school": "Existentialism",
+    "source": "The Ethics of Ambiguity (1947)",
+    "text": "There is no justification for present existence other than its expansion into an indefinitely open future.",
+    "themes": [
+      "Freedom",
+      "Future",
+      "Responsibility"
+    ]
+  },
+  {
+    "id": "Q0510",
+    "author": "Simone de Beauvoir",
+    "school": "Existentialism",
+    "source": "The Second Sex (1949), Vol. II",
+    "text": "The curse which lies upon marriage is that too often the individuals are joined in their weakness rather than in their strength.",
+    "themes": [
+      "Relationship",
+      "Autonomy",
+      "Ethics"
+    ]
+  },
+  {
+    "id": "Q0511",
+    "author": "Simone de Beauvoir",
+    "school": "Existentialism",
+    "source": "The Ethics of Ambiguity (1947)",
+    "text": "To exist is to make oneself a lack of being; it is to cast oneself into the world.",
+    "themes": [
+      "Existence",
+      "Freedom",
+      "World"
+    ]
+  },
+  {
+    "id": "Q0512",
+    "author": "Simone Weil",
+    "school": "Religious Existentialism",
+    "source": "Gravity and Grace",
+    "text": "Imaginary evil is romantic and varied; real evil is gloomy, monotonous, barren, boring.",
+    "themes": [
+      "Evil",
+      "Reality",
+      "Attention"
+    ]
+  },
+  {
+    "id": "Q0513",
+    "author": "Simone Weil",
+    "school": "Religious Existentialism",
+    "source": "Gravity and Grace",
+    "text": "Two forces rule the universe: light and gravity.",
+    "themes": [
+      "Grace",
+      "Gravity",
+      "Spirit"
+    ]
+  },
+  {
+    "id": "Q0514",
+    "author": "Simone Weil",
+    "school": "Religious Existentialism",
+    "source": "Waiting for God, \"Reflections on the Right Use of School Studies\"",
+    "text": "The love of our neighbor in all its fullness simply means being able to say to him: \"What are you going through?\"",
+    "themes": [
+      "Love",
+      "Attention",
+      "Neighbor"
+    ]
+  },
+  {
+    "id": "Q0515",
+    "author": "Simone Weil",
+    "school": "Religious Existentialism",
+    "source": "The Iliad, or the Poem of Force",
+    "text": "Force is that x that turns anybody who is subjected to it into a thing.",
+    "themes": [
+      "Force",
+      "Humanity",
+      "Violence"
+    ]
+  },
+  {
+    "id": "Q0516",
+    "author": "Simone Weil",
+    "school": "Religious Existentialism",
+    "source": "Gravity and Grace",
+    "text": "The evil we do is obscured and embellished by imagination.",
+    "themes": [
+      "Evil",
+      "Imagination",
+      "Self-deception"
+    ]
+  },
+  {
+    "id": "Q0517",
+    "author": "Iris Murdoch",
+    "school": "Platonic Moral Philosophy",
+    "source": "The Sovereignty of Good (1970)",
+    "text": "I can only choose within the world I can see, in the moral sense of \"see\" which implies that clear vision is a result of moral imagination and moral effort.",
+    "themes": [
+      "Attention",
+      "Choice",
+      "Morality"
+    ]
+  },
+  {
+    "id": "Q0518",
+    "author": "Iris Murdoch",
+    "school": "Platonic Moral Philosophy",
+    "source": "The Sovereignty of Good (1970)",
+    "text": "The self, the place where we live, is a place of illusion. Goodness is connected with the attempt to see the unself.",
+    "themes": [
+      "Self",
+      "Good",
+      "Attention"
+    ]
+  },
+  {
+    "id": "Q0519",
+    "author": "Iris Murdoch",
+    "school": "Platonic Moral Philosophy",
+    "source": "Metaphysics as a Guide to Morals (1992)",
+    "text": "Man is a creature who makes pictures of himself and then comes to resemble the picture.",
+    "themes": [
+      "Self",
+      "Image",
+      "Morality"
+    ]
+  },
+  {
+    "id": "Q0520",
+    "author": "Iris Murdoch",
+    "school": "Platonic Moral Philosophy",
+    "source": "The Sovereignty of Good (1970)",
+    "text": "Anything which alters consciousness in the direction of unselfishness, objectivity and realism is to be connected with virtue.",
+    "themes": [
+      "Virtue",
+      "Consciousness",
+      "Reality"
+    ]
+  },
+  {
+    "id": "Q0521",
+    "author": "Iris Murdoch",
+    "school": "Platonic Moral Philosophy",
+    "source": "The Sovereignty of Good (1970)",
+    "text": "Moral change and moral achievement are slow; we are not loosely and lightly attached to the world.",
+    "themes": [
+      "Moral Progress",
+      "Attention",
+      "Reality"
+    ]
+  },
+  {
+    "id": "Q0522",
+    "author": "Hannah Arendt",
+    "school": "Political Phenomenology",
+    "source": "On Violence (1970)",
+    "text": "Power corresponds to the human ability not just to act but to act in concert.",
+    "themes": [
+      "Power",
+      "Action",
+      "Plurality"
+    ]
+  },
+  {
+    "id": "Q0523",
+    "author": "Hannah Arendt",
+    "school": "Political Phenomenology",
+    "source": "The Human Condition (1958)",
+    "text": "Promises are the uniquely human way of ordering the future, making it predictable and reliable to the extent that this is humanly possible.",
+    "themes": [
+      "Promise",
+      "Action",
+      "Future"
+    ]
+  },
+  {
+    "id": "Q0524",
+    "author": "Hannah Arendt",
+    "school": "Political Phenomenology",
+    "source": "Men in Dark Times (1968)",
+    "text": "Storytelling reveals meaning without committing the error of defining it.",
+    "themes": [
+      "Narrative",
+      "Meaning",
+      "Understanding"
+    ]
+  },
+  {
+    "id": "Q0525",
+    "author": "Elizabeth Anscombe",
+    "school": "Analytic Philosophy",
+    "source": "Modern Moral Philosophy (1958)",
+    "text": "The concepts of obligation, and duty—moral obligation and moral duty, that is to say—and of what is morally right and wrong, and of the moral sense of \"ought,\" ought to be jettisoned if this is psychologically possible.",
+    "themes": [
+      "Morality",
+      "Obligation",
+      "Virtue"
+    ]
+  },
+  {
+    "id": "Q0526",
+    "author": "Elizabeth Anscombe",
+    "school": "Analytic Philosophy",
+    "source": "Modern Moral Philosophy (1958)",
+    "text": "It would be a great improvement if, instead of \"morally wrong,\" one always named a genus such as \"untruthful,\" \"unchaste,\" \"unjust.\"",
+    "themes": [
+      "Virtue",
+      "Language",
+      "Justice"
+    ]
+  },
+  {
+    "id": "Q0527",
+    "author": "Elizabeth Anscombe",
+    "school": "Analytic Philosophy",
+    "source": "Intention (1957), §4",
+    "text": "What distinguishes actions which are intentional from those which are not? The answer that I shall suggest is that they are the actions to which a certain sense of the question \"Why?\" is given application.",
+    "themes": [
+      "Intention",
+      "Action",
+      "Reasons"
+    ]
+  },
+  {
+    "id": "Q0528",
+    "author": "Elizabeth Anscombe",
+    "school": "Analytic Philosophy",
+    "source": "Intention (1957), §47",
+    "text": "Intentional action is action with a certain description under which it is intentional.",
+    "themes": [
+      "Intention",
+      "Action",
+      "Description"
+    ]
+  },
+  {
+    "id": "Q0529",
+    "author": "Elizabeth Anscombe",
+    "school": "Analytic Philosophy",
+    "source": "Modern Moral Philosophy (1958)",
+    "text": "The greater part of modern moral philosophy derives from Sidgwick and is utilitarian or consequentialist.",
+    "themes": [
+      "Consequentialism",
+      "Ethics",
+      "Critique"
+    ]
+  },
+  {
+    "id": "Q0530",
+    "author": "Philippa Foot",
+    "school": "Analytic Philosophy",
+    "source": "Natural Goodness (2001), Ch. 2",
+    "text": "Moral evil is a kind of natural defect.",
+    "themes": [
+      "Virtue",
+      "Nature",
+      "Good"
+    ]
+  },
+  {
+    "id": "Q0531",
+    "author": "Philippa Foot",
+    "school": "Analytic Philosophy",
+    "source": "Virtues and Vices (1978)",
+    "text": "Virtues are in general beneficial characteristics, and indeed ones that a human being needs to have, for his own sake and that of his fellows.",
+    "themes": [
+      "Virtue",
+      "Need",
+      "Community"
+    ]
+  },
+  {
+    "id": "Q0532",
+    "author": "Philippa Foot",
+    "school": "Analytic Philosophy",
+    "source": "Moral Beliefs (1958), in Virtues and Vices",
+    "text": "We are not free to say that just anything is the subject of a moral belief.",
+    "themes": [
+      "Morality",
+      "Objectivity",
+      "Belief"
+    ]
+  },
+  {
+    "id": "Q0533",
+    "author": "Philippa Foot",
+    "school": "Analytic Philosophy",
+    "source": "Natural Goodness (2001), Ch. 1",
+    "text": "There is no criterion for determining what is good for a human being that is independent of the nature of the human being.",
+    "themes": [
+      "Human Nature",
+      "Good",
+      "Naturalism"
+    ]
+  },
+  {
+    "id": "Q0534",
+    "author": "Philippa Foot",
+    "school": "Analytic Philosophy",
+    "source": "The Problem of Abortion and the Doctrine of the Double Effect (1967)",
+    "text": "We are most of us inclined to think that a great deal of damage, and even lives lost, is better than doing murder.",
+    "themes": [
+      "Double Effect",
+      "Killing",
+      "Moral Intuition"
+    ]
+  },
+  {
+    "id": "Q0535",
+    "author": "Martha Nussbaum",
+    "school": "Political Liberalism",
+    "source": "The Fragility of Goodness (1986)",
+    "text": "Luck can intervene between a person and the living of the good human life.",
+    "themes": [
+      "Luck",
+      "Virtue",
+      "Flourishing"
+    ]
+  },
+  {
+    "id": "Q0536",
+    "author": "Martha Nussbaum",
+    "school": "Political Liberalism",
+    "source": "Creating Capabilities (2011), Ch. 2",
+    "text": "The capabilities approach asks not only about people's total or average well-being but about what each person is able to do and to be.",
+    "themes": [
+      "Capabilities",
+      "Justice",
+      "Well-being"
+    ]
+  },
+  {
+    "id": "Q0537",
+    "author": "Martha Nussbaum",
+    "school": "Political Liberalism",
+    "source": "Upheavals of Thought (2001)",
+    "text": "Emotions are not just the fuel that powers the psychological mechanism of a reasoning creature; they are parts, highly complex and messy parts, of this creature's reasoning itself.",
+    "themes": [
+      "Emotion",
+      "Reason",
+      "Judgment"
+    ]
+  },
+  {
+    "id": "Q0538",
+    "author": "Martha Nussbaum",
+    "school": "Political Liberalism",
+    "source": "Poetic Justice (1995)",
+    "text": "Narrative imagination is an essential preparation for moral interaction.",
+    "themes": [
+      "Imagination",
+      "Literature",
+      "Morality"
+    ]
+  },
+  {
+    "id": "Q0539",
+    "author": "Hypatia of Alexandria",
+    "school": "Neoplatonism",
+    "source": "Damascius, Life of Isidore (via the Suda)",
+    "text": "She was devoted to philosophy and explained it publicly to anyone who wished to hear.",
+    "themes": [
+      "Philosophy",
+      "Education",
+      "Public Life"
+    ]
+  },
+  {
+    "id": "Q0540",
+    "author": "Hypatia of Alexandria",
+    "school": "Neoplatonism",
+    "source": "Synesius of Cyrene, Letter to Herculianus (testimonium)",
+    "text": "She honorably presides over the mysteries of philosophy.",
+    "themes": [
+      "Philosophy",
+      "Authority",
+      "Tradition"
+    ]
+  },
+  {
+    "id": "Q0541",
+    "author": "Christine de Pizan",
+    "school": "Renaissance Humanism",
+    "source": "The Book of the City of Ladies (1405), I.1",
+    "text": "There is not the slightest doubt that women belong to the people of God and the human race as much as men.",
+    "themes": [
+      "Equality",
+      "Dignity",
+      "Gender"
+    ]
+  },
+  {
+    "id": "Q0542",
+    "author": "Christine de Pizan",
+    "school": "Renaissance Humanism",
+    "source": "The Book of the City of Ladies (1405)",
+    "text": "Just as women's bodies are softer than men's, so their understanding is more sharp and clever.",
+    "themes": [
+      "Reason",
+      "Education",
+      "Gender"
+    ]
+  },
+  {
+    "id": "Q0543",
+    "author": "Christine de Pizan",
+    "school": "Renaissance Humanism",
+    "source": "The Book of the City of Ladies (1405), I.27",
+    "text": "Not all men (and especially the wisest) share the opinion that it is bad for women to be educated.",
+    "themes": [
+      "Education",
+      "Wisdom",
+      "Equality"
+    ]
+  },
+  {
+    "id": "Q0544",
+    "author": "Edith Stein",
+    "school": "Phenomenology",
+    "source": "On the Problem of Empathy (1917)",
+    "text": "Empathy is a kind of experiential act sui generis.",
+    "themes": [
+      "Empathy",
+      "Other",
+      "Consciousness"
+    ]
+  },
+  {
+    "id": "Q0545",
+    "author": "Edith Stein",
+    "school": "Phenomenology",
+    "source": "On the Problem of Empathy (1917)",
+    "text": "The individual is only able to find another individual as a living body and as a sensing, feeling, and willing I.",
+    "themes": [
+      "Other",
+      "Body",
+      "Subject"
+    ]
+  },
+  {
+    "id": "Q0546",
+    "author": "Edith Stein",
+    "school": "Phenomenology",
+    "source": "Finite and Eternal Being (written 1930s; pub. 1950)",
+    "text": "Finite being is separated from eternal being, yet every finite being points beyond itself.",
+    "themes": [
+      "Finitude",
+      "Eternity",
+      "Being"
+    ]
+  },
+  {
+    "id": "Q0547",
+    "author": "Gloria Anzaldúa",
+    "school": "Feminist Philosophy",
+    "source": "Borderlands/La Frontera (1987)",
+    "text": "The U.S.-Mexican border es una herida abierta where the Third World grates against the first and bleeds.",
+    "themes": [
+      "Border",
+      "Identity",
+      "Power"
+    ]
+  },
+  {
+    "id": "Q0548",
+    "author": "Gloria Anzaldúa",
+    "school": "Feminist Philosophy",
+    "source": "Borderlands/La Frontera (1987)",
+    "text": "A borderland is a vague and undetermined place created by the emotional residue of an unnatural boundary.",
+    "themes": [
+      "Border",
+      "Self",
+      "Hybridity"
+    ]
+  },
+  {
+    "id": "Q0549",
+    "author": "Sophie Oluwole",
+    "school": "Africana Philosophy",
+    "source": "Socrates and Ọ̀rúnmìlà: Two Patron Saints of Classical Philosophy (2014)",
+    "text": "What needs to be characterized and critically examined are African ideas and beliefs… philosophy is about what people say rather than what they do.",
+    "themes": [
+      "African Philosophy",
+      "Orality",
+      "Reason"
+    ]
+  },
+  {
+    "id": "Q0550",
+    "author": "Sophie Oluwole",
+    "school": "Africana Philosophy",
+    "source": "Socrates and Ọ̀rúnmìlà (2014/2015)",
+    "text": "There is nothing that is absolutely material. There is nothing that is absolutely non-material. And in all phenomenons in the world, the two are there together.",
+    "themes": [
+      "Metaphysics",
+      "Complementarity",
+      "Reality"
+    ]
+  },
+  {
+    "id": "Q0551",
+    "author": "Sophie Oluwole",
+    "school": "Africana Philosophy",
+    "source": "Socrates and Ọ̀rúnmìlà (2014)",
+    "text": "It would be ridiculous to raise the question as to whether or not Ọ̀rúnmìlà was religious. He was the leader of a religious cult which established a school structured like Plato's Academy.",
+    "themes": [
+      "Comparative Philosophy",
+      "Tradition",
+      "Education"
+    ]
+  },
+  {
+    "id": "Q0552",
+    "author": "Sophie Oluwole",
+    "school": "Africana Philosophy",
+    "source": "Interview on African essence and oral legacy (2017)",
+    "text": "Look at Christianity and Islam. They have the Bible and the Koran… Now, where is our own book on Orunmila? It is a question that should worry all rational Yoruba and African people.",
+    "themes": [
+      "Oral Tradition",
+      "Memory",
+      "Culture"
+    ]
+  },
+  {
+    "id": "Q0553",
+    "author": "Audre Lorde",
+    "school": "Feminist Philosophy",
+    "source": "\"The Master's Tools Will Never Dismantle the Master's House\" (1979), in Sister Outsider",
+    "text": "The master's tools will never dismantle the master's house.",
+    "themes": [
+      "Power",
+      "Liberation",
+      "Difference"
+    ]
+  },
+  {
+    "id": "Q0554",
+    "author": "Audre Lorde",
+    "school": "Feminist Philosophy",
+    "source": "\"The Transformation of Silence into Language and Action\" (1977), in Sister Outsider",
+    "text": "Your silence will not protect you.",
+    "themes": [
+      "Speech",
+      "Courage",
+      "Oppression"
+    ]
+  },
+  {
+    "id": "Q0555",
+    "author": "Audre Lorde",
+    "school": "Feminist Philosophy",
+    "source": "\"Poetry Is Not a Luxury\" (1977), in Sister Outsider",
+    "text": "Poetry is not a luxury. It is a vital necessity of our existence.",
+    "themes": [
+      "Language",
+      "Knowledge",
+      "Freedom"
+    ]
   }
 ]

@@ -1223,4 +1223,153 @@ export const extraThinkerGuides: Record<string, ThinkerGuide> = {
     legacy:
       "Goethe influences philosophies of nature, Bildung, and the unity of art and science.",
   },
+  "Elizabeth Anscombe": {
+    lifespan: "1919–2001",
+    school: "Analytic Philosophy",
+    birthDate: "1919-03-18",
+    deathDate: "2001-01-05",
+    jobTitle: "Philosopher",
+    knowsAbout: ["intention", "action", "virtue", "moral psychology", "Wittgenstein"],
+    overview:
+      "G. E. M. Anscombe (1919–2001) was a British analytic philosopher whose Intention and “Modern Moral Philosophy” reshaped action theory and revived virtue ethics. A student and literary executor of Wittgenstein, she taught at Oxford and Cambridge and combined rigorous conceptual analysis with a Thomistic moral outlook.",
+    ideas:
+      "Anscombe argues that intention is understood through the descriptions under which an agent acts, not through mysterious inner pushes. In ethics she criticizes consequentialism and the modern sense of “morally ought,” urging a return to thick concepts such as justice and the virtues once a lawgiver framework is absent.",
+    works: ["Intention", "Modern Moral Philosophy", "Collected Philosophical Papers"],
+    legacy:
+      "She stands behind late-twentieth-century virtue ethics and remains central to philosophy of action; debates on double effect and moral vocabulary continually return to her essays.",
+  },
+  "Philippa Foot": {
+    lifespan: "1920–2010",
+    school: "Analytic Philosophy",
+    birthDate: "1920-10-03",
+    deathDate: "2010-10-03",
+    jobTitle: "Philosopher",
+    knowsAbout: ["virtue ethics", "natural goodness", "moral psychology", "practical reason"],
+    overview:
+      "Philippa Foot (1920–2010) was a leading Oxford moral philosopher who helped restore virtue ethics within analytic philosophy. Across essays collected in Virtues and Vices and the late book Natural Goodness, she linked moral evaluation to the needs and life-form of human beings rather than to free-floating emotivist attitudes.",
+    ideas:
+      "Foot treats virtues as beneficial traits humans need for living well together, and argues that moral judgment is constrained by the kinds of things humans are. Her discussions of trolley cases and double effect sharpened debates about killing, letting die, and the structure of practical reasons.",
+    works: ["Virtues and Vices", "Natural Goodness", "Moral Dilemmas"],
+    legacy:
+      "Foot’s naturalism and virtue theory continue to shape metaethics, applied ethics, and neo-Aristotelian moral philosophy.",
+  },
+  "Martha Nussbaum": {
+    lifespan: "1947–",
+    school: "Political Liberalism",
+    birthDate: "1947-05-06",
+    jobTitle: "Philosopher",
+    knowsAbout: ["capabilities", "emotions", "justice", "ancient ethics", "liberalism"],
+    overview:
+      "Martha Nussbaum (b. 1947) is an American philosopher whose work spans ancient Greek ethics, emotions, and contemporary political liberalism. With Amartya Sen she developed the capabilities approach; her books also defend the cognitive content of emotions and the civic role of literature and imagination.",
+    ideas:
+      "Human flourishing depends on substantial freedoms—capabilities to do and to be—secured by just institutions. Emotions are evaluative judgments open to education; narrative imagination prepares citizens for moral attention across difference. Luck and vulnerability remain central to a realistic account of the good life.",
+    works: [
+      "The Fragility of Goodness",
+      "Upheavals of Thought",
+      "Creating Capabilities",
+      "Frontiers of Justice",
+    ],
+    legacy:
+      "Nussbaum’s capabilities framework informs development policy and liberal political theory, while her emotion theory reshapes ethics and philosophy of mind.",
+  },
+  "Hypatia of Alexandria": {
+    lifespan: "c. 350–415",
+    school: "Neoplatonism",
+    deathDate: "0415",
+    jobTitle: "Philosopher and mathematician",
+    knowsAbout: ["Neoplatonism", "mathematics", "astronomy", "public teaching"],
+    overview:
+      "Hypatia of Alexandria (c. 350–415) was a Neoplatonist philosopher and mathematician, daughter of the astronomer Theon. No authentic philosophical treatise in her own hand survives; our picture depends on Synesius’s letters and later reports by Socrates Scholasticus, Damascius, and others. She taught publicly in Alexandria and was murdered in 415 amid civic-religious conflict.",
+    ideas:
+      "Ancient testimonia present her as expounding Platonic philosophy and the mathematical sciences to mixed audiences, associated with a moderated Alexandrian Neoplatonism rather than theurgic extremes. Reconstruction of doctrines must remain cautious because first-person texts are lost.",
+    works: [
+      "Commentaries on Diophantus and Ptolemy (attested; not extant as her signed works)",
+      "Editorial collaboration associated with Theon’s astronomical corpus (scholarly debate)",
+    ],
+    legacy:
+      "Hypatia became a lasting symbol of learning under political violence and of women’s presence in ancient philosophy, while scholarship insists on strict source criticism rather than invented sayings.",
+  },
+  "Christine de Pizan": {
+    lifespan: "1364–c. 1430",
+    school: "Renaissance Humanism",
+    birthDate: "1364",
+    deathDate: "1430",
+    jobTitle: "Writer and political thinker",
+    knowsAbout: ["women’s education", "virtue", "political counsel", "humanism"],
+    overview:
+      "Christine de Pizan (1364–c. 1430) was an Italian-born writer active at the French court who authored poetry, political advice books, and The Book of the City of Ladies. Widowed young, she supported herself by letters and became an early public defender of women’s intellectual and moral dignity against misogynist literary tradition.",
+    ideas:
+      "Christine argues that women share fully in humanity and divine peoplehood, that education and virtue are open to them, and that calumnies against women often rest on envy and ignorance. Her allegorical city gathers exemplary women as a counter-history to inherited prejudice.",
+    works: [
+      "The Book of the City of Ladies",
+      "The Treasure of the City of Ladies",
+      "The Book of the Body Politic",
+    ],
+    legacy:
+      "She is a founding figure for feminist intellectual history and late-medieval political thought, bridging courtly literature and civic counsel.",
+  },
+  "Edith Stein": {
+    lifespan: "1891–1942",
+    school: "Phenomenology",
+    birthDate: "1891-10-12",
+    deathDate: "1942-08-09",
+    jobTitle: "Philosopher and Carmelite",
+    knowsAbout: ["empathy", "personhood", "phenomenology", "Thomism"],
+    overview:
+      "Edith Stein (1891–1942), also known as St. Teresa Benedicta of the Cross, was a German phenomenologist who studied with Husserl and wrote On the Problem of Empathy. Of Jewish origin, she converted to Catholicism, entered Carmel, and was killed at Auschwitz; her later work joins phenomenology with Christian metaphysics.",
+    ideas:
+      "Stein analyzes empathy as a distinctive experiential act through which another subject is given, not inferred as a mere analogy from one’s own case. She develops accounts of the person, community, and the relation of finite being to eternal being, moving from early Husserlian description toward a realist ontology.",
+    works: ["On the Problem of Empathy", "Philosophy of Psychology and the Humanities", "Finite and Eternal Being"],
+    legacy:
+      "Stein remains central to phenomenological ethics of the other and to twentieth-century Catholic philosophy; her life also marks philosophy under totalitarian persecution.",
+  },
+  "Gloria Anzaldúa": {
+    lifespan: "1942–2004",
+    school: "Feminist Philosophy",
+    birthDate: "1942-09-26",
+    deathDate: "2004-05-15",
+    jobTitle: "Writer and theorist",
+    knowsAbout: ["borderlands", "mestiza consciousness", "identity", "language"],
+    overview:
+      "Gloria Anzaldúa (1942–2004) was a Chicana feminist theorist and poet whose Borderlands/La Frontera mixed autobiography, myth, and political analysis of the U.S.–Mexico border. She wrote across English and Spanish to describe hybrid identity under colonial and patriarchal pressure.",
+    ideas:
+      "The borderland is an undetermined psychic and geographic space produced by unnatural boundaries; mestiza consciousness negotiates multiple languages, cultures, and genders without demanding purity. Language and storytelling become sites of resistance and self-formation.",
+    works: ["Borderlands/La Frontera", "This Bridge Called My Back (co-edited)", "Light in the Dark/Luz en lo Oscuro"],
+    legacy:
+      "Anzaldúa shaped feminist, queer, and decolonial theory; “borderlands” remains a keyword across cultural studies and philosophy of identity.",
+  },
+  "Sophie Oluwole": {
+    lifespan: "1935–2018",
+    school: "Africana Philosophy",
+    birthDate: "1935-05-12",
+    deathDate: "2018-12-23",
+    jobTitle: "Philosopher",
+    knowsAbout: ["Yoruba philosophy", "Ifá", "comparative philosophy", "orality"],
+    overview:
+      "Sophie Bosede Oluwole (1935–2018) was a Nigerian philosopher and the first woman to earn a doctorate in philosophy in Nigeria. She taught at the University of Lagos and argued that Yoruba oral traditions, especially Ifá, contain rigorous classical philosophy comparable to Greek sources.",
+    ideas:
+      "In Socrates and Ọ̀rúnmìlà she compares the Greek and Yoruba sages as oral teachers whose ideas must be recovered from tradition. She contrasts Western binary opposition with African binary complementarity, insisting that matter and idea co-belong in phenomena and that African sayings deserve critical philosophical analysis.",
+    works: [
+      "Socrates and Ọ̀rúnmìlà: Two Patron Saints of Classical Philosophy",
+      "Witchcraft, Reincarnation and the God-Head",
+      "essays on Yoruba philosophy of mind and ethics",
+    ],
+    legacy:
+      "Oluwole made Yoruba thought audible in global philosophy curricula and modeled comparative work that refuses the myth of Africa without philosophy.",
+  },
+  "Audre Lorde": {
+    lifespan: "1934–1992",
+    school: "Feminist Philosophy",
+    birthDate: "1934-02-18",
+    deathDate: "1992-11-17",
+    jobTitle: "Poet and theorist",
+    knowsAbout: ["difference", "silence", "power", "poetry as knowledge"],
+    overview:
+      "Audre Lorde (1934–1992) was a Black lesbian feminist poet and essayist whose Sister Outsider gathered speeches that treat difference, anger, and language as philosophical-political problems. She wrote as a self-described warrior poet confronting racism, sexism, and homophobia.",
+    ideas:
+      "Lorde argues that tools forged by domination cannot liberate the dominated; silence does not secure survival; poetry is a necessity for naming experience that official reason erases. Difference is a creative source rather than a threat to solidarity.",
+    works: ["Sister Outsider", "Zami: A New Spelling of My Name", "The Cancer Journals"],
+    legacy:
+      "Her essays remain touchstones in feminist ethics, critical theory, and debates about method, voice, and coalition across difference.",
+  },
 };
