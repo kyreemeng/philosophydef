@@ -191,7 +191,7 @@
 
 - **作者 / Author**: 亚里士多德 / Aristotle (384–322 BCE)
 - **学派 / School**: 逍遥学派 / Peripatetic School
-- **出处 / Source**: 《尼各马可伦理学》IX.4 / IX.9 / Nicomachean Ethics IX.4 / IX.9
+- **出处 / Source**: 《尼各马可伦理学》IX.4 / Nicomachean Ethics IX.4
 - **原文语言 / Language**: 古希腊语 / Ancient Greek
 - **原文 / Original**: ἔστι γὰρ ὁ φίλος ἄλλος αὐτός
 - **英译 / English**: A friend is another self.
@@ -327,7 +327,7 @@
 - **原文语言 / Language**: 古希腊语 / Ancient Greek
 - **原文 / Original**: μέμνησο ὅτι ὑποκριτὴς εἶ δράματος, οἵου ἂν θέλῃ ὁ διδάσκαλος
 - **英译 / English**: Remember that you are an actor in a play, of such a kind as the playwright may choose.
-- **中译 / Chinese**: 记住：你是一出戏中的演员，剧本由导演决定。
+- **中译 / Chinese**: 记住：你是一出戏中的演员，剧本由编剧决定。
 - **主题 / Themes**: 角色、接受、命运 / Role, Acceptance, Fate
 - **置信度 / Confidence**: ★ (High)
 
@@ -625,7 +625,7 @@
 
 - **作者 / Author**: 蒙田（1533–1592） / Michel de Montaigne (1533–1592)
 - **学派 / School**: 文艺复兴人文主义 / Renaissance Humanism
-- **出处 / Source**: 《随笔集》题铭 / II.12 / Essays (motto) / II.12
+- **出处 / Source**: 《随笔集》题铭（参 II.12） / Essays (motto; cf. II.12)
 - **原文语言 / Language**: 法语 / French
 - **原文 / Original**: Que sais-je ?
 - **英译 / English**: What do I know?
@@ -7529,7 +7529,7 @@
 
 - **作者 / Author**: 保兰·洪通吉（1942–2024） / Paulin Hountondji (1942–2024)
 - **学派 / School**: 非洲哲学 / Africana Philosophy
-- **出处 / Source**: 同上 / African Philosophy: Myth and Reality
+- **出处 / Source**: 《非洲哲学：神话与现实》 / African Philosophy: Myth and Reality
 - **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
 - **原文 / Original**: So for us African philosophy is a body of literature whose existence is undeniable, a bibliography which has grown constantly.
 - **英译 / English**: So for us African philosophy is a body of literature whose existence is undeniable, a bibliography which has grown constantly.
@@ -7542,7 +7542,7 @@
 
 - **作者 / Author**: 保兰·洪通吉（1942–2024） / Paulin Hountondji (1942–2024)
 - **学派 / School**: 非洲哲学 / Africana Philosophy
-- **出处 / Source**: 同上（论汤普尔斯《班图哲学》） / African Philosophy: Myth and Reality (on Tempels)
+- **出处 / Source**: 《非洲哲学：神话与现实》（论汤普尔斯《班图哲学》） / African Philosophy: Myth and Reality (on Tempels)
 - **原文语言 / Language**: 法语（通行英译） / French (standard English rendering)
 - **原文 / Original**: In fact, it is an ethnological work with philosophical pretensions, or more simply, if I may coin the word, a work of 'ethnophilosophy'.
 - **英译 / English**: In fact, it is an ethnological work with philosophical pretensions, or more simply, if I may coin the word, a work of 'ethnophilosophy'.

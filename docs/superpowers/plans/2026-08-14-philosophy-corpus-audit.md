@@ -638,7 +638,7 @@ EOF
 
 **Files:** none new (verification only)
 
-- [ ] **Step 1: Full pipeline**
+- [x] **Step 1: Full pipeline**
 
 ```bash
 npm run build:quotes
@@ -653,7 +653,7 @@ Expected:
 - Astro build succeeds  
 - SEO verify exits 0 (or only pre-existing non-blocking warnings — do not introduce new broken canonicals)
 
-- [ ] **Step 2: Manual acceptance spot-check (≥10%)**
+- [x] **Step 2: Manual acceptance spot-check (≥10%)**
 
 Pick ≥70 random IDs:
 
@@ -667,7 +667,7 @@ for (const i of idx) console.log(q[i].id, q[i].author, q[i].source);
 
 For each, open the Markdown block and confirm source + English/Chinese alignment. Log failures and fix before final commit.
 
-- [ ] **Step 3: Final commit if fixes landed**
+- [x] **Step 3: Final commit if fixes landed**
 
 ```bash
 git add data/philosophy_quotes_curated.md src/data/quotes.json src/data/thinkers-researched.ts src/data/thinkers-extra.ts
