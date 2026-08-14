@@ -548,7 +548,7 @@ EOF
 - Modify: `src/data/thinkers-researched.ts`
 - Modify: `src/data/thinkers-extra.ts` if templates exist there
 
-- [ ] **Step 1: Confirm template burden**
+- [x] **Step 1: Confirm template burden**
 
 ```bash
 rg -c "Method matters: dialectic, meditation" src/data/thinkers-researched.ts src/data/thinkers-extra.ts
@@ -557,7 +557,7 @@ rg -c "Active within the tradition labeled" src/data/thinkers-researched.ts
 
 Expected before fix: large counts (~89). After: `0`.
 
-- [ ] **Step 2: Rewrite strategy**
+- [x] **Step 2: Rewrite strategy**
 
 For each templated thinker:
 
@@ -569,7 +569,7 @@ For each templated thinker:
 
 Process in batches of ~20 thinkers per commit if needed (Ancient → Chinese → Modern → New Track B names already written in Tasks 4–6).
 
-- [ ] **Step 3: Verify zero templates**
+- [x] **Step 3: Verify zero templates**
 
 ```bash
 rg "Method matters: dialectic, meditation" src/data || true
@@ -578,7 +578,7 @@ rg "Active within the tradition labeled" src/data || true
 
 Expected: no matches.
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add src/data/thinkers-researched.ts src/data/thinkers-extra.ts
