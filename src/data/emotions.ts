@@ -18,7 +18,7 @@ export const emotionHubs: EmotionHub[] = [
     name: "Love",
     title: "Philosophical Quotes About Love",
     description:
-      "Philosophical quotes about love—desire, friendship, care, and recognition—from Plato, Confucius, and modern thinkers, in clear English.",
+      "Philosophical quotes about love—eros, friendship, care, and recognition—from Plato, Aristotle, Confucius, and modern ethics. Clear English, cited sources.",
     intro:
       "Philosophers treat love as more than a private feeling: it can be desire, mutual goodwill, recognition, or a disciplined commitment to another’s good. These passages gather that vocabulary without reducing love to a greeting-card slogan.",
     themes: ["Love", "Friendship", "Desire"],
@@ -93,9 +93,9 @@ export const emotionHubs: EmotionHub[] = [
   {
     slug: "peace",
     name: "Peace",
-    title: "Philosophy Quotes About Peace",
+    title: "Philosophy Quotes About Peace of Mind",
     description:
-      "Philosophy quotes about peace of mind and political peace—tranquility, ataraxia, and living without needless agitation.",
+      "Philosophy quotes about peace, tranquility, and ataraxia—Stoic equanimity and calm without empty slogans. Verified English sources.",
     intro:
       "Peace names both a political condition and a settled mind. Epicurean ataraxia, Stoic equanimity, and East Asian calm each propose different disciplines for reducing unnecessary disturbance.",
     themes: ["Peace", "Tranquility"],
@@ -104,9 +104,9 @@ export const emotionHubs: EmotionHub[] = [
   {
     slug: "loneliness",
     name: "Loneliness",
-    title: "Philosophy Quotes About Loneliness",
+    title: "Philosophy Quotes About Loneliness & Solitude",
     description:
-      "Philosophy quotes about loneliness and solitude—isolation, self-sufficiency, and the difference between chosen quiet and unwanted absence.",
+      "Philosophy quotes about loneliness vs solitude—chosen quiet, unwanted isolation, and self-sufficiency. Verified English passages with thinkers and sources.",
     intro:
       "Solitude can be chosen for thought; loneliness names unwanted isolation. These passages distinguish independence from abandonment, and ask what community the examined life still requires.",
     themes: ["Solitude"],

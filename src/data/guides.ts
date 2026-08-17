@@ -210,7 +210,7 @@ export const guides: Guide[] = [
     slug: "philosophy-of-ai",
     title: "Philosophy of AI",
     description:
-      "Philosophy of AI in 2026: intelligence vs consciousness, knowledge and explanation, ethics, responsibility, and whether AI systems could be welfare subjects.",
+      "Philosophy of artificial intelligence: consciousness vs intelligence, knowledge and explanation, ethics, responsibility, and AI as a welfare subject—clear 2026 guide.",
     eyebrow: "Technology and thought",
     intro:
       "The philosophy of AI examines what artificial intelligence is, what it can know or do, and how people should design, use, and govern it.",
@@ -675,9 +675,9 @@ export const guides: Guide[] = [
   },
   {
     slug: "what-is-epistemology",
-    title: "What Is Epistemology?",
+    title: "What Is Epistemology? Meaning, Definition & Examples",
     description:
-      "What is epistemology? The philosophy of knowledge, justification, belief, evidence, and skepticism—clearly explained.",
+      "Epistemology meaning explained: the philosophy of knowledge, justification, belief, evidence, and skepticism—with clear examples and FAQs.",
     eyebrow: "Theory of knowledge",
     intro:
       "Epistemology is the philosophy of knowledge: what knowledge is, how belief is justified, and how far skepticism should go.",
@@ -1000,7 +1000,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "plato-vs-aristotle",
-    title: "Plato vs Aristotle",
+    title: "Plato vs Aristotle: Key Differences Explained",
     description:
       "Plato vs Aristotle: forms vs substances, politics, ethics, and how their disagreement shaped Western philosophy.",
     eyebrow: "Comparison",

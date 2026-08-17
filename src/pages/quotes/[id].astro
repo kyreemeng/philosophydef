@@ -6,12 +6,12 @@ import {
   canonicalizeTheme,
   citationFormats,
   quoteDescription,
+  quoteHeading,
   quoteTitle,
   relatedByAuthor,
   relatedByTheme,
   slugify,
   themeSlug,
-  truncateWords,
 } from "../../lib/content";
 import { guides } from "../../data/guides";
 import { shouldIndexThinkerThemePair } from "../../lib/indexing";
@@ -27,6 +27,7 @@ const { quote } = Astro.props;
 const quoteUrl = `/quotes/${quote.id.toLowerCase()}`;
 const description = quoteDescription(quote);
 const title = quoteTitle(quote);
+const heading = quoteHeading(quote);
 const primaryTheme = canonicalizeTheme(quote.themes[0] ?? "Philosophy");
 const sameAuthor = relatedByAuthor(quote, 5);
 const sameTheme = relatedByTheme(quote, 5);
@@ -114,10 +115,11 @@ const schema = [
   <article class="page-shell">
     <header class="page-intro">
       <p class="eyebrow">{quote.id}</p>
-      <h1>“{truncateWords(quote.text, 12)}” — {quote.author} ({quote.id})</h1>
+      <h1>{heading}</h1>
       <p>
-        An English quotation associated with {quote.source || quote.school},
-        organized here under {primaryTheme.toLowerCase()}.
+        {quote.source && quote.source !== "Tradition"
+          ? `Verified English quotation. Primary source: ${quote.source}. Theme: ${primaryTheme.toLowerCase()}.`
+          : `An English quotation associated with ${quote.school}, organized here under ${primaryTheme.toLowerCase()}.`}
       </p>
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/quotes">Quotes</a>

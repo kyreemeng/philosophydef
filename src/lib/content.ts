@@ -1,5 +1,6 @@
 import quotes from "../data/quotes.json";
 import themeMerge from "../data/theme-merge.json";
+import { quoteSeoOverrides } from "../data/seo-overrides";
 
 export type Quote = (typeof quotes)[number];
 
@@ -7,13 +8,44 @@ const caseMap = themeMerge.caseMap as Record<string, string>;
 const thinMerges = themeMerge.thinMerges as Record<string, string>;
 const keepThemes = new Set(themeMerge.keepThemes as string[]);
 
+/** Characters that do not decompose under NFKD into base+combining marks. */
+const SLUG_TRANSLIT: Record<string, string> = {
+  æ: "ae",
+  Æ: "ae",
+  ø: "o",
+  Ø: "o",
+  å: "a",
+  Å: "a",
+  ð: "d",
+  Ð: "d",
+  þ: "th",
+  Þ: "th",
+  ß: "ss",
+  ł: "l",
+  Ł: "l",
+  đ: "d",
+  Đ: "d",
+};
+
 export function slugify(value: string) {
-  return value
+  const transliterated = value.replace(
+    /[æÆøØåÅðÐþÞßłŁđĐ]/g,
+    (ch) => SLUG_TRANSLIT[ch] ?? ch,
+  );
+  return transliterated
     .normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
+}
+
+/** Broken historical thinker slugs → corrected paths (GSC-indexed). */
+export function thinkerSlugRedirects(): Record<string, string> {
+  return {
+    "/thinkers/s-ren-kierkegaard": "/thinkers/soren-kierkegaard",
+    "/thinkers/s-ren-kierkegaard/self": "/thinkers/soren-kierkegaard/self",
+  };
 }
 
 /** Map any raw theme label to a publishable canonical theme. */
@@ -98,24 +130,48 @@ export function truncateWords(text: string, maxWords: number) {
 }
 
 export function quoteTitle(quote: Quote) {
-  const snippet = truncateWords(quote.text, 12);
+  const override = quoteSeoOverrides[quote.id.toLowerCase()];
+  if (override?.title) return override.title;
+
+  const snippet = truncateWords(quote.text, 10);
   const sharesOpening = quotes.some(
     (other) =>
       other.id !== quote.id &&
       other.author === quote.author &&
-      truncateWords(other.text, 12) === snippet,
+      truncateWords(other.text, 10) === snippet,
   );
   const who = sharesOpening ? `${quote.author} (${quote.id})` : quote.author;
+  // Match GSC “quote source” intent when a real citation exists.
+  if (quote.source && quote.source !== "Tradition") {
+    const shortSource = truncateWords(quote.source, 5);
+    return `${who}: “${snippet}” — Source: ${shortSource}`;
+  }
   return `${who} Quote: “${snippet}” | Philosophy Blind Box`;
 }
 
 export function quoteDescription(quote: Quote) {
+  const override = quoteSeoOverrides[quote.id.toLowerCase()];
+  if (override?.description) return override.description.slice(0, 160);
+
   const theme = canonicalizeTheme(quote.themes[0] ?? "Philosophy").toLowerCase();
-  const source = quote.source ? ` Source: ${quote.source}.` : "";
+  const source =
+    quote.source && quote.source !== "Tradition"
+      ? ` Source: ${quote.source}.`
+      : "";
   return `${quote.author} quote on ${theme}.${source} “${truncateWords(quote.text, 16)}”`.slice(
     0,
     155,
   );
+}
+
+export function quoteHeading(quote: Quote) {
+  const override = quoteSeoOverrides[quote.id.toLowerCase()];
+  if (override?.h1) return override.h1;
+  const snippet = truncateWords(quote.text, 12);
+  if (quote.source && quote.source !== "Tradition") {
+    return `“${snippet}” — ${quote.author} (${truncateWords(quote.source, 6)})`;
+  }
+  return `“${snippet}” — ${quote.author} (${quote.id})`;
 }
 
 export function relatedByAuthor(quote: Quote, limit = 5) {

@@ -50,7 +50,7 @@ export const themeGuides: Record<string, ThemeGuide> = {
   },
   Self: {
     intro:
-      "The self is the subject of introspection, identity, responsibility, and change—questions that recur from Socrates to modern psychology and phenomenology.",
+      "Philosophy quotes about self explore identity, responsibility, and the examined life—from Socrates’ unexamined life to modern phenomenology and existential authenticity.",
     overview:
       "To ask about the self is to ask what persists through experience, what can be known from the first-person point of view, and how character is formed. Some traditions treat the self as a substantial soul; others as a stream of experience, a social role, or a practical center of agency.",
     history:
@@ -64,7 +64,7 @@ export const themeGuides: Record<string, ThemeGuide> = {
       {
         question: "Why do philosophers talk about the examined life?",
         answer:
-          "Because unexamined habits still guide action. Examining the self is a way of bringing reasons, desires, and responsibilities into view.",
+          "Because unexamined habits still guide action. Socrates’ line that the unexamined life is not worth living (Plato, Apology 38a) remains the classic prompt—see the archive entry for the exact wording and source.",
       },
       {
         question: "Where can I find philosophy quotes about the self?",

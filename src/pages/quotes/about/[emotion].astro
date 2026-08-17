@@ -8,6 +8,7 @@ import {
 } from "../../../data/emotions";
 import quotes from "../../../data/quotes.json";
 import { canonicalizeTheme } from "../../../lib/content";
+import { pageSeoOverrides } from "../../../data/seo-overrides";
 
 export function getStaticPaths() {
   return emotionHubs
@@ -88,11 +89,14 @@ const schema = [
     ],
   },
 ];
+const seo = pageSeoOverrides[path] ?? {};
+const pageTitle = seo.title ?? `${hub.title} | Philosophy Blind Box`;
+const pageDescription = seo.description ?? hub.description;
 ---
 
 <BaseLayout
-  title={`${hub.title} | Philosophy Blind Box`}
-  description={hub.description}
+  title={pageTitle}
+  description={pageDescription}
   canonical={path}
   schema={schema}
 >

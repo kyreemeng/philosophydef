@@ -11,7 +11,28 @@ const { caseMap, thinMerges, keepThemes } = JSON.parse(mergeText);
 const config = JSON.parse(configText);
 
 function slugify(value) {
-  return value
+  const translit = {
+    æ: "ae",
+    Æ: "ae",
+    ø: "o",
+    Ø: "o",
+    å: "a",
+    Å: "a",
+    ð: "d",
+    Ð: "d",
+    þ: "th",
+    Þ: "th",
+    ß: "ss",
+    ł: "l",
+    Ł: "l",
+    đ: "d",
+    Đ: "d",
+  };
+  const transliterated = value.replace(
+    /[æÆøØåÅðÐþÞßłŁđĐ]/g,
+    (ch) => translit[ch] ?? ch,
+  );
+  return transliterated
     .normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
@@ -44,6 +65,17 @@ config.redirects = [
     source: "/:path*",
     has: [{ type: "host", value: "philosophydef.com" }],
     destination: "https://www.philosophydef.com/:path*",
+    permanent: true,
+  },
+  // Legacy broken slug for Søren Kierkegaard (ø previously stripped → s-ren-…)
+  {
+    source: "/thinkers/s-ren-kierkegaard",
+    destination: "/thinkers/soren-kierkegaard",
+    permanent: true,
+  },
+  {
+    source: "/thinkers/s-ren-kierkegaard/:path*",
+    destination: "/thinkers/soren-kierkegaard/:path*",
     permanent: true,
   },
   ...[...redirects.entries()]

@@ -3,6 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { themeGroups, slugify } from "../../lib/content";
 import { defaultThemeGuide, themeGuideFor } from "../../data/enrichment";
 import { shouldIndexTheme } from "../../lib/indexing";
+import { pageSeoOverrides } from "../../data/seo-overrides";
 
 export function getStaticPaths() {
   return themeGroups().map((theme) => ({
@@ -16,6 +17,12 @@ const pageUrl = `/themes/${theme.slug}`;
 const guide = themeGuideFor(theme.name) ?? defaultThemeGuide(theme.name, theme.quotes.length);
 const indexable = shouldIndexTheme(theme);
 const thinkers = [...new Set(theme.quotes.map((quote) => quote.author))].slice(0, 8);
+const seo = pageSeoOverrides[pageUrl] ?? {};
+const pageTitle =
+  seo.title ?? `Philosophy Quotes About ${theme.name} | Philosophy Blind Box`;
+const pageDescription =
+  seo.description ??
+  `Philosophy quotes about ${theme.name.toLowerCase()}: read ${theme.quotes.length} verified English passages. ${guide.intro.slice(0, 100)}`;
 const schema = [
   {
     "@context": "https://schema.org",
@@ -66,8 +73,8 @@ const schema = [
 ---
 
 <BaseLayout
-  title={`Philosophy Quotes About ${theme.name} | Philosophy Blind Box`}
-  description={`Philosophy quotes about ${theme.name.toLowerCase()}: read ${theme.quotes.length} verified English passages. ${guide.intro.slice(0, 100)}`}
+  title={pageTitle}
+  description={pageDescription}
   canonical={pageUrl}
   schema={schema}
   robots={indexable ? undefined : "noindex, follow, max-image-preview:large"}

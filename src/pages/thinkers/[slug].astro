@@ -3,6 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { thinkerGroups, canonicalizeTheme, themeSlug } from "../../lib/content";
 import { thinkerGuideFor, defaultThinkerGuide, isTextTradition } from "../../data/enrichment";
 import { shouldIndexThinker, shouldIndexThinkerThemePair } from "../../lib/indexing";
+import { pageSeoOverrides } from "../../data/seo-overrides";
 
 export function getStaticPaths() {
   return thinkerGroups().map((thinker) => ({
@@ -86,11 +87,16 @@ const themePhrase =
   topThemeNames.length > 0
     ? ` Themes include ${topThemeNames.map((t) => t.toLowerCase()).join(", ")}.`
     : "";
+const seo = pageSeoOverrides[pageUrl] ?? {};
+const pageTitle = seo.title ?? `${thinker.name} Quotes | Philosophy Blind Box`;
+const pageDescription =
+  seo.description ??
+  `${thinker.name} quotes: read ${thinker.quotes.length} verified English philosophy quotations${guide ? ` (${guide.lifespan})` : ""}.${themePhrase}`;
 ---
 
 <BaseLayout
-  title={`${thinker.name} Quotes | Philosophy Blind Box`}
-  description={`${thinker.name} quotes: read ${thinker.quotes.length} verified English philosophy quotations${guide ? ` (${guide.lifespan})` : ""}.${themePhrase}`}
+  title={pageTitle}
+  description={pageDescription}
   canonical={pageUrl}
   schema={schema}
   robots={indexable ? undefined : "noindex, follow, max-image-preview:large"}

@@ -19,6 +19,16 @@
       "permanent": true
     },
     {
+      "source": "/thinkers/s-ren-kierkegaard",
+      "destination": "/thinkers/soren-kierkegaard",
+      "permanent": true
+    },
+    {
+      "source": "/thinkers/s-ren-kierkegaard/:path*",
+      "destination": "/thinkers/soren-kierkegaard/:path*",
+      "permanent": true
+    },
+    {
       "source": "/themes/absolute",
       "destination": "/themes/philosophy",
       "permanent": true
