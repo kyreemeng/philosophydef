@@ -1,8 +1,18 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { thinkerGroups, canonicalizeTheme, themeSlug } from "../../lib/content";
+import {
+  thinkerGroups,
+  canonicalizeTheme,
+  themeGroups,
+  themePath,
+  themeSlug,
+} from "../../lib/content";
 import { thinkerGuideFor, defaultThinkerGuide, isTextTradition } from "../../data/enrichment";
-import { shouldIndexThinker, shouldIndexThinkerThemePair } from "../../lib/indexing";
+import {
+  shouldIndexTheme,
+  shouldIndexThinker,
+  shouldIndexThinkerThemePair,
+} from "../../lib/indexing";
 import { pageSeoOverrides } from "../../data/seo-overrides";
 
 export function getStaticPaths() {
@@ -23,8 +33,12 @@ const guide =
     [...new Set(thinker.quotes.flatMap((quote) => quote.themes.map((theme) => canonicalizeTheme(theme))))],
   );
 const themeCounts = new Map<string, number>();
+const indexableThemeNames = new Set(
+  themeGroups().filter(shouldIndexTheme).map((theme) => theme.name),
+);
 for (const quote of thinker.quotes) {
   const theme = canonicalizeTheme(quote.themes[0] ?? "Philosophy");
+  if (!indexableThemeNames.has(theme)) continue;
   themeCounts.set(theme, (themeCounts.get(theme) ?? 0) + 1);
 }
 const topThemes = [...themeCounts.entries()]
@@ -140,7 +154,7 @@ const pageDescription =
                     {topThemes.map(([theme, count], index) => (
                       <>
                         {index > 0 && " · "}
-                        <a href={`/themes/${themeSlug(theme)}`}>
+                        <a href={themePath(theme)}>
                           {theme} ({count})
                         </a>
                         {shouldIndexThinkerThemePair({

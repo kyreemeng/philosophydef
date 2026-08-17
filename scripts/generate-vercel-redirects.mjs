@@ -46,18 +46,27 @@ function canonicalizeTheme(theme) {
   return thinMerges[cased] ?? "Philosophy";
 }
 
-const redirects = new Map();
+function themePath(theme) {
+  const canonical = canonicalizeTheme(theme);
+  return canonical === "Philosophy"
+    ? "/themes"
+    : `/themes/${slugify(canonical)}`;
+}
+
+const redirects = new Map([["/themes/philosophy", "/themes"]]);
 for (const quote of quotes) {
   for (const rawTheme of quote.themes) {
     const fromSlug = slugify(rawTheme);
-    const toSlug = slugify(canonicalizeTheme(rawTheme));
-    if (fromSlug !== toSlug) redirects.set(`/themes/${fromSlug}`, `/themes/${toSlug}`);
+    const fromPath = `/themes/${fromSlug}`;
+    const toPath = themePath(rawTheme);
+    if (fromPath !== toPath) redirects.set(fromPath, toPath);
   }
 }
 for (const [from, to] of Object.entries(caseMap)) {
   const fromSlug = slugify(from);
-  const toSlug = slugify(canonicalizeTheme(to));
-  if (fromSlug !== toSlug) redirects.set(`/themes/${fromSlug}`, `/themes/${toSlug}`);
+  const fromPath = `/themes/${fromSlug}`;
+  const toPath = themePath(to);
+  if (fromPath !== toPath) redirects.set(fromPath, toPath);
 }
 
 config.redirects = [

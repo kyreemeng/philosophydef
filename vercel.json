@@ -1,9 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": null,
-  "buildCommand": "",
+  "framework": "astro",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "installCommand": "",
+  "installCommand": "npm ci",
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
@@ -30,47 +30,47 @@
     },
     {
       "source": "/themes/absolute",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/absolute-negation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/absurd",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/acceptance",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/accumulation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/activity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/actuality",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/adaptation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/adversity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -80,32 +80,32 @@
     },
     {
       "source": "/themes/african-philosophy",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/age",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/aim",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/analogy",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/anger",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/anxiety",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -120,17 +120,17 @@
     },
     {
       "source": "/themes/aspiration",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/attachment",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/attitude",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -140,12 +140,12 @@
     },
     {
       "source": "/themes/awareness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/awe",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -155,22 +155,22 @@
     },
     {
       "source": "/themes/barrier",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/becoming",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/beginning",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/beginnings",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -185,12 +185,12 @@
     },
     {
       "source": "/themes/bias",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/blessedness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -210,7 +210,7 @@
     },
     {
       "source": "/themes/calm",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -225,32 +225,32 @@
     },
     {
       "source": "/themes/causality",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/causation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/caution",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/chaos",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/cheerfulness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/circumstance",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -265,7 +265,7 @@
     },
     {
       "source": "/themes/clarity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -285,22 +285,22 @@
     },
     {
       "source": "/themes/commitment",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/common-sense",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/comparative-philosophy",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/comparison",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -310,12 +310,12 @@
     },
     {
       "source": "/themes/compensation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/complementarity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -325,22 +325,22 @@
     },
     {
       "source": "/themes/completion",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/composure",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/concentration",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/concepts",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -350,17 +350,17 @@
     },
     {
       "source": "/themes/concreteness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/conflict",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/conjecture",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -380,12 +380,12 @@
     },
     {
       "source": "/themes/contemplation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/contract",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -395,32 +395,32 @@
     },
     {
       "source": "/themes/control",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/conversion",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/cooperation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/correction",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/corruption",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/cosmic-kinship",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -430,27 +430,27 @@
     },
     {
       "source": "/themes/cost",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/creativity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/criterion",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/criticism",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/cruelty",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -465,12 +465,12 @@
     },
     {
       "source": "/themes/cut-off",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/danger",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -480,7 +480,7 @@
     },
     {
       "source": "/themes/debate",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -490,27 +490,27 @@
     },
     {
       "source": "/themes/decline",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/decrease",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/deliberation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/delight",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/delight-in-work",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -520,7 +520,7 @@
     },
     {
       "source": "/themes/democracy",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -530,32 +530,32 @@
     },
     {
       "source": "/themes/dependent-origination",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/descartes",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/description",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/despair",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/destiny",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/detail",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -565,7 +565,7 @@
     },
     {
       "source": "/themes/dialectic",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -575,17 +575,17 @@
     },
     {
       "source": "/themes/difficulty",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/discernment",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/distinction",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -605,7 +605,7 @@
     },
     {
       "source": "/themes/dream",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -625,7 +625,7 @@
     },
     {
       "source": "/themes/dynamism",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -635,12 +635,12 @@
     },
     {
       "source": "/themes/ease",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/effects",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -650,12 +650,12 @@
     },
     {
       "source": "/themes/elucidation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/emancipation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -670,12 +670,12 @@
     },
     {
       "source": "/themes/emptiness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/encounter",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -685,7 +685,7 @@
     },
     {
       "source": "/themes/envy",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -700,17 +700,17 @@
     },
     {
       "source": "/themes/error",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/eternal-recurrence",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/everyday",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -720,12 +720,12 @@
     },
     {
       "source": "/themes/evil",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/evolution",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -735,7 +735,7 @@
     },
     {
       "source": "/themes/example",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -745,7 +745,7 @@
     },
     {
       "source": "/themes/expression",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -760,7 +760,7 @@
     },
     {
       "source": "/themes/facts",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -770,27 +770,27 @@
     },
     {
       "source": "/themes/falsification",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/fanaticism",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/feeling",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/finitude",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/flexibility",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -800,7 +800,7 @@
     },
     {
       "source": "/themes/focus",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -810,7 +810,7 @@
     },
     {
       "source": "/themes/foresight",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -820,37 +820,37 @@
     },
     {
       "source": "/themes/forgetting-the-means",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/forgiveness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/formation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/fortune",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/forward",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/foundation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/four-sprouts",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -860,7 +860,7 @@
     },
     {
       "source": "/themes/gain-and-loss",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -875,7 +875,7 @@
     },
     {
       "source": "/themes/goal",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -905,27 +905,27 @@
     },
     {
       "source": "/themes/grace",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/gravity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/greatness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/hardness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/harm-principle",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -940,7 +940,7 @@
     },
     {
       "source": "/themes/hatred",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -975,12 +975,12 @@
     },
     {
       "source": "/themes/honesty",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/horizon",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1005,12 +1005,12 @@
     },
     {
       "source": "/themes/ideal",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/ideas",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1025,22 +1025,22 @@
     },
     {
       "source": "/themes/illumination",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/image",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/imagination",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/immediacy",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1050,27 +1050,27 @@
     },
     {
       "source": "/themes/impermanence",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/inclusiveness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/independent-thought",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/individual",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/individuality",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1080,12 +1080,12 @@
     },
     {
       "source": "/themes/infinity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/inheritance",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1095,7 +1095,7 @@
     },
     {
       "source": "/themes/inner-conflict",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1105,7 +1105,7 @@
     },
     {
       "source": "/themes/inner-strength",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1115,12 +1115,12 @@
     },
     {
       "source": "/themes/inspiration",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/integrity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1130,7 +1130,7 @@
     },
     {
       "source": "/themes/intellect",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1145,17 +1145,17 @@
     },
     {
       "source": "/themes/interest",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/interior",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/interiority",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1180,12 +1180,12 @@
     },
     {
       "source": "/themes/intuition",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/investigation-of-things",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1195,7 +1195,7 @@
     },
     {
       "source": "/themes/karma",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1205,7 +1205,7 @@
     },
     {
       "source": "/themes/kindness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1230,12 +1230,12 @@
     },
     {
       "source": "/themes/koan",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/ladder",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1250,7 +1250,7 @@
     },
     {
       "source": "/themes/leisure",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1280,12 +1280,12 @@
     },
     {
       "source": "/themes/literature",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/livelihood",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1295,7 +1295,7 @@
     },
     {
       "source": "/themes/looking",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1305,7 +1305,7 @@
     },
     {
       "source": "/themes/luminosity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1315,17 +1315,17 @@
     },
     {
       "source": "/themes/making",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/mastery",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/maturity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1345,7 +1345,7 @@
     },
     {
       "source": "/themes/medicine",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1370,7 +1370,7 @@
     },
     {
       "source": "/themes/mission",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1380,7 +1380,7 @@
     },
     {
       "source": "/themes/modeling",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1405,37 +1405,37 @@
     },
     {
       "source": "/themes/motivation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/motive",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/movement",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/mutual-benefit",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/myriad-things",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/narrative",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/natality",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1495,7 +1495,7 @@
     },
     {
       "source": "/themes/non-abiding",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1505,32 +1505,32 @@
     },
     {
       "source": "/themes/non-arising",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/non-attachment",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/non-blaming",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/non-contention",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/non-duality",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/non-hatred",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1565,12 +1565,12 @@
     },
     {
       "source": "/themes/old-age",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/oneness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1580,17 +1580,17 @@
     },
     {
       "source": "/themes/openness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/opinion",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/opposition",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1600,7 +1600,7 @@
     },
     {
       "source": "/themes/optimism",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1615,7 +1615,7 @@
     },
     {
       "source": "/themes/ordinary",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1625,7 +1625,7 @@
     },
     {
       "source": "/themes/orientation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1635,7 +1635,7 @@
     },
     {
       "source": "/themes/origins",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1655,22 +1655,22 @@
     },
     {
       "source": "/themes/overcoming",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/ownership",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/pain",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/parsimony",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1685,12 +1685,12 @@
     },
     {
       "source": "/themes/path",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/patience",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1700,7 +1700,7 @@
     },
     {
       "source": "/themes/peace",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1710,7 +1710,7 @@
     },
     {
       "source": "/themes/perfection",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1730,7 +1730,7 @@
     },
     {
       "source": "/themes/perspective",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1740,17 +1740,22 @@
     },
     {
       "source": "/themes/petition",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
+      "permanent": true
+    },
+    {
+      "source": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/plato",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/play",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1765,12 +1770,12 @@
     },
     {
       "source": "/themes/plurality",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/polarity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1780,17 +1785,17 @@
     },
     {
       "source": "/themes/pragmatism",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/prayer",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/precept",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1800,47 +1805,47 @@
     },
     {
       "source": "/themes/preparation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/presence",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/present",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/prevention",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/principle",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/priority",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/problems",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/process",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/progress",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1860,7 +1865,7 @@
     },
     {
       "source": "/themes/propriety",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1880,17 +1885,17 @@
     },
     {
       "source": "/themes/purification",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/purity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/purpose",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1900,17 +1905,17 @@
     },
     {
       "source": "/themes/quiet",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/rarity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/reading",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1920,17 +1925,17 @@
     },
     {
       "source": "/themes/realization",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/realm",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/realms",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1940,27 +1945,27 @@
     },
     {
       "source": "/themes/rebellion",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/reception",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/reciprocity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/recognition",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/recollection",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1970,27 +1975,27 @@
     },
     {
       "source": "/themes/redemption",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/reflection",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/reform",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/refuge",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/regret",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2000,7 +2005,7 @@
     },
     {
       "source": "/themes/relativism",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2025,22 +2030,22 @@
     },
     {
       "source": "/themes/renewal",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/resilience",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/resolve",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/resonance",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2050,17 +2055,17 @@
     },
     {
       "source": "/themes/rest",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/restlessness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/restraint",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2070,12 +2075,12 @@
     },
     {
       "source": "/themes/revolt",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/rhythm",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2090,27 +2095,27 @@
     },
     {
       "source": "/themes/ritual",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/role",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/root",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/root-and-branch",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/rule",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2135,17 +2140,17 @@
     },
     {
       "source": "/themes/seasons",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/security",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/seeking",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2235,12 +2240,12 @@
     },
     {
       "source": "/themes/senses",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/settled-principle",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2250,17 +2255,17 @@
     },
     {
       "source": "/themes/situation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/skepticism",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/skill",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2270,22 +2275,22 @@
     },
     {
       "source": "/themes/softness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/solidarity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/solitude",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/source",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2310,27 +2315,27 @@
     },
     {
       "source": "/themes/steadfastness",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/stream",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/strength",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/striving",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/stupidity",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2345,7 +2350,7 @@
     },
     {
       "source": "/themes/sublime",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2360,7 +2365,7 @@
     },
     {
       "source": "/themes/suffering",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2375,17 +2380,17 @@
     },
     {
       "source": "/themes/superstition",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/support",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/surpassing",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2395,7 +2400,7 @@
     },
     {
       "source": "/themes/sympathy",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2410,17 +2415,17 @@
     },
     {
       "source": "/themes/tension",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/the-way",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/theodicy",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2430,12 +2435,12 @@
     },
     {
       "source": "/themes/theory",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/thought",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2445,47 +2450,47 @@
     },
     {
       "source": "/themes/timing",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/tolerance",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/tool",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/tradition",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/tranquility",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/transcendence",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/transformation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/travel",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/trial",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2495,17 +2500,17 @@
     },
     {
       "source": "/themes/trust",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/turning-inward",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/turning-point",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2535,57 +2540,57 @@
     },
     {
       "source": "/themes/universality",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/universe",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/uplift",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/urgency",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/use",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/utility",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/value",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/values",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/verification",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/vigilance",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/vigilance-in-solitude",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2595,37 +2600,37 @@
     },
     {
       "source": "/themes/vital-energy",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/vocation",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/war",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/warning",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/waste",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/water",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/way-and-thing",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2635,12 +2640,12 @@
     },
     {
       "source": "/themes/wonder",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/work",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -2655,12 +2660,12 @@
     },
     {
       "source": "/themes/writing",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     },
     {
       "source": "/themes/youth",
-      "destination": "/themes/philosophy",
+      "destination": "/themes",
       "permanent": true
     }
   ]

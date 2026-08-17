@@ -11,6 +11,8 @@ import {
   relatedByAuthor,
   relatedByTheme,
   slugify,
+  themeGroups,
+  themePath,
   themeSlug,
 } from "../../lib/content";
 import { guides } from "../../data/guides";
@@ -19,7 +21,10 @@ import {
   themeGuideFor,
   thinkerGuideFor,
 } from "../../data/enrichment";
-import { shouldIndexThinkerThemePair } from "../../lib/indexing";
+import {
+  shouldIndexTheme,
+  shouldIndexThinkerThemePair,
+} from "../../lib/indexing";
 
 export function getStaticPaths() {
   return quotes.map((quote) => ({
@@ -33,15 +38,23 @@ const quoteUrl = `/quotes/${quote.id.toLowerCase()}`;
 const description = quoteDescription(quote);
 const title = quoteTitle(quote);
 const heading = quoteHeading(quote);
-const primaryTheme = canonicalizeTheme(quote.themes[0] ?? "Philosophy");
+const indexableThemeNames = new Set(
+  themeGroups().filter(shouldIndexTheme).map((theme) => theme.name),
+);
+const canonicalThemeNames = [
+  ...new Set(quote.themes.map((theme) => canonicalizeTheme(theme))),
+];
+const primaryTheme =
+  canonicalThemeNames.find((theme) => indexableThemeNames.has(theme)) ??
+  "Philosophy";
 const sameAuthor = relatedByAuthor(quote, 5);
 const sameTheme = relatedByTheme(quote, 5);
 const { prev, next } = adjacentQuotes(quote);
 const citations = citationFormats(quote);
 const thinkerGuide = thinkerGuideFor(quote.author, quote.school);
-const themeNames = [
-  ...new Set(quote.themes.map((theme) => canonicalizeTheme(theme))),
-].filter((theme) => theme !== "Philosophy");
+const themeNames = canonicalThemeNames.filter((theme) =>
+  indexableThemeNames.has(theme),
+);
 const primaryThemeGuide = themeGuideFor(primaryTheme);
 const themeNotes = themeNames.map((theme) => ({
   name: theme,
@@ -185,7 +198,9 @@ const schema = [
             <div class="meta-item">
               <span>Theme</span>
               <strong>
-                <a href={`/themes/${themeSlug(primaryTheme)}`}>{primaryTheme}</a>
+                <a href={themePath(primaryTheme)}>
+                  {primaryTheme === "Philosophy" ? "Browse all themes" : primaryTheme}
+                </a>
               </strong>
             </div>
           </div>
@@ -298,8 +313,10 @@ const schema = [
             ))}
           </ol>
           <p class="related-link">
-            <a href={`/themes/${themeSlug(primaryTheme)}`}>
-              Browse the {primaryTheme.toLowerCase()} theme
+            <a href={themePath(primaryTheme)}>
+              {primaryTheme === "Philosophy"
+                ? "Browse all philosophy themes"
+                : `Browse the ${primaryTheme.toLowerCase()} theme`}
             </a>
           </p>
         </section>

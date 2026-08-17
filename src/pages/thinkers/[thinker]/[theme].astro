@@ -5,7 +5,10 @@ import {
   themeGroups,
 } from "../../../lib/content";
 import { thinkerGuideFor, themeGuideFor, defaultThemeGuide } from "../../../data/enrichment";
-import { shouldIndexThinkerThemePair } from "../../../lib/indexing";
+import {
+  shouldIndexTheme,
+  shouldIndexThinkerThemePair,
+} from "../../../lib/indexing";
 
 export function getStaticPaths() {
   return thinkerThemePairs(4)
@@ -19,7 +22,11 @@ export function getStaticPaths() {
 const { pair } = Astro.props;
 const pageUrl = `/thinkers/${pair.authorSlug}/${pair.themeSlug}`;
 const relatedThemes = themeGroups()
-  .filter((theme) => theme.slug !== pair.themeSlug)
+  .filter(
+    (theme) =>
+      theme.slug !== pair.themeSlug &&
+      shouldIndexTheme(theme),
+  )
   .slice(0, 6);
 const thinkerGuide = thinkerGuideFor(pair.author);
 const themeGuide =

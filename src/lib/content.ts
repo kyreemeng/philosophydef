@@ -59,6 +59,14 @@ export function themeSlug(theme: string) {
   return slugify(canonicalizeTheme(theme));
 }
 
+/** Link target for a theme; the generic fallback belongs on the theme hub. */
+export function themePath(theme: string) {
+  const canonical = canonicalizeTheme(theme);
+  return canonical === "Philosophy"
+    ? "/themes"
+    : `/themes/${slugify(canonical)}`;
+}
+
 export function thinkerGroups() {
   const groups = new Map<string, Quote[]>();
   for (const quote of quotes) {
@@ -100,24 +108,29 @@ export function themeGroups() {
 
 /** Old thin/duplicate theme slugs → canonical theme path. */
 export function themeRedirects(): Record<string, string> {
-  const redirects: Record<string, string> = {};
+  const redirects: Record<string, string> = {
+    // Philosophy is the fallback classification, not a useful landing page.
+    "/themes/philosophy": "/themes",
+  };
   const allRaw = new Set<string>();
   for (const quote of quotes) {
     for (const theme of quote.themes) allRaw.add(theme);
   }
   for (const raw of allRaw) {
     const fromSlug = slugify(raw);
-    const toSlug = slugify(canonicalizeTheme(raw));
-    if (fromSlug !== toSlug) {
-      redirects[`/themes/${fromSlug}`] = `/themes/${toSlug}`;
+    const fromPath = `/themes/${fromSlug}`;
+    const toPath = themePath(raw);
+    if (fromPath !== toPath) {
+      redirects[fromPath] = toPath;
     }
   }
   // case-map only variants where slug already matched after lowercasing
   for (const [from, to] of Object.entries(caseMap)) {
     const fromSlug = slugify(from);
-    const toSlug = slugify(canonicalizeTheme(to));
-    if (fromSlug !== toSlug) {
-      redirects[`/themes/${fromSlug}`] = `/themes/${toSlug}`;
+    const fromPath = `/themes/${fromSlug}`;
+    const toPath = themePath(to);
+    if (fromPath !== toPath) {
+      redirects[fromPath] = toPath;
     }
   }
   return redirects;

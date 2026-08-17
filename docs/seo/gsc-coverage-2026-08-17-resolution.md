@@ -46,6 +46,12 @@ the index signals internally consistent and materially improve page value.
    - title, description, and H1 presence/uniqueness
    - minimum quote-detail content depth
    - sitemap targets exist in the built output
+9. The generic `Philosophy` fallback is no longer a noindex sink:
+   - 305 thin/legacy theme redirects now resolve to the indexable `/themes` hub
+   - quote and thinker-theme pages no longer link to `/themes/philosophy`
+10. Vercel now runs `npm ci` and the full `npm run build` pipeline instead of
+    trusting a potentially stale committed `dist`.
+11. `/data/` JSON exports are excluded from crawler access in `robots.txt`.
 
 ## Post-build result
 
@@ -58,6 +64,8 @@ the index signals internally consistent and materially improve page value.
 - Index-ready URLs missing from sitemap: 0
 - Quote detail content: minimum 432 words; average 569 words
 - Whole-site audit: 969 indexable URLs and 969 sitemap URLs; passed
+- Redirects targeting `/themes/philosophy`: 0
+- Internal HTML links targeting `/themes/philosophy`: 0
 
 Machine-readable per-URL result:
 `docs/seo/gsc-coverage-2026-08-17-audit.json`
