@@ -36,11 +36,6 @@ const schema = [
     url: Astro.site,
     description:
       "Curated English philosophy quotations from around the world, presented at random.",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${Astro.site}quotes?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
   },
   {
     "@context": "https://schema.org",

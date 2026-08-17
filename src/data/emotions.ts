@@ -27,7 +27,7 @@ export const emotionHubs: EmotionHub[] = [
   {
     slug: "happiness",
     name: "Happiness",
-    title: "Philosophy Quotes About Happiness",
+    title: "Philosophical Quotes for Happiness & Joy",
     description:
       "Philosophy quotes about happiness and flourishing—eudaimonia, pleasure, and the examined life—from Aristotle, Stoics, and beyond.",
     intro:
@@ -38,7 +38,7 @@ export const emotionHubs: EmotionHub[] = [
   {
     slug: "fear",
     name: "Fear",
-    title: "Philosophy Quotes About Fear",
+    title: "Philosophical Quotes on Fear & Anxiety",
     description:
       "Philosophy quotes about fear, anxiety, and superstition—from Stoic counsel to modern analyses of what fear does to judgment.",
     intro:
@@ -49,7 +49,7 @@ export const emotionHubs: EmotionHub[] = [
   {
     slug: "hope",
     name: "Hope",
-    title: "Philosophy Quotes About Hope",
+    title: "Philosophical Quotes on Hope & Perseverance",
     description:
       "Philosophy quotes about hope—expectation, perseverance, and the ethics of looking forward without self-deception.",
     intro:
@@ -60,7 +60,7 @@ export const emotionHubs: EmotionHub[] = [
   {
     slug: "courage",
     name: "Courage",
-    title: "Philosophy Quotes About Courage",
+    title: "Philosophical Quotes on Courage & Bravery",
     description:
       "Philosophy quotes about courage—endurance, moral bravery, and facing fear without theatrics—from Socrates to modern ethics.",
     intro:
@@ -115,7 +115,7 @@ export const emotionHubs: EmotionHub[] = [
   {
     slug: "desire",
     name: "Desire",
-    title: "Philosophy Quotes About Desire",
+    title: "Philosophical Quotes on Desire & Craving",
     description:
       "Philosophy quotes about desire, appetite, and craving—Stoic, Buddhist, and modern analyses of wanting and its discipline.",
     intro:

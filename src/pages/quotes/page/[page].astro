@@ -28,6 +28,7 @@ const nextHref = page < totalPages ? `/quotes/page/${page + 1}` : undefined;
   title={`Philosophy Quotes Archive — Page ${page} | Philosophy Blind Box`}
   description={`Browse philosophy quotations ${start + 1}–${start + entries.length} of ${quotes.length}.`}
   canonical={`/quotes/page/${page}`}
+  robots="noindex, follow, max-image-preview:large"
   schema={{
     "@context": "https://schema.org",
     "@type": "CollectionPage",

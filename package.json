@@ -10,10 +10,11 @@
     "build:data": "node scripts/export-quote-data.mjs",
     "generate:redirects": "node scripts/generate-vercel-redirects.mjs",
     "seo:verify": "node scripts/seo-verify.mjs",
+    "seo:indexability": "node scripts/indexability-audit.mjs",
     "seo:tabapi": "node scripts/tabapi-stats.mjs",
     "validate:corpus": "node scripts/validate-corpus.mjs",
     "dev": "npm run build:data && astro dev",
-    "build": "npm run build:quotes && npm run build:og && npm run build:data && astro build && node scripts/create-sitemap-alias.mjs",
+    "build": "npm run build:quotes && npm run build:og && npm run build:data && astro build && node scripts/create-sitemap-alias.mjs && npm run seo:indexability",
     "preview": "astro preview",
     "check": "astro check"
   },

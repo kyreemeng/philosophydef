@@ -14,6 +14,11 @@ import {
   themeSlug,
 } from "../../lib/content";
 import { guides } from "../../data/guides";
+import {
+  isTextTradition,
+  themeGuideFor,
+  thinkerGuideFor,
+} from "../../data/enrichment";
 import { shouldIndexThinkerThemePair } from "../../lib/indexing";
 
 export function getStaticPaths() {
@@ -33,6 +38,22 @@ const sameAuthor = relatedByAuthor(quote, 5);
 const sameTheme = relatedByTheme(quote, 5);
 const { prev, next } = adjacentQuotes(quote);
 const citations = citationFormats(quote);
+const thinkerGuide = thinkerGuideFor(quote.author, quote.school);
+const themeNames = [
+  ...new Set(quote.themes.map((theme) => canonicalizeTheme(theme))),
+].filter((theme) => theme !== "Philosophy");
+const primaryThemeGuide = themeGuideFor(primaryTheme);
+const themeNotes = themeNames.map((theme) => ({
+  name: theme,
+  slug: themeSlug(theme),
+  note: themeGuideFor(theme)?.intro,
+}));
+const firstSentences = (text: string, count = 2) =>
+  text
+    .split(/(?<=[.!?])\s+/)
+    .filter(Boolean)
+    .slice(0, count)
+    .join(" ");
 const relatedGuides = guides
   .filter(
     (guide) =>
@@ -52,12 +73,17 @@ const hasIndexableThinkerThemePage = shouldIndexThinkerThemePair({
   quotes: thinkerThemeQuotes,
 });
 
-const context =
-  quote.source && quote.source !== "Tradition"
-    ? `Archive record: this English passage is associated with ${quote.source}, within the ${quote.school} tradition. Use the cited work or edition when a scholarly attribution is needed.`
-    : `Archive record: this English passage is filed under the ${quote.school} tradition. The page preserves the available attribution and identifies the tradition where a single work is not recorded.`;
-
-const commentary = `Read in the register of ${primaryTheme.toLowerCase()}, the sentence asks the reader to test an assumption rather than to collect a slogan. In ${quote.author}'s wider work, similar claims are usually offered as prompts for judgment: what would have to be true for the sentence to hold, and what would follow if it did?`;
+const sourceContext = `The archive attributes this English wording to ${quote.source} and files it under ${quote.school}. That locator distinguishes the passage from loose internet attributions: readers can return to the named work or section to check translation, surrounding argument, and edition-specific wording.`;
+const thinkerContext = thinkerGuide
+  ? firstSentences(thinkerGuide.overview, 2)
+  : `${quote.author} is represented here through sourced English passages associated with ${quote.school}.`;
+const readingContext = primaryThemeGuide
+  ? `${firstSentences(primaryThemeGuide.overview, 2)} This passage enters that discussion through ${themeNames
+      .map((theme) => theme.toLowerCase())
+      .join(", ")}.`
+  : `This passage is indexed under ${themeNames
+      .map((theme) => theme.toLowerCase())
+      .join(", ")}. Those labels identify the concepts it can illuminate; they do not replace the argument surrounding it in ${quote.source}.`;
 
 const schema = [
   {
@@ -66,10 +92,14 @@ const schema = [
     text: quote.text,
     inLanguage: "en",
     creator: {
-      "@type": "Person",
+      "@type": isTextTradition(quote.author) ? "CreativeWork" : "Person",
       name: quote.author,
     },
     about: primaryTheme,
+    keywords: themeNames,
+    citation: quote.source,
+    mainEntityOfPage: new URL(quoteUrl, Astro.site),
+    dateModified: "2026-08-17",
     isPartOf: {
       "@type": "Collection",
       name: "Philosophy Blind Box",
@@ -161,7 +191,7 @@ const schema = [
           </div>
           <div class="quote-tools">
             <a class="button" href="/#featured-quote">Another quotation</a>
-            <a class="button secondary" href={`/quotes?q=${encodeURIComponent(quote.author)}`}>
+            <a class="button secondary" href={`/thinkers/${slugify(quote.author)}`}>
               More from this thinker
             </a>
           </div>
@@ -177,10 +207,32 @@ const schema = [
         </p>
       </aside>
       <div class="prose">
-        <h2>Source context</h2>
-        <p>{context}</p>
-        <h2>A short reading</h2>
-        <p>{commentary}</p>
+        <h2>Source and attribution</h2>
+        <p>{sourceContext}</p>
+        <h2>About {quote.author}</h2>
+        <p>{thinkerContext}</p>
+        <h2>How to read this passage</h2>
+        <p>{readingContext}</p>
+        {
+          themeNotes.length > 0 && (
+            <>
+              <h2>Concepts in this quote</h2>
+              <dl>
+                {themeNotes.map((theme) => (
+                  <>
+                    <dt>
+                      <a href={`/themes/${theme.slug}`}>{theme.name}</a>
+                    </dt>
+                    <dd>
+                      {theme.note ??
+                        `Compare this passage with other sourced quotations filed under ${theme.name.toLowerCase()}.`}
+                    </dd>
+                  </>
+                ))}
+              </dl>
+            </>
+          )
+        }
         <h2>How to cite this quotation</h2>
         <p><strong>APA:</strong> {citations.apa}</p>
         <p><strong>MLA:</strong> {citations.mla}</p>

@@ -1,0 +1,4728 @@
+{
+  "summary": {
+    "index_ready": 452,
+    "pagination_consolidated": 20
+  },
+  "urls": [
+    {
+      "url": "https://www.philosophydef.com/about",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/about",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 284
+    },
+    {
+      "url": "https://www.philosophydef.com/branches-of-philosophy",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/branches-of-philosophy",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 438
+    },
+    {
+      "url": "https://www.philosophydef.com/confucianism-vs-daoism",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/confucianism-vs-daoism",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 396
+    },
+    {
+      "url": "https://www.philosophydef.com/doctor-of-philosophy",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/doctor-of-philosophy",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 373
+    },
+    {
+      "url": "https://www.philosophydef.com/philosophy-definition",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/philosophy-definition",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 380
+    },
+    {
+      "url": "https://www.philosophydef.com/philosophy-degree",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/philosophy-degree",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 345
+    },
+    {
+      "url": "https://www.philosophydef.com/philosophy-meaning",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/philosophy-meaning",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 375
+    },
+    {
+      "url": "https://www.philosophydef.com/philosophy-of-education",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/philosophy-of-education",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 342
+    },
+    {
+      "url": "https://www.philosophydef.com/philosophy-of-history",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/philosophy-of-history",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 362
+    },
+    {
+      "url": "https://www.philosophydef.com/philosophy-of-language",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/philosophy-of-language",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 361
+    },
+    {
+      "url": "https://www.philosophydef.com/philosophy-of-science",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/philosophy-of-science",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 371
+    },
+    {
+      "url": "https://www.philosophydef.com/philosophy-vs-science",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/philosophy-vs-science",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 341
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/about",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/about",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 333
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/about/desire",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/about/desire",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 761
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/best",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/best",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 948
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/10",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/10",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 451
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/11",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/11",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 502
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/12",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/12",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 511
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/13",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/13",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 515
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/14",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/14",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 424
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/15",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/15",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 455
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/16",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/16",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 483
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/17",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/17",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 464
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/18",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/18",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 523
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/19",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/19",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 498
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/2",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/2",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 487
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/20",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/20",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 512
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/21",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/21",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 519
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/3",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/3",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 425
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/4",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/4",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 486
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/5",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/5",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 510
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/6",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/6",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 592
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/7",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/7",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 675
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/8",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/8",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 579
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/page/9",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/page/9",
+      "selfCanonical": true,
+      "robots": "noindex, follow, max-image-preview:large",
+      "noindex": true,
+      "inSitemap": false,
+      "words": 463
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0004",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0004",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 552
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0006",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0006",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 535
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0007",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0007",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 529
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0008",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0008",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 572
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0009",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0009",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 529
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0012",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0012",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 612
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0013",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0013",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 603
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0014",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0014",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 597
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0015",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0015",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 531
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0016",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0016",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 479
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0018",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0018",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 519
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0020",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0020",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 619
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0021",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0021",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 654
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0022",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0022",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 545
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0024",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0024",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 501
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0025",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0025",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 533
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0027",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0027",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 547
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0028",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0028",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 559
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0029",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0029",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 582
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0030",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0030",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 575
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0031",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0031",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 540
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0034",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0034",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 629
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0035",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0035",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 581
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0037",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0037",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 620
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0038",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0038",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 608
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0039",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0039",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 570
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0040",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0040",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 598
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0041",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0041",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 618
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0042",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0042",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 501
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0043",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0043",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 521
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0044",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0044",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 532
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0045",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0045",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 592
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0046",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0046",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 603
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0048",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0048",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 505
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0050",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0050",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 528
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0052",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0052",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 566
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0053",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0053",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 472
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0055",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0055",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 562
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0057",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0057",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 599
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0058",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0058",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 565
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0059",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0059",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 527
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0060",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0060",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 590
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0061",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0061",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 568
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0064",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0064",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 634
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0066",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0066",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 657
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0067",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0067",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 646
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0068",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0068",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 529
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0069",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0069",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 531
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0070",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0070",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 589
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0071",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0071",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 622
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0072",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0072",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 555
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0074",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0074",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 615
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0075",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0075",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 579
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0077",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0077",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 563
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0078",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0078",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 556
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0079",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0079",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 603
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0081",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0081",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 609
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0083",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0083",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 627
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0084",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0084",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 625
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0086",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0086",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 597
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0087",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0087",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 498
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0088",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0088",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 507
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0089",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0089",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 586
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0090",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0090",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 641
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0091",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0091",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 539
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0092",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0092",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 553
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0094",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0094",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 594
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0095",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0095",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 576
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0096",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0096",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 649
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0097",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0097",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 587
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0098",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0098",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 607
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0099",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0099",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 582
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0100",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0100",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 500
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0104",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0104",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 537
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0105",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0105",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 635
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0106",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0106",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 645
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0107",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0107",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 641
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0108",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0108",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 583
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0109",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0109",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 610
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0110",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0110",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 575
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0111",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0111",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 576
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0112",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0112",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 619
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0115",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0115",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 452
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0116",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0116",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 525
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0117",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0117",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 542
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0118",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0118",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 543
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0119",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0119",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 596
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0121",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0121",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 599
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0124",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0124",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 632
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0125",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0125",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 651
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0128",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0128",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 494
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0129",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0129",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 509
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0130",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0130",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 579
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0131",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0131",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 632
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0132",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0132",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 509
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0133",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0133",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 505
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0134",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0134",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 777
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0136",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0136",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 652
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0137",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0137",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 777
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0138",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0138",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 537
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0139",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0139",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 710
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0141",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0141",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 652
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0142",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0142",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 647
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0143",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0143",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 645
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0144",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0144",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 726
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0145",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0145",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 540
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0146",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0146",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 608
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0147",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0147",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 591
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0149",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0149",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 626
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0150",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0150",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 638
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0151",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0151",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 566
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0152",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0152",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 603
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0153",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0153",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 602
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0154",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0154",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 693
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0155",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0155",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 662
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0156",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0156",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 577
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0157",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0157",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 576
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0158",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0158",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 649
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0159",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0159",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 677
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0162",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0162",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 662
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0163",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0163",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 686
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0164",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0164",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 589
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0165",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0165",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 639
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0166",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0166",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 653
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0168",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0168",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 556
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0169",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0169",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 542
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0171",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0171",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 580
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0172",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0172",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 580
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0173",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0173",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 564
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0175",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0175",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 582
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0176",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0176",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 608
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0177",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0177",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 524
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0178",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0178",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 526
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0182",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0182",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 438
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0184",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0184",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 461
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0185",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0185",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 488
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0186",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0186",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 635
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0187",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0187",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 492
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0188",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0188",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 613
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0189",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0189",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 458
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0190",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0190",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 584
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0191",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0191",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 558
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0193",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0193",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 493
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0194",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0194",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 520
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0198",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0198",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 487
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0200",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0200",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 611
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0201",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0201",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 484
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0202",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0202",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 545
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0204",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0204",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 566
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0205",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0205",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 445
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0206",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0206",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 508
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0207",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0207",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 553
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0208",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0208",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 482
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0209",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0209",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 488
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0211",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0211",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 553
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0212",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0212",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 541
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0213",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0213",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 559
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0214",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0214",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 475
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0215",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0215",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 622
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0216",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0216",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 563
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0217",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0217",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 530
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0218",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0218",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 541
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0219",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0219",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 530
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0220",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0220",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 511
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0221",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0221",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 554
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0222",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0222",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 532
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0224",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0224",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 596
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0225",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0225",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 619
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0226",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0226",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 610
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0228",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0228",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 621
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0231",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0231",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 514
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0232",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0232",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 533
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0233",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0233",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 609
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0235",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0235",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 593
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0236",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0236",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 533
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0237",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0237",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 522
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0238",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0238",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 558
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0239",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0239",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 578
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0240",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0240",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 565
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0243",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0243",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 537
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0244",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0244",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 538
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0245",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0245",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 536
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0246",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0246",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 564
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0247",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0247",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 633
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0248",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0248",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 601
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0249",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0249",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 582
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0250",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0250",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 590
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0251",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0251",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 635
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0252",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0252",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 578
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0253",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0253",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 586
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0254",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0254",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 547
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0255",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0255",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 647
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0256",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0256",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 575
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0260",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0260",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 608
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0262",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0262",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 551
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0264",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0264",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 564
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0265",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0265",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 548
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0266",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0266",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 593
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0267",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0267",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 626
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0268",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0268",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 615
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0269",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0269",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 563
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0270",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0270",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 590
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0272",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0272",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 607
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0273",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0273",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 556
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0274",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0274",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 598
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0275",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0275",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 550
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0277",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0277",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 617
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0278",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0278",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 606
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0279",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0279",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 551
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0280",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0280",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 557
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0286",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0286",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 616
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0287",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0287",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 561
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0289",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0289",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 608
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0290",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0290",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 610
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0291",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0291",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 580
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0292",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0292",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 611
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0293",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0293",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 656
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0294",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0294",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 508
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0295",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0295",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 537
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0296",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0296",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 565
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0298",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0298",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 570
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0299",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0299",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 565
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0300",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0300",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 574
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0301",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0301",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 557
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0302",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0302",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 595
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0306",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0306",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 475
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0307",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0307",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 483
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0308",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0308",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 575
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0309",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0309",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 583
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0310",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0310",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 589
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0311",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0311",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 524
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0313",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0313",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 518
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0314",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0314",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 552
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0315",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0315",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 529
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0316",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0316",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 539
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0317",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0317",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 572
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0318",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0318",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 651
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0319",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0319",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 644
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0320",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0320",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 483
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0321",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0321",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 549
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0322",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0322",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 546
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0323",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0323",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 557
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0324",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0324",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 587
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0325",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0325",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 638
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0326",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0326",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 546
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0328",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0328",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 566
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0329",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0329",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 564
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0330",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0330",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 617
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0331",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0331",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 579
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0333",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0333",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 606
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0334",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0334",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 614
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0337",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0337",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 612
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0340",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0340",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 552
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0341",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0341",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 579
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0342",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0342",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 617
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0343",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0343",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 513
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0344",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0344",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 640
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0345",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0345",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 626
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0349",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0349",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 605
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0350",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0350",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 560
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0351",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0351",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 582
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0353",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0353",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 557
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0357",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0357",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 497
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0358",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0358",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 502
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0359",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0359",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 500
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0360",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0360",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 486
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0361",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0361",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 535
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0364",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0364",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 595
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0365",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0365",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 545
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0366",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0366",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 596
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0367",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0367",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 653
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0368",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0368",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 647
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0369",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0369",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 588
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0370",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0370",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 630
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0371",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0371",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 556
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0372",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0372",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 609
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0374",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0374",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 456
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0376",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0376",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 552
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0377",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0377",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 595
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0378",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0378",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 526
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0379",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0379",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 524
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0381",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0381",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 605
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0382",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0382",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 467
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0383",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0383",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 494
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0385",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0385",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 528
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0386",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0386",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 497
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0387",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0387",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 499
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0388",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0388",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 432
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0390",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0390",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 510
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0391",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0391",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 500
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0392",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0392",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 554
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0394",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0394",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 607
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0396",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0396",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 544
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0398",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0398",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 538
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0399",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0399",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 586
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0400",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0400",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 558
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0401",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0401",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 538
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0402",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0402",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 612
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0403",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0403",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 703
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0404",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0404",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 682
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0405",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0405",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 639
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0406",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0406",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 557
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0408",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0408",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 621
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0409",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0409",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 667
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0410",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0410",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 600
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0411",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0411",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 545
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0412",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0412",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 628
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0413",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0413",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 477
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0414",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0414",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 535
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0416",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0416",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 521
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0417",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0417",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 545
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0419",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0419",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 518
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0421",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0421",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 498
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0422",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0422",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 536
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0424",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0424",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 584
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0425",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0425",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 652
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0426",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0426",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 533
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0427",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0427",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 613
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0429",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0429",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 633
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0431",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0431",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 488
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0434",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0434",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 521
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0435",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0435",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 471
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0438",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0438",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 538
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0441",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0441",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 526
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0442",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0442",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 515
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0443",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0443",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 582
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0444",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0444",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 584
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0445",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0445",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 549
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0446",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0446",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 660
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0449",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0449",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 557
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0450",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0450",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 583
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0452",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0452",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 605
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0453",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0453",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 598
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0454",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0454",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 599
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0456",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0456",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 600
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0457",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0457",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 591
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0459",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0459",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 571
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0461",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0461",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 450
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0462",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0462",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 535
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0463",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0463",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 561
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0464",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0464",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 552
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0465",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0465",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 557
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0466",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0466",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 576
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0467",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0467",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 514
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0468",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0468",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 515
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0470",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0470",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 489
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0471",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0471",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 535
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0472",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0472",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 542
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0474",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0474",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 505
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0475",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0475",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 556
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0476",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0476",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 529
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0477",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0477",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 606
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0478",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0478",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 456
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0479",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0479",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 596
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0480",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0480",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 532
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0481",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0481",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 518
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0482",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0482",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 643
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0483",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0483",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 455
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0484",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0484",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 549
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0485",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0485",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 478
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0486",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0486",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 509
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0487",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0487",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 489
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0488",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0488",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 608
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0489",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0489",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 541
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0490",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0490",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 507
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0491",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0491",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 593
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0492",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0492",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 466
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0493",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0493",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 565
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0494",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0494",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 494
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0495",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0495",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 546
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0496",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0496",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 553
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0497",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0497",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 677
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0498",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0498",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 610
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/q0500",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/q0500",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 604
+    },
+    {
+      "url": "https://www.philosophydef.com/quotes/short",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/quotes/short",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 577
+    },
+    {
+      "url": "https://www.philosophydef.com/schools",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/schools",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 259
+    },
+    {
+      "url": "https://www.philosophydef.com/schools/confucianism",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/schools/confucianism",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 1241
+    },
+    {
+      "url": "https://www.philosophydef.com/schools/empiricism",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/schools/empiricism",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 568
+    },
+    {
+      "url": "https://www.philosophydef.com/schools/existentialism",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/schools/existentialism",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 844
+    },
+    {
+      "url": "https://www.philosophydef.com/schools/pragmatism",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/schools/pragmatism",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 520
+    },
+    {
+      "url": "https://www.philosophydef.com/schools/rationalism",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/schools/rationalism",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 897
+    },
+    {
+      "url": "https://www.philosophydef.com/themes",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 838
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/action",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/action",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 811
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/beauty",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/beauty",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 426
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/choice",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/choice",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 483
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/courage",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/courage",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 436
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/death",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/death",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 373
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/desire",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/desire",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 563
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/dignity",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/dignity",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 594
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/experience",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/experience",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 564
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/freedom",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/freedom",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 1440
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/happiness",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/happiness",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 625
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/humanity",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/humanity",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 684
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/inquiry",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/inquiry",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 462
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/justice",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/justice",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 569
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/learning",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/learning",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 605
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/life",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/life",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 966
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/love",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/love",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 693
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/mind",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/mind",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 529
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/morality",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/morality",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 938
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/order",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/order",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 576
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/power",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/power",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 813
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/practice",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/practice",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 612
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/reason",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/reason",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 993
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/responsibility",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/responsibility",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 757
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/society",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/society",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 904
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/time",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/time",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 785
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/virtue",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/virtue",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 794
+    },
+    {
+      "url": "https://www.philosophydef.com/themes/wisdom",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/themes/wisdom",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 821
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/albert-camus",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/albert-camus",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 333
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/alfred-north-whitehead",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/alfred-north-whitehead",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 322
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/augustine-of-hippo/love",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/augustine-of-hippo/love",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 316
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/charles-sanders-peirce",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/charles-sanders-peirce",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 292
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/david-hume",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/david-hume",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 383
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/erich-fromm",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/erich-fromm",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 279
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/gottfried-wilhelm-leibniz",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/gottfried-wilhelm-leibniz",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 263
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/immanuel-kant",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/immanuel-kant",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 480
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/jean-jacques-rousseau",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/jean-jacques-rousseau",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 325
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/jean-paul-sartre",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/jean-paul-sartre",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 281
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/johann-wolfgang-von-goethe",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/johann-wolfgang-von-goethe",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 208
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/john-locke",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/john-locke",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 410
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/liang-qichao",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/liang-qichao",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 282
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/michel-de-montaigne",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/michel-de-montaigne",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 266
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/plato",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/plato",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 647
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/qian-mu",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/qian-mu",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 288
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/seneca",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/seneca",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 509
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/seneca/time",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/seneca/time",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 304
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/thomas-aquinas",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/thomas-aquinas",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 309
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/thomas-hobbes",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/thomas-hobbes",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 314
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/viktor-frankl",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/viktor-frankl",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 225
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/voltaire",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/voltaire",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 295
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/wang-fuzhi",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/wang-fuzhi",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 323
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/wang-yangming",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/wang-yangming",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 423
+    },
+    {
+      "url": "https://www.philosophydef.com/thinkers/zhu-xi",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/thinkers/zhu-xi",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 349
+    },
+    {
+      "url": "https://www.philosophydef.com/what-is-a-philosophy",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/what-is-a-philosophy",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 352
+    },
+    {
+      "url": "https://www.philosophydef.com/what-is-metaphysics",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/what-is-metaphysics",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 340
+    },
+    {
+      "url": "https://www.philosophydef.com/why-philosophy-matters",
+      "exists": true,
+      "canonical": "https://www.philosophydef.com/why-philosophy-matters",
+      "selfCanonical": true,
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "noindex": false,
+      "inSitemap": true,
+      "words": 303
+    }
+  ]
+}

@@ -21,7 +21,7 @@ const {
   image = "/og-default.png",
   type = "website",
   schema,
-  robots = "index, follow, max-image-preview:large",
+  robots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
 } = Astro.props;
 const siteName = "Philosophy Blind Box";
 const path = Astro.url.pathname.replace(/\.html$/, "").replace(/\/$/, "") || "/";

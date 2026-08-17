@@ -34,6 +34,10 @@ export default defineConfig({
       filter: (page) => {
         const path = new URL(page).pathname.replace(/\/$/, "");
         if (path === "/404" || path.endsWith("/404")) return false;
+        // Archive pagination exists only to expose detail links to crawlers.
+        // Indexing 28 near-identical list pages wastes crawl budget and
+        // competes with /quotes and the quotation detail pages.
+        if (path.startsWith("/quotes/page/")) return false;
         if (path.startsWith("/themes/") && path.split("/").length === 3) {
           return indexableThemePaths.has(path);
         }
@@ -42,12 +46,36 @@ export default defineConfig({
         }
         return true;
       },
-      changefreq: "weekly",
-      priority: 0.7,
       serialize(item) {
-        return item.url === "https://www.philosophydef.com"
-          ? { ...item, url: "https://www.philosophydef.com/" }
-          : item;
+        const url =
+          item.url === "https://www.philosophydef.com"
+            ? "https://www.philosophydef.com/"
+            : item.url;
+        const path = new URL(url).pathname.replace(/\/$/, "") || "/";
+        const isQuote = /^\/quotes\/q\d+$/.test(path);
+        const isCoreHub =
+          path === "/" ||
+          path === "/quotes" ||
+          path === "/themes" ||
+          path === "/thinkers" ||
+          path === "/schools";
+        const isGuide =
+          !isQuote &&
+          !path.startsWith("/themes/") &&
+          !path.startsWith("/thinkers/") &&
+          !path.startsWith("/schools/") &&
+          !path.startsWith("/quotes/");
+
+        return {
+          ...item,
+          url,
+          // This date reflects the corpus/indexability rewrite. Keep it
+          // stable until a page really changes; fake build-time dates are
+          // ignored by Google.
+          lastmod: new Date("2026-08-17T00:00:00Z"),
+          changefreq: isQuote ? "monthly" : "weekly",
+          priority: isCoreHub ? 1 : isGuide ? 0.9 : isQuote ? 0.6 : 0.8,
+        };
       },
     }),
   ],
