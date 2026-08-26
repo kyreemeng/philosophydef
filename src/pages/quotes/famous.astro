@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import quotes from "../../data/quotes.json";
 import { canonicalizeTheme } from "../../lib/content";
+import { pageSeoOverrides } from "../../data/seo-overrides";
 
 const famousAuthors = new Set([
   "Socrates",
@@ -30,11 +31,16 @@ const schema = {
     "Famous philosophy quotes in verified English renderings from Socrates, Plato, Aristotle, Confucius, the Stoics, Nietzsche, and more.",
   numberOfItems: selected.length,
 };
+
+const seo = pageSeoOverrides["/quotes/famous"] ?? {};
 ---
 
 <BaseLayout
-  title="Famous Philosophy Quotes | Philosophy Blind Box"
-  description="Read famous philosophy quotes in clear English—from Socrates, Plato, Aristotle, Confucius, Marcus Aurelius, Nietzsche, and other enduring thinkers."
+  title={seo.title ?? "Famous Philosophy Quotes | Socrates, Stoics & Confucius"}
+  description={
+    seo.description ??
+    "Famous philosophy quotes in clear English—Socrates, Plato, Aristotle, Confucius, Marcus Aurelius, Nietzsche, and other enduring thinkers, with sources."
+  }
   canonical="/quotes/famous"
   schema={schema}
 >
@@ -66,7 +72,9 @@ const schema = {
     <p class="related-link">
       Continue in the <a href="/quotes">full archive</a>,
       <a href="/quotes/short">short quotes</a>,
-      <a href="/quotes/best">best quotes</a>, or
+      <a href="/quotes/best">best quotes</a>,
+      <a href="/schools/stoicism">Stoicism quotes</a>,
+      <a href="/themes/death">quotes about death</a>, or
       <a href="/quotes/about">quotes about feeling</a>.
     </p>
   </div>

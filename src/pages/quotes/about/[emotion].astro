@@ -114,6 +114,27 @@ const pageDescription = seo.description ?? hub.description;
       </nav>
     </header>
 
+    {
+      hub.insights && hub.insights.length > 0 && (
+        <section class="prose-layout" aria-label={`${hub.name} reading guide`}>
+          <aside class="prose-aside">
+            <p>
+              Use these distinctions to compare the passages instead of reading
+              them as interchangeable sayings.
+            </p>
+          </aside>
+          <article class="prose">
+            {hub.insights.map((insight) => (
+              <>
+                <h2>{insight.heading}</h2>
+                <p>{insight.body}</p>
+              </>
+            ))}
+          </article>
+        </section>
+      )
+    }
+
     <p class="results-summary">
       {selected.length} quotations on {hub.name.toLowerCase()}
     </p>

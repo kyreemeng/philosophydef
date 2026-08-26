@@ -1,0 +1,914 @@
+{
+  "seed_keyword": "what is epistemology",
+  "icp": "(generic)",
+  "language": "en",
+  "total_subqueries": 54,
+  "gold_mine_count": 22,
+  "live_suggestions_found": 0,
+  "dimensions": {
+    "icp": "ICP / Persona",
+    "scenario": "Use Case / Scenario",
+    "pricing": "Pricing / Cost",
+    "features": "Features / Capabilities",
+    "competitors": "Competitors / Alternatives",
+    "objection": "Objections / Concerns",
+    "education": "Educational / Awareness"
+  },
+  "sub_queries": [
+    {
+      "query": "what is epistemology free alternative",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 6
+    },
+    {
+      "query": "what is epistemology vs free",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 6
+    },
+    {
+      "query": "what is epistemology vs competitors",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 6
+    },
+    {
+      "query": "what is epistemology pricing",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology cost",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology free",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "cheapest what is epistemology",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology discount",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology roi",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology alternatives",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "best what is epistemology",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "top what is epistemology",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology review",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology compared",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology showdown",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology for small business",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 6,
+      "gold_score": 4
+    },
+    {
+      "query": "what is epistemology for enterprise",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 4
+    },
+    {
+      "query": "what is epistemology for startups",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 4
+    },
+    {
+      "query": "what is epistemology for healthcare",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 4
+    },
+    {
+      "query": "what is epistemology for ecommerce",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 4
+    },
+    {
+      "query": "what is epistemology for agencies",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 4
+    },
+    {
+      "query": "what is epistemology for developers",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 4
+    },
+    {
+      "query": "how to use what is epistemology for small business",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 9,
+      "gold_score": 2
+    },
+    {
+      "query": "what is epistemology for social media",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 6,
+      "gold_score": 2
+    },
+    {
+      "query": "what is epistemology for content marketing",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 6,
+      "gold_score": 2
+    },
+    {
+      "query": "what is epistemology for lead generation",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 6,
+      "gold_score": 2
+    },
+    {
+      "query": "what is epistemology pros and cons",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 6,
+      "gold_score": 2
+    },
+    {
+      "query": "what is epistemology use cases",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 2
+    },
+    {
+      "query": "what is epistemology in action",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 2
+    },
+    {
+      "query": "what is epistemology ai powered",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 2
+    },
+    {
+      "query": "what is epistemology open source",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 2
+    },
+    {
+      "query": "what is epistemology no code",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 2
+    },
+    {
+      "query": "what is epistemology worth it",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 2
+    },
+    {
+      "query": "is what is epistemology legit",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 2
+    },
+    {
+      "query": "what is epistemology workflow",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "what is epistemology examples",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "what is epistemology features",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "what is epistemology comparison",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "what is epistemology integrations",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "what is epistemology api",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "what is epistemology automation",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "what is epistemology safe",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "what is epistemology limitations",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "what is epistemology problems",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "what is epistemology scam",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "what is epistemology reliable",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "how does what is epistemology work",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 6,
+      "gold_score": 0
+    },
+    {
+      "query": "what is what is epistemology",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 0
+    },
+    {
+      "query": "what is epistemology vs alternatives",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 0
+    },
+    {
+      "query": "what is epistemology explained",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": -1
+    },
+    {
+      "query": "what is epistemology guide",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": -1
+    },
+    {
+      "query": "what is epistemology tutorial",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": -1
+    },
+    {
+      "query": "what is epistemology meaning",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": -1
+    },
+    {
+      "query": "what is epistemology basics",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": -1
+    }
+  ],
+  "gold_mines": [
+    {
+      "query": "what is epistemology free alternative",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 6
+    },
+    {
+      "query": "what is epistemology vs free",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 6
+    },
+    {
+      "query": "what is epistemology vs competitors",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 6
+    },
+    {
+      "query": "what is epistemology pricing",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology cost",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology free",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "cheapest what is epistemology",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology discount",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology roi",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology alternatives",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "best what is epistemology",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "top what is epistemology",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology review",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology compared",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology showdown",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "what is epistemology for small business",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 6,
+      "gold_score": 4
+    },
+    {
+      "query": "what is epistemology for enterprise",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 4
+    },
+    {
+      "query": "what is epistemology for startups",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 4
+    },
+    {
+      "query": "what is epistemology for healthcare",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 4
+    },
+    {
+      "query": "what is epistemology for ecommerce",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 4
+    },
+    {
+      "query": "what is epistemology for agencies",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 4
+    },
+    {
+      "query": "what is epistemology for developers",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 4
+    }
+  ],
+  "pillar_cluster_plan": {
+    "pillar_keyword": "what is epistemology",
+    "recommended_pillar_article": "The Ultimate Guide to What Is Epistemology",
+    "cluster_articles": [
+      {
+        "title": "what is epistemology free alternative",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, low competition"
+      },
+      {
+        "title": "what is epistemology vs free",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, low competition"
+      },
+      {
+        "title": "what is epistemology vs competitors",
+        "dimension": "Competitors / Alternatives",
+        "why": "very_high commercial intent, low competition"
+      },
+      {
+        "title": "what is epistemology pricing",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "what is epistemology cost",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "what is epistemology free",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "cheapest what is epistemology",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "what is epistemology discount",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "what is epistemology roi",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "what is epistemology alternatives",
+        "dimension": "Competitors / Alternatives",
+        "why": "very_high commercial intent, medium competition"
+      }
+    ]
+  },
+  "uncovered_live_suggestions": []
+}

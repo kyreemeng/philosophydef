@@ -6,7 +6,12 @@ import {
   themeGroups,
   thinkerGroups,
 } from "./src/lib/content.ts";
-import { shouldIndexTheme, shouldIndexThinker } from "./src/lib/indexing.ts";
+import {
+  shouldIndexQuote,
+  shouldIndexTheme,
+  shouldIndexThinker,
+} from "./src/lib/indexing.ts";
+import quotes from "./src/data/quotes.json" with { type: "json" };
 
 const redirects = { ...themeRedirects(), ...thinkerSlugRedirects() };
 const indexableThemePaths = new Set(
@@ -18,6 +23,11 @@ const indexableThinkerPaths = new Set(
   thinkerGroups()
     .filter(shouldIndexThinker)
     .map((thinker) => `/thinkers/${thinker.slug}`),
+);
+const indexableQuotePaths = new Set(
+  quotes
+    .filter(shouldIndexQuote)
+    .map((quote) => `/quotes/${quote.id.toLowerCase()}`),
 );
 
 export default defineConfig({
@@ -38,6 +48,9 @@ export default defineConfig({
         // Indexing 28 near-identical list pages wastes crawl budget and
         // competes with /quotes and the quotation detail pages.
         if (path.startsWith("/quotes/page/")) return false;
+        if (/^\/quotes\/q\d+$/.test(path)) {
+          return indexableQuotePaths.has(path);
+        }
         if (path.startsWith("/themes/") && path.split("/").length === 3) {
           return indexableThemePaths.has(path);
         }
@@ -72,7 +85,7 @@ export default defineConfig({
           // This date reflects the corpus/indexability rewrite. Keep it
           // stable until a page really changes; fake build-time dates are
           // ignored by Google.
-          lastmod: new Date("2026-08-17T00:00:00Z"),
+          lastmod: new Date("2026-08-26T00:00:00Z"),
           changefreq: isQuote ? "monthly" : "weekly",
           priority: isCoreHub ? 1 : isGuide ? 0.9 : isQuote ? 0.6 : 0.8,
         };

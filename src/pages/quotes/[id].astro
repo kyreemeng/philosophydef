@@ -22,6 +22,7 @@ import {
   thinkerGuideFor,
 } from "../../data/enrichment";
 import {
+  shouldIndexQuote,
   shouldIndexTheme,
   shouldIndexThinkerThemePair,
 } from "../../lib/indexing";
@@ -38,6 +39,7 @@ const quoteUrl = `/quotes/${quote.id.toLowerCase()}`;
 const description = quoteDescription(quote);
 const title = quoteTitle(quote);
 const heading = quoteHeading(quote);
+const indexable = shouldIndexQuote(quote);
 const indexableThemeNames = new Set(
   themeGroups().filter(shouldIndexTheme).map((theme) => theme.name),
 );
@@ -112,7 +114,7 @@ const schema = [
     keywords: themeNames,
     citation: quote.source,
     mainEntityOfPage: new URL(quoteUrl, Astro.site),
-    dateModified: "2026-08-17",
+    dateModified: "2026-08-26",
     isPartOf: {
       "@type": "Collection",
       name: "Philosophy Blind Box",
@@ -154,6 +156,7 @@ const schema = [
   image={`/og/quotes/${quote.id.toLowerCase()}.png`}
   type="article"
   schema={schema}
+  robots={indexable ? undefined : "noindex, follow, max-image-preview:large"}
 >
   <article class="page-shell">
     <header class="page-intro">

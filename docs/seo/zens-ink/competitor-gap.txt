@@ -1,0 +1,106 @@
+
+============================================================
+  www.philosophydef.com
+============================================================
+  Total pages: 969
+  Languages: {'root': 969}
+
+  Content patterns [ALL] (968 unique):
+      1x  about
+      1x  branches-of-philosophy
+      1x  chinese-philosophy
+      1x  confucianism-vs-daoism
+      1x  doctor-of-philosophy
+      1x  editorial-policy
+      1x  history-of-philosophy
+      1x  how-to-study-philosophy
+      1x  philosophy-definition
+      1x  philosophy-degree
+      1x  philosophy-for-beginners
+      1x  philosophy-meaning
+      1x  philosophy-of-ai
+      1x  philosophy-of-education
+      1x  philosophy-of-history
+      1x  philosophy-of-language
+      1x  philosophy-of-science
+      1x  philosophy-vs-science
+      1x  plato-vs-aristotle
+      1x  quotes
+      1x  quotes/about
+      1x  quotes/about/anger
+      1x  quotes/about/courage
+      1x  quotes/about/desire
+      1x  quotes/about/fear
+
+============================================================
+  iep.utm.edu
+============================================================
+  Total pages: 985
+  Languages: {'root': 985}
+
+  Content patterns [ALL] (984 unique):
+      1x  wangyang
+      1x  xunzi
+      1x  xuanzang
+      1x  wittgens
+      1x  vasubandhu
+      1x  tusi
+      1x  schutz
+      1x  sellars
+      1x  sengzhao
+      1x  shahras
+      1x  shpet
+      1x  sijistan
+      1x  spencer
+      1x  ramanuja
+      1x  radhakri
+      1x  reichenb
+      1x  poincare
+      1x  origen-of-alexandria
+      1x  nozick
+      1x  madhva
+      1x  maimon
+      1x  marcus-aurelius
+      1x  mead
+      1x  mencius
+      1x  merleau
+
+============================================================
+  Cross-site comparison
+============================================================
+
+  Shared topics (0):
+
+  Unique to www.philosophydef.com (968):
+    about
+    branches-of-philosophy
+    chinese-philosophy
+    confucianism-vs-daoism
+    doctor-of-philosophy
+    editorial-policy
+    history-of-philosophy
+    how-to-study-philosophy
+    philosophy-definition
+    philosophy-degree
+    philosophy-for-beginners
+    philosophy-meaning
+    philosophy-of-ai
+    philosophy-of-education
+    philosophy-of-history
+
+  Unique to iep.utm.edu (984):
+    2d-seman
+    a
+    a-ethics
+    abelard
+    abelard-logic
+    abortion
+    abstractionism
+    addamsj
+    adorno
+    advaita-vedanta
+    aesop
+    aesthetic-attitude
+    aesthetic-formalism
+    aesthetic-taste
+    aesthetics

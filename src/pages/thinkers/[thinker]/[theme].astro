@@ -9,9 +9,12 @@ import {
   shouldIndexTheme,
   shouldIndexThinkerThemePair,
 } from "../../../lib/indexing";
+import { pageSeoOverrides } from "../../../data/seo-overrides";
 
 export function getStaticPaths() {
-  return thinkerThemePairs(4)
+  // Preserve GSC-proven long-tail URLs even when later corpus normalization
+  // leaves fewer than four quotations in the pair.
+  return thinkerThemePairs(1)
     .filter(shouldIndexThinkerThemePair)
     .map((pair) => ({
     params: { thinker: pair.authorSlug, theme: pair.themeSlug },
@@ -31,6 +34,7 @@ const relatedThemes = themeGroups()
 const thinkerGuide = thinkerGuideFor(pair.author);
 const themeGuide =
   themeGuideFor(pair.theme) ?? defaultThemeGuide(pair.theme, pair.quotes.length);
+const seo = pageSeoOverrides[pageUrl] ?? {};
 
 const viewpoint = thinkerGuide
   ? `${pair.author} (${thinkerGuide.lifespan}) approaches ${pair.theme.toLowerCase()} within ${thinkerGuide.school}. ${thinkerGuide.ideas.split(/(?<=\.)\s+/).slice(0, 2).join(" ")} On this page, the archive isolates English passages where that project meets ${pair.theme.toLowerCase()} most directly—useful for searches such as “${pair.author.toLowerCase()} quotes on ${pair.theme.toLowerCase()}.”`
@@ -95,8 +99,10 @@ const schema = [
 ---
 
 <BaseLayout
-  title={`${pair.author} Quotes on ${pair.theme} | Philosophy Blind Box`}
-  description={`Read ${pair.quotes.length} English ${pair.author} quotes on ${pair.theme.toLowerCase()}. Verified renderings with source context and related themes.`}
+  title={seo.title ??
+    `${pair.author} Quotes on ${pair.theme} | Philosophy Blind Box`}
+  description={seo.description ??
+    `Read ${pair.quotes.length} English ${pair.author} quotes on ${pair.theme.toLowerCase()}. Verified renderings with source context and related themes.`}
   canonical={pageUrl}
   schema={schema}
 >

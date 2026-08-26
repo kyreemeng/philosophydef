@@ -1,23 +1,35 @@
 import { themeGuideFor, thinkerGuideFor } from "../data/enrichment";
-import type { Quote } from "./content";
+import {
+  hasObservedThemeDemand,
+  hasObservedThinkerDemand,
+  hasObservedThinkerThemeDemand,
+  isLegacyIndexableQuoteId,
+} from "../data/search-priorities";
+import { slugify, type Quote } from "./content";
 
-export const MIN_INDEXABLE_THEME_QUOTES = 4;
-export const MIN_INDEXABLE_THINKER_QUOTES = 2;
+export const MIN_INDEXABLE_THEME_QUOTES = 10;
+export const MIN_INDEXABLE_THINKER_QUOTES = 4;
 export const MIN_INDEXABLE_PAIR_QUOTES = 4;
 
 export function shouldIndexTheme(theme: { name: string; quotes: Quote[] }) {
   return (
     theme.name !== "Philosophy" &&
-    theme.quotes.length >= MIN_INDEXABLE_THEME_QUOTES &&
+    (theme.quotes.length >= MIN_INDEXABLE_THEME_QUOTES ||
+      hasObservedThemeDemand(slugify(theme.name))) &&
     Boolean(themeGuideFor(theme.name))
   );
 }
 
 export function shouldIndexThinker(thinker: { name: string; quotes: Quote[] }) {
   return (
-    thinker.quotes.length >= MIN_INDEXABLE_THINKER_QUOTES &&
-    Boolean(thinkerGuideFor(thinker.name))
+    hasObservedThinkerDemand(slugify(thinker.name)) ||
+    (thinker.quotes.length >= MIN_INDEXABLE_THINKER_QUOTES &&
+      Boolean(thinkerGuideFor(thinker.name)))
   );
+}
+
+export function shouldIndexQuote(quote: Pick<Quote, "id">) {
+  return isLegacyIndexableQuoteId(quote.id);
 }
 
 export function shouldIndexThinkerThemePair(pair: {
@@ -25,9 +37,14 @@ export function shouldIndexThinkerThemePair(pair: {
   theme: string;
   quotes: Quote[];
 }) {
+  const hasSearchDemand = hasObservedThinkerThemeDemand(
+    slugify(pair.author),
+    slugify(pair.theme),
+  );
   return (
-    pair.quotes.length >= MIN_INDEXABLE_PAIR_QUOTES &&
-    Boolean(thinkerGuideFor(pair.author)) &&
-    Boolean(themeGuideFor(pair.theme))
+    hasSearchDemand ||
+    (pair.quotes.length >= MIN_INDEXABLE_PAIR_QUOTES &&
+      Boolean(thinkerGuideFor(pair.author)) &&
+      Boolean(themeGuideFor(pair.theme)))
   );
 }

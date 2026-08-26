@@ -39,6 +39,12 @@ const schema = [
   },
   {
     "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Philosophy Blind Box",
+    url: Astro.site,
+  },
+  {
+    "@context": "https://schema.org",
     "@type": "Quotation",
     text: featured.text,
     inLanguage: "en",
@@ -56,9 +62,9 @@ const featuredThemes = [
     description: "Philosophy quotes about the self and the examined life.",
   },
   {
-    name: "Attention",
-    slug: "attention",
-    description: "Attention, care, and moral seeing.",
+    name: "Life",
+    slug: "life",
+    description: "Philosophy quotes about life, meaning, and how to live.",
   },
   {
     name: "Freedom",
@@ -84,26 +90,26 @@ const featuredGuides = guides.filter((guide) =>
   [
     "what-is-philosophy",
     "philosophy-of-ai",
+    "what-is-epistemology",
     "branches-of-philosophy",
     "philosophy-for-beginners",
     "chinese-philosophy",
     "plato-vs-aristotle",
     "how-to-study-philosophy",
-    "schools/stoicism",
   ].includes(guide.slug),
 );
 ---
 
 <BaseLayout
-  title="What Is Philosophy? Quotes, Thinkers & Guides | Philosophy Blind Box"
-  description="Explore what philosophy is through clear guides, verified English quotations, thinkers, and themes from traditions around the world."
+  title="Philosophy Quotes | Verified English Archive"
+  description="Verified English philosophy quotes, chosen at random. Browse Socrates, Stoicism, life, death, and beginner guides with sources."
   schema={schema}
 >
   <div class="page-shell">
     <section class="featured-hero" id="featured-quote" aria-labelledby="hero-title">
       <div class="featured-copy">
         <p class="hero-kicker">Curated English archive</p>
-        <h1 id="hero-title">One quotation, at random</h1>
+        <h1 id="hero-title">Philosophy quotes, chosen at random</h1>
         <p class="hero-value">
           Each visit presents a carefully verified English philosophy quotation,
           drawn by chance from about 650–700 passages across the world.

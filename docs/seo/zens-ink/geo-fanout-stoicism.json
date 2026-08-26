@@ -1,0 +1,848 @@
+{
+  "seed_keyword": "stoicism quotes",
+  "icp": "(generic)",
+  "language": "en",
+  "total_subqueries": 54,
+  "gold_mine_count": 16,
+  "live_suggestions_found": 0,
+  "dimensions": {
+    "icp": "ICP / Persona",
+    "scenario": "Use Case / Scenario",
+    "pricing": "Pricing / Cost",
+    "features": "Features / Capabilities",
+    "competitors": "Competitors / Alternatives",
+    "objection": "Objections / Concerns",
+    "education": "Educational / Awareness"
+  },
+  "sub_queries": [
+    {
+      "query": "stoicism quotes free alternative",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes vs free",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes vs competitors",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes pricing",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes cost",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes free",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "cheapest stoicism quotes",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes discount",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes roi",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes alternatives",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "best stoicism quotes",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "top stoicism quotes",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes review",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes compared",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes showdown",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes for small business",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 4
+    },
+    {
+      "query": "stoicism quotes for enterprise",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 3
+    },
+    {
+      "query": "stoicism quotes for startups",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 3
+    },
+    {
+      "query": "stoicism quotes for healthcare",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 3
+    },
+    {
+      "query": "stoicism quotes for ecommerce",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 3
+    },
+    {
+      "query": "stoicism quotes for agencies",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 3
+    },
+    {
+      "query": "stoicism quotes for developers",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 3
+    },
+    {
+      "query": "how to use stoicism quotes for small business",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 8,
+      "gold_score": 2
+    },
+    {
+      "query": "stoicism quotes for social media",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 2
+    },
+    {
+      "query": "stoicism quotes for content marketing",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 2
+    },
+    {
+      "query": "stoicism quotes for lead generation",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 2
+    },
+    {
+      "query": "stoicism quotes pros and cons",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 2
+    },
+    {
+      "query": "stoicism quotes use cases",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes in action",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes ai powered",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes open source",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes no code",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes worth it",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "is stoicism quotes legit",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes workflow",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes examples",
+      "dimension": "scenario",
+      "dimension_label": "Use Case / Scenario",
+      "description": "What are they trying to do? Specific workflow or goal",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes features",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes comparison",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes integrations",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes api",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes automation",
+      "dimension": "features",
+      "dimension_label": "Features / Capabilities",
+      "description": "Functional requirements — comparing what each tool does",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes safe",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes limitations",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes problems",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes scam",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 1
+    },
+    {
+      "query": "stoicism quotes reliable",
+      "dimension": "objection",
+      "dimension_label": "Objections / Concerns",
+      "description": "What's stopping them? Risk and trust signals",
+      "commercial_intent": "medium",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 1
+    },
+    {
+      "query": "how does stoicism quotes work",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 0
+    },
+    {
+      "query": "what is stoicism quotes",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": -1
+    },
+    {
+      "query": "stoicism quotes vs alternatives",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": -1
+    },
+    {
+      "query": "stoicism quotes explained",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": -1
+    },
+    {
+      "query": "stoicism quotes guide",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": -1
+    },
+    {
+      "query": "stoicism quotes tutorial",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": -1
+    },
+    {
+      "query": "stoicism quotes meaning",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": -1
+    },
+    {
+      "query": "stoicism quotes basics",
+      "dimension": "education",
+      "dimension_label": "Educational / Awareness",
+      "description": "Top-of-funnel — learning what this thing is",
+      "commercial_intent": "low",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": -1
+    }
+  ],
+  "gold_mines": [
+    {
+      "query": "stoicism quotes free alternative",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes vs free",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes vs competitors",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 4,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes pricing",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes cost",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes free",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "cheapest stoicism quotes",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes discount",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes roi",
+      "dimension": "pricing",
+      "dimension_label": "Pricing / Cost",
+      "description": "Buying decision — these users have wallet out",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes alternatives",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "best stoicism quotes",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "top stoicism quotes",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes review",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes compared",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes showdown",
+      "dimension": "competitors",
+      "dimension_label": "Competitors / Alternatives",
+      "description": "Direct comparison — strongest commercial intent",
+      "commercial_intent": "very_high",
+      "competition_estimate": "medium",
+      "live_demand": false,
+      "word_count": 3,
+      "gold_score": 5
+    },
+    {
+      "query": "stoicism quotes for small business",
+      "dimension": "icp",
+      "dimension_label": "ICP / Persona",
+      "description": "Who is searching? Role, industry, company size",
+      "commercial_intent": "high",
+      "competition_estimate": "low",
+      "live_demand": false,
+      "word_count": 5,
+      "gold_score": 4
+    }
+  ],
+  "pillar_cluster_plan": {
+    "pillar_keyword": "stoicism quotes",
+    "recommended_pillar_article": "The Ultimate Guide to Stoicism Quotes",
+    "cluster_articles": [
+      {
+        "title": "stoicism quotes free alternative",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "stoicism quotes vs free",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "stoicism quotes vs competitors",
+        "dimension": "Competitors / Alternatives",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "stoicism quotes pricing",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "stoicism quotes cost",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "stoicism quotes free",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "cheapest stoicism quotes",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "stoicism quotes discount",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "stoicism quotes roi",
+        "dimension": "Pricing / Cost",
+        "why": "very_high commercial intent, medium competition"
+      },
+      {
+        "title": "stoicism quotes alternatives",
+        "dimension": "Competitors / Alternatives",
+        "why": "very_high commercial intent, medium competition"
+      }
+    ]
+  },
+  "uncovered_live_suggestions": []
+}

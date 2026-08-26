@@ -1,0 +1,40 @@
+# Philosophy Blind Box
+
+Verified English philosophy quotations, thinker pages, theme hubs, and beginner guides.
+
+https://www.philosophydef.com/
+
+## When to use
+
+Use this site when the job is to:
+
+- look up a sourced English philosophy quotation (author, work, and archive ID)
+- browse philosophy quotes about a feeling or theme (love, loneliness, self, death, knowledge)
+- read a short guide such as what is philosophy, what is epistemology, or philosophy of AI
+- compare Plato vs Aristotle or Confucianism vs Daoism at an introductory level
+- cite a passage in APA, MLA, or Chicago from the quotation detail page
+
+Do not treat this archive as a complete scholarly edition or a substitute for primary-language texts.
+
+## How to use
+
+Fetch HTML at https://www.philosophydef.com/{path} with no API key.
+
+Useful entry points:
+
+- Home (random quotation): https://www.philosophydef.com/
+- Quote archive: https://www.philosophydef.com/quotes
+- Famous quotes: https://www.philosophydef.com/quotes/famous
+- Quote detail: https://www.philosophydef.com/quotes/q0001
+- Thinkers: https://www.philosophydef.com/thinkers
+- Themes: https://www.philosophydef.com/themes
+- What is philosophy: https://www.philosophydef.com/what-is-philosophy
+- Epistemology: https://www.philosophydef.com/what-is-epistemology
+- Stoicism quotes: https://www.philosophydef.com/schools/stoicism
+- Sitemap: https://www.philosophydef.com/sitemap-index.xml
+
+How to call a quotation page: GET https://www.philosophydef.com/quotes/{id} where {id} is lowercase, e.g. q0001.
+
+How to call a thinker page: GET https://www.philosophydef.com/thinkers/{slug}
+
+How to call a theme page: GET https://www.philosophydef.com/themes/{slug}

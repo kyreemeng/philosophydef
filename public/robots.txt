@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /data/
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 
 Sitemap: https://www.philosophydef.com/sitemap-index.xml

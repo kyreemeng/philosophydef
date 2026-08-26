@@ -35,14 +35,24 @@ const navItems = [
   { href: "/schools", label: "Schools", match: "/schools" },
   { href: "/about", label: "About", match: "/about" },
 ];
-const defaultSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: siteName,
-  url: Astro.site,
-  description:
-    "Curated English philosophy quotations from around the world, presented at random.",
-};
+const defaultSchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: siteName,
+    url: Astro.site,
+    description:
+      "Curated English philosophy quotations from around the world, presented at random.",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: siteName,
+    url: Astro.site,
+    description:
+      "An English archive of verified philosophy quotations with thinker, theme, and beginner guides.",
+  },
+];
 ---
 
 <!doctype html>
@@ -136,6 +146,7 @@ const defaultSchema = {
           <a href="/quotes">Browse the archive</a>
           <a href="/quotes/famous">Famous quotes</a>
           <a href="/schools/stoicism">Stoicism</a>
+          <a href="/why-philosophy-matters">Why philosophy matters</a>
           <a href="/editorial-policy">Editorial policy</a>
           <a href="/sourcing-method">Sourcing method</a>
           <a href="/about">About this archive</a>

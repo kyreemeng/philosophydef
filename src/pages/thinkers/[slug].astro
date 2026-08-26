@@ -2,10 +2,10 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import {
   thinkerGroups,
+  thinkerThemePairs,
   canonicalizeTheme,
   themeGroups,
   themePath,
-  themeSlug,
 } from "../../lib/content";
 import { thinkerGuideFor, defaultThinkerGuide, isTextTradition } from "../../data/enrichment";
 import {
@@ -43,7 +43,11 @@ for (const quote of thinker.quotes) {
 }
 const topThemes = [...themeCounts.entries()]
   .sort((a, b) => b[1] - a[1])
-  .slice(0, 6);
+  .slice(0, 12);
+const indexedPairs = thinkerThemePairs(1).filter(
+  (pair) =>
+    pair.authorSlug === thinker.slug && shouldIndexThinkerThemePair(pair),
+);
 
 const asText = isTextTradition(thinker.name);
 const mainEntity = asText
@@ -157,23 +161,23 @@ const pageDescription =
                         <a href={themePath(theme)}>
                           {theme} ({count})
                         </a>
-                        {shouldIndexThinkerThemePair({
-                          author: thinker.name,
-                          theme,
-                          quotes: thinker.quotes.filter((quote) =>
-                            quote.themes.some(
-                              (rawTheme) => canonicalizeTheme(rawTheme) === theme,
-                            ),
-                          ),
-                        }) && (
-                          <>
-                            {" "}
-                            ·{" "}
-                            <a href={`/thinkers/${thinker.slug}/${themeSlug(theme)}`}>
-                              {thinker.name} on {theme.toLowerCase()}
-                            </a>
-                          </>
-                        )}
+                      </>
+                    ))}
+                  </p>
+                </>
+              )
+            }
+            {
+              indexedPairs.length > 0 && (
+                <>
+                  <h2>Quotes by theme</h2>
+                  <p>
+                    {indexedPairs.map((pair, index) => (
+                      <>
+                        {index > 0 && " · "}
+                        <a href={`/thinkers/${pair.authorSlug}/${pair.themeSlug}`}>
+                          {pair.author} on {pair.theme.toLowerCase()}
+                        </a>
                       </>
                     ))}
                   </p>

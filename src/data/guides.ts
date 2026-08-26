@@ -477,7 +477,7 @@ export const guides: Guide[] = [
     slug: "chinese-philosophy",
     title: "Chinese Philosophy",
     description:
-      "An introduction to Chinese philosophy, including Confucianism, Daoism, Mohism, Legalism, and Buddhist traditions of thought.",
+      "Chinese philosophy explained: Confucianism, Daoism, Mohism, Legalism, and Buddhist thought—with verified English quotations and starter thinkers.",
     eyebrow: "Traditions of thought",
     intro:
       "Chinese philosophy includes diverse traditions that examine ethical cultivation, social order, nature, language, governance, and the way of living well.",
@@ -513,6 +513,11 @@ export const guides: Guide[] = [
           "It is a family of traditions—including Confucian, Daoist, Mohist, Legalist, and Buddhist currents—that examine ethics, governance, nature, language, and cultivation.",
       },
       {
+        question: "What is “the Way” in Chinese philosophy?",
+        answer:
+          "Dao, often translated as the Way, names a pattern of nature, conduct, or cosmic process rather than a single slogan. Confucian and Daoist uses overlap in the word and diverge in emphasis: cultivated human roles versus alignment with what cannot be forced.",
+      },
+      {
         question: "Who are the main Chinese philosophers to start with?",
         answer:
           "Confucius and Mencius for Confucian ethics; Laozi and Zhuangzi for Daoist thought. Each is represented in this archive with verified English quotations.",
@@ -526,6 +531,8 @@ export const guides: Guide[] = [
     related: [
       { href: "/thinkers/confucius", label: "Confucius quotations" },
       { href: "/thinkers/laozi", label: "Laozi quotations" },
+      { href: "/schools/confucianism", label: "Confucianism quotes" },
+      { href: "/schools/daoism", label: "Daoism and the Way" },
       { href: "/history-of-philosophy", label: "History of philosophy" },
     ],
     thinkers: ["Confucius", "Mencius", "Laozi", "Zhuangzi"],
@@ -675,7 +682,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "what-is-epistemology",
-    title: "What Is Epistemology? Meaning, Definition & Examples",
+    title: "What Is Epistemology?",
     description:
       "Epistemology meaning explained: the philosophy of knowledge, justification, belief, evidence, and skepticism—with clear examples and FAQs.",
     eyebrow: "Theory of knowledge",
@@ -710,14 +717,19 @@ export const guides: Guide[] = [
         answer: "It is the study of knowledge and justified belief—how we know what we know.",
       },
       {
+        question: "What is the difference between epistemology and ontology?",
+        answer:
+          "Ontology asks what exists; epistemology asks how we can know it. A research project often needs both: what kinds of things are under study, and what counts as evidence for claims about them.",
+      },
+      {
+        question: "What are examples of epistemology?",
+        answer:
+          "Everyday examples include trusting a map, checking a witness, or asking whether an AI output is knowledge or only a fluent guess. In philosophy: Can perception justify belief? What makes testimony trustworthy? Does science give knowledge or only models?",
+      },
+      {
         question: "How is epistemology different from psychology?",
         answer:
           "Psychology describes how cognition works; epistemology evaluates norms of good believing and knowing.",
-      },
-      {
-        question: "What are examples of epistemological questions?",
-        answer:
-          "Can perception justify belief? What makes testimony trustworthy? Does science give knowledge or only models?",
       },
     ],
     related: [

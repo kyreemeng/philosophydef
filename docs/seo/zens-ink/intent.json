@@ -1,0 +1,7452 @@
+{
+  "results": [
+    {
+      "keyword": "best philosophy quotes about death",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Ranked list / top-N listicle",
+      "flags": []
+    },
+    {
+      "keyword": "chinese philosophy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "chinese philosophy books",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "chinese philosophy crossword",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "chinese philosophy crossword clue",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "chinese philosophy known as the way",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "chinese philosophy meme",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "chinese philosophy pdf",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "chinese philosophy quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "chinese philosophy tao",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "chinese philosophy the way",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "confucius quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "confucius quotes about education",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "confucius quotes about love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "confucius quotes about women",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "confucius quotes funny",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "confucius quotes golden rule",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "confucius quotes in chinese",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "confucius quotes in hindi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "confucius quotes meme",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "confucius quotes on life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "deep philosophical quotes about loneliness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "deep quotes about loneliness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology a very short introduction",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology adalah",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology and ai",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology and metaphysics",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology and metaphysics western",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology and ontology",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology and ontology difference",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology and ontology in research",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology and ontology meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology artinya",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology basics",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology becoming intellectually virtuous",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology becoming intellectually virtuous pdf",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology beliefs",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology books",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology books pdf",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology branch of philosophy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology branches",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology by robert audi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology childbirth",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology chinese",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology christianity",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology class",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology classic problems and contemporary responses",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology constructivism",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology contemporary readings",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology course",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology crisis",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology critical realism",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology deals with",
+      "intent": "transactional",
+      "confidence": 0.85,
+      "content_type": "Product / pricing / landing page",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology definition",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology definition and examples",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology definition in research",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology definition simple",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology degree",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology derived from",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology deutsch",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology dictionary",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology drawing",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology eli5",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology epistemology",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology ethics",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology ethics and mind",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology etymology",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology example questions",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology examples",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology examples in real life",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology explained",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology explained simply",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology father",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology feldman",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology feminism",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology flow chart",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology for beginners",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology for dummies",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology for kids",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology foundationalism",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology founder",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology framework",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology geography",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology german",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology gettier problem",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Troubleshooting guide / FAQ",
+      "flags": [
+        "problem"
+      ]
+    },
+    {
+      "keyword": "epistemology given by",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology god",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology goodreads",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology google scholar",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology greek",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology greek meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology greek word",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology handbook",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology hegel",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology hierarchy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology hindi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology hindi meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology history",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology how to say",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology how we know what we know",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology hume",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology humility",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology in a sentence",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology in arabic",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology in education",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology in hindi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology in philosophy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology in qualitative research",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology in research",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology in tagalog",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology in zulu",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology is",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology is the study of",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology jay wood",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology jobs",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology john locke",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology jokes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology journal",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology journal articles",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology jtb",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology justice",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology justification",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology justified true belief",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology ka arth",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology ka hindi meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology kant",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology karl popper",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology key questions",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology key thinkers",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology ki",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology knowledge",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology kya hai",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology kya hai in hindi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology lab",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology language",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology lecture",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology lesson",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology linguistics",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology literally means",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology literature",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology logic",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology logo",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology là gì",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology meaning in bengali",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology meaning in english",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology meaning in hindi",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology meaning in malayalam",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology meaning in marathi",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology meaning in philosophy",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology meaning in tamil",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology meaning in telugu",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology meaning in urdu",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology naturalized",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology naturalized quine",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology naturalized quine pdf",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology nature of knowledge",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology ne demek",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology nedir",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology nihilism",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology notes pdf",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology noun",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology of a word",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology of ignorance",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology of loss",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology of loss meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology of loss meaning in english",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology of loss meaning in hindi",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology of the closet",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology of the closet summary",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology ontology",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology ontology and axiology",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology pdf",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology philosophers",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology philosophy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology philosophy definition",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology philosophy examples",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology picture",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology ppt",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology pronunciation",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology pronunciation in english",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology psychology",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology qualitative research",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology questions",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology questions and answers",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology questions examples",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology questions for students",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology quiz",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology rationalism",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology reading list",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology real life examples",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology reddit",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology refers to",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology related to",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology research",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology richard feldman",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology robert audi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology root word",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology sep",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology simple definition",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology sociology",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology stances",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology stanford encyclopedia of philosophy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology study",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology syllabus",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology symbol",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology synonym",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology synonym and antonym",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology tagalog",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology textbook",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology the study of knowledge",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology theology",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology theories",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology theory of knowledge",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology thought experiments",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology topics",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Ranked list / top-N listicle",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology types",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology types of knowledge",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology understanding",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology unibo",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology uoft",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology upsc",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology urdu",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology urdu meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology used in a sentence",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology uses",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology vs etymology",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology vs metaphysics",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology vs methodology",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology vs ontology",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology vs ontology meaning",
+      "intent": "commercial",
+      "confidence": 0.95,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology vs ontology vs axiology",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology vs ontology vs metaphysics",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology vs pedagogy",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology vs phenomenology",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology vs philosophy",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology w jay wood",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology what is it",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology what is knowledge",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology wiki",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology wiktionary",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology with examples",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology without a knowing subject",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology word breakdown",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology word meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology word origin",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology words",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology yale",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology youtube",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "epistemology zhongwen",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "existentialism quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "existentialism quotes about life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "existentialism quotes goodreads",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "existentialism quotes in the metamorphosis",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "existentialism quotes kierkegaard",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "existentialism quotes on freedom",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "existentialism quotes on love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "existentialism quotes reddit",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "existentialism quotes sartre",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "existentialism quotes short",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "famous philosophy quotes about death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "famous quotes about loneliness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "famous quotes about love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "famous quotes about love and life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "famous quotes about love and marriage",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "famous quotes about love from movies",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "how to study philosophy",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "how to study philosophy as a hobby",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "how to study philosophy at home",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "how to study philosophy books",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "how to study philosophy for beginners",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "how to study philosophy in india",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "how to study philosophy in university",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "how to study philosophy on your own",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "how to study philosophy reddit",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "how to study philosophy when you're stupid",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "john stuart mill quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "john stuart mill quotes in hindi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "john stuart mill quotes on democracy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "john stuart mill quotes on freedom of speech",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "john stuart mill quotes on happiness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "john stuart mill quotes on liberty",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "john stuart mill quotes on satisfaction",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "john stuart mill quotes on utilitarianism",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "john stuart mill quotes on war",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "john stuart mill quotes pig",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "kierkegaard quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "kierkegaard quotes leap of faith",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "kierkegaard quotes on choice",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "kierkegaard quotes on faith",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "kierkegaard quotes on ghosting",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "kierkegaard quotes on god",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "kierkegaard quotes on life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "kierkegaard quotes on love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "kierkegaard quotes on marriage",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "kierkegaard quotes regret",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "kitaro nishida famous quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "kitaro nishida nothingness quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "kitaro nishida quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "latin philosophy quotes about death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "marcus aurelius quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "marcus aurelius quotes from meditations",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "marcus aurelius quotes in latin",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "marcus aurelius quotes on death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "marcus aurelius quotes on discipline",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "marcus aurelius quotes on god",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "marcus aurelius quotes on leadership",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "marcus aurelius quotes on life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "marcus aurelius quotes on love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "marcus aurelius quotes stoicism",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "nietzsche quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "nietzsche quotes about god",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "nietzsche quotes about life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "nietzsche quotes abyss",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "nietzsche quotes dark",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "nietzsche quotes in german",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "nietzsche quotes nihilism",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "nietzsche quotes on love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "nietzsche quotes on truth",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "nietzsche quotes on women",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosopher quotes about self",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about death and life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about death of a loved one",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about life and love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about life in hindi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about life in tamil",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about life socrates",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about loneliness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about love and life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about love and marriage",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about love and relationships",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about love reddit",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about self awareness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophical quotes about selfishness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy of ai",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy of ai books",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy of ai conference",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy of ai conference 2026",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy of ai course",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy of ai journal",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy of ai masters",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy of ai phd",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy of aikido",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy of air",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about being alone",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about change",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about dying",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about education",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about friendship",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about isolation",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about jealousy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about joy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about judgement",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about justice",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about life and death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about life and love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about life lessons",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about life pdf",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about life with explanation",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about loneliness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about loss",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about self",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about self confidence",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about self improvement",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about self love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about self reflection",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about self worth",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about selfishness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about solitude",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about success",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about the unknown",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about time",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about understanding",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about unity",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about violence",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about yourself",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes about youth",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes aristotle",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes bangla",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes best",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Ranked list / top-N listicle",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes bible",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes book",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes book pdf",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes by aristotle",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes by confucius",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes by nietzsche",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes by plato",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes by socrates",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes by women",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes calendar",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes camus",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes carl jung",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes confucius",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes daily",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes daily stoic",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes dark",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes dataset",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes deep",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes descartes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes dp",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes education",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes english",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes examples",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes explained",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes famous",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes for bio",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes for graduation",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes for instagram bio",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes for kids",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes for life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes for students",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes franz kafka",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes from socrates",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes funny",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes generator",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes goodreads",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes graduation",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes greek",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes happiness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes hindi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes images",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes in english",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes in hindi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes in kannada",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes in latin",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes in malayalam",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes in marathi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes in tamil",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes in telugu",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes in urdu",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes kafka",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes kant",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes kierkegaard",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes kindness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes knowledge",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes latin",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes leadership",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes list",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes long",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes malayalam",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes marcus aurelius",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes meaning of life",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes meme",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes modern",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes modern family",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes most famous",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes motivational",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes nature",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes new beginnings",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes nietzsche",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes nihilism",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes of the day",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes on birthday",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes on death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes on education",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes on friendship",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes on learning",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes on life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes on life in hindi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes on love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes on time",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes pdf",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes phil dunphy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes pinterest",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes plato",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes positive",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes quotes about life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes reddit",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes sad",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes seneca",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes short",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes simple",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes socrates",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes stickers",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes stoic",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes success",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes t shirt",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes tagalog",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes tamil",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes tattoo",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes telugu",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes that go hard",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes that hit hard",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes to live by",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes to make you think",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes twitter",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes unique",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes wallpaper",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes wallpaper 4k",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes website",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes widget",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes wisdom",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes with deep meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes with explanation",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes with images",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes with meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes women",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "philosophy quotes youtube",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "plato vs aristotle",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "plato vs aristotle differences",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "plato vs aristotle metaphysics",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "plato vs aristotle on art",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "plato vs aristotle painting",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "plato vs aristotle philosophy",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "plato vs aristotle reddit",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "plato vs aristotle theatre",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "plato vs aristotle virtue ethics",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "plato vs aristotle vs socrates",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Side-by-side comparison table",
+      "flags": []
+    },
+    {
+      "keyword": "short philosophy quotes about death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes about death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes about democracy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes about education",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes about jealousy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes about knowledge",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes about life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes about loser",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes about love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes about marriage",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes about nothing",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes about self",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes about understanding the self",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes about wisdom",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes about women",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes bahasa indonesia",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes bangla",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes before death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes best",
+      "intent": "commercial",
+      "confidence": 0.85,
+      "content_type": "Ranked list / top-N listicle",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes bill and ted's excellent adventure",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes body",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes bodybuilding",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes book",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes book pdf",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes by all means marry",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes change",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes children",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes debate",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes deep",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes democracy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes education",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes education is the kindling of a flame",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes en español",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes en francais",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes english",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes ethics",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes exercise",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes explained",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes falling down",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes famous",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes fitness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes for life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes for love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes for students",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes friendship",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes from the apology",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes from the republic",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes funny",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes generator",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes goodreads",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes gossip",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes greek",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes gym",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes gym wallpaper",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes happiness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes health",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes hindi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes i know nothing",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes i know nothing meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes if is your power",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes if you are",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes if your power",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes in bengali",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes in english",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes in greek",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes in hindi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes in tamil",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes in telugu",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes it is a shame",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes justice",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes kids",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes kindness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes know",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes know nothing",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes know thyself",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes know yourself",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes knowing that you know nothing",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes knowledge",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes latin",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes leadership",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes learning",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes let food be thy medicine",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes life worth living",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes list",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes long",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes malayalam",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes man",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes marriage",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes marry",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes meme",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes mind",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes most famous",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes motivation",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes no man",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on asking questions",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on democracy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on education",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on equality",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on fitness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on happiness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on intelligence",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on knowledge",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on marriage",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on violence",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on wisdom",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes on younger generation",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes pdf",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes philosophy",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes physical training",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes pinterest",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes plato",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes politics",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes popular",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes poster",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes power",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes question everything",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes questions",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes ragebait",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes reddit",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes secret of change",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes self reflection",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes short",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes skeleton",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes smart people",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes smart people learn",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes strength",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes strong minds",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes strong minds discuss ideas",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes stupid",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes tagalog",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes tamil",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes teaching",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes the only true wisdom",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes the secret of change",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes the unexamined life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes to be is to do",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes to ragebait",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes true wisdom",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes unexamined life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes upsc",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes urdu",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes virtue",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes wallpaper",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes weak minds",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes what are you without it",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes when the debate",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes wife",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes wiki",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes wisdom",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes wise know nothing",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes with explanation",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes women",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes year",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes young people",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes youth",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "socrates quotes youtube",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes about change",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes about control",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes about death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes about discipline",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes about emotions",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes about life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes about love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes about nature",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes about strength",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes about work",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes book",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes book pdf",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes by marcus aurelius",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes control",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes daily",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes epictetus",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes epictetus quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes for anxiety",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes for hard times",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes for kids",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes for life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes for men",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes for mind and body",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes for the day",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes for women",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes for work",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes goodreads",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes in hindi",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes in latin",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes in tamil",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes latin",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes marcus aurelius",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes of the day",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes on anger",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes on anxiety",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes on control",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes on death",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes on discipline",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes on friendship",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes on happiness",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes on life",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes on love",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes pdf",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes pinterest",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes poster",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes reddit",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes ryan holiday",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes seneca",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes short",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes tamil",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes tattoo",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes tiktok",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes to live by",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes video",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes wallpaper",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes wallpaper 4k",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes wallpaper iphone",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "stoicism quotes youtube",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "the unexamined life is not worth living",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "the unexamined life is not worth living in greek",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "the unexamined life is not worth living in tagalog",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "the unexamined life is not worth living meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "the unexamined life is not worth living meaning essay",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "the unexamined life is not worth living meaning in hindi",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "the unexamined life is not worth living meaning in tagalog",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "the unexamined life is not worth living socrates meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "the unexamined life is not worth living who said this",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "the unexamined life is not worth living. — socrates",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "wang yangming quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "what is epistemology",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is epistemology and ontology",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is epistemology in hindi",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is epistemology in philosophy",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is epistemology in psychology",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is epistemology in qualitative research",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is epistemology in research",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is epistemology in simple terms",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is epistemology of loss",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is epistemology the study of",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is metaphysics",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is metaphysics and epistemology",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is metaphysics heidegger",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is metaphysics in hindi",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is metaphysics in philosophy",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is metaphysics in simple terms",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is metaphysics manipulation",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is metaphysics martin heidegger",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is metaphysics mean",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is metaphysics the study of",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy a level",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy about",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy all about",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy all about as a course",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy and ethics",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy and its branches",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy and philosopher",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy and psychology",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy and why is it important",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy as a course",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy bangla",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy based on",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy bisaya",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy body emulsion",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy book",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy book pdf",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy brainly",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy branches",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy by aristotle",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy by deleuze and guattari",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy called in hindi",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy career",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy class",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy class 11",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy class in college",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy class like",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy club",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy course",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy course all about",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy crash course philosophy #1",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "Troubleshooting guide / FAQ",
+      "flags": [
+        "question",
+        "problem"
+      ]
+    },
+    {
+      "keyword": "what is philosophy definition",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy degree",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy deleuze",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy deleuze and guattari",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy deleuze and guattari pdf",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy deleuze pdf",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy derived from",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy discuss the nature and scope of philosophy",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy doctor",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy dumbed down",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy easy definition",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy education",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy essay",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy ethics",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy etymology",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy even about",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy example",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy explain",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy explain in hindi",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy explain the nature and scope of philosophy",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy father",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy for",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy for book",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy for children",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy for dummies",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy for kids",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy for mary midgley",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy for mary midgley pdf",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy for me",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy for you",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy g12",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy gcse",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy genre",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy gilles deleuze",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy give example",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy good for",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy grade 11",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy grade 12",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy greek word",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy heidegger",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy heidegger pdf",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy hindi",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy hindi meaning",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy history",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy honours",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy hons",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy hope in a jar",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy human person",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy humanities",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy in bengali",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy in college",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy in education",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy in hindi",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy in life",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy in odia",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy in simple words",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy in tagalog",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy in urdu",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy in xhosa",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy in your own words",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy jobs",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy journal",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy kant",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy karl jaspers",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy kids",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy kids book",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy knowledge",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy ks2",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy ks3",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy kya hai",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy language",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy law",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy lesson 1",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy life",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy like",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy literature",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy logic",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy logic and human existence",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy long answer",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy love of wisdom",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy mainly about",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy major",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy major good for",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy malayalam",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy mean",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy meaning and definition",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy meaning in hindi",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy meaning in tagalog",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy module",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy module 1",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy nature",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy nature and scope",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy nietzsche",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy not",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy notes",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy notes pdf",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy now",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy nursing",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy of education",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy of history",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy of language",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy of law",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy of life",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy of mind",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy of religion",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy of science",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy of teaching",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy of the human person",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy pdf",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy pdf deleuze",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy phd",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy picture",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy politics and economics",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy politics and law",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy poster",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy ppt",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy pre law",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy psychology and sociology",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy question",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy question answer",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy questions and theories",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy quiz",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy quizlet",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy quotes",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy reading",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy really about",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy reddit",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy reflection",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy religion",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy religion and ethics",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy research",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy research paper",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy root word",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy russell",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy short answer",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy simple",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy simple definition",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy simple terms",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy study",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy subject",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy subject all about",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy subject in arts",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy subject in bengali",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy subject in college",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy tagalog",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy tagalog example",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy tagalog explanation",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy taglish",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy the study of",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy to me",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy to you",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy topic",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy truth",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy tube",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy uk",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy understanding",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy university",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy upsc",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy urdu",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy used for",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy values",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy vce",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy video",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy vikas divyakirti",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy vs ethics",
+      "intent": "commercial",
+      "confidence": 0.95,
+      "content_type": "Side-by-side comparison table",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy vs psychology",
+      "intent": "commercial",
+      "confidence": 0.95,
+      "content_type": "Side-by-side comparison table",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy vs religion",
+      "intent": "commercial",
+      "confidence": 0.95,
+      "content_type": "Side-by-side comparison table",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy vs science",
+      "intent": "commercial",
+      "confidence": 0.95,
+      "content_type": "Side-by-side comparison table",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy vs sociology",
+      "intent": "commercial",
+      "confidence": 0.95,
+      "content_type": "Side-by-side comparison table",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy vs theology",
+      "intent": "commercial",
+      "confidence": 0.95,
+      "content_type": "Side-by-side comparison table",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy wiki",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy wikipedia",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy wisdom",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy with citation",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy with example",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy with reference",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy wittgenstein",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy word origin",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy work",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy yoga",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "what is philosophy youtube",
+      "intent": "informational",
+      "confidence": 0.85,
+      "content_type": "BLUF guide (answer first, then elaborate)",
+      "flags": [
+        "question"
+      ]
+    },
+    {
+      "keyword": "yang zhu quotes",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    },
+    {
+      "keyword": "zhuangzi quotes in chinese",
+      "intent": "informational",
+      "confidence": 0.5,
+      "content_type": "Guide / blog post",
+      "flags": []
+    }
+  ],
+  "summary": {
+    "total": 992,
+    "by_intent": {
+      "informational": 962,
+      "commercial": 29,
+      "transactional": 1
+    },
+    "by_flag": {
+      "question": 242,
+      "problem": 2
+    },
+    "pct": {
+      "commercial": 3,
+      "informational": 97,
+      "transactional": 0
+    }
+  }
+}

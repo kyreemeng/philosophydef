@@ -1,0 +1,66 @@
+# Philosophy Blind Box — full index for AI crawlers
+
+Site: https://www.philosophydef.com/
+Language: English
+Purpose: sourced philosophy quotations plus short guides.
+
+## When to use
+
+Use for sourced English quotations, thinker/theme browsing, and introductory philosophy guides. Not a critical edition.
+
+## How to use
+
+HTTP GET to the URLs below. No authentication. Prefer canonical www host.
+
+## Core hubs
+
+- https://www.philosophydef.com/
+- https://www.philosophydef.com/quotes
+- https://www.philosophydef.com/quotes/famous
+- https://www.philosophydef.com/quotes/short
+- https://www.philosophydef.com/quotes/best
+- https://www.philosophydef.com/quotes/about
+- https://www.philosophydef.com/thinkers
+- https://www.philosophydef.com/themes
+- https://www.philosophydef.com/schools
+- https://www.philosophydef.com/what-is-philosophy
+- https://www.philosophydef.com/what-is-epistemology
+- https://www.philosophydef.com/philosophy-of-ai
+- https://www.philosophydef.com/how-to-study-philosophy
+- https://www.philosophydef.com/chinese-philosophy
+- https://www.philosophydef.com/plato-vs-aristotle
+- https://www.philosophydef.com/editorial-policy
+- https://www.philosophydef.com/sitemap-index.xml
+
+## High-demand quote collections
+
+- https://www.philosophydef.com/quotes/about/love
+- https://www.philosophydef.com/quotes/about/loneliness
+- https://www.philosophydef.com/quotes/about/peace
+- https://www.philosophydef.com/quotes/about/fear
+- https://www.philosophydef.com/quotes/about/grief
+- https://www.philosophydef.com/themes/self
+- https://www.philosophydef.com/themes/life
+- https://www.philosophydef.com/themes/death
+- https://www.philosophydef.com/themes/knowledge
+- https://www.philosophydef.com/schools/stoicism
+- https://www.philosophydef.com/schools/existentialism
+- https://www.philosophydef.com/schools/confucianism
+
+## High-demand thinkers
+
+- https://www.philosophydef.com/thinkers/socrates
+- https://www.philosophydef.com/thinkers/friedrich-nietzsche
+- https://www.philosophydef.com/thinkers/marcus-aurelius
+- https://www.philosophydef.com/thinkers/confucius
+- https://www.philosophydef.com/thinkers/soren-kierkegaard
+- https://www.philosophydef.com/thinkers/nishida-kitaro
+- https://www.philosophydef.com/thinkers/wang-yangming
+- https://www.philosophydef.com/thinkers/john-stuart-mill
+
+## How to call
+
+GET https://www.philosophydef.com/quotes/{id}
+GET https://www.philosophydef.com/thinkers/{slug}
+GET https://www.philosophydef.com/themes/{slug}
+GET https://www.philosophydef.com/schools/{slug}

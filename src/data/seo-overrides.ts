@@ -1,5 +1,5 @@
 /**
- * GSC-driven TDH overrides (2026-08-17 Search Console export).
+ * GSC-driven TDH overrides (2026-08-17 and 2026-08-26 exports).
  * Prefer click-intent match: famous-quote phrasing + source cues for
  * “quote source” queries ranking on page 1 with low CTR.
  */
@@ -107,6 +107,36 @@ export const quoteSeoOverrides: Record<string, QuoteSeoOverride> = {
     description:
       "Marcus Aurelius on human cooperation—“like feet, like hands, like eyelids.” Stoic source context and related community quotes.",
   },
+  q0002: {
+    title: 'Socrates: “What I Do Not Know…” — Plato, Apology 21d',
+    description:
+      "Socrates on knowing one’s limits: “What I do not know, I do not claim to know.” Plato’s Apology 21d, attribution note, meaning, and related wisdom quotes.",
+    h1: "“What I do not know, I do not claim to know” — Socrates (Apology 21d)",
+  },
+  q0196: {
+    title: 'Martin Buber: “All Real Living Is Meeting” — Quote Source',
+    description:
+      "Martin Buber’s “All real living is meeting” from I and Thou (1923). Read the source attribution, dialogical meaning, and related philosophy of relation quotes.",
+    h1: "“All real living is meeting” — Martin Buber (I and Thou)",
+  },
+  q0304: {
+    title: "Linji Yixuan Quote: Wherever You Are, Make Yourself Master",
+    description:
+      "Linji Yixuan: “Wherever you are, make yourself master; wherever you stand is real.” Source context from the Record of Linji and related Zen quotes.",
+    h1: "“Wherever you are, make yourself master” — Linji Yixuan",
+  },
+  q0432: {
+    title: 'Francis Bacon: “Knowledge and Power Meet in One” — Source',
+    description:
+      "Francis Bacon, Novum Organum I.3: “Human knowledge and human power meet in one.” Exact source, meaning, and related empiricism and science quotes.",
+    h1: "“Human knowledge and human power meet in one” — Francis Bacon",
+  },
+  q0436: {
+    title: 'Aristotle: “Virtue Lies in a Mean” — Ethics Quote Source',
+    description:
+      "Aristotle’s “Virtue lies in a mean” from Nicomachean Ethics II.6–9. Source context, what the golden mean means, and related virtue quotes.",
+    h1: "“Virtue lies in a mean” — Aristotle (Nicomachean Ethics)",
+  },
 };
 
 /** Page-level TDH for hubs/guides with high impressions / low CTR. */
@@ -125,9 +155,9 @@ export const pageSeoOverrides: Record<
       "Philosophical quotes about love—eros, friendship, care, and recognition—from Plato, Aristotle, Confucius, and modern ethics. Clear English, cited sources.",
   },
   "/quotes/about/loneliness": {
-    title: "Philosophy Quotes About Loneliness & Solitude | Verified",
+    title: "Philosophy Quotes About Loneliness vs Solitude | Verified",
     description:
-      "Philosophy quotes about loneliness vs solitude—chosen quiet, unwanted isolation, and self-sufficiency. Verified English passages with thinkers and sources.",
+      "Philosophy quotes about loneliness vs solitude—from Schopenhauer, Nietzsche, and other thinkers. Compare isolation, chosen quiet, and self-sufficiency.",
   },
   "/quotes/about/peace": {
     title: "Philosophy Quotes About Peace of Mind | Stoic & Epicurean",
@@ -164,9 +194,104 @@ export const pageSeoOverrides: Record<
     description:
       "Wang Yangming quotes in verified English—unity of knowledge and action, heart-mind, and Neo-Confucian practice, with sources.",
   },
+  "/thinkers/wang-guowei": {
+    title: "Wang Guowei Quotes | Aesthetics, Jingjie & Chinese Thought",
+    description:
+      "Wang Guowei quotes and philosophy—jingjie, tragedy, desire, and modern Chinese aesthetics in dialogue with Schopenhauer, with English sources.",
+  },
+  "/thinkers/zengzi": {
+    title: "Zengzi Quotes | Self-Examination & Confucian Practice",
+    description:
+      "Zengzi quotes on daily self-examination, filial piety, trust, and Confucian cultivation, with source context and related thinkers.",
+  },
+  "/thinkers/gabriel-marcel": {
+    title: "Gabriel Marcel Quotes | Hope, Presence & Being",
+    description:
+      "Gabriel Marcel quotes on hope, presence, fidelity, being, and having—English passages with sources and Christian existentialist context.",
+  },
+  "/thinkers/john-stuart-mill": {
+    title: "John Stuart Mill Quotes | Liberty, Happiness & Free Speech",
+    description:
+      "John Stuart Mill quotes on liberty, happiness, individuality, free speech, and utilitarianism, with sources from On Liberty and major works.",
+  },
+  "/thinkers/nishida-kitaro/experience": {
+    title: "Nishida Kitaro on Pure Experience | Quotes & Context",
+    description:
+      "Nishida Kitaro quotes on pure experience—verified English passages with Kyoto School context, source notes, and links to his wider philosophy.",
+  },
+  "/thinkers/xunzi/learning": {
+    title: "Xunzi Quotes on Learning | Education, Ritual & Practice",
+    description:
+      "Xunzi quotes on learning, teachers, ritual, and deliberate practice. Read sourced English passages with Confucian context and related themes.",
+  },
+  "/thinkers/wang-yangming/practice": {
+    title: "Wang Yangming Quotes on Practice | Knowledge and Action",
+    description:
+      "Wang Yangming quotes on practice and the unity of knowledge and action, with English source context and Neo-Confucian background.",
+  },
+  "/thinkers/paul-tillich/courage": {
+    title: "Paul Tillich Quotes on Courage | The Courage to Be",
+    description:
+      "Paul Tillich quotes on courage, anxiety, and being—sourced English passages with context from Christian existential philosophy.",
+  },
+  "/thinkers/william-james/truth": {
+    title: "William James Quotes on Truth | Pragmatism & Source Context",
+    description:
+      "William James quotes on truth and pragmatism, including “Truth happens to an idea,” with verified source context and related passages.",
+  },
+  "/thinkers/socrates/justice": {
+    title: "Socrates Quotes on Justice | Plato Sources & Context",
+    description:
+      "Socrates quotes on justice from Plato’s dialogues—verified English passages on doing wrong, moral integrity, and the examined life.",
+  },
   "/plato-vs-aristotle": {
     title: "Plato vs Aristotle | Key Differences Explained Clearly",
     description:
       "Plato vs Aristotle: forms vs particulars, politics, ethics, and method—clear comparison for students, with linked quotes and further reading.",
+  },
+  "/themes/life": {
+    title: "Philosophy Quotes About Life | Meaning, Virtue & How to Live",
+    description:
+      "Philosophy quotes about life and how to live—from Socrates’ examined life to Stoic, Confucian, and modern passages. Verified English sources.",
+  },
+  "/themes/death": {
+    title: "Philosophy Quotes About Death | Stoic & Epicurean",
+    description:
+      "Philosophy quotes about death, mortality, and fear of dying—Stoic, Epicurean, and related English passages with sources, not empty consolation.",
+  },
+  "/themes/knowledge": {
+    title: "Philosophy Quotes About Knowledge | Epistemology in the Archive",
+    description:
+      "Philosophy quotes about knowledge, belief, and inquiry—pair this collection with the epistemology guide for definitions and examples.",
+  },
+  "/thinkers/marcus-aurelius": {
+    title: "Marcus Aurelius Quotes | Meditations & Stoic Discipline",
+    description:
+      "Marcus Aurelius quotes from the Meditations in verified English—discipline, death, community, and judgment, with source context.",
+  },
+  "/thinkers/confucius": {
+    title: "Confucius Quotes | Analects on Life, Learning & Humaneness",
+    description:
+      "Confucius quotes from the Analects in verified English—life, learning, love of virtue, and education, with sources and related Confucian thinkers.",
+  },
+  "/thinkers/soren-kierkegaard": {
+    title: "Kierkegaard Quotes | Self, Faith & Existential Choice",
+    description:
+      "Søren Kierkegaard quotes in verified English—selfhood, faith, despair, and choice, with sources and related existential thinkers.",
+  },
+  "/chinese-philosophy": {
+    title: "Chinese Philosophy | Confucianism, Daoism & the Way",
+    description:
+      "Chinese philosophy explained: Confucianism, Daoism, Mohism, Legalism, and Buddhist thought—with verified English quotations and starter thinkers.",
+  },
+  "/quotes/famous": {
+    title: "Famous Philosophy Quotes | Socrates, Stoics & Confucius",
+    description:
+      "Famous philosophy quotes in clear English—Socrates, Plato, Aristotle, Confucius, Marcus Aurelius, Nietzsche, and other enduring thinkers, with sources.",
+  },
+  "/quotes/about/grief": {
+    title: "Philosophy Quotes About Grief, Death & Loss | Verified",
+    description:
+      "Philosophy quotes about grief, death, and loss—mortality, mourning, and how thinkers answer pain without empty consolation.",
   },
 };

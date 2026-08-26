@@ -20,9 +20,9 @@ export const schools: SchoolPage[] = [
   {
     slug: "stoicism",
     name: "Stoicism",
-    title: "Stoic Quotes & Stoicism",
+    title: "Stoicism Quotes | Marcus, Seneca & Epictetus",
     description:
-      "Stoicism explained: virtue, nature, and judgment—with verified Stoic quotes from Seneca, Epictetus, and Marcus Aurelius.",
+      "Stoicism quotes in verified English—virtue, control, death, and judgment from Seneca, Epictetus, and Marcus Aurelius, with sources.",
     intro:
       "Stoicism is a Hellenistic school teaching that living in agreement with nature and reason—through virtue—is the path to a flourishing life.",
     overview:
@@ -57,9 +57,9 @@ export const schools: SchoolPage[] = [
   {
     slug: "existentialism",
     name: "Existentialism",
-    title: "Existentialism Quotes",
+    title: "Existentialism Quotes | Sartre, Camus & Kierkegaard",
     description:
-      "Existentialism explained: freedom, responsibility, and meaning—with quotes from Sartre, Beauvoir, Camus, and Kierkegaard.",
+      "Existentialism quotes in verified English—freedom, responsibility, absurdity, and meaning from Sartre, Beauvoir, Camus, and Kierkegaard.",
     intro:
       "Existentialism names a family of philosophies that treat human existence, freedom, and responsibility as primary—often before abstract systems.",
     overview:
@@ -629,7 +629,7 @@ const schema = [
 ---
 
 <BaseLayout
-  title={`${school.title} | Philosophy Blind Box`}
+  title={school.title}
   description={school.description}
   canonical={pageUrl}
   type="article"
@@ -638,7 +638,7 @@ const schema = [
   <article class="page-shell">
     <header class="page-intro">
       <p class="eyebrow">School</p>
-      <h1>{school.name}</h1>
+      <h1>{school.name} quotes</h1>
       <p>{school.intro}</p>
     </header>
 
