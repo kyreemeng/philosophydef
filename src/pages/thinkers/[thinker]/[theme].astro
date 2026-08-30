@@ -3,6 +3,7 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import {
   thinkerThemePairs,
   themeGroups,
+  truncateWords,
 } from "../../../lib/content";
 import { thinkerGuideFor, themeGuideFor, defaultThemeGuide } from "../../../data/enrichment";
 import {
@@ -173,7 +174,11 @@ const schema = [
           <li class="quote-list-item">
             <blockquote>{quote.text}</blockquote>
             <footer>
-              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.id}</a>
+              {/* Excerpt anchors instead of bare archive IDs, so each passage
+                  page is linked by its own words. */}
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>
+                “{truncateWords(quote.text, 8)}” — source & context
+              </a>
               <br />
               {quote.source || quote.school}
             </footer>

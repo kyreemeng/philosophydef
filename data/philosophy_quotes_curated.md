@@ -1,10 +1,10 @@
-# Daily Philosophy Quotes · Global (Curated Edition v5.0)
+# Daily Philosophy Quotes · Global (Curated Edition v5.1)
 
-# 每日哲学金句库 · 全球哲学家卷（精选版 v5.0）
+# 每日哲学金句库 · 全球哲学家卷（精选版 v5.1）
 
-> **Document Version / 文档版本**: v5.0 Verified / 核验精选版（全球扩充至约 670 条）
-> **Generated / 生成日期**: 2026-08-14
-> **Total Entries / 条目总数**: 673
+> **Document Version / 文档版本**: v5.1 Verified / 核验精选版（全球扩充至约 690 条）
+> **Generated / 生成日期**: 2026-08-30
+> **Total Entries / 条目总数**: 692
 > **Coverage / 覆盖范围**: Global East & West, ancient–modern; Greco-Roman, European, American, Chinese, Indian, Buddhist, Jewish, Islamic, Japanese, Africana & African diaspora, expanded women philosophers, deepened Islamic–Jewish medieval, Kyoto School & Latin American buffer / 全球古今：希腊罗马、欧陆英美、中国、印度、佛教、犹太、伊斯兰、日本，并扩充非洲／非裔、女性哲学家、伊斯兰–犹太中世纪，以及京都学派与拉美缓冲
 
 ---
@@ -8407,3 +8407,231 @@
 - Expansion notes: v5.0 buffer + pillar expansion audit 2026-08-14; candidates filtered against originals/EN/ZH fingerprints; known misattributions excluded or noted.
 
 ---
+
+#### Q0674
+
+- **作者 / Author**: 大卫·休谟（1711–1776） / David Hume (1711–1776)
+- **学派 / School**: 苏格兰启蒙 / Scottish Enlightenment
+- **出处 / Source**: 《怀疑论者》（1742） / The Sceptic (1742)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Be a philosopher; but amidst all your philosophy, be still a man.
+- **英译 / English**: Be a philosopher; but amidst all your philosophy, be still a man.
+- **中译 / Chinese**: 做一个哲学家；但在你的全部哲学之中，仍然要做一个人。
+- **主题 / Themes**: 哲学、人性、明智 / Philosophy, Human Nature, Wisdom
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0675
+
+- **作者 / Author**: 亚里士多德（前384–前322） / Aristotle (384–322 BCE)
+- **学派 / School**: 逍遥学派 / Peripatetic School
+- **出处 / Source**: 《尼各马可伦理学》II.6，1107a（罗斯译） / Nicomachean Ethics II.6, 1107a (Ross translation)
+- **原文语言 / Language**: 古希腊语 / Ancient Greek
+- **原文 / Original**: ἕξις προαιρετική, ἐν μεσότητι οὖσα τῇ πρὸς ἡμᾶς, ὡρισμένῃ λόγῳ καὶ ᾧ ἂν ὁ φρόνιμος ὁρίσειεν.
+- **英译 / English**: Virtue, then, is a state of character concerned with choice, lying in a mean, i.e. the mean relative to us, this being determined by a rational principle, and by that principle by which the man of practical wisdom would determine it.
+- **中译 / Chinese**: 德性即是与选择相关的品格状态，处于中间——相对于我们的中间——由道理来规定，也即由实践智慧者据以规定的道理来规定。
+- **主题 / Themes**: 德性、适度、品格 / Virtue, Moderation, Character
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0676
+
+- **作者 / Author**: 张载（1020–1077） / Zhang Zai (1020–1077)
+- **学派 / School**: 理学 / Neo-Confucianism
+- **出处 / Source**: 《正蒙·西铭》（陈荣捷译） / Zhengmeng, Western Inscription (Wing-tsit Chan translation)
+- **原文语言 / Language**: 文言文 / Classical Chinese
+- **原文 / Original**: 乾称父，坤称母；予兹藐焉，乃混然中处。
+- **英译 / English**: Heaven is my father and Earth is my mother, and even such a small creature as I finds an intimate place in their midst.
+- **中译 / Chinese**: 乾是我的父亲，坤是我的母亲；我这样渺小的存在，浑然处于他们中间。
+- **主题 / Themes**: 天地、万物一体、仁 / Nature, Humanity, Wholeness
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0677
+
+- **作者 / Author**: 张载（1020–1077） / Zhang Zai (1020–1077)
+- **学派 / School**: 理学 / Neo-Confucianism
+- **出处 / Source**: 《正蒙·太和篇》 / Zhengmeng, Great Harmony Chapter
+- **原文语言 / Language**: 文言文 / Classical Chinese
+- **原文 / Original**: 太虚无形，气之本体；其聚其散，变化之客形尔。
+- **英译 / English**: The Great Void has no physical form; it is the original substance of qi. Its gathering and dispersing are but the passing forms of change.
+- **中译 / Chinese**: 太虚没有具体的形质，它是气的本然状态；气的聚与散，都只是变化过程中暂时的形态。
+- **主题 / Themes**: 气、太虚、变化 / Nature, Being, Change
+- **置信度 / Confidence**: ☆ (Medium)
+
+#### Q0678
+
+- **作者 / Author**: 慧能（638–713） / Huineng (638–713)
+- **学派 / School**: 禅宗 / Zen Buddhism
+- **出处 / Source**: 《坛经·行由品》（耶鲁·扬波斯基译） / Platform Sutra, Chapter 1 (Yampolsky translation)
+- **原文语言 / Language**: 文言文 / Classical Chinese
+- **原文 / Original**: 不是风动，不是幡动，仁者心动。
+- **英译 / English**: It is not the wind that moves; it is not the flag that moves; it is your mind that moves.
+- **中译 / Chinese**: 不是风在动，不是幡在动，是仁者的心在动。
+- **主题 / Themes**: 心、觉悟、自我 / Mind, Awakening, Self
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0679
+
+- **作者 / Author**: 慧能（638–713） / Huineng (638–713)
+- **学派 / School**: 禅宗 / Zen Buddhism
+- **出处 / Source**: 《坛经·般若品》 / Platform Sutra, Prajna Chapter
+- **原文语言 / Language**: 文言文 / Classical Chinese
+- **原文 / Original**: 佛法在世间，不离世间觉。离世觅菩提，恰如求兔角。
+- **英译 / English**: The Buddhist teaching is in the world; awakening is not apart from the world. To seek enlightenment apart from the world is like looking for a hare's horn.
+- **中译 / Chinese**: 佛法就在世间，觉悟不离世间；离开世间去觅菩提，就像寻找兔子的角。
+- **主题 / Themes**: 修行、觉悟、生活 / Practice, Awakening, Living
+- **置信度 / Confidence**: ☆ (Medium)
+
+#### Q0680
+
+- **作者 / Author**: 临济义玄（?–866） / Linji Yixuan (d. 866)
+- **学派 / School**: 禅宗 / Zen Buddhism
+- **出处 / Source**: 《临济录》（华兹生译） / Record of Linji (Burton Watson translation)
+- **原文语言 / Language**: 文言文 / Classical Chinese
+- **原文 / Original**: 逢佛杀佛，逢祖杀祖，逢罗汉杀罗汉。
+- **英译 / English**: If you meet the Buddha, kill the Buddha; if you meet a patriarch, kill the patriarch; if you meet an arhat, kill the arhat.
+- **中译 / Chinese**: 逢着佛就杀佛，逢着祖师就杀祖师，逢着罗汉就杀罗汉。
+- **主题 / Themes**: 权威、自主、觉悟 / Autonomy, Awakening, Critique
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0681
+
+- **作者 / Author**: 临济义玄（?–866） / Linji Yixuan (d. 866)
+- **学派 / School**: 禅宗 / Zen Buddhism
+- **出处 / Source**: 《临济录》 / Record of Linji
+- **原文语言 / Language**: 文言文 / Classical Chinese
+- **原文 / Original**: 有一无位真人，常从汝等诸人面门出入。
+- **英译 / English**: There is a true person of no rank who is always coming and going through the gates of your face.
+- **中译 / Chinese**: 有一位无位真人，常从你们诸人的面目上出入。
+- **主题 / Themes**: 自我、自主、存在 / Self, Autonomy, Existence
+- **置信度 / Confidence**: ☆ (Medium)
+
+#### Q0682
+
+- **作者 / Author**: 临济义玄（?–866） / Linji Yixuan (d. 866)
+- **学派 / School**: 禅宗 / Zen Buddhism
+- **出处 / Source**: 《临济录》（节选） / Record of Linji (abridged)
+- **原文语言 / Language**: 文言文 / Classical Chinese
+- **原文 / Original**: 佛法无用功处，只是平常无事。著衣吃饭，困来即卧。
+- **英译 / English**: There is no place in Buddhism for special effort. Just be ordinary: put on your clothes, eat your food, and lie down when you are tired.
+- **中译 / Chinese**: 佛法没有特别用功之处，只是平常无事：穿衣吃饭，困来即卧。
+- **主题 / Themes**: 平常、修行、自然 / Practice, Simplicity, Nature
+- **置信度 / Confidence**: ☆ (Medium)
+
+#### Q0683
+
+- **作者 / Author**: 乔治·贝克莱（1685–1753） / George Berkeley (1685–1753)
+- **学派 / School**: 英国经验主义 / British Empiricism
+- **出处 / Source**: 《人类知识原理》§1 / A Treatise Concerning the Principles of Human Knowledge, §1
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: It is evident to any one who takes a survey of the objects of human knowledge, that they are either ideas actually imprinted on the senses; or else such as are perceived by attending to the passions and operations of the mind; or lastly, ideas formed by help of memory and imagination.
+- **英译 / English**: It is evident to any one who takes a survey of the objects of human knowledge, that they are either ideas actually imprinted on the senses; or else such as are perceived by attending to the passions and operations of the mind; or lastly, ideas formed by help of memory and imagination.
+- **中译 / Chinese**: 只要审视人类知识的对象便可明白：它们要么是实际印在感官上的观念，要么是留意心的情感与活动时所知觉到的观念，最后，则是借助记忆和想象形成的观念。
+- **主题 / Themes**: 观念、经验、知识 / Experience, Knowledge, Mind
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0684
+
+- **作者 / Author**: 乔治·贝克莱（1685–1753） / George Berkeley (1685–1753)
+- **学派 / School**: 英国经验主义 / British Empiricism
+- **出处 / Source**: 《海拉斯与斐洛诺斯三篇对话》（1713） / Three Dialogues between Hylas and Philonous (1713)
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: That neither our thoughts, nor passions, nor ideas formed by the imagination, exist without the mind, is what everybody will allow.
+- **英译 / English**: That neither our thoughts, nor passions, nor ideas formed by the imagination, exist without the mind, is what everybody will allow.
+- **中译 / Chinese**: 我们的思想、情感以及想象所形成的观念，都离不开心灵而存在——这一点人人都会承认。
+- **主题 / Themes**: 心灵、存在、经验 / Mind, Existence, Experience
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0685
+
+- **作者 / Author**: 乔治·贝克莱（1685–1753） / George Berkeley (1685–1753)
+- **学派 / School**: 英国经验主义 / British Empiricism
+- **出处 / Source**: 《人类知识原理》§27 / A Treatise Concerning the Principles of Human Knowledge, §27
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: A spirit is one simple, undivided, active being: as it perceives ideas, it is called understanding, and as it produces or otherwise operates about ideas, it is called will.
+- **英译 / English**: A spirit is one simple, undivided, active being: as it perceives ideas, it is called understanding, and as it produces or otherwise operates about ideas, it is called will.
+- **中译 / Chinese**: 精神是一个单纯、不可分、能动的存在：就其知觉观念而言，称之为理智；就其产生或作用于观念而言，称之为意志。
+- **主题 / Themes**: 心灵、精神、意志 / Mind, Spirit, Will
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0686
+
+- **作者 / Author**: 加布里埃尔·马塞尔（1889–1973） / Gabriel Marcel (1889–1973)
+- **学派 / School**: 宗教存在主义 / Religious Existentialism
+- **出处 / Source**: 《途中之人》（1944） / Homo Viator (1944)
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: Aimer un être, c'est lui dire : toi, tu ne mourras pas !
+- **英译 / English**: To love a being is to say: thou, thou shalt not die.
+- **中译 / Chinese**: 爱一个存在者，就是对他（她）说：你，你不会死。
+- **主题 / Themes**: 爱、死亡、希望 / Love, Death, Hope
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0687
+
+- **作者 / Author**: 加布里埃尔·马塞尔（1889–1973） / Gabriel Marcel (1889–1973)
+- **学派 / School**: 宗教存在主义 / Religious Existentialism
+- **出处 / Source**: 《是与有》（1935） / Being and Having (1935)
+- **原文语言 / Language**: 法语 / French
+- **原文 / Original**: Un mystère est un problème qui empiète sur ses propres données.
+- **英译 / English**: A mystery is a problem which encroaches upon its own data, invading them, as it were, and thereby transcending itself as a mere problem.
+- **中译 / Chinese**: 奥秘是一个侵入其自身资料的问题——它仿佛渗入其中，从而超越了单纯问题的层面。
+- **主题 / Themes**: 奥秘、知识、存在 / Knowledge, Being, Inquiry
+- **置信度 / Confidence**: ★ (High)
+
+#### Q0688
+
+- **作者 / Author**: 王国维（1877–1927） / Wang Guowei (1877–1927)
+- **学派 / School**: 中国近代思想 / Modern Chinese Thought
+- **出处 / Source**: 《人间词话》§1 / Renjian Cihua (Remarks on Lyrics in the Human World), §1
+- **原文语言 / Language**: 文言文 / Classical Chinese
+- **原文 / Original**: 词以境界为最上。有境界则自成高格，自有名句。
+- **英译 / English**: Ci poetry takes jingjie — the aesthetic realm — as its highest: with jingjie it naturally attains a lofty style and famous lines of its own.
+- **中译 / Chinese**: 词以境界为最上。有了境界，自然自成高格，自有名句。
+- **主题 / Themes**: 境界、美、创造 / Beauty, Creation, Experience
+- **置信度 / Confidence**: ☆ (Medium)
+
+#### Q0689
+
+- **作者 / Author**: 王国维（1877–1927） / Wang Guowei (1877–1927)
+- **学派 / School**: 中国近代思想 / Modern Chinese Thought
+- **出处 / Source**: 《人间词话》§6 / Renjian Cihua, §6
+- **原文语言 / Language**: 文言文 / Classical Chinese
+- **原文 / Original**: 境非独谓景物也。喜怒哀乐，亦人心中之一境界。故能写真景物、真感情者，谓之有境界。
+- **英译 / English**: Jingjie is not a matter of scenery alone: joy, anger, sorrow, and happiness are also realms of the human heart. Whoever can write true scenery and true feeling may be said to have jingjie.
+- **中译 / Chinese**: 境界并不只指景物。喜怒哀乐，也是人心中的一种境界。所以能写真景物、真感情的，才叫做有境界。
+- **主题 / Themes**: 情感、真实、美 / Beauty, Authenticity, Experience
+- **置信度 / Confidence**: ☆ (Medium)
+
+#### Q0690
+
+- **作者 / Author**: 墨子（约前468–前376） / Mozi (c. 468–376 BCE)
+- **学派 / School**: 墨家 / Mohism
+- **出处 / Source**: 《墨子·非攻上》 / Mozi, Against Offensive War I
+- **原文语言 / Language**: 文言文 / Classical Chinese
+- **原文 / Original**: 杀一人谓之不义，必有一死罪矣。若以此说往，杀十人十重不义，必有十死罪矣。
+- **英译 / English**: To kill one man is called unrighteousness and incurs one capital crime; by this reckoning, to kill ten men is ten times unrighteous and incurs ten capital crimes.
+- **中译 / Chinese**: 杀一个人叫做不义，必有一条死罪；照此推论，杀十个人就是十倍的不义，必有十条死罪。
+- **主题 / Themes**: 义、战争、道德 / Justice, Morality, Ethics
+- **置信度 / Confidence**: ☆ (Medium)
+
+#### Q0691
+
+- **作者 / Author**: 墨子（约前468–前376） / Mozi (c. 468–376 BCE)
+- **学派 / School**: 墨家 / Mohism
+- **出处 / Source**: 《墨子·兼爱中》 / Mozi, Impartial Love II
+- **原文语言 / Language**: 文言文 / Classical Chinese
+- **原文 / Original**: 仁人之所以为事者，必兴天下之利，除去天下之害。
+- **英译 / English**: The task of the humane is to promote the benefit of all under Heaven and to eliminate its harm.
+- **中译 / Chinese**: 仁人处理事务的原则，必定是兴天下之利，除去天下之害。
+- **主题 / Themes**: 兼爱、利益、善 / Benevolence, Good, Humanity
+- **置信度 / Confidence**: ☆ (Medium)
+
+#### Q0692
+
+- **作者 / Author**: 冯友兰（1895–1990） / Feng Youlan (1895–1990)
+- **学派 / School**: 现代新儒家 / Modern New Confucianism
+- **出处 / Source**: 《中国哲学简史》 / A Short History of Chinese Philosophy
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Philosophy is systematic, reflective thinking on life.
+- **英译 / English**: Philosophy is systematic, reflective thinking on life.
+- **中译 / Chinese**: 哲学是对人生的系统化的、反思性的思考。
+- **主题 / Themes**: 哲学、反思、人生 / Philosophy, Thinking, Life
+- **置信度 / Confidence**: ☆ (Medium)

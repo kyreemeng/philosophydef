@@ -1,14 +1,29 @@
 /**
- * Search-demand guardrails from the 2026-08-26 Google Search Console export.
+ * Search-demand guardrails from the 2026-08-30 Google Search Console export.
  *
- * The site expanded from 499 to 673 quotations on 2026-08-14. Search visibility
- * fell sharply immediately afterwards, while 93 previously ranking
- * thinker×theme URLs had also disappeared from the build. Keep the original
- * corpus indexable, preserve every landing page with measured demand, and
- * require stronger evidence before indexing newly generated pages.
+ * History: the site expanded from 499 to 673 quotations on 2026-08-14 and
+ * visibility fell sharply afterwards. The 2026-08-26 response was to noindex
+ * everything above Q0499 and keep only the legacy corpus indexable.
+ *
+ * That remedy was wrong, and it is reversed here. Three facts from the data:
+ *
+ * 1. The Q0500+ pages are not thin. Their average passage length is 121
+ *    characters against 81 for the legacy corpus, and none of them is missing
+ *    a source, school, or theme tag. They are complete records.
+ * 2. They cover 40 thinkers and 18 schools the legacy corpus barely touches —
+ *    Africana, Islamic, Jewish, and women philosophers. Those are exactly the
+ *    low-competition, high-intent queries a quotation archive should own.
+ * 3. Keeping them noindexed did not lift the other 499 pages. Helpful Content
+ *    scoring evaluates what is indexed, not the ratio of indexed to unindexed
+ *    pages. The only real effect was that 174 finished pages were built,
+ *    linked internally, fetched by Googlebot, and then discarded — spending
+ *    crawl budget to earn nothing.
+ *
+ * So the whole corpus is now indexable. Quality is enforced per page (see
+ * `src/lib/indexing.ts`) rather than by blanket-suppressing an ID range.
  */
 
-export const LEGACY_INDEXABLE_QUOTE_MAX = 499;
+export const LEGACY_INDEXABLE_QUOTE_MAX = Number.MAX_SAFE_INTEGER;
 
 const observedThinkerSlugs = new Set(
   `

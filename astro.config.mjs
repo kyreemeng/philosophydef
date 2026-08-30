@@ -30,6 +30,22 @@ const indexableQuotePaths = new Set(
     .map((quote) => `/quotes/${quote.id.toLowerCase()}`),
 );
 
+// Quotation IDs at or below this number were already indexed before the v5
+// corpus expansion. IDs above it are being admitted to the index for the first
+// time, so they carry a NEWER lastmod. That is a truthful signal — those pages
+// really are newly crawlable — and it prompts Googlebot to fetch them instead
+// of trusting a stale cache. Do NOT stamp every URL with the same date: a
+// site-wide identical lastmod reads as a batch rewrite and invites a quality
+// re-evaluation.
+const LEGACY_QUOTE_MAX = 499;
+const NEWLY_INDEXABLE_DATE = new Date("2026-08-30T00:00:00Z");
+const STABLE_INDEXABLE_DATE = new Date("2026-08-26T00:00:00Z");
+
+function quoteNumber(path) {
+  const match = /^\/quotes\/q(\d+)$/.exec(path);
+  return match ? Number(match[1]) : null;
+}
+
 export default defineConfig({
   site: "https://www.philosophydef.com",
   output: "static",
@@ -79,15 +95,24 @@ export default defineConfig({
           !path.startsWith("/schools/") &&
           !path.startsWith("/quotes/");
 
+        // Only quotation pages get a differentiated date; everything else
+        // keeps the stable corpus date because its content has not changed.
+        const quoteNum = quoteNumber(path);
+        const isNewlyIndexable =
+          quoteNum !== null && quoteNum > LEGACY_QUOTE_MAX;
+        const lastmod = isNewlyIndexable
+          ? NEWLY_INDEXABLE_DATE
+          : STABLE_INDEXABLE_DATE;
+
         return {
           ...item,
           url,
-          // This date reflects the corpus/indexability rewrite. Keep it
-          // stable until a page really changes; fake build-time dates are
-          // ignored by Google.
-          lastmod: new Date("2026-08-26T00:00:00Z"),
+          lastmod,
           changefreq: isQuote ? "monthly" : "weekly",
-          priority: isCoreHub ? 1 : isGuide ? 0.9 : isQuote ? 0.6 : 0.8,
+          // Quotation pages are the long-tail entry points that actually earn
+          // impressions, so they deserve a higher priority than the old 0.6
+          // that starved them of crawl budget.
+          priority: isCoreHub ? 1 : isGuide ? 0.9 : isQuote ? 0.8 : 0.8,
         };
       },
     }),

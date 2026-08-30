@@ -6,6 +6,7 @@ import {
   canonicalizeTheme,
   themeGroups,
   themePath,
+  truncateWords,
 } from "../../lib/content";
 import { thinkerGuideFor, defaultThinkerGuide, isTextTradition } from "../../data/enrichment";
 import {
@@ -106,10 +107,31 @@ const themePhrase =
     ? ` Themes include ${topThemeNames.map((t) => t.toLowerCase()).join(", ")}.`
     : "";
 const seo = pageSeoOverrides[pageUrl] ?? {};
-const pageTitle = seo.title ?? `${thinker.name} Quotes | Philosophy Blind Box`;
+/**
+ * Search Console consistently shows single-digit-to-twenty positions for
+ * “{thinker} quotes” queries on pages still carrying the generic brand title.
+ * Against established quote aggregators, the only differentiator this archive
+ * can put in a search snippet is editorial: an exact passage count and the
+ * promise of cited sources. The brand name is appended only when the 60-character
+ * window has room for it — for long names the verified-passage signal earns the
+ * click and the truncated tail would just waste it.
+ */
+const passageCount = thinker.quotes.length;
+const passageNoun = passageCount === 1 ? "Passage" : "Passages";
+const sourceNoun = passageCount === 1 ? "Source" : "Sources";
+const countTitle =
+  passageCount === 1
+    ? `${thinker.name} Quotes — Verified ${passageNoun} with ${sourceNoun}`
+    : `${thinker.name} Quotes — ${passageCount} Verified ${passageNoun} & ${sourceNoun}`;
+const brandSuffix = " | Philosophy Blind Box";
+const pageTitle =
+  seo.title ??
+  (countTitle.length + brandSuffix.length <= 60
+    ? countTitle + brandSuffix
+    : countTitle);
 const pageDescription =
   seo.description ??
-  `${thinker.name} quotes: read ${thinker.quotes.length} verified English philosophy quotations${guide ? ` (${guide.lifespan})` : ""}.${themePhrase}`;
+  `${thinker.name} quotes: read ${thinker.quotes.length} verified English philosophy quotations${guide ? ` (${guide.lifespan})` : ""}, each with its cited source.${themePhrase}`;
 ---
 
 <BaseLayout
@@ -195,7 +217,12 @@ const pageDescription =
           <li class="quote-list-item">
             <blockquote>{quote.text}</blockquote>
             <footer>
-              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.id}</a>
+              {/* Excerpt anchors instead of bare archive IDs: a thinker hub is
+                  the top internal linker for its own quotation pages, so the
+                  anchor should carry the destination page's own words. */}
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>
+                “{truncateWords(quote.text, 8)}” — source & context
+              </a>
               <br />
               {canonicalizeTheme(quote.themes[0] ?? quote.school)}
             </footer>

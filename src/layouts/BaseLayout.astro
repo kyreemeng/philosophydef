@@ -3,6 +3,7 @@ import Analytics from "@vercel/analytics/astro";
 import "@fontsource-variable/dm-sans";
 import "@fontsource-variable/newsreader";
 import "../styles/global.css";
+import { organizationSchema, websiteSchema } from "../lib/site-schema";
 
 interface Props {
   title: string;
@@ -36,22 +37,26 @@ const navItems = [
   { href: "/about", label: "About", match: "/about" },
 ];
 const defaultSchema = [
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: siteName,
-    url: Astro.site,
-    description:
-      "Curated English philosophy quotations from around the world, presented at random.",
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: siteName,
-    url: Astro.site,
-    description:
-      "An English archive of verified philosophy quotations with thinker, theme, and beginner guides.",
-  },
+  websiteSchema(Astro.site),
+  organizationSchema(Astro.site),
+];
+
+/**
+ * Pages that pass their own `schema` used to replace this default entirely,
+ * which meant the site-wide E-E-A-T markup reached only the handful of pages
+ * that passed nothing. Merging instead of overriding puts the WebSite and
+ * Organization entities on every URL while still emitting whatever the page
+ * needs to describe itself.
+ *
+ * A page may legitimately describe the same entity with more specific detail,
+ * so a page-level node wins over the default of the same @type rather than
+ * being emitted twice.
+ */
+const pageSchema = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
+const pageSchemaTypes = new Set(pageSchema.map((node) => node?.["@type"]));
+const allSchema = [
+  ...defaultSchema.filter((node) => !pageSchemaTypes.has(node["@type"])),
+  ...pageSchema,
 ];
 ---
 
@@ -86,7 +91,7 @@ const defaultSchema = [
     <script is:inline>document.documentElement.classList.add("js");</script>
     <script
       type="application/ld+json"
-      set:html={JSON.stringify(schema ?? defaultSchema)}
+      set:html={JSON.stringify(allSchema)}
     />
     <Analytics />
   </head>

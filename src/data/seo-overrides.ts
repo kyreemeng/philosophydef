@@ -40,6 +40,45 @@ export const quoteSeoOverrides: Record<string, QuoteSeoOverride> = {
       "Seneca quote source (Hercules Furens 437): “There is no easy way from the earth to the stars.” Latin context, English rendering, and related aspiration quotes.",
     h1: "“There is no easy way from the earth to the stars” — Seneca",
   },
+  // v5.1 additions. Each maps to a live Search Console query family
+  // (2026-08-30 export): exact-phrase searches ranking on page one or
+  // striking-distance positions 8–13 with zero clicks.
+  q0674: {
+    title: 'Hume: “Be a Philosopher, but Be Still a Man” — Quote Source',
+    description:
+      "David Hume quote source (The Sceptic, 1742): “Be a philosopher; but amidst all your philosophy, be still a man.” Context, meaning, and related Hume quotations.",
+    h1: "“Be a philosopher; but… be still a man” — David Hume (The Sceptic)",
+  },
+  q0675: {
+    title: 'Aristotle: “Virtue Lies in the Mean” — Quote Source (Ethics II.6)',
+    description:
+      "Aristotle quote source (Nicomachean Ethics II.6, 1107a, Ross): “Virtue… is a state of character concerned with choice, lying in a mean.” The doctrine of the mean explained.",
+    h1: "“Virtue… lying in a mean” — Aristotle (Nicomachean Ethics II.6)",
+  },
+  q0676: {
+    title: 'Zhang Zai: “Heaven Is My Father and Earth Is My Mother” — Source',
+    description:
+      "Zhang Zai quote source (Western Inscription): “Heaven is my father and Earth is my mother, and even such a small creature as I finds an intimate place in their midst.”",
+    h1: "“Heaven is my father and Earth is my mother” — Zhang Zai (Western Inscription)",
+  },
+  q0678: {
+    title: 'Huineng: “It Is Not the Wind That Moves” — Quote Source',
+    description:
+      "Platform Sutra quote source: “It is not the wind that moves; it is not the flag that moves; it is your mind that moves.” The famous Platform Sutra scene, explained.",
+    h1: "“It is not the wind that moves…” — Huineng (Platform Sutra)",
+  },
+  q0680: {
+    title: 'Linji: “If You Meet the Buddha, Kill the Buddha” — Source',
+    description:
+      "Linji Yixuan quote source (Record of Linji): “If you meet the Buddha, kill the Buddha…” The Rinzai teaching on authority and autonomy, with context and related Zen quotes.",
+    h1: "“If you meet the Buddha, kill the Buddha” — Linji (Record of Linji)",
+  },
+  q0686: {
+    title: 'Marcel: “To Love a Being Is to Say: Thou Shalt Not Die”',
+    description:
+      "Gabriel Marcel quote source (Homo Viator, 1944): “To love a being is to say: thou, thou shalt not die.” Love, death, and the problem–mystery distinction explained.",
+    h1: "“To love a being is to say: thou, thou shalt not die” — Gabriel Marcel",
+  },
   q0197: {
     title:
       'Simone Weil: “Attention Is the Rarest Form of Generosity” — Source',
@@ -208,6 +247,31 @@ export const pageSeoOverrides: Record<
     title: "Gabriel Marcel Quotes | Hope, Presence & Being",
     description:
       "Gabriel Marcel quotes on hope, presence, fidelity, being, and having—English passages with sources and Christian existentialist context.",
+  },
+  // The four entries below target “{name} quotes” queries that Search Console
+  // shows sitting at positions 8–22 with impressions but no clicks (2026-08-30
+  // export). Their default brand-only titles gave searchers nothing the
+  // aggregators ranking above them didn’t have, so each leads with the school
+  // vocabulary a searcher scanning results can use to pick this page.
+  "/thinkers/huineng": {
+    title: "Hui Neng Quotes | Platform Sutra & Chan Awakening",
+    description:
+      "Hui Neng quotes (Huineng, Sixth Patriarch of Chan) in verified English—sudden enlightenment and mind nature from the Platform Sutra, with sources.",
+  },
+  "/thinkers/linji-yixuan": {
+    title: "Linji Yixuan Quotes | Record of Linji & Rinzai Zen",
+    description:
+      "Linji Yixuan quotes in verified English—the true person of no rank, the shout, and Rinzai Zen urgency—drawn from the Record of Linji with sources.",
+  },
+  "/thinkers/george-berkeley": {
+    title: "George Berkeley Quotes | Esse Est Percipi & Idealism",
+    description:
+      "George Berkeley (Bishop Berkeley) quotes in verified English—esse est percipi, idealism, and God from the Principles of Human Knowledge, with sources.",
+  },
+  "/thinkers/mozi": {
+    title: "Mozi Quotes | Universal Love & Impartial Care",
+    description:
+      "Mozi quotes in verified English—universal love (jian ai), impartial care, and opposition to offensive war—from the Mozi with source context.",
   },
   "/thinkers/john-stuart-mill": {
     title: "John Stuart Mill Quotes | Liberty, Happiness & Free Speech",

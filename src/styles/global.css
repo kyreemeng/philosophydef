@@ -1100,6 +1100,27 @@ main {
   line-height: 1.75;
 }
 
+.faq-item {
+  padding: var(--space-5) 0;
+  border-bottom: 0.5px solid var(--line, rgba(0, 0, 0, 0.1));
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-item h3 {
+  margin: 0 0 var(--space-3);
+  font-size: var(--text-lg);
+  font-weight: 560;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+
+.faq-item p {
+  margin: 0;
+}
+
 .guide-intro {
   max-width: 900px;
 }

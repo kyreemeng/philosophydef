@@ -142,24 +142,89 @@ export function truncateWords(text: string, maxWords: number) {
   return `${words.slice(0, maxWords).join(" ")}…`;
 }
 
+const BRAND = "Philosophy Blind Box";
+/**
+ * Google renders roughly the first 60 characters of a title on desktop before
+ * truncating with an ellipsis. A title that fits is read in full and earns more
+ * clicks than a richer one that gets cut off, so every generated title is
+ * measured and clipped to fit rather than assembled at whatever length results.
+ */
+const TITLE_BUDGET = 60;
+
+/**
+ * Longest run of leading words (plus an ellipsis) that still fits the budget.
+ * Falls back to three words when even that overflows, because a title with no
+ * passage at all is indistinguishable from every other page about the thinker.
+ */
+function fitQuoteSnippet(text: string, budget: number) {
+  const words = text.trim().split(/\s+/);
+  if (words.join(" ").length <= budget) return words.join(" ");
+  for (let count = words.length - 1; count >= 3; count -= 1) {
+    const candidate = `${words.slice(0, count).join(" ")}…`;
+    if (candidate.length <= budget) return candidate;
+  }
+  return `${words.slice(0, 3).join(" ")}…`;
+}
+
+/**
+ * Collision detection has to compare the strings that will actually be
+ * rendered, not a fixed word count. Truncating to fit means two different
+ * passages by the same thinker can collapse to the same short opening —
+ * several Confucius entries all begin "The Master said…" — and checking a
+ * longer excerpt would miss the collision the reader actually sees.
+ */
+function snippetCollides(
+  quote: Quote,
+  snippet: string,
+  available: number,
+) {
+  return quotes.some(
+    (other) =>
+      other.id !== quote.id &&
+      other.author === quote.author &&
+      fitQuoteSnippet(other.text, available) === snippet,
+  );
+}
+
 export function quoteTitle(quote: Quote) {
   const override = quoteSeoOverrides[quote.id.toLowerCase()];
   if (override?.title) return override.title;
 
-  const snippet = truncateWords(quote.text, 10);
-  const sharesOpening = quotes.some(
-    (other) =>
-      other.id !== quote.id &&
-      other.author === quote.author &&
-      truncateWords(other.text, 10) === snippet,
-  );
-  const who = sharesOpening ? `${quote.author} (${quote.id})` : quote.author;
-  // Match GSC “quote source” intent when a real citation exists.
-  if (quote.source && quote.source !== "Tradition") {
-    const shortSource = truncateWords(quote.source, 5);
-    return `${who}: “${snippet}” — Source: ${shortSource}`;
+  const suffix = `” | ${BRAND}`;
+
+  /**
+   * Builds a title from a label (bare author, or author + theme) and returns
+   * it only if no sibling passage renders the same string. When it does
+   * collide, the archive ID is appended to the author: a title that overruns
+   * 60 characters is a small cosmetic loss, whereas two pages sharing a title
+   * invite a duplicate-content judgement that costs the page its ranking.
+   */
+  const assemble = (label: string) => {
+    const prefix = `${label}: “`;
+    const available = TITLE_BUDGET - prefix.length - suffix.length;
+    const snippet = fitQuoteSnippet(quote.text, available);
+    if (!snippetCollides(quote, snippet, available)) {
+      return `${prefix}${snippet}${suffix}`;
+    }
+    const disambiguated = `${quote.author} (${quote.id})`;
+    const collisionPrefix = `${disambiguated}: “`;
+    const collisionAvailable =
+      TITLE_BUDGET - collisionPrefix.length - suffix.length;
+    return `${collisionPrefix}${fitQuoteSnippet(quote.text, collisionAvailable)}${suffix}`;
+  };
+
+  // Theme words win the "philosophy quotes about X" intent seen in Search
+  // Console, but they cost characters. Use them only when there is still room
+  // for a meaningful excerpt; otherwise the passage itself earns more clicks.
+  const theme = canonicalizeTheme(quote.themes[0] ?? "Philosophy");
+  const themeLabel = `${quote.author} on ${theme}`;
+  const themePrefix = `${themeLabel}: “`;
+  const themeAvailable =
+    TITLE_BUDGET - themePrefix.length - suffix.length;
+  if (themeAvailable >= 18) {
+    return assemble(themeLabel);
   }
-  return `${who} Quote: “${snippet}” | Philosophy Blind Box`;
+  return assemble(quote.author);
 }
 
 export function quoteDescription(quote: Quote) {
@@ -167,14 +232,16 @@ export function quoteDescription(quote: Quote) {
   if (override?.description) return override.description.slice(0, 160);
 
   const theme = canonicalizeTheme(quote.themes[0] ?? "Philosophy").toLowerCase();
+  // Every branch carries the brand-neutral "read in context" close: it tells
+  // the searcher the page offers surrounding material rather than a bare
+  // one-line quotation, which is the main reason to click over a scraper site.
   const source =
     quote.source && quote.source !== "Tradition"
       ? ` Source: ${quote.source}.`
       : "";
-  return `${quote.author} quote on ${theme}.${source} “${truncateWords(quote.text, 16)}”`.slice(
-    0,
-    155,
-  );
+  const open = `${quote.author} quote on ${theme}.${source} “${truncateWords(quote.text, 16)}”`;
+  const close = ` Read the passage in context with related ${theme} quotations.`;
+  return `${open}${close}`.slice(0, 155);
 }
 
 export function quoteHeading(quote: Quote) {

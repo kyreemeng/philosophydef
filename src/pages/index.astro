@@ -2,6 +2,9 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import quotes from "../data/quotes.json";
 import { guides } from "../data/guides";
+import { organizationSchema, websiteSchema } from "../lib/site-schema";
+import { thinkerGroups } from "../lib/content";
+import { shouldIndexThinker } from "../lib/indexing";
 
 const featured = quotes[0];
 
@@ -29,20 +32,8 @@ const guideLines = [
 ];
 
 const schema = [
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: "Philosophy Blind Box",
-    url: Astro.site,
-    description:
-      "Curated English philosophy quotations from around the world, presented at random.",
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "Philosophy Blind Box",
-    url: Astro.site,
-  },
+  websiteSchema(Astro.site),
+  organizationSchema(Astro.site),
   {
     "@context": "https://schema.org",
     "@type": "Quotation",
@@ -86,6 +77,28 @@ const featuredSchools = [
   { href: "/schools/kyoto-school", name: "Kyoto School" },
   { href: "/schools/confucianism", name: "Confucianism" },
 ];
+/**
+ * Thinker pages are the single largest group of high-impression URLs in Search
+ * Console — Socrates and Nietzsche alone drew over 250 impressions — yet the
+ * homepage offered them no visible link at all, only the nav entry. The
+ * homepage carries the most internal authority on the site, so pointing it at
+ * pages that already earn impressions but rank too far back to convert is the
+ * cheapest available ranking lever.
+ *
+ * The list is derived from the corpus rather than hand-written so it can never
+ * drift into linking at thinkers that have too few passages to sustain a page,
+ * and it respects the indexability rule so no crawl equity is spent on a
+ * noindex destination.
+ */
+const featuredThinkers = thinkerGroups()
+  .filter(shouldIndexThinker)
+  .slice(0, 10)
+  .map((thinker) => ({
+    href: `/thinkers/${thinker.slug}`,
+    name: thinker.name,
+    count: thinker.quotes.length,
+  }));
+
 const featuredGuides = guides.filter((guide) =>
   [
     "what-is-philosophy",
@@ -231,6 +244,25 @@ const featuredGuides = guides.filter((guide) =>
         <a href="/schools">All schools</a>
         {" · "}
         <a href="/themes">All themes</a>
+      </p>
+    </section>
+
+    <section class="themes-section" aria-labelledby="thinkers-title">
+      <div class="section-intro">
+        <p class="section-label">Enter by thinker</p>
+        <h2 id="thinkers-title">Philosophers in the archive</h2>
+      </div>
+      <p class="hero-value" style="margin-top:0">
+        {
+          featuredThinkers.map((thinker, index) => (
+            <>
+              {index > 0 && " · "}
+              <a href={thinker.href}>{thinker.name}</a>
+            </>
+          ))
+        }
+        {" · "}
+        <a href="/thinkers">All thinkers</a>
       </p>
     </section>
 

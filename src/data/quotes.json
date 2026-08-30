@@ -8072,5 +8072,233 @@
       "Liberation",
       "World System"
     ]
+  },
+  {
+    "id": "Q0674",
+    "author": "David Hume",
+    "school": "Scottish Enlightenment",
+    "source": "The Sceptic (1742)",
+    "text": "Be a philosopher; but amidst all your philosophy, be still a man.",
+    "themes": [
+      "Philosophy",
+      "Human Nature",
+      "Wisdom"
+    ]
+  },
+  {
+    "id": "Q0675",
+    "author": "Aristotle",
+    "school": "Peripatetic School",
+    "source": "Nicomachean Ethics II.6, 1107a (Ross translation)",
+    "text": "Virtue, then, is a state of character concerned with choice, lying in a mean, i.e. the mean relative to us, this being determined by a rational principle, and by that principle by which the man of practical wisdom would determine it.",
+    "themes": [
+      "Virtue",
+      "Moderation",
+      "Character"
+    ]
+  },
+  {
+    "id": "Q0676",
+    "author": "Zhang Zai",
+    "school": "Neo-Confucianism",
+    "source": "Zhengmeng, Western Inscription (Wing-tsit Chan translation)",
+    "text": "Heaven is my father and Earth is my mother, and even such a small creature as I finds an intimate place in their midst.",
+    "themes": [
+      "Nature",
+      "Humanity",
+      "Wholeness"
+    ]
+  },
+  {
+    "id": "Q0677",
+    "author": "Zhang Zai",
+    "school": "Neo-Confucianism",
+    "source": "Zhengmeng, Great Harmony Chapter",
+    "text": "The Great Void has no physical form; it is the original substance of qi. Its gathering and dispersing are but the passing forms of change.",
+    "themes": [
+      "Nature",
+      "Being",
+      "Change"
+    ]
+  },
+  {
+    "id": "Q0678",
+    "author": "Huineng",
+    "school": "Zen Buddhism",
+    "source": "Platform Sutra, Chapter 1 (Yampolsky translation)",
+    "text": "It is not the wind that moves; it is not the flag that moves; it is your mind that moves.",
+    "themes": [
+      "Mind",
+      "Awakening",
+      "Self"
+    ]
+  },
+  {
+    "id": "Q0679",
+    "author": "Huineng",
+    "school": "Zen Buddhism",
+    "source": "Platform Sutra, Prajna Chapter",
+    "text": "The Buddhist teaching is in the world; awakening is not apart from the world. To seek enlightenment apart from the world is like looking for a hare's horn.",
+    "themes": [
+      "Practice",
+      "Awakening",
+      "Living"
+    ]
+  },
+  {
+    "id": "Q0680",
+    "author": "Linji Yixuan",
+    "school": "Zen Buddhism",
+    "source": "Record of Linji (Burton Watson translation)",
+    "text": "If you meet the Buddha, kill the Buddha; if you meet a patriarch, kill the patriarch; if you meet an arhat, kill the arhat.",
+    "themes": [
+      "Autonomy",
+      "Awakening",
+      "Critique"
+    ]
+  },
+  {
+    "id": "Q0681",
+    "author": "Linji Yixuan",
+    "school": "Zen Buddhism",
+    "source": "Record of Linji",
+    "text": "There is a true person of no rank who is always coming and going through the gates of your face.",
+    "themes": [
+      "Self",
+      "Autonomy",
+      "Existence"
+    ]
+  },
+  {
+    "id": "Q0682",
+    "author": "Linji Yixuan",
+    "school": "Zen Buddhism",
+    "source": "Record of Linji (abridged)",
+    "text": "There is no place in Buddhism for special effort. Just be ordinary: put on your clothes, eat your food, and lie down when you are tired.",
+    "themes": [
+      "Practice",
+      "Simplicity",
+      "Nature"
+    ]
+  },
+  {
+    "id": "Q0683",
+    "author": "George Berkeley",
+    "school": "British Empiricism",
+    "source": "A Treatise Concerning the Principles of Human Knowledge, §1",
+    "text": "It is evident to any one who takes a survey of the objects of human knowledge, that they are either ideas actually imprinted on the senses; or else such as are perceived by attending to the passions and operations of the mind; or lastly, ideas formed by help of memory and imagination.",
+    "themes": [
+      "Experience",
+      "Knowledge",
+      "Mind"
+    ]
+  },
+  {
+    "id": "Q0684",
+    "author": "George Berkeley",
+    "school": "British Empiricism",
+    "source": "Three Dialogues between Hylas and Philonous (1713)",
+    "text": "That neither our thoughts, nor passions, nor ideas formed by the imagination, exist without the mind, is what everybody will allow.",
+    "themes": [
+      "Mind",
+      "Existence",
+      "Experience"
+    ]
+  },
+  {
+    "id": "Q0685",
+    "author": "George Berkeley",
+    "school": "British Empiricism",
+    "source": "A Treatise Concerning the Principles of Human Knowledge, §27",
+    "text": "A spirit is one simple, undivided, active being: as it perceives ideas, it is called understanding, and as it produces or otherwise operates about ideas, it is called will.",
+    "themes": [
+      "Mind",
+      "Spirit",
+      "Will"
+    ]
+  },
+  {
+    "id": "Q0686",
+    "author": "Gabriel Marcel",
+    "school": "Religious Existentialism",
+    "source": "Homo Viator (1944)",
+    "text": "To love a being is to say: thou, thou shalt not die.",
+    "themes": [
+      "Love",
+      "Death",
+      "Hope"
+    ]
+  },
+  {
+    "id": "Q0687",
+    "author": "Gabriel Marcel",
+    "school": "Religious Existentialism",
+    "source": "Being and Having (1935)",
+    "text": "A mystery is a problem which encroaches upon its own data, invading them, as it were, and thereby transcending itself as a mere problem.",
+    "themes": [
+      "Knowledge",
+      "Being",
+      "Inquiry"
+    ]
+  },
+  {
+    "id": "Q0688",
+    "author": "Wang Guowei",
+    "school": "Modern Chinese Thought",
+    "source": "Renjian Cihua (Remarks on Lyrics in the Human World), §1",
+    "text": "Ci poetry takes jingjie — the aesthetic realm — as its highest: with jingjie it naturally attains a lofty style and famous lines of its own.",
+    "themes": [
+      "Beauty",
+      "Creation",
+      "Experience"
+    ]
+  },
+  {
+    "id": "Q0689",
+    "author": "Wang Guowei",
+    "school": "Modern Chinese Thought",
+    "source": "Renjian Cihua, §6",
+    "text": "Jingjie is not a matter of scenery alone: joy, anger, sorrow, and happiness are also realms of the human heart. Whoever can write true scenery and true feeling may be said to have jingjie.",
+    "themes": [
+      "Beauty",
+      "Authenticity",
+      "Experience"
+    ]
+  },
+  {
+    "id": "Q0690",
+    "author": "Mozi",
+    "school": "Mohism",
+    "source": "Mozi, Against Offensive War I",
+    "text": "To kill one man is called unrighteousness and incurs one capital crime; by this reckoning, to kill ten men is ten times unrighteous and incurs ten capital crimes.",
+    "themes": [
+      "Justice",
+      "Morality",
+      "Ethics"
+    ]
+  },
+  {
+    "id": "Q0691",
+    "author": "Mozi",
+    "school": "Mohism",
+    "source": "Mozi, Impartial Love II",
+    "text": "The task of the humane is to promote the benefit of all under Heaven and to eliminate its harm.",
+    "themes": [
+      "Benevolence",
+      "Good",
+      "Humanity"
+    ]
+  },
+  {
+    "id": "Q0692",
+    "author": "Feng Youlan",
+    "school": "Modern New Confucianism",
+    "source": "A Short History of Chinese Philosophy",
+    "text": "Philosophy is systematic, reflective thinking on life.",
+    "themes": [
+      "Philosophy",
+      "Thinking",
+      "Life"
+    ]
   }
 ]

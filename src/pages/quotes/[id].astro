@@ -14,6 +14,7 @@ import {
   themeGroups,
   themePath,
   themeSlug,
+  truncateWords,
 } from "../../lib/content";
 import { guides } from "../../data/guides";
 import {
@@ -26,6 +27,7 @@ import {
   shouldIndexTheme,
   shouldIndexThinkerThemePair,
 } from "../../lib/indexing";
+import { quoteCommentary } from "../../data/quote-commentary";
 
 export function getStaticPaths() {
   return quotes.map((quote) => ({
@@ -36,6 +38,10 @@ export function getStaticPaths() {
 
 const { quote } = Astro.props;
 const quoteUrl = `/quotes/${quote.id.toLowerCase()}`;
+// Passage-specific commentary, written one quotation at a time. Pages without
+// an entry fall back to the theme-level paragraph below, so nothing renders
+// empty while the corpus is being filled in.
+const commentary = quoteCommentary[quote.id.toUpperCase()];
 const description = quoteDescription(quote);
 const title = quoteTitle(quote);
 const heading = quoteHeading(quote);
@@ -100,7 +106,38 @@ const readingContext = primaryThemeGuide
       .map((theme) => theme.toLowerCase())
       .join(", ")}. Those labels identify the concepts it can illuminate; they do not replace the argument surrounding it in ${quote.source}.`;
 
+// Search Console shows that a large share of impressions arrive on
+// "…quote source" phrasing: people have the words and want the citation. A
+// short, visible FAQ answering those exact questions is what turns a
+// position 5-20 impression into a click, and FAQPage markup makes the answers
+// eligible for rich results.
+const shortQuote = truncateWords(quote.text, 8);
+const sourceAnswer =
+  quote.source && quote.source !== "Tradition"
+    ? `The passage is attributed to ${quote.author}, ${quote.source}. ${sourceContext}`
+    : `The passage is attributed to ${quote.author} and filed under ${quote.school}. This archive records the English wording in circulation and names the tradition it belongs to rather than inventing a precise locator.`;
+
+const faq = [
+  {
+    question: `What is the source of the quotation “${shortQuote}”?`,
+    answer: sourceAnswer,
+  },
+  {
+    question: `What does ${quote.author} mean by ${primaryTheme.toLowerCase()}?`,
+    answer: readingContext,
+  },
+];
+
 const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((entry) => ({
+      "@type": "Question",
+      name: entry.question,
+      acceptedAnswer: { "@type": "Answer", text: entry.answer },
+    })),
+  },
   {
     "@context": "https://schema.org",
     "@type": "Quotation",
@@ -114,7 +151,7 @@ const schema = [
     keywords: themeNames,
     citation: quote.source,
     mainEntityOfPage: new URL(quoteUrl, Astro.site),
-    dateModified: "2026-08-26",
+    dateModified: "2026-08-30",
     isPartOf: {
       "@type": "Collection",
       name: "Philosophy Blind Box",
@@ -229,8 +266,21 @@ const schema = [
         <p>{sourceContext}</p>
         <h2>About {quote.author}</h2>
         <p>{thinkerContext}</p>
-        <h2>How to read this passage</h2>
-        <p>{readingContext}</p>
+        {
+          commentary ? (
+            <>
+              <h2>Interpretation</h2>
+              <p>{commentary.interpretation}</p>
+              <h2>Why it matters</h2>
+              <p>{commentary.insight}</p>
+            </>
+          ) : (
+            <>
+              <h2>How to read this passage</h2>
+              <p>{readingContext}</p>
+            </>
+          )
+        }
         {
           themeNotes.length > 0 && (
             <>
@@ -258,6 +308,26 @@ const schema = [
       </div>
     </section>
 
+    <section class="quote-depth prose-layout" aria-labelledby="faq-title">
+      <aside class="prose-aside">
+        <p>
+          The questions readers actually arrive with, answered from the cited
+          source.
+        </p>
+      </aside>
+      <div class="prose">
+        <h2 id="faq-title">Frequently asked questions</h2>
+        {
+          faq.map((entry) => (
+            <div class="faq-item">
+              <h3>{entry.question}</h3>
+              <p>{entry.answer}</p>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
     {
       hasIndexableThinkerThemePage && (
         <p class="related-link">
@@ -280,7 +350,13 @@ const schema = [
               <li class="quote-list-item">
                 <blockquote>{item.text}</blockquote>
                 <footer>
-                  <a href={`/quotes/${item.id.toLowerCase()}`}>{item.id}</a>
+                  {/* Anchors used to be the bare archive ID ("Q0148"), which told
+                      Google nothing about the destination page. The opening words
+                      of the target passage are the most specific internal anchor
+                      this page can emit for it. */}
+                  <a href={`/quotes/${item.id.toLowerCase()}`}>
+                    “{truncateWords(item.text, 8)}” — source & context
+                  </a>
                   <br />
                   {canonicalizeTheme(item.themes[0] ?? "Philosophy")}
                 </footer>
@@ -308,7 +384,12 @@ const schema = [
               <li class="quote-list-item">
                 <blockquote>{item.text}</blockquote>
                 <footer>
-                  <a href={`/quotes/${item.id.toLowerCase()}`}>{item.author}</a>
+                  {/* Entity + excerpt anchor: the author name alone repeated
+                      across a five-item list, and the ID it replaced, both
+                      undersold the destination page to crawlers. */}
+                  <a href={`/quotes/${item.id.toLowerCase()}`}>
+                    {item.author}: “{truncateWords(item.text, 8)}”
+                  </a>
                   <br />
                   {item.school}
                 </footer>
