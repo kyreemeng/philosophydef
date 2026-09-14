@@ -7,6 +7,8 @@ import { thinkerGroups } from "../lib/content";
 import { shouldIndexThinker } from "../lib/indexing";
 
 const featured = quotes[0];
+const thinkers = thinkerGroups();
+const schoolCount = new Set(quotes.map((quote) => quote.school)).size;
 
 const dailyLines = [
   "Philosophy does not answer. It hands you a mirror.",
@@ -43,6 +45,17 @@ const schema = [
       "@type": "Person",
       name: featured.author,
     },
+    citation: { "@type": "CreativeWork", name: featured.source },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Philosophy Quotes, Verified and Sourced",
+    description:
+      "English philosophy quotations with located sources: thinker, work, and section for every passage, with original-language wording and recorded misattributions.",
+    url: Astro.site,
+    inLanguage: "en",
+    significantLink: new URL("/quote-source", Astro.site).href,
   },
 ];
 
@@ -114,54 +127,100 @@ const featuredGuides = guides.filter((guide) =>
 ---
 
 <BaseLayout
-  title="Philosophy Quotes | Verified English Archive"
-  description="Verified English philosophy quotes, chosen at random. Browse Socrates, Stoicism, life, death, and beginner guides with sources."
+  title="Philosophy Quotes, Verified and Sourced | Full Citations"
+  description="Philosophy quotes with verified sources: exact wording, the work and section behind every passage, and the lines most often attributed to the wrong author."
   schema={schema}
+  canonical="/"
 >
   <div class="page-shell">
-    <section class="featured-hero" id="featured-quote" aria-labelledby="hero-title">
-      <div class="featured-copy">
+    <section class="hero-intro" aria-labelledby="hero-title">
+      <div class="hero-intro-lead">
         <p class="hero-kicker">Curated English archive</p>
-        <h1 id="hero-title">Philosophy quotes, chosen at random</h1>
+        {/* The H1 used to read “Philosophy quotes, chosen at random.” Google
+            read the homepage's primary topic from that phrase, and “random” is
+            not a term anybody searches. Search Console shows the site's only
+            top-3 rankings are sourcing queries and its strongest verified term
+            is `quote source`, so the homepage now states the thing the archive
+            is actually differentiated on. The chance mechanic is kept, moved
+            below the fold-defining heading, and given its own H2. */}
+        <h1 id="hero-title">Philosophy Quotes, Verified and Sourced</h1>
+      </div>
+      <div class="hero-intro-body">
         <p class="hero-value">
-          Each visit presents a carefully verified English philosophy quotation,
-          drawn by chance from about 650–700 passages across the world.
+          Every passage in this archive carries its source — thinker, work, and
+          section — and every recorded line names the wording it came from.
+          Where a quotation is commonly misattributed, the archive says so
+          rather than repeating the popular byline.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="/quote-source">Trace a quotation to its source</a>
+          <a class="button secondary" href="/quotes">Browse the archive</a>
+        </div>
+        <p class="hero-value hero-facts">
+          {quotes.length.toLocaleString("en-US")} verified English passages by{" "}
+          {thinkers.length} thinkers across{" "}
+          {schoolCount} traditions — from Plato and Confucius to Kwasi Wiredu,
+          Nishida Kitarō, and Frantz Fanon.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="featured-hero random-module"
+      id="featured-quote"
+      aria-labelledby="random-title"
+    >
+      <div class="featured-copy">
+        <p class="hero-kicker">Chance</p>
+        <h2 id="random-title">Try a random quotation</h2>
+        <p class="hero-value">
+          A passage appears before you choose a theme or thinker, so the
+          encounter can begin with the words themselves. Each refresh draws
+          another from the corpus — and every one of them is sourced.
         </p>
         <div class="quote-action">
           <button id="next-quote" type="button">Another quotation</button>
           <span id="quote-status">Refresh for another passage.</span>
         </div>
+        <p class="hero-value">
+          Prefer the generator on its own page?{" "}
+          <a href="/random-philosophy-generator">
+            Open the random philosophy generator
+          </a>
+        </p>
       </div>
 
       <div class="featured-stage is-opened" id="featured-stage">
-        <article class="quote-reveal" aria-live="polite">
-          <div class="quote-reveal-top">
-            <span>Selected passage</span>
-            <span id="quote-id">{featured.id}</span>
-          </div>
+        <article class="quote-reveal">
+          <div class="quote-live" aria-live="polite" aria-atomic="false">
+            <div class="quote-reveal-top">
+              <span>Selected passage</span>
+              <span id="quote-id">{featured.id}</span>
+            </div>
 
-          <div class="quote-body">
-            <blockquote id="quote-text">{featured.text}</blockquote>
-          </div>
+            <div class="quote-body">
+              <blockquote id="quote-text">{featured.text}</blockquote>
+            </div>
 
-          <dl class="quote-reveal-meta">
-            <div>
-              <dt>Thinker</dt>
-              <dd id="quote-author">{featured.author}</dd>
-            </div>
-            <div>
-              <dt>School</dt>
-              <dd id="quote-school">{featured.school}</dd>
-            </div>
-            <div>
-              <dt>Source</dt>
-              <dd id="quote-source">{featured.source || "Tradition"}</dd>
-            </div>
-            <div>
-              <dt>Theme</dt>
-              <dd id="quote-theme">{featured.themes[0] ?? "Philosophy"}</dd>
-            </div>
-          </dl>
+            <dl class="quote-reveal-meta">
+              <div>
+                <dt>Thinker</dt>
+                <dd id="quote-author">{featured.author}</dd>
+              </div>
+              <div>
+                <dt>School</dt>
+                <dd id="quote-school">{featured.school}</dd>
+              </div>
+              <div>
+                <dt>Source</dt>
+                <dd id="quote-source">{featured.source || "Tradition"}</dd>
+              </div>
+              <div>
+                <dt>Theme</dt>
+                <dd id="quote-theme">{featured.themes[0] ?? "Philosophy"}</dd>
+              </div>
+            </dl>
+          </div>
 
           <div class="quote-actions">
             <button class="secondary" id="share-quote" type="button">
@@ -183,27 +242,43 @@ const featuredGuides = guides.filter((guide) =>
     <section class="method-section" aria-labelledby="method-title">
       <p class="section-label">How to read</p>
       <div class="method-statement">
-        <h2 id="method-title">Chance first. Context second.</h2>
+        <h2 id="method-title">Sourced first. Chance second.</h2>
         <p>
-          The homepage withholds selection. A passage appears before you choose
-          a theme or thinker, so the encounter can begin with the words
-          themselves.
+          The homepage withholds selection, and the archive refuses to withhold
+          the citation. Every passage arrives with the work it comes from, so
+          the encounter begins with the words and ends somewhere you can check.
         </p>
       </div>
       <div class="method-steps" aria-label="How this archive presents quotations">
         <div>
-          <span>Chance</span>
-          <p>Each refresh draws another passage from the corpus.</p>
+          <span>Verified</span>
+          <p>Each passage names the work, section, and edition it is cited from.</p>
         </div>
         <div>
           <span>English</span>
           <p>Every quotation is shown in a verified English rendering.</p>
         </div>
         <div>
-          <span>Context</span>
-          <p>Thinker, school, source, and theme follow after the text.</p>
+          <span>Chance</span>
+          <p>Each refresh draws another sourced passage from the corpus.</p>
         </div>
       </div>
+    </section>
+
+    <section class="themes-section" aria-labelledby="sourcing-title">
+      <div class="section-intro">
+        <p class="section-label">Attribution</p>
+        <h2 id="sourcing-title">Who actually said it?</h2>
+      </div>
+      <p class="hero-value" style="margin-top:0">
+        Paste any quotation into the{" "}
+        <a href="/quote-source">quote source finder</a> to see the located
+        record: the work and section, the wording in the original language, the
+        forms that circulate in its place, and the lines most often attributed
+        to the wrong author. Read how the archive{" "}
+        <a href="/sourcing-method">sources its texts</a>, or what it{" "}
+        <a href="/editorial-policy">publishes and corrects</a>.
+      </p>
     </section>
 
     <section class="themes-section" aria-labelledby="themes-title">
@@ -335,14 +410,28 @@ const featuredGuides = guides.filter((guide) =>
   <script>
     import { toBlob } from "html-to-image";
 
+    // Astro compiles `<script>` blocks as TypeScript and the project runs
+    // astro/tsconfigs/strict. These annotations are erased at build time; what
+    // they buy is an `astro check` run that reports real problems instead of
+    // several dozen implicit-any complaints, which is the state in which the
+    // check is worth running at all.
+    type QuoteLite = {
+      id: string;
+      text: string;
+      author: string;
+      school: string;
+      source: string;
+      themes: string[];
+    };
+
     const SITE_ORIGIN = "https://www.philosophydef.com";
-    const payload = JSON.parse(
+    const payload: { dailyLines: string[]; guideLines: string[] } = JSON.parse(
       document.querySelector("#quote-meta")?.textContent || "{}",
     );
     const stage = document.querySelector("#featured-stage");
     const trigger = document.querySelector("#next-quote");
     const quoteStatus = document.querySelector("#quote-status");
-    const text = document.querySelector("#quote-text");
+    const text = document.querySelector<HTMLElement>("#quote-text");
     const id = document.querySelector("#quote-id");
     const author = document.querySelector("#quote-author");
     const school = document.querySelector("#quote-school");
@@ -351,13 +440,20 @@ const featuredGuides = guides.filter((guide) =>
     const link = document.querySelector("#quote-link");
     const notice = document.querySelector("#quote-notice");
     const closingLine = document.querySelector("#closing-line");
-    const dialog = document.querySelector("#share-dialog");
+    const dialog = document.querySelector<HTMLDialogElement>("#share-dialog");
     const shareNotice = document.querySelector("#share-notice");
     const dailyCard = document.querySelector("#daily-card");
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
     const previousQuoteId = sessionStorage.getItem("philosophy-blind-box:last-quote");
-    let data = [];
-    let current = null;
+    let data: QuoteLite[] = [];
+    let current: QuoteLite = {
+      id: "Q0001",
+      text: "",
+      author: "",
+      school: "",
+      source: "Tradition",
+      themes: [],
+    };
     let copyingImage = false;
 
     const dayIndex = new Date().getDay();
@@ -375,7 +471,7 @@ const featuredGuides = guides.filter((guide) =>
       return next;
     }
 
-    function lengthTier(value) {
+    function lengthTier(value: string) {
       const words = value.trim().split(/\s+/).filter(Boolean).length;
       const longest = Math.max(
         0,
@@ -387,7 +483,7 @@ const featuredGuides = guides.filter((guide) =>
       return "short";
     }
 
-    function fitQuote(el) {
+    function fitQuote(el: HTMLElement | null) {
       if (!el) return;
       const shell = el.closest(".quote-body");
       if (!shell) return;
@@ -420,7 +516,7 @@ const featuredGuides = guides.filter((guide) =>
       });
     }
 
-    function renderQuote(quote) {
+    function renderQuote(quote: QuoteLite) {
       current = quote;
       if (text) {
         text.textContent = quote.text;
@@ -449,7 +545,7 @@ const featuredGuides = guides.filter((guide) =>
       }, reducedMotion.matches ? 0 : 220);
     }
 
-    function formatDate(date) {
+    function formatDate(date: Date) {
       return new Intl.DateTimeFormat("en", {
         year: "numeric",
         month: "long",
@@ -493,7 +589,7 @@ const featuredGuides = guides.filter((guide) =>
       return blob;
     }
 
-    async function writeImageToClipboard(blob) {
+    async function writeImageToClipboard(blob: Blob) {
       if (!navigator.clipboard?.write || typeof ClipboardItem === "undefined") {
         throw new Error("Image clipboard is not supported in this browser.");
       }
@@ -533,7 +629,7 @@ const featuredGuides = guides.filter((guide) =>
 
     async function prepareShareCard() {
       const cardDate = document.querySelector("#card-date");
-      const cardQuote = document.querySelector("#card-quote");
+      const cardQuote = document.querySelector<HTMLElement>("#card-quote");
       const cardAuthor = document.querySelector("#card-author");
       const cardGuide = document.querySelector("#card-guide");
       if (cardDate) cardDate.textContent = formatDate(new Date());

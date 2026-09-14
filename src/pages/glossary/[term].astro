@@ -1,0 +1,225 @@
+---
+/**
+ * One canonical page per technical term.
+ *
+ * The glossary used to render only inline, on the quotation pages, which meant
+ * that the same four-sentence definition of *phronēsis* was served on 172
+ * different URLs. That is the templated-prose pattern this site is trying to
+ * get away from, and it also meant a reader who wanted to know what *aretē*
+ * means had nowhere to arrive and stay. The definition lives here once;
+ * quotation pages carry the one-line gloss and a link.
+ *
+ * Everything on the page is derived from the archive's own data: the term and
+ * its script from the glossary entry, the passages from the corpus's theme
+ * labels, the neighbouring terms from shared themes. Nothing is generated to
+ * fill space.
+ */
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import quotes from "../../data/quotes.json";
+import { canonicalizeTheme, themePath, truncateWords } from "../../lib/content";
+import {
+  concepts,
+  conceptPath,
+  conceptSlug,
+  relatedConcepts,
+  assertNoConceptSlugCollision,
+} from "../../data/concept-glossary";
+
+// Build-time guard: a duplicate slug would silently overwrite a page.
+assertNoConceptSlugCollision();
+
+export function getStaticPaths() {
+  return concepts.map((concept) => ({
+    params: { term: conceptSlug(concept) },
+    props: { concept },
+  }));
+}
+
+const { concept } = Astro.props;
+
+const site = (Astro.site ?? new URL("https://www.philosophydef.com"))
+  .toString()
+  .replace(/\/$/, "");
+
+const firstSentence = (text: string) =>
+  text.split(/(?<=[.!?])\s+/)[0] ?? text;
+
+const description = `${concept.gloss}. ${firstSentence(concept.definition)}`;
+
+/**
+ * The passages this term actually occurs in.
+ *
+ * Matched on canonical theme labels, which is the only relation the archive
+ * knows between a term and a quotation. It is a rough relation and the page
+ * says so: a quotation tagged *Virtue* may use aretē or may not.
+ */
+const wantedThemes = new Set(concept.themes.map(canonicalizeTheme));
+const termQuotes = quotes
+  .filter((quote) =>
+    quote.themes.some((theme) => wantedThemes.has(canonicalizeTheme(theme))),
+  )
+  .sort((a, b) => a.text.length - b.text.length)
+  .slice(0, 8);
+
+const related = relatedConcepts(concept, 6);
+
+const linkedThemes = [...new Set(concept.themes.map(canonicalizeTheme))].slice(0, 7);
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    name: concept.term,
+    ...(concept.original ? { alternateName: concept.original } : {}),
+    description: concept.definition,
+    inLanguage: concept.languageTag ?? "en",
+    inDefinedTermSet: {
+      "@type": "DefinedTermSet",
+      name: "Philosophy Blind Box glossary",
+      url: `${site}/glossary`,
+    },
+    url: `${site}/glossary/${conceptSlug(concept)}`,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${site}/` },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Glossary",
+        item: `${site}/glossary`,
+      },
+      { "@type": "ListItem", position: 3, name: concept.term },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={`${concept.term}: ${concept.gloss} | Philosophy Blind Box`}
+  description={description}
+  canonical={conceptPath(concept)}
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Glossary</p>
+      <h1>
+        {concept.term}
+        {concept.original && (
+          <span class="term-original" lang={concept.languageTag ?? "und"}>
+            {" "}
+            {concept.original}
+          </span>
+        )}
+      </h1>
+      <p>{concept.gloss}</p>
+      <p class="term-language">
+        {concept.language}
+        {" · "}
+        <span lang="en">glossed in English</span>
+      </p>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/glossary">Glossary</a>
+        <span aria-hidden="true">/</span>
+        <span>{concept.term}</span>
+      </nav>
+    </header>
+
+    <div class="prose-layout">
+      <aside class="prose-aside">
+        <p>
+          A term is not a word. It is a working part of somebody's argument, and
+          the English word usually offered for it is a compromise. This page
+          gives the compromise, the argument, and the reading the sources do not
+          support.
+        </p>
+        {linkedThemes.length > 0 && (
+          <p>
+            Where it is filed:{" "}
+            {linkedThemes.map((theme, index) => (
+              <>
+                {index > 0 && " · "}
+                <a href={themePath(theme)}>{theme}</a>
+              </>
+            ))}
+          </p>
+        )}
+      </aside>
+
+      <article class="prose">
+        <h2>What the term does</h2>
+        <p>{concept.definition}</p>
+
+        {concept.misreading && (
+          <>
+            <h2>The reading the sources do not support</h2>
+            <p class="misreading-note">{concept.misreading}</p>
+          </>
+        )}
+
+        <h2>Where it appears in this archive</h2>
+        {termQuotes.length > 0 ? (
+          <>
+            <p>
+              Passages filed under the themes this term belongs to. The
+              connection is by theme label rather than by close reading, so treat
+              it as where to look rather than as a claim that every passage below
+              turns on this word.
+            </p>
+            <ul class="card-list">
+              {termQuotes.map((quote) => (
+                <li>
+                  <p>
+                    “{truncateWords(quote.text, 22)}”{" "}
+                    <a href={`/quotes/${quote.id.toLowerCase()}`}>
+                      {quote.author}
+                    </a>
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </>
+        ) : (
+          <p>
+            No passage in the current corpus is filed under this term's themes.
+            The entry is kept because the term is used in the traditions the
+            archive covers and readers arrive looking for it.
+          </p>
+        )}
+
+        {related.length > 0 && (
+          <section class="related-block">
+            <h2>Terms that travel with it</h2>
+            <ul class="link-list">
+              {related.map((other) => (
+                <li>
+                  <a href={conceptPath(other)}>{other.term}</a>
+                  {" — "}
+                  {other.gloss}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        <h2>Where next</h2>
+        <ul class="link-list">
+          <li>
+            <a href="/glossary">All {concepts.length} terms in the glossary</a>
+          </li>
+          <li>
+            <a href="/sourcing-method#locators">
+              How this archive sources and dates what it publishes
+            </a>
+          </li>
+          <li>
+            <a href="/quotes">Browse the quotation archive</a>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</BaseLayout>

@@ -86,16 +86,29 @@ const schema = {
   </div>
 
   <script>
-    const list = document.querySelector("#quote-list");
-    const search = document.querySelector("#quote-search");
-    const themeFilter = document.querySelector("#theme-filter");
-    const summary = document.querySelector("#results-summary");
-    const loadMore = document.querySelector("#load-more");
-    let archive = [];
-    let limit = 24;
-    let filtered = [];
+    // Astro compiles `<script>` blocks as TypeScript and the project runs
+    // astro/tsconfigs/strict, so the archive browser is annotated. Without
+    // this the file alone accounted for eleven type errors, which is how a
+    // useful check gets ignored.
+    type ArchiveQuote = {
+      id: string;
+      text: string;
+      author: string;
+      school: string;
+      source: string;
+      themes: string[];
+    };
 
-    function quoteCard(quote) {
+    const list = document.querySelector("#quote-list");
+    const search = document.querySelector<HTMLInputElement>("#quote-search");
+    const themeFilter = document.querySelector<HTMLSelectElement>("#theme-filter");
+    const summary = document.querySelector("#results-summary");
+    const loadMore = document.querySelector<HTMLButtonElement>("#load-more");
+    let archive: ArchiveQuote[] = [];
+    let limit = 24;
+    let filtered: ArchiveQuote[] = [];
+
+    function quoteCard(quote: ArchiveQuote) {
       const item = document.createElement("li");
       item.className = "quote-list-item";
 
@@ -133,7 +146,7 @@ const schema = {
           (!term || searchable.includes(term)) &&
           (!selectedTheme ||
             (quote.themes || []).some(
-              (theme) => theme.toLocaleLowerCase() === selectedTheme.toLocaleLowerCase(),
+              (theme: string) => theme.toLocaleLowerCase() === selectedTheme.toLocaleLowerCase(),
             ))
         );
       });

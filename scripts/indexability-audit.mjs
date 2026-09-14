@@ -49,8 +49,15 @@ function expectedCanonical(route) {
   return route === "/" ? `${SITE}/` : `${SITE}${route}`;
 }
 
-function expectedSitemapUrl(route) {
-  return route === "/" ? SITE : `${SITE}${route}`;
+/**
+ * A sitemap may legitimately write the root as either `https://example.com` or
+ * `https://example.com/` — both are the same resource and both appear in the
+ * wild. The old single-form check rejected one of them while the archive's own
+ * sitemap used it, which meant the audit and the build disagreed about the
+ * most-visited URL on the site. Accept both.
+ */
+function expectedSitemapUrls(route) {
+  return route === "/" ? [SITE, `${SITE}/`] : [`${SITE}${route}`];
 }
 
 const indexXml = await readFile(path.join(DIST, "sitemap-index.xml"), "utf8");
@@ -110,7 +117,9 @@ const bySignal = (field) => {
 
 for (const page of pages) {
   const url = expectedCanonical(page.route);
-  const inSitemap = sitemapUrls.has(expectedSitemapUrl(page.route));
+  const inSitemap = expectedSitemapUrls(page.route).some((url) =>
+    sitemapUrls.has(url),
+  );
   if ((page.noindex || page.redirect) && inSitemap) {
     problems.push(`${page.route}: noindex/redirect URL appears in sitemap`);
   }

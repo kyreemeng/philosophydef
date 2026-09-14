@@ -28,14 +28,47 @@ const siteName = "Philosophy Blind Box";
 const path = Astro.url.pathname.replace(/\.html$/, "").replace(/\/$/, "") || "/";
 const canonicalUrl = new URL(canonical, Astro.site);
 const imageUrl = new URL(image, Astro.site);
-const navItems = [
-  { href: "/what-is-philosophy", label: "Guides", match: "/what-is-philosophy" },
-  { href: "/quotes", label: "Quotes", match: "/quotes" },
-  { href: "/thinkers", label: "Thinkers", match: "/thinkers" },
-  { href: "/themes", label: "Themes", match: "/themes" },
-  { href: "/schools", label: "Schools", match: "/schools" },
-  { href: "/about", label: "About", match: "/about" },
+
+/**
+ * Navigation, grouped by what the reader is trying to do.
+ *
+ * The bar used to be seven equally weighted links in a single row, which
+ * presented a browse surface, a lookup tool, and a set of long-form guides as
+ * though they were the same kind of thing. Three groups say otherwise:
+ * "Read" is the archive, "Trace" is the one tool this site is built around,
+ * "Learn" is the guides. Google's own documentation is the argument for keeping
+ * the sourcing entry in the primary bar rather than the footer — a hub nothing
+ * links to cannot rank, and this nav is on every page — so it stays, but as the
+ * single item in its own group rather than as the fourth of seven.
+ */
+const navGroups = [
+  {
+    label: "Read",
+    items: [
+      { href: "/quotes", label: "Quotes", match: "/quotes" },
+      { href: "/thinkers", label: "Thinkers", match: "/thinkers" },
+      { href: "/themes", label: "Themes", match: "/themes" },
+      { href: "/schools", label: "Schools", match: "/schools" },
+    ],
+  },
+  {
+    label: "Trace",
+    items: [
+      { href: "/quote-source", label: "Quote source", match: "/quote-source" },
+    ],
+  },
+  {
+    label: "Learn",
+    items: [
+      { href: "/what-is-philosophy", label: "Guides", match: "/what-is-philosophy" },
+      { href: "/glossary", label: "Glossary", match: "/glossary" },
+      { href: "/about", label: "About", match: "/about" },
+    ],
+  },
 ];
+const allNavItems = navGroups.flatMap((group) => group.items);
+const isCurrent = (match: string) =>
+  path === match || path.startsWith(`${match}/`);
 const defaultSchema = [
   websiteSchema(Astro.site),
   organizationSchema(Astro.site),
@@ -88,7 +121,25 @@ const allSchema = [
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={imageUrl} />
-    <script is:inline>document.documentElement.classList.add("js");</script>
+    {/* Both of these must run before first paint. The reading preference is
+        applied to <html> as an attribute so the stored type size and colour
+        scheme are in place when the first stylesheet is matched — setting them
+        from a deferred script would show the default and then snap to the
+        reader's own choice on every navigation, which is worse than not
+        offering the control. */}
+    <script is:inline>
+      (() => {
+        try {
+          const size = localStorage.getItem("pbb:reading-size");
+          const theme = localStorage.getItem("pbb:theme");
+          if (size) document.documentElement.dataset.readingSize = size;
+          if (theme) document.documentElement.dataset.theme = theme;
+        } catch {
+          /* Storage can be blocked; the defaults are then the whole story. */
+        }
+        document.documentElement.classList.add("js");
+      })();
+    </script>
     <script
       type="application/ld+json"
       set:html={JSON.stringify(allSchema)}
@@ -114,24 +165,91 @@ const allSchema = [
         >
           Menu
         </button>
-        <ul class="nav-links" id="nav-links">
-          {
-            navItems.map((item) => (
-              <li>
-                <a
-                  href={item.href}
-                  aria-current={
-                    path === item.match || path.startsWith(`${item.match}/`)
-                      ? "page"
-                      : undefined
-                  }
-                >
-                  {item.label}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
+        {/*
+          The nav panel, not the link list, is what collapses.
+
+          The search entry and the reading controls used to sit outside the
+          collapsible element, so at mobile widths they competed with the brand
+          and the menu button for a 375px bar. Everything that is not the brand
+          or the toggle now lives inside one panel: a row on desktop, the
+          drop-down itself below 1080px.
+
+          The toggle used to appear at 700px while the grouped links hid at
+          980px, which left 701–980px with no navigation and no way to open any.
+          The two breakpoints are one number now.
+        */}
+        <div class="nav-panel" id="nav-links">
+          <ul class="nav-groups">
+            {
+              navGroups.map((group) => (
+                <li>
+                  <ul class="nav-group" aria-label={group.label}>
+                    <li aria-hidden="true">{group.label}</li>
+                    <li>
+                      <ul class="nav-group-links">
+                        {group.items.map((item) => (
+                          <li>
+                            <a
+                              href={item.href}
+                              aria-current={isCurrent(item.match) ? "page" : undefined}
+                            >
+                              {item.label}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              ))
+            }
+          </ul>
+          <div class="nav-actions">
+            {/* There was no way to search the site from any page except /quotes,
+                and the /quotes search only filtered an already-loaded list. This
+                entry puts the archive's own index one keystroke away from every
+                page. The visible label is one word because the pill shares a
+                single row with eight links; the full phrase stays the accessible
+                name. */}
+            <a class="nav-search" href="/quotes" aria-label="Search the archive">
+              Search
+            </a>
+            {/*
+              The reading preferences used to sit open in the bar. Between them
+              the two selects and their labels cost the row about 240px, which
+              is what pushed the grouped navigation and the search entry past
+              the right edge of a 1080px window — the labels wrapped rather than
+              the row admitting it had run out of room.
+
+              They are a preference, not a destination, so they live behind one
+              labelled control now: still discoverable from every page, but not
+              competing with navigation for width. `<details>` does it without
+              JavaScript and keeps it keyboard-operable.
+            */}
+            <details class="prefs">
+              <summary>Text &amp; colour</summary>
+              <div class="prefs-panel">
+                <div class="reading-controls">
+                  <label for="reading-size">Text size</label>
+                  <select id="reading-size" data-reading-size>
+                    <option value="compact">Small</option>
+                    <option value="default" selected>Default</option>
+                    <option value="large">Large</option>
+                    <option value="x-large">Largest</option>
+                  </select>
+                </div>
+                <div class="reading-controls">
+                  <label for="reading-theme">Colour scheme</label>
+                  <select id="reading-theme" data-reading-theme>
+                    <option value="system" selected>System</option>
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                  </select>
+                </div>
+              </div>
+            </details>
+          </div>
+        </div>
       </nav>
     </header>
     <main id="main-content">
@@ -144,11 +262,17 @@ const allSchema = [
             <span class="brand-mark" aria-hidden="true"></span>
             <span>Philosophy Blind Box</span>
           </a>
-          <p>A curated archive of English philosophy quotations.</p>
+          <p>
+            A curated archive of English philosophy quotations, each with the
+            work and passage it comes from.
+          </p>
         </div>
         <nav class="footer-links" aria-label="Footer navigation">
           <a href="/what-is-philosophy">Philosophy guides</a>
+          <a href="/glossary">Glossary of terms</a>
           <a href="/quotes">Browse the archive</a>
+          <a href="/quote-source">Who said this quote?</a>
+          <a href="/random-philosophy-generator">Random quote generator</a>
           <a href="/quotes/famous">Famous quotes</a>
           <a href="/schools/stoicism">Stoicism</a>
           <a href="/why-philosophy-matters">Why philosophy matters</a>
@@ -160,13 +284,91 @@ const allSchema = [
       </div>
     </footer>
     <script>
+      // The nav announces itself as a menu only when the stylesheet has actually
+      // collapsed it; aria-expanded is the state, and data-open is what the
+      // mobile layout reads. Both are set here so they cannot drift apart.
       const toggle = document.querySelector(".nav-toggle");
-      const links = document.querySelector("#nav-links");
+      const panel = document.querySelector("#nav-links");
+      const collapse = () => {
+        toggle?.setAttribute("aria-expanded", "false");
+        panel?.removeAttribute("data-open");
+      };
       toggle?.addEventListener("click", () => {
         const open = toggle.getAttribute("aria-expanded") === "true";
         toggle.setAttribute("aria-expanded", String(!open));
-        links?.setAttribute("data-open", String(!open));
+        if (open) panel?.removeAttribute("data-open");
+        else panel?.setAttribute("data-open", "true");
       });
+      // A reader who opens the menu and then widens the window would otherwise
+      // be left with the panel's state applied to the full-width bar. 1080px is
+      // the same boundary the stylesheet collapses at; the two must agree.
+      window.matchMedia("(min-width: 1080px)").addEventListener("change", (event) => {
+        if (event.matches) collapse();
+      });
+      // Following a link closes the menu. The reading controls are inside the
+      // panel but are not links, so choosing a preference leaves it open.
+      panel?.addEventListener("click", (event) => {
+        if ((event.target as HTMLElement).closest("a")) collapse();
+      });
+
+      // The preferences disclosure is native <details>, which stays open until
+      // it is toggled. A floating panel that survives a click elsewhere on the
+      // page reads as broken, so outside clicks and Escape close it.
+      const prefs = document.querySelector(".prefs");
+      if (prefs instanceof HTMLDetailsElement) {
+        document.addEventListener("click", (event) => {
+          if (!prefs.open) return;
+          if (!prefs.contains(event.target as Node)) prefs.open = false;
+        });
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape" && prefs.open) {
+            prefs.open = false;
+            prefs.querySelector("summary")?.focus();
+          }
+        });
+      }
+    </script>
+    <script>
+      // Reading preferences. Written to <html> as data attributes, mirrored into
+      // localStorage so the next page load can apply them before first paint,
+      // and read back from the DOM on load so the controls show the state that
+      // is actually in force rather than their markup defaults.
+      const root = document.documentElement;
+      const sizeSelect = document.querySelector<HTMLSelectElement>("[data-reading-size]");
+      const themeSelect = document.querySelector<HTMLSelectElement>("[data-reading-theme]");
+      const STORE = { size: "pbb:reading-size", theme: "pbb:theme" };
+
+      const applyReadingSize = (value: string) => {
+        if (value && value !== "default") root.dataset.readingSize = value;
+        else delete root.dataset.readingSize;
+      };
+      const applyTheme = (value: string) => {
+        if (value && value !== "system") root.dataset.theme = value;
+        else delete root.dataset.theme;
+      };
+
+      if (sizeSelect) {
+        sizeSelect.value = root.dataset.readingSize ?? "default";
+        sizeSelect.addEventListener("change", () => {
+          applyReadingSize(sizeSelect.value);
+          try {
+            localStorage.setItem(STORE.size, sizeSelect.value);
+          } catch {
+            /* Preference simply does not persist. */
+          }
+        });
+      }
+      if (themeSelect) {
+        themeSelect.value = root.dataset.theme ?? "system";
+        themeSelect.addEventListener("change", () => {
+          applyTheme(themeSelect.value);
+          try {
+            localStorage.setItem(STORE.theme, themeSelect.value);
+          } catch {
+            /* Preference simply does not persist. */
+          }
+        });
+      }
     </script>
   </body>
 </html>

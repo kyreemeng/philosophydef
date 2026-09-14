@@ -1,0 +1,74 @@
+---
+import ThinkerSourcePage from "../../components/source/ThinkerSourcePage.astro";
+import QuoteSourcePage from "../../components/source/QuoteSourcePage.astro";
+import quotes from "../../data/quotes.json";
+import {
+  assertNoSourceSlugCollision,
+  MIN_QUOTES_FOR_SOURCE_PAGE,
+  thinkerSourcing,
+} from "../../data/thinker-sourcing";
+import { quoteVerification } from "../../data/quote-verification";
+import { quoteSourceSlug, slugify } from "../../lib/content";
+
+/**
+ * One route, two page shapes.
+ *
+ * Separate dynamic segments cannot coexist at the same depth, and nesting one
+ * under the other would produce a URL that reads as a category before a reader
+ * knows which kind of page they are on. A slug that resolves to a thinker name
+ * and a slug that resolves to a passage opening are distinguishable in
+ * practice — names run one to four words, passages run eight — and the
+ * collision guard fails the build rather than silently overwriting a page the
+ * sitemap advertises.
+ *
+ * The set is bounded on purpose. Generating one page per corpus row would add
+ * several hundred URLs in a single batch, which is the shape of change that
+ * invited the August quality re-evaluation. Pages are added batch by batch as
+ * verification records are written, so every URL in this family carries
+ * something no other URL carries.
+ *
+ * Two components rather than one conditional page: Astro's frontmatter is a
+ * single block, so a top-level if/else cannot wrap the template. The page
+ * decides, the components render.
+ */
+export function getStaticPaths() {
+  const byAuthor = new Map<string, (typeof quotes)[number][]>();
+  for (const quote of quotes) {
+    byAuthor.set(quote.author, [...(byAuthor.get(quote.author) ?? []), quote]);
+  }
+
+  const thinkers = [...byAuthor.entries()]
+    .filter(
+      ([author, items]) =>
+        items.length >= MIN_QUOTES_FOR_SOURCE_PAGE && thinkerSourcing[author],
+    )
+    .map(([author, items]) => ({
+      params: { slug: slugify(author) },
+      props: { kind: "thinker" as const, author, items },
+    }));
+
+  const records = quotes
+    .filter((quote) => quoteVerification[quote.id.toUpperCase()])
+    .map((quote) => ({
+      params: { slug: quoteSourceSlug(quote) },
+      props: { kind: "quote" as const, quote },
+    }));
+
+  assertNoSourceSlugCollision([
+    ...thinkers.map((entry) => `/quote-source/${entry.params.slug}`),
+    ...records.map((entry) => `/quote-source/${entry.params.slug}`),
+  ]);
+
+  return [...thinkers, ...records];
+}
+
+const route = Astro.props;
+---
+
+{
+  route.kind === "thinker" ? (
+    <ThinkerSourcePage author={route.author} items={route.items} />
+  ) : (
+    <QuoteSourcePage quote={route.quote} />
+  )
+}

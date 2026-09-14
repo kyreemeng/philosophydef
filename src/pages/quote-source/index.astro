@@ -1,0 +1,439 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import quotes from "../../data/quotes.json";
+import {
+  commonlyMisattributed,
+  sourceFaq,
+  tracingSteps,
+} from "../../data/quote-source-hub";
+import { quoteVerification } from "../../data/quote-verification";
+import { hasThinkerSourcePage } from "../../data/thinker-sourcing";
+import { quoteSourcePath, slugify, thinkerSourcePath } from "../../lib/content";
+
+const pageUrl = "/quote-source";
+
+/**
+ * Author page counts, so the register can link an author's source page only
+ * where that page is actually built. Authors below the threshold have a thinker
+ * guide instead, and linking the guide is better than linking a 404.
+ */
+const quoteCountByAuthor = new Map<string, number>();
+for (const quote of quotes) {
+  quoteCountByAuthor.set(
+    quote.author,
+    (quoteCountByAuthor.get(quote.author) ?? 0) + 1,
+  );
+}
+
+/** Where a reader should go to see more of this author. */
+const authorPath = (author: string) =>
+  hasThinkerSourcePage(author, quoteCountByAuthor.get(author) ?? 0)
+    ? thinkerSourcePath(author)
+    : `/thinkers/${slugify(author)}`;
+
+/**
+ * The server-rendered half of the lookup. Search Console shows the strongest
+ * verified term on the site is `quote source` at position 2.4 and the largest
+ * single traffic term is a bare quoted sentence — readers arrive holding words
+ * and wanting a locator. A client-side matcher alone would leave that answer
+ * invisible to the crawler, so the register below is generated at build time:
+ * every verified record is on the page as text, with its locator, before any
+ * JavaScript runs.
+ */
+const register = quotes
+  .filter((quote) => quoteVerification[quote.id.toUpperCase()])
+  .map((quote) => {
+    const note = quoteVerification[quote.id.toUpperCase()];
+    return {
+      id: quote.id,
+      text: quote.text,
+      author: quote.author,
+      school: quote.school,
+      source: quote.source,
+      themes: quote.themes,
+      sourcePath: quoteSourcePath(quote),
+      quotePath: `/quotes/${quote.id.toLowerCase()}`,
+      original: note.original ?? null,
+      variants: note.variants ?? [],
+      attribution: note.attribution,
+      lastVerified: note.lastVerified,
+    };
+  });
+
+// Alphabetical by opening word so a reader scanning for a remembered phrase
+// can find it without using the input box.
+const registerIndex = [...register].sort((a, b) =>
+  a.text.toLowerCase().localeCompare(b.text.toLowerCase()),
+);
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: sourceFaq.map((entry) => ({
+      "@type": "Question",
+      name: entry.question,
+      acceptedAnswer: { "@type": "Answer", text: entry.answer },
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Who Said This Quote? Find the Verified Source",
+    description:
+      "Trace a quotation to its primary source: original-language wording, edition and translator differences, and the commonly misattributed lines that circulate in place of the real text.",
+    url: new URL(pageUrl, Astro.site),
+    inLanguage: "en",
+    isPartOf: { "@type": "WebSite", name: "Philosophy Blind Box", url: Astro.site },
+    about: "Quotation attribution and source verification",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Verified quotation sources",
+    numberOfItems: register.length,
+    itemListElement: register.map((entry, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: entry.text,
+      url: new URL(entry.sourcePath, Astro.site),
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site) },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Quote source",
+        item: new URL(pageUrl, Astro.site),
+      },
+    ],
+  },
+];
+
+const lookupPayload = register.map((entry) => ({
+  i: entry.id,
+  t: entry.text,
+  a: entry.author,
+  s: entry.source,
+  p: entry.sourcePath,
+  q: entry.quotePath,
+}));
+---
+
+<BaseLayout
+  title="Who Said This Quote? Find the Verified Source"
+  description="Paste a quotation and trace it to its primary source. Verified locators, original-language wording, translation and edition differences, and the lines most often attributed to the wrong author."
+  canonical={pageUrl}
+  schema={schema}
+>
+  <div class="page-shell source-hub">
+    <header class="page-intro">
+      <p class="eyebrow">Sourcing and attribution</p>
+      <h1>Who Said This Quote? Find the Verified Source</h1>
+      <p>
+        A quotation that appears on fifty websites has been repeated fifty
+        times, not verified once. This page does the other thing: it names the
+        work, the section, and — where the passage is translated — the original
+        wording, so the sentence can be checked instead of believed.
+      </p>
+    </header>
+
+    <section class="source-lookup" aria-labelledby="lookup-title">
+      <h2 id="lookup-title">Look up a passage</h2>
+      <p>
+        Paste a sentence, or a few distinctive words from it. Matching runs
+        against the passages this archive has taken back to a located source.
+      </p>
+      <form class="source-lookup-form" id="source-lookup-form" role="search">
+        <div class="field">
+          <label for="source-query">Quotation or opening words</label>
+          <input
+            id="source-query"
+            type="search"
+            name="q"
+            placeholder="Try “truth happens to an idea” or “the unexamined life”"
+            autocomplete="off"
+          />
+        </div>
+        <button class="button" type="submit">Find the source</button>
+      </form>
+      <p class="results-summary" id="source-results-summary">
+        {register.length} passages in the verified register.
+      </p>
+      <ol class="source-results" id="source-results">
+        {
+          registerIndex.map((entry) => (
+            <li class="source-result" data-match={[entry.text, entry.author, entry.source].join(" ").toLowerCase()}>
+              <blockquote>{entry.text}</blockquote>
+              <dl class="source-locator">
+                <div>
+                  <dt>Thinker</dt>
+                  <dd>
+                    <a href={authorPath(entry.author)}>{entry.author}</a>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Source</dt>
+                  <dd>{entry.source}</dd>
+                </div>
+                {entry.original && (
+                  <div>
+                    <dt>Original ({entry.original.language})</dt>
+                    <dd lang="und">{entry.original.text}</dd>
+                  </div>
+                )}
+              </dl>
+              <p class="source-result-links">
+                <a href={entry.sourcePath}>Full source record</a>
+                {" · "}
+                <a href={entry.quotePath}>Read in context</a>
+              </p>
+            </li>
+          ))
+        }
+      </ol>
+      <p class="notice" id="source-lookup-notice" role="status"></p>
+    </section>
+
+    <section class="quote-depth prose-layout" aria-labelledby="method-title">
+      <aside class="prose-aside">
+        <p>
+          Three steps, in order. Each one catches a different kind of error, and
+          the third is the only one that can end in the answer “nobody said
+          this.”
+        </p>
+      </aside>
+      <div class="prose">
+        <h2 id="method-title">How to trace a quote's source in 3 steps</h2>
+        {
+          tracingSteps.map((step, index) => (
+            <>
+              <h3>
+                Step {index + 1}. {step.heading}
+              </h3>
+              <p>
+                <strong>{step.summary}</strong>
+              </p>
+              {step.paragraphs.map((paragraph) => (
+                <p>{paragraph}</p>
+              ))}
+              <p class="eyebrow">Where this step goes wrong</p>
+              <ul>
+                {step.pitfalls.map((pitfall) => (
+                  <li>{pitfall}</li>
+                ))}
+              </ul>
+            </>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="quote-depth prose-layout" aria-labelledby="misattributed-title">
+      <aside class="prose-aside">
+        <p>
+          Lines that are widely quoted under the wrong name, and what the record
+          actually supports.
+        </p>
+      </aside>
+      <div class="prose">
+        <h2 id="misattributed-title">Commonly misattributed quotations</h2>
+        <p>
+          Each entry below is a quotation this archive has worked through
+          against the cited edition. Where the words are real but the byline is
+          not, the actual writer is named.
+        </p>
+        <ol class="misattribution-list">
+          {
+            commonlyMisattributed.map((entry) => (
+              <li>
+                <blockquote>{entry.quote}</blockquote>
+                <p>
+                  <strong>Usually credited to:</strong> {entry.creditedTo}
+                </p>
+                <p>
+                  <strong>What the record shows:</strong> {entry.reallyWrittenBy}
+                </p>
+                <p>{entry.note}</p>
+                {entry.archiveHref && (
+                  <p class="related-link">
+                    <a href={entry.archiveHref}>See the full record and citation</a>
+                  </p>
+                )}
+              </li>
+            ))
+          }
+        </ol>
+      </div>
+    </section>
+
+    <section class="quote-depth prose-layout" aria-labelledby="faq-title">
+      <aside class="prose-aside">
+        <p>
+          The questions readers arrive with when they are holding a sentence and
+          want to know whether they can use it.
+        </p>
+      </aside>
+      <div class="prose">
+        <h2 id="faq-title">Frequently asked questions</h2>
+        {
+          sourceFaq.map((entry) => (
+            <div class="faq-item">
+              <h3>{entry.question}</h3>
+              <p>{entry.answer}</p>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="related-block" aria-labelledby="continue-title">
+      <div class="section-intro">
+        <p class="section-label">Keep going</p>
+        <h2 id="continue-title">Where to look next</h2>
+      </div>
+      <p class="hero-value" style="margin-top:0">
+        <a href="/quotes">The full quotation archive</a>
+        {" · "}
+        <a href="/thinkers">Browse by thinker</a>
+        {" · "}
+        <a href="/sourcing-method">How this archive sources its texts</a>
+        {" · "}
+        <a href="/editorial-policy">Editorial policy</a>
+        {" · "}
+        <a href="/what-is-philosophy">Start with a guide</a>
+      </p>
+    </section>
+  </div>
+
+  <script
+    id="source-register"
+    type="application/json"
+    set:html={JSON.stringify(lookupPayload)}
+  />
+  <script>
+    // Astro compiles `<script>` blocks as TypeScript and the project runs
+    // astro/tsconfigs/strict, so these inline browser scripts are annotated in
+    // TS syntax. JSDoc was tried first and is dropped by the transform, which
+    // leaves the annotations inert and the diagnostics in place.
+    type RegisterEntry = {
+      i: string;
+      t: string;
+      a: string;
+      s: string;
+      p: string;
+      q: string;
+    };
+
+    /**
+     * Progressive enhancement over the server-rendered register.
+     *
+     * Every result this script can show is already in the HTML above, so the
+     * page answers the query for a crawler and for a reader with scripting
+     * disabled. What the script adds is the ordinary convenience of typing.
+     */
+    const payload: RegisterEntry[] = JSON.parse(
+      document.querySelector("#source-register")?.textContent || "[]",
+    );
+    const form = document.querySelector("#source-lookup-form");
+    const input = document.querySelector<HTMLInputElement>("#source-query");
+    const list = document.querySelector("#source-results");
+    const summary = document.querySelector("#source-results-summary");
+    const notice = document.querySelector("#source-lookup-notice");
+
+    function normalise(value: string) {
+      return (value || "")
+        .toLocaleLowerCase()
+        .replace(/[\u2018\u2019\u201c\u201d"']/g, "")
+        .replace(/[^a-z0-9\s]/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    /**
+     * Word-overlap score, so a fragment of a passage still finds it.
+     */
+    function score(query: string, entry: RegisterEntry) {
+      const haystack = normalise(`${entry.t} ${entry.a} ${entry.s}`);
+      const needle = normalise(query);
+      if (!needle) return 0;
+      if (haystack.includes(needle)) return 1000 + needle.length;
+      const words = needle.split(" ").filter((word) => word.length > 2);
+      if (!words.length) return 0;
+      const hit = words.filter((word) => haystack.includes(word)).length;
+      return hit / words.length >= 0.6 ? hit * 10 : 0;
+    }
+
+    function render(query: string) {
+      if (!list) return;
+      const results = payload
+        .map((entry) => ({ entry, value: score(query, entry) }))
+        .filter((item) => item.value > 0)
+        .sort((a, b) => b.value - a.value)
+        .slice(0, 8)
+        .map((item) => item.entry);
+
+      list.replaceChildren();
+      for (const entry of results) {
+        const item = document.createElement("li");
+        item.className = "source-result";
+
+        const quote = document.createElement("blockquote");
+        quote.textContent = entry.t;
+
+        const meta = document.createElement("p");
+        const author = document.createElement("a");
+        author.href = `/quote-source/${entry.a
+          .normalize("NFKD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-|-$/g, "")}`;
+        author.textContent = entry.a;
+        meta.append(author, document.createTextNode(` — ${entry.s}`));
+
+        const links = document.createElement("p");
+        links.className = "source-result-links";
+        const full = document.createElement("a");
+        full.href = entry.p;
+        full.textContent = "Full source record";
+        const context = document.createElement("a");
+        context.href = entry.q;
+        context.textContent = "Read in context";
+        links.append(full, document.createTextNode(" · "), context);
+
+        item.append(quote, meta, links);
+        list.append(item);
+      }
+
+      if (summary) {
+        summary.textContent = query
+          ? `${results.length} match${results.length === 1 ? "" : "es"} for “${query}”.`
+          : `${payload.length} passages in the verified register.`;
+      }
+      if (notice && query && !results.length) {
+        notice.textContent =
+          "No passage in the verified register matches that. The record may not have been worked through yet, or the archive may not hold that quotation.";
+      } else if (notice) {
+        notice.textContent = "";
+      }
+    }
+
+    input?.addEventListener("input", () => render(input.value));
+    form?.addEventListener("submit", (event) => {
+      event.preventDefault();
+      render(input?.value || "");
+    });
+
+    const params = new URLSearchParams(location.search);
+    const initial = params.get("q");
+    if (initial && input) {
+      input.value = initial;
+      render(initial);
+    }
+  </script>
+</BaseLayout>

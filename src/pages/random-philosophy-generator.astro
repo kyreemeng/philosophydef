@@ -1,0 +1,359 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import quotes from "../data/quotes.json";
+import { canonicalizeTheme, themePath } from "../lib/content";
+
+/**
+ * A dedicated home for the archive's chance mechanic.
+ *
+ * The homepage's random draw was the site's most characteristic feature and
+ * its least searchable one: `random philosophy generator` is the only phrasing
+ * of that mechanic anybody types, and every impression the mechanic earned was
+ * landing on a homepage that announced itself as “chosen at random” — a phrase
+ * with no volume behind it. The generator now has its own URL that says the
+ * query out loud, and the homepage states its own topic.
+ *
+ * The page is a real tool rather than a doorway: it draws from the same corpus,
+ * shows the source with every draw, and explains what the archive's version of
+ * the mechanic is for.
+ */
+
+const allThemes = [
+  ...new Set(quotes.flatMap((quote) => quote.themes.map(canonicalizeTheme))),
+].filter((theme) => theme !== "Philosophy");
+const themes = [...allThemes].sort().slice(0, 18);
+
+const pageUrl = "/random-philosophy-generator";
+const byThinker = [...new Set(quotes.map((quote) => quote.author))].sort();
+
+const faq = [
+  {
+    question: "What is a random philosophy generator?",
+    answer:
+      "It draws one passage at random from a fixed corpus rather than from a list you choose. The point is to defeat your own selection bias: you read something you would not have picked, from a thinker you may not have opened, and the sentence has to stand on its own before any context arrives.",
+  },
+  {
+    question: "How is this generator different from a quotation list?",
+    answer:
+      "Every draw is a sourced passage from this archive, so a line you like can be taken back to the work, book, and section it came from — and where the wording in circulation differs from the cited wording, or the line is commonly misattributed, the record says so. A random draw you cannot check is just an anonymous sentence.",
+  },
+  {
+    question: "Are the quotations really random?",
+    answer:
+      "They are drawn uniformly at random from the archive's corpus of sourced passages, with the previous draw excluded so you do not see the same line twice in a row. There is no ranking, promotion, or weighting behind the sequence.",
+  },
+  {
+    question: "Which thinkers are in the pool?",
+    answer: `All ${byThinker.length} thinkers in the archive, across ${allThemes.length} themes and the major schools. The corpus is deliberately wider than the Western canon: Confucius, Laozi, Mencius, and Zhuangzi sit beside Aristotle and Nietzsche, and alongside Kwasi Wiredu, Nishida Kitarō, Frantz Fanon, Al-Ghazali, and Simone Weil.`,
+  },
+  {
+    question: "Can I use the generated quotations somewhere else?",
+    answer:
+      "Yes — every passage page carries APA, MLA, and Chicago citation formats, and each draw links to its own record. Quoting a sourced line with a locator is the whole reason this generator can exist without becoming another anonymous aphorism machine.",
+  },
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: "Random Philosophy Quote Generator",
+    applicationCategory: "EducationalApplication",
+    operatingSystem: "Any",
+    url: new URL(pageUrl, Astro.site),
+    inLanguage: "en",
+    description:
+      "Draw a random sourced philosophy quotation from a verified archive of English passages, with the work and section behind every line.",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    isPartOf: { "@type": "WebSite", name: "Philosophy Blind Box", url: Astro.site },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((entry) => ({
+      "@type": "Question",
+      name: entry.question,
+      acceptedAnswer: { "@type": "Answer", text: entry.answer },
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site) },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Random philosophy generator",
+        item: new URL(pageUrl, Astro.site),
+      },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Random Philosophy Quote Generator | Sourced, Not Random Noise"
+  description="Draw a random philosophy quotation from a verified archive. Every line comes with its thinker, work, and section — and the misattributions are recorded, not repeated."
+  canonical={pageUrl}
+  schema={schema}
+>
+  <div class="page-shell generator-page">
+    <header class="page-intro">
+      <p class="eyebrow">Chance, then citation</p>
+      <h1>Random Philosophy Quote Generator</h1>
+      <p>
+        One passage, drawn from {quotes.length.toLocaleString("en-US")} sourced
+        English quotations. The draw is random; the source is not optional.
+        Every result names the work it came from, so a line that stops you can
+        be taken further than the screen.
+      </p>
+    </header>
+
+    <section class="generator" aria-label="Your random draw">
+      <div class="generator-stage" id="generator-stage">
+        <article class="quote-reveal is-opened">
+          <div class="quote-live" aria-live="polite" aria-atomic="false">
+            <div class="quote-reveal-top">
+              <span>Randomly drawn</span>
+              <span id="generator-id">{quotes[0].id}</span>
+            </div>
+            <div class="quote-body">
+              <blockquote id="generator-text">{quotes[0].text}</blockquote>
+            </div>
+            <dl class="quote-reveal-meta">
+              <div>
+                <dt>Thinker</dt>
+                <dd id="generator-author">{quotes[0].author}</dd>
+              </div>
+              <div>
+                <dt>Source</dt>
+                <dd id="generator-source">{quotes[0].source}</dd>
+              </div>
+              <div>
+                <dt>Theme</dt>
+                <dd id="generator-theme">{quotes[0].themes[0] ?? "Philosophy"}</dd>
+              </div>
+              <div>
+                <dt>School</dt>
+                <dd id="generator-school">{quotes[0].school}</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="quote-actions">
+            <button class="button" id="generator-draw" type="button">
+              Draw another passage
+            </button>
+            <a
+              class="button secondary"
+              id="generator-link"
+              href={`/quotes/${quotes[0].id.toLowerCase()}`}
+            >
+              Citation and context
+            </a>
+          </div>
+          <p class="notice" id="generator-notice" role="status"></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-depth prose-layout" aria-labelledby="why-title">
+      <aside class="prose-aside">
+        <p>
+          Random selection is not decoration. It is the only way to read a
+          corpus without reading your own taste back out of it.
+        </p>
+      </aside>
+      <div class="prose">
+        <h2 id="why-title">Why draw at random</h2>
+        <p>
+          Choosing a quotation is a way of confirming what you already think.
+          Pick a theme and you get the passages that suit the mood you arrived
+          in; search a thinker and you get the thinker you already trusted.
+          Random selection removes that step. It hands you a sentence you did
+          not ask for, from a tradition you did not choose, and asks you to do
+          something with it before context softens it.
+        </p>
+        <p>
+          That is a reading practice, not a novelty. A corpus this wide —{" "}
+          {byThinker.length} thinkers across the Greek, Chinese, Indian, Islamic,
+          Jewish, African, Japanese, and Latin American traditions — is a
+          collection most readers will never browse evenly. Chance does the
+          browsing. Reading one passage a day at random covers ground a thematic
+          index would never surface, and the sequence is honest: the draw has no
+          editorial preference to serve.
+        </p>
+
+        <h2>What makes a generated quotation worth keeping</h2>
+        <p>
+          A random aphorism you cannot trace is worth very little. It can be
+          repeated but not examined, because there is nothing behind it to
+          examine — no argument, no occasion, sometimes no author. The value of
+          a quotation arrives with its locator: knowing that “What is not good
+          for the hive is not good for the bee” sits in Marcus Aurelius'
+          Meditations VI.54, in Greek, in a swarm rather than a hive, tells you
+          what kind of claim it is.
+        </p>
+        <p>
+          So every draw here is a record rather than a string. The passage
+          arrives with its thinker, its work and section, and a link to the page
+          where the sourced wording is written out beside the wording that
+          circulates instead — plus the attribution problems that attach to it
+          where they exist. If you want to know what happens when you check a
+          line rather than trusting it, the{" "}
+          <a href="/quote-source">sourcing method</a> is written out in three
+          steps.
+        </p>
+
+        <h2>Ways to use the generator</h2>
+        <p>
+          <strong>Daily reading.</strong> One draw a day, then read the passage's
+          page. A year covers far more of the archive than a theme list would,
+          and you will meet schools you had no plan to open.
+        </p>
+        <p>
+          <strong>Writing prompts.</strong> Take the draw as a claim you have to
+          argue with, not a sentiment to agree with. The passages that resist
+          agreement are the useful ones.
+        </p>
+        <p>
+          <strong>Finding a phrase you half-remember.</strong> If a draw is close
+          to something you were trying to recall,{" "}
+          <a href="/quote-source">paste the fragment into the source finder</a>{" "}
+          and it will match against the passages that have been taken back to a
+          located source.
+        </p>
+        <p>
+          <strong>Teaching and discussion.</strong> Drawing blind keeps a room
+          from settling on the canonical handful of lines. If you need something
+          more targeted, the{" "}
+          <a href="/quotes/famous">famous</a>,{" "}
+          <a href="/quotes/short">short</a>, and{" "}
+          <a href="/quotes/best">best</a> collections are curated rather than
+          drawn.
+        </p>
+      </div>
+    </section>
+
+    <section class="themes-section" aria-labelledby="browse-title">
+      <div class="section-intro">
+        <p class="section-label">Or choose deliberately</p>
+        <h2 id="browse-title">Browse by theme instead</h2>
+      </div>
+      <p class="hero-value" style="margin-top:0">
+        {
+          themes.map((theme, index) => (
+            <>
+              {index > 0 && " · "}
+              <a href={themePath(theme)}>{theme}</a>
+            </>
+          ))
+        }
+        {" · "}
+        <a href="/themes">All themes</a>
+        {" · "}
+        <a href="/thinkers">All thinkers</a>
+        {" · "}
+        <a href="/quotes">The full archive</a>
+      </p>
+    </section>
+
+    <section class="quote-depth prose-layout" aria-labelledby="faq-title">
+      <aside class="prose-aside">
+        <p>What the generator is, and what it is not.</p>
+      </aside>
+      <div class="prose">
+        <h2 id="faq-title">Frequently asked questions</h2>
+        {
+          faq.map((entry) => (
+            <div class="faq-item">
+              <h3>{entry.question}</h3>
+              <p>{entry.answer}</p>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+  </div>
+
+  <script>
+    // Astro compiles `<script>` blocks as TypeScript, and the project runs
+    // astro/tsconfigs/strict, so these inline browser scripts are annotated in
+    // TS syntax rather than left to infer `any`. JSDoc was tried first and is
+    // dropped by the transform, which leaves the annotations inert.
+    type CompactQuote = {
+      id: string;
+      text: string;
+      author: string;
+      school: string;
+      source: string;
+      themes: string[];
+    };
+
+    const stage = document.querySelector("#generator-stage");
+    const text = document.querySelector("#generator-text");
+    const id = document.querySelector("#generator-id");
+    const author = document.querySelector("#generator-author");
+    const source = document.querySelector("#generator-source");
+    const theme = document.querySelector("#generator-theme");
+    const school = document.querySelector("#generator-school");
+    const link = document.querySelector("#generator-link");
+    const notice = document.querySelector("#generator-notice");
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    let data: CompactQuote[] = [];
+    let current: CompactQuote = {
+      id: "Q0001",
+      text: "",
+      author: "",
+      school: "",
+      source: "",
+      themes: [],
+    };
+
+    function draw() {
+      if (data.length < 2) return current;
+      let next = current;
+      while (next.id === current.id) {
+        next = data[Math.floor(Math.random() * data.length)];
+      }
+      return next;
+    }
+
+    function render(quote: CompactQuote) {
+      current = quote;
+      if (text) text.textContent = quote.text;
+      if (id) id.textContent = quote.id;
+      if (author) author.textContent = quote.author;
+      if (source) source.textContent = quote.source || "Tradition";
+      if (theme) theme.textContent = quote.themes?.[0] || "Philosophy";
+      if (school) school.textContent = quote.school;
+      if (link)
+        link.setAttribute("href", `/quotes/${quote.id.toLowerCase()}`);
+      if (notice) notice.textContent = "";
+    }
+
+    function showAnother() {
+      stage?.classList.add("is-changing");
+      window.setTimeout(() => {
+        render(draw());
+        stage?.classList.remove("is-changing");
+        if (notice) {
+          notice.textContent = "Another passage, drawn at random from the corpus.";
+        }
+      }, reducedMotion.matches ? 0 : 200);
+    }
+
+    async function boot() {
+      try {
+        const response = await fetch("/data/quotes-compact.json");
+        data = await response.json();
+      } catch {
+        data = [];
+      }
+      if (data.length) render(data[Math.floor(Math.random() * data.length)]);
+      document.querySelector("#generator-draw")?.addEventListener("click", showAnother);
+    }
+
+    void boot();
+  </script>
+</BaseLayout>

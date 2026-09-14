@@ -3,6 +3,15 @@ import { themeGroups } from "./content";
 
 export const SITE_NAME = "Philosophy Blind Box";
 
+/**
+ * Astro types `Astro.site` as `URL | undefined` because a project without a
+ * `site` in its config has none. This one has it, so the fallback is a
+ * type-safety default rather than a real branch — but giving the parameter a
+ * default value is what lets every call site pass `Astro.site` directly
+ * instead of asserting non-null in a dozen places.
+ */
+export const SITE_URL = new URL("https://www.philosophydef.com");
+
 const themeNames = themeGroups()
   .map((theme) => theme.slug.replace(/-/g, " "))
   .slice(0, 12);
@@ -27,7 +36,7 @@ const schoolNames = [...new Set(quotes.map((quote) => quote.school))].slice(
  * really exists. No author name or credential is invented: a fabricated
  * byline is the fastest way to fail the exact review these signals invite.
  */
-export function websiteSchema(site: URL) {
+export function websiteSchema(site: URL = SITE_URL) {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -48,7 +57,7 @@ export function websiteSchema(site: URL) {
   };
 }
 
-export function organizationSchema(site: URL) {
+export function organizationSchema(site: URL = SITE_URL) {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",

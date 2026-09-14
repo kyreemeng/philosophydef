@@ -1,0 +1,225 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import quotes from "../../data/quotes.json";
+import type { Quote } from "../../lib/content";
+import {
+  quoteSourcePath,
+  slugify,
+  thinkerSourcePath,
+  thinkerSourceTitle,
+} from "../../lib/content";
+import { quoteVerification } from "../../data/quote-verification";
+import { thinkerSourcing } from "../../data/thinker-sourcing";
+import { guides } from "../../data/guides";
+
+interface Props {
+  author: string;
+  items: Quote[];
+}
+
+const { author, items } = Astro.props;
+const profile = thinkerSourcing[author];
+const pageUrl = thinkerSourcePath(author);
+const verified = items.filter((item) => quoteVerification[item.id.toUpperCase()]);
+const works = [...new Set(items.map((item) => item.source))];
+const guide = guides.find((entry) => entry.thinkers.includes(author));
+const lastName = author.split(" ").slice(-1)[0];
+
+const faq = [
+  {
+    question: `Where can I check quotations attributed to ${author}?`,
+    answer: `${profile.citation} This archive cites ${author} from ${profile.corpus} Every passage listed on this page carries that locator, so it can be found in any edition of the work.`,
+  },
+  {
+    question: `What is the most common mistake when quoting ${author}?`,
+    answer: profile.hazard,
+  },
+  {
+    question: `What language did ${author} write in?`,
+    answer: `${profile.language}. ${
+      profile.language.includes("English")
+        ? "For an author writing in English the wording is settled at source, but editions and titles are not — see the citation note above."
+        : "Any English sentence you read is a translation, so a complete source names the translator as well as the passage."
+    }`,
+  },
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${author} quote sources`,
+    description: `Verified citations for ${items.length} quotations attributed to ${author}, with the citation system to use and the sourcing hazard to watch for.`,
+    url: new URL(pageUrl, Astro.site),
+    inLanguage: "en",
+    numberOfItems: items.length,
+    about: author,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((entry) => ({
+      "@type": "Question",
+      name: entry.question,
+      acceptedAnswer: { "@type": "Answer", text: entry.answer },
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site) },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Quote source",
+        item: new URL("/quote-source", Astro.site),
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: author,
+        item: new URL(pageUrl, Astro.site),
+      },
+    ],
+  },
+];
+
+const title = thinkerSourceTitle(author, items.length);
+const description = `Where ${author}'s quotations can be checked: ${works
+  .slice(0, 3)
+  .join("; ")}. ${profile.citation.split(".")[0]}.`.slice(0, 158);
+---
+
+<BaseLayout title={title} description={description} canonical={pageUrl} schema={schema}>
+  <article class="page-shell source-page">
+    <header class="page-intro">
+      <p class="eyebrow">Quote sources</p>
+      <h1>{author} quote sources</h1>
+      <p>
+        {items.length} passages attributed to {author} in this archive, each with
+        the locator that lets you find it in the work itself — and the one thing
+        that most often goes wrong when people quote {lastName}.
+      </p>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/quote-source">Quote source</a>
+        <span aria-hidden="true">/</span>
+        <span>{author}</span>
+      </nav>
+    </header>
+
+    <section class="quote-depth prose-layout" aria-labelledby="profile-title">
+      <aside class="prose-aside">
+        <p>
+          How to cite this author, and what circulates under the name that is
+          not theirs to give.
+        </p>
+      </aside>
+      <div class="prose">
+        <h2 id="profile-title">Sourcing profile</h2>
+        <dl class="source-profile">
+          <dt>Language of the works</dt>
+          <dd>{profile.language}</dd>
+          <dt>Cited here from</dt>
+          <dd>{profile.corpus}</dd>
+          <dt>How to cite it</dt>
+          <dd>{profile.citation}</dd>
+          <dt>Where quotations of this author go wrong</dt>
+          <dd>{profile.hazard}</dd>
+        </dl>
+        {
+          verified.length > 0 && (
+            <p>
+              {verified.length} of the passages below have been worked through
+              against the cited edition, with the original-language wording and
+              the circulating variants recorded on their own pages.
+            </p>
+          )
+        }
+      </div>
+    </section>
+
+    <section class="source-register" aria-labelledby="passages-title">
+      <div class="section-intro">
+        <p class="section-label">The register</p>
+        <h2 id="passages-title">{author} quotations with located sources</h2>
+      </div>
+      <ol class="source-result-list">
+        {
+          items.map((item) => {
+            const note = quoteVerification[item.id.toUpperCase()];
+            return (
+              <li class="source-result">
+                <blockquote>{item.text}</blockquote>
+                <dl class="source-locator">
+                  <div>
+                    <dt>Source</dt>
+                    <dd>{item.source}</dd>
+                  </div>
+                  <div>
+                    <dt>Theme</dt>
+                    <dd>{item.themes[0] ?? item.school}</dd>
+                  </div>
+                  {note?.original && (
+                    <div>
+                      <dt>Original ({note.original.language})</dt>
+                      <dd lang="und">{note.original.text}</dd>
+                    </div>
+                  )}
+                </dl>
+                <p class="source-result-links">
+                  {note ? (
+                    <a href={quoteSourcePath(item)}>Full source record</a>
+                  ) : (
+                    <a href={`/quotes/${item.id.toLowerCase()}`}>
+                      Citation and context
+                    </a>
+                  )}
+                  {" · "}
+                  <a href={`/quotes/${item.id.toLowerCase()}`}>Read in context</a>
+                </p>
+              </li>
+            );
+          })
+        }
+      </ol>
+    </section>
+
+    <section class="quote-depth prose-layout" aria-labelledby="faq-title">
+      <aside class="prose-aside">
+        <p>Sourcing questions this author raises in particular.</p>
+      </aside>
+      <div class="prose">
+        <h2 id="faq-title">Frequently asked questions</h2>
+        {
+          faq.map((entry) => (
+            <div class="faq-item">
+              <h3>{entry.question}</h3>
+              <p>{entry.answer}</p>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="related-block" aria-labelledby="next-title">
+      <div class="section-intro">
+        <p class="section-label">Keep going</p>
+        <h2 id="next-title">Where to look next</h2>
+      </div>
+      <p class="hero-value" style="margin-top:0">
+        <a href={`/thinkers/${slugify(author)}`}>All {author} quotations</a>
+        {" · "}
+        <a href="/quote-source">Trace any quotation to its source</a>
+        {" · "}
+        <a href="/quotes">The full archive</a>
+        {guide && (
+          <>
+            {" · "}
+            <a href={`/${guide.slug}`}>{guide.title}</a>
+          </>
+        )}
+      </p>
+    </section>
+  </article>
+</BaseLayout>

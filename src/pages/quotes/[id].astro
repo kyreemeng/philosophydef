@@ -4,9 +4,9 @@ import quotes from "../../data/quotes.json";
 import {
   adjacentQuotes,
   canonicalizeTheme,
-  citationFormats,
   quoteDescription,
   quoteHeading,
+  quoteSourcePath,
   quoteTitle,
   relatedByAuthor,
   relatedByTheme,
@@ -14,8 +14,17 @@ import {
   themeGroups,
   themePath,
   themeSlug,
+  thinkerSourcePath,
   truncateWords,
 } from "../../lib/content";
+import { buildCitations, resolveSource } from "../../lib/citation";
+import {
+  corpusReviewDate,
+  isInVerificationBatch,
+  languageCode,
+  quoteVerification,
+} from "../../data/quote-verification";
+import { hasThinkerSourcePage } from "../../data/thinker-sourcing";
 import { guides } from "../../data/guides";
 import {
   isTextTradition,
@@ -28,6 +37,8 @@ import {
   shouldIndexThinkerThemePair,
 } from "../../lib/indexing";
 import { quoteCommentary } from "../../data/quote-commentary";
+import { chanMasterNote, textTraditionFor } from "../../data/text-traditions";
+import { conceptsForThemes, conceptPath, conceptSlug } from "../../data/concept-glossary";
 
 export function getStaticPaths() {
   return quotes.map((quote) => ({
@@ -55,10 +66,73 @@ const canonicalThemeNames = [
 const primaryTheme =
   canonicalThemeNames.find((theme) => indexableThemeNames.has(theme)) ??
   "Philosophy";
-const sameAuthor = relatedByAuthor(quote, 5);
-const sameTheme = relatedByTheme(quote, 5);
+const sameAuthor = relatedByAuthor(quote, 2);
+const sameTheme = relatedByTheme(quote, 2);
 const { prev, next } = adjacentQuotes(quote);
-const citations = citationFormats(quote);
+
+/**
+ * The verification record, when one exists.
+ *
+ * Search Console shows every position-1–3 rank this archive has ever held is a
+ * “quote source” query, so the material that answers that question belongs on
+ * the page a searcher actually lands on — not only on the sourcing hub.
+ */
+const verification = quoteVerification[quote.id.toUpperCase()];
+const verificationDate =
+  verification?.lastVerified ?? corpusReviewDate(quote.id, Boolean(commentary));
+const originalLanguageCode = verification?.original
+  ? languageCode(verification.original.language)
+  : undefined;
+const inVerificationBatch = isInVerificationBatch(quote.id);
+
+/**
+ * The source record is now built from the corpus source, the works registry,
+ * and the verification register together.
+ *
+ * This replaced three paragraphs that rendered on 661, 661, and 662 of the 692
+ * quotation pages respectively — the same sentences about divergent wording and
+ * uncontested attribution, whether or not the archive held any evidence either
+ * way. The register's own header states the rule the page was breaking: "Pages
+ * without an entry render the citation block alone rather than filler, because
+ * a boilerplate paragraph repeated across 690 pages is the exact thin-content
+ * signature that triggered the August quality re-evaluation." The rule is now
+ * what the template does.
+ *
+ * One of those sentences was worse than filler. "Nothing about this passage's
+ * attribution is contested in the record this archive consulted" asserts a
+ * negative finding on 661 pages that the archive had not checked, which is the
+ * opposite of what a page claiming verification should say. Where there is no
+ * record, the page now says so — as a labelled status field, not as a claim.
+ */
+const resolvedSource = resolveSource(quote.source);
+const work = resolvedSource.work;
+const tradition = textTraditionFor(quote.author);
+const chanNote = chanMasterNote(quote.author);
+const citations = buildCitations({
+  author: quote.author,
+  text: quote.text,
+  source: quote.source,
+  url: quoteUrl,
+  accessDate: verificationDate,
+});
+
+/**
+ * How long the English wording is decides how large the passage can be set. The
+ * homepage fits its display type with JavaScript; a static page can do it with
+ * a bracket, which costs nothing and works with scripting off.
+ */
+const wordCount = quote.text.trim().split(/\s+/).filter(Boolean).length;
+const lengthTier =
+  quote.text.length > 150 || wordCount > 26
+    ? "xl"
+    : quote.text.length > 100 || wordCount > 17
+      ? "long"
+      : quote.text.length > 56 || wordCount > 9
+        ? "medium"
+        : "short";
+
+const authorQuoteCount = quotes.filter((item) => item.author === quote.author).length;
+const thinkerHasSourcePage = hasThinkerSourcePage(quote.author, authorQuoteCount);
 const thinkerGuide = thinkerGuideFor(quote.author, quote.school);
 const themeNames = canonicalThemeNames.filter((theme) =>
   indexableThemeNames.has(theme),
@@ -94,7 +168,24 @@ const hasIndexableThinkerThemePage = shouldIndexThinkerThemePair({
   quotes: thinkerThemeQuotes,
 });
 
-const sourceContext = `The archive attributes this English wording to ${quote.source} and files it under ${quote.school}. That locator distinguishes the passage from loose internet attributions: readers can return to the named work or section to check translation, surrounding argument, and edition-specific wording.`;
+/**
+ * Technical terms this page's own passage trades on, pulled from the glossary
+ * by theme. A reader meeting *eudaimonia*, *wu wei*, or *śūnyatā* inside a
+ * single quoted sentence has no way to learn that the word is being used
+ * technically; this is where the page tells them.
+ */
+const concepts = conceptsForThemes(canonicalThemeNames, 4);
+
+/**
+ * The reading section carries one page-specific sentence and then hands off.
+ *
+ * A methodological paragraph explaining what a locator is would read the same
+ * on all 692 pages, which is the templated-prose failure this rewrite exists to
+ * remove. The explanation belongs once, on the sourcing hub, where a reader who
+ * wants it will find it; here it is a link. What stays is the part that differs
+ * page by page: which work, which section, which tradition.
+ */
+const sourceContext = `The archive attributes this English wording to ${quote.source} and files it under ${quote.school}.`;
 const thinkerContext = thinkerGuide
   ? firstSentences(thinkerGuide.overview, 2)
   : `${quote.author} is represented here through sourced English passages associated with ${quote.school}.`;
@@ -106,16 +197,24 @@ const readingContext = primaryThemeGuide
       .map((theme) => theme.toLowerCase())
       .join(", ")}. Those labels identify the concepts it can illuminate; they do not replace the argument surrounding it in ${quote.source}.`;
 
-// Search Console shows that a large share of impressions arrive on
-// "…quote source" phrasing: people have the words and want the citation. A
-// short, visible FAQ answering those exact questions is what turns a
-// position 5-20 impression into a click, and FAQPage markup makes the answers
-// eligible for rich results.
+/**
+ * A short, visible FAQ answering the queries Search Console shows readers
+ * arrive with, and one entry per piece of material the archive actually holds.
+ * An answer is only written where there is something to answer with.
+ */
 const shortQuote = truncateWords(quote.text, 8);
-const sourceAnswer =
-  quote.source && quote.source !== "Tradition"
-    ? `The passage is attributed to ${quote.author}, ${quote.source}. ${sourceContext}`
-    : `The passage is attributed to ${quote.author} and filed under ${quote.school}. This archive records the English wording in circulation and names the tradition it belongs to rather than inventing a precise locator.`;
+/**
+ * The FAQ answer is built only from facts that differ page by page.
+ *
+ * An earlier draft closed every answer with one of two fixed sentences
+ * explaining what a locator establishes, which put identical prose on several
+ * hundred pages and repeated the reading section verbatim. Anything that would
+ * read the same on the next page belongs in the section body or on the hub,
+ * not in an answer that claims to answer *this* question.
+ */
+const sourceAnswer = `“${shortQuote}” comes from ${citations.workTitle}${
+  resolvedSource.displayLocus ? `, ${resolvedSource.displayLocus}` : ""
+}${work?.year ? ` (${work.year})` : ""}, attributed to ${quote.author}.`;
 
 const faq = [
   {
@@ -126,6 +225,24 @@ const faq = [
     question: `What does ${quote.author} mean by ${primaryTheme.toLowerCase()}?`,
     answer: readingContext,
   },
+  ...(verification?.variants?.length
+    ? [
+        {
+          question: `Is the wording of this ${quote.author} quotation commonly changed?`,
+          answer: `The wording recorded here is “${quote.text}” Forms in circulation that differ: ${verification.variants.join(
+            " / ",
+          )}${verification.original ? ` The ${verification.original.language} reads “${verification.original.text}”` : ""}`,
+        },
+      ]
+    : []),
+  ...(verification
+    ? [
+        {
+          question: `Is this quotation attributed correctly?`,
+          answer: verification.attribution,
+        },
+      ]
+    : []),
 ];
 
 const schema = [
@@ -149,9 +266,20 @@ const schema = [
     },
     about: primaryTheme,
     keywords: themeNames,
-    citation: quote.source,
+    citation: {
+      "@type": "CreativeWork",
+      name: citations.workTitle,
+      ...(work?.year ? { dateCreated: work.year } : {}),
+      ...(work?.original
+        ? { inLanguage: work.original.languageTag, alternateName: work.original.text }
+        : {}),
+      ...(resolvedSource.displayLocus ? { description: resolvedSource.displayLocus } : {}),
+      ...(originalLanguageCode
+        ? { inLanguage: originalLanguageCode, text: verification?.original?.text }
+        : {}),
+    },
     mainEntityOfPage: new URL(quoteUrl, Astro.site),
-    dateModified: "2026-08-30",
+    dateModified: verificationDate,
     isPartOf: {
       "@type": "Collection",
       name: "Philosophy Blind Box",
@@ -184,6 +312,20 @@ const schema = [
     ],
   },
 ];
+
+/** Sections that will actually render, so the contents list matches the page. */
+const contents = [
+  { id: "source-record", label: "Source record" },
+  ...(verification?.original || verification?.variants?.length
+    ? [{ id: "exact-wording", label: "Exact wording" }]
+    : []),
+  ...(verification ? [{ id: "attribution", label: "Attribution notes" }] : []),
+  { id: "reading", label: "Reading the source" },
+  ...(commentary ? [{ id: "interpretation", label: "Interpretation" }] : []),
+  ...(concepts.length ? [{ id: "concepts", label: "Terms in this passage" }] : []),
+  { id: "citing", label: "How to cite" },
+  { id: "faq", label: "Questions" },
+];
 ---
 
 <BaseLayout
@@ -195,15 +337,8 @@ const schema = [
   schema={schema}
   robots={indexable ? undefined : "noindex, follow, max-image-preview:large"}
 >
-  <article class="page-shell">
-    <header class="page-intro">
-      <p class="eyebrow">{quote.id}</p>
-      <h1>{heading}</h1>
-      <p>
-        {quote.source && quote.source !== "Tradition"
-          ? `Verified English quotation. Primary source: ${quote.source}. Theme: ${primaryTheme.toLowerCase()}.`
-          : `An English quotation associated with ${quote.school}, organized here under ${primaryTheme.toLowerCase()}.`}
-      </p>
+  <article class="page-shell quote-page">
+    <header class="quote-masthead">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/quotes">Quotes</a>
         <span aria-hidden="true">/</span>
@@ -211,132 +346,387 @@ const schema = [
         <span aria-hidden="true">/</span>
         <span>{quote.id}</span>
       </nav>
+
+      {/* The passage itself is the page's subject, so it is the page's largest
+          heading rather than a truncated echo of it sitting above a second,
+          larger copy of the same words. */}
+      <h1 class="quote-headline" data-length={lengthTier}>{heading}</h1>
+
+      {/* The locator, in the form a philosophy paper uses. This line is the
+          archive's claim, so it sits directly under the passage rather than at
+          the foot of the page among the style formats. */}
+      <p class="quote-locator">{citations.primary}</p>
+
+      <dl class="quote-meta">
+        <div class="meta-item">
+          <dt>Thinker</dt>
+          <dd>
+            <a href={`/thinkers/${slugify(quote.author)}`}>{quote.author}</a>
+          </dd>
+        </div>
+        <div class="meta-item">
+          <dt>Tradition</dt>
+          <dd>{quote.school}</dd>
+        </div>
+        <div class="meta-item">
+          <dt>Work</dt>
+          <dd>{citations.workTitle}</dd>
+        </div>
+        <div class="meta-item">
+          <dt>Theme</dt>
+          <dd>
+            <a href={themePath(primaryTheme)}>
+              {primaryTheme === "Philosophy" ? "All themes" : primaryTheme}
+            </a>
+          </dd>
+        </div>
+      </dl>
+
+      <div class="quote-tools">
+        <a class="button" href="/#featured-quote">Another quotation</a>
+        <a class="button secondary" href={`/thinkers/${slugify(quote.author)}`}>
+          More from this thinker
+        </a>
+        {/* Every passage links the sourcing hub. The hub is the page this
+            archive is building the “who said this” line around, and it can
+            only rank if several hundred pages point at it; a passage page
+            pointing at “where to check a quotation” is a topical link, not
+            a footer link. */}
+        <a class="button secondary" href="/quote-source">
+          {inVerificationBatch
+            ? "How to verify this source"
+            : "Trace a quotation to its source"}
+        </a>
+      </div>
     </header>
 
-    <section class="quote-stage" aria-labelledby="quotation">
-      <div class="quote-panel">
-        <p class="quote-index">English</p>
-        <div>
-          <blockquote class="quote-text" id="quotation">
-            {quote.text}
-          </blockquote>
-          <div class="quote-meta">
-            <div class="meta-item">
-              <span>Thinker</span>
-              <strong>
-                <a href={`/thinkers/${slugify(quote.author)}`}>{quote.author}</a>
-              </strong>
-            </div>
-            <div class="meta-item">
-              <span>School</span>
-              <strong>{quote.school}</strong>
-            </div>
-            <div class="meta-item">
-              <span>Source</span>
-              <strong>{quote.source || "Tradition"}</strong>
-            </div>
-            <div class="meta-item">
-              <span>Theme</span>
-              <strong>
-                <a href={themePath(primaryTheme)}>
-                  {primaryTheme === "Philosophy" ? "Browse all themes" : primaryTheme}
-                </a>
-              </strong>
-            </div>
-          </div>
-          <div class="quote-tools">
-            <a class="button" href="/#featured-quote">Another quotation</a>
-            <a class="button secondary" href={`/thinkers/${slugify(quote.author)}`}>
-              More from this thinker
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="quote-depth prose-layout">
-      <aside class="prose-aside">
-        <p>
-          Context and commentary are editorial aids for reading. They do not replace
-          the primary text or scholarly commentary.
+    <div class="quote-layout">
+      {/* Long pages need a way through them. Guides have had one; quotation
+          pages grew to eight sections without. */}
+      <aside class="quote-contents" aria-label="On this page">
+        <p class="eyebrow">On this page</p>
+        <ol>
+          {contents.map((item) => <li><a href={`#${item.id}`}>{item.label}</a></li>)}
+        </ol>
+        <p class="quote-contents-status">
+          <span class={verification ? "status status-verified" : "status"}>
+            {verification ? "Verified" : "Recorded"}
+          </span>
+          <span>
+            {verification
+              ? `Checked ${verification.lastVerified}`
+              : `Not yet collated · ${verificationDate}`}
+          </span>
         </p>
       </aside>
-      <div class="prose">
-        <h2>Source and attribution</h2>
-        <p>{sourceContext}</p>
-        <h2>About {quote.author}</h2>
-        <p>{thinkerContext}</p>
+
+      <div class="quote-sections">
+        <section id="source-record" class="quote-block" aria-labelledby="source-record-title">
+          <h2 id="source-record-title">Source record</h2>
+          <dl class="source-record">
+            <div>
+              <dt>Work</dt>
+              <dd>
+                {citations.workTitle}
+                {work?.original && (
+                  <> · <span lang={work.original.languageTag}>{work.original.text}</span></>
+                )}
+              </dd>
+            </div>
+            <div>
+              <dt>Passage</dt>
+              <dd>
+                {resolvedSource.displayLocus || (
+                  <span class="muted">
+                    No passage locator recorded in the corpus for this entry.
+                  </span>
+                )}
+              </dd>
+            </div>
+            <div>
+              <dt>Composed</dt>
+              <dd>{work?.year ?? "Not established for this work in the registry"}</dd>
+            </div>
+            <div>
+              <dt>Originally written in</dt>
+              <dd>
+                {verification?.original?.language ??
+                  work?.original?.language ??
+                  tradition?.language ?? (
+                    <span class="muted">Not recorded</span>
+                  )}
+              </dd>
+            </div>
+            <div>
+              <dt>English wording</dt>
+              <dd>
+                {work?.translator ? (
+                  <>From {work.translator}</>
+                ) : (
+                  <span class="muted">
+                    Translator not recorded — the archive holds the English text
+                    but not the edition it came from.
+                  </span>
+                )}
+              </dd>
+            </div>
+            <div>
+              <dt>Verification status</dt>
+              <dd>
+                {verification
+                  ? `Checked against the cited edition on ${verification.lastVerified}.`
+                  : `Recorded from the corpus on ${verificationDate}; not yet checked against an edition.`}
+              </dd>
+            </div>
+          </dl>
+
+          {tradition && (
+            <details class="source-note">
+              <summary>How this text is transmitted</summary>
+              <p>{tradition.form}</p>
+              <p>{tradition.transmission}</p>
+              <p>
+                <strong>Reading caution.</strong> {tradition.readingNote}
+              </p>
+            </details>
+          )}
+          {chanNote && (
+            <details class="source-note">
+              <summary>What the attribution rests on</summary>
+              <p>{chanNote}</p>
+            </details>
+          )}
+          {work?.note && (
+            <details class="source-note">
+              <summary>About this citation</summary>
+              <p>{work.note}</p>
+            </details>
+          )}
+        </section>
+
+        {(verification?.original || verification?.variants?.length) && (
+          <section id="exact-wording" class="quote-block" aria-labelledby="exact-wording-title">
+            <h2 id="exact-wording-title">Exact wording</h2>
+            <dl class="wording-list">
+              <div>
+                <dt>English (as recorded here)</dt>
+                <dd>“{quote.text}”</dd>
+              </div>
+              {verification?.original && (
+                <div>
+                  <dt>{verification.original.language}</dt>
+                  <dd lang={originalLanguageCode ?? "und"}>
+                    “{verification.original.text}”
+                  </dd>
+                </div>
+              )}
+            </dl>
+            {verification?.original?.note && <p>{verification.original.note}</p>}
+            {verification?.variants?.length ? (
+              <>
+                <h3>Forms in circulation that differ</h3>
+                <ul class="variant-list">
+                  {verification.variants.map((variant) => <li>“{variant}”</li>)}
+                </ul>
+              </>
+            ) : null}
+          </section>
+        )}
+
+        {verification && (
+          <section id="attribution" class="quote-block" aria-labelledby="attribution-title">
+            <h2 id="attribution-title">Attribution notes</h2>
+            <p>{verification.attribution}</p>
+            {inVerificationBatch && (
+              <p class="related-link">
+                <a href={quoteSourcePath(quote)}>
+                  Open the full source record for this passage
+                </a>
+                {" · "}
+                {thinkerHasSourcePage ? (
+                  <a href={thinkerSourcePath(quote.author)}>
+                    All {quote.author} source records
+                  </a>
+                ) : (
+                  <a href="/quote-source">How to trace any quotation to its source</a>
+                )}
+              </p>
+            )}
+          </section>
+        )}
+
+        <section id="reading" class="quote-block" aria-labelledby="reading-title">
+          <h2 id="reading-title">Reading the cited source</h2>
+          <p>{sourceContext}</p>
+          <p class="related-link">
+            <a href="/sourcing-method#locators">
+              What a locator tells you, and what it does not
+            </a>
+            {" · "}
+            {/*
+              The per-passage source record only exists for passages in the
+              verification batch. Linking to it unconditionally sent 661 pages
+              to a URL the build never emits; the hub is the honest target
+              otherwise.
+            */}
+            <a href={inVerificationBatch ? quoteSourcePath(quote) : "/quote-source"}>
+              {inVerificationBatch
+                ? "Open the full source record for this passage"
+                : "How this archive traces a quotation"}
+            </a>
+          </p>
+          <h3>About {quote.author}</h3>
+          <p>{thinkerContext}</p>
+        </section>
+
+        {commentary ? (
+          <section id="interpretation" class="quote-block" aria-labelledby="interpretation-title">
+            <h2 id="interpretation-title">Interpretation</h2>
+            <p>{commentary.interpretation}</p>
+            <h3>Why it matters</h3>
+            <p>{commentary.insight}</p>
+          </section>
+        ) : (
+          <section class="quote-block" aria-labelledby="how-to-read-title">
+            <h2 id="how-to-read-title">How to read this passage</h2>
+            <p>{readingContext}</p>
+          </section>
+        )}
+
         {
-          commentary ? (
-            <>
-              <h2>Interpretation</h2>
-              <p>{commentary.interpretation}</p>
-              <h2>Why it matters</h2>
-              <p>{commentary.insight}</p>
-            </>
-          ) : (
-            <>
-              <h2>How to read this passage</h2>
-              <p>{readingContext}</p>
-            </>
-          )
-        }
-        {
-          themeNotes.length > 0 && (
-            <>
-              <h2>Concepts in this quote</h2>
-              <dl>
-                {themeNotes.map((theme) => (
-                  <>
+          concepts.length > 0 && (
+            <section id="concepts" class="quote-block" aria-labelledby="concepts-title">
+              <h2 id="concepts-title">Terms in this passage</h2>
+              <dl class="concept-list">
+                {concepts.map((concept) => (
+                  <div class="concept" id={`concept-${conceptSlug(concept)}`}>
                     <dt>
-                      <a href={`/themes/${theme.slug}`}>{theme.name}</a>
+                      <span class="concept-term">{concept.term}</span>
+                      <span class="concept-language">
+                        {concept.language}
+                        {concept.original && (
+                          <>
+                            {" · "}
+                            <span lang={concept.languageTag ?? "und"}>
+                              {concept.original}
+                            </span>
+                          </>
+                        )}
+                      </span>
+                      <span class="concept-gloss">{concept.gloss}</span>
                     </dt>
                     <dd>
-                      {theme.note ??
-                        `Compare this passage with other sourced quotations filed under ${theme.name.toLowerCase()}.`}
+                      <a href={conceptPath(concept)}>
+                        What {concept.term} means, and the reading it is
+                        commonly given
+                      </a>
                     </dd>
-                  </>
+                  </div>
                 ))}
               </dl>
-            </>
+              {
+                themeNotes.length > 0 && (
+                  <p class="related-link">
+                    {themeNotes.map((theme, index) => (
+                      <>
+                        {index > 0 && " · "}
+                        <a href={`/themes/${theme.slug}`}>{theme.name}</a>
+                      </>
+                    ))}
+                  </p>
+                )
+              }
+            </section>
           )
         }
-        <h2>How to cite this quotation</h2>
-        <p><strong>APA:</strong> {citations.apa}</p>
-        <p><strong>MLA:</strong> {citations.mla}</p>
-        <p><strong>Chicago:</strong> {citations.chicago}</p>
-      </div>
-    </section>
 
-    <section class="quote-depth prose-layout" aria-labelledby="faq-title">
-      <aside class="prose-aside">
-        <p>
-          The questions readers actually arrive with, answered from the cited
-          source.
-        </p>
-      </aside>
-      <div class="prose">
-        <h2 id="faq-title">Frequently asked questions</h2>
-        {
-          faq.map((entry) => (
-            <div class="faq-item">
-              <h3>{entry.question}</h3>
-              <p>{entry.answer}</p>
+        <section id="citing" class="quote-block" aria-labelledby="citing-title">
+          <h2 id="citing-title">How to cite this quotation</h2>
+          <dl class="citation-list">
+            <div>
+              <dt>Primary text</dt>
+              <dd>{citations.primary}</dd>
             </div>
-          ))
-        }
-      </div>
-    </section>
+            <div>
+              <dt>APA 7</dt>
+              <dd>{citations.apa}</dd>
+            </div>
+            <div>
+              <dt>MLA 9</dt>
+              <dd>{citations.mla}</dd>
+            </div>
+            <div>
+              <dt>Chicago 17</dt>
+              <dd>{citations.chicago}</dd>
+            </div>
+          </dl>
+          <p class="section-note">
+            {citations.speaker ? (
+              <>
+                {citations.citedAuthor} is cited as the work's author:{" "}
+                {citations.speaker} speaks the passage rather than writing it.{" "}
+              </>
+            ) : null}
+            {citations.translationUnrecorded
+              ? "No translator is recorded for this wording."
+              : "The wording rests on the translation recorded above."}{" "}
+            <a href="/sourcing-method#locators">
+              What to do when the edition matters
+            </a>
+          </p>
+        </section>
 
-    {
-      hasIndexableThinkerThemePage && (
-        <p class="related-link">
-          <a href={`/thinkers/${slugify(quote.author)}/${themeSlug(primaryTheme)}`}>
-            Explore {quote.author} on {primaryTheme.toLowerCase()}
+        <section id="faq" class="quote-block" aria-labelledby="faq-title">
+          <h2 id="faq-title">Questions readers arrive with</h2>
+          {
+            faq.map((entry) => (
+              <div class="faq-item">
+                <h3>{entry.question}</h3>
+                <p>{entry.answer}</p>
+              </div>
+            ))
+          }
+        </section>
+      </div>
+    </div>
+
+    {/* An ordered path rather than a set of unrelated links: a reader who
+        wants more should be able to go outward in one direction —
+        thinker, then theme, then the concept, then the guide that frames it. */}
+    <nav class="reading-path" aria-label="Continue reading">
+      <p class="eyebrow">Continue</p>
+      <ol>
+        <li>
+          <a href={`/thinkers/${slugify(quote.author)}`}>
+            More passages by {quote.author}
           </a>
-        </p>
-      )
-    }
+        </li>
+        <li>
+          <a href={themePath(primaryTheme)}>
+            Everything on {primaryTheme.toLowerCase()}
+          </a>
+        </li>
+        {concepts.length > 0 && (
+          <li>
+            <a href={`#concept-${conceptSlug(concepts[0])}`}>
+              What “{concepts[0].term}” means
+            </a>
+          </li>
+        )}
+        {relatedGuides.length > 0 && (
+          <li>
+            <a href={`/${relatedGuides[0].slug}`}>{relatedGuides[0].title}</a>
+          </li>
+        )}
+        {hasIndexableThinkerThemePage && (
+          <li>
+            <a href={`/thinkers/${slugify(quote.author)}/${themeSlug(primaryTheme)}`}>
+              {quote.author} on {primaryTheme.toLowerCase()}
+            </a>
+          </li>
+        )}
+      </ol>
+    </nav>
 
     {
       sameAuthor.length > 0 && (
@@ -363,11 +753,6 @@ const schema = [
               </li>
             ))}
           </ol>
-          <p class="related-link">
-            <a href={`/thinkers/${slugify(quote.author)}`}>
-              All quotations by {quote.author}
-            </a>
-          </p>
         </section>
       )
     }
@@ -396,13 +781,6 @@ const schema = [
               </li>
             ))}
           </ol>
-          <p class="related-link">
-            <a href={themePath(primaryTheme)}>
-              {primaryTheme === "Philosophy"
-                ? "Browse all philosophy themes"
-                : `Browse the ${primaryTheme.toLowerCase()} theme`}
-            </a>
-          </p>
         </section>
       )
     }
