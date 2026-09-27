@@ -480,6 +480,422 @@ export const quoteVerification: Record<string, VerificationNote> = {
       "The line comes from Voltaire's correspondence — a letter of November 1770 — rather than from the Philosophical Dictionary or any of the works usually cited for it. Like most of Voltaire's sharpest sentences it was written to one reader, which is why the phrasing is looser than his published prose.",
     lastVerified: "2026-09-14",
   },
+
+  // --- Batch 2 (2026-09-27): next 25 by GSC impressions + source-intent ---
+
+  Q0148: {
+    original: {
+      language: "Classical Chinese",
+      text: "愛人者人恆愛之，敬人者人恆敬之。",
+      note:
+        "Eight characters in two parallel clauses. The archive's English opens with “Mencius said,” which is the dialogue frame from Lilou II, not part of the maxim itself; searchers looking for the reciprocity line usually drop that frame.",
+    },
+    variants: [
+      "Those who love others are constantly loved by others; those who respect others are constantly respected by others.",
+      "He who loves others is constantly loved by them; he who respects others is constantly respected by them.",
+    ],
+    attribution:
+      "Mencius, Lilou II (離婁下). The reciprocity formula is Mencius' own; the archive's English includes the narrator's “Mencius said,” which belongs to the dialogue heading rather than to the saying. Quoting the framed version as a freestanding maxim makes the page title start with the author's name twice and hides the content a searcher is matching against.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0362: {
+    original: {
+      language: "German",
+      text: "Mit der Dummheit kämpfen Götter selbst vergebens.",
+      note:
+        "Literally “Against stupidity the gods themselves struggle in vain.” English usually softens kämpfen to “contend.”",
+    },
+    variants: [
+      "Against stupidity the gods themselves contend in vain.",
+      "Against stupidity even the gods struggle in vain.",
+    ],
+    attribution:
+      "Schiller, Die Jungfrau von Orleans (The Maid of Orleans), Act III, Scene 6 — spoken by Talbot, not by Joan. Crediting it as a free-floating Schiller aphorism drops the dramatic speaker and the military defeat that prompts the line.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0346: {
+    original: {
+      language: "English",
+      text: "The art of being wise is the art of knowing what to overlook.",
+      note:
+        "From Principles of Psychology, Chapter XXII (“Reasoning”), where James is discussing selective attention in inference, not offering a lifestyle tip about ignoring people.",
+    },
+    attribution:
+      "William James, The Principles of Psychology (1890), Chapter XXII. The surrounding argument is about what a reasoner must leave out in order to form a conclusion; circulating the sentence as general advice about “not sweating the small stuff” strips the cognitive claim that made it worth writing.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0005: {
+    original: {
+      language: "Ancient Greek",
+      text: "τὸ τὰ αὑτοῦ πράττειν καὶ μὴ πολυπραγμονεῖν δικαιοσύνη ἐστί.",
+      note:
+        "“Doing one's own things and not being a busybody is justice.” The archive's English compresses πολυπραγμονεῖν to “not meddling in others’.”",
+    },
+    variants: [
+      "Justice is doing one's own work and not meddling in others'.",
+      "Justice is minding one's own business.",
+    ],
+    attribution:
+      "Plato, Republic IV 433a–b, where justice in the city is defined as each class doing its own work. The popular shortening “justice is minding one's own business” loses the institutional claim and reads as personal etiquette.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0073: {
+    original: {
+      language: "German",
+      text: "Der Mensch ist etwas, das überwunden werden soll.",
+      note:
+        "“Man is something that shall be overcome.” From Zarathustra's prologue; the verb is sollen, a requirement, not a prediction.",
+    },
+    variants: [
+      "Man is something that shall be overcome.",
+      "Man is something to be surpassed.",
+    ],
+    attribution:
+      "Nietzsche, Also sprach Zarathustra, Prologue §3. The speaker is Zarathustra addressing the marketplace crowd about the Übermensch; quoting it as Nietzsche's bare definition of humanity without that frame turns a prophetic demand into a slogan about self-improvement.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0019: {
+    original: {
+      language: "Ancient Greek",
+      text: "τὸ φρικωδέστατον οὖν τῶν κακῶν ὁ θάνατος οὐθὲν πρὸς ἡμᾶς.",
+      note:
+        "Epicurus' letter argues that death “is nothing to us” because sensation ends with dissolution. The archive's English keeps the argument's middle step (“what has been dissolved has no sensation”).",
+    },
+    variants: [
+      "Death is nothing to us.",
+      "Death is nothing to us; when we are, death is not; when death is, we are not.",
+    ],
+    attribution:
+      "Epicurus, Letter to Menoeceus. The shorter maxim “Death is nothing to us” is Epicurus' own opening claim; the two-clause expansion often printed beside it (“when we are, death is not…”) is a later didactic paraphrase of the same argument, not a second sentence from the letter.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0051: {
+    original: {
+      language: "French",
+      text: "Que philosopher c'est apprendre à mourir.",
+      note:
+        "Montaigne's chapter title and thesis: to philosophize is to learn how to die. He is reframing Cicero, not inventing the claim.",
+    },
+    variants: [
+      "To philosophize is to learn how to die.",
+      "To philosophise is to learn to die.",
+    ],
+    attribution:
+      "Montaigne, Essais I.20 (“Que philosopher c'est apprendre à mourir”). He explicitly credits Cicero's Tusculan Disputations for the formula; presenting it as Montaigne's original insight without that debt misstates both the chapter and the tradition it continues.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0093: {
+    original: {
+      language: "German",
+      text:
+        "Dem Menschen kann alles genommen werden, nur nicht eines: die letzte der menschlichen Freiheiten — unter welchen Umständen auch immer die eigene Einstellung zu wählen, seinen eigenen Weg.",
+      note:
+        "Frankl wrote in German; the widely quoted English is the standard translation of Man's Search for Meaning. Wording varies slightly by edition of the English text.",
+    },
+    variants: [
+      "Everything can be taken from a man but one thing: the last of the human freedoms — to choose one's attitude in any given set of circumstances.",
+      "The last of the human freedoms is to choose one's attitude in any given set of circumstances.",
+    ],
+    attribution:
+      "Viktor Frankl, Man's Search for Meaning (originally …trotzdem Ja zum Leben sagen). The line belongs to his account of camp experience and logotherapy's claim about attitude; clipping it to “choose your attitude” without the “last freedom” framing turns a claim forged under extremity into generic positivity.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0336: {
+    original: {
+      language: "English",
+      text: "Reason is, and ought only to be the slave of the passions, and can never pretend to any other office than to serve and obey them.",
+      note:
+        "The archive quotes the first clause; Hume's full sentence adds the office reason may claim. Cutting the second half makes the claim sound wilder than the paragraph argues.",
+    },
+    variants: [
+      "Reason is, and ought only to be the slave of the passions.",
+      "Reason is the slave of the passions.",
+    ],
+    attribution:
+      "Hume, A Treatise of Human Nature II.3.3. He is denying that reason alone can motivate action, not recommending passion over thought. The truncated “reason is the slave of the passions” is the version that circulates as a slogan against rationality.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0181: {
+    original: {
+      language: "Ancient Greek",
+      text: "πάντων χρημάτων μέτρον ἐστὶν ἄνθρωπος.",
+      note:
+        "“Of all things the measure is man.” Survives as a fragment (DK 80B1) quoted by Plato in the Theaetetus; we do not have Protagoras' own book.",
+    },
+    variants: [
+      "Man is the measure of all things.",
+      "Of all things the measure is man.",
+    ],
+    attribution:
+      "Protagoras DK 80B1, preserved through Plato's Theaetetus 152a. Plato immediately presses the fragment into a relativist reading about perception; whether Protagoras meant that, or something narrower about human standards of judgment, is exactly the dispute the dialogue stages. Quoting the English alone as a finished doctrine skips that problem.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0348: {
+    original: {
+      language: "English",
+      text:
+        "Three passions, simple but overwhelmingly strong, have governed my life: the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.",
+      note:
+        "Opening of the prologue to Russell's Autobiography. The three passions structure the pages that follow; quoting only the first passion loses the triad.",
+    },
+    attribution:
+      "Bertrand Russell, Autobiography, Prologue. This is Russell speaking in his own late voice about his life, not a line from Principia Mathematica or the popular essays. Sites that cite “The Conquest of Happiness” or no source at all are usually copying each other.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0127: {
+    original: {
+      language: "German",
+      text: "Die Bedeutung eines Wortes ist sein Gebrauch in der Sprache.",
+      note:
+        "Philosophical Investigations §43. English standard: “the meaning of a word is its use in the language.”",
+    },
+    variants: [
+      "The meaning of a word is its use in the language.",
+      "Meaning is use.",
+    ],
+    attribution:
+      "Wittgenstein, Philosophical Investigations §43. “Meaning is use” is a classroom compression, not a sentence he wrote; the §43 wording is about the meaning of a word in many cases, with an explicit hedge Wittgenstein's sloganized version drops.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0023: {
+    original: {
+      language: "Ancient Greek / English tradition",
+      text: "ταράσσει τοὺς ἀνθρώπους οὐ τὰ πράγματα, ἀλλὰ τὰ περὶ τῶν πραγμάτων δόγματα.",
+      note:
+        "Enchiridion 5. English often says “judgments” or “opinions” for δόγματα — both are defensible; “things” for πράγματα keeps the Stoic contrast between externals and assents.",
+    },
+    variants: [
+      "It is not things that disturb people, but their judgments about things.",
+      "Men are disturbed not by things, but by the views which they take of them.",
+    ],
+    attribution:
+      "Epictetus, Enchiridion 5 (via Arrian). The Elizabethan-sounding “Men are disturbed not by things…” is a common older English rendering of the same Greek; both point to the same section. Crediting Marcus Aurelius is a frequent mix-up driven by Meditations' popularity, not by the text.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0101: {
+    original: {
+      language: "Ancient Greek",
+      text:
+        "μὴ ζήτει τὰ γινόμενα γίνεσθαι ὡς θέλεις, ἀλλὰ θέλε τὰ γινόμενα ὡς γίνεται, καὶ εὐροήσεις.",
+      note:
+        "Enchiridion 8. “Flow well” (εὐροήσεις) is the Stoic goal-word; some English versions say “you will have a serene life” instead.",
+    },
+    variants: [
+      "Do not seek for things to happen as you wish, but wish for things to happen as they do.",
+      "Don't demand that things happen as you wish, but wish that they happen as they do.",
+    ],
+    attribution:
+      "Epictetus, Enchiridion 8. Closely related advice appears in the Discourses; the numbered Handbook form is the one most citation pages mean. Pairing it with Marcus Aurelius without a locator is the usual aggregator error.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0448: {
+    original: {
+      language: "German",
+      text:
+        "Jeder hält die Grenze seines Gesichtskreises für die Grenze der Welt.",
+      note:
+        "From Parerga und Paralipomena. English “field of vision” renders Gesichtskreis; some versions say “horizon.”",
+    },
+    variants: [
+      "Everyone takes the limits of his own field of vision for the limits of the world.",
+      "Every man takes the limits of his own field of vision for the limits of the world.",
+    ],
+    attribution:
+      "Schopenhauer, Parerga and Paralipomena (usually cited from the “Psychological Observations” / related aphoristic sections). It is not from The World as Will and Representation; sites that cite WWR are recycling a wrong default title for Schopenhauer.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0259: {
+    original: {
+      language: "German",
+      text: "Was vernünftig ist, das ist wirklich; und was wirklich ist, das ist vernünftig.",
+      note:
+        "Preface to the Philosophy of Right. English “actual” for wirklich is the standard philosophical choice; “real” invites a cruder reading Hegel spent the preface blocking.",
+    },
+    variants: [
+      "What is rational is actual; and what is actual is rational.",
+      "The real is rational and the rational is real.",
+    ],
+    attribution:
+      "Hegel, Elements of the Philosophy of Right, Preface (1820). The sloganized “the real is rational” is the version critics attacked; Hegel's wirklich is “actual” in the sense of what has developed into its concept, not “whatever happens to exist.” Quoting the English without that distinction is how the line became a caricature of apologetics.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0397: {
+    original: {
+      language: "German",
+      text: "Zwei Seelen wohnen, ach! in meiner Brust.",
+      note:
+        "Faust I, “Before the City Gate.” Faust speaks of two souls; English “alas” for ach is conventional.",
+    },
+    variants: [
+      "Two souls, alas, are dwelling in my breast.",
+      "Two souls dwell, alas, in my breast.",
+    ],
+    attribution:
+      "Goethe, Faust I. Spoken by Faust about the pull between earthly desire and ascent to higher worlds — not a generic confession of indecision. Detaching it from Faust's speech makes it a personality type instead of a dramatic beat.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0261: {
+    original: {
+      language: "English",
+      text: "To be great is to be misunderstood.",
+      note:
+        "From “Self-Reliance” (1841). Emerson lists misunderstood great figures immediately before and after; the sentence is a hinge, not a free-standing boast.",
+    },
+    attribution:
+      "Emerson, “Self-Reliance,” in Essays: First Series. Circulating it as permission to ignore criticism without Emerson's surrounding list (Pythagoras, Socrates, Jesus, Luther, Copernicus, Galileo, Newton) turns a historical observation into a motivational sticker.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0080: {
+    original: {
+      language: "English",
+      text:
+        "Habit is the enormous fly-wheel of society, its most precious conservative agent.",
+      note:
+        "Principles of Psychology, chapter on Habit. James' next sentences explain why habit keeps social order from dissolving daily.",
+    },
+    attribution:
+      "William James, The Principles of Psychology, “Habit.” Often misfiled under Talks to Teachers or popular self-help redactionsitions. The fly-wheel metaphor is James' own; the surrounding chapter is about neural pathways and social continuity, not productivity tips.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0439: {
+    original: {
+      language: "Ancient Greek",
+      text:
+        "γεγόναμεν γὰρ πρὸς συνεργίαν ὡς πόδες, ὡς χεῖρες, ὡς βλέφαρα, ὡς οἱ στοῖχοι τῶν ἄνω καὶ κάτω ὀδόντων.",
+      note:
+        "Meditations XI.18. The archive stops after eyelids; the Greek continues with rows of upper and lower teeth.",
+    },
+    variants: [
+      "We are made for cooperation, like feet, like hands, like eyelids.",
+      "We were born to work together like feet, hands, and eyes.",
+    ],
+    attribution:
+      "Marcus Aurelius, Meditations XI.18. Same family of images as VI.54 (the swarm/bee), but a different book and a fuller list of body parts. Citing “Meditations” without a book number collapses distinct passages into one.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0304: {
+    original: {
+      language: "Classical Chinese",
+      text: "隨處作主，立處皆真。",
+      note:
+        "Record of Linji. English expansions (“wherever you are, make yourself master…”) supply subjects and verbs the Chinese leaves compact.",
+    },
+    variants: [
+      "Wherever you are, make yourself master; wherever you stand is real.",
+      "Be master wherever you are; wherever you stand is the true place.",
+    ],
+    attribution:
+      "Linji Yixuan, Record of Linji (臨濟錄). A Rinzai teaching on autonomy of mind, not a travel slogan. Attributing it to a generic “Zen proverb” without Linji is how aggregator pages lose the only checkable locator.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0393: {
+    original: {
+      language: "English",
+      text:
+        "Being all equal and independent, no one ought to harm another in his life, health, liberty, or possessions.",
+      note:
+        "Second Treatise of Government §6. Locke's state-of-nature law of nature; the list of protected goods is the sentence's point.",
+    },
+    attribution:
+      "Locke, Second Treatise of Government, Chapter II §6. Often shortened to “life, liberty, and property,” which is Locke's vocabulary elsewhere and in later political reception — but this sentence's wording is “life, health, liberty, or possessions.” Swapping in Jefferson's later triad mis-cites both texts.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0423: {
+    original: {
+      language: "German",
+      text: "Denk nicht, sondern schau!",
+      note:
+        "Philosophical Investigations §66, in the discussion of games and family resemblance. English “Don’t think, but look!” is the standard Anscombe/Rhees rendering.",
+    },
+    variants: [
+      "Don’t think, but look!",
+      "Don't think, look!",
+    ],
+    attribution:
+      "Wittgenstein, Philosophical Investigations §66. Imperative addressed to someone tempted to assume a single essence of “game.” Quoting it as a general anti-intellectual motto detaches it from the method of looking at cases that the section teaches.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0258: {
+    original: {
+      language: "German",
+      text:
+        "Das Selbstbewußtsein erreicht seine Befriedigung nur in einem anderen Selbstbewußtsein.",
+      note:
+        "Phenomenology of Spirit, Chapter IV A (Independence and Dependence of Self-Consciousness: Lordship and Bondage). English “attains its satisfaction” is the usual Miller/Baillie range.",
+    },
+    attribution:
+      "Hegel, Phenomenology of Spirit IV.A — the opening of the struggle for recognition that leads into the lord–bondsman dialectic. Citing only “Hegel on recognition” without the chapter leaves a searcher in a 600-page book with no locator.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0335: {
+    original: {
+      language: "English",
+      text:
+        "Let us then suppose the mind to be, as we say, white paper, void of all characters, without any ideas.",
+      note:
+        "Essay Concerning Human Understanding II.1.2. “White paper” is Locke's phrase; later Latin branding as tabula rasa is the tradition's label for the same claim.",
+    },
+    variants: [
+      "The mind is a white paper, void of all characters.",
+      "The mind is a blank slate.",
+    ],
+    attribution:
+      "Locke, Essay Concerning Human Understanding II.1.2. “Blank slate” / tabula rasa is the later handbook name; Locke's English is “white paper.” Quoting “blank slate” as Locke's words is a paraphrase of the metaphor, not a citation of his sentence.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0415: {
+    original: {
+      language: "Chinese",
+      text:
+        "少年智則國智，少年富則國富，少年強則國強。",
+      note:
+        "From Liang Qichao's “On the Young China” (少年中國說). The archive's English expands three parallel clauses; Chinese is denser.",
+    },
+    variants: [
+      "If the youth are wise, the nation is wise; if the youth are strong, the nation is strong.",
+      "The wisdom of youth is the wisdom of the nation.",
+    ],
+    attribution:
+      "Liang Qichao, “On the Young China” (1900). A late-Qing reform essay, not a classical Confucian line. Crediting Confucius or an anonymous “Chinese proverb” is the usual misattribution when the English circulates without Liang's name.",
+    lastVerified: "2026-09-27",
+  },
+
+  Q0283: {
+    original: {
+      language: "Classical Chinese",
+      text: "萬物皆備於我矣。反身而誠，樂莫大焉。",
+      note:
+        "Mencius, Jinxin I. Two sentences: all things are complete in me; turning within to find sincerity is the greatest delight.",
+    },
+    attribution:
+      "Mencius, Jinxin I (盡心上). Neo-Confucian readers made this a metaphysical claim about the mind's completeness; Mencius' immediate context is moral self-examination. Quoting only the first sentence (“all things are complete in me”) without 反身而誠 loses the practice the delight is tied to.",
+    lastVerified: "2026-09-27",
+  },
 };
 
 /**
@@ -526,6 +942,35 @@ export const VERIFICATION_BATCHES: Record<string, string[]> = {
     "Q0436",
     "Q0443",
     "Q0314",
+  ],
+  "batch-2-2026-09-27": [
+    "Q0148",
+    "Q0362",
+    "Q0346",
+    "Q0005",
+    "Q0073",
+    "Q0019",
+    "Q0051",
+    "Q0093",
+    "Q0336",
+    "Q0181",
+    "Q0348",
+    "Q0127",
+    "Q0023",
+    "Q0101",
+    "Q0448",
+    "Q0259",
+    "Q0397",
+    "Q0261",
+    "Q0080",
+    "Q0439",
+    "Q0304",
+    "Q0393",
+    "Q0423",
+    "Q0258",
+    "Q0335",
+    "Q0415",
+    "Q0283",
   ],
 };
 

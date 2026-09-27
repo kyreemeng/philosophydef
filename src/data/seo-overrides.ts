@@ -23,9 +23,9 @@ export type QuoteSeoOverride = {
 export const quoteSeoOverrides: Record<string, QuoteSeoOverride> = {
   q0001: {
     title:
-      '"The Unexamined Life Is Not Worth Living" — Socrates Quote (Apology 38a)',
+      'Who Said “The Unexamined Life Is Not Worth Living”? Socrates (Apology 38a)',
     description:
-      "Socrates’ famous line from Plato’s Apology 38a: “The unexamined life is not worth living for a human being.” Exact wording, source context, and related self-examination quotes.",
+      "Socrates’ line from Plato’s Apology 38a: “The unexamined life is not worth living for a human being.” Exact Greek, source context, and why popular English drops “for a human being.”",
     h1: "“The unexamined life is not worth living” — Socrates (Apology 38a)",
   },
   q0120: {
@@ -185,6 +185,132 @@ export const quoteSeoOverrides: Record<string, QuoteSeoOverride> = {
       "Aristotle’s “Virtue lies in a mean” from Nicomachean Ethics II.6–9. Source context, what the golden mean means, and related virtue quotes.",
     h1: "“Virtue lies in a mean” — Aristotle (Nicomachean Ethics)",
   },
+
+  // Batch 2 — GSC 2026-09-13: high impressions / source-intent / weak auto titles
+  q0148: {
+    title:
+      'Mencius: “Those Who Love Others Are Constantly Loved” — Source',
+    description:
+      "Mencius Lilou II: “Those who love others are constantly loved by others; those who respect others are constantly respected.” Classical Chinese, reciprocity, verified source.",
+    h1: "“Those who love others are constantly loved by others” — Mencius (Lilou II)",
+  },
+  q0019: {
+    title: 'Epicurus: “Death Is Nothing to Us” — Letter to Menoeceus',
+    description:
+      "Epicurus quote source from the Letter to Menoeceus: “Death is nothing to us…” Exact argument, Greek context, and why the short maxim circulates without the proof.",
+    h1: "“Death is nothing to us” — Epicurus (Letter to Menoeceus)",
+  },
+  q0051: {
+    title: 'Montaigne: “To Philosophize Is to Learn How to Die” — Source',
+    description:
+      "Montaigne Essays I.20: “To philosophize is to learn how to die.” Cicero’s formula reframed, French wording, and related mortality quotes.",
+    h1: "“To philosophize is to learn how to die” — Montaigne (Essays I.20)",
+  },
+  q0093: {
+    title:
+      'Frankl: “The Last of the Human Freedoms” — Man’s Search for Meaning',
+    description:
+      "Viktor Frankl quote source: “Everything can be taken from a man but… the last of the human freedoms — to choose one’s attitude.” Context from Man’s Search for Meaning.",
+    h1: "“The last of the human freedoms…” — Viktor Frankl",
+  },
+  q0336: {
+    title: 'Hume: “Reason Is the Slave of the Passions” — Treatise Source',
+    description:
+      "David Hume Treatise II.3.3: “Reason is, and ought only to be the slave of the passions.” Full sentence, meaning, and what the slogan drops.",
+    h1: "“Reason is, and ought only to be the slave of the passions” — Hume",
+  },
+  q0181: {
+    title: 'Protagoras: “Man Is the Measure of All Things” — Quote Source',
+    description:
+      "Protagoras DK 80B1 via Plato’s Theaetetus: “Of all things the measure is man.” Fragment context, relativism dispute, and verified locator.",
+    h1: "“Man is the measure of all things” — Protagoras (DK 80B1)",
+  },
+  q0127: {
+    title: 'Wittgenstein: “Meaning Is Use” — Investigations §43 Source',
+    description:
+      "Wittgenstein Philosophical Investigations §43: “The meaning of a word is its use in the language.” Exact wording vs the classroom slogan “meaning is use.”",
+    h1: "“The meaning of a word is its use in the language” — Wittgenstein",
+  },
+  q0023: {
+    title:
+      'Epictetus: “Not Things, but Judgments Disturb Us” — Enchiridion 5',
+    description:
+      "Epictetus Enchiridion 5: “It is not things that disturb people, but their judgments about things.” Stoic source — often miscredited to Marcus Aurelius.",
+    h1: "“It is not things that disturb people…” — Epictetus (Enchiridion 5)",
+  },
+  q0101: {
+    title: 'Epictetus: “Wish Things as They Happen” — Enchiridion 8',
+    description:
+      "Epictetus Enchiridion 8: do not seek for things to happen as you wish, but wish for things as they do. Stoic source and related acceptance quotes.",
+    h1: "“Wish for things to happen as they do” — Epictetus (Enchiridion 8)",
+  },
+  q0448: {
+    title:
+      'Schopenhauer: “Limits of His Field of Vision” — Quote Source',
+    description:
+      "Schopenhauer Parerga and Paralipomena: “Everyone takes the limits of his own field of vision for the limits of the world.” Exact source — not WWR.",
+    h1: "“Everyone takes the limits of his own field of vision…” — Schopenhauer",
+  },
+  q0259: {
+    title: 'Hegel: “What Is Rational Is Actual” — Philosophy of Right',
+    description:
+      "Hegel Philosophy of Right preface: “What is rational is actual; and what is actual is rational.” Why “real is rational” misreads wirklich.",
+    h1: "“What is rational is actual…” — Hegel (Philosophy of Right)",
+  },
+  q0397: {
+    title: 'Goethe Faust: “Two Souls Dwell in My Breast” — Quote Source',
+    description:
+      "Goethe Faust I: “Two souls, alas, are dwelling in my breast.” Dramatic speaker, German wording, and why it is not a generic personality type.",
+    h1: "“Two souls, alas, are dwelling in my breast” — Goethe (Faust I)",
+  },
+  q0261: {
+    title: 'Emerson: “To Be Great Is to Be Misunderstood” — Self-Reliance',
+    description:
+      "Emerson “Self-Reliance”: “To be great is to be misunderstood.” Surrounding list of figures, exact wording, and related self-reliance quotes.",
+    h1: "“To be great is to be misunderstood” — Emerson (Self-Reliance)",
+  },
+  q0080: {
+    title: 'William James: “Habit Is the Fly-Wheel of Society” — Source',
+    description:
+      "William James Principles of Psychology on habit: “Habit is the enormous fly-wheel of society, its most precious conservative agent.” Citation and context.",
+    h1: "“Habit is the enormous fly-wheel of society” — William James",
+  },
+  q0393: {
+    title: 'Locke: “Life, Health, Liberty, or Possessions” — Second Treatise',
+    description:
+      "Locke Second Treatise §6: no one ought to harm another in life, health, liberty, or possessions. Exact wording vs later “life, liberty, property.”",
+    h1: "“No one ought to harm another in his life, health, liberty…” — Locke",
+  },
+  q0423: {
+    title: 'Wittgenstein: “Don’t Think, but Look!” — Investigations §66',
+    description:
+      "Wittgenstein Philosophical Investigations §66: “Don’t think, but look!” Method of looking at cases — not a general anti-intellectual motto.",
+    h1: "“Don’t think, but look!” — Wittgenstein (Investigations §66)",
+  },
+  q0258: {
+    title: 'Hegel: Self-Consciousness and Recognition — Phenomenology IV.A',
+    description:
+      "Hegel Phenomenology of Spirit IV.A: “Self-consciousness attains its satisfaction only in another self-consciousness.” Lordship–bondage context.",
+    h1: "“Self-consciousness attains its satisfaction only in another…” — Hegel",
+  },
+  q0335: {
+    title: 'Locke: “White Paper” Mind — Tabula Rasa Quote Source',
+    description:
+      "Locke Essay II.1.2: the mind as “white paper, void of all characters.” Exact English vs later “blank slate” / tabula rasa label.",
+    h1: "“Let us then suppose the mind to be… white paper” — Locke",
+  },
+  q0415: {
+    title: 'Liang Qichao: “If the Youth Are Strong…” — Young China Source',
+    description:
+      "Liang Qichao “On the Young China” (1900): if the youth are wise/prosperous/strong, so is the nation. Not a Confucian proverb — verified reform-era source.",
+    h1: "“If the youth are wise, the nation is wise…” — Liang Qichao",
+  },
+  q0283: {
+    title: 'Mencius: “All Things Are Complete in Me” — Jinxin Source',
+    description:
+      "Mencius Jinxin I: “All things are already complete in me… turn within and find sincerity.” Classical Chinese, practice of sincerity, verified locator.",
+    h1: "“All things are already complete in me” — Mencius (Jinxin I)",
+  },
 };
 
 /** Page-level TDH for hubs/guides with high impressions / low CTR. */
@@ -195,12 +321,12 @@ export const pageSeoOverrides: Record<
   "/themes/self": {
     title: "Philosophy Quotes About Self | Examined Life & Identity",
     description:
-      "Philosophy quotes about self, identity, and the examined life—from Socrates to Kierkegaard and Nietzsche. Verified English passages with sources.",
+      "Philosophy quotes about self, identity, and the examined life—Socrates, Kierkegaard, Nietzsche, and others. Verified English with sources, not scrapers.",
   },
   "/quotes/about/love": {
-    title: "Philosophical Quotes About Love | Plato to Modern Thinkers",
+    title: "Philosophical Quotes About Love | Plato, Mencius & Modern",
     description:
-      "Philosophical quotes about love—eros, friendship, care, and recognition—from Plato, Aristotle, Confucius, and modern ethics. Clear English, cited sources.",
+      "Philosophical quotes about love—eros, reciprocity, care, recognition—from Plato, Mencius, Aristotle, and modern ethics. Cited English passages.",
   },
   "/quotes/about/loneliness": {
     title: "Philosophy Quotes About Loneliness vs Solitude | Verified",
@@ -223,14 +349,14 @@ export const pageSeoOverrides: Record<
       "Philosophy of artificial intelligence: consciousness vs intelligence, knowledge and explanation, ethics, responsibility, and AI as a welfare subject—clear 2026 guide.",
   },
   "/thinkers/socrates": {
-    title: "Socrates Quotes | Examined Life & Socratic Wisdom",
+    title: "Socrates Quotes with Sources | Unexamined Life & Apology",
     description:
-      "Socrates quotes in verified English—including “the unexamined life is not worth living”—with Plato Apology sources, themes, and related thinkers.",
+      "Socrates quotes verified to Plato’s dialogues—including “the unexamined life is not worth living” (Apology 38a)—with locators, themes, and related thinkers.",
   },
   "/thinkers/friedrich-nietzsche": {
-    title: "Friedrich Nietzsche Quotes | Zarathustra & Will to Power",
+    title: "Nietzsche Quotes with Sources | Zarathustra & Overcoming",
     description:
-      "Friedrich Nietzsche quotes in verified English—overcoming, affirmation, and critique—from Zarathustra and major works, with sources and themes.",
+      "Friedrich Nietzsche quotes in verified English—Übermensch, affirmation, critique—from Zarathustra and major works, each with a checkable source.",
   },
   "/thinkers/nishida-kitaro": {
     title: "Nishida Kitaro / Kitaro Nishida Quotes | Kyoto School",
