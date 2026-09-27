@@ -8,7 +8,7 @@ import {
 } from "../../data/quote-source-hub";
 import { quoteVerification } from "../../data/quote-verification";
 import { hasThinkerSourcePage } from "../../data/thinker-sourcing";
-import { quoteSourcePath, slugify, thinkerSourcePath } from "../../lib/content";
+import { slugify, thinkerSourcePath, truncateWords } from "../../lib/content";
 
 const pageUrl = "/quote-source";
 
@@ -51,8 +51,8 @@ const register = quotes
       school: quote.school,
       source: quote.source,
       themes: quote.themes,
-      sourcePath: quoteSourcePath(quote),
       quotePath: `/quotes/${quote.id.toLowerCase()}`,
+      authorPath: authorPath(quote.author),
       original: note.original ?? null,
       variants: note.variants ?? [],
       attribution: note.attribution,
@@ -96,7 +96,7 @@ const schema = [
       "@type": "ListItem",
       position: index + 1,
       name: entry.text,
-      url: new URL(entry.sourcePath, Astro.site),
+      url: new URL(entry.quotePath, Astro.site),
     })),
   },
   {
@@ -119,8 +119,8 @@ const lookupPayload = register.map((entry) => ({
   t: entry.text,
   a: entry.author,
   s: entry.source,
-  p: entry.sourcePath,
   q: entry.quotePath,
+  ap: entry.authorPath,
 }));
 ---
 
@@ -188,9 +188,9 @@ const lookupPayload = register.map((entry) => ({
                 )}
               </dl>
               <p class="source-result-links">
-                <a href={entry.sourcePath}>Full source record</a>
-                {" · "}
-                <a href={entry.quotePath}>Read in context</a>
+                <a href={`${entry.quotePath}#attribution`}>
+                  Source and attribution for “{truncateWords(entry.text, 6)}”
+                </a>
               </p>
             </li>
           ))
@@ -325,8 +325,8 @@ const lookupPayload = register.map((entry) => ({
       t: string;
       a: string;
       s: string;
-      p: string;
       q: string;
+      ap: string;
     };
 
     /**
@@ -387,24 +387,16 @@ const lookupPayload = register.map((entry) => ({
 
         const meta = document.createElement("p");
         const author = document.createElement("a");
-        author.href = `/quote-source/${entry.a
-          .normalize("NFKD")
-          .replace(/[\u0300-\u036f]/g, "")
-          .toLowerCase()
-          .replace(/[^a-z0-9]+/g, "-")
-          .replace(/^-|-$/g, "")}`;
+        author.href = entry.ap;
         author.textContent = entry.a;
         meta.append(author, document.createTextNode(` — ${entry.s}`));
 
         const links = document.createElement("p");
         links.className = "source-result-links";
-        const full = document.createElement("a");
-        full.href = entry.p;
-        full.textContent = "Full source record";
-        const context = document.createElement("a");
-        context.href = entry.q;
-        context.textContent = "Read in context";
-        links.append(full, document.createTextNode(" · "), context);
+        const record = document.createElement("a");
+        record.href = `${entry.q}#attribution`;
+        record.textContent = "Source and attribution notes";
+        links.append(record);
 
         item.append(quote, meta, links);
         list.append(item);

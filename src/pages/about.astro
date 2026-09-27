@@ -1,88 +1,136 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import quotes from "../data/quotes.json";
+import { contactEmail, corpusStatus, editor } from "../data/editorial";
+import { organizationSchema } from "../lib/site-schema";
 
-const quoteCount = quotes.length.toLocaleString("en-US");
-const thinkerCount = new Set(quotes.map((quote) => quote.author)).size;
+const status = corpusStatus();
+const format = (value: number) => value.toLocaleString("en-US");
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "AboutPage",
-  name: "About Philosophy Blind Box",
-  description:
-    "Philosophy Blind Box is a curated archive of English philosophy quotations, presented at random.",
-};
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    name: "About Philosophy Blind Box",
+    description:
+      "What Philosophy Blind Box is, how its quotation records are built and checked, and how much of the archive has been verified.",
+    url: new URL("/about", Astro.site),
+    mainEntity: { "@type": "Organization", name: "Philosophy Blind Box", url: Astro.site },
+  },
+  organizationSchema(Astro.site),
+];
 ---
 
 <BaseLayout
-  title="About | Philosophy Blind Box"
-  description="Philosophy Blind Box is a curated archive of English philosophy quotations from East and West, presented at random."
+  title="About Philosophy Blind Box | How the Archive Is Checked"
+  description={`An archive of ${format(status.total)} philosophy quotations traced to their sources. ${format(status.verified)} checked against an edition, with original wording and misattributions recorded.`}
   canonical="/about"
   schema={schema}
 >
   <div class="page-shell">
     <header class="page-intro">
-      <h1>An archive of chance encounters</h1>
+      <p class="eyebrow">About</p>
+      <h1>Philosophy quotations, traced to where they were written</h1>
       <p>
-        Philosophy Blind Box gathers verified English quotations and presents
-        one at random, so reading can begin before selection.
+        Philosophy Blind Box records where a quotation comes from — the work, the
+        passage, the original language — and says plainly how much of that has
+        been checked.
       </p>
     </header>
 
     <div class="prose-layout">
       <aside class="prose-aside">
         <p>
-          {quoteCount} passages from {thinkerCount} thinkers across Greco-Roman,
-          Chinese, Indian, Islamic, Jewish, Japanese, and Africana traditions,
-          with deepened coverage of women philosophers alongside European and
-          American voices.
+          {format(status.total)} passages from {format(status.thinkers)} thinkers
+          and texts, across Greco-Roman, Chinese, Indian, Islamic, Jewish,
+          Japanese, and Africana traditions.
         </p>
       </aside>
       <article class="prose">
-        <h2>Why random?</h2>
+        <h2>What the archive is for</h2>
         <p>
-          Choosing a theme too quickly can narrow attention before the text is
-          heard. Chance reverses that order. A passage arrives first; judgment
-          and context follow.
+          Philosophy quotations circulate detached from their sources, and many
+          of the most shared ones were never written by the person they are
+          credited to. This archive exists to answer the question a careful
+          reader asks next: where exactly does this come from, and does the
+          English say what the original says?
         </p>
 
-        <h2>English for every reader</h2>
+        <h2>How much has been checked</h2>
+        <p>Every quotation page states which of three levels it has reached.</p>
+        <ul>
+          <li>
+            <strong>Verified — {format(status.verified)} passages.</strong> Checked
+            against the cited edition, with the original-language wording where
+            one exists, the forms that circulate in its place, and a note on the
+            attribution.
+          </li>
+          <li>
+            <strong>Annotated — {format(status.annotated)} passages.</strong> A
+            source locator plus commentary written for that passage: what it
+            argues in its own context and why it is read.
+          </li>
+          <li>
+            <strong>Recorded — {format(status.recorded)} passages.</strong> The
+            English wording and the source as the corpus records them, not yet
+            collated against an edition. These pages say so, and are kept out of
+            search results until they have writing of their own.
+          </li>
+        </ul>
+
+        <h2>How a record is built</h2>
         <p>
-          This site is built for English readers. Each quotation appears in a
-          carefully checked English rendering—never in Greek, Latin, Sanskrit,
-          or other source languages as the primary text. Source notes remain for
-          context, but the encounter itself stays in English.
+          Each passage is filed with its thinker, work, locator, school, and
+          themes. Locators use the reference system scholars use for that
+          author — Stephanus numbers for Plato, Bekker numbers for Aristotle,
+          book and passage for the Analects, section numbers for Nietzsche — so a
+          reader can find the passage in any edition. The details are in the
+          <a href="/sourcing-method">sourcing method</a>; selection and
+          correction rules are in the <a href="/editorial-policy">editorial policy</a>.
         </p>
 
-        <h2>Editorial method</h2>
+        <h2>Where to start</h2>
         <p>
-          The corpus is a verified selection: attributions checked, wording
-          aligned with reliable sources, and passages chosen for clarity and
-          lasting insight. Political slogans, opaque jargon, and misattributed
-          sayings are excluded. Each entry records thinker, school, source, and
-          theme.
+          If you are holding a quotation and want to know who said it, use
+          <a href="/quote-source">the quote source finder</a>. To read by
+          person, begin with <a href="/thinkers/socrates">Socrates</a> or
+          <a href="/thinkers/friedrich-nietzsche">Nietzsche</a>; by subject, with
+          <a href="/themes/self">the self</a> or
+          <a href="/quotes/about/love">love</a>. For background, the
+          <a href="/what-is-philosophy">guides</a> and the
+          <a href="/glossary">glossary of terms</a> explain the vocabulary.
         </p>
 
-        <h2>Browse beyond chance</h2>
+        {
+          editor && (
+            <>
+              <h2>Editor</h2>
+              <p>
+                <strong>{editor.name}</strong>. {editor.bio}
+              </p>
+            </>
+          )
+        }
+
+        <h2>Corrections</h2>
         <p>
-          After a random encounter, continue by thinker or theme. The random
-          view is an entrance, not a limit.
+          Attributions and locators are corrected when they are found to be
+          wrong, and each correction is listed with its date in the
+          <a href="/editorial-policy#corrections-log">corrections log</a>.
+          {contactEmail && (
+            <>
+              {" "}To report an error, write to{" "}
+              <a href={`mailto:${contactEmail}`}>{contactEmail}</a> with the page
+              address and the edition you are checking against.
+            </>
+          )}
         </p>
 
-        <h2>Editorial standards</h2>
+        <h2>Why “blind box”?</h2>
         <p>
-          Attribution and wording follow our
-          <a href="/editorial-policy">editorial policy</a> and
-          <a href="/sourcing-method">sourcing method</a>. Theme pages keep only
-          substantial collections; sparse labels are merged into stronger
-          canonical themes.
-        </p>
-
-        <h2>A closing note</h2>
-        <p>
-          Philosophy does not answer. It hands you a mirror. This site simply
-          keeps a place where that mirror may appear, one unexpected sentence at
-          a time.
+          The site began as a random quotation generator: one passage at a time,
+          chosen by chance, so that reading starts before selection. The
+          <a href="/random-philosophy-generator">random generator</a> is still
+          here. The archive behind it is the part that has grown.
         </p>
       </article>
     </div>

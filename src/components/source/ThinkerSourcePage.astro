@@ -3,10 +3,10 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import quotes from "../../data/quotes.json";
 import type { Quote } from "../../lib/content";
 import {
-  quoteSourcePath,
   slugify,
   thinkerSourcePath,
   thinkerSourceTitle,
+  truncateWords,
 } from "../../lib/content";
 import { quoteVerification } from "../../data/quote-verification";
 import { thinkerSourcing } from "../../data/thinker-sourcing";
@@ -169,14 +169,14 @@ const description = `Where ${author}'s quotations can be checked: ${works
                 </dl>
                 <p class="source-result-links">
                   {note ? (
-                    <a href={quoteSourcePath(item)}>Full source record</a>
+                    <a href={`/quotes/${item.id.toLowerCase()}#attribution`}>
+                      Attribution notes for “{truncateWords(item.text, 6)}”
+                    </a>
                   ) : (
                     <a href={`/quotes/${item.id.toLowerCase()}`}>
-                      Citation and context
+                      Citation and context for “{truncateWords(item.text, 6)}”
                     </a>
                   )}
-                  {" · "}
-                  <a href={`/quotes/${item.id.toLowerCase()}`}>Read in context</a>
                 </p>
               </li>
             );

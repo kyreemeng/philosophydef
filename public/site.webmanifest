@@ -1,7 +1,7 @@
 {
   "name": "Philosophy Blind Box",
   "short_name": "Philosophy",
-  "description": "Curated English philosophy quotations from around the world, presented at random.",
+  "description": "Philosophy quotations traced to the work and passage they come from.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f6f2e9",
@@ -13,6 +13,16 @@
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
+    },
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ]
 }

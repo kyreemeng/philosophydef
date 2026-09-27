@@ -6,6 +6,7 @@ import {
   canonicalizeTheme,
   themeGroups,
   themePath,
+  thinkerSourcePath,
   truncateWords,
 } from "../../lib/content";
 import { thinkerGuideFor, defaultThinkerGuide, isTextTradition } from "../../data/enrichment";
@@ -15,6 +16,9 @@ import {
   shouldIndexThinkerThemePair,
 } from "../../lib/indexing";
 import { pageSeoOverrides } from "../../data/seo-overrides";
+import HubEssay from "../../components/HubEssay.astro";
+import { hubEssays } from "../../data/hub-essays";
+import { hasThinkerSourcePage } from "../../data/thinker-sourcing";
 
 export function getStaticPaths() {
   return thinkerGroups().map((thinker) => ({
@@ -51,8 +55,10 @@ const indexedPairs = thinkerThemePairs(1).filter(
 );
 
 const asText = isTextTradition(thinker.name);
+const entityId = new URL(`${pageUrl}#${asText ? "work" : "person"}`, Astro.site).href;
 const mainEntity = asText
   ? {
+      "@id": entityId,
       "@type": "CreativeWork",
       name: thinker.name,
       genre: guide.school,
@@ -61,8 +67,10 @@ const mainEntity = asText
       description: guide.overview,
     }
   : {
+      "@id": entityId,
       "@type": "Person",
       name: thinker.name,
+      ...(guide.overview ? { description: guide.overview } : {}),
       ...(guide.jobTitle ? { jobTitle: guide.jobTitle } : {}),
       ...(guide.birthDate ? { birthDate: guide.birthDate } : {}),
       ...(guide.deathDate ? { deathDate: guide.deathDate } : {}),
@@ -73,10 +81,12 @@ const mainEntity = asText
 const schema = [
   {
     "@context": "https://schema.org",
-    "@type": asText ? "CollectionPage" : "ProfilePage",
+    "@type": "CollectionPage",
     name: `${thinker.name} Philosophy Quotes`,
     url: new URL(pageUrl, Astro.site),
-    mainEntity,
+    about: { "@id": entityId },
+    numberOfItems: thinker.quotes.length,
+    ...(hubEssays[pageUrl] ? { dateModified: hubEssays[pageUrl].updated } : {}),
   },
   {
     "@context": "https://schema.org",
@@ -107,6 +117,8 @@ const themePhrase =
     ? ` Themes include ${topThemeNames.map((t) => t.toLowerCase()).join(", ")}.`
     : "";
 const seo = pageSeoOverrides[pageUrl] ?? {};
+const essay = hubEssays[pageUrl];
+const thinkerHasSourcePage = hasThinkerSourcePage(thinker.name, thinker.quotes.length);
 /**
  * Search Console consistently shows single-digit-to-twenty positions for
  * “{thinker} quotes” queries on pages still carrying the generic brand title.
@@ -150,6 +162,17 @@ const pageDescription =
         {thinker.quotes.length === 1 ? "passage" : "passages"} in English
         {guide ? ` · ${guide.lifespan} · ${guide.school}` : ""}.
       </p>
+      {(essay || thinkerHasSourcePage) && (
+        <p class="related-link">
+          {essay && <a href="#hub-essay-title">{essay.title}</a>}
+          {essay && thinkerHasSourcePage && " · "}
+          {thinkerHasSourcePage && (
+            <a href={thinkerSourcePath(thinker.name)}>
+              How to cite and check {thinker.name} quotations
+            </a>
+          )}
+        </p>
+      )}
     </header>
 
     {
@@ -230,5 +253,7 @@ const pageDescription =
         ))
       }
     </ol>
+
+    {essay && <HubEssay essay={essay} />}
   </div>
 </BaseLayout>

@@ -9,6 +9,10 @@ export type Guide = {
   faq?: { question: string; answer: string }[];
   related: { href: string; label: string }[];
   thinkers: string[];
+  /** Date the text was last substantively revised (YYYY-MM-DD). */
+  updated?: string;
+  /** Works a reader can check the guide against. */
+  furtherReading?: string[];
 };
 
 export const guides: Guide[] = [
@@ -213,38 +217,57 @@ export const guides: Guide[] = [
       "Philosophy of artificial intelligence: consciousness vs intelligence, knowledge and explanation, ethics, responsibility, and AI as a welfare subject—clear 2026 guide.",
     eyebrow: "Technology and thought",
     intro:
-      "The philosophy of AI examines what artificial intelligence is, what it can know or do, and how people should design, use, and govern it.",
+      "The philosophy of AI examines what artificial intelligence is, whether machines can think or understand, what they can know, and how people should design, use, and govern them.",
     answer:
-      "It joins philosophy of mind, ethics, epistemology, and political philosophy. Its central questions include whether machines can understand, who is responsible for automated decisions, and which human values should constrain AI systems.",
+      "It joins philosophy of mind, epistemology, ethics, and political philosophy. Its central questions are whether a machine can think (Turing), whether running the right program is enough for understanding (Searle), whether an artificial system could be conscious, what it means to trust a system’s output, and who is responsible when an automated decision causes harm.",
     sections: [
       {
-        heading: "Intelligence, understanding, and consciousness",
+        heading: "Can machines think? The Turing test",
         paragraphs: [
-          "A system can perform a task intelligently without settling whether it understands the task. Philosophers distinguish behavior, representation, reasoning, experience, and consciousness because success on one dimension does not automatically establish the others.",
-          "Recent work in AI & Society and related venues argues that generative models can be cognitively significant contributors to knowledge production without meeting conditions for full cognitive subjecthood—especially where robust intentionality, metacognitive self-representation, and consciousness-related indicators remain unestablished.",
-          "The question matters for how we describe systems and what moral status, if any, they could have. It also clarifies the limits of comparisons between human and machine cognition.",
+          "Alan Turing’s paper “Computing Machinery and Intelligence” (Mind, 1950) opens with the question “Can machines think?” and immediately replaces it, because he thought the words “machine” and “think” too vague to argue about. In its place he proposed the imitation game: an interrogator exchanges typed messages with a human and a machine and tries to tell which is which. If the machine cannot reliably be picked out, Turing suggested, the original question loses its point.",
+          "The more lasting part of the paper is its list of objections and replies — the theological objection, the argument from consciousness, “Lady Lovelace’s objection” that a machine can only do what it is told. Critics since have argued that the test measures the ability to imitate conversation, which is neither necessary nor sufficient for intelligence. Large language models have sharpened that criticism: fluent conversation turned out to be easier to produce than most people in 1950 would have guessed.",
         ],
       },
       {
-        heading: "Knowledge, evidence, and explanation",
+        heading: "Understanding and the Chinese Room",
         paragraphs: [
-          "AI systems can produce predictions, classifications, and language, but users still need to ask what data supports an output, how reliable it is in a context, and when a human explanation is required.",
-          "Epistemic questions now include whether models “know,” whether they can explain, and how they change norms of inquiry. A useful AI policy distinguishes assistance from authority. High-stakes decisions in health, employment, education, and law need clear accountability and routes to challenge error.",
+          "John Searle’s “Minds, Brains, and Programs” (1980) asks you to imagine a person who speaks no Chinese locked in a room with a rulebook. Chinese characters come in; by following the rules the person sends back characters that native speakers take as fluent answers. The room passes a Turing test in Chinese, yet nobody in it understands Chinese. Searle concludes that manipulating symbols according to syntax is not sufficient for semantics — for meaning — and therefore that running a program, however good, is not sufficient for a mind.",
+          "The standard replies are still the map of the debate. The systems reply says the whole room, not the person, understands. The robot reply says understanding needs perception and action in the world. The brain-simulator reply asks what happens if the program simulates a Chinese speaker’s neurons. Related is Stevan Harnad’s symbol grounding problem (1990): how do a system’s symbols come to be about anything, rather than being defined only by other symbols?",
         ],
       },
       {
-        heading: "Ethics, welfare, and governance",
+        heading: "Functionalism and the computational theory of mind",
         paragraphs: [
-          "Ethical questions include fairness, privacy, manipulation, surveillance, labor, safety, and the distribution of benefits and risks. No single principle resolves all of them; trade-offs should be explicit and open to public scrutiny.",
-          "A newer debate asks whether advanced systems could become welfare subjects—entities whose interests matter morally—if they developed consciousness, affective valence, or related capacities. Most current scholarship does not treat today’s systems as conscious, but precautionary frameworks are being proposed for uncertainty rather than premature personhood claims.",
-          "Responsible AI requires evaluation, documentation, human oversight proportionate to risk, and correction when harm occurs. Values statements are not enough without institutional design.",
+          "The philosophical view that made AI look possible in principle is functionalism: mental states are defined by what they do — their causal role between inputs, other states, and outputs — not by what they are made of. Hilary Putnam argued in the 1960s that pain could be “multiply realised” in different physical systems, as a program can run on different hardware. If functionalism is right, the right organisation in silicon would have a mind.",
+          "Opponents press on two points. Hubert Dreyfus’ What Computers Can’t Do (1972) argued, drawing on Heidegger and Merleau-Ponty, that human intelligence depends on embodied, context-sensitive know-how that rules cannot capture. And critics of functionalism argue that a functional description leaves something out: what the state feels like.",
         ],
       },
       {
-        heading: "What to read next in this archive",
+        heading: "Could AI be conscious?",
         paragraphs: [
-          "Passages on mind, responsibility, language, and knowledge provide classical pressure tests for modern AI claims: What is understanding? Who is accountable? What counts as a reason?",
-          "Use the related themes and thinkers below as compact entry points, then return to primary philosophical texts and contemporary technical documentation for deeper study.",
+          "Thomas Nagel’s “What Is It Like to Be a Bat?” (1974) framed the problem: a creature is conscious if there is something it is like to be it. David Chalmers’ distinction (1995) between the “easy problems” of explaining cognitive functions and the “hard problem” of explaining why any of that is accompanied by experience is why intelligence and consciousness have to be discussed separately. A system could solve every easy problem and leave the hard one untouched.",
+          "Because there is no agreed theory of consciousness, current work tends to ask which indicators the leading scientific theories would look for. A 2023 report by Patrick Butlin, Robert Long, and colleagues, “Consciousness in Artificial Intelligence,” derived indicator properties from theories such as global workspace and higher-order theories and concluded that no current system was a strong candidate, while finding no obvious technical barrier to building systems that satisfy more of them.",
+        ],
+      },
+      {
+        heading: "Knowledge, testimony, and explanation",
+        paragraphs: [
+          "When a system produces a correct answer, does anyone know it? The question is epistemological before it is technical. Treating an AI output as testimony raises the issues epistemologists ask of any informant: how reliable is it, in this domain, and can its reliability be checked? A fluent answer carries no mark of its own reliability, which is why errors stated confidently are more dangerous than obvious failures.",
+          "Explanation is a separate demand. A model may predict well without anyone being able to say why a given output was produced. In medicine, credit, hiring, and law, people affected by a decision have a claim to reasons they can contest, and a correct prediction does not discharge it.",
+        ],
+      },
+      {
+        heading: "Ethics, responsibility, and the alignment problem",
+        paragraphs: [
+          "Norbert Wiener warned in 1960 (“Some Moral and Technical Consequences of Automation,” Science) that if we use a machine whose operation we cannot efficiently interfere with, we had better be sure the purpose put into it is the purpose we really desire. That is the alignment problem in its original form: specifying goals so that a capable system does what we mean rather than what we literally said.",
+          "Andreas Matthias named the “responsibility gap” (2004): with learning systems whose behaviour their designers cannot fully predict, it is unclear who is to blame when harm results. Most philosophers resist the conclusion that nobody is responsible; responsibility stays with those who choose to build, deploy, and rely on the system, and institutions must make that responsibility concrete through documentation, oversight proportionate to risk, and routes to challenge error.",
+          "Further questions concern fairness and bias in training data, privacy and surveillance, manipulation, effects on labour, and the concentration of power in a few developers. None is settled by a single principle; the trade-offs have to be made explicit.",
+        ],
+      },
+      {
+        heading: "Moral status: could an AI matter morally?",
+        paragraphs: [
+          "If a future system were conscious, or could suffer, it would have interests of its own and could be wronged. Because the evidence is uncertain, some philosophers argue for precaution — taking the possibility seriously before it is settled — while others warn that attributing feelings to systems designed to seem human invites manipulation. The disagreement is less about today’s systems than about how to act responsibly under uncertainty.",
         ],
       },
     ],
@@ -252,26 +275,47 @@ export const guides: Guide[] = [
       {
         question: "What is the philosophy of AI?",
         answer:
-          "It is the philosophical study of artificial intelligence—covering mind, knowledge, ethics, politics, and the concepts we use to describe machine behavior.",
+          "It is the philosophical study of artificial intelligence—whether machines can think, understand, or be conscious; what their outputs can tell us; and how they should be designed, used, and governed.",
+      },
+      {
+        question: "What is the Chinese Room argument?",
+        answer:
+          "John Searle’s 1980 thought experiment: a person following rules to manipulate Chinese symbols can produce fluent answers without understanding Chinese. Searle concluded that running a program is not sufficient for understanding.",
+      },
+      {
+        question: "Does passing the Turing test mean a machine can think?",
+        answer:
+          "Turing proposed the test as a replacement for the question, not a proof. Most philosophers now hold that conversational imitation is neither necessary nor sufficient for thought.",
       },
       {
         question: "Can AI be conscious?",
         answer:
-          "That remains unsettled. Most researchers treat current systems as non-conscious while developing indicator frameworks and precautionary approaches for future uncertainty.",
+          "That remains unsettled. Most researchers do not regard current systems as conscious, and indicator-based assessments such as Butlin, Long and colleagues (2023) found no strong candidates, while not ruling out future systems.",
       },
       {
         question: "Who is responsible for AI decisions?",
         answer:
-          "Responsibility typically remains with designers, deployers, and institutions that choose to automate. Philosophical analysis clarifies roles; law and policy assign duties.",
+          "Responsibility remains with the people and institutions that design, deploy, and rely on a system. Philosophy clarifies the roles; law and policy assign the duties.",
       },
     ],
     related: [
-      { href: "/themes/mind", label: "Quotes on mind" },
-      { href: "/themes/responsibility", label: "Quotes on responsibility" },
-      { href: "/philosophy-of-science", label: "Philosophy of science" },
+      { href: "/themes/mind", label: "Philosophy quotes about mind" },
+      { href: "/themes/responsibility", label: "Philosophy quotes about responsibility" },
+      { href: "/what-is-epistemology", label: "What is epistemology?" },
       { href: "/philosophy-of-language", label: "Philosophy of language" },
+      { href: "/philosophy-of-science", label: "Philosophy of science" },
     ],
     thinkers: ["Alan Turing", "Ludwig Wittgenstein", "Hannah Arendt"],
+    updated: "2026-09-27",
+    furtherReading: [
+      "Alan Turing, “Computing Machinery and Intelligence,” Mind 59 (1950)",
+      "John Searle, “Minds, Brains, and Programs,” Behavioral and Brain Sciences 3 (1980)",
+      "Hubert Dreyfus, What Computers Can’t Do (1972)",
+      "Thomas Nagel, “What Is It Like to Be a Bat?,” Philosophical Review 83 (1974)",
+      "David Chalmers, “Facing Up to the Problem of Consciousness” (1995)",
+      "Patrick Butlin, Robert Long et al., “Consciousness in Artificial Intelligence: Insights from the Science of Consciousness” (2023)",
+      "Stanford Encyclopedia of Philosophy, “Artificial Intelligence” and “The Chinese Room Argument”",
+    ],
   },
   {
     slug: "history-of-philosophy",
@@ -687,34 +731,87 @@ export const guides: Guide[] = [
       "Epistemology meaning explained: the philosophy of knowledge, justification, belief, evidence, and skepticism—with clear examples and FAQs.",
     eyebrow: "Theory of knowledge",
     intro:
-      "Epistemology is the philosophy of knowledge: what knowledge is, how belief is justified, and how far skepticism should go.",
+      "Epistemology is the branch of philosophy that studies knowledge: what it is, how beliefs are justified, where knowledge comes from, and how much of it we really have.",
     answer:
-      "In short, epistemology studies knowledge and justified belief—how perception, reason, memory, and testimony support (or fail to support) what we claim to know.",
+      "Epistemology (from Greek epistēmē, “knowledge,” and logos, “account”) asks three linked questions. What is the difference between knowing something and merely believing it? What makes a belief justified or reasonable? And can we answer the sceptic who says we know far less than we think? Its tools are used whenever anyone weighs evidence, trusts an expert, or asks whether a source can be relied on.",
     sections: [
       {
-        heading: "Knowledge and justification",
+        heading: "Epistemology meaning and definition",
         paragraphs: [
-          "A classic starting point treats knowledge as justified true belief, refined after Gettier-style counterexamples. Debates continue about reliability, evidence, understanding, and intellectual virtues.",
-          "Sources of justification include perception, memory, introspection, reason, and testimony—each with characteristic strengths and failure modes.",
+          "The word was coined in the nineteenth century (the Scottish philosopher James Frederick Ferrier used it in 1854), but the questions are as old as philosophy. Plato’s Theaetetus is an entire dialogue devoted to the question “What is knowledge?”, and it ends without a definition that survives examination.",
+          "A working definition: epistemology is the study of knowledge and justified belief — their nature, their sources, their structure, and their limits. It is normative rather than merely descriptive. Psychology can tell you how people actually form beliefs; epistemology asks how they ought to, and when a belief formed in a given way deserves to be called knowledge.",
         ],
       },
       {
-        heading: "Skepticism and response",
+        heading: "Knowledge as justified true belief — and the Gettier problem",
         paragraphs: [
-          "Skeptics ask whether we can know the external world, other minds, or the future. Responses range from foundationalism and coherentism to contextualism and pragmatist accounts of inquiry.",
+          "The traditional analysis, drawn from a suggestion near the end of the Theaetetus (201c–d), says that you know a proposition when three conditions hold: the proposition is true, you believe it, and your belief is justified. Truth rules out knowing falsehoods; belief rules out knowledge you do not hold; justification rules out lucky guesses.",
+          "In a three-page paper of 1963, “Is Justified True Belief Knowledge?”, Edmund Gettier gave cases in which all three conditions are met and yet the person plainly does not know. A standard illustration: you look at a clock that reads two o’clock and form the belief that it is two. It is two — but the clock stopped exactly twelve hours ago. Your belief is true and justified, and it is true by luck.",
+          "Most of the last sixty years of epistemology can be read as responses to that paper: adding a fourth condition (no false lemmas, no defeaters), replacing justification with reliability, requiring that the belief be sensitive or safe — that it would not easily have been false — or, as Timothy Williamson argues in Knowledge and Its Limits (2000), treating knowledge as basic and not analysable into parts at all.",
         ],
       },
       {
-        heading: "Why epistemology matters",
+        heading: "Sources of knowledge: perception, reason, memory, testimony",
         paragraphs: [
-          "Questions about expertise, misinformation, scientific evidence, and AI outputs are epistemological before they are merely technical. Clear standards of evidence improve public and personal judgment.",
+          "Perception gives knowledge of the world around us, but it can be deceived by illusion and hallucination, which raises the question of what, exactly, we perceive. Introspection gives access to our own mental states and is often thought to be especially secure, though psychology has made that assumption look optimistic.",
+          "Reason gives a priori knowledge — knowledge not based on experience, such as mathematics and logic. Memory preserves knowledge across time rather than generating it. Testimony, knowledge taken from other people, is how most of what anyone knows was acquired: nobody has personally checked the distance to the Sun. Whether testimony needs positive reasons to trust the speaker (reductionism, associated with Hume) or is justified by default unless there is reason for doubt (anti-reductionism, associated with Thomas Reid) is one of the liveliest debates in the field.",
+        ],
+      },
+      {
+        heading: "Rationalism and empiricism",
+        paragraphs: [
+          "The great early-modern dispute was about which source comes first. Rationalists — Descartes, Spinoza, Leibniz — held that reason can establish substantive truths about reality independently of experience. Descartes’ Meditations (1641) doubts everything that can be doubted in order to find a foundation that cannot, and finds it in the thinking self.",
+          "Empiricists — Locke, Berkeley, Hume — held that all ideas derive from experience. Locke’s Essay Concerning Human Understanding (1689) describes the mind at birth as “white paper, void of all characters.” Hume pushed the view to its limit and concluded that our expectation that the future will resemble the past — the basis of all causal reasoning — cannot itself be justified by reason: the problem of induction.",
+          "Kant’s Critique of Pure Reason (1781) tried to settle the dispute by arguing that experience supplies the content of knowledge while the mind supplies its form — space, time, and categories such as causation — so that “thoughts without content are empty, intuitions without concepts are blind.”",
+        ],
+      },
+      {
+        heading: "The structure of justification",
+        paragraphs: [
+          "If every justified belief is justified by another belief, the chain either ends, loops, or goes on forever — the regress problem, already set out by the ancient sceptic Agrippa. Foundationalism says it ends: some beliefs (about immediate experience, or self-evident truths) are justified without depending on others. Coherentism says justification is a matter of how well beliefs hang together as a system; no belief is foundational.",
+          "A second divide runs between internalism and externalism. Internalists hold that what justifies a belief must be accessible to the believer on reflection. Externalists — most prominently reliabilists such as Alvin Goldman — hold that a belief is justified if it was produced by a reliable process, whether or not the believer can tell that it was. The externalist can say a child knows her mother’s face; the internalist worries that this leaves justification out of the believer’s own view.",
+        ],
+      },
+      {
+        heading: "Skepticism and responses to it",
+        paragraphs: [
+          "Philosophical skepticism is not ordinary doubt about a particular claim; it is the argument that we cannot know even the things we are most sure of. Descartes’ evil demon and its modern version, the brain in a vat, share a structure: you cannot rule out that you are being systematically deceived; if you cannot rule it out, you do not know you have hands; so you do not know you have hands.",
+          "Responses include G. E. Moore’s reversal (“Here is one hand” — I am more certain of that than of any premise in the sceptic’s argument), contextualism (the standards for “know” shift with the conversation, so the sceptic changes the subject rather than winning it), and Wittgenstein’s On Certainty, which argues that some propositions are not known or doubted at all but are the hinges on which inquiry turns.",
+          "Ancient Pyrrhonian sceptics took a different line: they suspended judgement on purpose, and reported that tranquillity followed. Sextus Empiricus’ Outlines of Pyrrhonism is the main surviving source.",
+        ],
+      },
+      {
+        heading: "Epistemology beyond the Western canon",
+        paragraphs: [
+          "Indian philosophy developed a systematic theory of pramāṇas — valid means of knowing. The Nyāya school accepted four: perception, inference, comparison, and testimony, and its logicians analysed inference with a rigour comparable to Aristotle’s. Buddhist epistemologists Dignāga and Dharmakīrti accepted only perception and inference.",
+          "In China, the Mohists wrote a canon on argument and naming, and Wang Yangming’s doctrine of the unity of knowledge and action (知行合一) held that someone who does not act on what they claim to know does not really know it — a thesis contemporary epistemologists of “know-how” have found worth taking seriously.",
+        ],
+      },
+      {
+        heading: "Contemporary branches: social, virtue, and formal epistemology",
+        paragraphs: [
+          "Social epistemology studies knowledge as a shared achievement: how testimony, expertise, peer disagreement, and institutions such as science and journalism produce or degrade collective knowledge. Miranda Fricker’s Epistemic Injustice (2007) identified the wrong done to someone when their word is discounted because of who they are.",
+          "Virtue epistemology locates justification in the intellectual character of the knower — open-mindedness, carefulness, intellectual humility — rather than in properties of individual beliefs. Formal epistemology uses probability theory to model degrees of belief and how they should change with evidence, with Bayesian conditionalisation as its central rule.",
+        ],
+      },
+      {
+        heading: "Epistemology examples in everyday life",
+        paragraphs: [
+          "Checking a quotation is applied epistemology. A sentence circulates attributed to Socrates; the question is not only whether it is true but whether we have evidence that he said it, and of what kind. Testimony from a quote website is weak evidence; a locator in Plato’s text — Apology 38a — is strong. This archive’s sourcing method is built on that distinction.",
+          "Other examples: a jury weighing a witness’s reliability; a doctor deciding how much to trust a single test; a reader asking whether an AI system’s fluent answer is knowledge, a reliable guess, or neither. In each case the question is what makes a belief worth holding, which is the question epistemology exists to ask.",
         ],
       },
     ],
     faq: [
       {
         question: "What is epistemology in simple terms?",
-        answer: "It is the study of knowledge and justified belief—how we know what we know.",
+        answer:
+          "It is the study of knowledge: how we know what we know, what makes a belief reasonable, and how far our knowledge reaches.",
+      },
+      {
+        question: "What are the main branches of epistemology?",
+        answer:
+          "The traditional core covers the analysis of knowledge, the sources of knowledge (perception, reason, memory, testimony), the structure of justification (foundationalism and coherentism), and skepticism. Newer fields include social, virtue, feminist, and formal epistemology.",
       },
       {
         question: "What is the difference between epistemology and ontology?",
@@ -722,23 +819,41 @@ export const guides: Guide[] = [
           "Ontology asks what exists; epistemology asks how we can know it. A research project often needs both: what kinds of things are under study, and what counts as evidence for claims about them.",
       },
       {
-        question: "What are examples of epistemology?",
+        question: "What is the Gettier problem?",
         answer:
-          "Everyday examples include trusting a map, checking a witness, or asking whether an AI output is knowledge or only a fluent guess. In philosophy: Can perception justify belief? What makes testimony trustworthy? Does science give knowledge or only models?",
+          "Edmund Gettier’s 1963 cases show that a belief can be true and justified and still not be knowledge, because it is true by luck. They refuted the traditional definition of knowledge as justified true belief and set the agenda for later epistemology.",
+      },
+      {
+        question: "Who is the father of epistemology?",
+        answer:
+          "No single person. Plato’s Theaetetus is the first sustained treatment of the question “What is knowledge?”; Descartes is often credited with making epistemology the starting point of modern philosophy; the term itself dates from the 1850s.",
       },
       {
         question: "How is epistemology different from psychology?",
         answer:
-          "Psychology describes how cognition works; epistemology evaluates norms of good believing and knowing.",
+          "Psychology describes how people actually form beliefs; epistemology evaluates how they ought to, and when a belief formed in a given way counts as knowledge.",
       },
     ],
     related: [
-      { href: "/themes/knowledge", label: "Quotes on knowledge" },
-      { href: "/themes/method", label: "Quotes on method" },
+      { href: "/themes/knowledge", label: "Philosophy quotes about knowledge" },
+      { href: "/themes/truth", label: "Philosophy quotes about truth" },
+      { href: "/what-is-metaphysics", label: "What is metaphysics?" },
+      { href: "/what-is-logic", label: "What is logic?" },
       { href: "/philosophy-of-science", label: "Philosophy of science" },
-      { href: "/branches-of-philosophy", label: "Branches of philosophy" },
+      { href: "/branches-of-philosophy", label: "The branches of philosophy" },
+      { href: "/sourcing-method", label: "How this archive checks a quotation’s source" },
     ],
     thinkers: ["Plato", "René Descartes", "David Hume"],
+    updated: "2026-09-27",
+    furtherReading: [
+      "Plato, Theaetetus",
+      "René Descartes, Meditations on First Philosophy (1641)",
+      "David Hume, An Enquiry Concerning Human Understanding (1748)",
+      "Edmund Gettier, “Is Justified True Belief Knowledge?”, Analysis 23 (1963)",
+      "Ludwig Wittgenstein, On Certainty (1969)",
+      "Miranda Fricker, Epistemic Injustice (2007)",
+      "Stanford Encyclopedia of Philosophy, “Epistemology”",
+    ],
   },
   {
     slug: "what-is-metaphysics",

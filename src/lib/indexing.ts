@@ -9,6 +9,8 @@ import {
   hasObservedThinkerThemeDemand,
   isLegacyIndexableQuoteId,
 } from "../data/search-priorities";
+import { quoteCommentary } from "../data/quote-commentary";
+import { quoteVerification } from "../data/quote-verification";
 import { slugify, type Quote } from "./content";
 
 export const MIN_INDEXABLE_THEME_QUOTES = 10;
@@ -49,8 +51,26 @@ export function shouldIndexThinker(thinker: { name: string; quotes: Quote[] }) {
   );
 }
 
+/**
+ * A quotation page is offered to search only when it carries writing of its
+ * own: a verification record or passage-specific commentary. Without either,
+ * the page is the passage plus text assembled from its thinker and theme
+ * guides, which reads the same across hundreds of URLs.
+ *
+ * Search Console (3 months to 2026-09-27) measured the difference: the 189
+ * pages with their own writing drew 2,166 impressions; the other 503 drew 11
+ * between them, while Coverage held 174 URLs as crawled but not indexed.
+ *
+ * Those pages stay published and linked for readers (noindex, follow). Writing
+ * an entry in quote-commentary.ts or quote-verification.ts is what returns a
+ * page to the index — there is no list to maintain here.
+ */
 export function shouldIndexQuote(quote: Pick<Quote, "id">) {
-  return isLegacyIndexableQuoteId(quote.id);
+  const id = quote.id.toUpperCase();
+  return (
+    isLegacyIndexableQuoteId(quote.id) &&
+    (Boolean(quoteVerification[id]) || Boolean(quoteCommentary[id]))
+  );
 }
 
 export function shouldIndexThinkerThemePair(pair: {

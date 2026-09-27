@@ -7,7 +7,9 @@ import {
   type EmotionHub,
 } from "../../../data/emotions";
 import quotes from "../../../data/quotes.json";
-import { canonicalizeTheme } from "../../../lib/content";
+import { truncateWords } from "../../../lib/content";
+import HubEssay from "../../../components/HubEssay.astro";
+import { hubEssays } from "../../../data/hub-essays";
 import { pageSeoOverrides } from "../../../data/seo-overrides";
 
 export function getStaticPaths() {
@@ -90,6 +92,7 @@ const schema = [
   },
 ];
 const seo = pageSeoOverrides[path] ?? {};
+const essay = hubEssays[path];
 const pageTitle = seo.title ?? `${hub.title} | Philosophy Blind Box`;
 const pageDescription = seo.description ?? hub.description;
 ---
@@ -112,6 +115,11 @@ const pageDescription = seo.description ?? hub.description;
         <span aria-hidden="true">/</span>
         <span>{hub.name}</span>
       </nav>
+      {essay && (
+        <p class="related-link">
+          <a href="#hub-essay-title">{essay.title}</a>
+        </p>
+      )}
     </header>
 
     {
@@ -145,14 +153,18 @@ const pageDescription = seo.description ?? hub.description;
           <li class="quote-list-item">
             <blockquote>{quote.text}</blockquote>
             <footer>
-              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>
+                {quote.author}: “{truncateWords(quote.text, 8)}”
+              </a>
               <br />
-              {canonicalizeTheme(quote.themes[0] ?? quote.school)}
+              {quote.source}
             </footer>
           </li>
         ))
       }
     </ol>
+
+    {essay && <HubEssay essay={essay} />}
 
     <section class="related-block" aria-labelledby="more-emotions">
       <h2 id="more-emotions">More philosophy quotes about feeling</h2>

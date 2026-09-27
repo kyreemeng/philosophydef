@@ -1335,7 +1335,7 @@
     "id": "Q0112",
     "author": "Friedrich Nietzsche",
     "school": "Philosophy of Will",
-    "source": "Thus Spoke Zarathustra, Part I, On the Way of the Creator",
+    "source": "Thus Spoke Zarathustra, Prologue §5",
     "text": "One must still have chaos in oneself to be able to give birth to a dancing star.",
     "themes": [
       "Creation",
@@ -2655,7 +2655,7 @@
     "id": "Q0222",
     "author": "Plato",
     "school": "Platonism",
-    "source": "Symposium 211b",
+    "source": "Symposium 211a",
     "text": "First, it always is, and neither comes to be nor perishes.",
     "themes": [
       "Beauty",
@@ -5098,18 +5098,6 @@
     ]
   },
   {
-    "id": "Q0426",
-    "author": "Friedrich Nietzsche",
-    "school": "Philosophy of Will",
-    "source": "Twilight of the Idols, Maxims and Arrows §8",
-    "text": "What does not kill me makes me stronger.",
-    "themes": [
-      "Resilience",
-      "Strength",
-      "Trial"
-    ]
-  },
-  {
     "id": "Q0427",
     "author": "Marcus Aurelius",
     "school": "Stoicism",
@@ -5389,8 +5377,8 @@
     "id": "Q0450",
     "author": "Friedrich Nietzsche",
     "school": "Philosophy of Will",
-    "source": "The Gay Science §341",
-    "text": "Would you have this life again? — Well then! Once more!",
+    "source": "Thus Spoke Zarathustra, Part III, On the Vision and the Riddle §1",
+    "text": "Was that life? Well then! Once more!",
     "themes": [
       "Eternal Recurrence",
       "Affirmation",

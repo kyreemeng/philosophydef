@@ -22,10 +22,10 @@
  * the indexability audit fails on, and rightly so.
  */
 
-import { createHash } from "node:crypto";
 import { existsSync } from "node:fs";
 import { readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { pageHash } from "./lib/sitemap-hash.mjs";
 
 const ROOT = process.cwd();
 const DIST = path.join(ROOT, "dist");
@@ -167,17 +167,21 @@ for (const file of await walk(DIST)) {
   // advertised URL that answers with a redirect or a noindex tag is a coverage
   // error in Search Console, and the audit below treats it as a build failure.
   if (/<meta\s+http-equiv="refresh"/i.test(html)) continue;
-  const robots = html.match(/<meta\s+name="robots"\s+content="([^"]*)"/i)?.[1] ?? "";
-  if (/\bnoindex\b/i.test(robots)) continue;
 
   // Archive pagination exists to expose detail links to crawlers. Listing 29
   // near-identical pages would spend crawl budget and compete with /quotes.
   if (route.startsWith("/quotes/page/")) continue;
 
-  const hash = createHash("sha1").update(hashInput(html)).digest("hex");
+  // Noindexed pages are tracked in the manifest but never listed. Dropping
+  // their entries would make a page that returns to the index after being
+  // rewritten look new, and it would be seeded with a stale date.
+  const robots = html.match(/<meta\s+name="robots"\s+content="([^"]*)"/i)?.[1] ?? "";
+  const listed = !/\bnoindex\b/i.test(robots);
+
+  const hash = pageHash(html);
   const prior = previous[route];
-  if (!prior) newPages += 1;
-  else if (prior.hash !== hash) changedPages += 1;
+  if (listed && !prior) newPages += 1;
+  else if (listed && prior.hash !== hash) changedPages += 1;
 
   const lastmod = prior
     ? prior.hash === hash
@@ -185,26 +189,7 @@ for (const file of await walk(DIST)) {
       : today
     : seedDate(route, html);
   manifest[route] = { hash, lastmod };
-  byGroup.get(classify(route)).push({ route, lastmod });
-}
-
-/**
- * What gets hashed.
- *
- * The hash has to track the page's own content, not the build's incidental
- * churn. Astro content-hashes every asset filename, and the stylesheet is
- * linked from every page: one edit to global.css renames it, which rewrites
- * the <link> in all 1200 pages, which the raw hash would read as 1200 pages
- * updated on the same day. That is the uniform site-wide lastmod this script
- * exists to prevent, arriving through the back door on every CSS tweak. Hashed
- * asset filenames are therefore flattened before hashing.
- *
- * The site chrome is deliberately left in. A navigation change does alter what
- * every reader sees on every page, and it is not this function's business to
- * decide that such a change does not count.
- */
-function hashInput(html) {
-  return html.replace(/\/_astro\/[^"'\s>]+?\.([a-z]+)/g, "/_astro/asset.$1");
+  if (listed) byGroup.get(classify(route)).push({ route, lastmod });
 }
 
 function escapeXml(value) {

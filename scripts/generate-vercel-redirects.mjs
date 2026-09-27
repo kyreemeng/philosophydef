@@ -1,4 +1,15 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { quoteVerification } from "../src/data/quote-verification.ts";
+
+/**
+ * Quotation pages retired as duplicates of another page, mapped to the page
+ * that holds the same passage.
+ */
+const RETIRED_QUOTES = {
+  // The popular short form of Twilight of the Idols, Maxims and Arrows §8;
+  // Q0070 records it as a circulating variant of the full aphorism.
+  "/quotes/q0426": "/quotes/q0070",
+};
 
 const [quotesText, mergeText, configText] = await Promise.all([
   readFile("src/data/quotes.json", "utf8"),
@@ -68,6 +79,23 @@ for (const [from, to] of Object.entries(caseMap)) {
   const toPath = themePath(to);
   if (fromPath !== toPath) redirects.set(fromPath, toPath);
 }
+const themeRedirectCount = redirects.size;
+
+/**
+ * Per-passage /quote-source/<opening-words> pages (2026-09-14 to 09-27) carried
+ * a subset of their quotation page — the same attribution note, variants,
+ * original wording, and citations — under a second URL competing for the same
+ * query. They drew no impressions; the quotation pages hold the search history.
+ * Each now points at its quotation page. The slug rule (first eight words) is
+ * the one those pages were published under; keep it as it is.
+ */
+const sourceSlug = (text) =>
+  slugify(text.trim().split(/\s+/).slice(0, 8).join(" ")) || "quotation";
+for (const quote of quotes) {
+  if (!quoteVerification[quote.id.toUpperCase()]) continue;
+  redirects.set(`/quote-source/${sourceSlug(quote.text)}`, `/quotes/${quote.id.toLowerCase()}`);
+}
+for (const [from, to] of Object.entries(RETIRED_QUOTES)) redirects.set(from, to);
 
 config.redirects = [
   {
@@ -93,4 +121,7 @@ config.redirects = [
 ];
 
 await writeFile("vercel.json", `${JSON.stringify(config, null, 2)}\n`);
-console.log(`Generated ${redirects.size} permanent theme redirects in vercel.json.`);
+console.log(
+  `Generated ${redirects.size} permanent redirects in vercel.json ` +
+    `(${themeRedirectCount} theme, ${redirects.size - themeRedirectCount} quotation/source).`,
+);

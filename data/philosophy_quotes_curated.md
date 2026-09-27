@@ -1379,7 +1379,7 @@
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche (1844–1900)
 - **学派 / School**: 意志哲学 / Philosophy of Will
-- **出处 / Source**: 《查拉图斯特拉如是说》第一部「创造者之路」 / Thus Spoke Zarathustra, Part I, On the Way of the Creator
+- **出处 / Source**: 《查拉图斯特拉如是说》序言 §5 / Thus Spoke Zarathustra, Prologue §5
 - **原文语言 / Language**: 德语 / German
 - **原文 / Original**: Man muss noch Chaos in sich haben, um einen tanzenden Stern gebären zu können.
 - **英译 / English**: One must still have chaos in oneself to be able to give birth to a dancing star.
@@ -2747,7 +2747,7 @@
 
 - **作者 / Author**: 柏拉图 / Plato
 - **学派 / School**: 柏拉图主义 / Platonism
-- **出处 / Source**: 《会饮篇》211b / Symposium 211b
+- **出处 / Source**: 《会饮篇》211a / Symposium 211a
 - **原文语言 / Language**: 古希腊语 / Ancient Greek
 - **原文 / Original**: πρῶτον μὲν ἀεὶ ὂν καὶ οὔτε γιγνόμενον οὔτε ἀπολλύμενον
 - **英译 / English**: First, it always is, and neither comes to be nor perishes.
@@ -5234,19 +5234,6 @@
 - **置信度 / Confidence**: ★ (High)
 - **备注 / Note**: 英译依 Kaufmann。 / English follows Kaufmann.
 
-#### Q0426
-
-- **作者 / Author**: 尼采 / Friedrich Nietzsche
-- **学派 / School**: 意志哲学 / Philosophy of Will
-- **出处 / Source**: 《偶像的黄昏》「格言与箭」§8 / Twilight of the Idols, Maxims and Arrows §8
-- **原文语言 / Language**: 德语 / German
-- **原文 / Original**: Was mich nicht umbringt, macht mich stärker.
-- **英译 / English**: What does not kill me makes me stronger.
-- **中译 / Chinese**: 凡不能杀死我的，使我更强大。
-- **主题 / Themes**: 坚韧、力量、考验 / Resilience, Strength, Trial
-- **置信度 / Confidence**: ☆ (Medium)
-- **备注 / Note**: 与 Q0070 同出 §8；此为流行短句（略去「出自人生的战争学校」）。勿当作另一出处。 / Same §8 as Q0070; popular short form omitting the “military school of life” frame.
-
 #### Q0427
 
 - **作者 / Author**: 马可·奥勒留 / Marcus Aurelius
@@ -5536,14 +5523,14 @@
 
 - **作者 / Author**: 尼采 / Friedrich Nietzsche
 - **学派 / School**: 意志哲学 / Philosophy of Will
-- **出处 / Source**: 《快乐的科学》§341 / The Gay Science §341
+- **出处 / Source**: 《查拉图斯特拉如是说》第三部「幻觉与谜」§1 / Thus Spoke Zarathustra, Part III, On the Vision and the Riddle §1
 - **原文语言 / Language**: 德语 / German
-- **原文 / Original**: （通行浓缩，非 §341 逐字原文）
-- **英译 / English**: Would you have this life again? — Well then! Once more!
-- **中译 / Chinese**: 你可还愿再要这样的人生？——好！再来一次！
+- **原文 / Original**: War Das das Leben? Wohlan! Noch Ein Mal!
+- **英译 / English**: Was that life? Well then! Once more!
+- **中译 / Chinese**: 这就是生命吗？好吧！再来一次！
 - **主题 / Themes**: 永恒轮回、肯定、生命 / Eternal Recurrence, Affirmation, Life
 - **置信度 / Confidence**: ☆ (Medium)
-- **备注 / Note**: 永恒轮回思想实验的通行浓缩；德／英均非 §341 全文逐字。完整德语段落见 Q0074 所据出处。 / Popular compression of the eternal-recurrence thought experiment; neither German nor English here is verbatim §341.
+- **备注 / Note**: 此前误标为《快乐的科学》§341；通行的「再来一次」句实出《查拉图斯特拉》第三部，勇气对死亡所说的话。§341 的思想实验见 Q0074。 / Previously mislabelled as Gay Science §341; the “once more” line is Zarathustra III, spoken by courage to death. The §341 thought experiment is Q0074.
 
 #### Q0451
 

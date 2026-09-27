@@ -64,8 +64,12 @@
 }
 
 html {
+  /* Height of the sticky .site-header plus breathing room, so in-page anchors
+     and sticky asides are not hidden beneath it. */
+  --header-clearance: 5.5rem;
   scroll-behavior: smooth;
   scrollbar-gutter: stable;
+  scroll-padding-top: var(--header-clearance);
 }
 
 body {
@@ -1163,6 +1167,12 @@ main {
   max-width: 900px;
 }
 
+.page-intro .guide-byline {
+  max-width: none;
+  margin-top: var(--space-4);
+  font-size: var(--text-sm);
+}
+
 .guides-section {
   padding: var(--space-10) 0;
 }
@@ -1237,7 +1247,7 @@ main {
 .guide-aside {
   align-self: start;
   position: sticky;
-  top: var(--space-6);
+  top: var(--header-clearance);
   color: var(--muted);
   font-size: var(--text-sm);
 }
@@ -1264,6 +1274,54 @@ main {
 
 .guide-content {
   max-width: 740px;
+}
+
+.hub-essay {
+  border-top: 1px solid var(--line);
+  margin-top: var(--space-8);
+}
+
+.hub-essay .prose-aside {
+  align-self: start;
+  position: sticky;
+  top: var(--header-clearance);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-style: normal;
+}
+
+.hub-essay .prose-aside p {
+  color: var(--ink);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.hub-essay .prose-aside ol {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.hub-essay .prose-aside a {
+  text-decoration: none;
+}
+
+.prose .hub-essay-byline {
+  margin-top: 0;
+  font-size: var(--text-sm);
+}
+
+.hub-essay-links {
+  margin: var(--space-3) 0 0;
+  padding-left: 1.1rem;
+}
+
+.prose .hub-essay-links li {
+  font-size: var(--text-base);
+  line-height: 1.6;
 }
 
 .guide-content > section + section {
@@ -1604,6 +1662,10 @@ main {
     max-width: 46ch;
     padding-bottom: var(--space-5);
     border-bottom: 1px solid var(--line);
+  }
+
+  .hub-essay .prose-aside {
+    position: static;
   }
 }
 
@@ -2166,7 +2228,7 @@ html[data-theme="dark"] {
 .quote-contents {
   align-self: start;
   position: sticky;
-  top: var(--space-6);
+  top: var(--header-clearance);
   font-size: var(--text-sm);
 }
 

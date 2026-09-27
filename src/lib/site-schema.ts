@@ -1,4 +1,5 @@
 import quotes from "../data/quotes.json";
+import { contactEmail, editor } from "../data/editorial";
 import { themeGroups } from "./content";
 
 export const SITE_NAME = "Philosophy Blind Box";
@@ -41,11 +42,12 @@ export function websiteSchema(site: URL = SITE_URL) {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE_NAME,
+    alternateName: ["philosophydef", "philosophydef.com"],
     url: site,
     inLanguage: "en",
     description:
-      "Curated English philosophy quotations from around the world, presented at random.",
-    publisher: { "@type": "Organization", name: SITE_NAME },
+      "Philosophy quotations traced to the work and passage they come from, with original-language wording where the archive holds it.",
+    publisher: { "@type": "Organization", name: SITE_NAME, url: site },
     potentialAction: {
       "@type": "SearchAction",
       target: {
@@ -63,8 +65,14 @@ export function organizationSchema(site: URL = SITE_URL) {
     "@type": "Organization",
     name: SITE_NAME,
     url: site,
+    logo: {
+      "@type": "ImageObject",
+      url: new URL("/favicon-512x512.png", site).href,
+      width: 512,
+      height: 512,
+    },
     description:
-      "An English archive of verified philosophy quotations with thinker, theme, and beginner guides.",
+      "An English archive of philosophy quotations traced to their sources, with thinker, theme, and beginner guides.",
     // Stating what the archive actually covers lets Google associate the site
     // with those topics rather than inferring it from page text alone.
     knowsAbout: [...themeNames, ...schoolNames],
@@ -73,6 +81,25 @@ export function organizationSchema(site: URL = SITE_URL) {
     publishingPrinciples: new URL("/editorial-policy", site).href,
     ownershipFundingInfo: new URL("/about", site).href,
     actionableFeedbackPolicy: new URL("/editorial-policy", site).href,
-    correctionsPolicy: new URL("/sourcing-method", site).href,
+    correctionsPolicy: new URL("/editorial-policy#corrections-log", site).href,
+    ...(editor
+      ? {
+          founder: {
+            "@type": "Person",
+            name: editor.name,
+            description: editor.bio,
+            ...(editor.sameAs?.length ? { sameAs: editor.sameAs } : {}),
+          },
+        }
+      : {}),
+    ...(contactEmail
+      ? {
+          contactPoint: {
+            "@type": "ContactPoint",
+            contactType: "editorial corrections",
+            email: contactEmail,
+          },
+        }
+      : {}),
   };
 }

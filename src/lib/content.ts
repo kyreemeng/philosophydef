@@ -359,76 +359,12 @@ export function thinkerThemePairs(minQuotes = 2) {
  * `nietzsche quotes` at 59.6) need roughly 85–190 referring domains to enter
  * the top ten and are a six-to-twelve-month project against Goodreads and
  * BrainyQuote. So the sourcing family is the line to build, and these helpers
- * build it deliberately — one page per verified record, not one page per
- * corpus row.
+ * build it deliberately. A passage's source record lives on its quotation
+ * page; the /quote-source family is the lookup hub and per-thinker profiles.
  * ------------------------------------------------------------------------- */
-
-/**
- * Google extends rather than truncates a title that repeats the query, and
- * these pages exist precisely to match exact-phrase queries — the archive's
- * single largest traffic term is a quoted sentence (`there is no easy way from
- * the earth to the stars`, 470/month). Keeping the phrase intact therefore
- * outranks fitting the 60-character desktop budget that governs the rest of
- * the site: an ellipsis in the middle of the phrase would break the match that
- * earns the impression in the first place.
- */
-const SOURCE_TITLE_BUDGET = 88;
-
-/**
- * A URL fragment carrying the opening of the passage. Eight words is enough
- * to be unique across the corpus while staying readable, and the guard below
- * proves it rather than assuming it.
- */
-export function quoteSourceSlug(quote: Pick<Quote, "text">, words = 8) {
-  const slug = slugify(quote.text.trim().split(/\s+/).slice(0, words).join(" "));
-  return slug || "quotation";
-}
-
-export function quoteSourcePath(quote: Pick<Quote, "text">) {
-  return `/quote-source/${quoteSourceSlug(quote)}`;
-}
 
 export function thinkerSourcePath(author: string) {
   return `/quote-source/${slugify(author)}`;
-}
-
-/**
- * Title for a per-quotation sourcing page: the passage itself, in full where
- * it fits, followed by the author. Where the passage is long the opening is
- * kept and only the tail is dropped, because the opening is what a searcher
- * types.
- */
-export function quoteSourceTitle(quote: Quote) {
-  const override = quoteSeoOverrides[quote.id.toLowerCase()];
-  if (override?.sourcePageTitle) return override.sourcePageTitle;
-
-  const suffix = ` | Verified Source`;
-  const authorLabel = ` — ${quote.author}`;
-  const fixed = 2 + authorLabel.length; // the two curly quotes wrapping the passage
-  const withSuffix = (budget: number) => budget - fixed - suffix.length;
-  const withoutSuffix = (budget: number) => budget - fixed;
-
-  const full = quote.text.trim().replace(/\.$/, "");
-  if (`“${full}”${authorLabel}${suffix}`.length <= SOURCE_TITLE_BUDGET) {
-    return `“${full}”${authorLabel}${suffix}`;
-  }
-  if (`“${full}”${authorLabel}`.length <= SOURCE_TITLE_BUDGET) {
-    return `“${full}”${authorLabel}`;
-  }
-
-  // Too long for both: keep the phrase, drop the suffix, then trim the tail.
-  const available = withoutSuffix(SOURCE_TITLE_BUDGET);
-  const snippet =
-    full.length <= available
-      ? full
-      : `${truncateWords(full, Math.max(3, available - 1))}`;
-  const title = `“${snippet}”${authorLabel}`;
-  if (title.length <= SOURCE_TITLE_BUDGET) return title;
-
-  // Author names can be long enough to leave no room at all; fall back to the
-  // suffix-free shape with the tightest phrase that still fits.
-  const tight = withSuffix(SOURCE_TITLE_BUDGET);
-  return `“${fitQuoteSnippet(full, Math.max(tight, 3))}”${authorLabel}`;
 }
 
 /**
@@ -445,14 +381,4 @@ export function thinkerSourceTitle(author: string, count: number) {
   return variants.find((title) => title.length <= 62) ?? variants[0];
 }
 
-/**
- * Title for a passage used as an H1, so the page's largest heading is the
- * phrase the searcher typed rather than a description of the page.
- */
-export function quoteSourceHeading(quote: Quote) {
-  const override = quoteSeoOverrides[quote.id.toLowerCase()];
-  if (override?.sourcePageH1) return override.sourcePageH1;
-  const full = quote.text.trim().replace(/\.$/, "");
-  return `Who said “${full}”?`;
-}
 

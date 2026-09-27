@@ -1,0 +1,40 @@
+---
+import type { HubEssay } from "../data/hub-essays";
+
+interface Props {
+  essay: HubEssay;
+}
+
+const { essay } = Astro.props;
+---
+
+<section class="hub-essay prose-layout" aria-labelledby="hub-essay-title">
+  <aside class="prose-aside" aria-label="In this guide">
+    <p>In this guide</p>
+    <ol>
+      {essay.sections.map((section, index) => (
+        <li><a href={`#essay-${index + 1}`}>{section.heading}</a></li>
+      ))}
+    </ol>
+  </aside>
+  <article class="prose">
+    <h2 id="hub-essay-title">{essay.title}</h2>
+    <p class="hub-essay-byline">
+      Philosophy Blind Box · Last reviewed{" "}
+      <time datetime={essay.updated}>{essay.updated}</time>
+    </p>
+    {essay.sections.map((section, index) => (
+      <section id={`essay-${index + 1}`}>
+        <h3>{section.heading}</h3>
+        {section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+        {section.links && section.links.length > 0 && (
+          <ul class="hub-essay-links">
+            {section.links.map((link) => (
+              <li><a href={link.href}>{link.label}</a></li>
+            ))}
+          </ul>
+        )}
+      </section>
+    ))}
+  </article>
+</section>

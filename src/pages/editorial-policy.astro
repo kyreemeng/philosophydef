@@ -1,5 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { contactEmail, corpusStatus, corrections } from "../data/editorial";
+
+const status = corpusStatus();
 
 const schema = {
   "@context": "https://schema.org",
@@ -28,9 +31,9 @@ const schema = {
     <div class="prose-layout">
       <aside class="prose-aside">
         <p>
-          Last updated: August 2026. The live corpus holds about 650–700 verified
-          passages. Corrections are welcome via the contact route listed on the about
-          page when available.
+          Last updated: 27 September 2026. The archive holds {status.total}
+          passages: {status.verified} verified against an edition,
+          {" "}{status.annotated} annotated, {status.recorded} recorded only.
         </p>
       </aside>
       <article class="prose">
@@ -43,7 +46,7 @@ const schema = {
 
         <h2>Coverage</h2>
         <p>
-          The curated set spans roughly 650–700 passages drawn from Greco-Roman,
+          The curated set spans {status.total} passages drawn from Greco-Roman,
           Chinese, Indian, Islamic, Jewish, Japanese, and Africana traditions, with
           expanded representation of women philosophers. Coverage aims at balanced
           depth rather than an exhaustive canon.
@@ -66,6 +69,19 @@ const schema = {
           false.
         </p>
 
+        <h2>Verification levels</h2>
+        <p>
+          Each quotation page states its level. <strong>Verified</strong> means
+          the English wording and locator were checked against the cited
+          edition, and the record adds the original-language text where one
+          exists, the variants that circulate, and a note on the attribution.
+          <strong> Annotated</strong> means the page carries commentary written
+          for that passage. <strong>Recorded</strong> means the wording and
+          source are as the corpus holds them and have not yet been collated;
+          those pages say so and are marked noindex until they carry writing of
+          their own.
+        </p>
+
         <h2>English renderings</h2>
         <p>
           Primary display language is English. Renderings are checked against reliable
@@ -78,8 +94,24 @@ const schema = {
         <p>
           If an attribution, theme label, or wording is wrong, we correct it and retain
           the entry when the passage remains suitable. Removed entries are those that
-          fail the selection criteria after review.
+          fail the selection criteria after review. Duplicate entries for the same
+          passage are merged, and the old address redirects to the surviving page.
+          {contactEmail && (
+            <>
+              {" "}Report an error to <a href={`mailto:${contactEmail}`}>{contactEmail}</a>.
+            </>
+          )}
         </p>
+
+        <h3 id="corrections-log">Corrections log</h3>
+        <ul>
+          {corrections.map((entry) => (
+            <li>
+              <time datetime={entry.date}>{entry.date}</time> ·{" "}
+              <a href={entry.page}>{entry.page}</a> — {entry.change}
+            </li>
+          ))}
+        </ul>
 
         <h2>Independence</h2>
         <p>

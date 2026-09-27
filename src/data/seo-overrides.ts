@@ -9,15 +9,6 @@ export type QuoteSeoOverride = {
   description: string;
   /** Optional H1; defaults to a source-forward heading when omitted. */
   h1?: string;
-  /**
-   * Title for the /quote-source page built from this quotation. Only set it
-   * where the passage needs a shape the generator cannot reach — the generator
-   * keeps the phrase intact and fits the author around it, so most entries do
-   * not need this.
-   */
-  sourcePageTitle?: string;
-  /** H1 for the /quote-source page; defaults to “Who said “…?””. */
-  sourcePageH1?: string;
 };
 
 export const quoteSeoOverrides: Record<string, QuoteSeoOverride> = {

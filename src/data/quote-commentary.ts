@@ -26,6 +26,8 @@
 export type QuoteCommentary = {
   interpretation: string;
   insight: string;
+  /** Date the commentary was written (YYYY-MM-DD); older entries predate the field. */
+  written?: string;
 };
 
 export const quoteCommentary: Record<string, QuoteCommentary> = {
@@ -1084,5 +1086,158 @@ export const quoteCommentary: Record<string, QuoteCommentary> = {
       "Marcel distinguishes problems — solvable with data available to anyone — from mysteries, where the inquirer is part of the question. Love belongs to the second kind, and this sentence from Homo Viator states what love does in it: to love someone is to address them, and the address carries an unconditional refusal of their death; the beloved is not an item whose replacement could be considered. Marcel is describing the phenomenology, not proving immortality — what love declares is what love is.",
     insight:
       "Grief makes the structure visible: love keeps addressing the dead long after biology has finished. It also marks the real difference between loving a person and valuing what they do — functions can be replaced, and this sentence explains why that thought never applies where love is involved.",
+  },
+
+  // 2026-09-27: the seven passage pages that drew Search Console impressions
+  // while carrying no commentary of their own.
+  Q0063: {
+    written: "2026-09-27",
+    interpretation:
+      "These are the last words of Candide (1759), Candide's reply to Pangloss, who is still insisting that every disaster in the book was a necessary link in the best of all possible worlds. After the Lisbon earthquake, war, slavery, and the Inquisition, Voltaire lets the argument end not with a counter-theory but with a change of subject: the small community has found, through a Turkish farmer, that work keeps off “three great evils, boredom, vice, and need.” The garden is the refusal to keep explaining suffering in the abstract when there is something useful to do.",
+    insight:
+      "Readers argue over whether the ending is wisdom or retreat. Either way it offers a test for any grand explanation of why things are as they are: does it change what anyone does tomorrow? If not, Voltaire suggests, it is a way of not tending the garden.",
+  },
+  Q0025: {
+    written: "2026-09-27",
+    interpretation:
+      "Enchiridion 17 applies the distinction the handbook opens with, between what is up to us and what is not. The part — poor or rich, lame or in office, long or short — is assigned; performing it well is ours. Epictetus, born a slave, is not recommending passivity about one's circumstances but relocating dignity: it lies in how a role is played, which no one can take away, rather than in which role one was given, which anyone might.",
+    insight:
+      "It is a useful check on resentment at work or in a family: separate the part you did not choose from the performance you do. The first may be worth changing; the second is already entirely yours, and it is usually where the real difference is made.",
+  },
+  Q0499: {
+    written: "2026-09-27",
+    interpretation:
+      "Nicomachean Ethics VIII.3 sorts friendships by what the friends love in each other: usefulness, pleasure, or character. The first two are incidental and end when the use or pleasure does. Friendship between people good and alike in virtue is complete because each loves the other for who they are, and it contains the other two goods as well. Aristotle adds that such friendships are rare and slow — the friends must, as the saying goes, have eaten salt together — because trust in character takes time to earn.",
+    insight:
+      "It gives a sober way to take stock of one's friendships without cynicism: most are of use or pleasure, and there is nothing wrong with that. The rare kind is recognisable by whether it would survive the loss of the use and the pleasure.",
+  },
+  Q0354: {
+    written: "2026-09-27",
+    interpretation:
+      "The phrase is the subtitle of Eichmann in Jerusalem: A Report on the Banality of Evil (1963) and appears in the book's final words about the “word-and-thought-defying banality of evil.” Arendt did not mean that the Holocaust was trivial or that Eichmann was a minor functionary. She meant that she found in him no demonic depth, only clichés and an inability to think from anyone else's standpoint — thoughtlessness rather than monstrous motive. Later historians, notably Bettina Stangneth, have argued that Eichmann was a committed ideologue performing blandness at his trial, so the phrase is better read as a claim about what evil can require than as a verdict on one man.",
+    insight:
+      "Its lasting force is as a warning about ordinary conditions: great harm can be carried out by people who never ask what they are doing, only whether they are doing it correctly. That places the defence against it in the habit of thinking, which is where Arendt's later work went.",
+  },
+  Q0303: {
+    written: "2026-09-27",
+    interpretation:
+      "In the sixth chapter of the Gita, on meditation, Krishna plays on a single Sanskrit word, ātman, which means both “self” and “oneself”: uddhared ātmanātmānam — one should raise the self by the self. The next verse explains the paradox. The self is a friend to one who has mastered himself by himself, and an enemy to one who has not. English translations often capitalise one “Self” to mark a higher self lifting a lower; that capital is an interpreter's decision, not something the Sanskrit shows.",
+    insight:
+      "The verse refuses to outsource self-improvement: no teacher, circumstance, or practice raises a person unless the person does it. The same faculty that can undo you is the only one that can lift you, which is a hard teaching and a hopeful one.",
+  },
+  Q0203: {
+    written: "2026-09-27",
+    interpretation:
+      "The first verse of the Dhammapada is about ethics, not metaphysics. “Mental states” renders dhammā, and the verse goes on: if one speaks or acts with a corrupted mind, suffering follows as the wheel follows the foot of the ox. The second verse repeats the pattern with a pure mind and happiness that follows like a shadow. The claim is that intention shapes what follows from action — the Buddhist teaching that intention is what makes an act karmically weighty — rather than that the world is made of mind.",
+    insight:
+      "Read as psychology it is directly testable: notice how the state you act from, irritation or goodwill, shapes the conversation that follows more than the words you choose. The verse puts the work where the leverage is.",
+  },
+  Q0103: {
+    written: "2026-09-27",
+    interpretation:
+      "Seneca's Latin is homo, sacra res homini, and in Letter 95 it comes in an attack on the arena: man, a sacred thing to man, is now killed for sport. The letter argues that moral precepts are not enough without doctrines — a settled view of what a human being is — and this phrase states the doctrine: every person, because rational, shares in the divine reason that orders the cosmos. A few sections later Seneca draws the consequence that we are all members of one great body.",
+    insight:
+      "The sentence is short enough to be a slogan, but its context is its point: it was written against a public entertainment that most of Seneca's readers attended. Its test is whether we can name the practices of our own time that it would condemn.",
+  },
+
+  // 2026-09-27: passages the self, love, Socrates, and Nietzsche hub essays
+  // cite and link to.
+  Q0006: {
+    written: "2026-09-27",
+    interpretation:
+      "Diotima's definition in the Symposium (206a) turns love from a feeling into a structure of desire. Everyone wants good things; love, in the strict sense, is wanting the good to be one's own, and to be one's own always. That last word does the work: because mortals cannot possess anything forever, love seeks the nearest substitute — “giving birth in beauty,” in children, in works, in laws, in ideas — which is why the speech moves at once from love to creativity and immortality.",
+    insight:
+      "It explains why love is restless even when it has what it wants: possession now is not possession always. The definition also suggests a diagnostic for any attachment — what good do you want to be yours, and is this the way to make it last?",
+  },
+  Q0045: {
+    written: "2026-09-27",
+    interpretation:
+      "The sentence opens the most famous paragraph of the Confessions (X.27). Augustine has spent Book X searching his memory for where God is to be found, and the answer arrives as a reproach to himself: “You were within, and I was outside.” He had been looking for beauty in beautiful things, which would not exist without the beauty he was overlooking. The paragraph then runs through the five senses — God called, shone, breathed fragrance, was tasted, touched — to say that the conversion engaged the whole person, not the intellect alone.",
+    insight:
+      "“Late” is the key word: the regret is not for having loved the wrong things but for having loved the right thing only in its copies. It is a description, still recognisable, of spending years pursuing what points toward something before noticing what it points to.",
+  },
+  Q0087: {
+    written: "2026-09-27",
+    interpretation:
+      "In the 1945 lecture published as Existentialism Is a Humanism, Sartre explains the formula with a paper-knife. An artisan conceives what a paper-knife is for before making one, so for artefacts essence precedes existence. If there is no God who conceives human nature in advance, human beings are the reverse case: they exist first and define themselves afterwards by what they do. The formula is therefore a claim about the absence of a given human nature, from which Sartre derives total responsibility — no fixed essence can be blamed for a choice.",
+    insight:
+      "The practical sting is in the excuses it removes. “That's just who I am” treats character as an essence that came first; Sartre's reply is that who you are is the sum of what you keep choosing, so the sentence describes a decision rather than a fact.",
+  },
+  Q0198: {
+    written: "2026-09-27",
+    interpretation:
+      "Ortega's sentence in Meditations on Quixote (1914) — “Yo soy yo y mi circunstancia” — rejects two opposite pictures: the idealist self that exists prior to its world, and the determinist self that is merely produced by it. The self is the pair: a person and the concrete situation — this country, this time, this body, these people — they have to make something of. The second half makes it a task: to “save” the circumstance is to understand it and give it meaning, and without doing so one cannot save, that is realise, oneself.",
+    insight:
+      "It replaces the question “Who am I, underneath everything?” with a more useful one: “What does my situation ask of me?” The self, on this view, is found by taking one's circumstances seriously rather than by escaping them.",
+  },
+  Q0200: {
+    written: "2026-09-27",
+    interpretation:
+      "In “The Sublime and the Good” (1959) Murdoch makes love a matter of perception rather than feeling. The natural movement of the mind is to see other people as figures in its own concerns — useful, threatening, flattering. Love is the difficult act of seeing that another person is as real as oneself, with a life not organised around one's own. Murdoch goes on to say that love, and so art and morals, is the discovery of reality, which is why for her moral progress is largely a matter of attending more accurately.",
+    insight:
+      "It gives love a test that affection alone can fail: do you see the other person as they are, or as they figure in your story? Many failures of love are failures of this kind of attention before they are failures of feeling.",
+  },
+  Q0205: {
+    written: "2026-09-27",
+    interpretation:
+      "Tat tvam asi is the refrain of the sage Uddālaka Āruṇi as he teaches his son Śvetaketu in the sixth chapter of the Chandogya Upanishad, repeated after each example — salt dissolved in water, rivers merging in the sea — that points to the one subtle essence of everything. The three words carry very different readings in the Vedānta schools. For Śaṅkara's Advaita they state strict identity of the self and brahman; for Rāmānuja they state inseparable relation, as a body to its soul; Madhva's dualist school reads the sentence so that it affirms difference.",
+    insight:
+      "Which reading one accepts changes a great deal — whether liberation is discovering one was never separate, or coming into right relation with what one depends on. It is a rare case where a three-word quotation is also a map of a whole philosophical tradition's disagreements.",
+  },
+  Q0206: {
+    written: "2026-09-27",
+    interpretation:
+      "The sentence is from Genjōkōan (1233), the most read fascicle of Dōgen's Shōbōgenzō, and it continues: to forget the self is to be actualised by the myriad things. Studying the self is not introspection for a stable core; it is practice in which the self is found to be no fixed thing, and the attempt to hold it falls away. What remains is not blankness but experience no longer organised around a separate observer — the “myriad things” come forward and are fully themselves.",
+    insight:
+      "It reverses the usual order of self-improvement, in which the self is the project and everything else material. Dōgen suggests that the moments we are least preoccupied with ourselves are the ones we are most fully present, which is recognisable well outside Zen.",
+  },
+  Q0222: {
+    written: "2026-09-27",
+    interpretation:
+      "At the top of the ascent Diotima describes in the Symposium (211a), the lover sees Beauty itself, and this sentence begins the description of what it is not. It does not come to be or pass away, grow or diminish; it is not beautiful in one respect and ugly in another, or beautiful to some and not to others. Every beautiful body, law, or piece of knowledge has its beauty by sharing in this. It is one of the clearest statements in Plato of what a Form is: the thing itself, unqualified, of which particular things are partial instances.",
+    insight:
+      "Whatever one thinks of the metaphysics, the passage names a real experience: the sense that particular beautiful things point beyond themselves. It also sets the problem later theories of love inherited — whether loving Beauty itself leaves the particular beloved behind.",
+  },
+  Q0233: {
+    written: "2026-09-27",
+    interpretation:
+      "Augustine's Latin — noli foras ire, in te ipsum redi; in interiore homine habitat veritas — comes from On True Religion (39.72) and gives the method he uses throughout his philosophy: truth is found not by surveying the world but by turning inward, because the mind can recognise unchanging truths it did not make. The sentence continues, and the continuation matters: if you find your own nature changeable, go beyond yourself. The inward turn is a route to something higher than the self, not a settling into it.",
+    insight:
+      "It is often quoted as advice to trust oneself, which reverses its point. The self is where the search begins because it is closest, and the search is meant to discover that the self is not the measure of truth.",
+  },
+  Q0250: {
+    written: "2026-09-27",
+    interpretation:
+      "In the Treatise section “Of personal identity” (I.4.6) Hume tests the claim that we are intimately aware of a self that persists through our experiences. Looking inward, he finds only particular perceptions — heat, cold, love, hatred — and never a self that has them. He concludes that a person is “nothing but a bundle or collection of different perceptions” in perpetual flux, and that the idea of a single enduring self is produced by the imagination smoothing over resemblance and succession. In the Appendix he later confessed he could not make his account of what binds the bundle together satisfy him.",
+    insight:
+      "The experiment is easy to repeat and hard to escape: try to observe the observer and you find only something else being observed. Hume's honesty in the Appendix is as instructive as the argument — a clear sign of a problem that was real, not merely clever.",
+  },
+  Q0366: {
+    written: "2026-09-27",
+    interpretation:
+      "The Great Learning (Daxue), a short chapter of the Record of Rites that Zhu Xi made one of the Four Books, sets out an order of cultivation that runs from the investigation of things, through extending knowledge, making intentions sincere, and rectifying the mind, to cultivating the person, ordering the family, governing the state, and bringing peace to the world. This passage is one link in that chain, read backwards: each stage presupposes the one inside it, so political order rests finally on sincerity of intention.",
+    insight:
+      "The sequence is an argument against reform that starts at the outside. On this view no institution works better than the intentions of the people in it — which is severe, and easy to confirm in any organisation.",
+  },
+  Q0456: {
+    written: "2026-09-27",
+    interpretation:
+      "Mencius says this to King Xuan of Qi (Mencius 1A7), who has spared an ox from sacrifice because he could not bear its frightened look. Mencius uses the episode as evidence: the king already has the feeling that makes humane rule possible, and needs only to extend it. The formula states the Confucian view of love as graded — it begins with one's own family and reaches outward — against Mozi's demand for impartial care of everyone equally.",
+    insight:
+      "It offers a psychologically plausible account of how concern for strangers is built: not by abstract principle but by stretching the care one already feels for those close by. The question it leaves is how far the stretching can go before it thins out.",
+  },
+  Q0478: {
+    written: "2026-09-27",
+    interpretation:
+      "Fromm's The Art of Loving (1956) argues against the idea that love is chiefly a matter of finding the right object and being swept away. Love is an activity with its own disciplines — care, responsibility, respect, and knowledge of the other — and it is primarily giving rather than receiving. “Standing in” rather than “falling for” marks the difference between an event that happens to a person and a practice a person sustains.",
+    insight:
+      "The distinction explains why intense beginnings are a poor predictor of lasting love: falling is involuntary, while standing takes skill that can be learned and neglected. Fromm's title is meant literally — love is an art in the sense of a craft.",
+  },
+  Q0562: {
+    written: "2026-09-27",
+    interpretation:
+      "Avicenna's “floating man” appears in the psychology of his encyclopedia The Healing (Kitāb al-Shifāʾ). A person created fully mature, suspended in air with sight veiled and limbs apart so that no sensation reaches them, would still be aware that they exist, though not aware of having any body. Avicenna takes this to show that self-awareness does not depend on awareness of the body, and so that the self is not identical with the body. Readers since have compared it with Descartes' cogito six centuries later.",
+    insight:
+      "Whether the argument succeeds is disputed — imagining oneself without a body may not show that one could exist without it — but the thought experiment isolates a real puzzle: the sense of one's own existence seems more immediate than any perception of the body that has it.",
   },
 };

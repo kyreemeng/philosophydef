@@ -24,14 +24,18 @@ const schema = [
     description: guide.description,
     mainEntityOfPage: new URL(pageUrl, Astro.site),
     inLanguage: "en",
+    ...(guide.updated ? { dateModified: guide.updated } : {}),
     author: {
       "@type": "Organization",
       name: "Philosophy Blind Box",
+      url: new URL("/about", Astro.site),
     },
     publisher: {
       "@type": "Organization",
       name: "Philosophy Blind Box",
+      url: Astro.site,
     },
+    ...(guide.furtherReading ? { citation: guide.furtherReading } : {}),
   },
   {
     "@context": "https://schema.org",
@@ -85,6 +89,13 @@ const pageDescription = seo.description ?? guide.description;
       <p class="eyebrow">{guide.eyebrow}</p>
       <h1>{guide.title}</h1>
       <p>{guide.intro}</p>
+      {guide.updated && (
+        <p class="guide-byline">
+          Philosophy Blind Box · Last reviewed{" "}
+          <time datetime={guide.updated}>{guide.updated}</time> ·{" "}
+          <a href="/editorial-policy">How guides are written</a>
+        </p>
+      )}
     </header>
 
     <div class="guide-layout">
@@ -97,6 +108,7 @@ const pageDescription = seo.description ?? guide.description;
             ))
           }
           {guide.faq && <li><a href="#faq">FAQ</a></li>}
+          {guide.furtherReading && <li><a href="#further-reading">Further reading</a></li>}
         </ol>
       </aside>
 
@@ -130,6 +142,17 @@ const pageDescription = seo.description ?? guide.description;
         }
 
         {
+          guide.furtherReading && (
+            <section id="further-reading" aria-labelledby="further-reading-title">
+              <h2 id="further-reading-title">Further reading</h2>
+              <ul>
+                {guide.furtherReading.map((item) => <li>{item}</li>)}
+              </ul>
+            </section>
+          )
+        }
+
+        {
           featuredQuotes.length > 0 && (
             <section class="guide-quotes" aria-labelledby="related-quotations">
               <p class="eyebrow">From the archive</p>
@@ -139,7 +162,9 @@ const pageDescription = seo.description ?? guide.description;
                   <blockquote>
                     <p>“{quote.text}”</p>
                     <footer>
-                      <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
+                      <a href={`/quotes/${quote.id.toLowerCase()}`}>
+                        {quote.author}, {quote.source}
+                      </a>
                     </footer>
                   </blockquote>
                 ))}

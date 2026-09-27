@@ -6,7 +6,6 @@ import {
   canonicalizeTheme,
   quoteDescription,
   quoteHeading,
-  quoteSourcePath,
   quoteTitle,
   relatedByAuthor,
   relatedByTheme,
@@ -79,7 +78,9 @@ const { prev, next } = adjacentQuotes(quote);
  */
 const verification = quoteVerification[quote.id.toUpperCase()];
 const verificationDate =
-  verification?.lastVerified ?? corpusReviewDate(quote.id, Boolean(commentary));
+  verification?.lastVerified ??
+  commentary?.written ??
+  corpusReviewDate(quote.id, Boolean(commentary));
 const originalLanguageCode = verification?.original
   ? languageCode(verification.original.language)
   : undefined;
@@ -410,13 +411,14 @@ const contents = [
         </ol>
         <p class="quote-contents-status">
           <span class={verification ? "status status-verified" : "status"}>
-            {verification ? "Verified" : "Recorded"}
+            {verification ? "Verified" : commentary ? "Annotated" : "Recorded"}
           </span>
           <span>
             {verification
               ? `Checked ${verification.lastVerified}`
               : `Not yet collated · ${verificationDate}`}
           </span>
+          <a href="/about">What these levels mean</a>
         </p>
       </aside>
 
@@ -475,7 +477,9 @@ const contents = [
               <dd>
                 {verification
                   ? `Checked against the cited edition on ${verification.lastVerified}.`
-                  : `Recorded from the corpus on ${verificationDate}; not yet checked against an edition.`}
+                  : commentary
+                    ? `Annotated ${verificationDate}; the wording has not yet been checked against an edition.`
+                    : `Recorded from the corpus on ${verificationDate}; not yet checked against an edition.`}
               </dd>
             </div>
           </dl>
@@ -537,21 +541,15 @@ const contents = [
           <section id="attribution" class="quote-block" aria-labelledby="attribution-title">
             <h2 id="attribution-title">Attribution notes</h2>
             <p>{verification.attribution}</p>
-            {inVerificationBatch && (
-              <p class="related-link">
-                <a href={quoteSourcePath(quote)}>
-                  Open the full source record for this passage
+            <p class="related-link">
+              {thinkerHasSourcePage ? (
+                <a href={thinkerSourcePath(quote.author)}>
+                  How to cite and check {quote.author} quotations
                 </a>
-                {" · "}
-                {thinkerHasSourcePage ? (
-                  <a href={thinkerSourcePath(quote.author)}>
-                    All {quote.author} source records
-                  </a>
-                ) : (
-                  <a href="/quote-source">How to trace any quotation to its source</a>
-                )}
-              </p>
-            )}
+              ) : (
+                <a href="/quote-source">How to trace any quotation to its source</a>
+              )}
+            </p>
           </section>
         )}
 
@@ -563,17 +561,7 @@ const contents = [
               What a locator tells you, and what it does not
             </a>
             {" · "}
-            {/*
-              The per-passage source record only exists for passages in the
-              verification batch. Linking to it unconditionally sent 661 pages
-              to a URL the build never emits; the hub is the honest target
-              otherwise.
-            */}
-            <a href={inVerificationBatch ? quoteSourcePath(quote) : "/quote-source"}>
-              {inVerificationBatch
-                ? "Open the full source record for this passage"
-                : "How this archive traces a quotation"}
-            </a>
+            <a href="/quote-source">How this archive traces a quotation</a>
           </p>
           <h3>About {quote.author}</h3>
           <p>{thinkerContext}</p>

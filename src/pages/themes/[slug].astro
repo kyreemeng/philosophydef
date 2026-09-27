@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { themeGroups, slugify } from "../../lib/content";
+import { themeGroups, slugify, truncateWords } from "../../lib/content";
+import HubEssay from "../../components/HubEssay.astro";
+import { hubEssays } from "../../data/hub-essays";
 import { defaultThemeGuide, themeGuideFor } from "../../data/enrichment";
 import { shouldIndexTheme } from "../../lib/indexing";
 import { pageSeoOverrides } from "../../data/seo-overrides";
@@ -18,6 +20,7 @@ const guide = themeGuideFor(theme.name) ?? defaultThemeGuide(theme.name, theme.q
 const indexable = shouldIndexTheme(theme);
 const thinkers = [...new Set(theme.quotes.map((quote) => quote.author))].slice(0, 8);
 const seo = pageSeoOverrides[pageUrl] ?? {};
+const essay = hubEssays[pageUrl];
 const pageTitle =
   seo.title ?? `Philosophy Quotes About ${theme.name} | Philosophy Blind Box`;
 const pageDescription =
@@ -37,7 +40,8 @@ const schema = [
     "@type": "Article",
     headline: `Philosophy Quotes about ${theme.name}`,
     description: guide.intro,
-    author: { "@type": "Organization", name: "Philosophy Blind Box" },
+    author: { "@type": "Organization", name: "Philosophy Blind Box", url: new URL("/about", Astro.site) },
+    ...(essay ? { dateModified: essay.updated } : {}),
   },
   {
     "@context": "https://schema.org",
@@ -84,6 +88,11 @@ const schema = [
       <p class="eyebrow">Theme</p>
       <h1>Philosophy quotes about {theme.name.toLowerCase()}</h1>
       <p>{guide.intro}</p>
+      {essay && (
+        <p class="related-link">
+          <a href="#hub-essay-title">{essay.title}</a>
+        </p>
+      )}
     </header>
 
     <div class="prose-layout">
@@ -128,13 +137,17 @@ const schema = [
           <li class="quote-list-item">
             <blockquote>{quote.text}</blockquote>
             <footer>
-              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>
+                {quote.author}: “{truncateWords(quote.text, 8)}”
+              </a>
               <br />
-              {quote.school}
+              {quote.source}
             </footer>
           </li>
         ))
       }
     </ol>
+
+    {essay && <HubEssay essay={essay} />}
   </div>
 </BaseLayout>
