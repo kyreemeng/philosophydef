@@ -68,28 +68,6 @@ const schema = [
       },
     ],
   },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: `What do philosophers say about ${hub.name.toLowerCase()}?`,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: hub.intro,
-        },
-      },
-      {
-        "@type": "Question",
-        name: `How many philosophy quotes about ${hub.name.toLowerCase()} are in this archive?`,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: `This collection currently gathers ${selected.length} English passages tagged or phrased around ${hub.name.toLowerCase()}, each linking to a full archive entry with source context.`,
-        },
-      },
-    ],
-  },
 ];
 const seo = pageSeoOverrides[path] ?? {};
 const essay = hubEssays[path];

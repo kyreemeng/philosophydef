@@ -74,28 +74,6 @@ const schema = [
       },
     ],
   },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: `What did ${pair.author} say about ${pair.theme.toLowerCase()}?`,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: `This page gathers ${pair.quotes.length} verified English quotations by ${pair.author} that speak to ${pair.theme.toLowerCase()}. Each passage links to a full archive entry with source context.`,
-        },
-      },
-      {
-        "@type": "Question",
-        name: `Where can I find ${pair.author.toLowerCase()} quotes on ${pair.theme.toLowerCase()}?`,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: `Philosophy Blind Box curates ${pair.author} quotations on ${pair.theme.toLowerCase()} at ${new URL(pageUrl, Astro.site)}, with links to the full thinker page and theme index.`,
-        },
-      },
-    ],
-  },
 ];
 ---
 

@@ -1,6 +1,10 @@
 User-agent: *
 Allow: /
 Disallow: /data/
+
+# Content-Signal is a non-Google signal addressed to AI crawlers. It is not
+# part of Google's robots.txt standard and has no effect on Google Search;
+# Googlebot follows only the User-agent / Allow / Disallow rules above.
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 
 Sitemap: https://www.philosophydef.com/sitemap-index.xml

@@ -207,3 +207,38 @@ export const sourceFaq: SourceFaq[] = [
       "It says so. Passages whose wording circulates without a locatable original are filed as traditional attributions or later paraphrases rather than given an invented chapter number. Where a line is known to be someone else's formulation of an author's idea, the archive page names the actual writer — a fuller answer than a confident citation nobody can check.",
   },
 ];
+
+/**
+ * FAQ entries for the /misattributed-quotes page. These are distinct from the
+ * source-hub FAQ: they answer questions about the misattribution phenomenon
+ * itself, not about the tracing method. They render as page prose — Google
+ * retired FAQ rich results, so these are written for readers, not for a
+ * schema type.
+ */
+export const misattributionFaq: SourceFaq[] = [
+  {
+    question: "What is a misattributed quote?",
+    answer:
+      "A sentence credited to someone who never wrote it. “I disapprove of what you say, but I will defend to the death your right to say it” is the classic case: it appears on Voltaire memorials, but Evelyn Beatrice Hall wrote it in 1906 as her own summary of his attitude. Misattribution is different from a paraphrase, which restates something the person did write.",
+  },
+  {
+    question: "Why are philosophers so often misquoted?",
+    answer:
+      "Three reasons compound. Philosophical claims get compressed into maxims, and the compression sheds the argument that gave the sentence its meaning (“knowledge is power” drops Bacon's clause about why an unknown cause loses its effect). Famous names attract anonymous lines, because a quote under a famous name travels further. And most philosophy was written in other languages, so every English version is already an interpretation — one more step away from the text, and one more chance for the byline to drift.",
+  },
+  {
+    question: "Is a paraphrase the same thing as a misattribution?",
+    answer:
+      "No. “No one errs willingly” is a fair compression of Socrates' position in the Protagoras; a paraphrase becomes a problem only when it is presented as literal wording. “I know that I know nothing” sits on the border: it paraphrases a narrower claim in the Apology, and the popular form turns a statement about Socrates' own ignorance into a paradox about knowledge in general.",
+  },
+  {
+    question: "How does this archive decide that a line is misattributed?",
+    answer:
+      "By going to the earliest traceable text and checking it against the credited author's own works. Where the line is real but the byline is not — the Voltaire sentence, the “hive” version of Marcus Aurelius — the page names who actually wrote it and what the credited author did say. Every register entry above links to the full record.",
+  },
+  {
+    question: "Can I still use a misattributed quote?",
+    answer:
+      "You can use it accurately. Either quote the located text with its real source and locator, or present the popular line as what it is — a later formulation, and often a revealing one. The error is not liking the sentence; it is attaching a name to it that the evidence does not support.",
+  },
+];

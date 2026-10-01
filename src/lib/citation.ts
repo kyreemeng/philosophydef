@@ -46,7 +46,17 @@ export type ResolvedSource = {
  * Prefix matching rather than first-comma splitting is what keeps
  * "Plato, Apology 38a" from resolving to the record for the Gorgias: the alias
  * carries the dialogue, so the two never collide.
+ *
+ * The boundary test after the alias accepts space, comma, colon, and their
+ * full-width forms — "Cosmopolitanism: Ethics in a World of Strangers (2006)"
+ * continues its alias with a colon, and a title boundary is a title boundary
+ * whatever punctuation the corpus wrote it with. When that continuation is
+ * still the canonical title, the locus starts after the title, not after the
+ * short alias. A word-boundary failure here is silent: the record is skipped,
+ * the page loses its original title and translator, and nothing errors.
  */
+const ALIAS_BOUNDARY = /^[\s,:;，：；“”"'’]/;
+
 const aliasIndex = works
   .flatMap((work) => work.aliases.map((alias) => ({ alias: alias.toLowerCase(), work })))
   .sort((a, b) => b.alias.length - a.alias.length);
@@ -59,6 +69,18 @@ const aliasIndex = works
  */
 function normaliseForMatch(raw: string) {
   return raw.trim().replace(/^[“"']+/, "").toLowerCase();
+}
+
+/**
+ * How many characters of the raw source sit before the alias.
+ *
+ * Matching runs on a copy with leading quotation marks stripped, because essay
+ * titles in the corpus are wrapped in them. The locus is sliced from the
+ * original string, so those marks have to be counted or the slice lands inside
+ * the title — `"Toward Decolonizing…"` would keep a leftover "n" in the locus.
+ */
+function aliasStart(raw: string) {
+  return raw.trim().match(/^[“"']*/)?.[0].length ?? 0;
 }
 
 function yearFromParentheses(raw: string): string | undefined {
@@ -136,8 +158,8 @@ export function resolveSource(raw: string): ResolvedSource {
   const match = aliasIndex.find(
     (candidate) =>
       probe === candidate.alias ||
-      probe.startsWith(`${candidate.alias} `) ||
-      probe.startsWith(`${candidate.alias},`),
+      (probe.startsWith(candidate.alias) &&
+        ALIAS_BOUNDARY.test(probe.charAt(candidate.alias.length))),
   );
 
   let workTitle: string | undefined;
@@ -145,7 +167,15 @@ export function resolveSource(raw: string): ResolvedSource {
 
   if (match) {
     workTitle = match.work.title;
-    locus = trimmed.slice(match.alias.length).replace(/^[\s,]+/, "").trim();
+    const afterAlias = trimmed.slice(aliasStart(trimmed));
+    // A short alias can be a prefix of the canonical title. "cosmopolitanism"
+    // matches "Cosmopolitanism: Ethics in a World of Strangers" because the
+    // colon is a boundary, but the subtitle is still the title — the locus
+    // starts only once that title has been consumed.
+    const titleContinues =
+      afterAlias.toLowerCase().startsWith(workTitle.toLowerCase());
+    const cut = titleContinues ? workTitle.length : match.alias.length;
+    locus = afterAlias.slice(cut).replace(/^[\s,:;，：；、“”"'’]+/, "").trim();
   } else {
     const split = splitByLocator(trimmed);
     if (split) {

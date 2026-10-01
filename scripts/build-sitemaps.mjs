@@ -81,7 +81,7 @@ const SEED_DATES = [
  * “Last verified: …”, so the sitemap and the page cannot disagree.
  */
 function declaredVerificationDate(html) {
-  return html.match(/Last verified:<\/strong>\s*(\d{4}-\d{2}-\d{2})/)?.[1];
+  return html.match(/Last verified:\s*(\d{4}-\d{2}-\d{2})/)?.[1];
 }
 
 function seedDate(route, html) {
@@ -107,6 +107,13 @@ const GROUPS = [
     changefreq: "monthly",
     priority: 0.8,
     label: "Thinker and thinker×theme pages",
+  },
+  {
+    id: "works",
+    file: "sitemap-works.xml",
+    changefreq: "monthly",
+    priority: 0.8,
+    label: "Work pages",
   },
   {
     id: "themes",
@@ -146,6 +153,7 @@ function routeFor(file) {
 function classify(route) {
   if (/^\/quotes\/q\d+$/.test(route)) return "quotes";
   if (/^\/thinkers\//.test(route)) return "thinkers";
+  if (/^\/works\//.test(route)) return "works";
   if (/^\/(themes|schools)\//.test(route)) return "themes";
   return "guides";
 }

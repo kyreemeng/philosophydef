@@ -2,6 +2,10 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { contactEmail, corpusStatus, editor } from "../data/editorial";
 import { organizationSchema } from "../lib/site-schema";
+import {
+  VERIFICATION_LEVELS,
+  VERIFICATION_LEVEL_ORDER,
+} from "../lib/verification";
 
 const status = corpusStatus();
 const format = (value: number) => value.toLocaleString("en-US");
@@ -22,7 +26,7 @@ const schema = [
 
 <BaseLayout
   title="About Philosophy Blind Box | How the Archive Is Checked"
-  description={`An archive of ${format(status.total)} philosophy quotations traced to their sources. ${format(status.verified)} checked against an edition, with original wording and misattributions recorded.`}
+  description={`An archive of ${format(status.total)} philosophy quotations traced to their sources. ${format(status.checked)} checked against a cited edition, with original wording and misattributions recorded.`}
   canonical="/about"
   schema={schema}
 >
@@ -55,26 +59,26 @@ const schema = [
           English say what the original says?
         </p>
 
-        <h2>How much has been checked</h2>
-        <p>Every quotation page states which of three levels it has reached.</p>
+        <h2 id="verification-levels">How much has been checked</h2>
+        <p>
+          Every quotation page states which of the four levels below it has
+          reached. The levels are one vocabulary used across the whole archive —
+          the homepage, the editorial policy, and each passage's own status line
+          all read them from the same register — so a page never claims a check
+          it has not performed.
+        </p>
         <ul>
-          <li>
-            <strong>Verified — {format(status.verified)} passages.</strong> Checked
-            against the cited edition, with the original-language wording where
-            one exists, the forms that circulate in its place, and a note on the
-            attribution.
-          </li>
-          <li>
-            <strong>Annotated — {format(status.annotated)} passages.</strong> A
-            source locator plus commentary written for that passage: what it
-            argues in its own context and why it is read.
-          </li>
-          <li>
-            <strong>Recorded — {format(status.recorded)} passages.</strong> The
-            English wording and the source as the corpus records them, not yet
-            collated against an edition. These pages say so, and are kept out of
-            search results until they have writing of their own.
-          </li>
+          {
+            VERIFICATION_LEVEL_ORDER.map((level) => (
+              <li>
+                <strong>
+                  {VERIFICATION_LEVELS[level].label} — {format(status.levels[level])}{" "}
+                  {status.levels[level] === 1 ? "passage" : "passages"}.
+                </strong>{" "}
+                {VERIFICATION_LEVELS[level].description}
+              </li>
+            ))
+          }
         </ul>
 
         <h2>How a record is built</h2>
@@ -95,7 +99,9 @@ const schema = [
           person, begin with <a href="/thinkers/socrates">Socrates</a> or
           <a href="/thinkers/friedrich-nietzsche">Nietzsche</a>; by subject, with
           <a href="/themes/self">the self</a> or
-          <a href="/quotes/about/love">love</a>. For background, the
+          <a href="/quotes/about/love">love</a>; by work, with
+          <a href="/works/meditations">the Meditations</a> or the
+          <a href="/works">index of works</a>. For background, the
           <a href="/what-is-philosophy">guides</a> and the
           <a href="/glossary">glossary of terms</a> explain the vocabulary.
         </p>

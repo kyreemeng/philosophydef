@@ -5,10 +5,14 @@ import { guides } from "../data/guides";
 import { organizationSchema, websiteSchema } from "../lib/site-schema";
 import { thinkerGroups } from "../lib/content";
 import { shouldIndexThinker } from "../lib/indexing";
+import { corpusStatus } from "../data/editorial";
+import { workEntries, shouldIndexWork } from "../lib/works";
 
 const featured = quotes[0];
 const thinkers = thinkerGroups();
 const schoolCount = new Set(quotes.map((quote) => quote.school)).size;
+const status = corpusStatus();
+const format = (value: number) => value.toLocaleString("en-US");
 
 const dailyLines = [
   "Philosophy does not answer. It hands you a mirror.",
@@ -124,6 +128,32 @@ const featuredGuides = guides.filter((guide) =>
     "how-to-study-philosophy",
   ].includes(guide.slug),
 );
+
+/**
+ * Works shown on the homepage. The Work layer is the archive's third entry
+ * point (thinker, theme, work), and these are the works readers arrive
+ * looking for — every one is indexable, so no homepage authority is spent on
+ * a page Google is told to skip.
+ */
+const featuredWorks = workEntries()
+  .filter(shouldIndexWork)
+  .filter((entry) =>
+    [
+      "Meditations",
+      "Republic",
+      "Nicomachean Ethics",
+      "The Analects",
+      "Daodejing",
+      "Letters to Lucilius",
+      "Zhuangzi",
+      "Pensées",
+    ].includes(entry.work.title),
+  )
+  .map((entry) => ({
+    href: entry.path,
+    name: entry.work.title,
+    count: entry.quotes.length,
+  }));
 ---
 
 <BaseLayout
@@ -157,10 +187,12 @@ const featuredGuides = guides.filter((guide) =>
           <a class="button secondary" href="/quotes">Browse the archive</a>
         </div>
         <p class="hero-value hero-facts">
-          {quotes.length.toLocaleString("en-US")} verified English passages by{" "}
-          {thinkers.length} thinkers across{" "}
-          {schoolCount} traditions — from Plato and Confucius to Kwasi Wiredu,
-          Nishida Kitarō, and Frantz Fanon.
+          {format(status.total)} sourced English passages by {thinkers.length}{" "}
+          thinkers across {schoolCount} traditions — {format(status.checked)} of
+          them checked against the cited edition, {format(status.originalChecked)}{" "}
+          with the original wording recorded. From Plato and Confucius to Kwasi
+          Wiredu, Nishida Kitarō, and Frantz Fanon.{" "}
+          <a href="/about#verification-levels">How the levels work</a>.
         </p>
       </div>
     </section>
@@ -251,12 +283,15 @@ const featuredGuides = guides.filter((guide) =>
       </div>
       <div class="method-steps" aria-label="How this archive presents quotations">
         <div>
-          <span>Verified</span>
+          <span>Sourced</span>
           <p>Each passage names the work, section, and edition it is cited from.</p>
         </div>
         <div>
-          <span>English</span>
-          <p>Every quotation is shown in a verified English rendering.</p>
+          <span>Checked</span>
+          <p>
+            {format(status.checked)} passages are checked against the cited
+            edition; every page states its own level.
+          </p>
         </div>
         <div>
           <span>Chance</span>
@@ -275,9 +310,30 @@ const featuredGuides = guides.filter((guide) =>
         <a href="/quote-source">quote source finder</a> to see the located
         record: the work and section, the wording in the original language, the
         forms that circulate in its place, and the lines most often attributed
-        to the wrong author. Read how the archive{" "}
+        to the wrong author. Start with the{" "}
+        <a href="/misattributed-quotes">misattributed quotations</a> the archive
+        has already worked through, read how it{" "}
         <a href="/sourcing-method">sources its texts</a>, or what it{" "}
         <a href="/editorial-policy">publishes and corrects</a>.
+      </p>
+    </section>
+
+    <section class="themes-section" aria-labelledby="works-title">
+      <div class="section-intro">
+        <p class="section-label">Enter by work</p>
+        <h2 id="works-title">Quotes by work and book</h2>
+      </div>
+      <p class="hero-value" style="margin-top:0">
+        {
+          featuredWorks.map((work, index) => (
+            <>
+              {index > 0 && " · "}
+              <a href={work.href}>{work.name}</a>
+            </>
+          ))
+        }
+        {" · "}
+        <a href="/works">All works</a>
       </p>
     </section>
 

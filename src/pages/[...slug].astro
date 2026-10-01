@@ -55,22 +55,6 @@ const schema = [
       },
     ],
   },
-  ...(guide.faq
-    ? [
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: guide.faq.map((item) => ({
-            "@type": "Question",
-            name: item.question,
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: item.answer,
-            },
-          })),
-        },
-      ]
-    : []),
 ];
 const seo = pageSeoOverrides[pageUrl] ?? {};
 const pageTitle = seo.title ?? `${guide.title} | Philosophy Blind Box`;

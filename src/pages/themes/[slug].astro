@@ -21,11 +21,24 @@ const indexable = shouldIndexTheme(theme);
 const thinkers = [...new Set(theme.quotes.map((quote) => quote.author))].slice(0, 8);
 const seo = pageSeoOverrides[pageUrl] ?? {};
 const essay = hubEssays[pageUrl];
+/**
+ * The title states the search intent and the two things that distinguish the
+ * page from aggregator lists: which thinkers, and the sources behind the
+ * passages. It replaces the old brand-suffix form, which Search Console
+ * showed sitting at positions the fuller snippet could convert better.
+ */
 const pageTitle =
-  seo.title ?? `Philosophy Quotes About ${theme.name} | Philosophy Blind Box`;
+  seo.title ?? `Philosophy Quotes About ${theme.name}: Thinkers, Sources & Context`;
 const pageDescription =
   seo.description ??
-  `Philosophy quotes about ${theme.name.toLowerCase()}: read ${theme.quotes.length} verified English passages. ${guide.intro.slice(0, 100)}`;
+  `Philosophy quotes about ${theme.name.toLowerCase()}: read ${theme.quotes.length} verified English passages with sources. ${guide.intro.slice(0, 100)}`;
+/**
+ * A theme page is a reference hub, not an article: the page's subject is the
+ * collection of passages, so the schema says CollectionPage. The Article node
+ * Google's documentation reserves for news/blog-type content was removed, and
+ * so was FAQPage — Google retired FAQ rich results in 2026, and the questions
+ * stay on the page as prose, where they still answer readers.
+ */
 const schema = [
   {
     "@context": "https://schema.org",
@@ -34,26 +47,6 @@ const schema = [
     description: guide.intro,
     url: new URL(pageUrl, Astro.site),
     numberOfItems: theme.quotes.length,
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: `Philosophy Quotes about ${theme.name}`,
-    description: guide.intro,
-    author: { "@type": "Organization", name: "Philosophy Blind Box", url: new URL("/about", Astro.site) },
-    ...(essay ? { dateModified: essay.updated } : {}),
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: guide.faq.map((item) => ({
-      "@type": "Question",
-      name: item.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: item.answer,
-      },
-    })),
   },
   {
     "@context": "https://schema.org",

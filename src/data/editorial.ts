@@ -1,6 +1,5 @@
 import quotes from "./quotes.json";
-import { quoteCommentary } from "./quote-commentary";
-import { quoteVerification } from "./quote-verification";
+import { verificationLevelFor } from "../lib/verification";
 
 /**
  * Who stands behind the archive, and how to reach them.
@@ -27,17 +26,27 @@ export const contactEmail: string | undefined = "kyreemeng@gmail.com";
 
 /** Live counts, so the About page cannot overstate how much has been checked. */
 export function corpusStatus() {
-  const verified = quotes.filter((quote) => quoteVerification[quote.id.toUpperCase()]).length;
-  const annotated = quotes.filter(
-    (quote) =>
-      !quoteVerification[quote.id.toUpperCase()] && quoteCommentary[quote.id.toUpperCase()],
-  ).length;
+  const levels = { "original-checked": 0, "edition-checked": 0, annotated: 0, recorded: 0 };
+  for (const quote of quotes) {
+    levels[verificationLevelFor(quote)] += 1;
+  }
   return {
     total: quotes.length,
-    verified,
-    annotated,
-    recorded: quotes.length - verified - annotated,
     thinkers: new Set(quotes.map((quote) => quote.author)).size,
+    // Per-level counts, in VERIFICATION_LEVEL_ORDER. Every page that states
+    // how much of the archive is checked reads these numbers, so the homepage,
+    // About, and the editorial policy cannot drift apart.
+    levels,
+    originalChecked: levels["original-checked"],
+    editionChecked: levels["edition-checked"],
+    annotated: levels.annotated,
+    recorded: levels.recorded,
+    // Backwards-compatible aggregates: “checked” counts every passage taken to
+    // a cited edition; “verified” is the same thing under the old name.
+    checked: levels["original-checked"] + levels["edition-checked"],
+    get verified() {
+      return this.checked;
+    },
   };
 }
 

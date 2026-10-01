@@ -1,0 +1,100 @@
+---
+/**
+ * The index of works: every philosophical work the archive holds enough
+ * passages to publish a page for.
+ *
+ * The Work layer closes the gap between Thinker and Quote. Search Console
+ * shows book-shaped queries — “Meditations quotes”, “Tao Te Ching quotes” —
+ * landing on thinker pages that were never built for them. This directory is
+ * the entry point for that intent, and each row names the author, the passage
+ * count, and the locator system, so a reader can tell before clicking what
+ * kind of page they will reach.
+ */
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { workEntries } from "../../lib/works";
+
+const entries = workEntries();
+const totalQuotes = entries.reduce((sum, entry) => sum + entry.quotes.length, 0);
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Philosophy Works & Books",
+    description:
+      "Philosophy quotations organised by the work they come from: Meditations, Nicomachean Ethics, the Analects, the Daodejing, and more, each with its locator system.",
+    url: new URL("/works", Astro.site),
+    numberOfItems: entries.length,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site) },
+      { "@type": "ListItem", position: 2, name: "Works", item: new URL("/works", Astro.site) },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Philosophy Works & Books — Quotes by Source Text | Philosophy Blind Box"
+  description={`Read philosophy quotes organised by the work they come from: ${entries.length} works, ${totalQuotes} sourced passages, each with its locator system and edition notes.`}
+  canonical="/works"
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Works</p>
+      <h1>Philosophy quotes by work</h1>
+      <p>
+        A quotation's most useful address is the passage it occupies, so the
+        archive is organised around works as well as thinkers. Each work page
+        lists its passages in order, names the edition and translator where the
+        corpus records them, and explains the locator system — Stephanus
+        numbers, Bekker numbers, book and verse — that makes every passage
+        findable in any printing.
+      </p>
+    </header>
+
+    <ol class="directory" aria-label="Works directory">
+      {
+        entries.map((entry) => (
+          <li class="directory-row">
+            <h2>
+              <a href={entry.path}>{entry.work.title}</a>
+              {entry.work.original && (
+                <span class="term-original" lang={entry.work.original.languageTag}>
+                  {" "}
+                  {entry.work.original.text}
+                </span>
+              )}
+            </h2>
+            <p>
+              {entry.work.author ?? entry.authors.join(", ")} ·{" "}
+              {entry.quotes.length}{" "}
+              {entry.quotes.length === 1 ? "passage" : "passages"}
+              {entry.work.year ? ` · ${entry.work.year}` : ""}
+            </p>
+          </li>
+        ))
+      }
+    </ol>
+
+    <section class="related-block" aria-labelledby="works-continue">
+      <div class="section-intro">
+        <p class="section-label">Keep going</p>
+        <h2 id="works-continue">Other ways into the archive</h2>
+      </div>
+      <p class="hero-value" style="margin-top:0">
+        <a href="/thinkers">Browse by thinker</a>
+        {" · "}
+        <a href="/themes">Browse by theme</a>
+        {" · "}
+        <a href="/schools">Browse by school</a>
+        {" · "}
+        <a href="/quote-source">Trace a quotation to its source</a>
+      </p>
+    </section>
+  </div>
+</BaseLayout>

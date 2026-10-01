@@ -1,0 +1,239 @@
+---
+/**
+ * The misattributed-quotes register as its own page.
+ *
+ * Search demand for this material is real and phrased exactly like this —
+ * “was X said by Y”, “misattributed [thinker] quotes”, “who really said” —
+ * and the archive is the rare quote site whose data answers it. The entries
+ * below are the ones the archive has actually worked through against the
+ * cited editions; nothing is added on reputation alone, which is why the
+ * register grows slowly and each entry names the record it rests on.
+ */
+import BaseLayout from "../layouts/BaseLayout.astro";
+import quotes from "../data/quotes.json";
+import {
+  commonlyMisattributed,
+  misattributionFaq,
+} from "../data/quote-source-hub";
+import { quoteVerification } from "../data/quote-verification";
+import { hasThinkerSourcePage, thinkerSourcing } from "../data/thinker-sourcing";
+import { slugify, thinkerSourcePath } from "../lib/content";
+
+const pageUrl = "/misattributed-quotes";
+
+const quoteCountByAuthor = new Map<string, number>();
+for (const quote of quotes) {
+  quoteCountByAuthor.set(
+    quote.author,
+    (quoteCountByAuthor.get(quote.author) ?? 0) + 1,
+  );
+}
+
+/**
+ * The credited thinkers in the register, so every entry leads somewhere: a
+ * reader who came for one bad quotation can see what else by that thinker
+ * has been checked.
+ */
+const creditedThinkers = [...new Set(commonlyMisattributed.map((entry) => entry.creditedTo))]
+  .map((name) => ({
+    name,
+    slug: slugify(name),
+    count: quoteCountByAuthor.get(name) ?? 0,
+    hasSourceProfile: hasThinkerSourcePage(
+      name,
+      quoteCountByAuthor.get(name) ?? 0,
+    ),
+  }))
+  .filter((thinker) => thinker.count > 0);
+
+/**
+ * The thinkers whose sourcing profiles exist — each profile documents the
+ * specific hazard that produces misquotes for that author, which is the
+ * "why does this keep happening" layer under the register.
+ */
+const profiledThinkers = Object.keys(thinkerSourcing)
+  .map((name) => ({
+    name,
+    count: quoteCountByAuthor.get(name) ?? 0,
+    verified: Object.keys(quoteVerification).filter((id) =>
+      quotes.some((quote) => quote.id.toUpperCase() === id && quote.author === name),
+    ).length,
+  }))
+  .filter((thinker) => thinker.count >= 8)
+  .sort((a, b) => b.count - a.count)
+  .slice(0, 12);
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Misattributed Philosophy Quotes",
+    description:
+      "Philosophy quotes that circulate under the wrong name: what the evidence shows, who actually wrote the line, and where the real passage sits.",
+    url: new URL(pageUrl, Astro.site),
+    numberOfItems: commonlyMisattributed.length,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site) },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Misattributed quotes",
+        item: new URL(pageUrl, Astro.site),
+      },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Misattributed Philosophy Quotes — Who Really Said Them | Philosophy Blind Box"
+  description="Philosophy quotes that circulate under the wrong name: the evidence behind each attribution, who actually wrote the line, and the located record for the real passage."
+  canonical={pageUrl}
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Attribution</p>
+      <h1>Misattributed philosophy quotes</h1>
+      <p>
+        The lines below are quoted constantly, and every one of them is
+        attributed to the wrong person — or to a person who said something
+        narrower, in another language, on a different occasion. Each entry names
+        who usually gets the credit, who the evidence actually supports, and
+        where the located record lives in this archive.
+      </p>
+    </header>
+
+    <section class="quote-depth prose-layout" aria-labelledby="register-title">
+      <aside class="prose-aside">
+        <p>
+          {commonlyMisattributed.length} entries so far. A line enters this
+          register only after its earliest traceable text has been checked
+          against the credited author's works — not because it appears on a
+          listicle, and not because correcting it would be a good story.
+        </p>
+      </aside>
+      <div class="prose">
+        <h2 id="register-title">The register</h2>
+        <ol class="misattribution-list">
+          {
+            commonlyMisattributed.map((entry) => (
+              <li>
+                <blockquote>{entry.quote}</blockquote>
+                <p>
+                  <strong>Usually credited to:</strong> {entry.creditedTo}
+                </p>
+                <p>
+                  <strong>What the record shows:</strong> {entry.reallyWrittenBy}
+                </p>
+                <p>{entry.note}</p>
+                {entry.archiveHref && (
+                  <p class="related-link">
+                    <a href={entry.archiveHref}>See the full record and citation</a>
+                  </p>
+                )}
+              </li>
+            ))
+          }
+        </ol>
+      </div>
+    </section>
+
+    <section class="quote-depth prose-layout" aria-labelledby="thinkers-title">
+      <aside class="prose-aside">
+        <p>
+          Misattribution concentrates on the famous. The names below are the
+          ones the register credits most often, and each links to the pages
+          where their real, located passages live.
+        </p>
+      </aside>
+      <div class="prose">
+        <h2 id="thinkers-title">Check other quotes by the credited thinkers</h2>
+        <ul class="link-list">
+          {
+            creditedThinkers.map((thinker) => (
+              <li>
+                <a href={`/thinkers/${thinker.slug}`}>{thinker.name}</a>
+                {" — "}
+                {thinker.count} sourced{" "}
+                {thinker.count === 1 ? "passage" : "passages"} in the archive
+                {thinker.hasSourceProfile && (
+                  <>
+                    {", "}
+                    <a href={thinkerSourcePath(thinker.name)}>
+                      sourcing profile
+                    </a>
+                  </>
+                )}
+              </li>
+            ))
+          }
+        </ul>
+        <h2 id="profiles-title">Why each thinker gets misquoted</h2>
+        <p>
+          Every thinker attracts a different kind of error. Socrates wrote
+          nothing, so every “Socrates quote” is a report by someone else.
+          Nietzsche's aphorisms get shortened until they invert. Confucius
+          arrives through Victorian translations that put nineteenth-century
+          syntax in his mouth. The sourcing profiles name the specific hazard
+          for each author, and what a correct citation looks like instead.
+        </p>
+        <ul class="link-list">
+          {
+            profiledThinkers.map((thinker) => (
+              <li>
+                <a href={thinkerSourcePath(thinker.name)}>
+                  How to quote {thinker.name} accurately
+                </a>
+                {" — "}
+                {thinker.verified}{" "}
+                {thinker.verified === 1 ? "passage" : "passages"} verified
+                against the cited editions
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </section>
+
+    <section class="quote-depth prose-layout" aria-labelledby="faq-title">
+      <aside class="prose-aside">
+        <p>
+          What counts as a misattribution, why philosophy attracts them, and
+          how the archive decides.
+        </p>
+      </aside>
+      <div class="prose">
+        <h2 id="faq-title">Frequently asked questions</h2>
+        {
+          misattributionFaq.map((entry) => (
+            <div class="faq-item">
+              <h3>{entry.question}</h3>
+              <p>{entry.answer}</p>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="related-block" aria-labelledby="continue-title">
+      <div class="section-intro">
+        <p class="section-label">Keep going</p>
+        <h2 id="continue-title">Where to look next</h2>
+      </div>
+      <p class="hero-value" style="margin-top:0">
+        <a href="/quote-source">Trace any quotation to its source</a>
+        {" · "}
+        <a href="/sourcing-method">How this archive sources its texts</a>
+        {" · "}
+        <a href="/editorial-policy">Editorial policy</a>
+        {" · "}
+        <a href="/quotes">Browse the full archive</a>
+      </p>
+    </section>
+  </div>
+</BaseLayout>

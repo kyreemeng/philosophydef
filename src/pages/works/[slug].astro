@@ -1,0 +1,279 @@
+---
+/**
+ * One page per philosophical work.
+ *
+ * The page is built from three sources, each of which carries writing unique
+ * to this work: the works-cited registry record (canonical title,
+ * original-language title, composition date, translator, and the locator
+ * system), the author's guide (what the work is for in the author's thought),
+ * and the corpus itself (the passages, in their locators). Nothing is
+ * generated to fill space — a work with a registry record always has a
+ * locator system and an edition situation worth explaining, which is the
+ * difference between this page and a bare list of book quotes.
+ */
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {
+  workEntries,
+  shouldIndexWork,
+  assertNoWorkSlugCollision,
+  workVerificationSummary,
+  type WorkEntry,
+} from "../../lib/works";
+import { slugify, truncateWords } from "../../lib/content";
+import { thinkerGuideFor, isTextTradition } from "../../data/enrichment";
+import { referencesFor } from "../../data/thinker-references";
+import { hasThinkerSourcePage } from "../../data/thinker-sourcing";
+import { thinkerSourcePath } from "../../lib/content";
+
+assertNoWorkSlugCollision();
+
+export function getStaticPaths() {
+  return workEntries().map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { work } = entry;
+const indexable = shouldIndexWork(entry);
+const pageUrl = `/works/${entry.slug}`;
+const guide = entry.authors[0]
+  ? thinkerGuideFor(entry.authors[0])
+  : undefined;
+const references = entry.authors[0] ? referencesFor(entry.authors[0]) : {};
+const hasSourceProfile =
+  entry.authors.length === 1 &&
+  hasThinkerSourcePage(entry.authors[0], entry.quotes.length);
+const verification = workVerificationSummary(entry);
+const asText = entry.authors.length === 1 && isTextTradition(entry.authors[0]);
+const authorEntity = asText ? "CreativeWork" : "Person";
+
+/** Other published works by the same author, for the onward path. */
+const siblingWorks = workEntries()
+  .filter(
+    (other) =>
+      other.slug !== entry.slug &&
+      other.authors.some((author) => entry.authors.includes(author)),
+  )
+  .slice(0, 6);
+
+const pageTitle = `${work.title} Quotes — Sourced Passages & Locator Guide | Philosophy Blind Box`;
+const pageDescription = `${entry.quotes.length} quotes from ${work.title}${work.author ? ` by ${work.author}` : ""}, each with its passage locator${
+  work.original ? `, the ${work.original.language} title ${work.original.text}` : ""
+}${work.translator ? `, and the translation the English rests on` : ""}.`;
+const aboutType = work.locatorKind.startsWith("Journal article")
+  ? "ScholarlyArticle"
+  : "Book";
+const composedYear = work.year && /^\d{4}$/.test(work.year) ? work.year : undefined;
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${work.title} Quotes`,
+    description: pageDescription,
+    url: new URL(pageUrl, Astro.site),
+    numberOfItems: entry.quotes.length,
+    about: {
+      "@type": aboutType,
+      name: work.title,
+      ...(work.author ? { author: { "@type": authorEntity, name: work.author } } : {}),
+      ...(work.original
+        ? { alternateName: work.original.text, inLanguage: work.original.languageTag }
+        : {}),
+      ...(composedYear ? { dateCreated: composedYear } : {}),
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site) },
+      { "@type": "ListItem", position: 2, name: "Works", item: new URL("/works", Astro.site) },
+      { "@type": "ListItem", position: 3, name: work.title, item: new URL(pageUrl, Astro.site) },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  canonical={pageUrl}
+  schema={schema}
+  robots={indexable ? undefined : "noindex, follow, max-image-preview:large"}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Work</p>
+      <h1>
+        {work.title}
+        {work.original && (
+          <span class="term-original" lang={work.original.languageTag}>
+            {" "}
+            {work.original.text}
+          </span>
+        )}
+      </h1>
+      <p>
+        {entry.quotes.length}{" "}
+        {entry.quotes.length === 1 ? "passage" : "passages"} in this archive
+        {work.author ? ` · ${work.author}` : ""}
+        {work.year ? ` · ${work.year}` : ""}
+      </p>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/works">Works</a>
+        <span aria-hidden="true">/</span>
+        <span>{work.title}</span>
+      </nav>
+    </header>
+
+    <div class="prose-layout">
+      <aside class="prose-aside">
+        <dl class="source-record">
+          <div>
+            <dt>Author</dt>
+            <dd>
+              {work.author &&
+              entry.authors.includes(work.author) ? (
+                <a href={`/thinkers/${slugify(work.author)}`}>{work.author}</a>
+              ) : work.author ? (
+                <>
+                  {work.author}
+                  {entry.authors.length === 1 &&
+                    work.author !== entry.authors[0] &&
+                    ` (${entry.authors[0]} is the speaker in this work)`}
+                </>
+              ) : (
+                entry.authors.map((author, index) => (
+                  <>
+                    {index > 0 && ", "}
+                    <a href={`/thinkers/${slugify(author)}`}>{author}</a>
+                  </>
+                ))
+              )}
+            </dd>
+          </div>
+          {work.original && (
+            <div>
+              <dt>Original title</dt>
+              <dd>
+                <span lang={work.original.languageTag}>{work.original.text}</span>
+                {work.original.romanised ? ` (${work.original.romanised})` : ""}
+              </dd>
+            </div>
+          )}
+          <div>
+            <dt>Composed</dt>
+            <dd>{work.year ?? "Not established in the registry"}</dd>
+          </div>
+          {work.translator && (
+            <div>
+              <dt>English wording</dt>
+              <dd>From {work.translator}</dd>
+            </div>
+          )}
+          <div>
+            <dt>Verification</dt>
+            <dd>
+              {verification.originalChecked > 0
+                ? `${verification.originalChecked} of ${entry.quotes.length} passages with the original wording recorded`
+                : verification.editionChecked > 0
+                  ? `${verification.editionChecked} of ${entry.quotes.length} passages checked against the cited edition`
+                  : "Recorded from the corpus; individual pages state their level."}
+            </dd>
+          </div>
+        </dl>
+        <p>
+          <a href="/about#verification-levels">What these levels mean</a>
+        </p>
+      </aside>
+
+      <article class="prose">
+        <h2>How this work is cited</h2>
+        <p>
+          Passages inside {work.title} are identified by {work.locatorKind.toLowerCase()}.{" "}
+          {work.note}
+        </p>
+
+        {guide && entry.authors[0] && (
+          <>
+            <h2>The work in {entry.authors[0]}’s thought</h2>
+            <p>
+              {guide.overview.split(/(?<=[.!?])\s+/).slice(0, 2).join(" ")}{" "}
+              <a href={`/thinkers/${slugify(entry.authors[0])}`}>
+                More on {entry.authors[0]}
+              </a>
+              .
+            </p>
+          </>
+        )}
+      </article>
+    </div>
+
+    <ol class="quote-list">
+      {
+        entry.quotes.map((quote) => (
+          <li class="quote-list-item">
+            <blockquote>{quote.text}</blockquote>
+            <footer>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>
+                {quote.author}: “{truncateWords(quote.text, 8)}” — source &amp; context
+              </a>
+            </footer>
+          </li>
+        ))
+      }
+    </ol>
+
+    <nav class="reading-path" aria-label="Continue reading">
+      <p class="eyebrow">Continue</p>
+      <ol>
+        {entry.authors.map((author) => (
+          <li>
+            <a href={`/thinkers/${slugify(author)}`}>More passages by {author}</a>
+          </li>
+        ))}
+        {hasSourceProfile && entry.authors.length === 1 && (
+          <li>
+            <a href={thinkerSourcePath(entry.authors[0])}>
+              How to cite and check {entry.authors[0]} quotations
+            </a>
+          </li>
+        )}
+        {siblingWorks.map((sibling) => (
+          <li>
+            <a href={sibling.path}>Also in this archive: {sibling.work.title}</a>
+          </li>
+        ))}
+      </ol>
+    </nav>
+
+    <section class="related-block" aria-labelledby="references-title">
+      <div class="section-intro">
+        <p class="section-label">Sources &amp; further reading</p>
+        <h2 id="references-title">Checking this work against scholarship</h2>
+      </div>
+      <ul class="link-list">
+        {references.sep && (
+          <li>
+            <a href={references.sep} rel="noopener">
+              Stanford Encyclopedia of Philosophy{entry.authors[0] ? `: ${entry.authors[0]}` : ""}
+            </a>
+          </li>
+        )}
+        {references.iep && (
+          <li>
+            <a href={references.iep} rel="noopener">
+              Internet Encyclopedia of Philosophy{entry.authors[0] ? `: ${entry.authors[0]}` : ""}
+            </a>
+          </li>
+        )}
+        <li>
+          <a href="/sourcing-method">How this archive sources and checks its texts</a>
+        </li>
+      </ul>
+    </section>
+  </div>
+</BaseLayout>

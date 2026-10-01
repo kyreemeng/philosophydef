@@ -11,14 +11,32 @@
 const baseUrl = (process.argv[2] || "https://www.philosophydef.com").replace(/\/$/, "");
 const canonicalBaseUrl = "https://www.philosophydef.com";
 
+/**
+ * Expected JSON-LD types per page, aligned with Google's current structured
+ * data documentation:
+ *
+ * - Thinker pages are CollectionPage + Person, NOT ProfilePage. Google scopes
+ *   ProfilePage to pages about a person associated with the site itself (an
+ *   author, a forum user); Socrates and Plato are not this site's creators,
+ *   and the old expectation here existed only because an earlier audit script
+ *   asked for it.
+ * - FAQPage is gone everywhere: Google retired FAQ rich results in 2026, and
+ *   the FAQ prose stays on the pages where it still answers readers.
+ * - Theme, school, and work pages are CollectionPage + BreadcrumbList — not
+ *   Article, which Google scopes to news/blog content.
+ * - Article remains only on the long-form guides, which is what it is for.
+ */
 const checks = [
   { path: "/", expectTypes: ["WebSite"] },
   { path: "/quotes/q0001", expectTypes: ["Quotation", "BreadcrumbList"] },
-  { path: "/themes/freedom", expectTypes: ["CollectionPage", "FAQPage"] },
-  { path: "/thinkers/socrates", expectTypes: ["Person", "ProfilePage", "BreadcrumbList"] },
+  { path: "/themes/freedom", expectTypes: ["CollectionPage", "BreadcrumbList"] },
+  { path: "/thinkers/socrates", expectTypes: ["CollectionPage", "Person", "BreadcrumbList"] },
   { path: "/thinkers/bhagavad-gita", expectTypes: ["CreativeWork"] },
-  { path: "/quotes/about/love", expectTypes: ["CollectionPage", "FAQPage"] },
-  { path: "/schools/stoicism", expectTypes: ["Article", "FAQPage"] },
+  { path: "/quotes/about/love", expectTypes: ["CollectionPage", "BreadcrumbList"] },
+  { path: "/schools/stoicism", expectTypes: ["CollectionPage", "BreadcrumbList"] },
+  { path: "/works", expectTypes: ["CollectionPage", "BreadcrumbList"] },
+  { path: "/works/meditations", expectTypes: ["CollectionPage", "BreadcrumbList"] },
+  { path: "/misattributed-quotes", expectTypes: ["CollectionPage", "BreadcrumbList"] },
   { path: "/what-is-philosophy", expectTypes: ["Article"] },
   { path: "/editorial-policy", expectTypes: [] },
   { path: "/sitemap-index.xml", expectTypes: [], isXml: true },

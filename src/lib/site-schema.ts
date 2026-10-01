@@ -36,6 +36,11 @@ const schoolNames = [...new Set(quotes.map((quote) => quote.school))].slice(
  * Every value here is either derived from the corpus or points at a page that
  * really exists. No author name or credential is invented: a fabricated
  * byline is the fastest way to fail the exact review these signals invite.
+ *
+ * The WebSite node deliberately carries no SearchAction: Google retired the
+ * sitelinks search box globally in November 2024, and the markup now serves
+ * site-name recognition only. Keeping the action would be dead weight on
+ * every page.
  */
 export function websiteSchema(site: URL = SITE_URL) {
   return {
@@ -48,14 +53,6 @@ export function websiteSchema(site: URL = SITE_URL) {
     description:
       "Philosophy quotations traced to the work and passage they come from, with original-language wording where the archive holds it.",
     publisher: { "@type": "Organization", name: SITE_NAME, url: site },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: new URL("/quotes?q={search_term_string}", site).href,
-      },
-      "query-input": "required name=search_term_string",
-    },
   };
 }
 

@@ -16,7 +16,7 @@
  */
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import quotes from "../../data/quotes.json";
-import { canonicalizeTheme, themePath, truncateWords } from "../../lib/content";
+import { canonicalizeTheme, slugify, themePath, truncateWords } from "../../lib/content";
 import {
   concepts,
   conceptPath,
@@ -24,6 +24,7 @@ import {
   relatedConcepts,
   assertNoConceptSlugCollision,
 } from "../../data/concept-glossary";
+import { workForQuote } from "../../lib/works";
 
 // Build-time guard: a duplicate slug would silently overwrite a page.
 assertNoConceptSlugCollision();
@@ -65,6 +66,29 @@ const related = relatedConcepts(concept, 6);
 
 const linkedThemes = [...new Set(concept.themes.map(canonicalizeTheme))].slice(0, 7);
 
+/**
+ * The thinkers and works this term travels with, derived from the passages
+ * filed under its themes. A glossary entry that only defines the word leaves
+ * the reader with a definition; one that names who wielded the term and in
+ * which texts gives them the argument the word belongs to — which is the
+ * Concept → Thinker → Work chain the archive's structure is built on.
+ */
+const thinkersForTerm = [...new Set(termQuotes.map((quote) => quote.author))].map(
+  (name) => ({
+    name,
+    slug: slugify(name),
+    count: termQuotes.filter((quote) => quote.author === name).length,
+  }),
+);
+const worksForTerm = [
+  ...new Map(
+    termQuotes
+      .map((quote) => workForQuote(quote))
+      .filter((entry): entry is NonNullable<typeof entry> => Boolean(entry))
+      .map((entry) => [entry.path, entry]),
+  ).values(),
+].slice(0, 5);
+
 const schema = [
   {
     "@context": "https://schema.org",
@@ -98,7 +122,7 @@ const schema = [
 ---
 
 <BaseLayout
-  title={`${concept.term}: ${concept.gloss} | Philosophy Blind Box`}
+  title={`${concept.term}: ${concept.gloss} — Meaning & Sources | Philosophy Blind Box`}
   description={description}
   canonical={conceptPath(concept)}
   schema={schema}
@@ -158,6 +182,43 @@ const schema = [
             <h2>The reading the sources do not support</h2>
             <p class="misreading-note">{concept.misreading}</p>
           </>
+        )}
+
+        {thinkersForTerm.length > 0 && (
+          <section class="related-block">
+            <h2>Thinkers who work with this term</h2>
+            <p>
+              {thinkersForTerm.map((thinker, index) => (
+                <>
+                  {index > 0 && ", "}
+                  <a href={`/thinkers/${thinker.slug}`}>{thinker.name}</a>
+                  {" "}
+                  <span class="muted">({thinker.count})</span>
+                </>
+              ))}
+            </p>
+          </section>
+        )}
+
+        {worksForTerm.length > 0 && (
+          <section class="related-block">
+            <h2>Primary sources in this archive</h2>
+            <ul class="link-list">
+              {worksForTerm.map((entry) => (
+                <li>
+                  <a href={entry.path}>{entry.work.title}</a>
+                  {" — "}
+                  {entry.work.original ? (
+                    <span lang={entry.work.original.languageTag}>
+                      {entry.work.original.text}
+                    </span>
+                  ) : (
+                    entry.work.locatorKind.toLowerCase()
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
         )}
 
         <h2>Where it appears in this archive</h2>

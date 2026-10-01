@@ -1140,7 +1140,7 @@ export const works: WorkRecord[] = [
     },
     year: "Compiled c. 1st century BCE from earlier material",
     locatorKind: "Chapter by name",
-    aliases: [],
+    aliases: ["liji", "li ki"],
     note:
       "A compilation of ritual texts rather than an authored book. Two of its chapters — the Zhongyong and the Daxue — were removed from it by Zhu Xi and made independent canonical works, which is why the corpus cites them both as 'Liji, <chapter>' and under their own titles.",
   },
@@ -1407,6 +1407,58 @@ export const works: WorkRecord[] = [
     aliases: ["the doctrine of the mean"],
     note:
       "Also a Liji chapter promoted to the Four Books by Zhu Xi. The standard English title is a rendering the term does not quite bear — zhōng is equilibrium before the feelings are aroused and yōng is constancy, not a compromise between extremes. See the glossary entry on zhongyong.",
+  },
+  {
+    title: "Dhammapada",
+    original: {
+      text: "धम्मपद",
+      language: "Pali",
+      languageTag: "pi",
+      romanised: "Dhammapada",
+    },
+    year: "Composed orally c. 3rd century BCE; written down later",
+    locatorKind: "Verse number (e.g. 183)",
+    aliases: ["dhammapada"],
+    note:
+      "A verse collection of the Theravāda canon, filed in this archive as the passage's author because the verses speak in an anonymous collective voice. The archive cites the verse number used by the Pali Text Society edition; later translations sometimes number the same verse differently, so a citation should name the edition it follows.",
+  },
+  {
+    title: "De Rerum Natura",
+    author: "Lucretius",
+    original: {
+      text: "Dē rērum nātūrā",
+      language: "Latin",
+      languageTag: "la",
+    },
+    year: "c. 50 BCE",
+    locatorKind: "Book and line numbers (e.g. I.54)",
+    aliases: ["de rerum natura", "on the nature of things"],
+    note:
+      "A didactic epic presenting Epicurus' physics and ethics in Latin verse. Line numbers are stable across editions, which makes the locator more checkable than most, and the archive records the book and line rather than a page — the poem is the edition.",
+  },
+  {
+    title: "Selected Aphorisms",
+    author: "Al-Farabi",
+    original: {
+      text: "فصول منتزعة",
+      language: "Arabic",
+      languageTag: "ar",
+      romanised: "Fuṣūl muntazaʿa",
+    },
+    year: "9th–10th century CE",
+    locatorKind: "Aphorism number, with the translation named (e.g. §1, Butterworth)",
+    aliases: ["selected aphorisms"],
+    note:
+      "The English renders Charles Butterworth's translation, and the archive records the translator with the aphorism number because the numbering follows his edition; other English renderings number the aphorisms differently.",
+  },
+  {
+    title: "Toward Decolonizing African Philosophy and Religion",
+    author: "Kwasi Wiredu",
+    year: "1998",
+    locatorKind: "Journal article — African Studies Quarterly 1.4",
+    aliases: ["toward decolonizing african philosophy and religion"],
+    note:
+      "An essay rather than a book, first printed in African Studies Quarterly; the archive cites the article because it circulates under excerpted titles, and the full article is where the argument about place-holder and conceptual decolonization is actually made.",
   },
 ];
 

@@ -69,15 +69,6 @@ const registerIndex = [...register].sort((a, b) =>
 const schema = [
   {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: sourceFaq.map((entry) => ({
-      "@type": "Question",
-      name: entry.question,
-      acceptedAnswer: { "@type": "Answer", text: entry.answer },
-    })),
-  },
-  {
-    "@context": "https://schema.org",
     "@type": "WebPage",
     name: "Who Said This Quote? Find the Verified Source",
     description:
@@ -245,7 +236,9 @@ const lookupPayload = register.map((entry) => ({
         <p>
           Each entry below is a quotation this archive has worked through
           against the cited edition. Where the words are real but the byline is
-          not, the actual writer is named.
+          not, the actual writer is named. The full register, with the credited
+          thinkers and why each of them attracts misquotes, is on the{" "}
+          <a href="/misattributed-quotes">misattributed quotes</a> page.
         </p>
         <ol class="misattribution-list">
           {
@@ -300,6 +293,10 @@ const lookupPayload = register.map((entry) => ({
         <a href="/quotes">The full quotation archive</a>
         {" · "}
         <a href="/thinkers">Browse by thinker</a>
+        {" · "}
+        <a href="/works">Browse by work</a>
+        {" · "}
+        <a href="/misattributed-quotes">Misattributed quotes</a>
         {" · "}
         <a href="/sourcing-method">How this archive sources its texts</a>
         {" · "}

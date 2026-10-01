@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import quotes from "../../data/quotes.json";
-import { canonicalizeTheme } from "../../lib/content";
+import { canonicalizeTheme, truncateWords } from "../../lib/content";
 
 const preferredThemes = new Set([
   "Wisdom",
@@ -21,14 +21,30 @@ const selected = quotes
   .filter((quote) => quote.text.length >= 40 && quote.text.length <= 160)
   .slice(0, 48);
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: "Best Philosophy Quotes",
-  description:
-    "Editor-selected philosophy quotes on wisdom, freedom, virtue, knowledge, and the examined life.",
-  numberOfItems: selected.length,
-};
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Best Philosophy Quotes",
+    description:
+      "Editor-selected philosophy quotes on wisdom, freedom, virtue, knowledge, and the examined life.",
+    url: new URL("/quotes/best", Astro.site),
+    numberOfItems: selected.length,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Quotes", item: new URL("/quotes", Astro.site) },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Best philosophy quotes",
+        item: new URL("/quotes/best", Astro.site),
+      },
+    ],
+  },
+];
 ---
 
 <BaseLayout
@@ -47,13 +63,45 @@ const schema = {
       </p>
     </header>
 
+    <div class="prose-layout">
+      <aside class="prose-aside">
+        <p>
+          This is the archive's editorial judgement, exercised out in the open.
+          The neighbouring collections answer different questions:{" "}
+          <a href="/quotes/famous">famous</a> is about historical recognition,
+          <a href="/quotes/short">short</a> is about length. This page is about
+          which passages are worth a reader's first hour.
+        </p>
+      </aside>
+      <article class="prose">
+        <h2>How these passages were chosen</h2>
+        <p>
+          Three tests, applied in order. <strong>Argument:</strong> the
+          passage carries a claim a reader could accept, reject, or refine —
+          not a mood looking for a caption. <strong>Clarity:</strong> the
+          English renders the thought without hiding it, and where a
+          translation choice does interpretive work, the archive entry says
+          so. <strong>Use:</strong> the passage repays rereading — it is the
+          kind of sentence a seminar, an essay, or a careful person can build
+          on.
+        </p>
+        <p>
+          Selection is from the sourced corpus, never beside it: every passage
+          below keeps its work, locator, and edition on its own page, and the
+          popular forms that differ from the text are recorded there too.
+        </p>
+      </article>
+    </div>
+
     <ol class="quote-list">
       {
         selected.map((quote) => (
           <li class="quote-list-item">
             <blockquote>{quote.text}</blockquote>
             <footer>
-              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>
+                {quote.author}: “{truncateWords(quote.text, 8)}” — source &amp; context
+              </a>
               <br />
               {canonicalizeTheme(quote.themes[0] ?? quote.school)}
             </footer>
@@ -65,7 +113,8 @@ const schema = {
     <p class="related-link">
       Explore <a href="/quotes/famous">famous quotes</a>,
       <a href="/quotes/short">short quotes</a>,
-      <a href="/quotes/about">quotes about feeling</a>, or the
+      <a href="/quotes/about">quotes about feeling</a>, the
+      <a href="/works">works index</a>, or the
       <a href="/quotes">searchable archive</a>.
     </p>
   </div>

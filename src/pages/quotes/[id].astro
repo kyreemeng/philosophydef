@@ -38,6 +38,8 @@ import {
 import { quoteCommentary } from "../../data/quote-commentary";
 import { chanMasterNote, textTraditionFor } from "../../data/text-traditions";
 import { conceptsForThemes, conceptPath, conceptSlug } from "../../data/concept-glossary";
+import { verificationLevelFor, VERIFICATION_LEVELS } from "../../lib/verification";
+import { workForQuote } from "../../lib/works";
 
 export function getStaticPaths() {
   return quotes.map((quote) => ({
@@ -77,6 +79,7 @@ const { prev, next } = adjacentQuotes(quote);
  * the page a searcher actually lands on — not only on the sourcing hub.
  */
 const verification = quoteVerification[quote.id.toUpperCase()];
+const level = verificationLevelFor(quote);
 const verificationDate =
   verification?.lastVerified ??
   commentary?.written ??
@@ -107,6 +110,7 @@ const inVerificationBatch = isInVerificationBatch(quote.id);
  */
 const resolvedSource = resolveSource(quote.source);
 const work = resolvedSource.work;
+const workPage = workForQuote(quote);
 const tradition = textTraditionFor(quote.author);
 const chanNote = chanMasterNote(quote.author);
 const citations = buildCitations({
@@ -249,15 +253,6 @@ const faq = [
 const schema = [
   {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faq.map((entry) => ({
-      "@type": "Question",
-      name: entry.question,
-      acceptedAnswer: { "@type": "Answer", text: entry.answer },
-    })),
-  },
-  {
-    "@context": "https://schema.org",
     "@type": "Quotation",
     text: quote.text,
     inLanguage: "en",
@@ -371,7 +366,13 @@ const contents = [
         </div>
         <div class="meta-item">
           <dt>Work</dt>
-          <dd>{citations.workTitle}</dd>
+          <dd>
+            {workPage ? (
+              <a href={workPage.path}>{citations.workTitle}</a>
+            ) : (
+              citations.workTitle
+            )}
+          </dd>
         </div>
         <div class="meta-item">
           <dt>Theme</dt>
@@ -411,14 +412,14 @@ const contents = [
         </ol>
         <p class="quote-contents-status">
           <span class={verification ? "status status-verified" : "status"}>
-            {verification ? "Verified" : commentary ? "Annotated" : "Recorded"}
+            {VERIFICATION_LEVELS[level].label}
           </span>
           <span>
             {verification
-              ? `Checked ${verification.lastVerified}`
+              ? `Last verified: ${verification.lastVerified}`
               : `Not yet collated · ${verificationDate}`}
           </span>
-          <a href="/about">What these levels mean</a>
+          <a href="/about#verification-levels">What these levels mean</a>
         </p>
       </aside>
 
@@ -429,7 +430,13 @@ const contents = [
             <div>
               <dt>Work</dt>
               <dd>
-                {citations.workTitle}
+                {workPage ? (
+                  <a href={workPage.path}>
+                    {citations.workTitle}
+                  </a>
+                ) : (
+                  citations.workTitle
+                )}
                 {work?.original && (
                   <> · <span lang={work.original.languageTag}>{work.original.text}</span></>
                 )}
@@ -476,10 +483,8 @@ const contents = [
               <dt>Verification status</dt>
               <dd>
                 {verification
-                  ? `Checked against the cited edition on ${verification.lastVerified}.`
-                  : commentary
-                    ? `Annotated ${verificationDate}; the wording has not yet been checked against an edition.`
-                    : `Recorded from the corpus on ${verificationDate}; not yet checked against an edition.`}
+                  ? `${VERIFICATION_LEVELS[level].description} Last verified ${verification.lastVerified}.`
+                  : `${VERIFICATION_LEVELS[level].description} Recorded ${verificationDate}.`}
               </dd>
             </div>
           </dl>
@@ -689,6 +694,13 @@ const contents = [
             More passages by {quote.author}
           </a>
         </li>
+        {workPage && (
+          <li>
+            <a href={workPage.path}>
+              Everything from {citations.workTitle}
+            </a>
+          </li>
+        )}
         <li>
           <a href={themePath(primaryTheme)}>
             Everything on {primaryTheme.toLowerCase()}

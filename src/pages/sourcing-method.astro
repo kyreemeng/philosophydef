@@ -1,5 +1,9 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { corpusStatus } from "../data/editorial";
+
+const status = corpusStatus();
+const format = (value: number) => value.toLocaleString("en-US");
 
 const schema = {
   "@context": "https://schema.org",
@@ -29,7 +33,10 @@ const schema = {
       <aside class="prose-aside">
         <p>
           Method before virality. A memorable sentence without a responsible source does
-          not belong here. The archive currently holds about 650–700 verified passages.
+          not belong here. The archive currently holds {format(status.total)} passages,{" "}
+          {format(status.checked)} of them checked against the cited edition — the{" "}
+          <a href="/about#verification-levels">level of every page</a> is stated on the
+          page itself.
         </p>
       </aside>
       <article class="prose">

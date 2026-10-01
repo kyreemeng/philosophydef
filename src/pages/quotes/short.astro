@@ -1,21 +1,37 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import quotes from "../../data/quotes.json";
-import { canonicalizeTheme } from "../../lib/content";
+import { canonicalizeTheme, truncateWords } from "../../lib/content";
 
 const selected = quotes
   .filter((quote) => quote.text.length <= 90)
   .sort((a, b) => a.text.length - b.text.length)
   .slice(0, 60);
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: "Short Philosophy Quotes",
-  description:
-    "Short philosophy quotes in English—compact sentences for reflection, teaching, and sharing.",
-  numberOfItems: selected.length,
-};
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Short Philosophy Quotes",
+    description:
+      "Short philosophy quotes in English—compact sentences for reflection, teaching, and sharing.",
+    url: new URL("/quotes/short", Astro.site),
+    numberOfItems: selected.length,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Quotes", item: new URL("/quotes", Astro.site) },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Short philosophy quotes",
+        item: new URL("/quotes/short", Astro.site),
+      },
+    ],
+  },
+];
 ---
 
 <BaseLayout
@@ -34,13 +50,44 @@ const schema = {
       </p>
     </header>
 
+    <div class="prose-layout">
+      <aside class="prose-aside">
+        <p>
+          Every line below is one sentence or less, and every one links to its
+          located source — the work and passage the wording was checked
+          against, where the archive holds one.
+        </p>
+      </aside>
+      <article class="prose">
+        <h2>Short lines, long checkability</h2>
+        <p>
+          Brevity is the test this collection applies, and nothing else. The
+          neighbouring collections answer different questions:
+          <a href="/quotes/famous">famous</a> is about historical recognition
+          and <a href="/quotes/best">best</a> is the editors' argument-centred
+          picks. Here the only gate is that the passage fits in a breath and
+          still says something worth thinking about.
+        </p>
+        <p>
+          A caution worth stating on a page of short quotes: compression is
+          where misquotation begins. Some of the most famous “quotes” in
+          philosophy are short forms that dropped a clause the original
+          argument needed — which is why each entry behind these lines records
+          the wording, the work, and the variants that circulate in its place.
+          If a line is going into print, cite the entry, not the snippet.
+        </p>
+      </article>
+    </div>
+
     <ol class="quote-list">
       {
         selected.map((quote) => (
           <li class="quote-list-item">
             <blockquote>{quote.text}</blockquote>
             <footer>
-              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>
+                {quote.author}: “{truncateWords(quote.text, 8)}” — source &amp; context
+              </a>
               <br />
               {canonicalizeTheme(quote.themes[0] ?? quote.school)}
             </footer>
@@ -51,7 +98,9 @@ const schema = {
 
     <p class="related-link">
       See also <a href="/quotes/famous">famous quotes</a>,
-      <a href="/quotes/about">quotes about feeling</a>, and the
+      <a href="/quotes/best">best quotes</a>,
+      <a href="/quotes/about">quotes about feeling</a>, the
+      <a href="/works">works index</a>, and the
       <a href="/quotes">full archive</a>.
     </p>
   </div>

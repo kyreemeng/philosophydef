@@ -7,7 +7,9 @@ import {
   themeGroups,
   themePath,
   thinkerSourcePath,
+  slugify,
   truncateWords,
+  type Quote,
 } from "../../lib/content";
 import { thinkerGuideFor, defaultThinkerGuide, isTextTradition } from "../../data/enrichment";
 import {
@@ -18,7 +20,10 @@ import {
 import { pageSeoOverrides } from "../../data/seo-overrides";
 import HubEssay from "../../components/HubEssay.astro";
 import { hubEssays } from "../../data/hub-essays";
-import { hasThinkerSourcePage } from "../../data/thinker-sourcing";
+import { hasThinkerSourcePage, thinkerSourcing } from "../../data/thinker-sourcing";
+import { referencesFor } from "../../data/thinker-references";
+import { quoteVerification } from "../../data/quote-verification";
+import { workEntries } from "../../lib/works";
 
 export function getStaticPaths() {
   return thinkerGroups().map((thinker) => ({
@@ -56,6 +61,58 @@ const indexedPairs = thinkerThemePairs(1).filter(
 
 const asText = isTextTradition(thinker.name);
 const entityId = new URL(`${pageUrl}#${asText ? "work" : "person"}`, Astro.site).href;
+
+/**
+ * Sources & further reading. The sourcing-method page says the archive checks
+ * against critical editions, SEP, and IEP; these links put that claim on the
+ * page itself, where a reader can act on it.
+ */
+const references = referencesFor(thinker.name);
+const sourcing = thinkerSourcing[thinker.name];
+const thinkerHasSourcePage = hasThinkerSourcePage(thinker.name, thinker.quotes.length);
+
+/**
+ * The original languages this thinker's verified passages were checked in,
+ * plus the citation system the corpus uses. A reader who wants to quote
+ * responsibly needs both, and neither is recoverable from the biography.
+ */
+const originalLanguages = [
+  ...new Set(
+    thinker.quotes
+      .map((quote) => quoteVerification[quote.id.toUpperCase()]?.original?.language)
+      .filter(Boolean),
+  ),
+];
+const showLanguageSection = Boolean(
+  originalLanguages.length || sourcing || thinkerHasSourcePage,
+);
+
+/**
+ * This thinker's works that have their own page, so "Major works" is a path
+ * into the Work layer rather than a bare list of titles.
+ */
+const worksByThinker = workEntries()
+  .filter((entry) => entry.authors.includes(thinker.name))
+  .sort((a, b) => b.quotes.length - a.quotes.length)
+  .slice(0, 8);
+
+/**
+ * Related thinkers: people filed under the same school, ordered by how much
+ * the archive holds of them, and limited to indexable pages so no link here
+ * points at a noindex destination.
+ */
+const thinkerSchools = new Set(thinker.quotes.map((quote) => quote.school));
+const sharedSchoolCount = (other: { quotes: Quote[] }) =>
+  other.quotes.filter((quote) => thinkerSchools.has(quote.school)).length;
+const relatedThinkers = thinkerGroups()
+  .filter(
+    (other) =>
+      other.name !== thinker.name &&
+      shouldIndexThinker(other) &&
+      sharedSchoolCount(other) > 0,
+  )
+  .sort((a, b) => sharedSchoolCount(b) - sharedSchoolCount(a))
+  .slice(0, 6);
 const mainEntity = asText
   ? {
       "@id": entityId,
@@ -118,7 +175,6 @@ const themePhrase =
     : "";
 const seo = pageSeoOverrides[pageUrl] ?? {};
 const essay = hubEssays[pageUrl];
-const thinkerHasSourcePage = hasThinkerSourcePage(thinker.name, thinker.quotes.length);
 /**
  * Search Console consistently shows single-digit-to-twenty positions for
  * “{thinker} quotes” queries on pages still carrying the generic brand title.
@@ -127,14 +183,19 @@ const thinkerHasSourcePage = hasThinkerSourcePage(thinker.name, thinker.quotes.l
  * promise of cited sources. The brand name is appended only when the 60-character
  * window has room for it — for long names the verified-passage signal earns the
  * click and the truncated tail would just waste it.
+ *
+ * “Sourced” rather than “Verified” in the title: every passage names its
+ * source, while the wording checks are graded per page (see
+ * lib/verification.ts). A title claiming verification for the lot would
+ * promise what the per-page status lines may qualify.
  */
 const passageCount = thinker.quotes.length;
 const passageNoun = passageCount === 1 ? "Passage" : "Passages";
 const sourceNoun = passageCount === 1 ? "Source" : "Sources";
 const countTitle =
   passageCount === 1
-    ? `${thinker.name} Quotes — Verified ${passageNoun} with ${sourceNoun}`
-    : `${thinker.name} Quotes — ${passageCount} Verified ${passageNoun} & ${sourceNoun}`;
+    ? `${thinker.name} Quotes — Sourced ${passageNoun} with ${sourceNoun}`
+    : `${thinker.name} Quotes — ${passageCount} Sourced ${passageNoun} & ${sourceNoun}`;
 const brandSuffix = " | Philosophy Blind Box";
 const pageTitle =
   seo.title ??
@@ -189,10 +250,20 @@ const pageDescription =
             <p>{guide.ideas}</p>
             <h2>Major works</h2>
             <ul>
-              {guide.works.map((work) => (
-                <li>{work}</li>
-              ))}
+              {guide.works.map((work) => {
+                const workPage = worksByThinker.find((entry) => entry.work.title === work);
+                return (
+                  <li>
+                    {workPage ? <a href={workPage.path}>{work}</a> : work}
+                  </li>
+                );
+              })}
             </ul>
+            {worksByThinker.length > 0 && (
+              <p>
+                <a href="/works">Every work in this archive →</a>
+              </p>
+            )}
             <h2>Legacy</h2>
             <p>{guide.legacy}</p>
             {
@@ -255,5 +326,90 @@ const pageDescription =
     </ol>
 
     {essay && <HubEssay essay={essay} />}
+
+    {
+      showLanguageSection && (
+        <section class="related-block" aria-labelledby="language-title">
+          <div class="section-intro">
+            <p class="section-label">Original language &amp; citation</p>
+            <h2 id="language-title">Reading and citing {thinker.name} responsibly</h2>
+          </div>
+          <dl class="source-record">
+            {originalLanguages.length > 0 && (
+              <div>
+                <dt>Original languages on record</dt>
+                <dd>{originalLanguages.join(", ")}</dd>
+              </div>
+            )}
+            {sourcing?.language && (
+              <div>
+                <dt>Language of the works</dt>
+                <dd>{sourcing.language}</dd>
+              </div>
+            )}
+            {sourcing?.citation && (
+              <div>
+                <dt>How to cite</dt>
+                <dd>{sourcing.citation}</dd>
+              </div>
+            )}
+          </dl>
+          {thinkerHasSourcePage && (
+            <p class="related-link">
+              <a href={thinkerSourcePath(thinker.name)}>
+                Full sourcing profile: which edition, which citation system, what goes wrong
+              </a>
+            </p>
+          )}
+        </section>
+      )
+    }
+
+    {
+      relatedThinkers.length > 0 && (
+        <section class="related-block" aria-labelledby="related-title">
+          <div class="section-intro">
+            <p class="section-label">Nearby in the tradition</p>
+            <h2 id="related-title">Thinkers read alongside {thinker.name}</h2>
+          </div>
+          <p class="hero-value" style="margin-top:0">
+            {
+              relatedThinkers.map((other, index) => (
+                <>
+                  {index > 0 && " · "}
+                  <a href={`/thinkers/${other.slug}`}>{other.name}</a>
+                </>
+              ))
+            }
+          </p>
+        </section>
+      )
+    }
+
+    <section class="related-block" aria-labelledby="references-title">
+      <div class="section-intro">
+        <p class="section-label">Sources &amp; further reading</p>
+        <h2 id="references-title">Checking this page against scholarship</h2>
+      </div>
+      <ul class="link-list">
+        {references.sep && (
+          <li>
+            <a href={references.sep} rel="noopener">
+              Stanford Encyclopedia of Philosophy: {thinker.name}
+            </a>
+          </li>
+        )}
+        {references.iep && (
+          <li>
+            <a href={references.iep} rel="noopener">
+              Internet Encyclopedia of Philosophy: {thinker.name}
+            </a>
+          </li>
+        )}
+        <li>
+          <a href="/sourcing-method">How this archive sources and checks its texts</a>
+        </li>
+      </ul>
+    </section>
   </div>
 </BaseLayout>

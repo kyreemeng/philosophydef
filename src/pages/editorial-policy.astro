@@ -1,6 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { contactEmail, corpusStatus, corrections } from "../data/editorial";
+import {
+  VERIFICATION_LEVELS,
+  VERIFICATION_LEVEL_ORDER,
+} from "../lib/verification";
 
 const status = corpusStatus();
 
@@ -31,15 +35,16 @@ const schema = {
     <div class="prose-layout">
       <aside class="prose-aside">
         <p>
-          Last updated: 27 September 2026. The archive holds {status.total}
-          passages: {status.verified} verified against an edition,
-          {" "}{status.annotated} annotated, {status.recorded} recorded only.
+          Last updated: 30 September 2026. The archive holds {status.total}
+          passages: {status.originalChecked} with the original wording recorded,
+          {" "}{status.editionChecked} edition-checked only, {status.annotated}{" "}
+          annotated, {status.recorded} recorded only.
         </p>
       </aside>
       <article class="prose">
         <h2>Purpose</h2>
         <p>
-          The archive presents verified English philosophy quotations for reading,
+          The archive presents sourced English philosophy quotations for reading,
           teaching, and reflection. It is not a substitute for primary texts, scholarly
           editions, or peer-reviewed commentary.
         </p>
@@ -71,15 +76,24 @@ const schema = {
 
         <h2>Verification levels</h2>
         <p>
-          Each quotation page states its level. <strong>Verified</strong> means
-          the English wording and locator were checked against the cited
-          edition, and the record adds the original-language text where one
-          exists, the variants that circulate, and a note on the attribution.
-          <strong> Annotated</strong> means the page carries commentary written
-          for that passage. <strong>Recorded</strong> means the wording and
-          source are as the corpus holds them and have not yet been collated;
-          those pages say so and are marked noindex until they carry writing of
-          their own.
+          Every quotation page states its level, and the levels mean the same thing
+          everywhere on the site — the homepage, the About page, and each passage's
+          status line read one shared register:
+        </p>
+        <ul>
+          {
+            VERIFICATION_LEVEL_ORDER.map((level) => (
+              <li>
+                <strong>{VERIFICATION_LEVELS[level].label}.</strong>{" "}
+                {VERIFICATION_LEVELS[level].description}
+              </li>
+            ))
+          }
+        </ul>
+        <p>
+          Recorded pages carry the corpus wording and source but nothing checked, so
+          they say so and are marked noindex until they carry writing of their own.
+          “Verified” without a level attached is not used anywhere on the site.
         </p>
 
         <h2>English renderings</h2>
@@ -123,7 +137,7 @@ const schema = {
         <h2>Related</h2>
         <p>
           See also our <a href="/sourcing-method">sourcing method</a> and
-          <a href="/about">about</a> page.
+          <a href="/about#verification-levels">about</a> page.
         </p>
       </article>
     </div>

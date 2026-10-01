@@ -1,7 +1,22 @@
 ---
+/**
+ * The famous-quotes collection.
+ *
+ * “Famous” here means historically recognized: lines that have been read,
+ * quoted, argued with, and misquoted for centuries. That is a different
+ * promise from /quotes/best (editorial judgement about argumentative value)
+ * and /quotes/short (a length constraint), and the page says so — the three
+ * collections used to read as the same list with three URLs, which is how
+ * near-duplicate archive pages end up competing with each other for the same
+ * intent.
+ *
+ * The intro also does the one thing a famous-quotes page on this archive
+ * should do that no aggregator can: name the gap between how widely a line
+ * circulates and how well it is attested, and link the sourcing work.
+ */
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import quotes from "../../data/quotes.json";
-import { canonicalizeTheme } from "../../lib/content";
+import { canonicalizeTheme, truncateWords } from "../../lib/content";
 import { pageSeoOverrides } from "../../data/seo-overrides";
 
 const famousAuthors = new Set([
@@ -23,14 +38,30 @@ const selected = quotes
   .filter((quote) => famousAuthors.has(quote.author) && quote.text.length <= 180)
   .slice(0, 48);
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: "Famous Philosophy Quotes",
-  description:
-    "Famous philosophy quotes in verified English renderings from Socrates, Plato, Aristotle, Confucius, the Stoics, Nietzsche, and more.",
-  numberOfItems: selected.length,
-};
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Famous Philosophy Quotes",
+    description:
+      "Famous philosophy quotes in verified English renderings from Socrates, Plato, Aristotle, Confucius, the Stoics, Nietzsche, and more.",
+    url: new URL("/quotes/famous", Astro.site),
+    numberOfItems: selected.length,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Quotes", item: new URL("/quotes", Astro.site) },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Famous philosophy quotes",
+        item: new URL("/quotes/famous", Astro.site),
+      },
+    ],
+  },
+];
 
 const seo = pageSeoOverrides["/quotes/famous"] ?? {};
 ---
@@ -49,10 +80,49 @@ const seo = pageSeoOverrides["/quotes/famous"] ?? {};
       <p class="eyebrow">Curated selection</p>
       <h1>Famous philosophy quotes</h1>
       <p>
-        A compact gallery of widely recognized passages. Each line links to a full
-        archive entry with source context and related reading.
+        A gallery of widely recognized passages — lines that have been read,
+        taught, and argued with for centuries. Each one links to a full archive
+        entry that names the work, the passage, and the edition it comes from.
       </p>
     </header>
+
+    <div class="prose-layout">
+      <aside class="prose-aside">
+        <p>
+          Famous and well-sourced are different properties. A line can be
+          famous because it circulates, and a famous line can be a compression
+          of something the philosopher actually wrote. The archive entries
+          behind these passages record both: where the words sit, and what
+          forms circulate in their place.
+        </p>
+      </aside>
+      <article class="prose">
+        <h2>What makes a philosophy quote famous</h2>
+        <p>
+          Not brevity, and not comfort. The passages on this page survived
+          because they carry an argument in a form that sticks: Socrates
+          refusing exile rather than stop examining lives, Marcus Aurelius
+          telling himself to get out of bed, Descartes locating his own
+          existence inside the one doubt he could not shake. Fame in
+          philosophy is usually the fame of a position a reader can still take
+          sides on.
+        </p>
+        <p>
+          It also makes them the most misquoted sentences in the language.
+          “I know that I know nothing” is a later compression of a more
+          careful claim; “knowledge is power” drops the clause that made
+          Bacon's aphorism an argument. If you plan to quote one of these
+          lines in print, the archive entry — not this gallery — is the thing
+          to cite, because only the entry carries the locator and the
+          attribution notes.
+        </p>
+        <p class="related-link">
+          Suspect a famous line's attribution? <a href="/quote-source">
+            Trace it to its source</a> or check the{" "}
+          <a href="/misattributed-quotes">misattributed register</a>.
+        </p>
+      </article>
+    </div>
 
     <ol class="quote-list">
       {
@@ -60,7 +130,9 @@ const seo = pageSeoOverrides["/quotes/famous"] ?? {};
           <li class="quote-list-item">
             <blockquote>{quote.text}</blockquote>
             <footer>
-              <a href={`/quotes/${quote.id.toLowerCase()}`}>{quote.author}</a>
+              <a href={`/quotes/${quote.id.toLowerCase()}`}>
+                {quote.author}: “{truncateWords(quote.text, 8)}” — source &amp; context
+              </a>
               <br />
               {canonicalizeTheme(quote.themes[0] ?? quote.school)}
             </footer>
@@ -70,11 +142,11 @@ const seo = pageSeoOverrides["/quotes/famous"] ?? {};
     </ol>
 
     <p class="related-link">
-      Continue in the <a href="/quotes">full archive</a>,
-      <a href="/quotes/short">short quotes</a>,
-      <a href="/quotes/best">best quotes</a>,
-      <a href="/schools/stoicism">Stoicism quotes</a>,
-      <a href="/themes/death">quotes about death</a>, or
+      For different selections, try the <a href="/quotes/best">best quotes</a>
+      (editorial picks for argumentative value) or the
+      <a href="/quotes/short">short quotes</a> (compact lines for teaching and
+      sharing) — or continue in the <a href="/quotes">full archive</a>, the
+      <a href="/works">works index</a>, or
       <a href="/quotes/about">quotes about feeling</a>.
     </p>
   </div>
