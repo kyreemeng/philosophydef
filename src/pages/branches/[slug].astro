@@ -1,0 +1,252 @@
+---
+/**
+ * One page per branch of philosophy.
+ *
+ * The editorial prose (definition, overview, key questions) comes from the
+ * branch records; the corpus supplies the rest through theme labels: the
+ * passages filed under this branch, the thinkers who appear there, and the
+ * glossary terms the branch trades on. A page renders only when the branch
+ * record exists — there is no programmatic expansion here, because a branch
+ * page without its own written account of the field would be exactly the
+ * thin combination page the archive refuses to publish.
+ */
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import quotes from "../../data/quotes.json";
+import {
+  branches,
+  assertNoBranchSlugCollision,
+  type Branch,
+} from "../../data/branches";
+import { guideBySlug } from "../../data/guides";
+import { canonicalizeTheme, slugify, themePath, truncateWords, type Quote } from "../../lib/content";
+import { conceptsForThemes, conceptPath, conceptSlug } from "../../data/concept-glossary";
+import { shouldIndexThinker } from "../../lib/indexing";
+
+assertNoBranchSlugCollision();
+
+export function getStaticPaths() {
+  return branches.map((branch) => ({
+    params: { slug: branch.slug },
+    props: { branch },
+  }));
+}
+
+const { branch } = Astro.props;
+const pageUrl = `/branches/${branch.slug}`;
+
+const branchThemes = new Set(branch.themes.map(canonicalizeTheme));
+const branchQuotes: Quote[] = quotes.filter((quote) =>
+  quote.themes.some((theme) => branchThemes.has(canonicalizeTheme(theme))),
+);
+
+/** The thinkers of this branch, deepest first, indexable pages only. */
+const countByAuthor = new Map<string, number>();
+for (const quote of branchQuotes) {
+  countByAuthor.set(quote.author, (countByAuthor.get(quote.author) ?? 0) + 1);
+}
+const branchThinkers = [...countByAuthor.entries()]
+  .map(([name, count]) => ({ name, slug: slugify(name), count }))
+  .filter((thinker) =>
+    shouldIndexThinker({
+      name: thinker.name,
+      quotes: quotes.filter((quote) => quote.author === thinker.name),
+    }),
+  )
+  .sort((a, b) => b.count - a.count)
+  .slice(0, 8);
+
+/** Themes within the branch, most-published first, capped for readability. */
+const branchThemeRows = branch.themes
+  .map((theme) => ({
+    name: theme,
+    path: themePath(theme),
+    count: branchQuotes.filter((quote) =>
+      quote.themes.some((raw) => canonicalizeTheme(raw) === theme),
+    ).length,
+  }))
+  .filter((row) => row.count > 0)
+  .sort((a, b) => b.count - a.count);
+
+const branchGuides = branch.guides
+  .map((slug) => guideBySlug.get(slug))
+  .filter(Boolean);
+
+const concepts = conceptsForThemes([...branchThemes], 6);
+
+/** The most verified passages first: the branch's best evidence. */
+const featuredQuotes = [...branchQuotes]
+  .sort((a, b) => b.id.localeCompare(a.id))
+  .slice(0, 12);
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${branch.name} — Branch of Philosophy`,
+    description: branch.description,
+    url: new URL(pageUrl, Astro.site),
+    numberOfItems: branchQuotes.length,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site) },
+      { "@type": "ListItem", position: 2, name: "Branches", item: new URL("/branches", Astro.site) },
+      { "@type": "ListItem", position: 3, name: branch.name, item: new URL(pageUrl, Astro.site) },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={branch.title}
+  description={branch.description}
+  canonical={pageUrl}
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">{branch.eyebrow}</p>
+      <h1>{branch.name}</h1>
+      <p>{branch.intro}</p>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/branches">Branches</a>
+        <span aria-hidden="true">/</span>
+        <span>{branch.name}</span>
+      </nav>
+    </header>
+
+    <div class="prose-layout">
+      <aside class="prose-aside">
+        <p>
+          A branch is a map, not a fence: most real problems cross the
+          boundaries. {branchThinkers.length > 0 && (
+            <>
+              The archive holds {branchQuotes.length} sourced{" "}
+              {branchQuotes.length === 1 ? "passage" : "passages"} filed under
+              this branch's{" "}
+              {branchThemeRows.map((row) => row.name.toLowerCase()).join(", ")}.
+            </>
+          )}
+        </p>
+        {branchGuides.length > 0 && (
+          <p>
+            Deep dive:{" "}
+            {branchGuides.map((guide, index) => (
+              <>
+                {index > 0 && ", "}
+                <a href={`/${guide!.slug}`}>{guide!.title}</a>
+              </>
+            ))}
+          </p>
+        )}
+      </aside>
+      <article class="prose">
+        {branch.overview.map((paragraph) => <p>{paragraph}</p>)}
+
+        <h2>The branch's defining questions</h2>
+        <ul>
+          {branch.keyQuestions.map((question) => <li>{question}</li>)}
+        </ul>
+      </article>
+    </div>
+
+    {branchThinkers.length > 0 && (
+      <section class="related-block" aria-labelledby="branch-thinkers">
+        <div class="section-intro">
+          <p class="section-label">Thinkers</p>
+          <h2 id="branch-thinkers">Who works in this branch</h2>
+        </div>
+        <p class="hero-value" style="margin-top:0">
+          {
+            branchThinkers.map((thinker, index) => (
+              <>
+                {index > 0 && " · "}
+                <a href={`/thinkers/${thinker.slug}`}>{thinker.name}</a>
+                {" "}
+                <span class="muted">({thinker.count})</span>
+              </>
+            ))
+          }
+        </p>
+      </section>
+    )}
+
+    {concepts.length > 0 && (
+      <section class="related-block" aria-labelledby="branch-concepts">
+        <div class="section-intro">
+          <p class="section-label">Terms</p>
+          <h2 id="branch-concepts">Terms this branch trades on</h2>
+        </div>
+        <ul class="link-list">
+          {
+            concepts.map((concept) => (
+              <li>
+                <a href={conceptPath(concept)}>{concept.term}</a>
+                {" — "}
+                {concept.gloss}
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    )}
+
+    {branchThemeRows.length > 0 && (
+      <section class="related-block" aria-labelledby="branch-themes">
+        <div class="section-intro">
+          <p class="section-label">Themes</p>
+          <h2 id="branch-themes">Collections inside this branch</h2>
+        </div>
+        <p class="hero-value" style="margin-top:0">
+          {
+            branchThemeRows.map((row, index) => (
+              <>
+                {index > 0 && " · "}
+                <a href={row.path}>{row.name}</a>
+                {" "}
+                <span class="muted">({row.count})</span>
+              </>
+            ))
+          }
+        </p>
+      </section>
+    )}
+
+    {featuredQuotes.length > 0 && (
+      <section class="related-block" aria-labelledby="branch-quotes">
+        <div class="section-intro">
+          <p class="section-label">From the archive</p>
+          <h2 id="branch-quotes">Sourced passages from this branch</h2>
+        </div>
+        <ol class="quote-list compact-list">
+          {
+            featuredQuotes.map((quote) => (
+              <li class="quote-list-item">
+                <blockquote>{quote.text}</blockquote>
+                <footer>
+                  <a href={`/quotes/${quote.id.toLowerCase()}`}>
+                    {quote.author}: “{truncateWords(quote.text, 8)}” — source &amp; context
+                  </a>
+                  <br />
+                  {quote.source}
+                </footer>
+              </li>
+            ))
+          }
+        </ol>
+      </section>
+    )}
+
+    <nav class="reading-path" aria-label="Continue reading">
+      <p class="eyebrow">Continue</p>
+      <ol>
+        <li><a href="/branches">Every branch of philosophy</a></li>
+        <li><a href="/what-is-philosophy">What is philosophy?</a></li>
+        <li><a href="/history-of-philosophy">The history of philosophy</a></li>
+        <li><a href="/reference">The philosophy reference guide</a></li>
+      </ol>
+    </nav>
+  </div>
+</BaseLayout>

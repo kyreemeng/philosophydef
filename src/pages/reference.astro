@@ -1,0 +1,232 @@
+---
+/**
+ * The philosophy reference hub.
+ *
+ * Google Trends shows “Stanford encyclopedia of philosophy” at +350% and
+ * “Internet encyclopedia of philosophy” at +1100% — people are looking for an
+ * authoritative philosophy reference, and the encyclopedias are the only
+ * answers the results currently offer. Those readers do not want a longer
+ * encyclopedia; they want a reference they can check. This page is the
+ * archive's front door for that intent: every entity type it maintains —
+ * thinkers, concepts, works, sources, branches, guides — reached from one
+ * page, with the verification work that separates a reference from a list
+ * stated up front.
+ */
+import BaseLayout from "../layouts/BaseLayout.astro";
+import quotes from "../data/quotes.json";
+import { thinkerGroups, thinkerSourcePath } from "../lib/content";
+import { shouldIndexThinker } from "../lib/indexing";
+import { workEntries, shouldIndexWork } from "../lib/works";
+import { concepts, conceptPath, conceptSlug } from "../data/concept-glossary";
+import { branches } from "../data/branches";
+import { guides } from "../data/guides";
+import { corpusStatus } from "../data/editorial";
+import { hasThinkerSourcePage } from "../data/thinker-sourcing";
+
+const status = corpusStatus();
+const format = (value: number) => value.toLocaleString("en-US");
+
+const topThinkers = thinkerGroups()
+  .filter(shouldIndexThinker)
+  .slice(0, 12);
+const thinkerCount = thinkerGroups().filter(shouldIndexThinker).length;
+const publishedWorks = workEntries().filter(shouldIndexWork).slice(0, 10);
+const workCount = workEntries().filter(shouldIndexWork).length;
+
+/** Glossary terms grouped by language, as the glossary index does. */
+const languageGroups: { language: string; entries: typeof concepts }[] = [];
+for (const concept of concepts) {
+  const existing = languageGroups.find((group) => group.language === concept.language);
+  if (existing) existing.entries.push(concept);
+  else languageGroups.push({ language: concept.language, entries: [concept] });
+}
+
+const referenceGuides = guides.filter((guide) =>
+  [
+    "what-is-philosophy",
+    "history-of-philosophy",
+    "what-is-epistemology",
+    "what-is-ethics",
+    "what-is-metaphysics",
+    "philosophy-of-ai",
+    "branches-of-philosophy",
+  ].includes(guide.slug),
+);
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Philosophy Reference Guide",
+    description:
+      "A sourced philosophy reference: thinkers, concepts, works, branches, and quotation sources — every entry checked against the texts it cites.",
+    url: new URL("/reference", Astro.site),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site) },
+      { "@type": "ListItem", position: 2, name: "Reference", item: new URL("/reference", Astro.site) },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Philosophy Reference Guide: Thinkers, Concepts, Works & Sources"
+  description={`A sourced philosophy reference database: ${thinkerCount} thinkers, ${workCount} works, ${concepts.length} technical terms, and ${format(status.total)} quotations each traced to work and passage. The checkable alternative to quote sites.`}
+  canonical="/reference"
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Reference</p>
+      <h1>Philosophy reference guide</h1>
+      <p>
+        A philosophy reference organised around one promise: every claim here
+        can be checked. {format(status.total)} quotations carry the work, the
+        passage, and the edition they come from; {format(status.checked)} have
+        been collated against the cited edition; the thinkers, works, and terms
+        behind them are indexed below. For the scholarly deep ends, see the{" "}
+        <a href="https://plato.stanford.edu" rel="noopener">Stanford Encyclopedia of Philosophy</a>{" "}
+        and the{" "}
+        <a href="https://iep.utm.edu" rel="noopener">Internet Encyclopedia of Philosophy</a>{" "}
+        — this guide is the quicker, sourced route to the texts themselves.
+      </p>
+    </header>
+
+    <section class="related-block" aria-labelledby="ref-thinkers">
+      <div class="section-intro">
+        <p class="section-label">Entities</p>
+        <h2 id="ref-thinkers">Thinkers</h2>
+      </div>
+      <p class="hero-value" style="margin-top:0">
+        {
+          topThinkers.map((thinker, index) => (
+            <>
+              {index > 0 && " · "}
+              <a href={`/thinkers/${thinker.slug}`}>{thinker.name}</a>
+              {hasThinkerSourcePage(thinker.name, thinker.quotes.length) && (
+                <>
+                  {" "}
+                  <a
+                    class="muted"
+                    href={thinkerSourcePath(thinker.name)}
+                    aria-label={`${thinker.name} sourcing profile`}
+                  >
+                    (sources)
+                  </a>
+                </>
+              )}
+            </>
+          ))
+        }
+        {" · "}
+        <a href="/thinkers">All {thinkerCount} thinkers</a>
+      </p>
+    </section>
+
+    <section class="related-block" aria-labelledby="ref-works">
+      <div class="section-intro">
+        <p class="section-label">Texts</p>
+        <h2 id="ref-works">Works & books</h2>
+      </div>
+      <p class="hero-value" style="margin-top:0">
+        {
+          publishedWorks.map((entry, index) => (
+            <>
+              {index > 0 && " · "}
+              <a href={entry.path}>{entry.work.title}</a>
+            </>
+          ))
+        }
+        {" · "}
+        <a href="/works">All {workCount} works</a>
+      </p>
+    </section>
+
+    <section class="related-block" aria-labelledby="ref-concepts">
+      <div class="section-intro">
+        <p class="section-label">Vocabulary</p>
+        <h2 id="ref-concepts">Concepts & terms</h2>
+      </div>
+      {
+        languageGroups.map((group) => (
+          <p class="hero-value" style="margin-top:0">
+            <strong>{group.language}:</strong>{" "}
+            {group.entries.slice(0, 8).map((concept, index) => (
+              <>
+                {index > 0 && " · "}
+                <a href={conceptPath(concept)}>{concept.term}</a>
+              </>
+            ))}
+            {group.entries.length > 8 && (
+              <>
+                {" · "}
+                <a href="/glossary">all terms</a>
+              </>
+            )}
+          </p>
+        ))
+      }
+    </section>
+
+    <section class="related-block" aria-labelledby="ref-branches">
+      <div class="section-intro">
+        <p class="section-label">The field</p>
+        <h2 id="ref-branches">Branches & guides</h2>
+      </div>
+      <p class="hero-value" style="margin-top:0">
+        {
+          branches.map((branch, index) => (
+            <>
+              {index > 0 && " · "}
+              <a href={`/branches/${branch.slug}`}>{branch.name}</a>
+            </>
+          ))
+        }
+      </p>
+      <p class="hero-value" style="margin-top:0">
+        {
+          referenceGuides.map((guide, index) => (
+            <>
+              {index > 0 && " · "}
+              <a href={`/${guide.slug}`}>{guide.title}</a>
+            </>
+          ))
+        }
+      </p>
+    </section>
+
+    <section class="related-block" aria-labelledby="ref-sources">
+      <div class="section-intro">
+        <p class="section-label">Verification</p>
+        <h2 id="ref-sources">Sources, attribution & policy</h2>
+      </div>
+      <ul class="link-list">
+        <li>
+          <a href="/quote-source">Quote source finder</a> — trace a quotation to
+          its work and passage; {format(status.checked)} records verified
+          against the cited editions
+        </li>
+        <li>
+          <a href="/misattributed-quotes">Misattributed quotes</a> — the lines
+          that circulate under the wrong name, and what the record shows
+        </li>
+        <li>
+          <a href="/sourcing-method">Sourcing method</a> — how texts are
+          selected, checked, and dated
+        </li>
+        <li>
+          <a href="/editorial-policy">Editorial policy</a> — selection,
+          verification levels, and the corrections log
+        </li>
+        <li>
+          <a href="/about#verification-levels">Verification levels</a> — what
+          “edition-checked” and “original text checked” mean here
+        </li>
+      </ul>
+    </section>
+  </div>
+</BaseLayout>

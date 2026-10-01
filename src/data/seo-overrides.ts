@@ -335,9 +335,14 @@ export const pageSeoOverrides: Record<
       "Epistemology meaning explained: the philosophy of knowledge, justification, belief, evidence, and skepticism—with clear examples and FAQs.",
   },
   "/philosophy-of-ai": {
-    title: "Philosophy of AI | Mind, Ethics, Knowledge & Responsibility",
+    title: "Philosophy of AI: Consciousness, Ethics & Machine Intelligence",
     description:
-      "Philosophy of artificial intelligence: consciousness vs intelligence, knowledge and explanation, ethics, responsibility, and AI as a welfare subject—clear 2026 guide.",
+      "The philosophy of AI explained: can machines think, could AI be conscious, the ethics of AI, the Turing test, and the Chinese Room—with the philosophers who shaped the debate.",
+  },
+  "/what-is-philosophy": {
+    title: "What Is Philosophy? Definition, Branches, History & Major Thinkers",
+    description:
+      "The definition and meaning of philosophy, explained clearly: its five main branches, its history from ancient Greece to today, and the philosophers who shaped it.",
   },
   "/thinkers/socrates": {
     title: "Socrates Quotes with Sources | Unexamined Life & Apology",

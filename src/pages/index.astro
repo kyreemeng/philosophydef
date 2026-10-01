@@ -7,6 +7,8 @@ import { thinkerGroups } from "../lib/content";
 import { shouldIndexThinker } from "../lib/indexing";
 import { corpusStatus } from "../data/editorial";
 import { workEntries, shouldIndexWork } from "../lib/works";
+import { concepts, conceptPath } from "../data/concept-glossary";
+import { quoteVerification } from "../data/quote-verification";
 
 const featured = quotes[0];
 const thinkers = thinkerGroups();
@@ -54,12 +56,12 @@ const schema = [
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "Philosophy Quotes, Verified and Sourced",
+    name: "Philosophy Quotes, Thinkers & Ideas — Verified and Sourced",
     description:
-      "English philosophy quotations with located sources: thinker, work, and section for every passage, with original-language wording and recorded misattributions.",
+      "A sourced philosophy database: quotations traced to work and passage, with thinkers, works, concepts, and the sources behind every line.",
     url: Astro.site,
     inLanguage: "en",
-    significantLink: new URL("/quote-source", Astro.site).href,
+    significantLink: new URL("/reference", Astro.site).href,
   },
 ];
 
@@ -154,18 +156,55 @@ const featuredWorks = workEntries()
     name: entry.work.title,
     count: entry.quotes.length,
   }));
+
+/**
+ * The reference terms a newcomer meets inside the quotations — *eudaimonia*,
+ * *wu wei*, *ataraxia*, *ubuntu* — each with a glossary page of its own.
+ * Hand-picked rather than generated: these are the terms readers actually
+ * stop on, and the homepage's link to a term is a promise the term page keeps.
+ */
+const featuredConceptNames = [
+  "eudaimonia",
+  "wu wei",
+  "aretē",
+  "ataraxia",
+  "logos",
+  "amor fati",
+  "ubuntu",
+  "zhongyong",
+];
+const featuredConcepts = featuredConceptNames
+  .map((term) =>
+    concepts.find((concept) => concept.term.toLowerCase() === term),
+  )
+  .filter((concept): concept is (typeof concepts)[number] => Boolean(concept));
+
+/**
+ * The most recently re-verified records, newest first. The register is the
+ * archive's living part: a knowledge hub shows the receipts, so the homepage
+ * dates each record and links the page where the verification is shown.
+ */
+const latestVerified = Object.entries(quoteVerification)
+  .map(([id, note]) => ({ id, date: note.lastVerified }))
+  .sort((a, b) => b.date.localeCompare(a.date))
+  .slice(0, 5)
+  .map((entry) => ({
+    ...entry,
+    quote: quotes.find((quote) => quote.id === entry.id),
+  }))
+  .filter((entry) => entry.quote);
 ---
 
 <BaseLayout
-  title="Philosophy Quotes, Verified and Sourced | Full Citations"
-  description="Philosophy quotes with verified sources: exact wording, the work and section behind every passage, and the lines most often attributed to the wrong author."
+  title="Philosophy Quotes, Thinkers & Ideas | Verified & Sourced"
+  description="A sourced philosophy database: verified quotations traced to the work and passage they come from, indexed by thinker, work, concept, and theme — with the misattributions recorded."
   schema={schema}
   canonical="/"
 >
   <div class="page-shell">
     <section class="hero-intro" aria-labelledby="hero-title">
       <div class="hero-intro-lead">
-        <p class="hero-kicker">Curated English archive</p>
+        <p class="hero-kicker">A sourced philosophy database</p>
         {/* The H1 used to read “Philosophy quotes, chosen at random.” Google
             read the homepage's primary topic from that phrase, and “random” is
             not a term anybody searches. Search Console shows the site's only
@@ -173,7 +212,7 @@ const featuredWorks = workEntries()
             is `quote source`, so the homepage now states the thing the archive
             is actually differentiated on. The chance mechanic is kept, moved
             below the fold-defining heading, and given its own H2. */}
-        <h1 id="hero-title">Philosophy Quotes, Verified and Sourced</h1>
+        <h1 id="hero-title">Philosophy Quotes, Thinkers &amp; Ideas — Verified and Sourced</h1>
       </div>
       <div class="hero-intro-body">
         <p class="hero-value">
@@ -334,6 +373,57 @@ const featuredWorks = workEntries()
         }
         {" · "}
         <a href="/works">All works</a>
+      </p>
+    </section>
+
+    <section class="themes-section" aria-labelledby="concepts-title">
+      <div class="section-intro">
+        <p class="section-label">Enter by term</p>
+        <h2 id="concepts-title">Concepts behind the passages</h2>
+      </div>
+      <p class="hero-value" style="margin-top:0">
+        {
+          featuredConcepts.map((concept, index) => (
+            <>
+              {index > 0 && " · "}
+              <a href={conceptPath(concept)}>{concept.term}</a>
+            </>
+          ))
+        }
+        {" · "}
+        <a href="/glossary">The full glossary</a>
+        {" · "}
+        <a href="/branches">Branches of philosophy</a>
+      </p>
+    </section>
+
+    <section class="themes-section" aria-labelledby="latest-title">
+      <div class="section-intro">
+        <p class="section-label">Latest verified sources</p>
+        <h2 id="latest-title">Recently re-verified records</h2>
+      </div>
+      <ol class="quote-list compact-list">
+        {
+          latestVerified.map((entry) => (
+            <li class="quote-list-item">
+              <blockquote>{entry.quote!.text}</blockquote>
+              <footer>
+                <a href={`/quotes/${entry.id.toLowerCase()}`}>
+                  {entry.quote!.author}: “{entry.quote!.text.slice(0, 48)}…” — source &amp; attribution
+                </a>
+                <br />
+                Last verified {entry.date}
+              </footer>
+            </li>
+          ))
+        }
+      </ol>
+      <p class="hero-value" style="margin-top:0">
+        <a href="/quote-source">The full verified register</a>
+        {" · "}
+        <a href="/misattributed-quotes">Misattributed quotations</a>
+        {" · "}
+        <a href="/reference">The philosophy reference guide</a>
       </p>
     </section>
 

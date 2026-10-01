@@ -19,28 +19,50 @@ export const guides: Guide[] = [
   {
     slug: "what-is-philosophy",
     title: "What Is Philosophy?",
+    /**
+     * Title and description carry the definition cluster: Google Trends shows
+     * “what is philosophy” steady at the top of the field's informational
+     * queries, with “philosophy definition” (+50%) and “definition of
+     * philosophy” (+110%) rising. One page owns all of them, so the title
+     * names the definition and the branches rather than the question alone.
+     */
     description:
-      "What is philosophy? A clear introduction to philosophical questions, methods, major branches, and why philosophy still matters in 2026.",
+      "What is philosophy? The definition and meaning of philosophy, its five main branches, its history from ancient Greece to today, and the philosophers who shaped it.",
     eyebrow: "A first question",
     intro:
       "Philosophy is the disciplined practice of asking fundamental questions about reality, knowledge, value, reason, mind, and how to live.",
     answer:
-      "Rather than collecting facts alone, philosophy clarifies concepts, tests reasons, notices assumptions, and compares rival answers. It begins where an important question remains open: What is real? What can I know? What makes an action right? What kind of life is worth living?",
+      "Philosophy — from the Greek philosophia, “love of wisdom” — is the disciplined practice of asking and answering fundamental questions about reality, knowledge, value, and how to live, using reasons that can be examined. Rather than collecting facts alone, it clarifies concepts, tests reasons, notices assumptions, and compares rival answers.",
     sections: [
       {
-        heading: "What philosophers do",
+        heading: "Philosophy definition",
         paragraphs: [
-          "Philosophers make arguments. They state a claim, give reasons for it, consider objections, and revise the claim when the reasons do not hold. This is why philosophy is more than having an opinion: an opinion becomes philosophical when it can be explained and examined.",
-          "The work can be abstract, but its questions are ordinary. A decision about responsibility, a disagreement about truth, or a fear about death often contains a philosophical problem before anyone gives it that name.",
-          "In academic settings, philosophy also means a set of specialties with journals, methods, and historical canons. In everyday life, the same habits of clarity and criticism help people revise beliefs without mistaking confidence for evidence.",
+          "The word philosophy comes from the ancient Greek philosophia: philos (love) and sophia (wisdom). In the most common definition, philosophy is the systematic study of the most general questions about what exists, what we can know, what is valuable, and how we should live — pursued through argument rather than experiment or revelation alone.",
+          "That definition separates philosophy from its neighbours. Religion answers some of the same questions by appeal to revelation or tradition. Science answers narrower questions by observation and experiment. Philosophy is the discipline for the questions that remain open: it asks what counts as evidence, what makes an explanation good, and which values should guide a choice — including the choice to trust a scientist or a scripture in the first place.",
+          "The word has everyday senses too. “My philosophy is to take the stairs” means a personal principle. “A philosophy degree” means an academic field. Those senses descend from the discipline: the practice of giving and examining reasons about the most general questions there are.",
         ],
       },
       {
-        heading: "The main branches of philosophy",
+        heading: "What philosophers study",
+        paragraphs: [
+          "Philosophers make arguments. They state a claim, give reasons for it, consider objections, and revise the claim when the reasons do not hold. This is why philosophy is more than having an opinion: an opinion becomes philosophical when it can be explained and examined.",
+          "The work can be abstract, but its questions are ordinary. A decision about responsibility, a disagreement about truth, or a fear about death often contains a philosophical problem before anyone gives it that name. Philosophers also study the history of attempts to answer those questions, because the failed answers are usually the clearest map of what makes each question hard.",
+        ],
+      },
+      {
+        heading: "The branches of philosophy",
         paragraphs: [
           "Metaphysics asks what exists and what reality is like. Epistemology asks what knowledge is and how belief can be justified. Ethics asks how we ought to act and what makes a life good. Logic studies good reasoning. Political philosophy asks how power, rights, and institutions should be arranged.",
-          "Other branches focus on particular subjects, including language, science, education, history, art, religion, law, technology, and artificial intelligence. A useful map is not a prison: many problems cross branch boundaries.",
-          "Comparative philosophy studies these questions across Greek, Chinese, Indian, African, Islamic, and other traditions without treating one timeline as the only center.",
+          "Around that core sit the specialized branches — philosophy of mind, philosophy of language, philosophy of science, philosophy of religion, philosophy of law, philosophy of education, and aesthetics — each taking the same tools to one domain. The archive keeps a page for each of them in its branches section.",
+          "A useful map is not a prison: many problems cross branch boundaries, and comparative philosophy studies these questions across Greek, Chinese, Indian, African, Islamic, and other traditions without treating one timeline as the only center.",
+        ],
+      },
+      {
+        heading: "The history of philosophy in brief",
+        paragraphs: [
+          "The recorded story opens in the sixth century BCE around the Greek world, where inquirers began explaining the cosmos through natural causes, and in the same centuries in China and India, where rival schools argued about virtue, duty, and the self. Socrates turned Greek inquiry toward ethics and the examined life; Plato and Aristotle built the first great systems; the Stoics, Epicureans, and Skeptics made philosophy a practical art of living.",
+          "Medieval philosophy — Christian, Islamic, and Jewish — spent roughly a thousand years working out how reason relates to revelation, from Augustine through Avicenna and Maimonides to Aquinas. The early modern period began with Descartes' turn to the knowing subject and produced the rival schools of rationalism and empiricism, which Kant's critical philosophy attempted to settle.",
+          "The nineteenth and twentieth centuries opened the modern sprawl: Hegel's system, Marx's inversion of it, Nietzsche's attack on its morality, the analytic turn to logic and language, phenomenology and existentialism, and the pragmatist insistence that ideas be judged by their consequences. The contemporary period is a professional, global discipline — and the debates the archive quotes are still open.",
         ],
       },
       {
@@ -48,6 +70,13 @@ export const guides: Guide[] = [
         paragraphs: [
           "Science often settles empirical questions with observation, experiment, and modeling. Philosophy asks what those methods presuppose: what counts as evidence, what explanation is, and which values should guide applications of knowledge.",
           "Opinion expresses a stance. Philosophy asks for reasons that can be shared, challenged, and improved. The difference is not that philosophers lack commitments; it is that commitments are kept answerable to argument.",
+        ],
+      },
+      {
+        heading: "Famous philosophers to start with",
+        paragraphs: [
+          "Four names open most paths into the subject. Socrates (469–399 BCE) made ethics the centre of philosophy and gave it the examined life. Plato built the first surviving systems on metaphysics, knowledge, and the state. Aristotle organized the sciences and defined virtue as a mean. Kant (1724–1804) reframed the modern problem of what reason can and cannot know.",
+          "Widen the frame and the list changes shape. Confucius and Laozi in China, the Buddha's interlocutors in India, Ibn Sina and Ibn Rushd in the Islamic world, and — in the last century — Hannah Arendt, Simone de Beauvoir, and Iris Murdoch each reshape what philosophy is for. The archive indexes all of them, with the work and passage behind every quotation.",
         ],
       },
       {
@@ -72,6 +101,16 @@ export const guides: Guide[] = [
           "Philosophy is careful thinking about fundamental questions—reality, knowledge, value, and how to live—using reasons that can be examined by others.",
       },
       {
+        question: "What is the definition of philosophy?",
+        answer:
+          "The word means “love of wisdom” in Greek. As a discipline, philosophy is the systematic study of the most general questions about existence, knowledge, value, and action, conducted through argument and critical examination rather than experiment or appeals to authority.",
+      },
+      {
+        question: "What does philosophy mean?",
+        answer:
+          "In ordinary use, “philosophy” can mean a personal guiding principle (“my philosophy is…”) or an academic field. In its strict meaning, it is the practice of examining concepts and claims with reasons — the discipline behind both senses.",
+      },
+      {
         question: "Is philosophy still useful?",
         answer:
           "Yes. Wherever people must choose under uncertainty, justify institutions, or interpret new technologies, philosophical clarity about concepts and values remains practical.",
@@ -85,10 +124,112 @@ export const guides: Guide[] = [
     related: [
       { href: "/philosophy-definition", label: "Philosophy definition" },
       { href: "/philosophy-meaning", label: "Philosophy meaning" },
+      { href: "/branches", label: "The branches of philosophy" },
+      { href: "/history-of-philosophy", label: "A history of philosophy" },
+      { href: "/reference", label: "The philosophy reference guide" },
       { href: "/themes", label: "Browse philosophical themes" },
       { href: "/quotes", label: "Read the quotation archive" },
     ],
     thinkers: ["Socrates", "Plato", "Aristotle"],
+    updated: "2026-10-01",
+    furtherReading: [
+      "Anthony Kenny, A New History of Western Philosophy (2010)",
+      "Plato, Apology 38a — on the examined life",
+      "Stanford Encyclopedia of Philosophy, branch overviews",
+    ],
+  },
+  {
+    slug: "history-of-philosophy",
+    title: "History of Philosophy: From Ancient Greece to Today",
+    /**
+     * “Definition of philosophy” is not the only rising definition-adjacent
+     * query — Trends shows “history of philosophy” demand growing alongside
+     * it. This guide owns that query; the what-is-philosophy page covers the
+     * history in one paragraph and hands off here.
+     */
+    description:
+      "A history of philosophy in five periods: ancient, medieval, early modern, modern, and contemporary — the thinkers, works, and debates that shaped each era, with sourced passages.",
+    eyebrow: "The long view",
+    intro:
+      "The history of philosophy is a history of arguments that never quite closed: each period inherits its questions from the last, answers them differently, and passes what remains open forward.",
+    answer:
+      "Philosophy's history runs from the sixth-century BCE inquirers of Miletus, through the classical systems of Plato and Aristotle and the medieval work of Augustine, Ibn Sina, Maimonides, and Aquinas, to Descartes and the early moderns, Kant and German Idealism, and the analytic, phenomenological, and global debates of the twentieth and twenty-first centuries. Read it as a chain of open questions rather than a gallery of opinions.",
+    sections: [
+      {
+        heading: "Ancient philosophy: the questions are named",
+        paragraphs: [
+          "The Western story opens around Miletus in the sixth century BCE, when thinkers first proposed natural rather than mythical explanations of the cosmos. Heraclitus made change the central fact; Parmenides denied it; their quarrel seeded metaphysics. In Athens, Socrates (469–399 BCE) turned philosophy toward ethics — how to live — and made argument itself the method, accepting death rather than abandoning the examined life.",
+          "Plato founded the Academy and wrote dialogues whose questions are still assigned to students: what justice is, what knowledge is, what the Forms would have to be. Aristotle organized the sciences, defined virtue as a mean between extremes, and gave logic its first system. The Hellenistic schools — Stoics, Epicureans, Skeptics — treated philosophy as the art of living well under uncertainty, which is why their passages still circulate as quotes.",
+          "The same centuries produced classical Chinese philosophy — Confucius, Mencius, Xunzi, Laozi, Zhuangzi — arguing over human nature, ritual, and the Way, and classical Indian philosophy, whose schools debated consciousness, causation, and liberation with a rigour the term “Eastern philosophy” hides rather than honours.",
+        ],
+      },
+      {
+        heading: "Medieval philosophy: reason meets revelation",
+        paragraphs: [
+          "For roughly a thousand years the central problem was the relation between reason and revealed religion. Augustine fused Platonism with Christianity and wrote the Confessions, the first philosophical autobiography. In Baghdad and Córdoba, Al-Farabi, Avicenna (Ibn Sina), and Averroes (Ibn Rushd) transmitted and transformed Aristotle; al-Ghazali pressed the critique the philosophers had to answer; Maimonides did the same constructive work for Jewish thought.",
+          "The period ends with William of Ockham's razor and the late-medieval nominalists, who thinned the inherited metaphysics until the early moderns could rebuild. Quoting this era well requires care: the archive records which translation and which numbering a passage comes from, because medieval texts are cited differently in every tradition.",
+        ],
+      },
+      {
+        heading: "Early modern philosophy: the turn to the knower",
+        paragraphs: [
+          "Descartes' Meditations (1641) made certainty the entry problem: doubt everything, keep only what survives. Spinoza and Leibniz built rationalist systems on that confidence; Locke, Berkeley, and Hume answered from the empiricist side, until Hume's scepticism about causation and the self woke Kant, as he said, from his dogmatic slumber.",
+          "The period also wrote the political philosophy the modern world still argues inside — Hobbes' Leviathan, Locke's toleration and property, Rousseau's general will — and Spinoza's and Hume's critiques of miracles, which redrew the border between philosophy and religion for good.",
+        ],
+      },
+      {
+        heading: "Modern philosophy: systems and their collapse",
+        paragraphs: [
+          "Kant's critical philosophy (1781–1790) argued that experience is structured by the mind's own forms, that metaphysics exceeds possible knowledge, and that morality begins from autonomy. German Idealism — Fichte, Schelling, Hegel — tried to complete what Kant started; Hegel made history itself philosophical. Marx inverted Hegel; Kierkegaard and Nietzsche attacked the system from inside, and their attack is where existentialism begins.",
+          "Schopenhauer, Mill, and Darwin belong here too: the pessimist who took the will seriously, the utilitarian who argued liberty, and the naturalist who forced every account of mind and morality to face descent with modification. The archive's most-quoted Nietzsche and Mill passages all come from these decades.",
+        ],
+      },
+      {
+        heading: "Contemporary philosophy: the professional and the global",
+        paragraphs: [
+          "The twentieth century split into vocabularies more than camps. The analytic tradition — Frege, Russell, Moore, Wittgenstein, then Quine and the postwar generations — made logic and language the instruments; phenomenology and existentialism — Husserl, Heidegger, Sartre, de Beauvoir, Merleau-Ponty — made lived experience the subject. Pragmatism (Peirce, James, Dewey) tested ideas by their consequences, and the Frankfurt School put philosophy back into political critique.",
+          "Since 1970 the discipline has professionalized and globalized: Rawls revived political philosophy, feminist and Africana philosophy restructured the canon's assumptions, philosophy of mind and language met cognitive science, and philosophy of AI — Turing's question reborn — became a working field. The debates are open, which is exactly why the archive quotes them with sources.",
+        ],
+      },
+      {
+        heading: "How to read the history",
+        paragraphs: [
+          "Three habits make the history tractable. Read each thinker as answering a named predecessor, not as delivering timeless views. Date the works — a passage from 1650 is answering Descartes whether or not it names him. And keep the questions visible: what exists, what can be known, how to live, who decides. The periods are the changes those questions undergo.",
+          "The archive is organized to support this reading: every passage carries its work and locator, so a history can be checked against the texts rather than taken on authority.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What are the main periods in the history of philosophy?",
+        answer:
+          "A common division: ancient (roughly 600 BCE–500 CE), medieval (500–1400), early modern (1400–1700), modern (1700–1900), and contemporary (1900–today). The dates are conventions; the questions are what carry across the boundaries.",
+      },
+      {
+        question: "Who was the first philosopher?",
+        answer:
+          "In the Western tradition, Thales of Miletus (c. 600 BCE) is conventionally first, for proposing a natural explanation of the cosmos. Chinese and Indian philosophical traditions developed in the same centuries through figures such as Confucius, Laozi, and the Buddha, whose exact chronology is a matter of textual history rather than a single date.",
+      },
+      {
+        question: "Why study the history of philosophy at all?",
+        answer:
+          "Because the failures are the most instructive parts: each classic position is a precisely worked-out answer to a question that is still open, and knowing how it failed tells you what any new answer must get past.",
+      },
+    ],
+    related: [
+      { href: "/what-is-philosophy", label: "What is philosophy?" },
+      { href: "/branches", label: "The branches of philosophy" },
+      { href: "/reference", label: "The philosophy reference guide" },
+      { href: "/thinkers", label: "Browse thinkers by era" },
+      { href: "/quotes", label: "Read the quotation archive" },
+    ],
+    thinkers: ["Socrates", "Plato", "Aristotle", "René Descartes", "Immanuel Kant", "Friedrich Nietzsche"],
+    updated: "2026-10-01",
+    furtherReading: [
+      "Anthony Kenny, A New History of Western Philosophy (2010)",
+      "Frederick Copleston, A History of Philosophy, vols. 1–9",
+      "Stanford Encyclopedia of Philosophy entries by period and figure",
+    ],
   },
   {
     slug: "philosophy-definition",
@@ -212,9 +353,15 @@ export const guides: Guide[] = [
   },
   {
     slug: "philosophy-of-ai",
-    title: "Philosophy of AI",
+    title: "Philosophy of AI: Consciousness, Ethics & Machine Intelligence",
+    /**
+     * Google Trends shows “philosophy of ai” at +170% and still climbing, with
+     * the AI-consciousness and AI-ethics variants rising behind it. The title
+     * carries all three clusters; the description names the sub-questions so
+     * the snippet can win both the head query and the long variants.
+     */
     description:
-      "Philosophy of artificial intelligence: consciousness vs intelligence, knowledge and explanation, ethics, responsibility, and AI as a welfare subject—clear 2026 guide.",
+      "The philosophy of AI explained: can machines think, could AI be conscious, the ethics of AI and responsibility gaps, the Turing test, and the Chinese Room—clear guide with the philosophers who shaped the debate.",
     eyebrow: "Technology and thought",
     intro:
       "The philosophy of AI examines what artificial intelligence is, whether machines can think or understand, what they can know, and how people should design, use, and govern them.",
@@ -265,6 +412,13 @@ export const guides: Guide[] = [
         ],
       },
       {
+        heading: "The philosophers who shaped the AI debate",
+        paragraphs: [
+          "Alan Turing (1912–1954) posed the founding question and replaced it with the imitation game. John Searle (1932– ) built the Chinese Room against strong AI. Daniel Dennett (1942–2024) defended functionalism and argued that competence, suitably organised, leaves nothing missing; Hubert Dreyfus (1929–2017) spent a career arguing the opposite from the phenomenology of embodied skill.",
+          "Bertrand Russell's generation set the logic the field inherited, and in our own decade Stuart Russell's Human Compatible (2019) reframed machine ethics as the problem of building systems whose goals defer to ours. Norbert Wiener, Thomas Nagel, and David Chalmers each set a boundary the debate still works inside: control, experience, and the hard problem.",
+        ],
+      },
+      {
         heading: "Moral status: could an AI matter morally?",
         paragraphs: [
           "If a future system were conscious, or could suffer, it would have interests of its own and could be wronged. Because the evidence is uncertain, some philosophers argue for precaution — taking the possibility seriously before it is settled — while others warn that attributing feelings to systems designed to seem human invites manipulation. The disagreement is less about today’s systems than about how to act responsibly under uncertainty.",
@@ -283,6 +437,11 @@ export const guides: Guide[] = [
           "John Searle’s 1980 thought experiment: a person following rules to manipulate Chinese symbols can produce fluent answers without understanding Chinese. Searle concluded that running a program is not sufficient for understanding.",
       },
       {
+        question: "What is AI ethics?",
+        answer:
+          "AI ethics is the branch of practical philosophy that asks how artificial systems should be designed, deployed, and governed: fairness in training data, transparency and contestability of automated decisions, responsibility when systems cause harm, and the purposes worth building toward. The alignment problem is its most technical corner.",
+      },
+      {
         question: "Does passing the Turing test mean a machine can think?",
         answer:
           "Turing proposed the test as a replacement for the question, not a proof. Most philosophers now hold that conversational imitation is neither necessary nor sufficient for thought.",
@@ -299,14 +458,16 @@ export const guides: Guide[] = [
       },
     ],
     related: [
+      { href: "/branches/philosophy-of-mind", label: "Branch guide: philosophy of mind" },
       { href: "/themes/mind", label: "Philosophy quotes about mind" },
       { href: "/themes/responsibility", label: "Philosophy quotes about responsibility" },
       { href: "/what-is-epistemology", label: "What is epistemology?" },
       { href: "/philosophy-of-language", label: "Philosophy of language" },
       { href: "/philosophy-of-science", label: "Philosophy of science" },
+      { href: "/reference", label: "The philosophy reference guide" },
     ],
     thinkers: ["Alan Turing", "Ludwig Wittgenstein", "Hannah Arendt"],
-    updated: "2026-09-27",
+    updated: "2026-10-01",
     furtherReading: [
       "Alan Turing, “Computing Machinery and Intelligence,” Mind 59 (1950)",
       "John Searle, “Minds, Brains, and Programs,” Behavioral and Brain Sciences 3 (1980)",
@@ -316,46 +477,6 @@ export const guides: Guide[] = [
       "Patrick Butlin, Robert Long et al., “Consciousness in Artificial Intelligence: Insights from the Science of Consciousness” (2023)",
       "Stanford Encyclopedia of Philosophy, “Artificial Intelligence” and “The Chinese Room Argument”",
     ],
-  },
-  {
-    slug: "history-of-philosophy",
-    title: "History of Philosophy",
-    description:
-      "A concise history of philosophy, from ancient traditions to contemporary thought, with major periods, questions, and global traditions.",
-    eyebrow: "A living tradition",
-    intro:
-      "The history of philosophy is the history of changing answers to enduring questions about nature, knowledge, ethics, politics, and human flourishing.",
-    answer:
-      "It is not a single line of progress or a list of isolated Western thinkers. Philosophical traditions developed across ancient Greece, China, India, Africa, the Islamic world, Europe, and the Americas, often in dialogue with religion, science, law, and politics.",
-    sections: [
-      {
-        heading: "Ancient foundations",
-        paragraphs: [
-          "In Greece, figures such as Socrates, Plato, and Aristotle developed influential approaches to argument, virtue, knowledge, and nature. In China, Confucian and Daoist thinkers explored cultivation, social order, spontaneity, and the Way.",
-          "Indian traditions developed sophisticated debates about perception, selfhood, liberation, language, and logic. These traditions should be studied on their own terms rather than treated as background to a single canon.",
-        ],
-      },
-      {
-        heading: "Medieval and early modern debates",
-        paragraphs: [
-          "Medieval Jewish, Christian, and Islamic philosophers connected Greek thought with questions of revelation, law, and divine attributes. Philosophers including Ibn Sina, Ibn Rushd, Maimonides, and Aquinas shaped long debates about reason and faith.",
-          "Early modern philosophy responded to scientific change and political upheaval. Rationalists, empiricists, and later Kant reconsidered mind, matter, causation, freedom, and the grounds of knowledge.",
-        ],
-      },
-      {
-        heading: "Modern and contemporary philosophy",
-        paragraphs: [
-          "Nineteenth- and twentieth-century thought expanded debates about history, power, language, existence, colonialism, gender, race, and social transformation. Analytic and continental approaches developed different styles, often around overlapping problems.",
-          "Contemporary philosophy continues this work while engaging technology, climate, disability, bioethics, global justice, and the consequences of AI.",
-        ],
-      },
-    ],
-    related: [
-      { href: "/philosophy-of-history", label: "Philosophy of history" },
-      { href: "/chinese-philosophy", label: "Chinese philosophy" },
-      { href: "/thinkers", label: "Browse thinkers" },
-    ],
-    thinkers: ["Plato", "Confucius", "Immanuel Kant"],
   },
   {
     slug: "philosophy-of-history",
@@ -717,10 +838,19 @@ export const guides: Guide[] = [
       },
     ],
     related: [
+      { href: "/branches", label: "The branches hub" },
+      { href: "/branches/metaphysics", label: "Metaphysics" },
+      { href: "/branches/epistemology", label: "Epistemology" },
+      { href: "/branches/ethics", label: "Ethics" },
+      { href: "/branches/logic", label: "Logic" },
+      { href: "/branches/political-philosophy", label: "Political philosophy" },
+      { href: "/branches/philosophy-of-mind", label: "Philosophy of mind" },
       { href: "/what-is-epistemology", label: "What is epistemology?" },
       { href: "/what-is-metaphysics", label: "What is metaphysics?" },
       { href: "/what-is-ethics", label: "What is ethics?" },
       { href: "/what-is-logic", label: "What is logic?" },
+      { href: "/history-of-philosophy", label: "A history of philosophy" },
+      { href: "/reference", label: "The philosophy reference guide" },
     ],
     thinkers: ["Aristotle", "Immanuel Kant", "Confucius"],
   },

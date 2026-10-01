@@ -24,6 +24,8 @@ import { hasThinkerSourcePage, thinkerSourcing } from "../../data/thinker-sourci
 import { referencesFor } from "../../data/thinker-references";
 import { quoteVerification } from "../../data/quote-verification";
 import { workEntries } from "../../lib/works";
+import { conceptsForThemes, conceptPath, conceptSlug } from "../../data/concept-glossary";
+import { schools as schoolPages } from "../schools/[slug].astro";
 
 export function getStaticPaths() {
   return thinkerGroups().map((thinker) => ({
@@ -113,6 +115,36 @@ const relatedThinkers = thinkerGroups()
   )
   .sort((a, b) => sharedSchoolCount(b) - sharedSchoolCount(a))
   .slice(0, 6);
+
+/**
+ * The published school hub for this thinker, when the corpus labels match one
+ * of the curated school pages. A thinker page should hand the reader to the
+ * tradition as well as the themes — the school hub is where the wider
+ * lineage lives.
+ */
+const schoolLabelCounts = new Map<string, number>();
+for (const quote of thinker.quotes) {
+  schoolLabelCounts.set(quote.school, (schoolLabelCounts.get(quote.school) ?? 0) + 1);
+}
+const dominantSchool = [...schoolLabelCounts.entries()].sort(
+  (a, b) => b[1] - a[1],
+)[0]?.[0];
+const matchingSchool = dominantSchool
+  ? schoolPages.find((school) =>
+      thinker.quotes.some((quote) => school.match(quote.school, quote.author)),
+    )
+  : undefined;
+
+/**
+ * The technical terms this thinker's passages trade on, pulled from the
+ * glossary by their archive themes: *aretē* for Aristotle, *wu wei* for
+ * Laozi, *conatus* for Spinoza. Entity pages that list themes but not terms
+ * stop one step short of the vocabulary the quotes actually use.
+ */
+const thinkerConcepts = conceptsForThemes(
+  topThemes.map(([theme]) => theme),
+  6,
+);
 const mainEntity = asText
   ? {
       "@id": entityId,
@@ -241,12 +273,29 @@ const pageDescription =
         <div class="prose-layout">
           <aside class="prose-aside">
             <p>{guide.lifespan}</p>
-            <p>{guide.school}</p>
+            <p>
+              {matchingSchool ? (
+                <a href={`/schools/${matchingSchool.slug}`}>{guide.school}</a>
+              ) : (
+                guide.school
+              )}
+            </p>
+            {thinkerConcepts.length > 0 && (
+              <p>
+                Key terms:{" "}
+                {thinkerConcepts.map((concept, index) => (
+                  <>
+                    {index > 0 && ", "}
+                    <a href={conceptPath(concept)}>{concept.term}</a>
+                  </>
+                ))}
+              </p>
+            )}
           </aside>
           <article class="prose">
-            <h2>Overview</h2>
+            <h2>{asText ? "About this text" : `Who was ${thinker.name}?`}</h2>
             <p>{guide.overview}</p>
-            <h2>Main ideas</h2>
+            <h2>Major ideas</h2>
             <p>{guide.ideas}</p>
             <h2>Major works</h2>
             <ul>

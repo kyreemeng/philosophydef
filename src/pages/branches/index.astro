@@ -1,0 +1,112 @@
+---
+/**
+ * The branches hub: the discipline's own map as an entry point.
+ *
+ * The site's knowledge pages — thinkers, works, themes, concepts — were each
+ * reachable, but the map of the field itself had no home. This directory is
+ * that home: eleven branches, from the classical core to the specialties
+ * Google Trends shows people searching for, each leading to a written
+ * reference page rather than a bare list.
+ */
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import quotes from "../../data/quotes.json";
+import { branches } from "../../data/branches";
+import { canonicalizeTheme, themePath } from "../../lib/content";
+
+/** Passage counts, so the directory shows where the archive is deepest. */
+const quoteCountByTheme = new Map<string, number>();
+for (const quote of quotes) {
+  const seen = new Set<string>();
+  for (const raw of quote.themes) {
+    const canonical = canonicalizeTheme(raw);
+    if (seen.has(canonical)) continue;
+    seen.add(canonical);
+    quoteCountByTheme.set(canonical, (quoteCountByTheme.get(canonical) ?? 0) + 1);
+  }
+}
+
+const rows = branches.map((branch) => ({
+  ...branch,
+  count: branch.themes.reduce(
+    (sum, theme) => sum + (quoteCountByTheme.get(theme) ?? 0),
+    0,
+  ),
+}));
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Branches of Philosophy",
+    description:
+      "The branches of philosophy explained: metaphysics, epistemology, ethics, logic, political philosophy, and the specialties from mind to education—with thinkers, questions, and sourced passages.",
+    url: new URL("/branches", Astro.site),
+    numberOfItems: branches.length,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site) },
+      { "@type": "ListItem", position: 2, name: "Branches", item: new URL("/branches", Astro.site) },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Branches of Philosophy — Metaphysics, Ethics, Mind & More | Philosophy Blind Box"
+  description={`The ${branches.length} branches of philosophy, each explained with its central questions, key thinkers, and sourced passages: metaphysics, epistemology, ethics, logic, political philosophy, and the specialties.`}
+  canonical="/branches"
+  schema={schema}
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Branches</p>
+      <h1>The branches of philosophy</h1>
+      <p>
+        Philosophy divides into a classical core — metaphysics, epistemology,
+        ethics, logic, political philosophy — and a set of specialties that take
+        the same tools to one subject: mind, language, science, religion, law,
+        education. Each page below states the branch's defining questions,
+        shows how its arguments actually run, and leads into the archive's
+        sourced passages, thinkers, and terms.
+      </p>
+    </header>
+
+    <ol class="directory" aria-label="Branch directory">
+      {
+        rows.map((branch) => (
+          <li class="directory-row">
+            <h2>
+              <a href={`/branches/${branch.slug}`}>{branch.name}</a>
+            </h2>
+            <p>
+              {branch.count} sourced{" "}
+              {branch.count === 1 ? "passage" : "passages"} ·{" "}
+              {branch.themes.slice(0, 3).map((theme) => theme.toLowerCase()).join(", ")}
+            </p>
+          </li>
+        ))
+      }
+    </ol>
+
+    <section class="related-block" aria-labelledby="branches-continue">
+      <div class="section-intro">
+        <p class="section-label">Keep going</p>
+        <h2 id="branches-continue">Other ways into the archive</h2>
+      </div>
+      <p class="hero-value" style="margin-top:0">
+        <a href="/what-is-philosophy">What is philosophy?</a>
+        {" · "}
+        <a href="/history-of-philosophy">The history of philosophy</a>
+        {" · "}
+        <a href="/reference">The reference guide</a>
+        {" · "}
+        <a href="/themes">Browse by theme</a>
+        {" · "}
+        <a href="/schools">Browse by school</a>
+      </p>
+    </section>
+  </div>
+</BaseLayout>

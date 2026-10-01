@@ -25,6 +25,7 @@ import {
   assertNoConceptSlugCollision,
 } from "../../data/concept-glossary";
 import { workForQuote } from "../../lib/works";
+import { branches } from "../../data/branches";
 
 // Build-time guard: a duplicate slug would silently overwrite a page.
 assertNoConceptSlugCollision();
@@ -88,6 +89,17 @@ const worksForTerm = [
       .map((entry) => [entry.path, entry]),
   ).values(),
 ].slice(0, 5);
+
+/**
+ * The branches this term belongs to, by shared theme labels. Per the
+ * internal-linking model, a concept hands the reader to the discipline's
+ * map: epistemology terms point at epistemology, ethics terms at ethics.
+ */
+const branchesForTerm = branches
+  .filter((branch) =>
+    branch.themes.some((theme) => linkedThemes.includes(canonicalizeTheme(theme))),
+  )
+  .slice(0, 3);
 
 const schema = [
   {
@@ -182,6 +194,20 @@ const schema = [
             <h2>The reading the sources do not support</h2>
             <p class="misreading-note">{concept.misreading}</p>
           </>
+        )}
+
+        {branchesForTerm.length > 0 && (
+          <section class="related-block">
+            <h2>Where it sits in the discipline</h2>
+            <p>
+              {branchesForTerm.map((branch, index) => (
+                <>
+                  {index > 0 && " · "}
+                  <a href={`/branches/${branch.slug}`}>{branch.name}</a>
+                </>
+              ))}
+            </p>
+          </section>
         )}
 
         {thinkersForTerm.length > 0 && (
