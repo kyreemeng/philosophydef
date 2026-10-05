@@ -305,7 +305,7 @@ export function buildCitations(input: CitationInput): Citations {
 
   const apa = [
     `${citedAuthor}. (${leading}). ${titledLocus}${translator}.`,
-    "Philosophy Blind Box.",
+    "Philosophy Defined.",
     url,
     trailing ? `(Original work published ${trailing})` : "",
   ]
@@ -314,11 +314,11 @@ export function buildCitations(input: CitationInput): Citations {
 
   const mla = `${citedAuthor}. “${workTitle}${
     locus ? `, ${locus}` : ""
-  }.” Philosophy Blind Box, ${url} Accessed ${dates.mla}.`;
+  }.” Philosophy Defined, ${url} Accessed ${dates.mla}.`;
 
   const chicago = `${citedAuthor}. “${workTitle}${
     locus ? `, ${locus}` : ""
-  }.” In Philosophy Blind Box. Accessed ${dates.chicago}. ${url}.`;
+  }.” In Philosophy Defined. Accessed ${dates.chicago}. ${url}.`;
 
   // What a philosophy paper actually references: author, work, locus — with the
   // character form of a chapter title where the registry normalises one, since

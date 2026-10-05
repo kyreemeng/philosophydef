@@ -111,7 +111,7 @@ const schema = [
     inLanguage: concept.languageTag ?? "en",
     inDefinedTermSet: {
       "@type": "DefinedTermSet",
-      name: "Philosophy Blind Box glossary",
+      name: "Philosophy Defined glossary",
       url: `${site}/glossary`,
     },
     url: `${site}/glossary/${conceptSlug(concept)}`,
@@ -134,7 +134,7 @@ const schema = [
 ---
 
 <BaseLayout
-  title={`${concept.term}: ${concept.gloss} — Meaning & Sources | Philosophy Blind Box`}
+  title={`${concept.term}: ${concept.gloss} — Meaning & Sources | Philosophy Defined`}
   description={description}
   canonical={conceptPath(concept)}
   schema={schema}

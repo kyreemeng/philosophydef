@@ -24,7 +24,7 @@ const {
   schema,
   robots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
 } = Astro.props;
-const siteName = "Philosophy Blind Box";
+const siteName = "Philosophy Defined";
 const path = Astro.url.pathname.replace(/\.html$/, "").replace(/\/$/, "") || "/";
 const canonicalUrl = new URL(canonical, Astro.site);
 const imageUrl = new URL(image, Astro.site);
@@ -156,10 +156,10 @@ const allSchema = [
     <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
       <nav class="nav" aria-label="Primary navigation">
-        <a class="brand" href="/" aria-label="Philosophy Blind Box, home">
+        <a class="brand" href="/" aria-label="Philosophy Defined, home">
           <span class="brand-mark" aria-hidden="true"></span>
           <span>
-            Philosophy Blind Box
+            Philosophy Defined
             <small>English philosophy quotations</small>
           </span>
         </a>
@@ -266,7 +266,7 @@ const allSchema = [
         <div>
           <a class="brand" href="/">
             <span class="brand-mark" aria-hidden="true"></span>
-            <span>Philosophy Blind Box</span>
+            <span>Philosophy Defined</span>
           </a>
           <p>
             A curated archive of English philosophy quotations, each with the

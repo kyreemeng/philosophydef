@@ -8288,5 +8288,64 @@
       "Thinking",
       "Life"
     ]
+  },
+  {
+    "id": "Q0693",
+    "author": "Peter Thiel",
+    "school": "Philosophy of Business",
+    "source": "Zero to One, ch. 1",
+    "text": "Monopoly is the condition of every successful business.",
+    "themes": [
+      "Competition",
+      "Monopoly",
+      "Value"
+    ]
+  },
+  {
+    "id": "Q0694",
+    "author": "Peter Thiel",
+    "school": "Philosophy of Business",
+    "source": "Zero to One, ch. 1",
+    "text": "All happy companies are different: each one earns a monopoly by solving a unique problem. All failed companies are the same: they failed to escape competition.",
+    "themes": [
+      "Competition",
+      "Distinctiveness",
+      "Failure"
+    ]
+  },
+  {
+    "id": "Q0695",
+    "author": "Peter Thiel",
+    "school": "Philosophy of Business",
+    "source": "Zero to One, ch. 1",
+    "text": "The most contrarian thing of all is not to oppose the crowd but to think for yourself.",
+    "themes": [
+      "Independence",
+      "Conformity"
+    ]
+  },
+  {
+    "id": "Q0696",
+    "author": "Peter Thiel",
+    "school": "Philosophy of Business",
+    "source": "Zero to One, ch. 1",
+    "text": "Brilliant thinking is rare, but courage is in even shorter supply than genius.",
+    "themes": [
+      "Courage",
+      "Genius",
+      "Creation"
+    ]
+  },
+  {
+    "id": "Q0697",
+    "author": "Peter Thiel",
+    "school": "Philosophy of Business",
+    "source": "Zero to One, ch. 1",
+    "text": "Every moment in business happens only once.",
+    "themes": [
+      "Time",
+      "Opportunity",
+      "Action"
+    ]
   }
 ]

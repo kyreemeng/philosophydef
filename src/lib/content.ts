@@ -142,7 +142,7 @@ export function truncateWords(text: string, maxWords: number) {
   return `${words.slice(0, maxWords).join(" ")}…`;
 }
 
-const BRAND = "Philosophy Blind Box";
+const BRAND = "Philosophy Defined";
 /**
  * Google renders roughly the first 60 characters of a title on desktop before
  * truncating with an ellipsis. A title that fits is read in full and earns more

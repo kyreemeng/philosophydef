@@ -1,4 +1,4 @@
-# Philosophy Blind Box — full index for AI crawlers
+# Philosophy Defined — full index for AI crawlers
 
 Site: https://www.philosophydef.com/
 Language: English

@@ -2625,7 +2625,7 @@ export function defaultThinkerGuide(name: string, school: string, themes: string
     school,
     jobTitle: "Philosopher / textual tradition",
     knowsAbout: focus.map((t) => t.toLowerCase()),
-    overview: `${name} is represented in Philosophy Blind Box through curated English quotations. In some cases the name denotes a historical thinker; in others it denotes a scripture, school text, or traditional attribution. School label in this archive: ${school}.`,
+    overview: `${name} is represented in Philosophy Defined through curated English quotations. In some cases the name denotes a historical thinker; in others it denotes a scripture, school text, or traditional attribution. School label in this archive: ${school}.`,
     ideas: `Recurring concerns in this selection include ${focus.join(", ") || "philosophical inquiry"}. Read each passage with its source note, then follow theme links to see how related thinkers frame the same questions.`,
     works: ["Attributed sources listed on quotation pages"],
     legacy: `Readers use ${name} as an entry point into ${school} and into cross-cultural comparison within this archive.`,

@@ -20,7 +20,7 @@ const { essay } = Astro.props;
   <article class="prose">
     <h2 id="hub-essay-title">{essay.title}</h2>
     <p class="hub-essay-byline">
-      Philosophy Blind Box · Last reviewed{" "}
+      Philosophy Defined · Last reviewed{" "}
       <time datetime={essay.updated}>{essay.updated}</time>
     </p>
     {essay.sections.map((section, index) => (

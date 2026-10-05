@@ -1,11 +1,12 @@
 {
-  "name": "philosophy-blind-box",
+  "name": "philosophy-defined",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "A daily philosophy blind box with curated English quotations.",
+  "description": "English philosophy quotations traced to the work and passage they come from.",
   "scripts": {
     "build:quotes": "node scripts/build-quotes.mjs",
+    "build:icons": "node scripts/build-icons.mjs",
     "build:og": "node scripts/build-og.mjs",
     "build:data": "node scripts/export-quote-data.mjs",
     "build:sitemaps": "node scripts/build-sitemaps.mjs",
@@ -16,7 +17,7 @@
     "seo:tabapi": "node scripts/tabapi-stats.mjs",
     "validate:corpus": "node scripts/validate-corpus.mjs",
     "dev": "npm run build:data && astro dev",
-    "build": "npm run build:quotes && npm run build:og && npm run build:data && astro build && npm run build:sitemaps && node scripts/create-sitemap-alias.mjs && npm run seo:indexability && npm run seo:links",
+    "build": "npm run build:quotes && npm run build:icons && npm run build:og && npm run build:data && astro build && npm run build:sitemaps && node scripts/create-sitemap-alias.mjs && npm run seo:indexability && npm run seo:links",
     "preview": "astro preview",
     "check": "astro check"
   },

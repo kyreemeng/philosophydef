@@ -27,16 +27,35 @@ const schema = [
     ...(guide.updated ? { dateModified: guide.updated } : {}),
     author: {
       "@type": "Organization",
-      name: "Philosophy Blind Box",
+      name: "Philosophy Defined",
       url: new URL("/about", Astro.site),
     },
     publisher: {
       "@type": "Organization",
-      name: "Philosophy Blind Box",
+      name: "Philosophy Defined",
       url: Astro.site,
     },
     ...(guide.furtherReading ? { citation: guide.furtherReading } : {}),
   },
+  // The guide renders its FAQ as visible Q&A, so the structured data has to
+  // match that text exactly. It was missing here while the markup existed,
+  // which left the questions eligible for neither a rich result nor an answer.
+  ...(guide.faq?.length
+    ? [
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: guide.faq.map((item) => ({
+            "@type": "Question",
+            name: item.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.answer,
+            },
+          })),
+        },
+      ]
+    : []),
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -57,7 +76,7 @@ const schema = [
   },
 ];
 const seo = pageSeoOverrides[pageUrl] ?? {};
-const pageTitle = seo.title ?? `${guide.title} | Philosophy Blind Box`;
+const pageTitle = seo.title ?? `${guide.title} | Philosophy Defined`;
 const pageDescription = seo.description ?? guide.description;
 ---
 
@@ -75,7 +94,7 @@ const pageDescription = seo.description ?? guide.description;
       <p>{guide.intro}</p>
       {guide.updated && (
         <p class="guide-byline">
-          Philosophy Blind Box · Last reviewed{" "}
+          Philosophy Defined · Last reviewed{" "}
           <time datetime={guide.updated}>{guide.updated}</time> ·{" "}
           <a href="/editorial-policy">How guides are written</a>
         </p>

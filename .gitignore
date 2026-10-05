@@ -19,6 +19,11 @@ quote_candidates*.json
 # research scratch
 tmp/
 
+# local tooling leftovers
+.video_agent/
+.zcodeignore
+.workbuddy/
+
 # generated per-quote Open Graph images (rebuilt by npm run build:og)
 public/og/quotes/
 .vercel

@@ -2,7 +2,7 @@ import quotes from "../data/quotes.json";
 import { contactEmail, editor } from "../data/editorial";
 import { themeGroups } from "./content";
 
-export const SITE_NAME = "Philosophy Blind Box";
+export const SITE_NAME = "Philosophy Defined";
 
 /**
  * Astro types `Astro.site` as `URL | undefined` because a project without a

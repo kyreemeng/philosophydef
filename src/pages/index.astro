@@ -524,7 +524,7 @@ const latestVerified = Object.entries(quoteVerification)
 
     <article class="daily-card" id="daily-card">
       <header>
-        <span>Philosophy Blind Box</span>
+        <span>Philosophy Defined</span>
         <span>From the archive</span>
       </header>
       <time id="card-date"></time>
@@ -539,6 +539,46 @@ const latestVerified = Object.entries(quoteVerification)
       </footer>
     </article>
     <p class="share-card-url">philosophydef.com</p>
+
+    <div class="share-social">
+      <p class="share-social-label">Share to</p>
+      <ul class="share-social-list">
+        <li>
+          <button type="button" class="share-social-btn" data-share="x">
+            <span class="share-social-name">X</span>
+            <span class="share-social-hint">Post with the quotation</span>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="share-social-btn" data-share="facebook">
+            <span class="share-social-name">Facebook</span>
+            <span class="share-social-hint">Share to a feed or story</span>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="share-social-btn" data-share="whatsapp">
+            <span class="share-social-name">WhatsApp</span>
+            <span class="share-social-hint">Send in a chat</span>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="share-social-btn" data-share="tiktok">
+            <span class="share-social-name">TikTok</span>
+            <span class="share-social-hint">Copies the text for you</span>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="share-social-btn" data-share="instagram">
+            <span class="share-social-name">Instagram</span>
+            <span class="share-social-hint">Copies the text for you</span>
+          </button>
+        </li>
+      </ul>
+      <p class="share-social-note">
+        TikTok and Instagram publish no share link that carries text, so those
+        two copy the quotation and its source for you to paste into the app.
+      </p>
+    </div>
 
     <div class="share-dialog-actions">
       <button id="copy-share" type="button">Copy image</button>
@@ -590,7 +630,7 @@ const latestVerified = Object.entries(quoteVerification)
     const shareNotice = document.querySelector("#share-notice");
     const dailyCard = document.querySelector("#daily-card");
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-    const previousQuoteId = sessionStorage.getItem("philosophy-blind-box:last-quote");
+    const previousQuoteId = sessionStorage.getItem("philosophy-defined:last-quote");
     let data: QuoteLite[] = [];
     let current: QuoteLite = {
       id: "Q0001",
@@ -675,7 +715,7 @@ const latestVerified = Object.entries(quoteVerification)
       if (theme) theme.textContent = quote.themes[0] || "Philosophy";
       if (link) link.setAttribute("href", `/quotes/${quote.id.toLowerCase()}`);
       if (notice) notice.textContent = "";
-      sessionStorage.setItem("philosophy-blind-box:last-quote", quote.id);
+      sessionStorage.setItem("philosophy-defined:last-quote", quote.id);
       scheduleFit();
     }
 
@@ -703,8 +743,8 @@ const latestVerified = Object.entries(quoteVerification)
     function shareText() {
       const url = new URL(`/quotes/${current.id.toLowerCase()}`, SITE_ORIGIN);
       return {
-        title: `${current.author} | Philosophy Blind Box`,
-        text: `${current.text}\n\n— ${current.author}\n\nFrom Philosophy Blind Box\n${SITE_ORIGIN}`,
+        title: `${current.author} | Philosophy Defined`,
+        text: `${current.text}\n\n— ${current.author}\n\nFrom Philosophy Defined\n${SITE_ORIGIN}`,
         url: url.toString(),
       };
     }
@@ -804,7 +844,7 @@ const latestVerified = Object.entries(quoteVerification)
       }
       current = data[0] || {
         id: "Q0001",
-        author: "Philosophy Blind Box",
+        author: "Philosophy Defined",
         school: "Archive",
         source: "Tradition",
         text: "A passage will appear when the archive finishes loading.",
@@ -838,7 +878,7 @@ const latestVerified = Object.entries(quoteVerification)
         const share = shareText();
         try {
           const blob = await renderCardBlob();
-          const file = new File([blob], "philosophy-blind-box.png", {
+          const file = new File([blob], "philosophy-defined.png", {
             type: "image/png",
           });
           if (navigator.canShare?.({ files: [file] })) {
@@ -872,6 +912,65 @@ const latestVerified = Object.entries(quoteVerification)
           }
         }
       });
+
+      /**
+       * Social share targets.
+       *
+       * X, Facebook and WhatsApp publish share endpoints that carry text, so the
+       * quotation and its source travel with the link. TikTok and Instagram do
+       * not: neither exposes a public intent that accepts text, and both open
+       * their composer only from inside their apps. Rather than open a dead
+       * window, those two copy the text and say so, which is the only step that
+       * actually gets a reader there.
+       */
+      const SHARE_TARGETS = {
+        x: (share: { text: string; url: string }) =>
+          `https://twitter.com/intent/tweet?text=${encodeURIComponent(share.text)}&url=${encodeURIComponent(share.url)}`,
+        facebook: (share: { url: string }) =>
+          `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(share.url)}`,
+        whatsapp: (share: { text: string; url: string }) =>
+          `https://wa.me/?text=${encodeURIComponent(`${share.text}\n${share.url}`)}`,
+      } as const;
+
+      const COPY_ONLY_TARGETS = {
+        tiktok: "TikTok: quote and link copied. Paste it into the app.",
+        instagram: "Instagram: quote and link copied. Paste it into the app.",
+      } as const;
+
+      for (const button of document.querySelectorAll<HTMLButtonElement>(
+        ".share-social-btn",
+      )) {
+        button.addEventListener("click", async () => {
+          const target = button.dataset.share;
+          if (!target) return;
+          const share = shareText();
+
+          if (target in SHARE_TARGETS) {
+            const open = SHARE_TARGETS[target as keyof typeof SHARE_TARGETS](share);
+            window.open(
+              open,
+              "share",
+              `noopener,noreferrer,width=600,height=520`,
+            );
+            return;
+          }
+
+          if (target in COPY_ONLY_TARGETS) {
+            try {
+              await navigator.clipboard.writeText(`${share.text}\n${share.url}`);
+              if (shareNotice) {
+                shareNotice.textContent =
+                  COPY_ONLY_TARGETS[target as keyof typeof COPY_ONLY_TARGETS];
+              }
+            } catch {
+              if (shareNotice) {
+                shareNotice.textContent =
+                  "Your browser blocked copying. Select the card text manually.";
+              }
+            }
+          }
+        });
+      }
 
       renderQuote(chooseQuote());
       window.addEventListener("resize", scheduleFit);

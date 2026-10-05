@@ -14,18 +14,18 @@ const schema = [
   {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    name: "About Philosophy Blind Box",
+    name: "About Philosophy Defined",
     description:
-      "What Philosophy Blind Box is, how its quotation records are built and checked, and how much of the archive has been verified.",
+      "What Philosophy Defined is, how its quotation records are built and checked, and how much of the archive has been verified.",
     url: new URL("/about", Astro.site),
-    mainEntity: { "@type": "Organization", name: "Philosophy Blind Box", url: Astro.site },
+    mainEntity: { "@type": "Organization", name: "Philosophy Defined", url: Astro.site },
   },
   organizationSchema(Astro.site),
 ];
 ---
 
 <BaseLayout
-  title="About Philosophy Blind Box | How the Archive Is Checked"
+  title="About Philosophy Defined | How the Archive Is Checked"
   description={`An archive of ${format(status.total)} philosophy quotations traced to their sources. ${format(status.checked)} checked against a cited edition, with original wording and misattributions recorded.`}
   canonical="/about"
   schema={schema}
@@ -35,7 +35,7 @@ const schema = [
       <p class="eyebrow">About</p>
       <h1>Philosophy quotations, traced to where they were written</h1>
       <p>
-        Philosophy Blind Box records where a quotation comes from — the work, the
+        Philosophy Defined records where a quotation comes from — the work, the
         passage, the original language — and says plainly how much of that has
         been checked.
       </p>
@@ -131,12 +131,17 @@ const schema = [
           )}
         </p>
 
-        <h2>Why “blind box”?</h2>
+        <h2>Why “Philosophy Defined”?</h2>
         <p>
-          The site began as a random quotation generator: one passage at a time,
-          chosen by chance, so that reading starts before selection. The
-          <a href="/random-philosophy-generator">random generator</a> is still
-          here. The archive behind it is the part that has grown.
+          The name says what the archive is for. A quotation is only worth
+          reading once you know where it comes from: which book, which passage,
+          which translation, and whether the person credited with it actually
+          said it. So each record here is traced to its source, and the common
+          misattributions are registered rather than repeated. The{" "}
+          <a href="/quote-source">source lookup</a> and the{" "}
+          <a href="/random-philosophy-generator">random generator</a> are both
+          still here; the generator is simply the front door to the same
+          archive.
         </p>
       </article>
     </div>

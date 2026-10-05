@@ -20,7 +20,7 @@ export type Editor = {
 
 export const editor: Editor | undefined = {
   name: "kyree",
-  bio: "Maintains Philosophy Blind Box and the source records in this archive.",
+  bio: "Maintains Philosophy Defined and the source records in this archive.",
 };
 export const contactEmail: string | undefined = "kyreemeng@gmail.com";
 

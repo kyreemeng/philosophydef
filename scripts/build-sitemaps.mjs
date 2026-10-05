@@ -25,7 +25,11 @@
 import { existsSync } from "node:fs";
 import { readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { pageHash } from "./lib/sitemap-hash.mjs";
+import {
+  pageHash,
+  vocabularyChangeRatio,
+  vocabularyProfile,
+} from "./lib/sitemap-hash.mjs";
 
 const ROOT = process.cwd();
 const DIST = path.join(ROOT, "dist");
@@ -38,6 +42,21 @@ const SITE = "https://www.philosophydef.com";
  * signal, which is exactly the failure this replaces.
  */
 const today = new Date().toISOString().slice(0, 10);
+
+/**
+ * The share of indexable URLs one day may be dated to in a single build.
+ *
+ * Both collapses were this check missing. On 2026-08-16 impressions fell from
+ * 138 a day to 22 and never came back; on 2026-10-01 the same thing happened
+ * again. In both cases the archive had been re-dated wholesale, and in both
+ * cases the cause was a deploy that touched every page at once rather than
+ * content that genuinely changed on every page.
+ *
+ * 25% leaves room for a real batch — 2026-08-30 wrote new interpretations for
+ * 614 quotation pages, and re-dating those was correct — while still refusing
+ * the "everything, today" shape that search engines read as a rewrite.
+ */
+const MAX_SINGLE_DAY_SHARE = 0.25;
 
 /**
  * First-run seeding.
@@ -166,6 +185,14 @@ const manifest = {};
 const byGroup = new Map(GROUPS.map((group) => [group.id, []]));
 let newPages = 0;
 let changedPages = 0;
+let templateTouches = 0;
+
+/**
+ * A page whose text moved by less than this is treated as a template touch, not
+ * a content edit, and keeps its stored date. See textChangeRatio for why the
+ * size of the change matters more than whether there was one.
+ */
+const SIGNIFICANT_RATIO = 0.05;
 
 for (const file of await walk(DIST)) {
   const route = routeFor(file);
@@ -191,13 +218,57 @@ for (const file of await walk(DIST)) {
   if (listed && !prior) newPages += 1;
   else if (listed && prior.hash !== hash) changedPages += 1;
 
-  const lastmod = prior
-    ? prior.hash === hash
-      ? prior.lastmod
-      : today
-    : seedDate(route, html);
-  manifest[route] = { hash, lastmod };
+  let lastmod;
+  if (!prior) {
+    lastmod = seedDate(route, html);
+  } else if (prior.hash === hash) {
+    lastmod = prior.lastmod;
+  } else if (
+    prior.vocab &&
+    vocabularyChangeRatio(prior.vocab, vocabularyProfile(html)) < SIGNIFICANT_RATIO
+  ) {
+    // The markup moved but the vocabulary barely did: a template, nav, or
+    // brand change. lastmod describes content, so the stored date stands.
+    lastmod = prior.lastmod;
+    if (listed) templateTouches += 1;
+  } else {
+    lastmod = today;
+  }
+
+  manifest[route] = { hash, lastmod, vocab: vocabularyProfile(html) };
   if (listed) byGroup.get(classify(route)).push({ route, lastmod });
+}
+
+/**
+ * A build that re-dates a large share of the archive to one day is the failure
+ * this whole mechanism exists to prevent, so it stops the build instead of
+ * shipping. The limit is a share of listed pages, and it fails loudly rather
+ * than warning quietly: both collapses so far (2026-08-16, 2026-10-01) were
+ * large enough to be seen in Search Console only days later.
+ */
+const listedTotal = [...byGroup.values()].reduce((n, list) => n + list.length, 0);
+const datedToday = [...byGroup.values()]
+  .flat()
+  .filter((entry) => entry.lastmod === today).length;
+const todayShare = listedTotal ? datedToday / listedTotal : 0;
+
+if (todayShare > MAX_SINGLE_DAY_SHARE) {
+  const detail = [...byGroup.values()]
+    .flat()
+    .filter((e) => e.lastmod === today)
+    .slice(0, 10)
+    .map((e) => `    ${e.route}`)
+    .join("\n");
+  throw new Error(
+    `Refusing to publish: ${datedToday} of ${listedTotal} indexable URLs ` +
+      `(${(todayShare * 100).toFixed(1)}%) would be dated ${today}, over the ` +
+      `${(MAX_SINGLE_DAY_SHARE * 100).toFixed(0)}% limit.\n` +
+      `Search Console reads that as a batch rewrite of the whole archive, and ` +
+      `the last two times it happened traffic fell off within a day.\n` +
+      `Either split the deploy, or set the dates deliberately with:\n` +
+      `  node scripts/rebuild-sitemap-dates.mjs\n` +
+      `First few routes:\n${detail}`,
+  );
 }
 
 function escapeXml(value) {
@@ -232,13 +303,21 @@ for (const group of GROUPS) {
     .join("\n");
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
   await writeFile(path.join(DIST, group.file), xml, "utf8");
-  written.push({ ...group, count: entries.length });
+  // The index reports the newest date this sitemap actually contains, not the
+  // build date. Stamping `today` here re-dated all five child sitemaps on every
+  // deploy regardless of whether anything in them changed, which is the same
+  // false signal the per-URL lastmod had.
+  written.push({
+    ...group,
+    count: entries.length,
+    lastmod: entries.reduce((max, e) => (e.lastmod > max ? e.lastmod : max), ""),
+  });
 }
 
 const indexBody = written
   .map(
     (group) =>
-      `  <sitemap>\n    <loc>${SITE}/${group.file}</loc>\n    <lastmod>${today}</lastmod>\n  </sitemap>`,
+      `  <sitemap>\n    <loc>${SITE}/${group.file}</loc>\n    <lastmod>${group.lastmod}</lastmod>\n  </sitemap>`,
   )
   .join("\n");
 await writeFile(
@@ -270,7 +349,10 @@ await writeFile(
 const total = written.reduce((sum, group) => sum + group.count, 0);
 console.log(
   `Sitemaps: ${total} URLs in ${written.length} files, ` +
-    `${newPages} new, ${changedPages} changed since the last build.`,
+    `${newPages} new, ${changedPages} changed since the last build` +
+    (templateTouches
+      ? `, ${templateTouches} of those were template-only and kept their date.`
+      : "."),
 );
 for (const group of written) {
   console.log(`  ${group.file} — ${group.count} URLs (${group.label})`);

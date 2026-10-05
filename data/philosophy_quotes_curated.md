@@ -8622,3 +8622,68 @@
 - **中译 / Chinese**: 哲学是对人生的系统化的、反思性的思考。
 - **主题 / Themes**: 哲学、反思、人生 / Philosophy, Thinking, Life
 - **置信度 / Confidence**: ☆ (Medium)
+
+#### Q0693
+
+- **作者 / Author**: 彼得·蒂尔（1967– ） / Peter Thiel (1967– )
+- **学派 / School**: 商业哲学 / Philosophy of Business
+- **出处 / Source**: 《从0到1》第一章 / Zero to One, ch. 1
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Monopoly is the condition of every successful business.
+- **英译 / English**: Monopoly is the condition of every successful business.
+- **中译 / Chinese**: 垄断是每一家成功企业的状态。
+- **主题 / Themes**: 竞争、垄断、价值 / Competition, Monopoly, Value
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 蒂尔与布莱克·马斯特斯合著，Crown Business 2014。多方独立文献一致引作第一章原句。 / Thiel with Blake Masters, Crown Business 2014; attested independently across several editions of ch. 1.
+
+#### Q0694
+
+- **作者 / Author**: 彼得·蒂尔 / Peter Thiel
+- **学派 / School**: 商业哲学 / Philosophy of Business
+- **出处 / Source**: 《从0到1》第一章 / Zero to One, ch. 1
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: All happy companies are different: each one earns a monopoly by solving a unique problem. All failed companies are the same: they failed to escape competition.
+- **英译 / English**: All happy companies are different: each one earns a monopoly by solving a unique problem. All failed companies are the same: they failed to escape competition.
+- **中译 / Chinese**: 成功的公司各不相同：每一家都靠解决独特的问题赢得垄断地位。失败的公司则千篇一律：它们没能逃脱竞争。
+- **主题 / Themes**: 竞争、独特性、失败 / Competition, Distinctiveness, Failure
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 蒂尔在原文中以此句反转托尔斯泰《安娜·卡列尼娜》开篇。 / Thiel inverts Tolstoy’s opening line from Anna Karenina.
+
+#### Q0695
+
+- **作者 / Author**: 彼得·蒂尔 / Peter Thiel
+- **学派 / School**: 商业哲学 / Philosophy of Business
+- **出处 / Source**: 《从0到1》第一章 / Zero to One, ch. 1
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: The most contrarian thing of all is not to oppose the crowd but to think for yourself.
+- **英译 / English**: The most contrarian thing of all is not to oppose the crowd but to think for yourself.
+- **中译 / Chinese**: 最反主流的事，不是与人群对立，而是自己思考。
+- **主题 / Themes**: 独立思考、 从众 / Independence, Conformity
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 蒂尔《从0到1》第一章。 / Thiel, Zero to One, ch. 1.
+
+#### Q0696
+
+- **作者 / Author**: 彼得·蒂尔 / Peter Thiel
+- **学派 / School**: 商业哲学 / Philosophy of Business
+- **出处 / Source**: 《从0到1》第一章 / Zero to One, ch. 1
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Brilliant thinking is rare, but courage is in even shorter supply than genius.
+- **英译 / English**: Brilliant thinking is rare, but courage is in even shorter supply than genius.
+- **中译 / Chinese**: 卓越的思维很少见，而勇气比天才更为稀缺。
+- **主题 / Themes**: 勇气、天才、创造 / Courage, Genius, Creation
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 蒂尔《从0到1》题记（题献页）。 / Thiel, epigraph to Zero to One.
+
+#### Q0697
+
+- **作者 / Author**: 彼得·蒂尔 / Peter Thiel
+- **学派 / School**: 商业哲学 / Philosophy of Business
+- **出处 / Source**: 《从0到1》第一章 / Zero to One, ch. 1
+- **原文语言 / Language**: 英语 / English
+- **原文 / Original**: Every moment in business happens only once.
+- **英译 / English**: Every moment in business happens only once.
+- **中译 / Chinese**: 商业中的每一个时刻都只会发生一次。
+- **主题 / Themes**: 时间、机会、行动 / Time, Opportunity, Action
+- **置信度 / Confidence**: ★ (High)
+- **备注 / Note**: 蒂尔《从0到1》第一章。 / Thiel, Zero to One, ch. 1.
