@@ -47,7 +47,7 @@ His technical methods and public intellectual role shaped modern analytic philos
 
 ## Quotes by theme
 
-[Bertrand Russell on happiness](https://www.philosophydef.com/thinkers/bertrand-russell/happiness) · [Bertrand Russell on fear](https://www.philosophydef.com/thinkers/bertrand-russell/fear) · [Bertrand Russell on love](https://www.philosophydef.com/thinkers/bertrand-russell/love) · [Bertrand Russell on knowledge](https://www.philosophydef.com/thinkers/bertrand-russell/knowledge)
+[Bertrand Russell on happiness](https://www.philosophydef.com/thinkers/bertrand-russell/happiness) · [Bertrand Russell on fear](https://www.philosophydef.com/thinkers/bertrand-russell/fear) · [Bertrand Russell on knowledge](https://www.philosophydef.com/thinkers/bertrand-russell/knowledge)
 
 1.  > The secret of happiness is this: let your interests be as wide as possible, and let your reactions…be as far as possible friendly rather than hostile.
     

@@ -41,7 +41,7 @@ Tillich shaped mainline Protestant thought, existential theology, and dialogue w
 
 ## Quotes by theme
 
-[Paul Tillich on courage](https://www.philosophydef.com/thinkers/paul-tillich/courage) · [Paul Tillich on being](https://www.philosophydef.com/thinkers/paul-tillich/being)
+[Paul Tillich on being](https://www.philosophydef.com/thinkers/paul-tillich/being)
 
 1.  > The courage to be is the courage to accept oneself as accepted in spite of being unacceptable.
     

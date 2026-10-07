@@ -45,7 +45,7 @@ Mill remains a primary reference for liberal democracy, free speech, and utilita
 
 ## Quotes by theme
 
-[John Stuart Mill on liberty](https://www.philosophydef.com/thinkers/john-stuart-mill/liberty) · [John Stuart Mill on happiness](https://www.philosophydef.com/thinkers/john-stuart-mill/happiness) · [John Stuart Mill on dignity](https://www.philosophydef.com/thinkers/john-stuart-mill/dignity)
+[John Stuart Mill on liberty](https://www.philosophydef.com/thinkers/john-stuart-mill/liberty) · [John Stuart Mill on happiness](https://www.philosophydef.com/thinkers/john-stuart-mill/happiness)
 
 1.  > The only freedom which deserves the name is that of pursuing our own good in our own way, so long as we do not attempt to deprive others of theirs.
     

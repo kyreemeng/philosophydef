@@ -6,15 +6,24 @@ import {
 import {
   hasObservedThemeDemand,
   hasObservedThinkerDemand,
-  hasObservedThinkerThemeDemand,
   isLegacyIndexableQuoteId,
+  observedAcceptedPairPaths,
+  observedThinkerThemeDemandPaths,
 } from "../data/search-priorities";
 import { quoteCommentary } from "../data/quote-commentary";
 import { quoteVerification } from "../data/quote-verification";
 import { slugify, type Quote } from "./content";
+import quotes from "../data/quotes.json";
+import themeMerge from "../data/theme-merge.json";
+// @ts-expect-error — plain-JS module shared with scripts/generate-vercel-redirects.mjs
+import { pairConsolidationPlan } from "./pair-consolidation.mjs";
 
 export const MIN_INDEXABLE_THEME_QUOTES = 10;
 export const MIN_INDEXABLE_THINKER_QUOTES = 4;
+/**
+ * Passage floor for a thinker x theme pair page. The consolidation in
+ * `pair-consolidation.mjs` applies the same number, so the two cannot drift.
+ */
 export const MIN_INDEXABLE_PAIR_QUOTES = 4;
 /**
  * Scriptures and classic texts are catalogued as authors so that attribution
@@ -73,29 +82,38 @@ export function shouldIndexQuote(quote: Pick<Quote, "id">) {
   );
 }
 
+/**
+ * A pair page lists passages that already have their own quotation page, their
+ * thinker page, and their theme page. When a sibling pair of the same thinker
+ * lists the same passages, the smaller page is a duplicate of the larger one
+ * and Search Console reports it as crawled-but-not-indexed. The consolidation
+ * rules and the two exemption lists live in `pair-consolidation.mjs`, which the
+ * redirect generator shares so routing and indexability cannot disagree.
+ */
 export function shouldIndexThinkerThemePair(pair: {
   author: string;
   theme: string;
   quotes: Quote[];
 }) {
-  const hasSearchDemand = hasObservedThinkerThemeDemand(
-    slugify(pair.author),
-    slugify(pair.theme),
+  return keptThinkerThemePairSet().has(
+    `/thinkers/${slugify(pair.author)}/${slugify(pair.theme)}`,
   );
-  if (hasSearchDemand) return true;
+}
 
-  // Same exemption as above: a text has no biography to gate on, so the theme
-  // guide and the passage count are what determine whether the page holds up.
-  if (isTextTradition(pair.author)) {
-    return (
-      pair.quotes.length >= MIN_INDEXABLE_PAIR_QUOTES &&
-      Boolean(themeGuideFor(pair.theme))
-    );
+/**
+ * Pair paths offered to search, computed once. The keeper rules and the two
+ * exemption lists live in `pair-consolidation.mjs`, which the redirect
+ * generator shares so routing and indexability cannot disagree.
+ */
+let keptPairCache: Set<string> | null = null;
+function keptThinkerThemePairSet() {
+  if (!keptPairCache) {
+    keptPairCache = pairConsolidationPlan({
+        quotes,
+        merge: themeMerge,
+        demandPaths: observedThinkerThemeDemandPaths(),
+        acceptedPaths: observedAcceptedPairPaths,
+      }).kept;
   }
-
-  return (
-    pair.quotes.length >= MIN_INDEXABLE_PAIR_QUOTES &&
-    Boolean(thinkerGuideFor(pair.author)) &&
-    Boolean(themeGuideFor(pair.theme))
-  );
+  return keptPairCache;
 }

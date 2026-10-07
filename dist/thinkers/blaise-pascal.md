@@ -43,7 +43,7 @@ Pascal shaped Christian existential apologetics, probability, and French prose. 
 
 ### Quotes by theme
 
-[Blaise Pascal on dignity](https://www.philosophydef.com/thinkers/blaise-pascal/dignity) · [Blaise Pascal on humanity](https://www.philosophydef.com/thinkers/blaise-pascal/humanity)
+[Blaise Pascal on dignity](https://www.philosophydef.com/thinkers/blaise-pascal/dignity)
 
 1.  > The heart has its reasons, which reason does not know.
     

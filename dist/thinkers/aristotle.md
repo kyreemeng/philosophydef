@@ -43,7 +43,7 @@ Aristotle’s logic and natural philosophy dominated medieval Christian and Isla
 
 ### Quotes by theme
 
-[Aristotle on virtue](https://www.philosophydef.com/thinkers/aristotle/virtue) · [Aristotle on habit](https://www.philosophydef.com/thinkers/aristotle/habit) · [Aristotle on choice](https://www.philosophydef.com/thinkers/aristotle/choice) · [Aristotle on community](https://www.philosophydef.com/thinkers/aristotle/community) · [Aristotle on friendship](https://www.philosophydef.com/thinkers/aristotle/friendship)
+[Aristotle on virtue](https://www.philosophydef.com/thinkers/aristotle/virtue) · [Aristotle on habit](https://www.philosophydef.com/thinkers/aristotle/habit) · [Aristotle on community](https://www.philosophydef.com/thinkers/aristotle/community) · [Aristotle on friendship](https://www.philosophydef.com/thinkers/aristotle/friendship)
 
 1.  > It is through wonder that people both now begin and first began to philosophize.
     

@@ -184,6 +184,57 @@ export function hasObservedThinkerThemeDemand(
   return observedThinkerThemePaths.has(`${thinkerSlug}/${themeSlug}`);
 }
 
+/** Observed thinker×theme demand expressed as `/thinkers/<thinker>/<theme>`. */
+export function observedThinkerThemeDemandPaths() {
+  return [...observedThinkerThemePaths].map((path) => `/thinkers/${path}`);
+}
+
+/**
+ * Thinker × theme pair pages that the 2026-10-07 Coverage drill-down did *not*
+ * list under "Crawled — currently not indexed".
+ *
+ * The drill-down names 95 of the 124 pair pages as crawled-but-unserved, so
+ * these 29 are the pairs Google either indexed or left alone. They matter only
+ * as a tie-breaker: when two pair pages of one thinker hold the same passages,
+ * the consolidation in `src/lib/indexing.ts` has to keep whichever URL Google
+ * already accepted and redirect the other to it. Demoting a URL that is already
+ * indexed would trade one duplicate for another and lose the one Google chose.
+ */
+export const observedAcceptedPairPaths = `
+  aime-cesaire/power
+  augustine-of-hippo/love
+  averroes/faith
+  baruch-spinoza/eternity
+  bhagavad-gita/endurance
+  confucius/gentleman
+  epictetus/desire
+  epictetus/freedom
+  francis-bacon/knowledge
+  frantz-fanon/freedom
+  frantz-fanon/otherness
+  hannah-arendt/action
+  ibn-khaldun/time
+  iris-murdoch/attention
+  john-stuart-mill/happiness
+  kwame-anthony-appiah/dialogue
+  kwame-anthony-appiah/ethics
+  kwame-anthony-appiah/otherness
+  kwasi-wiredu/language
+  ludwig-wittgenstein/nature
+  mozi/ethics
+  paulin-hountondji/critique
+  rene-descartes/truth
+  seneca/time
+  simone-weil/attention
+  the-doctrine-of-the-mean/sincerity
+  wang-yangming/knowledge
+  xunzi/learning
+  xunzi/perseverance
+  `
+  .trim()
+  .split(/\s+/)
+  .map((path) => `/thinkers/${path}`);
+
 export function isLegacyIndexableQuoteId(id: string) {
   const numericId = Number(id.replace(/^q/i, ""));
   return Number.isInteger(numericId) && numericId <= LEGACY_INDEXABLE_QUOTE_MAX;

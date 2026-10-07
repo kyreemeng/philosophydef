@@ -44,7 +44,7 @@ Mohism nearly vanished as a living school after the Qin–Han but remains crucia
 
 ## Quotes by theme
 
-[Mozi on love](https://www.philosophydef.com/thinkers/mozi/love) · [Mozi on ethics](https://www.philosophydef.com/thinkers/mozi/ethics)
+[Mozi on ethics](https://www.philosophydef.com/thinkers/mozi/ethics)
 
 1.  > Care for one another impartially, and benefit one another mutually.
     

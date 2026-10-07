@@ -43,7 +43,7 @@ Locke framed Anglo-American constitutionalism and empiricist psychology. Propert
 
 ## Quotes by theme
 
-[John Locke on experience](https://www.philosophydef.com/thinkers/john-locke/experience) · [John Locke on knowledge](https://www.philosophydef.com/thinkers/john-locke/knowledge) · [John Locke on equality](https://www.philosophydef.com/thinkers/john-locke/equality)
+[John Locke on knowledge](https://www.philosophydef.com/thinkers/john-locke/knowledge) · [John Locke on equality](https://www.philosophydef.com/thinkers/john-locke/equality)
 
 1.  > Whence has it all the materials of reason and knowledge? To this I answer, in one word, from experience.
     

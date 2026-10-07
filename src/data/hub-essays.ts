@@ -58,7 +58,7 @@ export const hubEssays: Record<string, HubEssay> = {
           { href: "/quotes/q0002", label: "“What I do not know, I do not claim to know” — Apology 21d" },
           { href: "/quotes/q0004", label: "“No one errs willingly” — Protagoras 345e" },
           { href: "/quotes/q0003", label: "“It is worse to do injustice than to suffer it” — Gorgias 469b–c" },
-          { href: "/thinkers/socrates/justice", label: "Socrates on justice" },
+          { href: "/thinkers/socrates/morality", label: "Socrates on justice and morality" },
         ],
       },
       {

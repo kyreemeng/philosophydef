@@ -45,7 +45,7 @@ Sartre defined mid-century existential culture worldwide and shaped phenomenolog
 
 ## Quotes by theme
 
-[Jean-Paul Sartre on freedom](https://www.philosophydef.com/thinkers/jean-paul-sartre/freedom) · [Jean-Paul Sartre on responsibility](https://www.philosophydef.com/thinkers/jean-paul-sartre/responsibility) · [Jean-Paul Sartre on self](https://www.philosophydef.com/thinkers/jean-paul-sartre/self) · [Jean-Paul Sartre on choice](https://www.philosophydef.com/thinkers/jean-paul-sartre/choice)
+[Jean-Paul Sartre on freedom](https://www.philosophydef.com/thinkers/jean-paul-sartre/freedom) · [Jean-Paul Sartre on responsibility](https://www.philosophydef.com/thinkers/jean-paul-sartre/responsibility)
 
 1.  > Existence precedes essence.
     

@@ -1,5 +1,10 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { quoteVerification } from "../src/data/quote-verification.ts";
+import { pairConsolidationPlan } from "../src/lib/pair-consolidation.mjs";
+import {
+  observedAcceptedPairPaths,
+  observedThinkerThemeDemandPaths,
+} from "../src/data/search-priorities.ts";
 
 /**
  * Quotation pages retired as duplicates of another page, mapped to the page
@@ -97,6 +102,21 @@ for (const quote of quotes) {
 }
 for (const [from, to] of Object.entries(RETIRED_QUOTES)) redirects.set(from, to);
 
+/**
+ * Pair pages dropped from the build as duplicates of a sibling, or retired for
+ * holding too few passages to stand apart from their thinker page. Both classes
+ * already exist in Google's crawl set, so each retires with a 301 instead of
+ * disappearing. The plan comes from `pair-consolidation.mjs`, the same source
+ * the templates use, so routing and indexability cannot drift apart.
+ */
+const pairPlan = pairConsolidationPlan({
+  quotes,
+  merge: JSON.parse(mergeText),
+  demandPaths: observedThinkerThemeDemandPaths(),
+  acceptedPaths: observedAcceptedPairPaths,
+});
+for (const [from, to] of pairPlan.redirects) redirects.set(from, to);
+
 config.redirects = [
   {
     source: "/:path*",
@@ -123,5 +143,6 @@ config.redirects = [
 await writeFile("vercel.json", `${JSON.stringify(config, null, 2)}\n`);
 console.log(
   `Generated ${redirects.size} permanent redirects in vercel.json ` +
-    `(${themeRedirectCount} theme, ${redirects.size - themeRedirectCount} quotation/source).`,
+    `(${themeRedirectCount} theme, ${pairPlan.redirects.size} thinker×theme pair, ` +
+    `${redirects.size - themeRedirectCount - pairPlan.redirects.size} quotation/source).`,
 );

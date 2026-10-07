@@ -43,7 +43,7 @@ Hegel shaped Marxism, existentialism, British idealism, and contemporary recogni
 
 ## Quotes by theme
 
-[G. W. F. Hegel on truth](https://www.philosophydef.com/thinkers/g-w-f-hegel/truth) · [G. W. F. Hegel on wholeness](https://www.philosophydef.com/thinkers/g-w-f-hegel/wholeness)
+[G. W. F. Hegel on truth](https://www.philosophydef.com/thinkers/g-w-f-hegel/truth)
 
 1.  > The owl of Minerva spreads its wings only with the falling of the dusk.
     

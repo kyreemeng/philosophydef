@@ -609,6 +609,11 @@
       "permanent": true
     },
     {
+      "source": "/themes/competition",
+      "destination": "/themes",
+      "permanent": true
+    },
+    {
       "source": "/themes/complementarity",
       "destination": "/themes",
       "permanent": true
@@ -650,6 +655,11 @@
     },
     {
       "source": "/themes/conflict",
+      "destination": "/themes",
+      "permanent": true
+    },
+    {
+      "source": "/themes/conformity",
       "destination": "/themes",
       "permanent": true
     },
@@ -884,6 +894,11 @@
       "permanent": true
     },
     {
+      "source": "/themes/distinctiveness",
+      "destination": "/themes",
+      "permanent": true
+    },
+    {
       "source": "/themes/distraction",
       "destination": "/themes/action",
       "permanent": true
@@ -1059,6 +1074,11 @@
       "permanent": true
     },
     {
+      "source": "/themes/failure",
+      "destination": "/themes",
+      "permanent": true
+    },
+    {
       "source": "/themes/faith-and-reason",
       "destination": "/themes/reason",
       "permanent": true
@@ -1166,6 +1186,11 @@
     {
       "source": "/themes/generosity",
       "destination": "/themes/love",
+      "permanent": true
+    },
+    {
+      "source": "/themes/genius",
+      "destination": "/themes",
       "permanent": true
     },
     {
@@ -1350,6 +1375,11 @@
     },
     {
       "source": "/themes/inclusiveness",
+      "destination": "/themes",
+      "permanent": true
+    },
+    {
+      "source": "/themes/independence",
       "destination": "/themes",
       "permanent": true
     },
@@ -1684,6 +1714,11 @@
       "permanent": true
     },
     {
+      "source": "/themes/monopoly",
+      "destination": "/themes",
+      "permanent": true
+    },
+    {
       "source": "/themes/moral-intuition",
       "destination": "/themes/morality",
       "permanent": true
@@ -1880,6 +1915,11 @@
     },
     {
       "source": "/themes/opinion",
+      "destination": "/themes",
+      "permanent": true
+    },
+    {
+      "source": "/themes/opportunity",
       "destination": "/themes",
       "permanent": true
     },
@@ -2961,6 +3001,71 @@
     {
       "source": "/themes/youth",
       "destination": "/themes",
+      "permanent": true
+    },
+    {
+      "source": "/thinkers/aristotle/choice",
+      "destination": "/thinkers/aristotle/virtue",
+      "permanent": true
+    },
+    {
+      "source": "/thinkers/bertrand-russell/love",
+      "destination": "/thinkers/bertrand-russell/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/thinkers/blaise-pascal/humanity",
+      "destination": "/thinkers/blaise-pascal/dignity",
+      "permanent": true
+    },
+    {
+      "source": "/thinkers/g-w-f-hegel/wholeness",
+      "destination": "/thinkers/g-w-f-hegel/truth",
+      "permanent": true
+    },
+    {
+      "source": "/thinkers/immanuel-kant/reason",
+      "destination": "/thinkers/immanuel-kant/enlightenment",
+      "permanent": true
+    },
+    {
+      "source": "/thinkers/iris-murdoch/love",
+      "destination": "/thinkers/iris-murdoch/morality",
+      "permanent": true
+    },
+    {
+      "source": "/thinkers/jean-paul-sartre/choice",
+      "destination": "/thinkers/jean-paul-sartre/responsibility",
+      "permanent": true
+    },
+    {
+      "source": "/thinkers/jean-paul-sartre/self",
+      "destination": "/thinkers/jean-paul-sartre/freedom",
+      "permanent": true
+    },
+    {
+      "source": "/thinkers/john-locke/experience",
+      "destination": "/thinkers/john-locke/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/thinkers/john-stuart-mill/dignity",
+      "destination": "/thinkers/john-stuart-mill/happiness",
+      "permanent": true
+    },
+    {
+      "source": "/thinkers/mozi/love",
+      "destination": "/thinkers/mozi/ethics",
+      "permanent": true
+    },
+    {
+      "source": "/thinkers/paul-tillich/courage",
+      "destination": "/thinkers/paul-tillich/being",
+      "permanent": true
+    },
+    {
+      "source": "/thinkers/socrates/justice",
+      "destination": "/thinkers/socrates/morality",
       "permanent": true
     }
   ],

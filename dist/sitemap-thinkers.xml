@@ -79,12 +79,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.philosophydef.com/thinkers/aristotle/choice</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.philosophydef.com/thinkers/aristotle/community</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -205,12 +199,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.philosophydef.com/thinkers/bertrand-russell/love</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.philosophydef.com/thinkers/bhagavad-gita</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -237,12 +225,6 @@
   <url>
     <loc>https://www.philosophydef.com/thinkers/blaise-pascal/dignity</loc>
     <lastmod>2026-08-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.philosophydef.com/thinkers/blaise-pascal/humanity</loc>
-    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -505,12 +487,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.philosophydef.com/thinkers/g-w-f-hegel/wholeness</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.philosophydef.com/thinkers/gabriel-marcel</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -655,12 +631,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.philosophydef.com/thinkers/immanuel-kant/reason</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.philosophydef.com/thinkers/iris-murdoch</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -669,12 +639,6 @@
   <url>
     <loc>https://www.philosophydef.com/thinkers/iris-murdoch/attention</loc>
     <lastmod>2026-08-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.philosophydef.com/thinkers/iris-murdoch/love</loc>
-    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -709,12 +673,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.philosophydef.com/thinkers/jean-paul-sartre/choice</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.philosophydef.com/thinkers/jean-paul-sartre/freedom</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -723,12 +681,6 @@
   <url>
     <loc>https://www.philosophydef.com/thinkers/jean-paul-sartre/responsibility</loc>
     <lastmod>2026-08-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.philosophydef.com/thinkers/jean-paul-sartre/self</loc>
-    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -769,12 +721,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.philosophydef.com/thinkers/john-locke/experience</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.philosophydef.com/thinkers/john-locke/knowledge</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -783,12 +729,6 @@
   <url>
     <loc>https://www.philosophydef.com/thinkers/john-stuart-mill</loc>
     <lastmod>2026-09-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.philosophydef.com/thinkers/john-stuart-mill/dignity</loc>
-    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1021,12 +961,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.philosophydef.com/thinkers/mozi/love</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.philosophydef.com/thinkers/nagarjuna</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -1064,12 +998,6 @@
   </url>
   <url>
     <loc>https://www.philosophydef.com/thinkers/paul-tillich/being</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.philosophydef.com/thinkers/paul-tillich/courage</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -1227,12 +1155,6 @@
   <url>
     <loc>https://www.philosophydef.com/thinkers/socrates</loc>
     <lastmod>2026-09-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.philosophydef.com/thinkers/socrates/justice</loc>
-    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -46,7 +46,7 @@ Socrates made philosophy synonymous with ethical self-examination and civic ques
 
 ## Quotes by theme
 
-[Socrates on knowledge](https://www.philosophydef.com/thinkers/socrates/knowledge) · [Socrates on justice](https://www.philosophydef.com/thinkers/socrates/justice) · [Socrates on morality](https://www.philosophydef.com/thinkers/socrates/morality)
+[Socrates on knowledge](https://www.philosophydef.com/thinkers/socrates/knowledge) · [Socrates on morality](https://www.philosophydef.com/thinkers/socrates/morality)
 
 1.  > The unexamined life is not worth living for a human being.
     
@@ -118,7 +118,7 @@ Virtue and knowledge. Socrates argues that no one does wrong willingly (Protagor
 -   [“What I do not know, I do not claim to know” — Apology 21d](https://www.philosophydef.com/quotes/q0002)
 -   [“No one errs willingly” — Protagoras 345e](https://www.philosophydef.com/quotes/q0004)
 -   [“It is worse to do injustice than to suffer it” — Gorgias 469b–c](https://www.philosophydef.com/quotes/q0003)
--   [Socrates on justice](https://www.philosophydef.com/thinkers/socrates/justice)
+-   [Socrates on justice and morality](https://www.philosophydef.com/thinkers/socrates/morality)
 
 ### Socrates quotes that are not by Socrates
 

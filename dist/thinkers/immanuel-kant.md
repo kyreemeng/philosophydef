@@ -43,7 +43,7 @@ Kant set the agenda for German idealism and remains central to epistemology, eth
 
 ### Quotes by theme
 
-[Immanuel Kant on morality](https://www.philosophydef.com/thinkers/immanuel-kant/morality) · [Immanuel Kant on enlightenment](https://www.philosophydef.com/thinkers/immanuel-kant/enlightenment) · [Immanuel Kant on reason](https://www.philosophydef.com/thinkers/immanuel-kant/reason)
+[Immanuel Kant on morality](https://www.philosophydef.com/thinkers/immanuel-kant/morality) · [Immanuel Kant on enlightenment](https://www.philosophydef.com/thinkers/immanuel-kant/enlightenment)
 
 1.  > Two things fill the mind with ever new and increasing admiration and awe…: the starry heavens above me and the moral law within me.
     

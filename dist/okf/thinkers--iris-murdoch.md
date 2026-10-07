@@ -45,7 +45,7 @@ Murdoch helped reopen Anglo-American ethics to virtue, vision, and the Good. Lit
 
 ## Quotes by theme
 
-[Iris Murdoch on love](https://www.philosophydef.com/thinkers/iris-murdoch/love) · [Iris Murdoch on morality](https://www.philosophydef.com/thinkers/iris-murdoch/morality) · [Iris Murdoch on attention](https://www.philosophydef.com/thinkers/iris-murdoch/attention)
+[Iris Murdoch on morality](https://www.philosophydef.com/thinkers/iris-murdoch/morality) · [Iris Murdoch on attention](https://www.philosophydef.com/thinkers/iris-murdoch/attention)
 
 1.  > Love is the extremely difficult realisation that something other than oneself is real.
     
