@@ -47,7 +47,7 @@ const checks = [
   { path: "/what-is-philosophy", expectTypes: ["Article"] },
   { path: "/editorial-policy", expectTypes: [] },
   { path: "/quote-source", expectTypes: ["FAQPage"] },
-  { path: "/quote-source/socrates", expectTypes: ["CollectionPage", "FAQPage", "BreadcrumbList"] },
+  { path: "/quote-source/seneca", expectTypes: ["CollectionPage", "FAQPage", "BreadcrumbList"] },
   { path: "/random-philosophy-generator", expectTypes: ["WebApplication", "FAQPage"] },
   { path: "/sitemap-index.xml", expectTypes: [], isXml: true },
   { path: "/sitemap.xml", expectTypes: [], isXml: true },
