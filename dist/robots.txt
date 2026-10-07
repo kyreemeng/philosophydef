@@ -2,6 +2,35 @@ User-agent: *
 Allow: /
 Disallow: /data/
 
+# Search-discovery crawlers for AI answer engines: allowed, so the archive
+# can be retrieved and cited. User-triggered fetchers (ChatGPT-User,
+# Claude-User, Perplexity-User) follow their vendors' own rules.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+# Model-training crawlers: opted out. This is a training decision only; the
+# search-discovery crawlers above are what put the archive into AI answers.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
 # Content-Signal is a non-Google signal addressed to AI crawlers. It is not
 # part of Google's robots.txt standard and has no effect on Google Search;
 # Googlebot follows only the User-agent / Allow / Disallow rules above.

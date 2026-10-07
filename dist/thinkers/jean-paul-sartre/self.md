@@ -1,0 +1,41 @@
+# Jean-Paul Sartre Quotes on Self | Philosophy Defined
+
+> Read 2 English Jean-Paul Sartre quotes on self. Verified renderings with source context and related themes.
+
+Thinker × theme
+
+## Jean-Paul Sartre quotes on self
+
+2 verified English passages where Jean-Paul Sartre’ s thought meets questions of self.
+
+[Thinkers](https://www.philosophydef.com/thinkers) / [Jean-Paul Sartre](https://www.philosophydef.com/thinkers/jean-paul-sartre) / Self
+
+Long-tail reading path: one thinker, one theme, several angles—without diluting either page into a slogan list.
+
+### Jean-Paul Sartre on self
+
+Jean-Paul Sartre (1905–1980) approaches self within existentialism. Existence precedes essence for humans: we are condemned to be free and responsible without excuses. Bad faith flees anguish by pretending to be a fixed thing. On this page, the archive isolates English passages where that project meets self most directly—useful for searches such as “jean-paul sartre quotes on self.”
+
+### How to use this page
+
+Start with the shortest passage, then compare tone across sources. Return to the [Jean-Paul Sartre thinker page](https://www.philosophydef.com/thinkers/jean-paul-sartre) for biography and to the [self theme](https://www.philosophydef.com/themes/self) for other voices on the same question.
+
+### Frequently asked
+
+#### What did Jean-Paul Sartre say about self?
+
+The quotations below are the archive’s curated answer: English renderings selected for clarity and attribution, not a complete corpus.
+
+#### Where else should I read after jean-paul sartre on self?
+
+Related themes: [Knowledge](https://www.philosophydef.com/themes/knowledge) , [Freedom](https://www.philosophydef.com/themes/freedom) , [Nature](https://www.philosophydef.com/themes/nature) , [Reason](https://www.philosophydef.com/themes/reason) , [Life](https://www.philosophydef.com/themes/life) , [Wisdom](https://www.philosophydef.com/themes/wisdom) .
+
+1.  > Existence precedes essence.
+    
+    [“Existence precedes essence.” — source & context](https://www.philosophydef.com/quotes/q0087)  
+    Existentialism Is a Humanism
+    
+2.  > Man is nothing other than what he makes of himself.
+    
+    [“Man is nothing other than what he makes…” — source & context](https://www.philosophydef.com/quotes/q0129)  
+    Existentialism Is a Humanism

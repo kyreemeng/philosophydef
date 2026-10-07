@@ -62,6 +62,14 @@ export function organizationSchema(site: URL = SITE_URL) {
     "@type": "Organization",
     name: SITE_NAME,
     url: site,
+    // A solo-maintained web archive has no street address; a PostalAddress
+    // with the contact route is the honest variant, and omitting the field
+    // entirely reads as an absent business rather than an online one.
+    address: {
+      "@type": "PostalAddress",
+      contactType: "editorial",
+      url: new URL("/contact", site).href,
+    },
     logo: {
       "@type": "ImageObject",
       url: new URL("/favicon-512x512.png", site).href,
@@ -89,6 +97,7 @@ export function organizationSchema(site: URL = SITE_URL) {
           },
         }
       : {}),
+    sameAs: [`https://github.com/kyreemeng/philosophydef`],
     ...(contactEmail
       ? {
           contactPoint: {

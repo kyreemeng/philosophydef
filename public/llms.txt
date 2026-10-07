@@ -20,6 +20,18 @@ Do not treat this archive as a complete scholarly edition or a substitute for pr
 
 Fetch HTML at https://www.philosophydef.com/{path} with no API key.
 
+Markdown content negotiation: request any page with `Accept: text/markdown`
+and the same URL returns a Markdown version of the page (Content-Type
+text/markdown, Vary: Accept). Set the Accept header; do not guess .md URLs.
+Browsers requesting text/html keep receiving HTML.
+
+Machine-readable surfaces:
+
+- llms-full.txt — the concept layer of the archive in one file
+- /okf/index.md — Open Knowledge Format bundle (cross-linked concept files with YAML frontmatter)
+- /data/quotes-archive.json — the full quotation corpus as JSON
+- Sitemap: https://www.philosophydef.com/sitemap-index.xml
+
 Useful entry points:
 
 - Home (random quotation): https://www.philosophydef.com/
@@ -28,10 +40,12 @@ Useful entry points:
 - Quote detail: https://www.philosophydef.com/quotes/q0001
 - Thinkers: https://www.philosophydef.com/thinkers
 - Themes: https://www.philosophydef.com/themes
+- Who said this quote (sourcing tool): https://www.philosophydef.com/quote-source
+- Misattributed quotes: https://www.philosophydef.com/misattributed-quotes
 - What is philosophy: https://www.philosophydef.com/what-is-philosophy
 - Epistemology: https://www.philosophydef.com/what-is-epistemology
 - Stoicism quotes: https://www.philosophydef.com/schools/stoicism
-- Sitemap: https://www.philosophydef.com/sitemap-index.xml
+- Contact: https://www.philosophydef.com/contact
 
 How to call a quotation page: GET https://www.philosophydef.com/quotes/{id} where {id} is lowercase, e.g. q0001.
 

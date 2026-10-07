@@ -20,29 +20,35 @@ const canonicalBaseUrl = "https://www.philosophydef.com";
  *   author, a forum user); Socrates and Plato are not this site's creators,
  *   and the old expectation here existed only because an earlier audit script
  *   asked for it.
- * - FAQPage is gone everywhere: Google retired FAQ rich results in 2026, and
- *   the FAQ prose stays on the pages where it still answers readers.
+ * - FAQPage is back on pages whose visible Q&A it mirrors exactly. Google
+ *   retired FAQ rich results in 2026, so the markup no longer earns a rich
+ *   result; it stays because Perplexity and other answer engines reward
+ *   FAQPage when selecting quotable answers. The rule: schema only where the
+ *   rendered page really shows the same Q&A.
  * - Theme, school, and work pages are CollectionPage + BreadcrumbList — not
  *   Article, which Google scopes to news/blog content.
  * - Article remains only on the long-form guides, which is what it is for.
  */
 const checks = [
   { path: "/", expectTypes: ["WebSite"] },
-  { path: "/quotes/q0001", expectTypes: ["Quotation", "BreadcrumbList"] },
-  { path: "/themes/freedom", expectTypes: ["CollectionPage", "BreadcrumbList"] },
+  { path: "/quotes/q0001", expectTypes: ["Quotation", "FAQPage", "BreadcrumbList"] },
+  { path: "/themes/freedom", expectTypes: ["CollectionPage", "FAQPage", "BreadcrumbList"] },
   { path: "/thinkers/socrates", expectTypes: ["CollectionPage", "Person", "BreadcrumbList"] },
   { path: "/thinkers/bhagavad-gita", expectTypes: ["CreativeWork"] },
   { path: "/quotes/about/love", expectTypes: ["CollectionPage", "BreadcrumbList"] },
-  { path: "/schools/stoicism", expectTypes: ["CollectionPage", "BreadcrumbList"] },
+  { path: "/schools/stoicism", expectTypes: ["CollectionPage", "FAQPage", "BreadcrumbList"] },
   { path: "/works", expectTypes: ["CollectionPage", "BreadcrumbList"] },
   { path: "/works/meditations", expectTypes: ["CollectionPage", "BreadcrumbList"] },
-  { path: "/misattributed-quotes", expectTypes: ["CollectionPage", "BreadcrumbList"] },
+  { path: "/misattributed-quotes", expectTypes: ["CollectionPage", "FAQPage", "BreadcrumbList"] },
   { path: "/branches", expectTypes: ["CollectionPage", "BreadcrumbList"] },
   { path: "/branches/ethics", expectTypes: ["CollectionPage", "BreadcrumbList"] },
   { path: "/reference", expectTypes: ["CollectionPage", "BreadcrumbList"] },
   { path: "/history-of-philosophy", expectTypes: ["Article"] },
   { path: "/what-is-philosophy", expectTypes: ["Article"] },
   { path: "/editorial-policy", expectTypes: [] },
+  { path: "/quote-source", expectTypes: ["FAQPage"] },
+  { path: "/quote-source/socrates", expectTypes: ["CollectionPage", "FAQPage", "BreadcrumbList"] },
+  { path: "/random-philosophy-generator", expectTypes: ["WebApplication", "FAQPage"] },
   { path: "/sitemap-index.xml", expectTypes: [], isXml: true },
   { path: "/sitemap.xml", expectTypes: [], isXml: true },
 ];

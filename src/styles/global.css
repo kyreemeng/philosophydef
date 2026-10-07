@@ -1425,6 +1425,44 @@ main {
   color: var(--ink);
 }
 
+
+.guide-content table {
+  width: 100%;
+  margin: var(--space-5) 0;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+  line-height: 1.5;
+}
+
+.guide-content th,
+.guide-content td {
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.guide-content thead th {
+  background: var(--surface-soft);
+  font-family: var(--font-ui);
+  font-weight: 600;
+}
+
+.guide-content tbody th {
+  background: var(--surface-soft);
+  font-family: var(--font-ui);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+@media (max-width: 720px) {
+  .guide-content table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
 .guide-quotes {
   padding-top: var(--space-8);
   border-top: 1px solid var(--line);

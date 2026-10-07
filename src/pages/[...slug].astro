@@ -110,6 +110,7 @@ const pageDescription = seo.description ?? guide.description;
               <li><a href={`#section-${index + 1}`}>{section.heading}</a></li>
             ))
           }
+          {guide.comparison && <li><a href="#comparison">Side by side</a></li>}
           {guide.faq && <li><a href="#faq">FAQ</a></li>}
           {guide.furtherReading && <li><a href="#further-reading">Further reading</a></li>}
         </ol>
@@ -120,6 +121,32 @@ const pageDescription = seo.description ?? guide.description;
           <h2>Short answer</h2>
           <p>{guide.answer}</p>
         </section>
+
+        {
+          guide.comparison && (
+            <section id="comparison" aria-labelledby="comparison-title">
+              <h2 id="comparison-title">Side by side</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th scope="col">Aspect</th>
+                    <th scope="col">{guide.title.split(" vs ")[0]}</th>
+                    <th scope="col">{guide.title.split(" vs ")[1]?.replace(/[:?].*$/, "")}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {guide.comparison.map((row) => (
+                    <tr>
+                      <th scope="row">{row.aspect}</th>
+                      <td>{row.left}</td>
+                      <td>{row.right}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </section>
+          )
+        }
 
         {
           guide.sections.map((section, index) => (

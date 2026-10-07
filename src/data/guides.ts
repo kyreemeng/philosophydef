@@ -6,6 +6,12 @@ export type Guide = {
   intro: string;
   answer: string;
   sections: { heading: string; paragraphs: string[] }[];
+  /**
+   * Side-by-side comparison rows for the "X vs Y" guides. Rendered as a table
+   * before the prose sections: answer engines extract tables for comparison
+   * queries far more reliably than they extract two prose columns.
+   */
+  comparison?: { aspect: string; left: string; right: string }[];
   faq?: { question: string; answer: string }[];
   related: { href: string; label: string }[];
   thinkers: string[];
@@ -1265,6 +1271,38 @@ export const guides: Guide[] = [
       "Plato and Aristotle share a teacher–student link and a vast influence, yet they diverge on metaphysics, ethics, and the best political order.",
     answer:
       "Broadly: Plato emphasizes transcendent forms and a philosopher-led city in the Republic; Aristotle emphasizes substances in nature, empirical study, and virtue as a mean toward flourishing in civic life.",
+    comparison: [
+      {
+        aspect: "Metaphysics",
+        left: "Eternal Forms beyond the changing world; particulars participate in them",
+        right: "Substances of form-in-matter; no separate realm of Forms",
+      },
+      {
+        aspect: "Knowledge",
+        left: "Recollection of the Forms through dialectic",
+        right: "Empirical observation refined into causes and demonstrations",
+      },
+      {
+        aspect: "Ethics",
+        left: "Justice as harmony of the soul; the Good as the highest object",
+        right: "Eudaimonia through virtues that are means between extremes",
+      },
+      {
+        aspect: "Politics",
+        left: "Philosopher-kings rule an ideal city in the Republic",
+        right: "Comparative study of constitutions; politics as civic partnership",
+      },
+      {
+        aspect: "Method",
+        left: "Dialogue, hypothesis, and division",
+        right: "Endoxa, definition, syllogistic logic, and empirical research",
+      },
+      {
+        aspect: "Key works",
+        left: "Republic, Phaedo, Symposium",
+        right: "Nicomachean Ethics, Politics, Metaphysics",
+      },
+    ],
     sections: [
       {
         heading: "Reality and knowledge",
@@ -1318,6 +1356,38 @@ export const guides: Guide[] = [
       "Confucianism and Daoism are often contrasted as social cultivation versus spontaneous alignment with the Dao—but historically they also conversed, criticized, and borrowed.",
     answer:
       "Confucian teachings emphasize ren, ritual, learning, and responsible roles; Daoist texts associated with Laozi and Zhuangzi emphasize the Dao, wuwei, and critique of rigid naming and forced order.",
+    comparison: [
+      {
+        aspect: "Core ideal",
+        left: "Ren (humaneness) expressed through cultivated roles and ritual",
+        right: "Alignment with the Dao; naturalness over convention",
+      },
+      {
+        aspect: "Self-cultivation",
+        left: "Study, ritual practice, and reflection within relationships",
+        right: "Unlearning rigid distinctions; wuwei, non-forced action",
+      },
+      {
+        aspect: "Government",
+        left: "Exemplary virtue and ritual order bring good rule",
+        right: "Restraint and softness; rule that does not over-manage",
+      },
+      {
+        aspect: "Language",
+        left: "Correct naming (zhengming) clarifies roles and duties",
+        right: "Suspicion of fixed names; the Dao named is not the constant Dao",
+      },
+      {
+        aspect: "Key figures",
+        left: "Confucius, Mencius, Xunzi",
+        right: "Laozi, Zhuangzi",
+      },
+      {
+        aspect: "Key texts",
+        left: "Analects, Mencius, Xunzi",
+        right: "Daodejing, Zhuangzi",
+      },
+    ],
     sections: [
       {
         heading: "Ethics and self-cultivation",
@@ -1372,6 +1442,33 @@ export const guides: Guide[] = [
       "Science and philosophy are partners and neighbors: science excels at empirical modeling; philosophy clarifies concepts, methods, and values that science uses but does not always settle.",
     answer:
       "Philosophy is not failed science. It asks what evidence is, what explanation means, what consciousness is, and which ends knowledge should serve—questions that remain even when experiments succeed.",
+    comparison: [
+      {
+        aspect: "Primary question",
+        left: "What exists, what we can know, how we should live",
+        right: "How does the natural and social world actually behave",
+      },
+      {
+        aspect: "Method",
+        left: "Conceptual analysis, argument, thought experiment",
+        right: "Hypothesis, measurement, experiment, peer review",
+      },
+      {
+        aspect: "Standard of progress",
+        left: "Sharper questions and better-supported positions",
+        right: "Theories that predict and survive testing",
+      },
+      {
+        aspect: "Relation to its own history",
+        left: "Current work still engages Plato and Kant directly",
+        right: "Superseded theories are history, not live options",
+      },
+      {
+        aspect: "What it cannot settle alone",
+        left: "Empirical facts about the world",
+        right: "What the results mean and what they should be used for",
+      },
+    ],
     sections: [
       {
         heading: "Division of labor",
