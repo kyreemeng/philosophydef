@@ -16,7 +16,7 @@ Plain language, because a privacy page written in legalese protects no one.
 
 ## What is collected
 
-Page visits are measured with Vercel Analytics, which records pageviews and referrers without cookies and without building per-visitor profiles. No identifiers are attached to a visit; the archive cannot single out who read a passage, only how often pages were read.
+Page visits are measured with Vercel Analytics and Ahrefs Analytics, which record pageviews and referrers without cookies and without building per-visitor profiles. No identifiers are attached to a visit; the archive cannot single out who read a passage, only how often pages were read.
 
 ## What is not collected
 
