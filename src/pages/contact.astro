@@ -1,0 +1,74 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { contactEmail, editor } from "../data/editorial";
+---
+
+<BaseLayout
+  title="Contact | Philosophy Defined"
+  description="Report a quotation error, ask about a source record, or reach the editor of Philosophy Defined."
+  canonical="/contact"
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Contact</p>
+      <h1>Contact the archive</h1>
+      <p>
+        This archive is maintained by a small editorial team. The fastest way
+        to reach us is email; corrections get priority because a wrong
+        attribution spreads faster than its correction.
+      </p>
+    </header>
+
+    <div class="prose-layout">
+      <aside class="prose-aside">
+        <p>Corrections are answered first. Questions about method next.</p>
+      </aside>
+      <article class="prose">
+        <h2>Report a quotation error</h2>
+        <p>
+          If a passage on this site is misquoted, misattributed, or wrongly
+          located, write to
+          {contactEmail && <a href={`mailto:${contactEmail}`}>{contactEmail}</a>}
+          with three things: the page address, the edition you are checking
+          against, and the passage as that edition prints it. Corrections that
+          name a checkable edition are acted on directly; the{" "}
+          <a href="/editorial-policy#corrections-log">corrections log</a>{" "}
+          records every change with its date.
+        </p>
+
+        <h2>Ask about a source</h2>
+        <p>
+          If you cannot find the source of a quotation that is not in the
+          archive, the{" "}
+          <a href="/quote-source">sourcing hub</a> documents the three-step
+          method this archive uses, and the{" "}
+          <a href="/quote-source">thinker sourcing profiles</a> record the
+          specific citation hazards of the most-quoted philosophers. Questions
+          the archive's records cannot answer are exactly the ones the method
+          is written for.
+        </p>
+
+        <h2>Reuse and licensing</h2>
+        <p>
+          The quotations themselves belong to their authors and translators.
+          The verification records, source notes, and interpretive text written
+          for this archive may be quoted with attribution and a link to the
+          record you used. For anything larger, ask first.
+        </p>
+
+        {
+          editor && (
+            <h2>Editor</h2>
+          )
+        }
+        {
+          editor && (
+            <p>
+              <strong>{editor.name}</strong>. {editor.bio}
+            </p>
+          )
+        }
+      </article>
+    </div>
+  </div>
+</BaseLayout>

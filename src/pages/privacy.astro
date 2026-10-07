@@ -1,0 +1,58 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Privacy | Philosophy Defined"
+  description="What Philosophy Defined collects, what it does not, and how visitor analytics are handled."
+  canonical="/privacy"
+>
+  <div class="page-shell">
+    <header class="page-intro">
+      <p class="eyebrow">Privacy</p>
+      <h1>Privacy</h1>
+      <p>
+        Short version: this archive stores no personal data, requires no
+        account, and shows no advertising.
+      </p>
+    </header>
+
+    <div class="prose-layout">
+      <aside class="prose-aside">
+        <p>Plain language, because a privacy page written in legalese protects no one.</p>
+      </aside>
+      <article class="prose">
+        <h2>What is collected</h2>
+        <p>
+          Page visits are measured with Vercel Analytics, which records
+          pageviews and referrers without cookies and without building
+          per-visitor profiles. No identifiers are attached to a visit; the
+          archive cannot single out who read a passage, only how often pages
+          were read.
+        </p>
+
+        <h2>What is not collected</h2>
+        <p>
+          No accounts, no email lists, no advertising identifiers, and no sale
+          or sharing of visitor data. The reading preferences (text size and
+          colour scheme) are stored in your browser's local storage only; they
+          never leave your device.
+        </p>
+
+        <h2>Sharing tools</h2>
+        <p>
+          The share button constructs a link in your browser and hands it to
+          the platform you choose. The archive's server is not involved in a
+          share; what a platform does with a shared link is governed by that
+          platform.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Questions about this page can go to the address on the{" "}
+          <a href="/contact">contact page</a>.
+        </p>
+      </article>
+    </div>
+  </div>
+</BaseLayout>
