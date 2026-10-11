@@ -1,6 +1,7 @@
 import quotes from "../data/quotes.json";
 import themeMerge from "../data/theme-merge.json";
 import { quoteSeoOverrides } from "../data/seo-overrides";
+import { isPeripheralQuote } from "../data/corpus-boundaries";
 
 export type Quote = (typeof quotes)[number];
 
@@ -294,9 +295,19 @@ export function relatedByTheme(quote: Quote, limit = 5) {
 
 export function adjacentQuotes(quote: Quote) {
   const index = quotes.findIndex((item) => item.id === quote.id);
-  const prev = index > 0 ? quotes[index - 1] : quotes[quotes.length - 1];
-  const next = index < quotes.length - 1 ? quotes[index + 1] : quotes[0];
-  return { prev, next };
+  const peripheral = isPeripheralQuote(quote);
+  const step = (from: number, direction: 1 | -1) => {
+    const total = quotes.length;
+    for (let offset = 1; offset <= total; offset += 1) {
+      const candidate = quotes[(from + direction * offset + total * offset) % total];
+      if (isPeripheralQuote(candidate) === peripheral) return candidate;
+    }
+    return quotes[from];
+  };
+  return {
+    prev: step(index, -1),
+    next: step(index, 1),
+  };
 }
 
 export function thinkerThemePairs(minQuotes = 2) {

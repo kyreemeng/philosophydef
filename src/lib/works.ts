@@ -64,9 +64,13 @@ function buildWorkEntries(): WorkEntry[] {
 
 const allEntries = buildWorkEntries();
 
+function publishFloor(entry: WorkEntry) {
+  return entry.work.minPublishedQuotes ?? MIN_PUBLISHED_WORK_QUOTES;
+}
+
 /** Registry-backed works with enough passages to publish a page for. */
 export function workEntries(): WorkEntry[] {
-  return allEntries.filter((entry) => entry.quotes.length >= MIN_PUBLISHED_WORK_QUOTES);
+  return allEntries.filter((entry) => entry.quotes.length >= publishFloor(entry));
 }
 
 /** A work page is offered to search when it clears the indexable bar. */
@@ -85,6 +89,41 @@ export function assertNoWorkSlugCollision() {
       );
     }
     seen.set(entry.slug, entry.work.title);
+  }
+}
+
+/**
+ * Catalogue integrity: short English titles must not merge distinct books.
+ * Aurelius's Meditations and Descartes's Meditations on First Philosophy were
+ * previously collapsed by the alias "meditations"; this assertion fails the
+ * build if that regression returns.
+ */
+export function assertWorkCatalogueIntegrity() {
+  const samples: { source: string; expectTitle: string }[] = [
+    { source: "Meditations IV.3", expectTitle: "Meditations" },
+    {
+      source: "Meditations on First Philosophy I",
+      expectTitle: "Meditations on First Philosophy",
+    },
+    {
+      source: "Meditations on First Philosophy II",
+      expectTitle: "Meditations on First Philosophy",
+    },
+  ];
+  for (const sample of samples) {
+    const resolved = resolveSource(sample.source);
+    if (resolved.work?.title !== sample.expectTitle) {
+      throw new Error(
+        `resolveSource("${sample.source}") → “${resolved.work?.title ?? resolved.workTitle}”; expected “${sample.expectTitle}”.`,
+      );
+    }
+  }
+
+  const aurelius = workEntries().find((entry) => entry.work.title === "Meditations");
+  if (aurelius?.authors.some((author) => /Descartes/i.test(author))) {
+    throw new Error(
+      "Work page /works/meditations still lists René Descartes — the two Meditations books have been merged again.",
+    );
   }
 }
 

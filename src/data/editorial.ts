@@ -19,8 +19,14 @@ export type Editor = {
 };
 
 export const editor: Editor | undefined = {
-  name: "kyree",
-  bio: "Maintains Philosophy Defined and the source records in this archive.",
+  // Display name matches the public GitHub identity; no degrees or affiliations
+  // are claimed here that cannot be checked from the sameAs links.
+  name: "Kyree Meng",
+  bio: "Independent maintainer of Philosophy Defined. Builds the quotation records, locators, and misattribution notes in this archive; not a university philosophy department.",
+  sameAs: [
+    "https://github.com/kyreemeng",
+    "https://github.com/kyreemeng/philosophydef",
+  ],
 };
 export const contactEmail: string | undefined = "kyreemeng@gmail.com";
 
@@ -55,6 +61,19 @@ export function corpusStatus() {
  * that a reader could have relied on is listed here with its date.
  */
 export const corrections: { date: string; page: string; change: string }[] = [
+  {
+    date: "2026-10-11",
+    page: "/works/meditations",
+    change:
+      "Split Marcus Aurelius’s Meditations from Descartes’s Meditations on First Philosophy. The two works no longer share a work page or registry title.",
+  },
+  {
+    date: "2026-10-11",
+    page: "/thinkers/confucius",
+    change:
+      "Key terms on thinker pages are now attached by tradition/language (and explicit maps), not by bare theme co-occurrence. Confucius no longer lists Greek technical vocabulary; Nietzsche no longer lists unrelated Stoic or Neo-Confucian terms.",
+  },
+
   {
     date: "2026-09-27",
     page: "/quotes/q0112",

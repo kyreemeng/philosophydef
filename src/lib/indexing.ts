@@ -13,6 +13,7 @@ import {
 import { quoteCommentary } from "../data/quote-commentary";
 import { quoteVerification } from "../data/quote-verification";
 import { slugify, type Quote } from "./content";
+import { isPeripheralAuthor } from "../data/corpus-boundaries";
 import quotes from "../data/quotes.json";
 import themeMerge from "../data/theme-merge.json";
 // @ts-expect-error — plain-JS module shared with scripts/generate-vercel-redirects.mjs
@@ -45,6 +46,10 @@ export function shouldIndexTheme(theme: { name: string; quotes: Quote[] }) {
 }
 
 export function shouldIndexThinker(thinker: { name: string; quotes: Quote[] }) {
+  // Peripheral corpora (e.g. founder business quotes) stay published for
+  // readers but are kept out of the academic thinker index and sitemap offer.
+  if (isPeripheralAuthor(thinker.name)) return false;
+
   if (hasObservedThinkerDemand(slugify(thinker.name))) return true;
 
   // A text's own passages are the substance of its page, so passage count is

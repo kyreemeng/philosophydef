@@ -1,6 +1,7 @@
 import quotes from "../data/quotes.json";
 import { contactEmail, editor } from "../data/editorial";
 import { themeGroups } from "./content";
+import { isPeripheralSchool } from "../data/corpus-boundaries";
 
 export const SITE_NAME = "Philosophy Defined";
 
@@ -19,10 +20,13 @@ const themeNames = themeGroups()
 
 // Schools are not aggregated anywhere in lib/content, so they are read
 // straight from the corpus instead of relying on a helper that does not exist.
-const schoolNames = [...new Set(quotes.map((quote) => quote.school))].slice(
-  0,
-  8,
-);
+const schoolNames = [
+  ...new Set(
+    quotes
+      .map((quote) => quote.school)
+      .filter((school) => !isPeripheralSchool(school)),
+  ),
+].slice(0, 8);
 
 /**
  * Site-wide structured data, defined once and shared by every page.
@@ -51,7 +55,7 @@ export function websiteSchema(site: URL = SITE_URL) {
     url: site,
     inLanguage: "en",
     description:
-      "Philosophy quotations traced to the work and passage they come from, with original-language wording where the archive holds it.",
+      "Sourced philosophy quotations traced to the work and passage they come from, with original-language wording where the archive holds it.",
     publisher: { "@type": "Organization", name: SITE_NAME, url: site },
   };
 }

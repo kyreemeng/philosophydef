@@ -16,6 +16,7 @@ import {
   workEntries,
   shouldIndexWork,
   assertNoWorkSlugCollision,
+  assertWorkCatalogueIntegrity,
   workVerificationSummary,
   type WorkEntry,
 } from "../../lib/works";
@@ -26,6 +27,7 @@ import { hasThinkerSourcePage } from "../../data/thinker-sourcing";
 import { thinkerSourcePath } from "../../lib/content";
 
 assertNoWorkSlugCollision();
+assertWorkCatalogueIntegrity();
 
 export function getStaticPaths() {
   return workEntries().map((entry) => ({
