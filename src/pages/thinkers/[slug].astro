@@ -24,7 +24,10 @@ import { hasThinkerSourcePage, thinkerSourcing } from "../../data/thinker-sourci
 import { referencesFor } from "../../data/thinker-references";
 import { quoteVerification } from "../../data/quote-verification";
 import { workEntries } from "../../lib/works";
-import { conceptsForThemes, conceptPath, conceptSlug } from "../../data/concept-glossary";
+import { conceptPath, conceptSlug } from "../../data/concept-glossary";
+import { conceptsForThinker } from "../../data/thinker-concepts";
+import { isPeripheralAuthor } from "../../data/corpus-boundaries";
+import { verificationLevelFor } from "../../lib/verification";
 import { schools as schoolPages } from "../schools/[slug].astro";
 
 export function getStaticPaths() {
@@ -111,6 +114,7 @@ const relatedThinkers = thinkerGroups()
     (other) =>
       other.name !== thinker.name &&
       shouldIndexThinker(other) &&
+      !isPeripheralAuthor(other.name) &&
       sharedSchoolCount(other) > 0,
   )
   .sort((a, b) => sharedSchoolCount(b) - sharedSchoolCount(a))
@@ -136,13 +140,17 @@ const matchingSchool = dominantSchool
   : undefined;
 
 /**
- * The technical terms this thinker's passages trade on, pulled from the
- * glossary by their archive themes: *aretē* for Aristotle, *wu wei* for
- * Laozi, *conatus* for Spinoza. Entity pages that list themes but not terms
- * stop one step short of the vocabulary the quotes actually use.
+ * The technical terms this thinker's passages trade on. Attachment is by
+ * tradition/language (and an explicit map for major figures), not by bare
+ * theme co-occurrence — otherwise Confucius inherits Greek vocabulary and
+ * Nietzsche inherits Song–Ming terms.
  */
-const thinkerConcepts = conceptsForThemes(
-  topThemes.map(([theme]) => theme),
+const thinkerConcepts = conceptsForThinker(
+  {
+    name: thinker.name,
+    schools: [...new Set(thinker.quotes.map((quote) => quote.school))],
+    themes: topThemes.map(([theme]) => theme),
+  },
   6,
 );
 const mainEntity = asText
@@ -234,9 +242,15 @@ const pageTitle =
   (countTitle.length + brandSuffix.length <= 60
     ? countTitle + brandSuffix
     : countTitle);
+const checkedCount = thinker.quotes.filter((quote) => {
+  const level = verificationLevelFor(quote);
+  return level === "original-checked" || level === "edition-checked";
+}).length;
+const allChecked = checkedCount > 0 && checkedCount === thinker.quotes.length;
+const sourceAdjective = allChecked ? "edition-checked" : "sourced";
 const pageDescription =
   seo.description ??
-  `${thinker.name} quotes: read ${thinker.quotes.length} verified English philosophy quotations${guide ? ` (${guide.lifespan})` : ""}, each with its cited source.${themePhrase}`;
+  `${thinker.name} quotes: read ${thinker.quotes.length} ${sourceAdjective} English philosophy quotations${guide ? ` (${guide.lifespan})` : ""}, each with its cited source${allChecked ? "" : checkedCount > 0 ? ` (${checkedCount} checked against a cited edition)` : ""}.${themePhrase}`;
 ---
 
 <BaseLayout

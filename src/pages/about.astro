@@ -16,11 +16,26 @@ const schema = [
     "@type": "AboutPage",
     name: "About Philosophy Defined",
     description:
-      "What Philosophy Defined is, how its quotation records are built and checked, and how much of the archive has been verified.",
+      "What Philosophy Defined is, how its quotation records are built and checked, and how much has been collated against a cited edition.",
     url: new URL("/about", Astro.site),
     mainEntity: { "@type": "Organization", name: "Philosophy Defined", url: Astro.site },
   },
   organizationSchema(Astro.site),
+  ...(editor
+    ? [
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          name: editor.name,
+          description: editor.bio,
+          url: new URL("/about", Astro.site),
+          ...(editor.sameAs?.length ? { sameAs: editor.sameAs } : {}),
+          ...(contactEmail ? { email: contactEmail } : {}),
+          jobTitle: "Archive editor",
+          worksFor: { "@type": "Organization", name: "Philosophy Defined", url: Astro.site },
+        },
+      ]
+    : []),
 ];
 ---
 
@@ -113,6 +128,24 @@ const schema = [
               <p>
                 <strong>{editor.name}</strong>. {editor.bio}
               </p>
+              <p>
+                This is a sourced quotation archive with misattribution control,
+                not a peer-reviewed encyclopedia. For scholarly deep ends, use the{" "}
+                <a href="https://plato.stanford.edu" rel="noopener">Stanford Encyclopedia of Philosophy</a>{" "}
+                and the{" "}
+                <a href="https://iep.utm.edu" rel="noopener">Internet Encyclopedia of Philosophy</a>.
+              </p>
+              {editor.sameAs && editor.sameAs.length > 0 && (
+                <p>
+                  Public profiles:{" "}
+                  {editor.sameAs.map((href, index) => (
+                    <>
+                      {index > 0 && " · "}
+                      <a href={href} rel="noopener">{href.replace(/^https?:\/\//, "")}</a>
+                    </>
+                  ))}
+                </p>
+              )}
             </>
           )
         }

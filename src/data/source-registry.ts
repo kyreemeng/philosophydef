@@ -57,6 +57,12 @@ export type WorkRecord = {
   locusAliases?: Record<string, string>;
   /** Where the textual situation affects how a passage should be cited. */
   note?: string;
+  /**
+   * Override the site-wide floor for publishing a /works page. Use sparingly:
+   * only when splitting a catalogue collision would otherwise leave a work
+   * without a page despite clear registry identity.
+   */
+  minPublishedQuotes?: number;
 };
 
 export const works: WorkRecord[] = [
@@ -85,6 +91,7 @@ export const works: WorkRecord[] = [
   },
   {
     title: "Meditations",
+    author: "Marcus Aurelius",
     original: {
       text: "Τὰ εἰς ἑαυτόν",
       language: "Ancient Greek",
@@ -93,9 +100,12 @@ export const works: WorkRecord[] = [
     },
     year: "c. 170–180 CE",
     locatorKind: "Book and section (e.g. IV.7)",
+    // Keep this alias short, but never let it swallow Descartes: the longer
+    // "meditations on first philosophy" alias is registered below and wins on
+    // longest-prefix match in resolveSource.
     aliases: ["meditations"],
     note:
-      "The modern title is a convention; the Greek means 'to himself'. Section numbering differs between editions, so a book-and-section locator should name the edition it follows.",
+      "Marcus Aurelius's private notes (Τὰ εἰς ἑαυτόν, 'to himself'). Not Descartes's Meditationes de prima philosophia — that work is registered separately as Meditations on First Philosophy. Section numbering differs between editions, so a book-and-section locator should name the edition it follows.",
   },
   {
     title: "Letters to Lucilius",
@@ -1228,6 +1238,25 @@ export const works: WorkRecord[] = [
     aliases: ["principal doctrines"],
     note:
       "Forty short doctrines, and the numbering is stable, which makes them unusually easy to cite. They are the compact statement of a philosophy whose full argument is in the letters and in Lucretius's poem.",
+  },
+  {
+    title: "Meditations on First Philosophy",
+    author: "René Descartes",
+    original: {
+      text: "Meditationes de prima philosophia",
+      language: "Latin",
+      languageTag: "la",
+    },
+    year: "1641",
+    locatorKind: "Meditation number (I–VI)",
+    aliases: [
+      "meditations on first philosophy",
+      "meditationes de prima philosophia",
+    ],
+    note:
+      "Descartes's six Meditations in Latin (1641), distinct from Marcus Aurelius's Greek Meditations. Corpus locators use the English title plus the roman meditation number (I–VI). Do not collapse this work into the Stoic Meditations page.",
+    // Two corpus passages today; still publish so the split from Aurelius is visible.
+    minPublishedQuotes: 2,
   },
   {
     title: "Discourse on the Method",

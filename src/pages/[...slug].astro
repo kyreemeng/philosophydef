@@ -86,6 +86,7 @@ const pageDescription = seo.description ?? guide.description;
   canonical={pageUrl}
   type="article"
   schema={schema}
+  robots={guide.peripheral ? "noindex, follow, max-image-preview:large" : undefined}
 >
   <article class="page-shell guide">
     <header class="page-intro guide-intro">

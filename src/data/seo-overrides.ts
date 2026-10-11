@@ -312,7 +312,7 @@ export const pageSeoOverrides: Record<
   "/themes/self": {
     title: "Philosophy Quotes About Self | Examined Life & Identity",
     description:
-      "Philosophy quotes about self, identity, and the examined life—Socrates, Kierkegaard, Nietzsche, and others. Verified English with sources, not scrapers.",
+      "Philosophy quotes about self, identity, and the examined life—Socrates, Kierkegaard, Nietzsche, and others. Sourced English with citations, not scrapers.",
   },
   "/quotes/about/love": {
     title: "Philosophical Quotes About Love | Plato, Mencius & Modern",
@@ -320,14 +320,14 @@ export const pageSeoOverrides: Record<
       "Philosophical quotes about love—eros, reciprocity, care, recognition—from Plato, Mencius, Aristotle, and modern ethics. Cited English passages.",
   },
   "/quotes/about/loneliness": {
-    title: "Philosophy Quotes About Loneliness vs Solitude | Verified",
+    title: "Philosophy Quotes About Loneliness vs Solitude | Sourced",
     description:
       "Philosophy quotes about loneliness vs solitude—from Schopenhauer, Nietzsche, and other thinkers. Compare isolation, chosen quiet, and self-sufficiency.",
   },
   "/quotes/about/peace": {
     title: "Philosophy Quotes About Peace of Mind | Stoic & Epicurean",
     description:
-      "Philosophy quotes about peace, tranquility, and ataraxia—Stoic equanimity and calm without empty slogans. Verified English sources.",
+      "Philosophy quotes about peace, tranquility, and ataraxia—Stoic equanimity and calm without empty slogans. Sourced English passages.",
   },
   "/what-is-epistemology": {
     title: "What Is Epistemology? Meaning, Definition & Examples",
@@ -347,22 +347,22 @@ export const pageSeoOverrides: Record<
   "/thinkers/socrates": {
     title: "Socrates Quotes with Sources | Unexamined Life & Apology",
     description:
-      "Socrates quotes verified to Plato’s dialogues—including “the unexamined life is not worth living” (Apology 38a)—with locators, themes, and related thinkers.",
+      "Socrates quotes sourced to Plato’s dialogues—including “the unexamined life is not worth living” (Apology 38a)—with locators, themes, and related thinkers.",
   },
   "/thinkers/friedrich-nietzsche": {
     title: "Nietzsche Quotes with Sources | Zarathustra & Overcoming",
     description:
-      "Friedrich Nietzsche quotes in verified English—Übermensch, affirmation, critique—from Zarathustra and major works, each with a checkable source.",
+      "Friedrich Nietzsche quotes in sourced English—Übermensch, affirmation, critique—from Zarathustra and major works, each with a checkable source.",
   },
   "/thinkers/nishida-kitaro": {
     title: "Nishida Kitaro / Kitaro Nishida Quotes | Kyoto School",
     description:
-      "Kitaro Nishida quotes (Nishida Kitarō) in verified English—pure experience and Kyoto School philosophy, with sources and related themes.",
+      "Kitaro Nishida quotes (Nishida Kitarō) in sourced English—pure experience and Kyoto School philosophy, with sources and related themes.",
   },
   "/thinkers/wang-yangming": {
     title: "Wang Yangming Quotes | Neo-Confucian Unity of Knowledge",
     description:
-      "Wang Yangming quotes in verified English—unity of knowledge and action, heart-mind, and Neo-Confucian practice, with sources.",
+      "Wang Yangming quotes in sourced English—unity of knowledge and action, heart-mind, and Neo-Confucian practice, with sources.",
   },
   "/thinkers/wang-guowei": {
     title: "Wang Guowei Quotes | Aesthetics, Jingjie & Chinese Thought",
@@ -387,22 +387,22 @@ export const pageSeoOverrides: Record<
   "/thinkers/huineng": {
     title: "Hui Neng Quotes | Platform Sutra & Chan Awakening",
     description:
-      "Hui Neng quotes (Huineng, Sixth Patriarch of Chan) in verified English—sudden enlightenment and mind nature from the Platform Sutra, with sources.",
+      "Hui Neng quotes (Huineng, Sixth Patriarch of Chan) in sourced English—sudden enlightenment and mind nature from the Platform Sutra, with sources.",
   },
   "/thinkers/linji-yixuan": {
     title: "Linji Yixuan Quotes | Record of Linji & Rinzai Zen",
     description:
-      "Linji Yixuan quotes in verified English—the true person of no rank, the shout, and Rinzai Zen urgency—drawn from the Record of Linji with sources.",
+      "Linji Yixuan quotes in sourced English—the true person of no rank, the shout, and Rinzai Zen urgency—drawn from the Record of Linji with sources.",
   },
   "/thinkers/george-berkeley": {
     title: "George Berkeley Quotes | Esse Est Percipi & Idealism",
     description:
-      "George Berkeley (Bishop Berkeley) quotes in verified English—esse est percipi, idealism, and God from the Principles of Human Knowledge, with sources.",
+      "George Berkeley (Bishop Berkeley) quotes in sourced English—esse est percipi, idealism, and God from the Principles of Human Knowledge, with sources.",
   },
   "/thinkers/mozi": {
     title: "Mozi Quotes | Universal Love & Impartial Care",
     description:
-      "Mozi quotes in verified English—universal love (jian ai), impartial care, and opposition to offensive war—from the Mozi with source context.",
+      "Mozi quotes in sourced English—universal love (jian ai), impartial care, and opposition to offensive war—from the Mozi with source context.",
   },
   "/thinkers/john-stuart-mill": {
     title: "John Stuart Mill Quotes | Liberty, Happiness & Free Speech",
@@ -412,7 +412,7 @@ export const pageSeoOverrides: Record<
   "/thinkers/nishida-kitaro/experience": {
     title: "Nishida Kitaro on Pure Experience | Quotes & Context",
     description:
-      "Nishida Kitaro quotes on pure experience—verified English passages with Kyoto School context, source notes, and links to his wider philosophy.",
+      "Nishida Kitaro quotes on pure experience—sourced English passages with Kyoto School context, source notes, and links to his wider philosophy.",
   },
   "/thinkers/xunzi/learning": {
     title: "Xunzi Quotes on Learning | Education, Ritual & Practice",
@@ -432,12 +432,12 @@ export const pageSeoOverrides: Record<
   "/thinkers/william-james/truth": {
     title: "William James Quotes on Truth | Pragmatism & Source Context",
     description:
-      "William James quotes on truth and pragmatism, including “Truth happens to an idea,” with verified source context and related passages.",
+      "William James quotes on truth and pragmatism, including “Truth happens to an idea,” with sourced context and related passages.",
   },
   "/thinkers/socrates/justice": {
     title: "Socrates Quotes on Justice | Plato Sources & Context",
     description:
-      "Socrates quotes on justice from Plato’s dialogues—verified English passages on doing wrong, moral integrity, and the examined life.",
+      "Socrates quotes on justice from Plato’s dialogues—sourced English passages on doing wrong, moral integrity, and the examined life.",
   },
   "/plato-vs-aristotle": {
     title: "Plato vs Aristotle | Key Differences Explained Clearly",
@@ -447,7 +447,7 @@ export const pageSeoOverrides: Record<
   "/themes/life": {
     title: "Philosophy Quotes About Life | Meaning, Virtue & How to Live",
     description:
-      "Philosophy quotes about life and how to live—from Socrates’ examined life to Stoic, Confucian, and modern passages. Verified English sources.",
+      "Philosophy quotes about life and how to live—from Socrates’ examined life to Stoic, Confucian, and modern passages. Sourced English passages.",
   },
   "/themes/death": {
     title: "Philosophy Quotes About Death | Stoic & Epicurean",
@@ -462,22 +462,22 @@ export const pageSeoOverrides: Record<
   "/thinkers/marcus-aurelius": {
     title: "Marcus Aurelius Quotes | Meditations & Stoic Discipline",
     description:
-      "Marcus Aurelius quotes from the Meditations in verified English—discipline, death, community, and judgment, with source context.",
+      "Marcus Aurelius quotes from the Meditations in sourced English—discipline, death, community, and judgment, with source context.",
   },
   "/thinkers/confucius": {
     title: "Confucius Quotes | Analects on Life, Learning & Humaneness",
     description:
-      "Confucius quotes from the Analects in verified English—life, learning, love of virtue, and education, with sources and related Confucian thinkers.",
+      "Confucius quotes from the Analects in sourced English—life, learning, love of virtue, and education, with sources and related Confucian thinkers.",
   },
   "/thinkers/soren-kierkegaard": {
     title: "Kierkegaard Quotes | Self, Faith & Existential Choice",
     description:
-      "Søren Kierkegaard quotes in verified English—selfhood, faith, despair, and choice, with sources and related existential thinkers.",
+      "Søren Kierkegaard quotes in sourced English—selfhood, faith, despair, and choice, with sources and related existential thinkers.",
   },
   "/chinese-philosophy": {
     title: "Chinese Philosophy | Confucianism, Daoism & the Way",
     description:
-      "Chinese philosophy explained: Confucianism, Daoism, Mohism, Legalism, and Buddhist thought—with verified English quotations and starter thinkers.",
+      "Chinese philosophy explained: Confucianism, Daoism, Mohism, Legalism, and Buddhist thought—with sourced English quotations and starter thinkers.",
   },
   "/quotes/famous": {
     title: "Famous Philosophy Quotes | Socrates, Stoics & Confucius",
@@ -485,7 +485,7 @@ export const pageSeoOverrides: Record<
       "Famous philosophy quotes in clear English—Socrates, Plato, Aristotle, Confucius, Marcus Aurelius, Nietzsche, and other enduring thinkers, with sources.",
   },
   "/quotes/about/grief": {
-    title: "Philosophy Quotes About Grief, Death & Loss | Verified",
+    title: "Philosophy Quotes About Grief, Death & Loss | Sourced",
     description:
       "Philosophy quotes about grief, death, and loss—mortality, mourning, and how thinkers answer pain without empty consolation.",
   },

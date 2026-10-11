@@ -339,6 +339,35 @@ export const concepts: Concept[] = [
   },
 
   /* --------------------------------------------------------------------- *
+   * German (Nietzsche and later)
+   * --------------------------------------------------------------------- */
+  {
+    term: "Übermensch",
+    slug: "ubermensch",
+    language: "German",
+    languageTag: "de",
+    original: "Übermensch",
+    gloss: "overhuman; the figure who creates values beyond inherited morality",
+    definition:
+      "In Thus Spoke Zarathustra the Übermensch is the figure Zarathustra proclaims as the meaning of the earth: not a biological upgrade and not a tyrant, but the type who can create values after the death of God has made inherited tables of good and evil unusable. The word is a challenge to the reader rather than a checklist of traits, which is why Nietzsche refuses to give a stable portrait of it.",
+    misreading:
+      "Translated as 'superman' and then read as a comic-book strongman or as a racial ideal. Nietzsche's target is the person who still needs a metaphysical guarantee for their values; physical power is beside the point.",
+    themes: ["Self", "Creation", "Growth", "Affirmation", "Morality", "Power", "Becoming"],
+  },
+  {
+    term: "ressentiment",
+    language: "French (as used by Nietzsche)",
+    languageTag: "fr",
+    original: "ressentiment",
+    gloss: "reactive valuation that defines itself against what it cannot be",
+    definition:
+      "In On the Genealogy of Morality, ressentiment is the creative force of slave morality: the weak, unable to act outwardly, invent a moral scheme in which their own incapacity is renamed as goodness and the strength of others is renamed as evil. Nietzsche keeps the French word because the German alternatives suggest ordinary resentment, and the phenomenon he means is a whole genealogy of values, not a mood.",
+    misreading:
+      "Treated as everyday bitterness or envy. Ordinary resentment can be episodic; ressentiment, in Nietzsche's sense, is a long-running inversion of the value table itself.",
+    themes: ["Morality", "Power", "Self", "Affirmation", "Justice", "Character"],
+  },
+
+  /* --------------------------------------------------------------------- *
    * Chinese
    * --------------------------------------------------------------------- */
   {

@@ -19,6 +19,11 @@ export type Guide = {
   updated?: string;
   /** Works a reader can check the guide against. */
   furtherReading?: string[];
+  /**
+   * When true, the guide stays published but is noindexed and kept out of the
+   * academic reference hub (founder/business corpora, etc.).
+   */
+  peripheral?: boolean;
 };
 
 export const guides: Guide[] = [
@@ -1729,6 +1734,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "peter-thiel-business-philosophy-quotes",
+    peripheral: true,
     title: "Peter Thiel Business Philosophy Quotes",
     /**
      * The name is a person, not a topic, so this page competes for the `<person>
